@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260923-0@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T190000
+DTEND;TZID=America/New_York:20260923T210000
+SUMMARY:Of Monsters and Men
+LOCATION:Capital One City Parks Foundation SummerStage\, Central Park
+DESCRIPTION:Icelandic indie-folk singalongs under the trees at Central Park
+ 
+'s big outdoor stage. Tickets & info: https://www.songkick.com/venues/42694
+ 
+24-capital-one-city-parks-foundation-summerstage
+URL:https://www.songkick.com/venues/4269424-capital-one-city-parks-foundati
+ 
+on-summerstage
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-1@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T200000
+DTEND;TZID=America/New_York:20260923T220000
+SUMMARY:She & Him: Pump Up The Volumes Tour
+LOCATION:Town Hall\, Theater District
+DESCRIPTION:Zooey Deschanel and M. Ward's sunshiny vintage-pop duo at the s
+ 
+toried Town Hall. Tickets & info: https://www.ticketmaster.com/discover/new
+ 
+-york-city?date=thismonth&categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=Kn
+ 
+vZfZ7vAva
+URL:https://www.ticketmaster.com/discover/new-york-city?date=thismonth&cate
+ 
+goryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAva
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-4@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T200000
+DTEND;TZID=America/New_York:20260923T220000
+SUMMARY:Talib Kweli
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:The Brooklyn hip-hop legend brings his lyricist's canon to the 
+ 
+Village jazz room. Tickets & info: https://new-york.events/venues/concerts/
+URL:https://new-york.events/venues/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-5@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T190000
+DTEND;TZID=America/New_York:20260923T210000
+SUMMARY:Love Spells
+LOCATION:Bowery Ballroom\, Bowery
+DESCRIPTION:A buzzy act on the Bowery's beloved rock-room stage. Tickets & 
+ 
+info: https://new-york.events/venues/concerts/
+URL:https://new-york.events/venues/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-6@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T180000
+DTEND;TZID=America/New_York:20260923T200000
+SUMMARY:The Bros. Landreth: Tumbling Wild Tour
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Canadian roots-rock siblings and their harmony-heavy Americana 
+ 
+in a tiny room. Tickets & info: https://www.ticketmaster.com/discover/new-y
+ 
+ork-city?date=thismonth&categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZ
+ 
+fZ7vAva
+URL:https://www.ticketmaster.com/discover/new-york-city?date=thismonth&cate
+ 
+goryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAva
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-7@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T200000
+DTEND;TZID=America/New_York:20260923T220000
+SUMMARY:Good Eggs ft. Mark Normand\, Jessica Levin\, Michael Rowland\, Matt
+ 
+ Ruby
+LOCATION:New York Comedy Club\, East Village
+DESCRIPTION:Mark Normand\, Gary Vider and Matt Ruby's long-running indie ro
+ 
+om\, where surprise drop-ins are the norm. Tickets & info: https://newyorkc
+ 
+omedyclub.com/calendar/2026-09-14\,2026-10-05
+URL:https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-8@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T194500
+DTEND;TZID=America/New_York:20260923T214500
+SUMMARY:Story Warz w/ Big Jay Oakerson\, Luis J Gomez + Special Guests
+LOCATION:New York Comedy Club\, Midtown
+DESCRIPTION:Big Jay Oakerson and Luis J. Gomez host a game of deceptive sto
+ 
+rytelling with big-name guests. Tickets & info: https://newyorkcomedyclub.c
+ 
+om/calendar/2026-09-14\,2026-10-05
+URL:https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-9@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T120000
+DTEND;TZID=America/New_York:20260923T140000
+SUMMARY:Tech Up For Women Conference East
+LOCATION:Metropolitan Pavilion\, Chelsea
+DESCRIPTION:Daytime tech conference covering careers\, cybersecurity and da
+ 
+ta\, at Metropolitan Pavilion. Tickets & info: https://www.eventbrite.com/d
+ 
+/ny--new-york/tech-meetup/
+URL:https://www.eventbrite.com/d/ny--new-york/tech-meetup/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260923-10@concierge
+DTSTAMP:20260923T151236Z
+DTSTART;TZID=America/New_York:20260923T170000
+DTEND;TZID=America/New_York:20260923T190000
+SUMMARY:Jazz in the Garden
+LOCATION:With Others\, 340 Bedford Ave\, Williamsburg
+DESCRIPTION:Final Wednesdays of September: live jazz and wine in a Williams
+ 
+burg backyard\, dogs welcome\, walk-ins held. Tickets & info: https://cityh
+ 
+appenings.substack.com/p/things-to-do-in-nyc-this-week-sept-631
+URL:https://cityhappenings.substack.com/p/things-to-do-in-nyc-this-week-sep
+ 
+t-631
+END:VEVENT
+END:VCALENDAR

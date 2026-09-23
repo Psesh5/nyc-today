@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, September 23</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, September 23</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-23.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Of Monsters and Men">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/venues/4269424-capital-one-city-parks-foundation-summerstage">Of Monsters and Men</a></h3>
+<div class="meta">7:00 PM · Capital One City Parks Foundation SummerStage, Central Park</div>
+<p>Icelandic indie-folk singalongs under the trees at Central Park&#x27;s big outdoor stage.</p>
+<a class="tickets" href="https://www.songkick.com/venues/4269424-capital-one-city-parks-foundation-summerstage">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="She &amp; Him: Pump Up The Volumes Tour">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/discover/new-york-city?date=thismonth&amp;categoryId=KZFzniwnSyZfZ7v7nJ&amp;classificationId=KnvZfZ7vAva">She &amp; Him: Pump Up The Volumes Tour</a></h3>
+<div class="meta">8:00 PM · Town Hall, Theater District</div>
+<p>Zooey Deschanel and M. Ward&#x27;s sunshiny vintage-pop duo at the storied Town Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/discover/new-york-city?date=thismonth&amp;categoryId=KZFzniwnSyZfZ7v7nJ&amp;classificationId=KnvZfZ7vAva">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Gov&#x27;t Mule and Ziggy Marley">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/venues/3895789-rooftop-at-pier-17">Gov&#x27;t Mule and Ziggy Marley</a></h3>
+<div class="meta">Time TBA · The Rooftop at Pier 17, Seaport</div>
+<p>Jam-rock institution meets reggae royalty on the Seaport rooftop with harbor views.</p>
+<a class="tickets" href="https://www.songkick.com/venues/3895789-rooftop-at-pier-17">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Angus &amp; Julia Stone">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/venues/4480562-racket-nyc">Angus &amp; Julia Stone</a></h3>
+<div class="meta">Time TBA · Racket NYC, Chelsea</div>
+<p>The Australian sibling duo&#x27;s dreamy folk-pop in Chelsea&#x27;s intimate room.</p>
+<a class="tickets" href="https://www.songkick.com/venues/4480562-racket-nyc">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Talib Kweli">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://new-york.events/venues/concerts/">Talib Kweli</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village</div>
+<p>The Brooklyn hip-hop legend brings his lyricist&#x27;s canon to the Village jazz room.</p>
+<a class="tickets" href="https://new-york.events/venues/concerts/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Love Spells">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://new-york.events/venues/concerts/">Love Spells</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Bowery</div>
+<p>A buzzy act on the Bowery&#x27;s beloved rock-room stage.</p>
+<a class="tickets" href="https://new-york.events/venues/concerts/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="The Bros. Landreth: Tumbling Wild Tour">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/discover/new-york-city?date=thismonth&amp;categoryId=KZFzniwnSyZfZ7v7nJ&amp;classificationId=KnvZfZ7vAva">The Bros. Landreth: Tumbling Wild Tour</a></h3>
+<div class="meta">6:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Canadian roots-rock siblings and their harmony-heavy Americana in a tiny room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/discover/new-york-city?date=thismonth&amp;categoryId=KZFzniwnSyZfZ7v7nJ&amp;classificationId=KnvZfZ7vAva">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Good Eggs ft. Mark Normand, Jessica Levin, Michael Rowland, Matt Ruby">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05">Good Eggs ft. Mark Normand, Jessica Levin, Michael Rowland, Matt Ruby</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club, East Village</div>
+<p>Mark Normand, Gary Vider and Matt Ruby&#x27;s long-running indie room, where surprise drop-ins are the norm.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05">Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests</a></h3>
+<div class="meta">7:45 PM · New York Comedy Club, Midtown</div>
+<p>Big Jay Oakerson and Luis J. Gomez host a game of deceptive storytelling with big-name guests.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-9" data-name="Tech Up For Women Conference East">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/d/ny--new-york/tech-meetup/">Tech Up For Women Conference East</a></h3>
+<div class="meta">12:00 PM · Metropolitan Pavilion, Chelsea · $75</div>
+<p>Daytime tech conference covering careers, cybersecurity and data, at Metropolitan Pavilion.</p>
+<a class="tickets" href="https://www.eventbrite.com/d/ny--new-york/tech-meetup/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-10" data-name="Jazz in the Garden">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://cityhappenings.substack.com/p/things-to-do-in-nyc-this-week-sept-631">Jazz in the Garden</a></h3>
+<div class="meta">5:00 PM · With Others, 340 Bedford Ave, Williamsburg</div>
+<p>Final Wednesdays of September: live jazz and wine in a Williamsburg backyard, dogs welcome, walk-ins held.</p>
+<a class="tickets" href="https://cityhappenings.substack.com/p/things-to-do-in-nyc-this-week-sept-631">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-23";
+const NAMES = ["Of Monsters and Men", "She & Him: Pump Up The Volumes Tour", "Gov't Mule and Ziggy Marley", "Angus & Julia Stone", "Talib Kweli", "Love Spells", "The Bros. Landreth: Tumbling Wild Tour", "Good Eggs ft. Mark Normand, Jessica Levin, Michael Rowland, Matt Ruby", "Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests", "Tech Up For Women Conference East", "Jazz in the Garden"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
