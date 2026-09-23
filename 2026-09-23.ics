@@ -4,83 +4,79 @@ PRODID:-//NYC Concierge//Daily Digest//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-20260923-0@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T190000
 DTEND;TZID=America/New_York:20260923T210000
 SUMMARY:Of Monsters and Men
 LOCATION:Capital One City Parks Foundation SummerStage\, Central Park
 DESCRIPTION:Icelandic indie-folk singalongs under the trees at Central Park
  
-'s big outdoor stage. Tickets & info: https://www.songkick.com/venues/42694
+'s big outdoor stage. Tickets & info: https://cityparksfoundation.org/event
  
-24-capital-one-city-parks-foundation-summerstage
-URL:https://www.songkick.com/venues/4269424-capital-one-city-parks-foundati
+s/of-monsters-and-men-august-ponthier/
+URL:https://cityparksfoundation.org/events/of-monsters-and-men-august-ponth
  
-on-summerstage
+ier/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-1@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T200000
 DTEND;TZID=America/New_York:20260923T220000
 SUMMARY:She & Him: Pump Up The Volumes Tour
 LOCATION:Town Hall\, Theater District
 DESCRIPTION:Zooey Deschanel and M. Ward's sunshiny vintage-pop duo at the s
  
-toried Town Hall. Tickets & info: https://www.ticketmaster.com/discover/new
+toried Town Hall. Tickets & info: https://www.iloveny.com/event/she-%26-him
  
--york-city?date=thismonth&categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=Kn
+%3a-pump-up-the-volumes-tour/tm_vvg1gz_5lht37u/
+URL:https://www.iloveny.com/event/she-%26-him%3a-pump-up-the-volumes-tour/t
  
-vZfZ7vAva
-URL:https://www.ticketmaster.com/discover/new-york-city?date=thismonth&cate
- 
-goryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAva
+m_vvg1gz_5lht37u/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-4@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T200000
 DTEND;TZID=America/New_York:20260923T220000
 SUMMARY:Talib Kweli
 LOCATION:Blue Note Jazz Club\, Greenwich Village
 DESCRIPTION:The Brooklyn hip-hop legend brings his lyricist's canon to the 
  
-Village jazz room. Tickets & info: https://new-york.events/venues/concerts/
-URL:https://new-york.events/venues/concerts/
+Village jazz room. Tickets & info: https://www.bluenotejazz.com/nyc/tm-even
+ 
+t/talib-kweli-with-live-band/
+URL:https://www.bluenotejazz.com/nyc/tm-event/talib-kweli-with-live-band/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-5@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T190000
 DTEND;TZID=America/New_York:20260923T210000
 SUMMARY:Love Spells
 LOCATION:Bowery Ballroom\, Bowery
 DESCRIPTION:A buzzy act on the Bowery's beloved rock-room stage. Tickets & 
  
-info: https://new-york.events/venues/concerts/
-URL:https://new-york.events/venues/concerts/
+info: https://www.axs.com/artists/1122811/love-spells-tickets
+URL:https://www.axs.com/artists/1122811/love-spells-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-6@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T180000
 DTEND;TZID=America/New_York:20260923T200000
 SUMMARY:The Bros. Landreth: Tumbling Wild Tour
 LOCATION:Mercury Lounge\, Lower East Side
 DESCRIPTION:Canadian roots-rock siblings and their harmony-heavy Americana 
  
-in a tiny room. Tickets & info: https://www.ticketmaster.com/discover/new-y
+in a tiny room. Tickets & info: https://www.axs.com/artists/1115308/the-bro
  
-ork-city?date=thismonth&categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZ
- 
-fZ7vAva
-URL:https://www.ticketmaster.com/discover/new-york-city?date=thismonth&cate
- 
-goryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAva
+s-landreth-tickets
+URL:https://www.axs.com/artists/1115308/the-bros-landreth-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-7@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T200000
 DTEND;TZID=America/New_York:20260923T220000
 SUMMARY:Good Eggs ft. Mark Normand\, Jessica Levin\, Michael Rowland\, Matt
@@ -91,12 +87,16 @@ DESCRIPTION:Mark Normand\, Gary Vider and Matt Ruby's long-running indie ro
  
 om\, where surprise drop-ins are the norm. Tickets & info: https://newyorkc
  
-omedyclub.com/calendar/2026-09-14\,2026-10-05
-URL:https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05
+omedyclub.com/events/good-eggs-ft-mark-normand-jessica-levin-michael-rowlan
+ 
+d-matt-ruby
+URL:https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-jessica-
+ 
+levin-michael-rowland-matt-ruby
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-8@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T194500
 DTEND;TZID=America/New_York:20260923T214500
 SUMMARY:Story Warz w/ Big Jay Oakerson\, Luis J Gomez + Special Guests
@@ -105,26 +105,32 @@ DESCRIPTION:Big Jay Oakerson and Luis J. Gomez host a game of deceptive sto
  
 rytelling with big-name guests. Tickets & info: https://newyorkcomedyclub.c
  
-om/calendar/2026-09-14\,2026-10-05
-URL:https://newyorkcomedyclub.com/calendar/2026-09-14,2026-10-05
+om/events/story-warz-w-big-jay-oakerson-luis-j-gomez-special-guests-2026-09
+ 
+-23194500
+URL:https://newyorkcomedyclub.com/events/story-warz-w-big-jay-oakerson-luis
+ 
+-j-gomez-special-guests-2026-09-23194500
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-9@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T120000
 DTEND;TZID=America/New_York:20260923T140000
 SUMMARY:Tech Up For Women Conference East
 LOCATION:Metropolitan Pavilion\, Chelsea
 DESCRIPTION:Daytime tech conference covering careers\, cybersecurity and da
  
-ta\, at Metropolitan Pavilion. Tickets & info: https://www.eventbrite.com/d
+ta\, at Metropolitan Pavilion. Tickets & info: https://allevents.in/new-yor
  
-/ny--new-york/tech-meetup/
-URL:https://www.eventbrite.com/d/ny--new-york/tech-meetup/
+k/tech-up-for-women-conference-east/10000574712389227
+URL:https://allevents.in/new-york/tech-up-for-women-conference-east/1000057
+ 
+4712389227
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20260923-10@concierge
-DTSTAMP:20260923T151236Z
+DTSTAMP:20260923T151525Z
 DTSTART;TZID=America/New_York:20260923T170000
 DTEND;TZID=America/New_York:20260923T190000
 SUMMARY:Jazz in the Garden
