@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Thursday, September 24</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Thursday, September 24</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-24.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Phoebe Bridgers: The Lost Tour with Alex G">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/artist/2133305?venueId=393376&amp;CAMEFROM=CFC_BARCLAYS_CTR_WEB_EVENTPAGE_PHOEBEBRIDGERS">Phoebe Bridgers: The Lost Tour with Alex G</a></h3>
+<div class="meta">7:30 PM · Barclays Center, Downtown Brooklyn</div>
+<p>Grammy-winning indie star&#x27;s phone-free &quot;Lost Tour&quot; (playing new album Lost Weekend) with Alex G opening, first of three Barclays nights; Yondr phone-free show, $1/ticket donated to RAINN.</p>
+<a class="tickets" href="https://www.ticketmaster.com/artist/2133305?venueId=393376&amp;CAMEFROM=CFC_BARCLAYS_CTR_WEB_EVENTPAGE_PHOEBEBRIDGERS">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Bikini Kill with Downtown Boys">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.startickets.com/bikini-kill-tickets">Bikini Kill with Downtown Boys</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg · $74–$148 on resale</div>
+<p>Riot grrrl pioneers on their fall 2026 tour, with Downtown Boys opening.</p>
+<a class="tickets" href="https://www.startickets.com/bikini-kill-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Talib Kweli with Live Band">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/talib-kweli-with-live-band-blue-note-jazz-club-tickets/14063464?REFERRAL_ID=tmfeedbuyat234705&amp;wt.mc_id=aff_BUYAT_234705&amp;camefrom=CFC_BUYAT_234705">Talib Kweli with Live Band</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village</div>
+<p>Brooklyn hip-hop veteran Talib Kweli with a full live band at the legendary Blue Note; $20 food/drink minimum per person, all ages.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/talib-kweli-with-live-band-blue-note-jazz-club-tickets/14063464?REFERRAL_ID=tmfeedbuyat234705&amp;wt.mc_id=aff_BUYAT_234705&amp;camefrom=CFC_BUYAT_234705">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Twin Shadow + GLOM">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/5365ad-twin-shadow-glom-concert-24th-sep-xanadu-new-york-city-tickets">Twin Shadow + GLOM</a></h3>
+<div class="meta">8:00 PM · Xanadu, Bushwick · $32.71 all-in</div>
+<p>Chillwave/indie-pop veteran Twin Shadow live at the Bushwick roller rink&#x27;s concert space, with GLOM; 16+ non-skating event.</p>
+<a class="tickets" href="https://dice.fm/event/5365ad-twin-shadow-glom-concert-24th-sep-xanadu-new-york-city-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Automatic + Freak Heat Waves + Accessory">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/bb2kdg-automatic-freak-heat-waves-accessory-24th-sep-ruins-at-knockdown-center-new-york-tickets">Automatic + Freak Heat Waves + Accessory</a></h3>
+<div class="meta">6:00 PM · Ruins at Knockdown Center, Maspeth · From $27.87</div>
+<p>LA post-punk trio Automatic make their Ruins debut supporting the dubby, rhythm-forward album Is It Now?, with Freak Heat Waves and Accessory; 18+, rain or shine.</p>
+<a class="tickets" href="https://dice.fm/event/bb2kdg-automatic-freak-heat-waves-accessory-24th-sep-ruins-at-knockdown-center-new-york-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="PAT PARTY">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/6dgreb-pat-party-24th-sep-union-pool-new-york-tickets">PAT PARTY</a></h3>
+<div class="meta">9:00 PM · Union Pool, Williamsburg · Free</div>
+<p>Free late-night party at Williamsburg&#x27;s Union Pool; 21+ with physical ID, tickets via DICE.</p>
+<a class="tickets" href="https://dice.fm/event/6dgreb-pat-party-24th-sep-union-pool-new-york-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Golden Spiral Comedy September 24th">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/golden-spiral-comedy-september-24th-tickets-1996349634497">Golden Spiral Comedy September 24th</a></h3>
+<div class="meta">7:00 PM · Whiskey Cellar NYC, East Village · Pay-what-you-can $8+; $15 at the door</div>
+<p>Monthly women-run stand-up showcase with Max Cohen (SiriusXM), Leah Bonnema (Colbert), Calvin Cato (Netflix), Mike Drucker, and more.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/golden-spiral-comedy-september-24th-tickets-1996349634497">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Vidura Bandara Rajapaksa: The Paradise Gothic Tour">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/vidura-bandara-rajapaksa-tickets/artist/3047518">Vidura Bandara Rajapaksa: The Paradise Gothic Tour</a></h3>
+<div class="meta">7:30 PM · The Bell House, Brooklyn (Gowanus/Park Slope area)</div>
+<p>Sri Lankan deadpan comic brings his new &quot;Paradise Gothic&quot; hour — immigration, radical Buddhism, late-stage capitalism — to Brooklyn tonight.</p>
+<a class="tickets" href="https://www.ticketmaster.com/vidura-bandara-rajapaksa-tickets/artist/3047518">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-8" data-name="&quot;Disability &amp; Visibility&quot; Screening and Q&amp;A">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/disability-visibility-screening-and-qa-tickets-1997509416436">&quot;Disability &amp; Visibility&quot; Screening and Q&amp;A</a></h3>
+<div class="meta">7:30 PM · SVA Theatre, Chelsea · Free</div>
+<p>SVA Alumni Film Festival evening of two films on disability visibility — the short &quot;Take Me Home&quot; and world-premiere doc &quot;No Pinnacle Without The Miraculous&quot; — with filmmaker Q&amp;As.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/disability-visibility-screening-and-qa-tickets-1997509416436">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Arthur Jafa: I Am Tony — Opening Day">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://fadmagazine.com/2026/07/20/arthur-jafa-i-am-tony-new-museum/">Arthur Jafa: I Am Tony — Opening Day</a></h3>
+<div class="meta">Time TBA · New Museum, Bowery</div>
+<p>Opening day of Jafa&#x27;s largest U.S. museum survey to date — four decades of films, photos, sculpture across two floors of the expanded building, including &quot;Love is the Message, The Message is Death&quot; and Golden Lion-winning &quot;The White Album.&quot; Also opening today: Diego Marcon&#x27;s first NY solo museum show.</p>
+<a class="tickets" href="https://fadmagazine.com/2026/07/20/arthur-jafa-i-am-tony-new-museum/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-10" data-name="Fall Birding Thursdays in Bryant Park">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.gabrielwillow.com/programs-tours/spring-birding-thursdays-in-bryant-park-gyfde-7adj9-8ppaf-zdjc3-9pdj8-ycc3n-k5gpl-caa8r-wt5hh">Fall Birding Thursdays in Bryant Park</a></h3>
+<div class="meta">5:00 PM · Bryant Park (Heiskell Plaza, 6th Ave &amp; 42nd St), Midtown · Free</div>
+<p>Guided evening birding walk with NYC Audubon naturalist Gabriel Willow during fall migration season — warblers, tanagers, thrushes; no pre-registration required.</p>
+<a class="tickets" href="https://www.gabrielwillow.com/programs-tours/spring-birding-thursdays-in-bryant-park-gyfde-7adj9-8ppaf-zdjc3-9pdj8-ycc3n-k5gpl-caa8r-wt5hh">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Martial Arts at Bryant Park (Muay Thai) — season finale">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/martial-arts-at-bryant-park-tickets-1987524347827?aff=oddtdtcreator">Martial Arts at Bryant Park (Muay Thai) — season finale</a></h3>
+<div class="meta">6:00 PM · NYPL South Terrace, Bryant Park, Midtown · Free</div>
+<p>Free weekly Muay Thai class with Patrick Stout — fundamentals of Thai boxing/kickboxing; tonight is the season finale; pre-registration recommended, ages 18+.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/martial-arts-at-bryant-park-tickets-1987524347827?aff=oddtdtcreator">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Puzzle Meetup at Olly (Puzzle People of NYC)">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://allevents.in/new-york/puzzle-meetup-at-olly/100001999456241442">Puzzle Meetup at Olly (Puzzle People of NYC)</a></h3>
+<div class="meta">5:30 PM · Olly Olly Market, Chelsea · Free</div>
+<p>Casual puzzling for all levels with puzzles provided, plus an optional puzzle swap; food vendors on site; registration required, 21+.</p>
+<a class="tickets" href="https://allevents.in/new-york/puzzle-meetup-at-olly/100001999456241442">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="A Chief of Staff Mixer on AI">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/rbndjm2v">A Chief of Staff Mixer on AI</a></h3>
+<div class="meta">6:30 PM · Nolita (exact venue on the event page), Nolita</div>
+<p>Monthly networking mixer for chiefs of staff focused on AI — two mini AI chats plus small-group discussion; limited capacity, RSVP required.</p>
+<a class="tickets" href="https://luma.com/rbndjm2v">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Make friends over pub and grub! (NY Pub and Grub)">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.meetup.com/ny-pub-and-grub/events/316433588/?eventOrigin=city_meet_new_people_events">Make friends over pub and grub! (NY Pub and Grub)</a></h3>
+<div class="meta">6:30 PM · Pier I Cafe, Upper West Side · Free</div>
+<p>Outdoor Hudson Riverfront bar social for meeting new people; roughly 90 attendees; no cover, no drink minimum, RSVP required.</p>
+<a class="tickets" href="https://www.meetup.com/ny-pub-and-grub/events/316433588/?eventOrigin=city_meet_new_people_events">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-24";
+const NAMES = ["Phoebe Bridgers: The Lost Tour with Alex G", "Bikini Kill with Downtown Boys", "Talib Kweli with Live Band", "Twin Shadow + GLOM", "Automatic + Freak Heat Waves + Accessory", "PAT PARTY", "Golden Spiral Comedy September 24th", "Vidura Bandara Rajapaksa: The Paradise Gothic Tour", "\"Disability & Visibility\" Screening and Q&A", "Arthur Jafa: I Am Tony \u2014 Opening Day", "Fall Birding Thursdays in Bryant Park", "Martial Arts at Bryant Park (Muay Thai) \u2014 season finale", "Puzzle Meetup at Olly (Puzzle People of NYC)", "A Chief of Staff Mixer on AI", "Make friends over pub and grub! (NY Pub and Grub)"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
