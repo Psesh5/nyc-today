@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, September 25</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, September 25</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-25.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown</div>
+<p>Harry Styles brings the Together, Together residency to Madison Square Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Joe Russo&#x27;s Almost Dead">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://rooftopatpier17.com/events/joe-russos-almost-dead-2026/">Joe Russo&#x27;s Almost Dead</a></h3>
+<div class="meta">6:00 PM · The Rooftop at Pier 17, Seaport</div>
+<p>Brooklyn&#x27;s Grateful Dead tribute masters kick off two nights on the Pier 17 rooftop — the fourth straight year of this run. Doors 5 PM, show ends by 10.</p>
+<a class="tickets" href="https://rooftopatpier17.com/events/joe-russos-almost-dead-2026/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="New York Philharmonic: Dudamel Conducts Mahler &amp; Tania León">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oY">New York Philharmonic: Dudamel Conducts Mahler &amp; Tania León</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side</div>
+<p>Gustavo Dudamel conducts Mahler with the NY Phil, plus music by Tania León.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oY">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Like a Star: Celebrating 20 Years of Corinne Bailey Rae">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/like-a-star-celebrating-20-years-new-york-new-york-09-25-2026/event/00006455403B1814">Like a Star: Celebrating 20 Years of Corinne Bailey Rae</a></h3>
+<div class="meta">7:00 PM · Irving Plaza Powered By Verizon 5G, Union Square</div>
+<p>A full-band celebration of twenty years since Corinne Bailey Rae&#x27;s beloved debut.</p>
+<a class="tickets" href="https://www.ticketmaster.com/like-a-star-celebrating-20-years-new-york-new-york-09-25-2026/event/00006455403B1814">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Role Model Presents: Chuck On Tour">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/role-model-presents-chuck-on-tour-new-york-new-york-09-25-2026/event/3C0064CFC26E1689">Role Model Presents: Chuck On Tour</a></h3>
+<div class="meta">8:00 PM · Radio City Music Hall, Midtown</div>
+<p>Role Model brings the Chuck tour to the big Radio City stage.</p>
+<a class="tickets" href="https://www.ticketmaster.com/role-model-presents-chuck-on-tour-new-york-new-york-09-25-2026/event/3C0064CFC26E1689">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/club-slayyy-slayyyter-hyperpop-night-new-york-new-york-09-25-2026/event/0000652FBC7FFAD2">CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT</a></h3>
+<div class="meta">8:00 PM · Bowery Ballroom, Bowery</div>
+<p>Slayyyter headlines a hyperpop club night spinning Charli XCX, SOPHIE, Kim Petras and more.</p>
+<a class="tickets" href="https://www.ticketmaster.com/club-slayyy-slayyyter-hyperpop-night-new-york-new-york-09-25-2026/event/0000652FBC7FFAD2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Piano in Bryant Park">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/25/piano-in-bryant-park">Piano in Bryant Park</a></h3>
+<div class="meta">12:30 PM · Bryant Park, Midtown · Free</div>
+<p>Weekday lunchtime series of ragtime, stride, and jazz on the Upper Terrace. Rain or shine.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/25/piano-in-bryant-park">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Piano+ #52">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/25/piano-52">Piano+ #52</a></h3>
+<div class="meta">7:30 PM · Old Stone House, Park Slope · $15–$20</div>
+<p>New and rarely heard piano music composed and performed by LCollective members, with a glass of wine.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/25/piano-52">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Birdland Big Band">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/birdland-big-band-birdland-jazz-club-tickets/14880963">Birdland Big Band</a></h3>
+<div class="meta">5:30 PM · Birdland Jazz Club, Midtown · 45.76</div>
+<p>The BBB roars through a thrilling mix of jazz, funk, Brazilian, Latin, and world music.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/birdland-big-band-birdland-jazz-club-tickets/14880963">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-new-york-new-york-09-25-2026/event/3B006472C1096388">CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side</div>
+<p>Chelsea Handler&#x27;s new stand-up hour lands at the Beacon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-new-york-new-york-09-25-2026/event/3B006472C1096388">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Thank Comedy It&#x27;s Friday @ Comic Strip Live">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.fusicology.com/events/thank-comedy-its-friday-comic-strip-live-new-york-city-the-comic-strip/">Thank Comedy It&#x27;s Friday @ Comic Strip Live</a></h3>
+<div class="meta">10:30 PM · Comic Strip Live, 1568 2nd Avenue, Upper East Side · 27.50</div>
+<p>Late-night Upper East Side stand-up showcase hosted by Tonio Skits with an all-star NYC lineup, DJs, and a full food menu. 21+, two-item minimum.</p>
+<a class="tickets" href="https://www.fusicology.com/events/thank-comedy-its-friday-comic-strip-live-new-york-city-the-comic-strip/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-7" data-name="New York City Ballet: Jewels">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.vividseats.com/new-york-city-ballet-tickets-new-york-david-h-koch-theater-9-25-2026/production/6863975">New York City Ballet: Jewels</a></h3>
+<div class="meta">7:30 PM · David H. Koch Theater, Upper West Side</div>
+<p>NYCB&#x27;s fall season features Balanchine&#x27;s three-act tribute to emeralds, rubies, and diamonds.</p>
+<a class="tickets" href="https://www.vividseats.com/new-york-city-ballet-tickets-new-york-david-h-koch-theater-9-25-2026/production/6863975">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Molière in the Park presents: DON JUAN">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/25/molire-in-the-park-presents-don-juan">Molière in the Park presents: DON JUAN</a></h3>
+<div class="meta">7:00 PM · Lefrak Center at Lakeside, Prospect Park · Free</div>
+<p>Brooklyn&#x27;s free world-class theater company stages Molière&#x27;s most subversive comedy at the Lakeside amphitheater. Gates open one hour before.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/25/molire-in-the-park-presents-don-juan">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="After Hours: Downtown Gallery Night">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://southernguild.com/news/southern-guild-joins-downtown-gallery-night-for-armory-week">After Hours: Downtown Gallery Night</a></h3>
+<div class="meta">6:00 PM · Downtown galleries (anchor: Southern Guild, 75 Leonard St), Tribeca · Free</div>
+<p>Over 80 galleries across Tribeca, the Lower East Side, and SoHo stay open late for one Armory Week evening, capped with drinks at YveYANG until 9 PM.</p>
+<a class="tickets" href="http://southernguild.com/news/southern-guild-joins-downtown-gallery-night-for-armory-week">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="icchā — barkha dance co.">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://tickets.tribecapac.org/barkha-patel-dance-company-presents-icchā">icchā — barkha dance co.</a></h3>
+<div class="meta">7:30 PM · BMCC Tribeca Performing Arts Center, 199 Chambers St, Tribeca · 40</div>
+<p>Princess Grace Award-winner Barkha Patel premieres a 60-minute solo kathak work weaving dance, garba, and original music around inherited matrilineal memory.</p>
+<a class="tickets" href="https://tickets.tribecapac.org/barkha-patel-dance-company-presents-icchā">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="FLOODLINES">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://pioneerworks.org/programs/flood-lines">FLOODLINES</a></h3>
+<div class="meta">7:00 PM · Pioneer Works, 159 Pioneer Street, Red Hook</div>
+<p>A Climate Week evening hosted by Hanif Abdurraqib with Hurray for the Riff Raff, Eileen Myles, a Paola Antonelli-led conversation, and a Madame Gandhi DJ set.</p>
+<a class="tickets" href="https://pioneerworks.org/programs/flood-lines">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-25";
+const NAMES = ["Harry Styles: Together, Together", "Joe Russo's Almost Dead", "New York Philharmonic: Dudamel Conducts Mahler & Tania Le\u00f3n", "Like a Star: Celebrating 20 Years of Corinne Bailey Rae", "Role Model Presents: Chuck On Tour", "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR", "CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT", "New York City Ballet: Jewels", "Moli\u00e8re in the Park presents: DON JUAN", "Piano in Bryant Park", "Piano+ #52", "Birdland Big Band", "After Hours: Downtown Gallery Night", "icch\u0101 \u2014 barkha dance co.", "FLOODLINES", "Thank Comedy It's Friday @ Comic Strip Live"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

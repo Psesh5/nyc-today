@@ -1,0 +1,269 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260925-0@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T200000
+DTEND;TZID=America/New_York:20260925T220000
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Madison Square Garden\, Midtown
+DESCRIPTION:Harry Styles brings the Together\, Together residency to Madiso
+ 
+n Square Garden. Tickets & info: https://www.ticketmaster.com/harry-styles-
+ 
+together-together-new-york-new-york-09-25-2026/event/3B00643505428256
+URL:https://www.ticketmaster.com/harry-styles-together-together-new-york-ne
+ 
+w-york-09-25-2026/event/3B00643505428256
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-1@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T180000
+DTEND;TZID=America/New_York:20260925T200000
+SUMMARY:Joe Russo's Almost Dead
+LOCATION:The Rooftop at Pier 17\, Seaport
+DESCRIPTION:Brooklyn's Grateful Dead tribute masters kick off two nights on
+ 
+ the Pier 17 rooftop — the fourth straight year of this run. Doors 5 PM\,
+ 
+ show ends by 10. Tickets & info: https://rooftopatpier17.com/events/joe-ru
+ 
+ssos-almost-dead-2026/
+URL:https://rooftopatpier17.com/events/joe-russos-almost-dead-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-2@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T193000
+DTEND;TZID=America/New_York:20260925T213000
+SUMMARY:New York Philharmonic: Dudamel Conducts Mahler & Tania León
+LOCATION:David Geffen Hall\, Upper West Side
+DESCRIPTION:Gustavo Dudamel conducts Mahler with the NY Phil\, plus music b
+ 
+y Tania León. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1AA
+ 
+Z-oY
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oY
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-3@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:Like a Star: Celebrating 20 Years of Corinne Bailey Rae
+LOCATION:Irving Plaza Powered By Verizon 5G\, Union Square
+DESCRIPTION:A full-band celebration of twenty years since Corinne Bailey Ra
+ 
+e's beloved debut. Tickets & info: https://www.ticketmaster.com/like-a-star
+ 
+-celebrating-20-years-new-york-new-york-09-25-2026/event/00006455403B1814
+URL:https://www.ticketmaster.com/like-a-star-celebrating-20-years-new-york-
+ 
+new-york-09-25-2026/event/00006455403B1814
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-4@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T200000
+DTEND;TZID=America/New_York:20260925T220000
+SUMMARY:Role Model Presents: Chuck On Tour
+LOCATION:Radio City Music Hall\, Midtown
+DESCRIPTION:Role Model brings the Chuck tour to the big Radio City stage. T
+ 
+ickets & info: https://www.ticketmaster.com/role-model-presents-chuck-on-to
+ 
+ur-new-york-new-york-09-25-2026/event/3C0064CFC26E1689
+URL:https://www.ticketmaster.com/role-model-presents-chuck-on-tour-new-york
+ 
+-new-york-09-25-2026/event/3C0064CFC26E1689
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-5@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T200000
+DTEND;TZID=America/New_York:20260925T220000
+SUMMARY:CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR
+LOCATION:Beacon Theatre\, Upper West Side
+DESCRIPTION:Chelsea Handler's new stand-up hour lands at the Beacon. Ticket
+ 
+s & info: https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-
+ 
+new-york-new-york-09-25-2026/event/3B006472C1096388
+URL:https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-new-yo
+ 
+rk-new-york-09-25-2026/event/3B006472C1096388
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-6@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T200000
+DTEND;TZID=America/New_York:20260925T220000
+SUMMARY:CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT
+LOCATION:Bowery Ballroom\, Bowery
+DESCRIPTION:Slayyyter headlines a hyperpop club night spinning Charli XCX\,
+ 
+ SOPHIE\, Kim Petras and more. Tickets & info: https://www.ticketmaster.com
+ 
+/club-slayyy-slayyyter-hyperpop-night-new-york-new-york-09-25-2026/event/00
+ 
+00652FBC7FFAD2
+URL:https://www.ticketmaster.com/club-slayyy-slayyyter-hyperpop-night-new-y
+ 
+ork-new-york-09-25-2026/event/0000652FBC7FFAD2
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-7@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T193000
+DTEND;TZID=America/New_York:20260925T213000
+SUMMARY:New York City Ballet: Jewels
+LOCATION:David H. Koch Theater\, Upper West Side
+DESCRIPTION:NYCB's fall season features Balanchine's three-act tribute to e
+ 
+meralds\, rubies\, and diamonds. Tickets & info: https://www.vividseats.com
+ 
+/new-york-city-ballet-tickets-new-york-david-h-koch-theater-9-25-2026/produ
+ 
+ction/6863975
+URL:https://www.vividseats.com/new-york-city-ballet-tickets-new-york-david-
+ 
+h-koch-theater-9-25-2026/production/6863975
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-8@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:Molière in the Park presents: DON JUAN
+LOCATION:Lefrak Center at Lakeside\, Prospect Park
+DESCRIPTION:Brooklyn's free world-class theater company stages Molière's m
+ 
+ost subversive comedy at the Lakeside amphitheater. Gates open one hour bef
+ 
+ore. Tickets & info: http://www.nycgovparks.org/events/2026/09/25/molire-in
+ 
+-the-park-presents-don-juan
+URL:http://www.nycgovparks.org/events/2026/09/25/molire-in-the-park-present
+ 
+s-don-juan
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-9@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T123000
+DTEND;TZID=America/New_York:20260925T143000
+SUMMARY:Piano in Bryant Park
+LOCATION:Bryant Park\, Midtown
+DESCRIPTION:Weekday lunchtime series of ragtime\, stride\, and jazz on the 
+ 
+Upper Terrace. Rain or shine. Tickets & info: http://www.nycgovparks.org/ev
+ 
+ents/2026/09/25/piano-in-bryant-park
+URL:http://www.nycgovparks.org/events/2026/09/25/piano-in-bryant-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-10@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T193000
+DTEND;TZID=America/New_York:20260925T213000
+SUMMARY:Piano+ #52
+LOCATION:Old Stone House\, Park Slope
+DESCRIPTION:New and rarely heard piano music composed and performed by LCol
+ 
+lective members\, with a glass of wine. Tickets & info: http://www.nycgovpa
+ 
+rks.org/events/2026/09/25/piano-52
+URL:http://www.nycgovparks.org/events/2026/09/25/piano-52
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-11@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T173000
+DTEND;TZID=America/New_York:20260925T193000
+SUMMARY:Birdland Big Band
+LOCATION:Birdland Jazz Club\, Midtown
+DESCRIPTION:The BBB roars through a thrilling mix of jazz\, funk\, Brazilia
+ 
+n\, Latin\, and world music. Tickets & info: https://www.ticketweb.com/even
+ 
+t/birdland-big-band-birdland-jazz-club-tickets/14880963
+URL:https://www.ticketweb.com/event/birdland-big-band-birdland-jazz-club-ti
+ 
+ckets/14880963
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-12@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T180000
+DTEND;TZID=America/New_York:20260925T200000
+SUMMARY:After Hours: Downtown Gallery Night
+LOCATION:Downtown galleries (anchor: Southern Guild\, 75 Leonard St)\, Trib
+ 
+eca
+DESCRIPTION:Over 80 galleries across Tribeca\, the Lower East Side\, and So
+ 
+Ho stay open late for one Armory Week evening\, capped with drinks at YveYA
+ 
+NG until 9 PM. Tickets & info: http://southernguild.com/news/southern-guild
+ 
+-joins-downtown-gallery-night-for-armory-week
+URL:http://southernguild.com/news/southern-guild-joins-downtown-gallery-nig
+ 
+ht-for-armory-week
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-13@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T193000
+DTEND;TZID=America/New_York:20260925T213000
+SUMMARY:icchā — barkha dance co.
+LOCATION:BMCC Tribeca Performing Arts Center\, 199 Chambers St\, Tribeca
+DESCRIPTION:Princess Grace Award-winner Barkha Patel premieres a 60-minute 
+ 
+solo kathak work weaving dance\, garba\, and original music around inherite
+ 
+d matrilineal memory. Tickets & info: https://tickets.tribecapac.org/barkha
+ 
+-patel-dance-company-presents-icchā
+URL:https://tickets.tribecapac.org/barkha-patel-dance-company-presents-icch
+ 
+ā
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-14@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:FLOODLINES
+LOCATION:Pioneer Works\, 159 Pioneer Street\, Red Hook
+DESCRIPTION:A Climate Week evening hosted by Hanif Abdurraqib with Hurray f
+ 
+or the Riff Raff\, Eileen Myles\, a Paola Antonelli-led conversation\, and 
+ 
+a Madame Gandhi DJ set. Tickets & info: https://pioneerworks.org/programs/f
+ 
+lood-lines
+URL:https://pioneerworks.org/programs/flood-lines
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260925-15@concierge
+DTSTAMP:20260925T120655Z
+DTSTART;TZID=America/New_York:20260925T223000
+DTEND;TZID=America/New_York:20260926T003000
+SUMMARY:Thank Comedy It's Friday @ Comic Strip Live
+LOCATION:Comic Strip Live\, 1568 2nd Avenue\, Upper East Side
+DESCRIPTION:Late-night Upper East Side stand-up showcase hosted by Tonio Sk
+ 
+its with an all-star NYC lineup\, DJs\, and a full food menu. 21+\, two-ite
+ 
+m minimum. Tickets & info: https://www.fusicology.com/events/thank-comedy-i
+ 
+ts-friday-comic-strip-live-new-york-city-the-comic-strip/
+URL:https://www.fusicology.com/events/thank-comedy-its-friday-comic-strip-l
+ 
+ive-new-york-city-the-comic-strip/
+END:VEVENT
+END:VCALENDAR
