@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, September 26</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, September 26</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-26.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="&quot;Saturday Soul Music Brunch&quot; Carlton Jumel Smith">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/saturday-soul-music-brunch-carlton-blue-note-jazz-club-tickets/14299354">&quot;Saturday Soul Music Brunch&quot; Carlton Jumel Smith</a></h3>
+<div class="meta">1:00 PM · Blue Note Jazz Club, Greenwich Village</div>
+<p>Sold-out-in-August soul brunch returns to the Blue Note: Al Green, Gladys Knight, Stevie Wonder classics plus Carlton&#x27;s own cuts. Doors noon, show 1 PM. $20/person minimum.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/saturday-soul-music-brunch-carlton-blue-note-jazz-club-tickets/14299354">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Pat Metheny Side-Eye III+">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/pat-metheny-sideeye-iii-new-york-new-york-09-26-2026/event/3B00643FC87E591F">Pat Metheny Side-Eye III+</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side</div>
+<p>The guitar legend brings his genre-bending Side-Eye project to the Beacon for one night of jazz virtuosity.</p>
+<a class="tickets" href="https://www.ticketmaster.com/pat-metheny-sideeye-iii-new-york-new-york-09-26-2026/event/3B00643FC87E591F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="The Matches - &quot;Decomposer&quot; 20 Years Later">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-matches-decomposer-20-years-later-new-york-new-york-09-26-2026/event/000064D0D5E37EFE">The Matches - &quot;Decomposer&quot; 20 Years Later</a></h3>
+<div class="meta">8:00 PM · Bowery Ballroom, Lower East Side · 54.3</div>
+<p>Pop-punk veterans The Matches celebrate 20 years of Decomposer at the Bowery — full album plus deep cuts. GA standing from $54.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-matches-decomposer-20-years-later-new-york-new-york-09-26-2026/event/000064D0D5E37EFE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Open Bluegrass Jam Sessions">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/open-bluegrass-jam-sessions">Open Bluegrass Jam Sessions</a></h3>
+<div class="meta">1:00 PM · East Fourth Street Community Garden, East Village · Free</div>
+<p>Bring an instrument or just listen — a free community bluegrass jam in an East Village garden.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/open-bluegrass-jam-sessions">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-4" data-name="Oh, Mary!">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-26-2026/event/Z1r9uZruZqGZ17J9O8">Oh, Mary!</a></h3>
+<div class="meta">5:00 PM · Lyceum Theatre, Midtown</div>
+<p>Cole Escola&#x27;s delirious, Tony-winning comedy about Mary Todd Lincoln — still one of the hottest tickets on Broadway. On sale now (resale pairs ~$350).</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-26-2026/event/Z1r9uZruZqGZ17J9O8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="The Rocky Horror Picture Show: Live with the New York Cast">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-rocky-horror-picture-show-berlin-tickets/14993903">The Rocky Horror Picture Show: Live with the New York Cast</a></h3>
+<div class="meta">7:30 PM · Berlin, East Village · 31.52</div>
+<p>Shadow-cast screening at Berlin on Avenue A — 21+, costumes encouraged, fishnets optional but recommended.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-rocky-horror-picture-show-berlin-tickets/14993903">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="NYC Mid-Autumn Fest 2026">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/55dgw7ef">NYC Mid-Autumn Fest 2026</a></h3>
+<div class="meta">12:00 PM · Planet X Studios, 180 Maspeth Ave, East Williamsburg</div>
+<p>Twelve hours of Harvest Moon celebration in East Williamsburg: live music, lantern workshops, night-market food, carnival games. Proceeds benefit AALDEF. Rain or shine.</p>
+<a class="tickets" href="https://luma.com/55dgw7ef">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Sketch at St. Nick!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/sketch-at-st-nick">Sketch at St. Nick!</a></h3>
+<div class="meta">10:30 AM · West 135th Street Plaza, St. Nicholas Park, Harlem · Free</div>
+<p>A free drop-in sketching session in St. Nicholas Park — bring a sketchbook (or just your phone) and draw the city with neighbors.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/sketch-at-st-nick">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Brooklyn Pop-Up: Traditional Makers Fair">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/brooklyn-popup-traditional-makers-fair">Brooklyn Pop-Up: Traditional Makers Fair</a></h3>
+<div class="meta">10:00 AM · Old Stone House, Park Slope · Free</div>
+<p>Craft vendors and traditional makers take over the Old Stone House grounds in Park Slope — browse handmade goods in a historic 1699 Dutch farmhouse.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/brooklyn-popup-traditional-makers-fair">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Summer on the Hudson: THREAD, a Dance Performance by Kinesis Project">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/summer-on-the-hudson-thread-a-dance-performance-by-kinesis-project">Summer on the Hudson: THREAD, a Dance Performance by Kinesis Project</a></h3>
+<div class="meta">5:30 PM · Locomotive Lawn, Riverside Park South, Upper West Side · Free</div>
+<p>Site-specific contemporary dance on the riverfront lawn as the sun starts to drop — free and outdoors.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/summer-on-the-hudson-thread-a-dance-performance-by-kinesis-project">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Singfeld! A Musical About Nothing!">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-09-26-2026/event/300064F7957039CF">Singfeld! A Musical About Nothing!</a></h3>
+<div class="meta">6:30 PM · The Theater Center, Midtown</div>
+<p>The beloved Seinfeld musical parody — a show about nothing that somehow gets bigger laughs every year.</p>
+<a class="tickets" href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-09-26-2026/event/300064F7957039CF">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Vinny Guadagnino, Leah Bonnema, Phil Duckett">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/vinny-guadagnino-leah-bonnema-phil-duckett">Vinny Guadagnino, Leah Bonnema, Phil Duckett</a></h3>
+<div class="meta">5:30 PM · New York Comedy Club, East Village, East Village</div>
+<p>Jersey Shore&#x27;s Vinny G headlines a stacked Saturday lineup at NYCC&#x27;s East Village room — $20 item minimum in the showroom.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/vinny-guadagnino-leah-bonnema-phil-duckett">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-9" data-name="Summer on the Hudson: Locomotive Open House">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/summer-on-the-hudson-locomotive-open-house">Summer on the Hudson: Locomotive Open House</a></h3>
+<div class="meta">10:00 AM · Locomotive Lawn, Riverside Park South, Upper West Side · Free</div>
+<p>Climb aboard a historic locomotive on the Hudson River waterfront — a free, kid-friendly look at rail history.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/summer-on-the-hudson-locomotive-open-house">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Uncovering Uptown History: A Guided Walking Tour">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/uncovering-uptown-history-a-guided-walking-tour">Uncovering Uptown History: A Guided Walking Tour</a></h3>
+<div class="meta">10:30 AM · Morris-Jumel Mansion, Washington Heights · 25</div>
+<p>A guided walk through Washington Heights history starting at Manhattan&#x27;s oldest surviving house, the Morris-Jumel Mansion. $25/person; today is the final date of the series.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/uncovering-uptown-history-a-guided-walking-tour">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-14" data-name="Phoenix Community Garden Farm Stand">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/26/phoenix-community-garden-farm-stand">Phoenix Community Garden Farm Stand</a></h3>
+<div class="meta">11:00 AM · Phoenix Community Garden, Ocean Hill</div>
+<p>Sliding-scale farm stand run by a community garden in Ocean Hill — fresh affordable produce, rain or shine, proceeds support the garden.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/26/phoenix-community-garden-farm-stand">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-26";
+const NAMES = ["\"Saturday Soul Music Brunch\" Carlton Jumel Smith", "Pat Metheny Side-Eye III+", "The Matches - \"Decomposer\" 20 Years Later", "Open Bluegrass Jam Sessions", "Oh, Mary!", "Singfeld! A Musical About Nothing!", "The Rocky Horror Picture Show: Live with the New York Cast", "NYC Mid-Autumn Fest 2026", "Vinny Guadagnino, Leah Bonnema, Phil Duckett", "Summer on the Hudson: Locomotive Open House", "Uncovering Uptown History: A Guided Walking Tour", "Sketch at St. Nick!", "Brooklyn Pop-Up: Traditional Makers Fair", "Summer on the Hudson: THREAD, a Dance Performance by Kinesis Project", "Phoenix Community Garden Farm Stand"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
