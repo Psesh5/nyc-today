@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, September 27</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, September 27</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-27.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="New York Philharmonic: Dudamel Conducts Mahler &amp; Tania León">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-ow">New York Philharmonic: Dudamel Conducts Mahler &amp; Tania León</a></h3>
+<div class="meta">2:00 PM · David Geffen Hall</div>
+<p>Gustavo Dudamel conducts Mahler and a new Tania León work with the Philharmonic — an afternoon of serious orchestral power at Lincoln Center.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-ow">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="The World Famous Harlem Gospel Choir">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-world-famous-harlem-gospel-blue-note-jazz-club-tickets/14860843">The World Famous Harlem Gospel Choir</a></h3>
+<div class="meta">1:30 PM · Blue Note Jazz Club · $38.1</div>
+<p>WBGO presents a gospel brunch at the legendary Blue Note: the world-famous Harlem Gospel Choir, doors at noon.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-world-famous-harlem-gospel-blue-note-jazz-club-tickets/14860843">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Goodnight, Texas + Jarrod Dickenson">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/goodnight-texas-jarrod-dickenson-night-club-101-tickets/14204334">Goodnight, Texas + Jarrod Dickenson</a></h3>
+<div class="meta">6:30 PM · Night Club 101 · $27.22</div>
+<p>Storytelling folk-rock five-piece Goodnight, Texas with soulful Americana songwriter Jarrod Dickenson at the intimate Night Club 101.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/goodnight-texas-jarrod-dickenson-night-club-101-tickets/14204334">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Two Door Cinema Club - Tourist History 15th Anniversary NYC Show">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/two-door-cinema-club-tourist-history-new-york-new-york-09-27-2026/event/3B006443D9B0CE61">Two Door Cinema Club - Tourist History 15th Anniversary NYC Show</a></h3>
+<div class="meta">6:30 PM · Forest Hills Stadium, Forest Hills, Queens</div>
+<p>The Northern Irish indie trio celebrates 15 years of Tourist History at Forest Hills Stadium, Queens.</p>
+<a class="tickets" href="https://www.ticketmaster.com/two-door-cinema-club-tourist-history-new-york-new-york-09-27-2026/event/3B006443D9B0CE61">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Interpol">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/interpol-new-york-new-york-09-27-2026/event/00006537C718F984">Interpol</a></h3>
+<div class="meta">7:00 PM · Mercury Lounge, East Village</div>
+<p>Interpol back in their home borough at the Mercury Lounge — intimate club show, currently showing sold out so check resales.</p>
+<a class="tickets" href="https://www.ticketmaster.com/interpol-new-york-new-york-09-27-2026/event/00006537C718F984">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Nitzer Ebb">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7074y">Nitzer Ebb</a></h3>
+<div class="meta">7:30 PM · Webster Hall, East Village</div>
+<p>Pioneering industrial/EBM legends Nitzer Ebb take over Webster Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7074y">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Hypnotic Brass Ensemble + Talib Kweli">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/hypnotic-brass-ensemble-featuring-special-blue-note-jazz-club-tickets/14992333">Hypnotic Brass Ensemble + Talib Kweli</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY · $38.1</div>
+<p>Chicago&#x27;s brass band of seven brothers joins forces with Brooklyn MC Talib Kweli for a jazz-meets-hip-hop night at the Blue Note.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/hypnotic-brass-ensemble-featuring-special-blue-note-jazz-club-tickets/14992333">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Roger Daltrey - A Great Night Out">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/roger-daltrey-a-great-night-out-new-york-new-york-09-27-2026/event/030064A6C7F81C9A">Roger Daltrey - A Great Night Out</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown</div>
+<p>The Who frontman Roger Daltrey brings &#x27;A Great Night Out&#x27; to Town Hall, Midtown.</p>
+<a class="tickets" href="https://www.ticketmaster.com/roger-daltrey-a-great-night-out-new-york-new-york-09-27-2026/event/030064A6C7F81C9A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Jazz in the Park at Ralph Ellison">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/27/jazz-in-the-park-at-ralph-ellison">Jazz in the Park at Ralph Ellison</a></h3>
+<div class="meta">2:00 PM · Ralph Ellison Plaza, Washington Heights, Manhattan · Free</div>
+<p>Free afternoon jazz in the park at Ralph Ellison Plaza, Manhattan — 2–5 PM.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/27/jazz-in-the-park-at-ralph-ellison">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-8" data-name="John Oliver &amp; Seth Meyers">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-09-27-2026/event/3B006490926E2D53">John Oliver &amp; Seth Meyers</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side</div>
+<p>Two late-night heavyweights on one Beacon stage — expect sharp political comedy from both.</p>
+<a class="tickets" href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-09-27-2026/event/3B006490926E2D53">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Oh, Mary!">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-27-2026/event/Z1r9uZruZqGZ17J9Ox">Oh, Mary!</a></h3>
+<div class="meta">3:00 PM · Lyceum Theatre, Theater District</div>
+<p>Cole Escola&#x27;s riotous, Tony-winning Mary Todd Lincoln comedy — one of the hottest tickets on Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-27-2026/event/Z1r9uZruZqGZ17J9Ox">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Comic Strip Live New Faces Show">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/comic-strip-live-new-faces-show-tickets-2000081849653">Comic Strip Live New Faces Show</a></h3>
+<div class="meta">5:00 PM · The Comic Strip, 1568 2nd Ave, Upper East Side</div>
+<p>Fresh stand-up talent testing new material at the Upper East Side institution — 5–7 PM.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/comic-strip-live-new-faces-show-tickets-2000081849653">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-10" data-name="Molière in the Park presents: DON JUAN">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/27/molire-in-the-park-presents-don-juan1">Molière in the Park presents: DON JUAN</a></h3>
+<div class="meta">3:00 PM · Lefrak Center at Lakeside (in Prospect Park), Prospect Park, Brooklyn · Free</div>
+<p>Free outdoor Shakespeare-in-the-Park-style theater at LeFrak Center, Prospect Park: Molière&#x27;s Don Juan, 3–5 PM.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/27/molire-in-the-park-presents-don-juan1">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="The Armory Show 2026 (last day)">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.thearmoryshow.com/tickets">The Armory Show 2026 (last day)</a></h3>
+<div class="meta">10:00 AM · Javits Center, Hudson Yards · $60</div>
+<p>The flagship art fair&#x27;s final public day at the Javits Center — Solo and Presents sections expanded, 200+ galleries.</p>
+<a class="tickets" href="https://www.thearmoryshow.com/tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="ARTHOUSE.NYC 12th Annual Autumnal Reception">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/12th-annual-autumnal-reception-arthousenyc-tickets-2000283499794">ARTHOUSE.NYC 12th Annual Autumnal Reception</a></h3>
+<div class="meta">6:00 PM · Under Ideal Glass Studios, 8 W 8th St, Greenwich Village</div>
+<p>Opening reception for a group show on the &#x27;colorful roads&#x27; of personal journeys, 6–9 PM at Under Ideal Glass Studios.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/12th-annual-autumnal-reception-arthousenyc-tickets-2000283499794">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-11" data-name="The Dark Folklore of Plants">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/27/the-dark-folklore-of-plants">The Dark Folklore of Plants</a></h3>
+<div class="meta">1:00 PM · East Fourth Street Community Garden, Brooklyn · Free</div>
+<p>A free community garden talk on the folklore of plants in Brooklyn — 1–2 PM.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/27/the-dark-folklore-of-plants">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-27";
+const NAMES = ["New York Philharmonic: Dudamel Conducts Mahler & Tania Le\u00f3n", "The World Famous Harlem Gospel Choir", "Goodnight, Texas + Jarrod Dickenson", "Two Door Cinema Club - Tourist History 15th Anniversary NYC Show", "Interpol", "Nitzer Ebb", "Hypnotic Brass Ensemble + Talib Kweli", "Roger Daltrey - A Great Night Out", "John Oliver & Seth Meyers", "Oh, Mary!", "Moli\u00e8re in the Park presents: DON JUAN", "The Dark Folklore of Plants", "Jazz in the Park at Ralph Ellison", "The Armory Show 2026 (last day)", "ARTHOUSE.NYC 12th Annual Autumnal Reception", "Comic Strip Live New Faces Show"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

@@ -1,0 +1,269 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260927-0@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T140000
+DTEND;TZID=America/New_York:20260927T160000
+SUMMARY:New York Philharmonic: Dudamel Conducts Mahler & Tania León
+LOCATION:David Geffen Hall
+DESCRIPTION:Gustavo Dudamel conducts Mahler and a new Tania León work with
+ 
+ the Philharmonic — an afternoon of serious orchestral power at Lincoln C
+ 
+enter. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1AAZ-ow
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-ow
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-1@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T133000
+DTEND;TZID=America/New_York:20260927T153000
+SUMMARY:The World Famous Harlem Gospel Choir
+LOCATION:Blue Note Jazz Club
+DESCRIPTION:WBGO presents a gospel brunch at the legendary Blue Note: the w
+ 
+orld-famous Harlem Gospel Choir\, doors at noon. Tickets & info: https://ww
+ 
+w.ticketweb.com/event/the-world-famous-harlem-gospel-blue-note-jazz-club-ti
+ 
+ckets/14860843
+URL:https://www.ticketweb.com/event/the-world-famous-harlem-gospel-blue-not
+ 
+e-jazz-club-tickets/14860843
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-2@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T183000
+DTEND;TZID=America/New_York:20260927T203000
+SUMMARY:Goodnight\, Texas + Jarrod Dickenson
+LOCATION:Night Club 101
+DESCRIPTION:Storytelling folk-rock five-piece Goodnight\, Texas with soulfu
+ 
+l Americana songwriter Jarrod Dickenson at the intimate Night Club 101. Tic
+ 
+kets & info: https://www.ticketweb.com/event/goodnight-texas-jarrod-dickens
+ 
+on-night-club-101-tickets/14204334
+URL:https://www.ticketweb.com/event/goodnight-texas-jarrod-dickenson-night-
+ 
+club-101-tickets/14204334
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-3@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T183000
+DTEND;TZID=America/New_York:20260927T203000
+SUMMARY:Two Door Cinema Club - Tourist History 15th Anniversary NYC Show
+LOCATION:Forest Hills Stadium\, Forest Hills\, Queens
+DESCRIPTION:The Northern Irish indie trio celebrates 15 years of Tourist Hi
+ 
+story at Forest Hills Stadium\, Queens. Tickets & info: https://www.ticketm
+ 
+aster.com/two-door-cinema-club-tourist-history-new-york-new-york-09-27-2026
+ 
+/event/3B006443D9B0CE61
+URL:https://www.ticketmaster.com/two-door-cinema-club-tourist-history-new-y
+ 
+ork-new-york-09-27-2026/event/3B006443D9B0CE61
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-4@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T190000
+DTEND;TZID=America/New_York:20260927T210000
+SUMMARY:Interpol
+LOCATION:Mercury Lounge\, East Village
+DESCRIPTION:Interpol back in their home borough at the Mercury Lounge — i
+ 
+ntimate club show\, currently showing sold out so check resales. Tickets & 
+ 
+info: https://www.ticketmaster.com/interpol-new-york-new-york-09-27-2026/ev
+ 
+ent/00006537C718F984
+URL:https://www.ticketmaster.com/interpol-new-york-new-york-09-27-2026/even
+ 
+t/00006537C718F984
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-5@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T193000
+DTEND;TZID=America/New_York:20260927T213000
+SUMMARY:Nitzer Ebb
+LOCATION:Webster Hall\, East Village
+DESCRIPTION:Pioneering industrial/EBM legends Nitzer Ebb take over Webster 
+ 
+Hall. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7074y
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7074y
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-6@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T200000
+DTEND;TZID=America/New_York:20260927T220000
+SUMMARY:Hypnotic Brass Ensemble + Talib Kweli
+LOCATION:Blue Note Jazz Club - NY
+DESCRIPTION:Chicago's brass band of seven brothers joins forces with Brookl
+ 
+yn MC Talib Kweli for a jazz-meets-hip-hop night at the Blue Note. Tickets 
+ 
+& info: https://www.ticketweb.com/event/hypnotic-brass-ensemble-featuring-s
+ 
+pecial-blue-note-jazz-club-tickets/14992333
+URL:https://www.ticketweb.com/event/hypnotic-brass-ensemble-featuring-speci
+ 
+al-blue-note-jazz-club-tickets/14992333
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-7@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T200000
+DTEND;TZID=America/New_York:20260927T220000
+SUMMARY:Roger Daltrey - A Great Night Out
+LOCATION:Town Hall\, Midtown
+DESCRIPTION:The Who frontman Roger Daltrey brings 'A Great Night Out' to To
+ 
+wn Hall\, Midtown. Tickets & info: https://www.ticketmaster.com/roger-daltr
+ 
+ey-a-great-night-out-new-york-new-york-09-27-2026/event/030064A6C7F81C9A
+URL:https://www.ticketmaster.com/roger-daltrey-a-great-night-out-new-york-n
+ 
+ew-york-09-27-2026/event/030064A6C7F81C9A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-8@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T193000
+DTEND;TZID=America/New_York:20260927T213000
+SUMMARY:John Oliver & Seth Meyers
+LOCATION:Beacon Theatre\, Upper West Side
+DESCRIPTION:Two late-night heavyweights on one Beacon stage — expect shar
+ 
+p political comedy from both. Tickets & info: https://www.ticketmaster.com/
+ 
+john-oliver-seth-meyers-new-york-new-york-09-27-2026/event/3B006490926E2D53
+URL:https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-
+ 
+09-27-2026/event/3B006490926E2D53
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-9@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T150000
+DTEND;TZID=America/New_York:20260927T170000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Theater District
+DESCRIPTION:Cole Escola's riotous\, Tony-winning Mary Todd Lincoln comedy 
+ 
+ one of the hottest tickets on Broadway. Tickets & info: https://www.tick
+ 
+etmaster.com/oh-mary-new-york-new-york-09-27-2026/event/Z1r9uZruZqGZ17J9Ox
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-09-27-2026/event
+ 
+/Z1r9uZruZqGZ17J9Ox
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-10@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T150000
+DTEND;TZID=America/New_York:20260927T170000
+SUMMARY:Molière in the Park presents: DON JUAN
+LOCATION:Lefrak Center at Lakeside (in Prospect Park)\, Prospect Park\, Bro
+ 
+oklyn
+DESCRIPTION:Free outdoor Shakespeare-in-the-Park-style theater at LeFrak Ce
+ 
+nter\, Prospect Park: Molière's Don Juan\, 3–5 PM. Tickets & info: http:
+ 
+//www.nycgovparks.org/events/2026/09/27/molire-in-the-park-presents-don-jua
+ 
+n1
+URL:http://www.nycgovparks.org/events/2026/09/27/molire-in-the-park-present
+ 
+s-don-juan1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-11@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T130000
+DTEND;TZID=America/New_York:20260927T150000
+SUMMARY:The Dark Folklore of Plants
+LOCATION:East Fourth Street Community Garden\, Brooklyn
+DESCRIPTION:A free community garden talk on the folklore of plants in Brook
+ 
+lyn — 1–2 PM. Tickets & info: http://www.nycgovparks.org/events/2026/09
+ 
+/27/the-dark-folklore-of-plants
+URL:http://www.nycgovparks.org/events/2026/09/27/the-dark-folklore-of-plant
+ 
+s
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-12@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T140000
+DTEND;TZID=America/New_York:20260927T160000
+SUMMARY:Jazz in the Park at Ralph Ellison
+LOCATION:Ralph Ellison Plaza\, Washington Heights\, Manhattan
+DESCRIPTION:Free afternoon jazz in the park at Ralph Ellison Plaza\, Manhat
+ 
+tan — 2–5 PM. Tickets & info: http://www.nycgovparks.org/events/2026/09
+ 
+/27/jazz-in-the-park-at-ralph-ellison
+URL:http://www.nycgovparks.org/events/2026/09/27/jazz-in-the-park-at-ralph-
+ 
+ellison
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-13@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T100000
+DTEND;TZID=America/New_York:20260927T120000
+SUMMARY:The Armory Show 2026 (last day)
+LOCATION:Javits Center\, Hudson Yards
+DESCRIPTION:The flagship art fair's final public day at the Javits Center 
+ 
+ Solo and Presents sections expanded\, 200+ galleries. Tickets & info: ht
+ 
+tps://www.thearmoryshow.com/tickets
+URL:https://www.thearmoryshow.com/tickets
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-14@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T180000
+DTEND;TZID=America/New_York:20260927T200000
+SUMMARY:ARTHOUSE.NYC 12th Annual Autumnal Reception
+LOCATION:Under Ideal Glass Studios\, 8 W 8th St\, Greenwich Village
+DESCRIPTION:Opening reception for a group show on the 'colorful roads' of p
+ 
+ersonal journeys\, 6–9 PM at Under Ideal Glass Studios. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/12th-annual-autumnal-reception-arthousenyc-tick
+ 
+ets-2000283499794
+URL:https://www.eventbrite.com/e/12th-annual-autumnal-reception-arthousenyc
+ 
+-tickets-2000283499794
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260927-15@concierge
+DTSTAMP:20260927T120314Z
+DTSTART;TZID=America/New_York:20260927T170000
+DTEND;TZID=America/New_York:20260927T190000
+SUMMARY:Comic Strip Live New Faces Show
+LOCATION:The Comic Strip\, 1568 2nd Ave\, Upper East Side
+DESCRIPTION:Fresh stand-up talent testing new material at the Upper East Si
+ 
+de institution — 5–7 PM. Tickets & info: https://www.eventbrite.com/e/c
+ 
+omic-strip-live-new-faces-show-tickets-2000081849653
+URL:https://www.eventbrite.com/e/comic-strip-live-new-faces-show-tickets-20
+ 
+00081849653
+END:VEVENT
+END:VCALENDAR
