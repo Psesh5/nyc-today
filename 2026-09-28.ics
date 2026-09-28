@@ -1,0 +1,249 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260928-0@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:Towa Bird
+LOCATION:Irving Plaza Powered By Verizon 5G
+DESCRIPTION:Guitar-shredding alt-pop from the 'Gentleman' tour — with Mot
+ 
+her Soki opening. Intimate Irving Plaza set. Tickets & info: https://www.ti
+ 
+cketmaster.com/towa-bird-new-york-new-york-09-28-2026/event/000064C52CD25AF
+ 
+D
+URL:https://www.ticketmaster.com/towa-bird-new-york-new-york-09-28-2026/eve
+ 
+nt/000064C52CD25AFD
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-1@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T200000
+DTEND;TZID=America/New_York:20260928T220000
+SUMMARY:The Rescues feat. guest appearances by Shoshana Bean and The Lost B
+ 
+oys' cast members + special guest MILCK
+LOCATION:Le Poisson Rouge
+DESCRIPTION:Broadway meets harmonies: The Rescues with Shoshana Bean\, MILC
+ 
+K\, and members of The Lost Boys cast. One night only. Tickets & info: http
+ 
+s://www.ticketweb.com/event/the-rescues-feat-guest-appearances-le-poisson-r
+ 
+ouge-tickets/15031793
+URL:https://www.ticketweb.com/event/the-rescues-feat-guest-appearances-le-p
+ 
+oisson-rouge-tickets/15031793
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-2@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T173000
+DTEND;TZID=America/New_York:20260928T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater
+DESCRIPTION:Hot 1920s-30s jazz from the Grammy-winning band — a Monday in
+ 
+stitution at Birdland. Tickets & info: https://www.ticketweb.com/event/vinc
+ 
+e-giordano-and-the-nighthawks-birdland-theater-tickets/14881203
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14881203
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-3@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:Florence Road
+LOCATION:Bowery Ballroom
+DESCRIPTION:Indie pop at the Bowery's classic room. Tickets & info: https:/
+ 
+/www.ticketmaster.com/florence-road-new-york-new-york-09-28-2026/event/0000
+ 
+64D2C585D2D4
+URL:https://www.ticketmaster.com/florence-road-new-york-new-york-09-28-2026
+ 
+/event/000064D2C585D2D4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-4@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T180000
+DTEND;TZID=America/New_York:20260928T200000
+SUMMARY:Anna Moon + The Stars
+LOCATION:Mercury Lounge
+DESCRIPTION:Early-evening set at Mercury Lounge. Tickets & info: https://ww
+ 
+w.ticketmaster.com/anna-moon-the-stars-new-york-new-york-09-28-2026/event/0
+ 
+00064E7EC72546A
+URL:https://www.ticketmaster.com/anna-moon-the-stars-new-york-new-york-09-2
+ 
+8-2026/event/000064E7EC72546A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-5@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T193000
+DTEND;TZID=America/New_York:20260928T213000
+SUMMARY:A New York Evening With Kashus Culpepper
+LOCATION:The Greene Space
+DESCRIPTION:An intimate evening at WNYC's Greene Space. Tickets & info: htt
+ 
+ps://www.universe.com/events/a-new-york-evening-with-kashus-culpepper-ticke
+ 
+ts-5DTY3Z?ref=ticketmaster
+URL:https://www.universe.com/events/a-new-york-evening-with-kashus-culpeppe
+ 
+r-tickets-5DTY3Z?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-6@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:Karen Mason: Birthday Bash at Birdland
+LOCATION:Birdland Jazz Club
+DESCRIPTION:The Broadway veteran celebrates her birthday with a one-night-o
+ 
+nly Birdland set. Tickets & info: https://www.ticketweb.com/event/karen-mas
+ 
+on-birthday-bash-at-birdland-jazz-club-tickets/14278844
+URL:https://www.ticketweb.com/event/karen-mason-birthday-bash-at-birdland-j
+ 
+azz-club-tickets/14278844
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-7@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:Slam Frank
+LOCATION:Orpheum Theatre NYC
+DESCRIPTION:Hip-hop improv mashup at the Orpheum — comedy's answer to a c
+ 
+ypher. Tickets & info: https://www.ticketmaster.com/slam-frank-new-york-new
+ 
+-york-09-28-2026/event/300064C9E1D38A7B
+URL:https://www.ticketmaster.com/slam-frank-new-york-new-york-09-28-2026/ev
+ 
+ent/300064C9E1D38A7B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-8@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:The Play That Goes Wrong
+LOCATION:New World Stages - Stage 4
+DESCRIPTION:The long-running farce where everything that can go wrong does.
+ 
+ Pure chaos comedy. Tickets & info: https://www.ticketmaster.com/the-play-t
+ 
+hat-goes-wrong-new-york-new-york-09-28-2026/event/Z1r9uZruZqGZ1AvZaeK
+URL:https://www.ticketmaster.com/the-play-that-goes-wrong-new-york-new-york
+ 
+-09-28-2026/event/Z1r9uZruZqGZ1AvZaeK
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-9@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T190000
+DTEND;TZID=America/New_York:20260928T210000
+SUMMARY:Pre-Existing Condition
+LOCATION:Greenwich House Theater
+DESCRIPTION:New play at the intimate Greenwich House Theater. Tickets & inf
+ 
+o: https://www.ticketmaster.com/event/Z7r9jZ1AAZAGb
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZAGb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-10@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T090000
+DTEND;TZID=America/New_York:20260928T110000
+SUMMARY:New Dendrology at the Arsenal Gallery
+LOCATION:Arsenal (in Central Park)
+DESCRIPTION:Morning art break: botanical works at the Arsenal Gallery in Ce
+ 
+ntral Park. Tickets & info: http://www.nycgovparks.org/events/2026/09/28/ne
+ 
+w-dendrology-at-the-arsenal-gallery
+URL:http://www.nycgovparks.org/events/2026/09/28/new-dendrology-at-the-arse
+ 
+nal-gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-11@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T180000
+DTEND;TZID=America/New_York:20260928T200000
+SUMMARY:Hoop Jam in Herald Square Park
+LOCATION:Herald Square
+DESCRIPTION:Evening dance/hoop jam in Herald Square — free\, outdoors\, a
+ 
+ll levels. Tickets & info: http://www.nycgovparks.org/events/2026/09/28/hoo
+ 
+p-jam-in-herald-square-park
+URL:http://www.nycgovparks.org/events/2026/09/28/hoop-jam-in-herald-square-
+ 
+park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-12@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T184500
+DTEND;TZID=America/New_York:20260928T204500
+SUMMARY:Harlem Run: Monday Night Run
+LOCATION:Marcus Garvey Park
+DESCRIPTION:The Monday-night group run from Marcus Garvey Park — free\, a
+ 
+ll paces welcome. Tickets & info: http://www.nycgovparks.org/events/2026/09
+ 
+/28/harlem-run-monday-night-run
+URL:http://www.nycgovparks.org/events/2026/09/28/harlem-run-monday-night-ru
+ 
+n
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-13@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T200000
+DTEND;TZID=America/New_York:20260928T220000
+SUMMARY:Monday Night Comedy Show
+LOCATION:Top Secret Comedy Club\, East Village
+DESCRIPTION:Mixed-bill stand-up in an East Village cellar — past surprise
+ 
+ drop-ins have included big names. $2\, no drink minimum\, beers from $5. T
+ 
+ickets & info: https://topsecretcomedyclub.com/events-listings/monday-stand
+ 
+-up-comedy-8pm-show-7/
+URL:https://topsecretcomedyclub.com/events-listings/monday-stand-up-comedy-
+ 
+8pm-show-7/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260928-14@concierge
+DTSTAMP:20260928T115822Z
+DTSTART;TZID=America/New_York:20260928T193000
+DTEND;TZID=America/New_York:20260928T213000
+SUMMARY:A True York Comedy Experience
+LOCATION:St. Marks Comedy Club\, East Village
+DESCRIPTION:After-work laughs at St. Marks Comedy Club — doors 7:00\, sho
+ 
+w 7:30. Tickets from $15. Tickets & info: https://www.stmarkscomedy.com/sho
+ 
+ws/a-true-york-comedy-experience-2026-09-28-96d0d96c
+URL:https://www.stmarkscomedy.com/shows/a-true-york-comedy-experience-2026-
+ 
+09-28-96d0d96c
+END:VEVENT
+END:VCALENDAR
