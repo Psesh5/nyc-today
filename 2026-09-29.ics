@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260929-0@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Gorillaz - The Mountain Tour
+LOCATION:Madison Square Garden\, Midtown
+DESCRIPTION:The animated legends bring their immersive Mountain Tour to the
+ 
+ Garden. Tickets & info: https://www.ticketmaster.com/gorillaz-the-mountain
+ 
+-tour-new-york-new-york-09-29-2026/event/3B0064599DDAA6E6
+URL:https://www.ticketmaster.com/gorillaz-the-mountain-tour-new-york-new-yo
+ 
+rk-09-29-2026/event/3B0064599DDAA6E6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-1@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T193000
+DTEND;TZID=America/New_York:20260929T213000
+SUMMARY:New York Philharmonic: Dudamel Conducts Mahler & Tania Leon
+LOCATION:David Geffen Hall\, Lincoln Square
+DESCRIPTION:Dudamel opens the Philharmonic's season with Mahler and a Tania
+ 
+ Leon premiere. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A
+ 
+AZ-oS
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oS
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-2@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Tom Jones: Come Gather Round Tour
+LOCATION:Beacon Theatre\, Upper West Side
+DESCRIPTION:The Welsh legend\, still going strong at 86\, brings the Come G
+ 
+ather Round tour to the Beacon. Tickets & info: https://www.ticketmaster.co
+ 
+m/tom-jones-come-gather-round-tour-new-york-new-york-09-29-2026/event/3B006
+ 
+4B5A4EF3987
+URL:https://www.ticketmaster.com/tom-jones-come-gather-round-tour-new-york-
+ 
+new-york-09-29-2026/event/3B0064B5A4EF3987
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-3@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T201500
+DTEND;TZID=America/New_York:20260929T221500
+SUMMARY:wave to earth - the pieces tour
+LOCATION:Radio City Music Hall\, Midtown
+DESCRIPTION:The Korean indie-pop trio brings the pieces tour to Radio City.
+ 
+ Tickets & info: https://www.ticketmaster.com/wave-to-earth-the-pieces-tour
+ 
+-new-york-new-york-09-29-2026/event/3C0064AFDA752827
+URL:https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-new-york-new
+ 
+-york-09-29-2026/event/3C0064AFDA752827
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-4@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T183000
+DTEND;TZID=America/New_York:20260929T203000
+SUMMARY:Dylan Gossett & Charles Wesley Godwin
+LOCATION:The Rooftop at Pier 17\, South Street Seaport
+DESCRIPTION:Two of country-folk's hottest young voices share a rooftop stag
+ 
+e over the East River. Tickets & info: https://www.axs.com/events/1433019/d
+ 
+ylan-gossett-charles-wesley-godwin-tickets?skin=therooftopatpier17
+URL:https://www.axs.com/events/1433019/dylan-gossett-charles-wesley-godwin-
+ 
+tickets?skin=therooftopatpier17
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-5@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T213000
+DTEND;TZID=America/New_York:20260929T233000
+SUMMARY:The Hot Sardines
+LOCATION:Birdland\, Theater District
+DESCRIPTION:Brooklyn's neo-speakeasy jazz band\, bridging generations with 
+ 
+hot jazz as it was when live music was king. Tickets & info: https://www.ti
+ 
+cketweb.com/event/the-hot-sardines-birdland-jazz-club-tickets/14911353
+URL:https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tic
+ 
+kets/14911353
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-6@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T220000
+DTEND;TZID=America/New_York:20260930T000000
+SUMMARY:L'Rain Presents: Tony Seltzer\, Wadari\, Doula
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:L'Rain curates a free late-night bill of experimental R&B and l
+ 
+eft-field rap. Tickets & info: https://www.ticketweb.com/event/lrain-presen
+ 
+ts-tony-seltzer-wadari-night-club-101-tickets/15033543
+URL:https://www.ticketweb.com/event/lrain-presents-tony-seltzer-wadari-nigh
+ 
+t-club-101-tickets/15033543
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-7@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Torture Tuesday
+LOCATION:Berlin\, East Village
+DESCRIPTION:Berlin's weekly anything-goes party night. 21+. Tickets & info:
+ 
+ https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14338094
+URL:https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14338094
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-8@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Live Weekly Bluegrass with Allison Kelly
+LOCATION:Lucinda's\, East Village
+DESCRIPTION:A free weekly bluegrass night with Allison Kelly. 21+. Tickets 
+ 
+& info: https://www.ticketweb.com/event/live-weekly-bluegrass-with-lucindas
+ 
+-tickets/13950424
+URL:https://www.ticketweb.com/event/live-weekly-bluegrass-with-lucindas-tic
+ 
+kets/13950424
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-9@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Nitrate Twice
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:A queer- and female-focused secret screening series — the fil
+ 
+m stays a surprise. Tickets & info: https://www.ticketweb.com/event/nitrate
+ 
+-twice-night-club-101-tickets/14331004
+URL:https://www.ticketweb.com/event/nitrate-twice-night-club-101-tickets/14
+ 
+331004
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-10@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T123000
+DTEND;TZID=America/New_York:20260929T143000
+SUMMARY:Piano in Bryant Park
+LOCATION:Upper Terrace (in Bryant Park)\, Midtown
+DESCRIPTION:Ragtime\, stride and jazz on the park's public piano — swing 
+ 
+by on your lunch break. Tickets & info: http://www.nycgovparks.org/events/2
+ 
+026/09/29/piano-in-bryant-park
+URL:http://www.nycgovparks.org/events/2026/09/29/piano-in-bryant-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-11@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T140000
+DTEND;TZID=America/New_York:20260929T160000
+SUMMARY:Bronx Green-Up & New Roots Harvest Fair
+LOCATION:New Roots Community Farm\, Bronx
+DESCRIPTION:Live music\, farm tours\, arts and crafts and a free catered lu
+ 
+nch to close the growing season. Tickets & info: http://www.nycgovparks.org
+ 
+/events/2026/09/29/bronx-greenup-new-roots-harvest-fair-new-date
+URL:http://www.nycgovparks.org/events/2026/09/29/bronx-greenup-new-roots-ha
+ 
+rvest-fair-new-date
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-12@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T193000
+DTEND;TZID=America/New_York:20260929T213000
+SUMMARY:Comfy Clash 2026: Biggest Comedy Competition in NYC
+LOCATION:St. Marks Comedy Club\, East Village
+DESCRIPTION:The 7th annual edition of NYC's largest stand-up comedy contest
+ 
+\, with over 300 comics from across the country competing for a shot at the
+ 
+ final. Tickets & info: https://www.stmarkscomedy.com/shows/comfy-clash-202
+ 
+6-biggest-comedy-competition-in-nyc-2026-09-29-450dc59c
+URL:https://www.stmarkscomedy.com/shows/comfy-clash-2026-biggest-comedy-com
+ 
+petition-in-nyc-2026-09-29-450dc59c
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-13@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Tuesdays at the Red Room
+LOCATION:KGB Bar\, East Village
+DESCRIPTION:A weekly East Village comedy show hosted by Emily Wilson with D
+ 
+J Good Attitude and a fresh lineup every week. Tickets & info: https://DoNY
+ 
+C.com/events/2026/9/29/tuesdays-at-the-red-room-tickets
+URL:https://DoNYC.com/events/2026/9/29/tuesdays-at-the-red-room-tickets
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260929-14@concierge
+DTSTAMP:20260929T120121Z
+DTSTART;TZID=America/New_York:20260929T200000
+DTEND;TZID=America/New_York:20260929T220000
+SUMMARY:Tuesday Night Comedy Show
+LOCATION:Top Secret Comedy Club\, East Village
+DESCRIPTION:A mixed-bill stand-up night with comics from across the globe\,
+ 
+ no drink minimum\, and a history of surprise celebrity drop-ins. Tickets &
+ 
+ info: https://topsecretcomedyclub.com/events-listings/tuesday-stand-up-com
+ 
+edy-8pm-show-17/
+URL:https://topsecretcomedyclub.com/events-listings/tuesday-stand-up-comedy
+ 
+-8pm-show-17/
+END:VEVENT
+END:VCALENDAR

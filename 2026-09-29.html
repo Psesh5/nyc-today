@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, September 29</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, September 29</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-29.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Gorillaz - The Mountain Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/gorillaz-the-mountain-tour-new-york-new-york-09-29-2026/event/3B0064599DDAA6E6">Gorillaz - The Mountain Tour</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown</div>
+<p>The animated legends bring their immersive Mountain Tour to the Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/gorillaz-the-mountain-tour-new-york-new-york-09-29-2026/event/3B0064599DDAA6E6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="New York Philharmonic: Dudamel Conducts Mahler &amp; Tania Leon">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oS">New York Philharmonic: Dudamel Conducts Mahler &amp; Tania Leon</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Lincoln Square</div>
+<p>Dudamel opens the Philharmonic&#x27;s season with Mahler and a Tania Leon premiere.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oS">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Tom Jones: Come Gather Round Tour">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/tom-jones-come-gather-round-tour-new-york-new-york-09-29-2026/event/3B0064B5A4EF3987">Tom Jones: Come Gather Round Tour</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side</div>
+<p>The Welsh legend, still going strong at 86, brings the Come Gather Round tour to the Beacon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/tom-jones-come-gather-round-tour-new-york-new-york-09-29-2026/event/3B0064B5A4EF3987">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="wave to earth - the pieces tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-new-york-new-york-09-29-2026/event/3C0064AFDA752827">wave to earth - the pieces tour</a></h3>
+<div class="meta">8:15 PM · Radio City Music Hall, Midtown</div>
+<p>The Korean indie-pop trio brings the pieces tour to Radio City.</p>
+<a class="tickets" href="https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-new-york-new-york-09-29-2026/event/3C0064AFDA752827">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Dylan Gossett &amp; Charles Wesley Godwin">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.axs.com/events/1433019/dylan-gossett-charles-wesley-godwin-tickets?skin=therooftopatpier17">Dylan Gossett &amp; Charles Wesley Godwin</a></h3>
+<div class="meta">6:30 PM · The Rooftop at Pier 17, South Street Seaport</div>
+<p>Two of country-folk&#x27;s hottest young voices share a rooftop stage over the East River.</p>
+<a class="tickets" href="https://www.axs.com/events/1433019/dylan-gossett-charles-wesley-godwin-tickets?skin=therooftopatpier17">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="The Hot Sardines">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tickets/14911353">The Hot Sardines</a></h3>
+<div class="meta">9:30 PM · Birdland, Theater District · $45.76</div>
+<p>Brooklyn&#x27;s neo-speakeasy jazz band, bridging generations with hot jazz as it was when live music was king.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tickets/14911353">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="L&#x27;Rain Presents: Tony Seltzer, Wadari, Doula">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/lrain-presents-tony-seltzer-wadari-night-club-101-tickets/15033543">L&#x27;Rain Presents: Tony Seltzer, Wadari, Doula</a></h3>
+<div class="meta">10:00 PM · Night Club 101, East Village</div>
+<p>L&#x27;Rain curates a free late-night bill of experimental R&amp;B and left-field rap.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/lrain-presents-tony-seltzer-wadari-night-club-101-tickets/15033543">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Torture Tuesday">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14338094">Torture Tuesday</a></h3>
+<div class="meta">8:00 PM · Berlin, East Village · $13.22</div>
+<p>Berlin&#x27;s weekly anything-goes party night. 21+.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14338094">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Live Weekly Bluegrass with Allison Kelly">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/live-weekly-bluegrass-with-lucindas-tickets/13950424">Live Weekly Bluegrass with Allison Kelly</a></h3>
+<div class="meta">8:00 PM · Lucinda&#x27;s, East Village</div>
+<p>A free weekly bluegrass night with Allison Kelly. 21+.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/live-weekly-bluegrass-with-lucindas-tickets/13950424">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Piano in Bryant Park">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/29/piano-in-bryant-park">Piano in Bryant Park</a></h3>
+<div class="meta">12:30 PM · Upper Terrace (in Bryant Park), Midtown</div>
+<p>Ragtime, stride and jazz on the park&#x27;s public piano — swing by on your lunch break.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/29/piano-in-bryant-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-9" data-name="Nitrate Twice">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/nitrate-twice-night-club-101-tickets/14331004">Nitrate Twice</a></h3>
+<div class="meta">8:00 PM · Night Club 101, East Village</div>
+<p>A queer- and female-focused secret screening series — the film stays a surprise.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/nitrate-twice-night-club-101-tickets/14331004">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-11" data-name="Bronx Green-Up &amp; New Roots Harvest Fair">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/29/bronx-greenup-new-roots-harvest-fair-new-date">Bronx Green-Up &amp; New Roots Harvest Fair</a></h3>
+<div class="meta">2:00 PM · New Roots Community Farm, Bronx</div>
+<p>Live music, farm tours, arts and crafts and a free catered lunch to close the growing season.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/29/bronx-greenup-new-roots-harvest-fair-new-date">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-12" data-name="Comfy Clash 2026: Biggest Comedy Competition in NYC">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.stmarkscomedy.com/shows/comfy-clash-2026-biggest-comedy-competition-in-nyc-2026-09-29-450dc59c">Comfy Clash 2026: Biggest Comedy Competition in NYC</a></h3>
+<div class="meta">7:30 PM · St. Marks Comedy Club, East Village · $8</div>
+<p>The 7th annual edition of NYC&#x27;s largest stand-up comedy contest, with over 300 comics from across the country competing for a shot at the final.</p>
+<a class="tickets" href="https://www.stmarkscomedy.com/shows/comfy-clash-2026-biggest-comedy-competition-in-nyc-2026-09-29-450dc59c">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Tuesdays at the Red Room">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://DoNYC.com/events/2026/9/29/tuesdays-at-the-red-room-tickets">Tuesdays at the Red Room</a></h3>
+<div class="meta">8:00 PM · KGB Bar, East Village · $10</div>
+<p>A weekly East Village comedy show hosted by Emily Wilson with DJ Good Attitude and a fresh lineup every week.</p>
+<a class="tickets" href="https://DoNYC.com/events/2026/9/29/tuesdays-at-the-red-room-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Tuesday Night Comedy Show">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://topsecretcomedyclub.com/events-listings/tuesday-stand-up-comedy-8pm-show-17/">Tuesday Night Comedy Show</a></h3>
+<div class="meta">8:00 PM · Top Secret Comedy Club, East Village · $2</div>
+<p>A mixed-bill stand-up night with comics from across the globe, no drink minimum, and a history of surprise celebrity drop-ins.</p>
+<a class="tickets" href="https://topsecretcomedyclub.com/events-listings/tuesday-stand-up-comedy-8pm-show-17/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-29";
+const NAMES = ["Gorillaz - The Mountain Tour", "New York Philharmonic: Dudamel Conducts Mahler & Tania Leon", "Tom Jones: Come Gather Round Tour", "wave to earth - the pieces tour", "Dylan Gossett & Charles Wesley Godwin", "The Hot Sardines", "L'Rain Presents: Tony Seltzer, Wadari, Doula", "Torture Tuesday", "Live Weekly Bluegrass with Allison Kelly", "Nitrate Twice", "Piano in Bryant Park", "Bronx Green-Up & New Roots Harvest Fair", "Comfy Clash 2026: Biggest Comedy Competition in NYC", "Tuesdays at the Red Room", "Tuesday Night Comedy Show"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
