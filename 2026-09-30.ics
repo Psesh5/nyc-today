@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20260930-0@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T190000
+DTEND;TZID=America/New_York:20260930T210000
+SUMMARY:New York Philharmonic: Gustavo Dudamel's Inaugural Gala
+LOCATION:David Geffen Hall\, Lincoln Square
+DESCRIPTION:Dudamel's first night as the Philharmonic's new music director 
+ 
+— an inaugural gala concert at Geffen Hall. Tickets & info: https://www.t
+ 
+icketmaster.com/event/Z7r9jZ1AAZ-oV
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oV
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-1@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T200000
+DTEND;TZID=America/New_York:20260930T220000
+SUMMARY:Epik High (16 and Over)
+LOCATION:Terminal 5\, Hell's Kitchen
+DESCRIPTION:The legendary Korean hip-hop trio's high-energy live show at Te
+ 
+rminal 5. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7P3PO
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P3PO
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-2@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T180000
+DTEND;TZID=America/New_York:20260930T200000
+SUMMARY:Ben Kessler
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Melodic alt-pop singer-songwriter with doors at 6pm — $20 adv
+ 
+ance\, 16 and over. Tickets & info: https://www.ticketmaster.com/ben-kessle
+ 
+r-new-york-new-york-09-30-2026/event/000064EDCCAB44A7
+URL:https://www.ticketmaster.com/ben-kessler-new-york-new-york-09-30-2026/e
+ 
+vent/000064EDCCAB44A7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-3@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T213000
+DTEND;TZID=America/New_York:20260930T233000
+SUMMARY:The Hot Sardines
+LOCATION:Birdland\, Midtown
+DESCRIPTION:NYC's beloved hot-jazz revivalists bring their late set to Bird
+ 
+land. Tickets & info: https://www.ticketweb.com/event/the-hot-sardines-bird
+ 
+land-jazz-club-tickets/14911363
+URL:https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tic
+ 
+kets/14911363
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-4@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T200000
+DTEND;TZID=America/New_York:20260930T220000
+SUMMARY:Jenny Owen Youngs\, Northcote
+LOCATION:Cafe Wha?\, Greenwich Village
+DESCRIPTION:Singer-songwriter Jenny Owen Youngs and Northcote's warm acoust
+ 
+ic set at the legendary Cafe Wha? Tickets & info: https://www.ticketweb.com
+ 
+/event/jenny-owen-youngs-northcote-cafe-wha-tickets/14915293
+URL:https://www.ticketweb.com/event/jenny-owen-youngs-northcote-cafe-wha-ti
+ 
+ckets/14915293
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-5@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T190000
+DTEND;TZID=America/New_York:20260930T210000
+SUMMARY:BMI Acoustic Lounge Presents Bentley Robles and Anne Tello
+LOCATION:Lucinda's\, East Village
+DESCRIPTION:Free BMI songwriter showcase with Bentley Robles and Anne Tello
+ 
+. 21 and over. Tickets & info: https://www.ticketweb.com/event/bmi-acoustic
+ 
+-lounge-presents-bentley-lucindas-tickets/14316604
+URL:https://www.ticketweb.com/event/bmi-acoustic-lounge-presents-bentley-lu
+ 
+cindas-tickets/14316604
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-6@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T173000
+DTEND;TZID=America/New_York:20260930T193000
+SUMMARY:David Ostwald's Louis Armstrong Eternity Band
+LOCATION:Birdland Theater\, Midtown
+DESCRIPTION:A 21-year Birdland residency of classic hot jazz — one of the
+ 
+ city's best bargains. Tickets & info: https://www.ticketweb.com/event/davi
+ 
+d-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14881283
+URL:https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity
+ 
+-birdland-theater-tickets/14881283
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-7@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T123000
+DTEND;TZID=America/New_York:20260930T143000
+SUMMARY:Piano in Bryant Park
+LOCATION:Upper Terrace (in Bryant Park)\, Midtown
+DESCRIPTION:Swing by for free ragtime\, stride\, and jazz piano on the Uppe
+ 
+r Terrace. Tickets & info: http://www.nycgovparks.org/events/2026/09/30/pia
+ 
+no-in-bryant-park
+URL:http://www.nycgovparks.org/events/2026/09/30/piano-in-bryant-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-8@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T193000
+DTEND;TZID=America/New_York:20260930T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown
+DESCRIPTION:The smash-hit comedy about Mary Todd Lincoln's desperate bid fo
+ 
+r cabaret stardom. Tickets & info: https://www.ticketmaster.com/oh-mary-new
+ 
+-york-new-york-09-30-2026/event/Z1r9uZruZqGZ17J9rK
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-09-30-2026/event
+ 
+/Z1r9uZruZqGZ17J9rK
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-9@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T140000
+DTEND;TZID=America/New_York:20260930T160000
+SUMMARY:Operation Mincemeat: A New Musical
+LOCATION:John Golden Theatre\, Midtown
+DESCRIPTION:The Olivier-winning spy musical's matinee — history's wildest
+ 
+ true story\, on stage. Tickets & info: https://www.ticketmaster.com/operat
+ 
+ion-mincemeat-a-new-musical-new-york-new-york-09-30-2026/event/Z1r9uZruZqGZ
+ 
+17JebS
+URL:https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york
+ 
+-new-york-09-30-2026/event/Z1r9uZruZqGZ17JebS
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-10@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T183000
+DTEND;TZID=America/New_York:20260930T203000
+SUMMARY:Photobook Publishing Across the Globe
+LOCATION:Aperture\, Upper West Side
+DESCRIPTION:Aperture hosts a conversation on independent photobook publishi
+ 
+ng from New Delhi to New York. $5 ticket. Tickets & info: https://store.ape
+ 
+rture.org/products/photobook-publishing-across-the-globe
+URL:https://store.aperture.org/products/photobook-publishing-across-the-glo
+ 
+be
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-11@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T200000
+DTEND;TZID=America/New_York:20260930T220000
+SUMMARY:Good Eggs
+LOCATION:New York Comedy Club East Village\, East Village
+DESCRIPTION:Mark Normand's long-running underground comedy showcase — pas
+ 
+t surprise guests include Bill Burr and Sarah Silverman. Tickets & info: ht
+ 
+tps://newyorkcomedyclub.com/calendar/2026-09-30\,2026-10-21
+URL:https://newyorkcomedyclub.com/calendar/2026-09-30,2026-10-21
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-12@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T190000
+DTEND;TZID=America/New_York:20260930T210000
+SUMMARY:The Infinity Speech with Adelaide Cioni
+LOCATION:Amant\, Bushwick
+DESCRIPTION:Amant resident's free performance lecture on infinity\, pattern
+ 
+s\, and the human condition. Tickets & info: https://www.amant.org/programs
+ 
+/2835-the-infinity-speech-with-adelaide-cioni
+URL:https://www.amant.org/programs/2835-the-infinity-speech-with-adelaide-c
+ 
+ioni
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-13@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T180000
+DTEND;TZID=America/New_York:20260930T200000
+SUMMARY:Salsa Social
+LOCATION:Garibaldi Plaza (in Washington Square Park)\, Greenwich Village
+DESCRIPTION:Free salsa lesson plus open dance floor in Garibaldi Plaza\, co
+ 
+urtesy of Mi Salsa Dura Baile. Tickets & info: http://www.nycgovparks.org/e
+ 
+vents/2026/09/30/salsa-social
+URL:http://www.nycgovparks.org/events/2026/09/30/salsa-social
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20260930-14@concierge
+DTSTAMP:20260930T120041Z
+DTSTART;TZID=America/New_York:20260930T180000
+DTEND;TZID=America/New_York:20260930T200000
+SUMMARY:Tango in the Park at Sutton Place Park
+LOCATION:Sutton Place Park\, Sutton Place
+DESCRIPTION:Free beginner-friendly tango with Strictly Tango NYC Dance Scho
+ 
+ol. Tickets & info: http://www.nycgovparks.org/events/2026/09/30/tango-in-t
+ 
+he-park-at-sutton-place-park
+URL:http://www.nycgovparks.org/events/2026/09/30/tango-in-the-park-at-sutto
+ 
+n-place-park
+END:VEVENT
+END:VCALENDAR

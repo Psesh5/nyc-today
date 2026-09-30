@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, September 30</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, September 30</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-09-30.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="New York Philharmonic: Gustavo Dudamel&#x27;s Inaugural Gala">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oV">New York Philharmonic: Gustavo Dudamel&#x27;s Inaugural Gala</a></h3>
+<div class="meta">7:00 PM · David Geffen Hall, Lincoln Square</div>
+<p>Dudamel&#x27;s first night as the Philharmonic&#x27;s new music director — an inaugural gala concert at Geffen Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oV">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Epik High (16 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7P3PO">Epik High (16 and Over)</a></h3>
+<div class="meta">8:00 PM · Terminal 5, Hell&#x27;s Kitchen</div>
+<p>The legendary Korean hip-hop trio&#x27;s high-energy live show at Terminal 5.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7P3PO">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Ben Kessler">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ben-kessler-new-york-new-york-09-30-2026/event/000064EDCCAB44A7">Ben Kessler</a></h3>
+<div class="meta">6:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Melodic alt-pop singer-songwriter with doors at 6pm — $20 advance, 16 and over.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ben-kessler-new-york-new-york-09-30-2026/event/000064EDCCAB44A7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="The Hot Sardines">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tickets/14911363">The Hot Sardines</a></h3>
+<div class="meta">9:30 PM · Birdland, Midtown · $45.76</div>
+<p>NYC&#x27;s beloved hot-jazz revivalists bring their late set to Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-hot-sardines-birdland-jazz-club-tickets/14911363">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Jenny Owen Youngs, Northcote">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/jenny-owen-youngs-northcote-cafe-wha-tickets/14915293">Jenny Owen Youngs, Northcote</a></h3>
+<div class="meta">8:00 PM · Cafe Wha?, Greenwich Village · $25.72</div>
+<p>Singer-songwriter Jenny Owen Youngs and Northcote&#x27;s warm acoustic set at the legendary Cafe Wha?</p>
+<a class="tickets" href="https://www.ticketweb.com/event/jenny-owen-youngs-northcote-cafe-wha-tickets/14915293">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="BMI Acoustic Lounge Presents Bentley Robles and Anne Tello">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/bmi-acoustic-lounge-presents-bentley-lucindas-tickets/14316604">BMI Acoustic Lounge Presents Bentley Robles and Anne Tello</a></h3>
+<div class="meta">7:00 PM · Lucinda&#x27;s, East Village</div>
+<p>Free BMI songwriter showcase with Bentley Robles and Anne Tello. 21 and over.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/bmi-acoustic-lounge-presents-bentley-lucindas-tickets/14316604">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="David Ostwald&#x27;s Louis Armstrong Eternity Band">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14881283">David Ostwald&#x27;s Louis Armstrong Eternity Band</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Midtown · $35.46</div>
+<p>A 21-year Birdland residency of classic hot jazz — one of the city&#x27;s best bargains.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14881283">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Piano in Bryant Park">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/30/piano-in-bryant-park">Piano in Bryant Park</a></h3>
+<div class="meta">12:30 PM · Upper Terrace (in Bryant Park), Midtown</div>
+<p>Swing by for free ragtime, stride, and jazz piano on the Upper Terrace.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/30/piano-in-bryant-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-8" data-name="Oh, Mary!">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-30-2026/event/Z1r9uZruZqGZ17J9rK">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Midtown</div>
+<p>The smash-hit comedy about Mary Todd Lincoln&#x27;s desperate bid for cabaret stardom.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-09-30-2026/event/Z1r9uZruZqGZ17J9rK">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Operation Mincemeat: A New Musical">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-09-30-2026/event/Z1r9uZruZqGZ17JebS">Operation Mincemeat: A New Musical</a></h3>
+<div class="meta">2:00 PM · John Golden Theatre, Midtown</div>
+<p>The Olivier-winning spy musical&#x27;s matinee — history&#x27;s wildest true story, on stage.</p>
+<a class="tickets" href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-09-30-2026/event/Z1r9uZruZqGZ17JebS">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="The Infinity Speech with Adelaide Cioni">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.amant.org/programs/2835-the-infinity-speech-with-adelaide-cioni">The Infinity Speech with Adelaide Cioni</a></h3>
+<div class="meta">7:00 PM · Amant, Bushwick</div>
+<p>Amant resident&#x27;s free performance lecture on infinity, patterns, and the human condition.</p>
+<a class="tickets" href="https://www.amant.org/programs/2835-the-infinity-speech-with-adelaide-cioni">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Salsa Social">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/30/salsa-social">Salsa Social</a></h3>
+<div class="meta">6:00 PM · Garibaldi Plaza (in Washington Square Park), Greenwich Village</div>
+<p>Free salsa lesson plus open dance floor in Garibaldi Plaza, courtesy of Mi Salsa Dura Baile.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/30/salsa-social">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Tango in the Park at Sutton Place Park">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/09/30/tango-in-the-park-at-sutton-place-park">Tango in the Park at Sutton Place Park</a></h3>
+<div class="meta">6:00 PM · Sutton Place Park, Sutton Place</div>
+<p>Free beginner-friendly tango with Strictly Tango NYC Dance School.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/09/30/tango-in-the-park-at-sutton-place-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-10" data-name="Photobook Publishing Across the Globe">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://store.aperture.org/products/photobook-publishing-across-the-globe">Photobook Publishing Across the Globe</a></h3>
+<div class="meta">6:30 PM · Aperture, Upper West Side · $5</div>
+<p>Aperture hosts a conversation on independent photobook publishing from New Delhi to New York. $5 ticket.</p>
+<a class="tickets" href="https://store.aperture.org/products/photobook-publishing-across-the-globe">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-11" data-name="Good Eggs">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/calendar/2026-09-30,2026-10-21">Good Eggs</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club East Village, East Village</div>
+<p>Mark Normand&#x27;s long-running underground comedy showcase — past surprise guests include Bill Burr and Sarah Silverman.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/calendar/2026-09-30,2026-10-21">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-09-30";
+const NAMES = ["New York Philharmonic: Gustavo Dudamel's Inaugural Gala", "Epik High (16 and Over)", "Ben Kessler", "The Hot Sardines", "Jenny Owen Youngs, Northcote", "BMI Acoustic Lounge Presents Bentley Robles and Anne Tello", "David Ostwald's Louis Armstrong Eternity Band", "Piano in Bryant Park", "Oh, Mary!", "Operation Mincemeat: A New Musical", "Photobook Publishing Across the Globe", "Good Eggs", "The Infinity Speech with Adelaide Cioni", "Salsa Social", "Tango in the Park at Sutton Place Park"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
