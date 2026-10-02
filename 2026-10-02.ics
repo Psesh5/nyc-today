@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261002-0@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T200000
+DTEND;TZID=America/New_York:20261002T220000
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Madison Square Garden\, Midtown
+DESCRIPTION:Harry Styles brings his Together\, Together tour to the Garden 
+ 
+for one giant night. Tickets & info: https://www.ticketmaster.com/harry-sty
+ 
+les-together-together-new-york-new-york-10-02-2026/event/3B00643505888295
+URL:https://www.ticketmaster.com/harry-styles-together-together-new-york-ne
+ 
+w-york-10-02-2026/event/3B00643505888295
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-1@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T200000
+DTEND;TZID=America/New_York:20261002T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:The Grammy-winning pianist plays Blue Note — the room that ma
+ 
+de his legendary runs. Tickets & info: https://www.ticketweb.com/event/robe
+ 
+rt-glasper-blue-note-jazz-club-tickets/15016543
+URL:https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tick
+ 
+ets/15016543
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-2@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T193000
+DTEND;TZID=America/New_York:20261002T213000
+SUMMARY:Elder w/ Blackwater Holylight
+LOCATION:Webster Hall\, East Village
+DESCRIPTION:Prog-doom heaviness: Elder with Blackwater Holylight at Webster
+ 
+ Hall. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A70EFv
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70EFv
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-3@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:When Chai Met Toast: Joy of Little Things Tour
+LOCATION:Bowery Ballroom\, Bowery
+DESCRIPTION:Kochi's harmony-drenched indie-pop favorites bring the singalon
+ 
+gs to the Bowery. Tickets & info: https://www.ticketmaster.com/when-chai-me
+ 
+t-toast-joy-of-new-york-new-york-10-02-2026/event/0000632B9B9E106C
+URL:https://www.ticketmaster.com/when-chai-met-toast-joy-of-new-york-new-yo
+ 
+rk-10-02-2026/event/0000632B9B9E106C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-4@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T193000
+DTEND;TZID=America/New_York:20261002T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Theater District
+DESCRIPTION:Cole Escola's unhinged comedy about Mary Todd Lincoln — the f
+ 
+unniest ticket on Broadway. Tickets & info: https://www.ticketmaster.com/oh
+ 
+-mary-new-york-new-york-10-02-2026/event/Z1r9uZruZqGZ17J9OA
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-02-2026/event
+ 
+/Z1r9uZruZqGZ17J9OA
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-5@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Mo Amer One Night Only at Radio City
+LOCATION:Radio City Music Hall\, Midtown
+DESCRIPTION:The Ramy star brings his Netflix-honed stand-up hour to Radio C
+ 
+ity for one night only. Tickets & info: https://www.ticketmaster.com/mo-ame
+ 
+r-one-night-only-at-new-york-new-york-10-02-2026/event/3C0064C374B80B63
+URL:https://www.ticketmaster.com/mo-amer-one-night-only-at-new-york-new-yor
+ 
+k-10-02-2026/event/3C0064C374B80B63
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-6@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T193000
+DTEND;TZID=America/New_York:20261002T213000
+SUMMARY:Operation Mincemeat: A New Musical
+LOCATION:John Golden Theatre\, Theater District
+DESCRIPTION:The Tony-winning WWII heist musical — MI5's strangest true st
+ 
+ory\, staged with a wink. Tickets & info: https://www.ticketmaster.com/oper
+ 
+ation-mincemeat-a-new-musical-new-york-new-york-10-02-2026/event/Z1r9uZruZq
+ 
+GZ17Je_A
+URL:https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york
+ 
+-new-york-10-02-2026/event/Z1r9uZruZqGZ17Je_A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-7@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T193000
+DTEND;TZID=America/New_York:20261002T213000
+SUMMARY:Macbeth
+LOCATION:Metropolitan Opera House\, Lincoln Square
+DESCRIPTION:Verdi's Macbeth at the Met: witches\, ambition\, and a full-thr
+ 
+ottle chorus. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1AAv
+ 
+E3k
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvE3k
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-8@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T170000
+DTEND;TZID=America/New_York:20261002T190000
+SUMMARY:Sake Day Brooklyn
+LOCATION:Brooklyn Kura\, Sunset Park
+DESCRIPTION:Brooklyn Kura's annual sake blowout — 50+ breweries pouring\,
+ 
+ DJ\, food pop-ups\, brewery tours. Tickets & info: https://www.eventbrite.
+ 
+com/e/sake-day-brooklyn-tickets-1995574588313
+URL:https://www.eventbrite.com/e/sake-day-brooklyn-tickets-1995574588313
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-9@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T130000
+DTEND;TZID=America/New_York:20261002T150000
+SUMMARY:Mid-Autumn Festival 2026
+LOCATION:Gotham Park\, Chinatown
+DESCRIPTION:Welcome to Chinatown's lantern-lit festival under the Brooklyn 
+ 
+Bridge — 20+ AAPI vendors\, live performances\, all weekend. Tickets & in
+ 
+fo: https://luma.com/mid-autumn-fest-2026
+URL:https://luma.com/mid-autumn-fest-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-10@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T193000
+DTEND;TZID=America/New_York:20261002T213000
+SUMMARY:2026 Spooky Snug Harbor Tour
+LOCATION:Snug Harbor Cultural Center\, Staten Island
+DESCRIPTION:A lantern-lit Halloween-season tour of Snug Harbor's grounds on
+ 
+ Staten Island. Tickets & info: http://www.nycgovparks.org/events/2026/10/0
+ 
+2/2026-spooky-snug-harbor-tour
+URL:http://www.nycgovparks.org/events/2026/10/02/2026-spooky-snug-harbor-to
+ 
+ur
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-11@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T223000
+DTEND;TZID=America/New_York:20261003T003000
+SUMMARY:Friday Stand Up Comedy 10:30pm Show — Andre De Freitas\, Neema Na
+ 
+z\, Hoodo Hersi\, Orion Levine & Daniel Perafan
+LOCATION:Top Secret Comedy Club\, East Village
+DESCRIPTION:Late-night mixed-bill standup at an intimate East Village room 
+ 
+(44-46 Avenue A) known for surprise drop-ins\; Andre De Freitas\, Neema Naz
+ 
+\, Hoodo Hersi\, Orion Levine and Daniel Perafan on the bill. Tickets & inf
+ 
+o: https://topsecretcomedyclub.com/events-listings/friday-stand-up-comedy-1
+ 
+030pm-show-9/
+URL:https://topsecretcomedyclub.com/events-listings/friday-stand-up-comedy-
+ 
+1030pm-show-9/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261002-12@concierge
+DTSTAMP:20261002T120506Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:What Is/What If?: Art Gallery Reception
+LOCATION:The Bernie Wohl Center at Goddard Riverside\, Upper West Side
+DESCRIPTION:Opening reception for a community-themed exhibition by Seeds of
+ 
+ the League scholars and teaching artists\; complimentary wine and charcute
+ 
+rie with suggested donation. Tickets & info: https://www.eventbrite.com/e/w
+ 
+hat-iswhat-if-art-gallery-reception-tickets-2000637707238
+URL:https://www.eventbrite.com/e/what-iswhat-if-art-gallery-reception-ticke
+ 
+ts-2000637707238
+END:VEVENT
+END:VCALENDAR

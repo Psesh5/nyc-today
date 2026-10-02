@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, October 2</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, October 2</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-02.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown</div>
+<p>Harry Styles brings his Together, Together tour to the Garden for one giant night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Robert Glasper">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tickets/15016543">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $77.79</div>
+<p>The Grammy-winning pianist plays Blue Note — the room that made his legendary runs.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tickets/15016543">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Elder w/ Blackwater Holylight">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A70EFv">Elder w/ Blackwater Holylight</a></h3>
+<div class="meta">7:30 PM · Webster Hall, East Village</div>
+<p>Prog-doom heaviness: Elder with Blackwater Holylight at Webster Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A70EFv">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="When Chai Met Toast: Joy of Little Things Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/when-chai-met-toast-joy-of-new-york-new-york-10-02-2026/event/0000632B9B9E106C">When Chai Met Toast: Joy of Little Things Tour</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Bowery</div>
+<p>Kochi&#x27;s harmony-drenched indie-pop favorites bring the singalongs to the Bowery.</p>
+<a class="tickets" href="https://www.ticketmaster.com/when-chai-met-toast-joy-of-new-york-new-york-10-02-2026/event/0000632B9B9E106C">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-4" data-name="Oh, Mary!">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-02-2026/event/Z1r9uZruZqGZ17J9OA">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Theater District</div>
+<p>Cole Escola&#x27;s unhinged comedy about Mary Todd Lincoln — the funniest ticket on Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-02-2026/event/Z1r9uZruZqGZ17J9OA">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Mo Amer One Night Only at Radio City">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/mo-amer-one-night-only-at-new-york-new-york-10-02-2026/event/3C0064C374B80B63">Mo Amer One Night Only at Radio City</a></h3>
+<div class="meta">7:00 PM · Radio City Music Hall, Midtown</div>
+<p>The Ramy star brings his Netflix-honed stand-up hour to Radio City for one night only.</p>
+<a class="tickets" href="https://www.ticketmaster.com/mo-amer-one-night-only-at-new-york-new-york-10-02-2026/event/3C0064C374B80B63">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Friday Stand Up Comedy 10:30pm Show — Andre De Freitas, Neema Naz, Hoodo Hersi, Orion Levine &amp; Daniel Perafan">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://topsecretcomedyclub.com/events-listings/friday-stand-up-comedy-1030pm-show-9/">Friday Stand Up Comedy 10:30pm Show — Andre De Freitas, Neema Naz, Hoodo Hersi, Orion Levine &amp; Daniel Perafan</a></h3>
+<div class="meta">10:30 PM · Top Secret Comedy Club, East Village · 15</div>
+<p>Late-night mixed-bill standup at an intimate East Village room (44-46 Avenue A) known for surprise drop-ins; Andre De Freitas, Neema Naz, Hoodo Hersi, Orion Levine and Daniel Perafan on the bill.</p>
+<a class="tickets" href="https://topsecretcomedyclub.com/events-listings/friday-stand-up-comedy-1030pm-show-9/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-6" data-name="Operation Mincemeat: A New Musical">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-10-02-2026/event/Z1r9uZruZqGZ17Je_A">Operation Mincemeat: A New Musical</a></h3>
+<div class="meta">7:30 PM · John Golden Theatre, Theater District</div>
+<p>The Tony-winning WWII heist musical — MI5&#x27;s strangest true story, staged with a wink.</p>
+<a class="tickets" href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-10-02-2026/event/Z1r9uZruZqGZ17Je_A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Macbeth">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvE3k">Macbeth</a></h3>
+<div class="meta">7:30 PM · Metropolitan Opera House, Lincoln Square</div>
+<p>Verdi&#x27;s Macbeth at the Met: witches, ambition, and a full-throttle chorus.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvE3k">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="What Is/What If?: Art Gallery Reception">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/what-iswhat-if-art-gallery-reception-tickets-2000637707238">What Is/What If?: Art Gallery Reception</a></h3>
+<div class="meta">7:00 PM · The Bernie Wohl Center at Goddard Riverside, Upper West Side</div>
+<p>Opening reception for a community-themed exhibition by Seeds of the League scholars and teaching artists; complimentary wine and charcuterie with suggested donation.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/what-iswhat-if-art-gallery-reception-tickets-2000637707238">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-8" data-name="Sake Day Brooklyn">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sake-day-brooklyn-tickets-1995574588313">Sake Day Brooklyn</a></h3>
+<div class="meta">5:00 PM · Brooklyn Kura, Sunset Park</div>
+<p>Brooklyn Kura&#x27;s annual sake blowout — 50+ breweries pouring, DJ, food pop-ups, brewery tours.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sake-day-brooklyn-tickets-1995574588313">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-9" data-name="Mid-Autumn Festival 2026">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/mid-autumn-fest-2026">Mid-Autumn Festival 2026</a></h3>
+<div class="meta">1:00 PM · Gotham Park, Chinatown · Free</div>
+<p>Welcome to Chinatown&#x27;s lantern-lit festival under the Brooklyn Bridge — 20+ AAPI vendors, live performances, all weekend.</p>
+<a class="tickets" href="https://luma.com/mid-autumn-fest-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="2026 Spooky Snug Harbor Tour">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/02/2026-spooky-snug-harbor-tour">2026 Spooky Snug Harbor Tour</a></h3>
+<div class="meta">7:30 PM · Snug Harbor Cultural Center, Staten Island · 30</div>
+<p>A lantern-lit Halloween-season tour of Snug Harbor&#x27;s grounds on Staten Island.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/02/2026-spooky-snug-harbor-tour">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="NeuroNYC X Neurotech Futures X NYBCI Happy Hour">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/lkuoclr6">NeuroNYC X Neurotech Futures X NYBCI Happy Hour</a></h3>
+<div class="meta">Time TBA · Upper West Side (location shared on RSVP), Upper West Side · Free</div>
+<p>Free evening happy hour for neurotech enthusiasts, co-hosted with the NY Brain-Computer Interface Symposium; attendees get 15% off the Oct 3–4 conference.</p>
+<a class="tickets" href="https://luma.com/lkuoclr6">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-02";
+const NAMES = ["Harry Styles: Together, Together", "Robert Glasper", "Elder w/ Blackwater Holylight", "When Chai Met Toast: Joy of Little Things Tour", "Oh, Mary!", "Mo Amer One Night Only at Radio City", "Operation Mincemeat: A New Musical", "Macbeth", "Sake Day Brooklyn", "Mid-Autumn Festival 2026", "2026 Spooky Snug Harbor Tour", "Friday Stand Up Comedy 10:30pm Show \u2014 Andre De Freitas, Neema Naz, Hoodo Hersi, Orion Levine & Daniel Perafan", "What Is/What If?: Art Gallery Reception", "NeuroNYC X Neurotech Futures X NYBCI Happy Hour"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
