@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261003-0@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T200000
+DTEND;TZID=America/New_York:20261003T220000
+SUMMARY:Shaboozey: Outlaws Never Die Tour
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The country-rap superstar brings his Outlaws Never Die Tour to 
+ 
+the Hall — 'A Bar Song (Tipsy)' played live at scale. Tickets & info: htt
+ 
+ps://www.ticketmaster.com/shaboozey-outlaws-never-die-tour-new-york-new-yor
+ 
+k-10-03-2026/event/3C006499B56B1630
+URL:https://www.ticketmaster.com/shaboozey-outlaws-never-die-tour-new-york-
+ 
+new-york-10-03-2026/event/3C006499B56B1630
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-1@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T200000
+DTEND;TZID=America/New_York:20261003T220000
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:His 30-night Garden residency rolls on — the biggest pop resi
+ 
+dency of the fall\, still one giant singalong. Tickets & info: https://www.
+ 
+ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-202
+ 
+6/event/3B006435059882A6
+URL:https://www.ticketmaster.com/harry-styles-together-together-new-york-ne
+ 
+w-york-10-03-2026/event/3B006435059882A6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-2@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T200000
+DTEND;TZID=America/New_York:20261003T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:The Grammy-winning pianist holds court at the Village room that
+ 
+ made his legendary runs. Tickets & info: https://www.ticketweb.com/event/r
+ 
+obert-glasper-blue-note-jazz-club-tickets/15016573
+URL:https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tick
+ 
+ets/15016573
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-3@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T193000
+DTEND;TZID=America/New_York:20261003T213000
+SUMMARY:Ray LaMontagne: Trouble 20th Anniversary Tour
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Folk-rock singer-songwriter plays his breakout album front to b
+ 
+ack for its 20th anniversary. Tickets & info: https://www.ticketmaster.com/
+ 
+ray-lamontagne-trouble-20th-anniversary-tour-new-york-new-york-10-03-2026/e
+ 
+vent/3B00624CBE3919B2
+URL:https://www.ticketmaster.com/ray-lamontagne-trouble-20th-anniversary-to
+ 
+ur-new-york-new-york-10-03-2026/event/3B00624CBE3919B2
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-4@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T190000
+DTEND;TZID=America/New_York:20261003T210000
+SUMMARY:Julia Wolf: Deep End World Tour
+LOCATION:Irving Plaza\, Gramercy
+DESCRIPTION:Dark-pop's favorite party girl at Irving Plaza on her Deep End 
+ 
+World Tour. Tickets & info: https://www.ticketmaster.com/julia-wolf-deep-en
+ 
+d-world-tour-new-york-new-york-10-03-2026/event/00006488171CA214
+URL:https://www.ticketmaster.com/julia-wolf-deep-end-world-tour-new-york-ne
+ 
+w-york-10-03-2026/event/00006488171CA214
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-5@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T160000
+DTEND;TZID=America/New_York:20261003T180000
+SUMMARY:Kanan Gill: Not This Again
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:India's deadpan darling brings his new hour to Town Hall. Ticke
+ 
+ts & info: https://www.ticketmaster.com/kanan-gill-not-this-again-new-york-
+ 
+new-york-10-03-2026/event/0300651937120A05
+URL:https://www.ticketmaster.com/kanan-gill-not-this-again-new-york-new-yor
+ 
+k-10-03-2026/event/0300651937120A05
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-6@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T203000
+DTEND;TZID=America/New_York:20261003T223000
+SUMMARY:New York Comedy Club Presents: Judy Gold & Friends
+LOCATION:New York Comedy Club\, Upper West Side\, Upper West Side
+DESCRIPTION:Judy Gold headlines the UWS showcase with Erin Maguire and Jare
+ 
+d Waters — fast-paced brick-wall stand-up. Tickets & info: https://newyor
+ 
+kcomedyclub.com/events/new-york-comedy-club-presents-2026-10-10181500
+URL:https://newyorkcomedyclub.com/events/new-york-comedy-club-presents-2026
+ 
+-10-10181500
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-7@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:Art of Manga (Opening Day)
+LOCATION:Brooklyn Museum\, Prospect Heights
+DESCRIPTION:Opening day: 600+ original drawings from One Piece\, JoJo's\, I
+ 
+nuyasha — the first major US show treating manga as fine art. Tickets & i
+ 
+nfo: https://secure.brooklynmuseum.org/20186
+URL:https://secure.brooklynmuseum.org/20186
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-8@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T180000
+DTEND;TZID=America/New_York:20261003T200000
+SUMMARY:Floyd Bennett Field! Public Arts Festival
+LOCATION:Floyd Bennett Field\, Hangars 3 & 4\, Marine Park
+DESCRIPTION:Free night at the old airport: BYO picnic on the hangar lawn\, 
+ 
+then 15 commissioned works projection-mapped onto two monumental hangars. T
+ 
+ickets & info: http://www.jbrpc.org/events/2026/10/3/floyd-bennett-field-pu
+ 
+blic-arts-festival
+URL:http://www.jbrpc.org/events/2026/10/3/floyd-bennett-field-public-arts-f
+ 
+estival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-9@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T120000
+DTEND;TZID=America/New_York:20261003T140000
+SUMMARY:Brandon Tellez (Opening Day)
+LOCATION:Chinatown Soup\, Chinatown
+DESCRIPTION:Brooklyn oil painter's solo show opens today — large-scale po
+ 
+rtraits of the hip-hop legends he's painted since he was 17. Tickets & info
+ 
+: https://www.chinatownsoup.nyc/galleryshows/2026/10/3/brandon-tellez
+URL:https://www.chinatownsoup.nyc/galleryshows/2026/10/3/brandon-tellez
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-10@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T120000
+DTEND;TZID=America/New_York:20261003T140000
+SUMMARY:The Little Red Lighthouse Festival
+LOCATION:Little Red Lighthouse\, Fort Washington Park\, Upper West Side-Man
+ 
+hattan Valley
+DESCRIPTION:Celebrate Manhattan's only remaining lighthouse with rangers\, 
+ 
+book readings\, live music\, and rare tours inside the lighthouse itself (f
+ 
+irst 200 get tickets at noon). Tickets & info: http://www.nycgovparks.org/e
+ 
+vents/2026/10/03/summer-on-the-hudson-little-red-lighthouse-festival
+URL:http://www.nycgovparks.org/events/2026/10/03/summer-on-the-hudson-littl
+ 
+e-red-lighthouse-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261003-11@concierge
+DTSTAMP:20261003T120506Z
+DTSTART;TZID=America/New_York:20261003T120000
+DTEND;TZID=America/New_York:20261003T140000
+SUMMARY:46th Annual GreenThumb Harvest Fair
+LOCATION:Hattie Carthan Community Garden / Herbert Von King Park\, Bedford-
+ 
+Stuyvesant (West)
+DESCRIPTION:The 46th annual fall fair at Herbert Von King Park: cook-off\, 
+ 
+workshops\, garden tours\, pumpkin decorating\, and a DJ — all free. Tick
+ 
+ets & info: http://www.nycgovparks.org/events/2026/10/03/46th-annual-greent
+ 
+humb-harvest-fair
+URL:http://www.nycgovparks.org/events/2026/10/03/46th-annual-greenthumb-har
+ 
+vest-fair
+END:VEVENT
+END:VCALENDAR

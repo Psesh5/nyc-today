@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, October 3</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, October 3</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-03.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Shaboozey: Outlaws Never Die Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/shaboozey-outlaws-never-die-tour-new-york-new-york-10-03-2026/event/3C006499B56B1630">Shaboozey: Outlaws Never Die Tour</a></h3>
+<div class="meta">8:00 PM · Radio City Music Hall, Midtown-Times Square</div>
+<p>The country-rap superstar brings his Outlaws Never Die Tour to the Hall — &#x27;A Bar Song (Tipsy)&#x27; played live at scale.</p>
+<a class="tickets" href="https://www.ticketmaster.com/shaboozey-outlaws-never-die-tour-new-york-new-york-10-03-2026/event/3C006499B56B1630">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>His 30-night Garden residency rolls on — the biggest pop residency of the fall, still one giant singalong.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Robert Glasper">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tickets/15016573">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $77.65</div>
+<p>The Grammy-winning pianist holds court at the Village room that made his legendary runs.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-blue-note-jazz-club-tickets/15016573">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Ray LaMontagne: Trouble 20th Anniversary Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ray-lamontagne-trouble-20th-anniversary-tour-new-york-new-york-10-03-2026/event/3B00624CBE3919B2">Ray LaMontagne: Trouble 20th Anniversary Tour</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Folk-rock singer-songwriter plays his breakout album front to back for its 20th anniversary.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ray-lamontagne-trouble-20th-anniversary-tour-new-york-new-york-10-03-2026/event/3B00624CBE3919B2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Julia Wolf: Deep End World Tour">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/julia-wolf-deep-end-world-tour-new-york-new-york-10-03-2026/event/00006488171CA214">Julia Wolf: Deep End World Tour</a></h3>
+<div class="meta">7:00 PM · Irving Plaza, Gramercy</div>
+<p>Dark-pop&#x27;s favorite party girl at Irving Plaza on her Deep End World Tour.</p>
+<a class="tickets" href="https://www.ticketmaster.com/julia-wolf-deep-end-world-tour-new-york-new-york-10-03-2026/event/00006488171CA214">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Kanan Gill: Not This Again">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/kanan-gill-not-this-again-new-york-new-york-10-03-2026/event/0300651937120A05">Kanan Gill: Not This Again</a></h3>
+<div class="meta">4:00 PM · Town Hall, Midtown-Times Square</div>
+<p>India&#x27;s deadpan darling brings his new hour to Town Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/kanan-gill-not-this-again-new-york-new-york-10-03-2026/event/0300651937120A05">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="New York Comedy Club Presents: Judy Gold &amp; Friends">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/new-york-comedy-club-presents-2026-10-10181500">New York Comedy Club Presents: Judy Gold &amp; Friends</a></h3>
+<div class="meta">8:30 PM · New York Comedy Club, Upper West Side, Upper West Side</div>
+<p>Judy Gold headlines the UWS showcase with Erin Maguire and Jared Waters — fast-paced brick-wall stand-up.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/new-york-comedy-club-presents-2026-10-10181500">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts</h2>
+
+<article class="event" id="event-7" data-name="Art of Manga (Opening Day)">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://secure.brooklynmuseum.org/20186">Art of Manga (Opening Day)</a></h3>
+<div class="meta">11:00 AM · Brooklyn Museum, Prospect Heights · 30</div>
+<p>Opening day: 600+ original drawings from One Piece, JoJo&#x27;s, Inuyasha — the first major US show treating manga as fine art.</p>
+<a class="tickets" href="https://secure.brooklynmuseum.org/20186">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Floyd Bennett Field! Public Arts Festival">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.jbrpc.org/events/2026/10/3/floyd-bennett-field-public-arts-festival">Floyd Bennett Field! Public Arts Festival</a></h3>
+<div class="meta">6:00 PM · Floyd Bennett Field, Hangars 3 &amp; 4, Marine Park</div>
+<p>Free night at the old airport: BYO picnic on the hangar lawn, then 15 commissioned works projection-mapped onto two monumental hangars.</p>
+<a class="tickets" href="http://www.jbrpc.org/events/2026/10/3/floyd-bennett-field-public-arts-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Brandon Tellez (Opening Day)">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.chinatownsoup.nyc/galleryshows/2026/10/3/brandon-tellez">Brandon Tellez (Opening Day)</a></h3>
+<div class="meta">12:00 PM · Chinatown Soup, Chinatown</div>
+<p>Brooklyn oil painter&#x27;s solo show opens today — large-scale portraits of the hip-hop legends he&#x27;s painted since he was 17.</p>
+<a class="tickets" href="https://www.chinatownsoup.nyc/galleryshows/2026/10/3/brandon-tellez">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Outdoors</h2>
+
+<article class="event" id="event-10" data-name="The Little Red Lighthouse Festival">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/03/summer-on-the-hudson-little-red-lighthouse-festival">The Little Red Lighthouse Festival</a></h3>
+<div class="meta">12:00 PM · Little Red Lighthouse, Fort Washington Park, Upper West Side-Manhattan Valley</div>
+<p>Celebrate Manhattan&#x27;s only remaining lighthouse with rangers, book readings, live music, and rare tours inside the lighthouse itself (first 200 get tickets at noon).</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/03/summer-on-the-hudson-little-red-lighthouse-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="46th Annual GreenThumb Harvest Fair">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/03/46th-annual-greenthumb-harvest-fair">46th Annual GreenThumb Harvest Fair</a></h3>
+<div class="meta">12:00 PM · Hattie Carthan Community Garden / Herbert Von King Park, Bedford-Stuyvesant (West)</div>
+<p>The 46th annual fall fair at Herbert Von King Park: cook-off, workshops, garden tours, pumpkin decorating, and a DJ — all free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/03/46th-annual-greenthumb-harvest-fair">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-03";
+const NAMES = ["Shaboozey: Outlaws Never Die Tour", "Harry Styles: Together, Together", "Robert Glasper", "Ray LaMontagne: Trouble 20th Anniversary Tour", "Julia Wolf: Deep End World Tour", "Kanan Gill: Not This Again", "New York Comedy Club Presents: Judy Gold & Friends", "Art of Manga (Opening Day)", "Floyd Bennett Field! Public Arts Festival", "Brandon Tellez (Opening Day)", "The Little Red Lighthouse Festival", "46th Annual GreenThumb Harvest Fair"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
