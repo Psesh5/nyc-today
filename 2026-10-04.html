@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, October 4</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, October 4</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-04.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-0" data-name="Third United Lenape / Lunáapeew Nations Pow Wow">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/third-united-lenape-lunaapeew-nations-pow-wow/2026-10-04/">Third United Lenape / Lunáapeew Nations Pow Wow</a></h3>
+<div class="meta">10:00 AM · LeFrak Center at Lakeside, Prospect Park, Prospect Park · Free</div>
+<p>Third annual gathering of Lenape/Lunáapeew nations at LeFrak Center — drumming, dancing, crafts and food vendors, all free.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/third-united-lenape-lunaapeew-nations-pow-wow/2026-10-04/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="The National Arts Club Community Day">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-national-arts-club-community-day-tickets-2001023473074">The National Arts Club Community Day</a></h3>
+<div class="meta">10:00 AM · The National Arts Club, Gramercy · Free</div>
+<p>The Gramercy landmark opens its Tilden Mansion doors — galleries, live salsa on the stoop, kids&#x27; activities, all free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-national-arts-club-community-day-tickets-2001023473074">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Rockaway Fall Festival">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/04/fall-festival">Rockaway Fall Festival</a></h3>
+<div class="meta">12:00 PM · Beach 116 (in Rockaway Beach), Rockaway Beach · Free</div>
+<p>Pumpkin maze, pumpkin patch, rides and crafts at Beach 116 — a full fall afternoon by the ocean, free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/04/fall-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="The Art of Allowing — Final Day">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/Vh9LaaLQqX1SrxLICz4F">The Art of Allowing — Final Day</a></h3>
+<div class="meta">1:00 PM · Temple Gallery, Lower East Side · Free</div>
+<p>Espella Collective&#x27;s intimate group show on grief, loss, and acceptance closes today at Temple Gallery — tender photography and mixed work on what it means to let go.</p>
+<a class="tickets" href="https://partiful.com/e/Vh9LaaLQqX1SrxLICz4F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Disco Tehran Anniversary Party">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/disco-tehran-anniversary-party-tickets-1995466938329">Disco Tehran Anniversary Party</a></h3>
+<div class="meta">4:00 PM · Elsewhere - The Rooftop, Bushwick · $30.44</div>
+<p>Anniversary rooftop rave in Bushwick — Persian disco, funk and house across the Rooftop and Loft, phone-free dance floor.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/disco-tehran-anniversary-party-tickets-1995466938329">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-2" data-name="Smorgasburg">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/smorgasburg-4/2026-10-04/">Smorgasburg</a></h3>
+<div class="meta">11:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>The &#x27;Woodstock of Eating&#x27; returns to Breeze Hill with 60+ local vendors — every Sunday through Oct 25.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/smorgasburg-4/2026-10-04/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Mid Autumn Festival">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mid-autumn-festival-tickets-2000287421524">Mid Autumn Festival</a></h3>
+<div class="meta">1:00 PM · Gotham Park, Chinatown · Free</div>
+<p>Chinatown&#x27;s night market under the Brooklyn Bridge — 100+ community-painted lanterns, food vendors, all-ages, free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mid-autumn-festival-tickets-2000287421524">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-6" data-name="Jazz in the Park at Ralph Ellison">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://riversideparknyc.org/event/jazz-in-the-park-at-ralph-ellison-2-2/2026-10-04/">Jazz in the Park at Ralph Ellison</a></h3>
+<div class="meta">2:00 PM · Ralph Ellison Plaza, Upper West Side · Free</div>
+<p>Free community jazz concert in Riverside Park — bring a blanket, first-come seating.</p>
+<a class="tickets" href="https://riversideparknyc.org/event/jazz-in-the-park-at-ralph-ellison-2-2/2026-10-04/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Sunday Sunday: Axel Boman, Rebolledo">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/l8mgar-sunday-sunday-axel-boman-rebolledo-4th-oct-ruins-at-knockdown-center-new-york-tickets">Sunday Sunday: Axel Boman, Rebolledo</a></h3>
+<div class="meta">3:00 PM · Ruins at Knockdown Center, Maspeth · Free</div>
+<p>The beloved community house-and-techno party lands at the Ruins — Studio Barnhus co-founder Axel Boman and Rebolledo headline an open-air afternoon-to-evening session.</p>
+<a class="tickets" href="https://dice.fm/event/l8mgar-sunday-sunday-axel-boman-rebolledo-4th-oct-ruins-at-knockdown-center-new-york-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="GIRL NOISE Music Festival">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/girl-noise-music-festival-new-york-new-york-10-04-2026/event/0000651FA3E8B822">GIRL NOISE Music Festival</a></h3>
+<div class="meta">6:00 PM · Bowery Ballroom, Lower East Side · $20</div>
+<p>One-night indie festival at the Bowery Ballroom — girlpuppy, fesssi, Kid Lake and more, doors 6pm.</p>
+<a class="tickets" href="https://www.ticketmaster.com/girl-noise-music-festival-new-york-new-york-10-04-2026/event/0000651FA3E8B822">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Chief Keef">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.axs.com/events/1511193/chief-keef-tickets?skin=therooftopatpier17">Chief Keef</a></h3>
+<div class="meta">7:00 PM · The Rooftop at Pier 17, Seaport</div>
+<p>The drill pioneer takes over the Pier 17 rooftop with The Glo Boyz and Funk Flex — open-air, rain or shine.</p>
+<a class="tickets" href="https://www.axs.com/events/1511193/chief-keef-tickets?skin=therooftopatpier17">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Oh, Mary!">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-04-2026/event/Z1r9uZruZqGZ17J9ON">Oh, Mary!</a></h3>
+<div class="meta">3:00 PM · Lyceum Theatre, Midtown</div>
+<p>The smash-hit Broadway comedy about Mary Todd Lincoln — still the hardest ticket to laugh at in town.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-04-2026/event/Z1r9uZruZqGZ17J9ON">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Apartmentville: A Homemade Variety Show!">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/bbgdyg-apartmentville-a-homemade-variety-show-4th-oct-purgatory-new-york-tickets">Apartmentville: A Homemade Variety Show!</a></h3>
+<div class="meta">6:00 PM · Purgatory, Bushwick · 17</div>
+<p>Two former roommates move the house show out of the house, turning Bushwick&#x27;s Purgatory into a living room of comedy, sketches, and a full live band — with Tyrone Thornhill and Laura Lizcano on the bill.</p>
+<a class="tickets" href="https://dice.fm/event/bbgdyg-apartmentville-a-homemade-variety-show-4th-oct-purgatory-new-york-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Comedy Show + Mini-Golf!">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/comedy-show-mini-golf-tickets-2001241387863">Comedy Show + Mini-Golf!</a></h3>
+<div class="meta">7:00 PM · High Line Comedy Club, Meatpacking · $17.85</div>
+<p>Stand-up from Netflix/HBO/Comedy Central comics plus a round of mini-golf at Puttery — cocktails, rooftop views, 21+.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/comedy-show-mini-golf-tickets-2001241387863">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-10" data-name="New York Rangers vs. Utah Mammoth">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-rangers-vs-utah-mammoth-new-york-new-york-10-04-2026/event/3B0064F1B1D6443F">New York Rangers vs. Utah Mammoth</a></h3>
+<div class="meta">6:00 PM · Madison Square Garden, Midtown</div>
+<p>Sunday-night hockey at the Garden — the Rangers host the league&#x27;s newest franchise under the MSG lights.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-rangers-vs-utah-mammoth-new-york-new-york-10-04-2026/event/3B0064F1B1D6443F">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-04";
+const NAMES = ["Third United Lenape / Lun\u00e1apeew Nations Pow Wow", "The National Arts Club Community Day", "Smorgasburg", "Rockaway Fall Festival", "Mid Autumn Festival", "The Art of Allowing \u2014 Final Day", "Jazz in the Park at Ralph Ellison", "Oh, Mary!", "Sunday Sunday: Axel Boman, Rebolledo", "Disco Tehran Anniversary Party", "New York Rangers vs. Utah Mammoth", "GIRL NOISE Music Festival", "Apartmentville: A Homemade Variety Show!", "Chief Keef", "Comedy Show + Mini-Golf!"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
