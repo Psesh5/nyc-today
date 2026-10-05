@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, October 5</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, October 5</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-05.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916103">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Grammy-winning 11-piece band recreating authentic 1920s jazz — the crew behind the Boardwalk Empire and Marvelous Mrs. Maisel soundtracks.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916103">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="A New York Evening With RAGTIME">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/a-new-york-evening-with-ragtime-tickets-FN4LD1?ref=ticketmaster">A New York Evening With RAGTIME</a></h3>
+<div class="meta">6:30 PM · The Greene Space, SoHo</div>
+<p>Grammy Museum night celebrating the musical RAGTIME — songwriters Lynn Ahrens &amp; Stephen Flaherty in conversation with stars Joshua Henry, Caissie Levy and Brandon Uranowitz, plus a performance.</p>
+<a class="tickets" href="https://www.universe.com/events/a-new-york-evening-with-ragtime-tickets-FN4LD1?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Everything Everything - Get To Heaven 10th Anniversary Tour">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/everything-everything-get-to-heaven-10th-new-york-new-york-10-05-2026/event/000064A8D3096B01">Everything Everything - Get To Heaven 10th Anniversary Tour</a></h3>
+<div class="meta">7:00 PM · Irving Plaza, Gramercy · $59.5</div>
+<p>Manchester art-rockers play their landmark album Get To Heaven in full for its 10th anniversary.</p>
+<a class="tickets" href="https://www.ticketmaster.com/everything-everything-get-to-heaven-10th-new-york-new-york-10-05-2026/event/000064A8D3096B01">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Stefon Harris &amp; Blackout">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/stefon-harris-blackout-blue-note-jazz-club-tickets/15019763">Stefon Harris &amp; Blackout</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $43.8</div>
+<p>Four-time Grammy-nominated vibraphonist brings his electrifying contemporary jazz band to the Village.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/stefon-harris-blackout-blue-note-jazz-club-tickets/15019763">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Rev. Vince Anderson &amp; The Love Choir!">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/ryrboq-rev-vince-anderson-the-love-choir-5th-oct-union-pool-new-york-tickets?pid=717f1d8a&amp;_branch_match_id=1625424402540333381&amp;utm_medium=partners_api&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S8yN0pKTDJPTjY3MrIvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKMrPTQUARIJOlUgAAAA%3D">Rev. Vince Anderson &amp; The Love Choir!</a></h3>
+<div class="meta">8:30 PM · Union Pool, Williamsburg · Free</div>
+<p>Free weekly Monday gospel-rock blowout — a full choir in a beloved Williamsburg bar venue. The city&#x27;s best Monday ritual.</p>
+<a class="tickets" href="https://dice.fm/event/ryrboq-rev-vince-anderson-the-love-choir-5th-oct-union-pool-new-york-tickets?pid=717f1d8a&amp;_branch_match_id=1625424402540333381&amp;utm_medium=partners_api&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S8yN0pKTDJPTjY3MrIvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKMrPTQUARIJOlUgAAAA%3D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="New York Modular Society 7th Anniversary">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/7d57v9-new-york-modular-society-7th-anniversary-5th-oct-the-sultan-room-rooftop-brooklyn-tickets?pid=717f1d8a&amp;_branch_match_id=1626789450688689338&amp;utm_medium=partners_api&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Q9KTbS0SExNMTE0MbQvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAlDU%2BVEgAAAA%3D">New York Modular Society 7th Anniversary</a></h3>
+<div class="meta">7:00 PM · The Sultan Room Rooftop, Bushwick · $13.91</div>
+<p>Seven years of NYC&#x27;s modular-synth community: six live hardware sets — no AI, no laptops, all real-time.</p>
+<a class="tickets" href="https://dice.fm/event/7d57v9-new-york-modular-society-7th-anniversary-5th-oct-the-sultan-room-rooftop-brooklyn-tickets?pid=717f1d8a&amp;_branch_match_id=1626789450688689338&amp;utm_medium=partners_api&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Q9KTbS0SExNMTE0MbQvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAlDU%2BVEgAAAA%3D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="beabadoobee: The Powerlines Tour">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-new-york-new-york-10-05-2026/event/3B0064D1CF355790">beabadoobee: The Powerlines Tour</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown West · $66.95</div>
+<p>The Filipino-British indie star brings The Powerlines Tour to the Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-new-york-new-york-10-05-2026/event/3B0064D1CF355790">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Fraxiom (DJ Set)">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://link.dice.fm/mbd2ada140bb">Fraxiom (DJ Set)</a></h3>
+<div class="meta">10:30 PM · Sleepwalk, Bushwick · $14.73</div>
+<p>Chicago hyperpop artist Fraxiom (half of food house) plays a late-night DJ set in Bushwick while touring the debut album.</p>
+<a class="tickets" href="https://link.dice.fm/mbd2ada140bb">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Singfeld! A Musical About Nothing!">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-10-05-2026/event/300064F7958739E9">Singfeld! A Musical About Nothing!</a></h3>
+<div class="meta">7:30 PM · The Theater Center, Midtown-Times Square · $60.85</div>
+<p>The Seinfeld musical parody — a night at the theater about nothing.</p>
+<a class="tickets" href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-10-05-2026/event/300064F7958739E9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="NYC&#x27;s Secret Comedy Show Feat. The No Static Orchestra">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nycs-secret-comedy-show-feat-the-no-static-orchestra-netflix-snl-hbo-tickets-2002549703069">NYC&#x27;s Secret Comedy Show Feat. The No Static Orchestra</a></h3>
+<div class="meta">7:30 PM · The Overlook Bar, Flatiron · $50</div>
+<p>Surprise Netflix/SNL/HBO comics backed by a live soul-jazz orchestra — cocktails at 6, phone-free via Yondr bags.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nycs-secret-comedy-show-feat-the-no-static-orchestra-netflix-snl-hbo-tickets-2002549703069">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-9" data-name="Offsite: Yotam Ottolenghi: Simple Too w/ Alison Roman">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/offsite-yotam-ottolenghi-simple-too-w-alison-roman-tickets-1985940823463">Offsite: Yotam Ottolenghi: Simple Too w/ Alison Roman</a></h3>
+<div class="meta">7:00 PM · St. Ann &amp; the Holy Trinity Church, Brooklyn Heights · $54.44</div>
+<p>The SIMPLE TOO book launch — Ottolenghi in conversation with Alison Roman. Each ticket includes a signed copy of the book.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/offsite-yotam-ottolenghi-simple-too-w-alison-roman-tickets-1985940823463">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-10" data-name="Pétanque in the Park">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/05/ptanque-in-the-park">Pétanque in the Park</a></h3>
+<div class="meta">1:00 PM · Washington Square Park, Greenwich Village · Free</div>
+<p>NYC&#x27;s oldest pétanque club teaches you the French lawn-bowling game in Washington Square — boules provided, free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/05/ptanque-in-the-park">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Harlem Run: Monday Night Run">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/05/harlem-run-monday-night-run">Harlem Run: Monday Night Run</a></h3>
+<div class="meta">6:45 PM · Marcus Garvey Park, East Harlem · Free</div>
+<p>Free pacer-led Monday run through Harlem — all paces welcome, starting and ending at Marcus Garvey Park.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/05/harlem-run-monday-night-run">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-11" data-name="Public Craft Night Mondays and Thursdays!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098776065">Public Craft Night Mondays and Thursdays!</a></h3>
+<div class="meta">6:30 PM · NYC Resistor, Boerum Hill · Free</div>
+<p>Bring whatever you&#x27;re making — costumes to electronics — to Brooklyn&#x27;s legendary maker space. 18+, free, masks optional.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098776065">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Books</h2>
+
+<article class="event" id="event-14" data-name="Romance Read-In to Benefit Authors Against Book Bans">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/romance-read-in-to-benefit-authors-against-book-bans-tickets-1998273121699">Romance Read-In to Benefit Authors Against Book Bans</a></h3>
+<div class="meta">7:30 PM · Book Club Bar, East Village</div>
+<p>Banned Books Week at a bookstore bar: quiet side-by-side reading, then small-group chats with romance authors — ticket proceeds fund Authors Against Book Bans.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/romance-read-in-to-benefit-authors-against-book-bans-tickets-1998273121699">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-05";
+const NAMES = ["Vince Giordano and the Nighthawks", "A New York Evening With RAGTIME", "Everything Everything - Get To Heaven 10th Anniversary Tour", "Stefon Harris & Blackout", "Rev. Vince Anderson & The Love Choir!", "New York Modular Society 7th Anniversary", "beabadoobee: The Powerlines Tour", "Singfeld! A Musical About Nothing!", "NYC's Secret Comedy Show Feat. The No Static Orchestra", "Offsite: Yotam Ottolenghi: Simple Too w/ Alison Roman", "P\u00e9tanque in the Park", "Public Craft Night Mondays and Thursdays!", "Harlem Run: Monday Night Run", "Fraxiom (DJ Set)", "Romance Read-In to Benefit Authors Against Book Bans"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

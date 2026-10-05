@@ -1,0 +1,285 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261005-0@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T173000
+DTEND;TZID=America/New_York:20261005T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning 11-piece band recreating authentic 1920s jazz 
+ 
+ the crew behind the Boardwalk Empire and Marvelous Mrs. Maisel soundtrack
+ 
+s. Tickets & info: https://www.ticketweb.com/event/vince-giordano-and-the-n
+ 
+ighthawks-birdland-theater-tickets/14916103
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14916103
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-1@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T183000
+DTEND;TZID=America/New_York:20261005T203000
+SUMMARY:A New York Evening With RAGTIME
+LOCATION:The Greene Space\, SoHo
+DESCRIPTION:Grammy Museum night celebrating the musical RAGTIME — songwri
+ 
+ters Lynn Ahrens & Stephen Flaherty in conversation with stars Joshua Henry
+ 
+\, Caissie Levy and Brandon Uranowitz\, plus a performance. Tickets & info:
+ 
+ https://www.universe.com/events/a-new-york-evening-with-ragtime-tickets-FN
+ 
+4LD1?ref=ticketmaster
+URL:https://www.universe.com/events/a-new-york-evening-with-ragtime-tickets
+ 
+-FN4LD1?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-2@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T190000
+DTEND;TZID=America/New_York:20261005T210000
+SUMMARY:Everything Everything - Get To Heaven 10th Anniversary Tour
+LOCATION:Irving Plaza\, Gramercy
+DESCRIPTION:Manchester art-rockers play their landmark album Get To Heaven 
+ 
+in full for its 10th anniversary. Tickets & info: https://www.ticketmaster.
+ 
+com/everything-everything-get-to-heaven-10th-new-york-new-york-10-05-2026/e
+ 
+vent/000064A8D3096B01
+URL:https://www.ticketmaster.com/everything-everything-get-to-heaven-10th-n
+ 
+ew-york-new-york-10-05-2026/event/000064A8D3096B01
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-3@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T200000
+DTEND;TZID=America/New_York:20261005T220000
+SUMMARY:Stefon Harris & Blackout
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Four-time Grammy-nominated vibraphonist brings his electrifying
+ 
+ contemporary jazz band to the Village. Tickets & info: https://www.ticketw
+ 
+eb.com/event/stefon-harris-blackout-blue-note-jazz-club-tickets/15019763
+URL:https://www.ticketweb.com/event/stefon-harris-blackout-blue-note-jazz-c
+ 
+lub-tickets/15019763
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-4@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T203000
+DTEND;TZID=America/New_York:20261005T223000
+SUMMARY:Rev. Vince Anderson & The Love Choir!
+LOCATION:Union Pool\, Williamsburg
+DESCRIPTION:Free weekly Monday gospel-rock blowout — a full choir in a be
+ 
+loved Williamsburg bar venue. The city's best Monday ritual. Tickets & info
+ 
+: https://dice.fm/event/ryrboq-rev-vince-anderson-the-love-choir-5th-oct-un
+ 
+ion-pool-new-york-tickets?pid=717f1d8a&_branch_match_id=1625424402540333381
+ 
+&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLy
+ 
+UxO1UvL1S8yN0pKTDJPTjY3MrIvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKMrP
+ 
+TQUARIJOlUgAAAA%3D
+URL:https://dice.fm/event/ryrboq-rev-vince-anderson-the-love-choir-5th-oct-
+ 
+union-pool-new-york-tickets?pid=717f1d8a&_branch_match_id=16254244025403333
+ 
+81&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9Z
+ 
+LyUxO1UvL1S8yN0pKTDJPTjY3MrIvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnXOKM
+ 
+rPTQUARIJOlUgAAAA%3D
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-5@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T190000
+DTEND;TZID=America/New_York:20261005T210000
+SUMMARY:New York Modular Society 7th Anniversary
+LOCATION:The Sultan Room Rooftop\, Bushwick
+DESCRIPTION:Seven years of NYC's modular-synth community: six live hardware
+ 
+ sets — no AI\, no laptops\, all real-time. Tickets & info: https://dice.
+ 
+fm/event/7d57v9-new-york-modular-society-7th-anniversary-5th-oct-the-sultan
+ 
+-room-rooftop-brooklyn-tickets?pid=717f1d8a&_branch_match_id=16267894506886
+ 
+89338&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nM
+ 
+y9ZLyUxO1UvL1Q9KTbS0SExNMTE0MbQvyEyxNTc0TzNMsUhUqytKTUstKsrMS49PKsovL04tsnX
+ 
+OKMrPTQUAlDU%2BVEgAAAA%3D
+URL:https://dice.fm/event/7d57v9-new-york-modular-society-7th-anniversary-5
+ 
+th-oct-the-sultan-room-rooftop-brooklyn-tickets?pid=717f1d8a&_branch_match_
+ 
+id=1626789450688689338&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAA
+ 
+AA8soKSkottLXz8nMy9ZLyUxO1UvL1Q9KTbS0SExNMTE0MbQvyEyxNTc0TzNMsUhUqytKTUstKs
+ 
+rMS49PKsovL04tsnXOKMrPTQUAlDU%2BVEgAAAA%3D
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-6@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T200000
+DTEND;TZID=America/New_York:20261005T220000
+SUMMARY:beabadoobee: The Powerlines Tour
+LOCATION:Madison Square Garden\, Midtown West
+DESCRIPTION:The Filipino-British indie star brings The Powerlines Tour to t
+ 
+he Garden. Tickets & info: https://www.ticketmaster.com/beabadoobee-the-pow
+ 
+erlines-tour-new-york-new-york-10-05-2026/event/3B0064D1CF355790
+URL:https://www.ticketmaster.com/beabadoobee-the-powerlines-tour-new-york-n
+ 
+ew-york-10-05-2026/event/3B0064D1CF355790
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-7@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T193000
+DTEND;TZID=America/New_York:20261005T213000
+SUMMARY:Singfeld! A Musical About Nothing!
+LOCATION:The Theater Center\, Midtown-Times Square
+DESCRIPTION:The Seinfeld musical parody — a night at the theater about no
+ 
+thing. Tickets & info: https://www.ticketmaster.com/singfeld-a-musical-abou
+ 
+t-nothing-new-york-new-york-10-05-2026/event/300064F7958739E9
+URL:https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-
+ 
+new-york-10-05-2026/event/300064F7958739E9
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-8@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T193000
+DTEND;TZID=America/New_York:20261005T213000
+SUMMARY:NYC's Secret Comedy Show Feat. The No Static Orchestra
+LOCATION:The Overlook Bar\, Flatiron
+DESCRIPTION:Surprise Netflix/SNL/HBO comics backed by a live soul-jazz orch
+ 
+estra — cocktails at 6\, phone-free via Yondr bags. Tickets & info: https
+ 
+://www.eventbrite.com/e/nycs-secret-comedy-show-feat-the-no-static-orchestr
+ 
+a-netflix-snl-hbo-tickets-2002549703069
+URL:https://www.eventbrite.com/e/nycs-secret-comedy-show-feat-the-no-static
+ 
+-orchestra-netflix-snl-hbo-tickets-2002549703069
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-9@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T190000
+DTEND;TZID=America/New_York:20261005T210000
+SUMMARY:Offsite: Yotam Ottolenghi: Simple Too w/ Alison Roman
+LOCATION:St. Ann & the Holy Trinity Church\, Brooklyn Heights
+DESCRIPTION:The SIMPLE TOO book launch — Ottolenghi in conversation with 
+ 
+Alison Roman. Each ticket includes a signed copy of the book. Tickets & inf
+ 
+o: https://www.eventbrite.com/e/offsite-yotam-ottolenghi-simple-too-w-aliso
+ 
+n-roman-tickets-1985940823463
+URL:https://www.eventbrite.com/e/offsite-yotam-ottolenghi-simple-too-w-alis
+ 
+on-roman-tickets-1985940823463
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-10@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T130000
+DTEND;TZID=America/New_York:20261005T150000
+SUMMARY:Pétanque in the Park
+LOCATION:Washington Square Park\, Greenwich Village
+DESCRIPTION:NYC's oldest pétanque club teaches you the French lawn-bowling
+ 
+ game in Washington Square — boules provided\, free. Tickets & info: http
+ 
+://www.nycgovparks.org/events/2026/10/05/ptanque-in-the-park
+URL:http://www.nycgovparks.org/events/2026/10/05/ptanque-in-the-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-11@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T183000
+DTEND;TZID=America/New_York:20261005T203000
+SUMMARY:Public Craft Night Mondays and Thursdays!
+LOCATION:NYC Resistor\, Boerum Hill
+DESCRIPTION:Bring whatever you're making — costumes to electronics — to
+ 
+ Brooklyn's legendary maker space. 18+\, free\, masks optional. Tickets & i
+ 
+nfo: https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-
+ 
+tickets-1992098776065
+URL:https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-t
+ 
+ickets-1992098776065
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-12@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T184500
+DTEND;TZID=America/New_York:20261005T204500
+SUMMARY:Harlem Run: Monday Night Run
+LOCATION:Marcus Garvey Park\, East Harlem
+DESCRIPTION:Free pacer-led Monday run through Harlem — all paces welcome\
+ 
+, starting and ending at Marcus Garvey Park. Tickets & info: http://www.nyc
+ 
+govparks.org/events/2026/10/05/harlem-run-monday-night-run
+URL:http://www.nycgovparks.org/events/2026/10/05/harlem-run-monday-night-ru
+ 
+n
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-13@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T223000
+DTEND;TZID=America/New_York:20261006T003000
+SUMMARY:Fraxiom (DJ Set)
+LOCATION:Sleepwalk\, Bushwick
+DESCRIPTION:Chicago hyperpop artist Fraxiom (half of food house) plays a la
+ 
+te-night DJ set in Bushwick while touring the debut album. Tickets & info: 
+ 
+https://link.dice.fm/mbd2ada140bb
+URL:https://link.dice.fm/mbd2ada140bb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261005-14@concierge
+DTSTAMP:20261005T120943Z
+DTSTART;TZID=America/New_York:20261005T193000
+DTEND;TZID=America/New_York:20261005T213000
+SUMMARY:Romance Read-In to Benefit Authors Against Book Bans
+LOCATION:Book Club Bar\, East Village
+DESCRIPTION:Banned Books Week at a bookstore bar: quiet side-by-side readin
+ 
+g\, then small-group chats with romance authors — ticket proceeds fund Au
+ 
+thors Against Book Bans. Tickets & info: https://www.eventbrite.com/e/roman
+ 
+ce-read-in-to-benefit-authors-against-book-bans-tickets-1998273121699
+URL:https://www.eventbrite.com/e/romance-read-in-to-benefit-authors-against
+ 
+-book-bans-tickets-1998273121699
+END:VEVENT
+END:VCALENDAR
