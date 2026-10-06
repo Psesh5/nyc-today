@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261006-0@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T173000
+DTEND;TZID=America/New_York:20261006T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:GRAMMY-winning 11-piece band recreating authentic 1920s jazz 
+ 
+ the crew behind the Boardwalk Empire and Marvelous Mrs. Maisel soundtrack
+ 
+s. Tickets & info: https://www.ticketweb.com/event/vince-giordano-and-the-n
+ 
+ighthawks-birdland-theater-tickets/14916133
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14916133
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-1@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T180000
+DTEND;TZID=America/New_York:20261006T200000
+SUMMARY:Knocked Loose & Denzel Curry
+LOCATION:The Rooftop at Pier 17\, Financial District-Battery Park City
+DESCRIPTION:Hardcore metalcore meets rap heavyweight on a rooftop over the 
+ 
+East River — with Superheaven and Boundaries. All ages\, show ends by 10 
+ 
+PM. Tickets & info: https://www.axs.com/events/1459422/knocked-loose-ticket
+ 
+s?skin=therooftopatpier17
+URL:https://www.axs.com/events/1459422/knocked-loose-tickets?skin=theroofto
+ 
+patpier17
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-2@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T200000
+DTEND;TZID=America/New_York:20261006T220000
+SUMMARY:Stefon Harris & Blackout
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Four-time Grammy-nominated vibraphonist and his Grammy-nominate
+ 
+d band — electrifying modern jazz with a $20 food/drink minimum. Tickets 
+ 
+& info: https://www.ticketweb.com/event/stefon-harris-blackout-blue-note-ja
+ 
+zz-club-tickets/15019793
+URL:https://www.ticketweb.com/event/stefon-harris-blackout-blue-note-jazz-c
+ 
+lub-tickets/15019793
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-3@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T183000
+DTEND;TZID=America/New_York:20261006T203000
+SUMMARY:Grieving & Weaving
+LOCATION:The Green-Wood Cemetery\, Sunset Park
+DESCRIPTION:A knitting and crochet group that meets in a cemetery — craft
+ 
+\, share stories\, and learn in Green-Wood's Modern Chapel. Beginners welco
+ 
+me\, free with registration. Tickets & info: https://www.eventbrite.com/e/g
+ 
+rieving-weaving-tickets-2001081307057
+URL:https://www.eventbrite.com/e/grieving-weaving-tickets-2001081307057
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-4@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T193000
+DTEND;TZID=America/New_York:20261006T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's hit comedy about Mary Todd Lincoln — a sharp\, 
+ 
+unhinged 80 minutes at the Lyceum. Tickets & info: https://www.ticketmaster
+ 
+.com/oh-mary-new-york-new-york-10-06-2026/event/Z1r9uZruZqGZ17J9rF
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-06-2026/event
+ 
+/Z1r9uZruZqGZ17J9rF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-5@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T193000
+DTEND;TZID=America/New_York:20261006T213000
+SUMMARY:Richard Perez: I Have To Do This
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:Richard Perez brings his hour to Gramercy Theatre — doors 6:3
+ 
+0 PM\, 16+. Tickets & info: https://www.ticketmaster.com/richard-perez-i-ha
+ 
+ve-to-do-new-york-new-york-10-06-2026/event/00006503DBFB9402
+URL:https://www.ticketmaster.com/richard-perez-i-have-to-do-new-york-new-yo
+ 
+rk-10-06-2026/event/00006503DBFB9402
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-6@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T193000
+DTEND;TZID=America/New_York:20261006T213000
+SUMMARY:New York Rangers vs. New York Islanders
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Rivalry night at the Garden — Rangers host the Islanders\, 7:
+ 
+30 PM puck drop. Tickets & info: https://www.ticketmaster.com/new-york-rang
+ 
+ers-vs-new-york-new-york-new-york-10-06-2026/event/3B0064F1B1D64441
+URL:https://www.ticketmaster.com/new-york-rangers-vs-new-york-new-york-new-
+ 
+york-10-06-2026/event/3B0064F1B1D64441
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-7@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T193000
+DTEND;TZID=America/New_York:20261006T213000
+SUMMARY:Book Launch: Eric Ripert with Dana Cowin
+LOCATION:St. Joseph’s University\, New York - Brooklyn\, Fort Greene
+DESCRIPTION:Three-Michelin-star chef Eric Ripert launches his plant-based c
+ 
+ookbook Mindful Cooking\, in conversation with Dana Cowin. Ticket includes 
+ 
+the book. Tickets & info: https://www.eventbrite.com/e/book-launch-eric-rip
+ 
+ert-with-dana-cowin-tickets-1996897957546
+URL:https://www.eventbrite.com/e/book-launch-eric-ripert-with-dana-cowin-ti
+ 
+ckets-1996897957546
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-8@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T193000
+DTEND;TZID=America/New_York:20261006T213000
+SUMMARY:Heel Toe Rodeo
+LOCATION:littlefield\, Gowanus
+DESCRIPTION:Beginner-friendly line dancing night with lessons all evening\,
+ 
+ hosted by Juliet Hartz at littlefield. 21+. Tickets & info: https://www.ev
+ 
+entbrite.com/e/heel-toe-rodeo-tickets-1997940162810
+URL:https://www.eventbrite.com/e/heel-toe-rodeo-tickets-1997940162810
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-9@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T110000
+DTEND;TZID=America/New_York:20261006T130000
+SUMMARY:Brooklyn Tech Expo: FALL4AI Edition
+LOCATION:26 Bridge St\, Dumbo
+DESCRIPTION:Brooklyn's largest AI & tech expo — 1\,000+ professionals\, s
+ 
+eminars on AI strategy and vibe coding\, networking\, and free professional
+ 
+ headshots. Part of AI Week New York. Tickets & info: https://www.eventbrit
+ 
+e.com/e/brooklyn-tech-expo-fall4ai-edition-oct-6-2026-tickets-1989878874279
+URL:https://www.eventbrite.com/e/brooklyn-tech-expo-fall4ai-edition-oct-6-2
+ 
+026-tickets-1989878874279
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-10@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T183000
+DTEND;TZID=America/New_York:20261006T203000
+SUMMARY:ElevenLabs x Creator Spotlight: The New Reach
+LOCATION:ElevenLabs NYC HQ\, SoHo
+DESCRIPTION:No-fluff panel on how creators are actually using AI audio tool
+ 
+ing — plus drinks\, canapes\, and mingling at ElevenLabs NYC HQ. Tickets 
+ 
+& info: https://luma.com/TheNewReach
+URL:https://luma.com/TheNewReach
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-11@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T080000
+DTEND;TZID=America/New_York:20261006T100000
+SUMMARY:Morning Birding Tour
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free guided birding tour in peak migration season with naturali
+ 
+st Gabriel Willow — warblers\, tanagers\, maybe a Chuck-will's-widow. No 
+ 
+registration needed. Tickets & info: https://bryantpark.org/calendar/event/
+ 
+birding-tour-am/2026-10-06
+URL:https://bryantpark.org/calendar/event/birding-tour-am/2026-10-06
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-12@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T200000
+DTEND;TZID=America/New_York:20261006T220000
+SUMMARY:General Trivia Night
+LOCATION:The Chelsea Bell\, Chelsea
+DESCRIPTION:Five rounds of general-knowledge pub trivia — movies\, sports
+ 
+\, history\, pop culture. Free to reserve with a $20 food/drink minimum. Ti
+ 
+ckets & info: https://www.eventbrite.com/e/general-trivia-night-tickets-199
+ 
+4695567137
+URL:https://www.eventbrite.com/e/general-trivia-night-tickets-1994695567137
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261006-13@concierge
+DTSTAMP:20261006T121330Z
+DTSTART;TZID=America/New_York:20261006T192500
+DTEND;TZID=America/New_York:20261006T212500
+SUMMARY:Come To Papa Live with Tom Papa
+LOCATION:Comedy Cellar at the Village Underground\, Greenwich Village
+DESCRIPTION:Tom Papa tapes his SiriusXM variety show live at the Village Un
+ 
+derground — stand-up\, sketches\, and the Come To Papa Trio\, with Rick C
+ 
+rom\, Mike Yard\, Dave Hill and friends. 2-drink minimum. Tickets & info: h
+ 
+ttps://www.comedycellar.com/reservations-newyork/?showid=1791329100
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1791329100
+END:VEVENT
+END:VCALENDAR
