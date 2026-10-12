@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, October 12</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, October 12</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-12.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="THE CHICKS - TAKING THE LONG WAY">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-chicks-taking-the-long-way-new-york-new-york-10-12-2026/event/3B0064BA945C2C5E">THE CHICKS - TAKING THE LONG WAY</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>The reunited trio (formerly the Dixie Chicks) brings harmony-soaked country-pop to the Beacon for one night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-chicks-taking-the-long-way-new-york-new-york-10-12-2026/event/3B0064BA945C2C5E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Margo Cilker and Lilly Hiatt (21 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZVfY">Margo Cilker and Lilly Hiatt (21 and Over)</a></h3>
+<div class="meta">7:00 PM · Baby&#x27;s All Right, Williamsburg</div>
+<p>Two of Americana&#x27;s sharpest songwriters share a Williamsburg stage — gorgeous harmonies, zero filler.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZVfY">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Kate DeL&#x27;s Album Release Concert">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kate-dels-album-release-concert-tickets-1997898783042">Kate DeL&#x27;s Album Release Concert</a></h3>
+<div class="meta">7:00 PM · Miss Nellie&#x27;s</div>
+<p>Celebrate a new record with an intimate free set in the East Village.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kate-dels-album-release-concert-tickets-1997898783042">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Golden Hour NYC: Breathtaking Sunset Cruise with Skyline &amp; Statue Views">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/golden-hour-nyc-breathtaking-sunset-cruise-with-skyline-statue-views-tickets-1520942874079">Golden Hour NYC: Breathtaking Sunset Cruise with Skyline &amp; Statue Views</a></h3>
+<div class="meta">7:00 PM · Pier 36 NYC · $39.19</div>
+<p>Sail into golden hour with skyline views — catch the sunset from the water off Pier 36.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/golden-hour-nyc-breathtaking-sunset-cruise-with-skyline-statue-views-tickets-1520942874079">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-3" data-name="Backroom Comedy ft: Mark Normand, Tara Cannistraci, Paula J. Leon, Mia Wilson, Michael Brigante">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/backroom-comedy-ft-mark-normand-tara-cannistraci-paula-j-leon-mia-wilson-michael-brigante">Backroom Comedy ft: Mark Normand, Tara Cannistraci, Paula J. Leon, Mia Wilson, Michael Brigante</a></h3>
+<div class="meta">7:00 PM · New York Comedy Club · $25</div>
+<p>Mark Normand headlines a stacked Monday lineup — the city&#x27;s best comics testing new material.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/backroom-comedy-ft-mark-normand-tara-cannistraci-paula-j-leon-mia-wilson-michael-brigante">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="The Play That Goes Wrong">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-play-that-goes-wrong-new-york-new-york-10-12-2026/event/Z1r9uZruZqGZ1AvZae4">The Play That Goes Wrong</a></h3>
+<div class="meta">7:00 PM · New World Stages - Stage 4, Hell&#x27;s Kitchen</div>
+<p>A delightfully disastrous whodunit where everything that can go wrong does — on purpose.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-play-that-goes-wrong-new-york-new-york-10-12-2026/event/Z1r9uZruZqGZ1AvZae4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-5" data-name="Six: The Musical">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-10-12-2026/event/Z1r9uZrrZbpZ1AvP6ug">Six: The Musical</a></h3>
+<div class="meta">7:00 PM · Lena Horne Theatre, Hell&#x27;s Kitchen</div>
+<p>Henry VIII&#x27;s six wives reclaim the mic in this 80-minute pop concert of a musical.</p>
+<a class="tickets" href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-10-12-2026/event/Z1r9uZrrZbpZ1AvP6ug">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Nuyorican Bowery Slam">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1988049950920">Nuyorican Bowery Slam</a></h3>
+<div class="meta">6:30 PM · Bowery Poetry Club · $20</div>
+<p>NYC&#x27;s legendary poetry slam — five judges, zero mercy, all heart.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1988049950920">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Bechdel Cast 10 Year Anniversary Tour">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-bechdel-cast-10-year-anniversary-brooklyn-new-york-10-12-2026/event/3000650C0357B525">The Bechdel Cast 10 Year Anniversary Tour</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>The feminist pop-culture podcast celebrates a decade with a live Brooklyn show.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-bechdel-cast-10-year-anniversary-brooklyn-new-york-10-12-2026/event/3000650C0357B525">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-7" data-name="Preseason: New York Knicks v Minnesota Timberwolves">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/preseason-new-york-knicks-v-minnesota-new-york-new-york-10-12-2026/event/3B006511BAB1539E">Preseason: New York Knicks v Minnesota Timberwolves</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>First look at the new-look Knicks at the Garden before the games start counting.</p>
+<a class="tickets" href="https://www.ticketmaster.com/preseason-new-york-knicks-v-minnesota-new-york-new-york-10-12-2026/event/3B006511BAB1539E">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-8" data-name="Lectures on Tap - &quot;The History of UFO Reports &quot;">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lectures-on-tap-the-history-of-ufo-reports-tickets-2000643148513">Lectures on Tap - &quot;The History of UFO Reports &quot;</a></h3>
+<div class="meta">6:30 PM · West Village · $41.32</div>
+<p>A beer in hand while someone unpacks decades of UFO lore — peak Monday night.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lectures-on-tap-the-history-of-ufo-reports-tickets-2000643148513">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-9" data-name="Stephen Graham Jones celebrates OFF THE RESERVATION at B&amp;N Union Square">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/stephen-graham-jones-celebrates-off-the-reservation-at-bn-union-square-tickets-1993041910004">Stephen Graham Jones celebrates OFF THE RESERVATION at B&amp;N Union Square</a></h3>
+<div class="meta">6:00 PM · Barnes &amp; Noble · $38.57</div>
+<p>The horror master talks his new book at the Union Square flagship.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/stephen-graham-jones-celebrates-off-the-reservation-at-bn-union-square-tickets-1993041910004">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-12" data-name="Foodies + New Friends: Brooklyn | After Office Edition">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/foodies-new-friends-brooklyn-after-office-edition-tickets-1860655162679">Foodies + New Friends: Brooklyn | After Office Edition</a></h3>
+<div class="meta">7:00 PM · Restaurant of the Week · $23.18</div>
+<p>Dinner with strangers who might not stay strangers — the restaurant is revealed at booking.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/foodies-new-friends-brooklyn-after-office-edition-tickets-1860655162679">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-13" data-name="Harlem Run: Monday Night Run">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/12/harlem-run-monday-night-run">Harlem Run: Monday Night Run</a></h3>
+<div class="meta">6:45 PM · Marcus Garvey Park, East Harlem (North)</div>
+<p>An all-paces run crew through Harlem to start the week moving.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/12/harlem-run-monday-night-run">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-12";
+const NAMES = ["THE CHICKS - TAKING THE LONG WAY", "Margo Cilker and Lilly Hiatt (21 and Over)", "Kate DeL's Album Release Concert", "Backroom Comedy ft: Mark Normand, Tara Cannistraci, Paula J. Leon, Mia Wilson, Michael Brigante", "Golden Hour NYC: Breathtaking Sunset Cruise with Skyline & Statue Views", "Six: The Musical", "The Play That Goes Wrong", "Preseason: New York Knicks v Minnesota Timberwolves", "Lectures on Tap - \"The History of UFO Reports \"", "Stephen Graham Jones celebrates OFF THE RESERVATION at B&N Union Square", "Nuyorican Bowery Slam", "The Bechdel Cast 10 Year Anniversary Tour", "Foodies + New Friends: Brooklyn | After Office Edition", "Harlem Run: Monday Night Run"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

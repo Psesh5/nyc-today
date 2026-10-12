@@ -1,0 +1,243 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261012-0@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T200000
+DTEND;TZID=America/New_York:20261012T220000
+SUMMARY:THE CHICKS - TAKING THE LONG WAY
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:The reunited trio (formerly the Dixie Chicks) brings harmony-so
+ 
+aked country-pop to the Beacon for one night. Tickets & info: https://www.t
+ 
+icketmaster.com/the-chicks-taking-the-long-way-new-york-new-york-10-12-2026
+ 
+/event/3B0064BA945C2C5E
+URL:https://www.ticketmaster.com/the-chicks-taking-the-long-way-new-york-ne
+ 
+w-york-10-12-2026/event/3B0064BA945C2C5E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-1@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Margo Cilker and Lilly Hiatt (21 and Over)
+LOCATION:Baby's All Right\, Williamsburg
+DESCRIPTION:Two of Americana's sharpest songwriters share a Williamsburg st
+ 
+age — gorgeous harmonies\, zero filler. Tickets & info: https://www.ticke
+ 
+tmaster.com/event/Z7r9jZ1AAZVfY
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZVfY
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-2@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Kate DeL's Album Release Concert
+LOCATION:Miss Nellie's
+DESCRIPTION:Celebrate a new record with an intimate free set in the East Vi
+ 
+llage. Tickets & info: https://www.eventbrite.com/e/kate-dels-album-release
+ 
+-concert-tickets-1997898783042
+URL:https://www.eventbrite.com/e/kate-dels-album-release-concert-tickets-19
+ 
+97898783042
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-3@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Backroom Comedy ft: Mark Normand\, Tara Cannistraci\, Paula J. Leon
+ 
+\, Mia Wilson\, Michael Brigante
+LOCATION:New York Comedy Club
+DESCRIPTION:Mark Normand headlines a stacked Monday lineup — the city's b
+ 
+est comics testing new material. Tickets & info: https://newyorkcomedyclub.
+ 
+com/events/backroom-comedy-ft-mark-normand-tara-cannistraci-paula-j-leon-mi
+ 
+a-wilson-michael-brigante
+URL:https://newyorkcomedyclub.com/events/backroom-comedy-ft-mark-normand-ta
+ 
+ra-cannistraci-paula-j-leon-mia-wilson-michael-brigante
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-4@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Golden Hour NYC: Breathtaking Sunset Cruise with Skyline & Statue V
+ 
+iews
+LOCATION:Pier 36 NYC
+DESCRIPTION:Sail into golden hour with skyline views — catch the sunset f
+ 
+rom the water off Pier 36. Tickets & info: https://www.eventbrite.com/e/gol
+ 
+den-hour-nyc-breathtaking-sunset-cruise-with-skyline-statue-views-tickets-1
+ 
+520942874079
+URL:https://www.eventbrite.com/e/golden-hour-nyc-breathtaking-sunset-cruise
+ 
+-with-skyline-statue-views-tickets-1520942874079
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-5@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Six: The Musical
+LOCATION:Lena Horne Theatre\, Hell's Kitchen
+DESCRIPTION:Henry VIII's six wives reclaim the mic in this 80-minute pop co
+ 
+ncert of a musical. Tickets & info: https://www.ticketmaster.com/six-new-yo
+ 
+rk-ny-new-york-new-york-10-12-2026/event/Z1r9uZrrZbpZ1AvP6ug
+URL:https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-10-12-20
+ 
+26/event/Z1r9uZrrZbpZ1AvP6ug
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-6@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:The Play That Goes Wrong
+LOCATION:New World Stages - Stage 4\, Hell's Kitchen
+DESCRIPTION:A delightfully disastrous whodunit where everything that can go
+ 
+ wrong does — on purpose. Tickets & info: https://www.ticketmaster.com/th
+ 
+e-play-that-goes-wrong-new-york-new-york-10-12-2026/event/Z1r9uZruZqGZ1AvZa
+ 
+e4
+URL:https://www.ticketmaster.com/the-play-that-goes-wrong-new-york-new-york
+ 
+-10-12-2026/event/Z1r9uZruZqGZ1AvZae4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-7@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T193000
+DTEND;TZID=America/New_York:20261012T213000
+SUMMARY:Preseason: New York Knicks v Minnesota Timberwolves
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:First look at the new-look Knicks at the Garden before the game
+ 
+s start counting. Tickets & info: https://www.ticketmaster.com/preseason-ne
+ 
+w-york-knicks-v-minnesota-new-york-new-york-10-12-2026/event/3B006511BAB153
+ 
+9E
+URL:https://www.ticketmaster.com/preseason-new-york-knicks-v-minnesota-new-
+ 
+york-new-york-10-12-2026/event/3B006511BAB1539E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-8@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T183000
+DTEND;TZID=America/New_York:20261012T203000
+SUMMARY:Lectures on Tap - "The History of UFO Reports "
+LOCATION:West Village
+DESCRIPTION:A beer in hand while someone unpacks decades of UFO lore — pe
+ 
+ak Monday night. Tickets & info: https://www.eventbrite.com/e/lectures-on-t
+ 
+ap-the-history-of-ufo-reports-tickets-2000643148513
+URL:https://www.eventbrite.com/e/lectures-on-tap-the-history-of-ufo-reports
+ 
+-tickets-2000643148513
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-9@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T180000
+DTEND;TZID=America/New_York:20261012T200000
+SUMMARY:Stephen Graham Jones celebrates OFF THE RESERVATION at B&N Union Sq
+ 
+uare
+LOCATION:Barnes & Noble
+DESCRIPTION:The horror master talks his new book at the Union Square flagsh
+ 
+ip. Tickets & info: https://www.eventbrite.com/e/stephen-graham-jones-celeb
+ 
+rates-off-the-reservation-at-bn-union-square-tickets-1993041910004
+URL:https://www.eventbrite.com/e/stephen-graham-jones-celebrates-off-the-re
+ 
+servation-at-bn-union-square-tickets-1993041910004
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-10@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T183000
+DTEND;TZID=America/New_York:20261012T203000
+SUMMARY:Nuyorican Bowery Slam
+LOCATION:Bowery Poetry Club
+DESCRIPTION:NYC's legendary poetry slam — five judges\, zero mercy\, all 
+ 
+heart. Tickets & info: https://www.eventbrite.com/e/nuyorican-bowery-slam-t
+ 
+ickets-1988049950920
+URL:https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-198804995092
+ 
+0
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-11@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T193000
+DTEND;TZID=America/New_York:20261012T213000
+SUMMARY:The Bechdel Cast 10 Year Anniversary Tour
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The feminist pop-culture podcast celebrates a decade with a liv
+ 
+e Brooklyn show. Tickets & info: https://www.ticketmaster.com/the-bechdel-c
+ 
+ast-10-year-anniversary-brooklyn-new-york-10-12-2026/event/3000650C0357B525
+URL:https://www.ticketmaster.com/the-bechdel-cast-10-year-anniversary-brook
+ 
+lyn-new-york-10-12-2026/event/3000650C0357B525
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-12@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T190000
+DTEND;TZID=America/New_York:20261012T210000
+SUMMARY:Foodies + New Friends: Brooklyn | After Office Edition
+LOCATION:Restaurant of the Week
+DESCRIPTION:Dinner with strangers who might not stay strangers — the rest
+ 
+aurant is revealed at booking. Tickets & info: https://www.eventbrite.com/e
+ 
+/foodies-new-friends-brooklyn-after-office-edition-tickets-1860655162679
+URL:https://www.eventbrite.com/e/foodies-new-friends-brooklyn-after-office-
+ 
+edition-tickets-1860655162679
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261012-13@concierge
+DTSTAMP:20261012T212423Z
+DTSTART;TZID=America/New_York:20261012T184500
+DTEND;TZID=America/New_York:20261012T204500
+SUMMARY:Harlem Run: Monday Night Run
+LOCATION:Marcus Garvey Park\, East Harlem (North)
+DESCRIPTION:An all-paces run crew through Harlem to start the week moving. 
+ 
+Tickets & info: http://www.nycgovparks.org/events/2026/10/12/harlem-run-mon
+ 
+day-night-run
+URL:http://www.nycgovparks.org/events/2026/10/12/harlem-run-monday-night-ru
+ 
+n
+END:VEVENT
+END:VCALENDAR
