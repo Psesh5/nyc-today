@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, October 13</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, October 13</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-13.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916173">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Grammy-winning 11-piece band recreates the golden-age big-band sound — the closest thing to time travel in Hell&#x27;s Kitchen. The 5:30 set makes a perfect pre-dinner swing.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916173">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Philip Bowen">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/philip-bowen-new-york-new-york-10-13-2026/event/0000650AA2E39927">Philip Bowen</a></h3>
+<div class="meta">6:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Singer-songwriter&#x27;s soulful folk-pop in a cozy LES room — catch him before the inevitable bigger stages. $15 advance.</p>
+<a class="tickets" href="https://www.ticketmaster.com/philip-bowen-new-york-new-york-10-13-2026/event/0000650AA2E39927">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Arm&#x27;s Length &amp; Holding Absence: North American Co-Headliner Tour 2026">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/arms-length-holding-absence-north-american-new-york-new-york-10-13-2026/event/000064D2D36622F1">Arm&#x27;s Length &amp; Holding Absence: North American Co-Headliner Tour 2026</a></h3>
+<div class="meta">6:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>Two emo/post-hardcore heavyweights co-headline Irving Plaza — expect a cathartic, full-throated singalong from a devoted crowd.</p>
+<a class="tickets" href="https://www.ticketmaster.com/arms-length-holding-absence-north-american-new-york-new-york-10-13-2026/event/000064D2D36622F1">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Benjamin Tod and the Inline Six 2026 Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/benjamin-tod-and-the-inline-six-new-york-new-york-10-13-2026/event/0000636BDC62EF4B">Benjamin Tod and the Inline Six 2026 Tour</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Lost Dog Street Band frontman brings his dusty, heartbreak-heavy Americana to the Bowery — honest songwriting with zero irony.</p>
+<a class="tickets" href="https://www.ticketmaster.com/benjamin-tod-and-the-inline-six-new-york-new-york-10-13-2026/event/0000636BDC62EF4B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="THE CHICKS - TAKING THE LONG WAY">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-chicks-taking-the-long-way-new-york-new-york-10-13-2026/event/3B0064BA94652C62">THE CHICKS - TAKING THE LONG WAY</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>The Grammy-winning trio&#x27;s Taking the Long Way tour lands at the Beacon — big harmonies, bigger songs, and a masterclass in longevity.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-chicks-taking-the-long-way-new-york-new-york-10-13-2026/event/3B0064BA94652C62">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Fantastic Negrito">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/fantastic-negrito-new-york-new-york-10-13-2026/event/000064F8C996FDE4">Fantastic Negrito</a></h3>
+<div class="meta">8:00 PM · Sony Hall, Midtown-Times Square</div>
+<p>Grammy-winning roots-rock firebrand brings his guitar-shredding, soul-heavy show to Sony Hall — all heart, no filler.</p>
+<a class="tickets" href="https://www.ticketmaster.com/fantastic-negrito-new-york-new-york-10-13-2026/event/000064F8C996FDE4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-6" data-name="The Moth StorySLAM x MUBI">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-moth-storyslam-x-mubi-brooklyn-new-york-10-13-2026/event/300064BB09EFDD14">The Moth StorySLAM x MUBI</a></h3>
+<div class="meta">8:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Theme: Teenage Nightmares. Real people tell true stories about the years they&#x27;d rather forget — funny, cringe, and cathartic at the Bell House.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-moth-storyslam-x-mubi-brooklyn-new-york-10-13-2026/event/300064BB09EFDD14">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Operation Mincemeat: A New Musical">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ17Je_O">Operation Mincemeat: A New Musical</a></h3>
+<div class="meta">7:00 PM · John Golden Theatre, Midtown-Times Square</div>
+<p>The hit WWII espionage musical keeps its unlikely plot twisty and hilarious — one of Broadway&#x27;s smartest nights out right now.</p>
+<a class="tickets" href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ17Je_O">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Buena Vista Social Club">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ1AvZ6AN">Buena Vista Social Club</a></h3>
+<div class="meta">7:00 PM · Gerald Schoenfeld Theatre, Midtown-Times Square</div>
+<p>The Grammy-winning album comes alive on Broadway with Cuban jazz royalty vibes — pure joy from the first note.</p>
+<a class="tickets" href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ1AvZ6AN">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Schmigadoon!">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-13-2026/event/Z1r9uZrrZbpZ1Ae7Ajf">Schmigadoon!</a></h3>
+<div class="meta">7:00 PM · Nederlander Theatre, Midtown-Times Square</div>
+<p>The Apple TV+ musical comedy finally hits Broadway — the Schmigadoon you know, live and bigger. Fresh, funny, and an easy Tuesday-night win.</p>
+<a class="tickets" href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-13-2026/event/Z1r9uZrrZbpZ1Ae7Ajf">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Little Shop Of Horrors">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/little-shop-of-horrors-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ17PP43">Little Shop Of Horrors</a></h3>
+<div class="meta">7:00 PM · Westside Theatre Upstairs, Upper West Side (Central)</div>
+<p>The beloved carnivorous-plant musical in an intimate Off-Broadway room — feed me, Seymour, indeed.</p>
+<a class="tickets" href="https://www.ticketmaster.com/little-shop-of-horrors-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ17PP43">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-11" data-name="1st Contemporary JOMON Art Exhibition in New York">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.galleryonetwentyeight.org/currentshow.html">1st Contemporary JOMON Art Exhibition in New York</a></h3>
+<div class="meta">1:00 PM · Gallery Onetwentyeight, Lower East Side · Free</div>
+<p>The first contemporary Jomon art exhibition in New York — 19 artists riffing on 14,000 years of Japanese clay culture. Opens today at the LES storefront gallery; reception Friday.</p>
+<a class="tickets" href="http://www.galleryonetwentyeight.org/currentshow.html">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Midnight">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/midnight-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ1AvZ8Pe">Midnight</a></h3>
+<div class="meta">7:30 PM · Daryl Roth Theatre, East Village</div>
+<p>Late-night-style magic and illusion at the Daryl Roth Theatre — a classic downtown night of sleight of hand.</p>
+<a class="tickets" href="https://www.ticketmaster.com/midnight-new-york-new-york-10-13-2026/event/Z1r9uZruZqGZ1AvZ8Pe">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>Walk through a museum made entirely of inflatable art — immersive, playful, and very photogenic in Lower Manhattan.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-14" data-name="Cemented Comedy Showcase (LIVE Taping) ft. Rosebud Baker, Sienna Hubert-Ross, Eagle Witt, Ahamed Weinberg, Sean Patton, and Brittany Carney">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/cemented-comedy-showcase-live-taping-brooklyn-improv-the-main-room-tickets/14338144">Cemented Comedy Showcase (LIVE Taping) ft. Rosebud Baker, Sienna Hubert-Ross, Eagle Witt, Ahamed Weinberg, Sean Patton, and Brittany Carney</a></h3>
+<div class="meta">7:00 PM · Brooklyn Improv (The Main Room), Williamsburg · $9.2</div>
+<p>A live taping stacked with sharp downtown comics including Rosebud Baker — under $10 for a night that could end up streaming.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/cemented-comedy-showcase-live-taping-brooklyn-improv-the-main-room-tickets/14338144">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="NYCC 11th Annual Fall Invitational - Semifinals">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/nycc-11th-annual-fall-invitational-semifinals">NYCC 11th Annual Fall Invitational - Semifinals</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $15</div>
+<p>Eleven years running: the city&#x27;s funniest up-and-comers battle for a spot in the finals at the Upper West Side club. Cheap seats, loud room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/nycc-11th-annual-fall-invitational-semifinals">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-16" data-name="New York Rangers vs. Tampa Bay Lightning">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-rangers-vs-tampa-bay-new-york-new-york-10-13-2026/event/3B0064F1B1D84445">New York Rangers vs. Tampa Bay Lightning</a></h3>
+<div class="meta">7:15 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Early-season hockey at the Garden against the Bolts — the season&#x27;s barely started and the rivalry already has edge.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-rangers-vs-tampa-bay-new-york-new-york-10-13-2026/event/3B0064F1B1D84445">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-17" data-name="Yi Yi">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001293-yi-yi/">Yi Yi</a></h3>
+<div class="meta">6:25 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Edward Yang&#x27;s masterpiece returns in a pristine DCP at Metrograph — three hours that will quietly rearrange how you see family, cities, and time.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001293-yi-yi/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Filipiñana">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/filipinana">Filipiñana</a></h3>
+<div class="meta">8:10 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>A tender Filipino coming-of-age story on Film Forum&#x27;s screen — the kind of festival gem that rewards seeking out.</p>
+<a class="tickets" href="https://filmforum.org/film/filipinana">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="The Social Reckoning">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/">The Social Reckoning</a></h3>
+<div class="meta">6:35 PM · Nitehawk Cinema Williamsburg, Williamsburg · $9</div>
+<p>A Facebook whistleblower thriller playing at Nitehawk — timely, tense, and best watched with a drink in hand.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Ghost in the Shell: 30th Anniversary Remaster">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000710-ghost-in-the-shell-30th-anniversary-remaster/">Ghost in the Shell: 30th Anniversary Remaster</a></h3>
+<div class="meta">4:30 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>The 1995 anime landmark, remastered for its 30th anniversary — cyberpunk cinema at its most beautiful, on Metrograph&#x27;s big screen.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000710-ghost-in-the-shell-30th-anniversary-remaster/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-21" data-name="Stargazing on the High Line">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://thehighline.org/events/stargazing/">Stargazing on the High Line</a></h3>
+<div class="meta">6:30 PM · The High Line, Chelsea-Hudson Yards · Free</div>
+<p>The Amateur Astronomers Association sets up telescopes on the High Line every Tuesday through October — free, no RSVP, just look up. Enter near Little West 12th St.</p>
+<a class="tickets" href="http://thehighline.org/events/stargazing/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-22" data-name="Zed, iroh, and WorkOS Happy Hour">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/zed-foun">Zed, iroh, and WorkOS Happy Hour</a></h3>
+<div class="meta">5:30 PM · New York, NY, SoHo-Little Italy-Hudson Square · Free</div>
+<p>Three dev-tool darlings host a happy hour in SoHo — free drinks and good conversation if you touch code for a living.</p>
+<a class="tickets" href="https://luma.com/zed-foun">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Fall Festival at Lakeside">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/fall-festival-at-lakeside/2026-10-13/">Fall Festival at Lakeside</a></h3>
+<div class="meta">4:00 PM · Prospect Park, Prospect Park</div>
+<p>Prospect Park&#x27;s month-long fall blowout: pumpkins, a Haunted Hotel, carnival games, and seasonal treats by the water.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/fall-festival-at-lakeside/2026-10-13/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-24" data-name="Trivia Night at BEEPUBLIC">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.geekswhodrink.com/venues/3265638092">Trivia Night at BEEPUBLIC</a></h3>
+<div class="meta">9:00 PM · BEEPUBLIC, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>Geeks Who Drink&#x27;s weekly pub quiz in Downtown Brooklyn — teams of up to 6, questions from zero-to-obscure.</p>
+<a class="tickets" href="https://www.geekswhodrink.com/venues/3265638092">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-25" data-name="International Archaeology Day with Australian Ambassador Mr. James Larsen">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/international-archaeology-day-with-australian-ambassador-mr-james-larsen-tickets-2001003278672">International Archaeology Day with Australian Ambassador Mr. James Larsen</a></h3>
+<div class="meta">6:30 PM · The National Arts Club · Free</div>
+<p>The Australian Ambassador dives into Kakadu&#x27;s ancient heritage at the National Arts Club — free, and genuinely fascinating.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/international-archaeology-day-with-australian-ambassador-mr-james-larsen-tickets-2001003278672">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-26" data-name="West Village Hidden History Cipher">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/west-village-hidden-history-cipher-tickets-2000309351116">West Village Hidden History Cipher</a></h3>
+<div class="meta">10:00 AM · Abingdon Square · $23.18</div>
+<p>A puzzle-walk through the West Village&#x27;s hidden past — cryptic clues, historic streets, two hours of urban detective work.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/west-village-hidden-history-cipher-tickets-2000309351116">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-27" data-name="Japanese Tea Ceremony workshop at the Table">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/japanese-tea-ceremony-workshop-at-the-table-tickets-1997017464996">Japanese Tea Ceremony workshop at the Table</a></h3>
+<div class="meta">7:00 PM · RESOBOX East Village · $65.87</div>
+<p>A proper chanoyu workshop in the East Village — meditative, precise, and a rare hands-on taste of the way of tea.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/japanese-tea-ceremony-workshop-at-the-table-tickets-1997017464996">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-28" data-name="New York Gubernatorial Debate Viewing Party @ 230 Fifth Rooftop">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/new-york-gubernatorial-debate-viewing-party-230-fifth-rooftop-tickets-2002485666534">New York Gubernatorial Debate Viewing Party @ 230 Fifth Rooftop</a></h3>
+<div class="meta">6:00 PM · 230 Fifth Rooftop, Midtown West · Free</div>
+<p>Watch the NY governor&#x27;s debate with the Manhattan skyline behind you — free rooftop viewing party at 230 Fifth, politics optional, views guaranteed.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/new-york-gubernatorial-debate-viewing-party-230-fifth-rooftop-tickets-2002485666534">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-13";
+const NAMES = ["Vince Giordano and the Nighthawks", "Philip Bowen", "Arm's Length & Holding Absence: North American Co-Headliner Tour 2026", "Benjamin Tod and the Inline Six 2026 Tour", "THE CHICKS - TAKING THE LONG WAY", "Fantastic Negrito", "The Moth StorySLAM x MUBI", "Operation Mincemeat: A New Musical", "Buena Vista Social Club", "Schmigadoon!", "Little Shop Of Horrors", "1st Contemporary JOMON Art Exhibition in New York", "Midnight", "DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry", "Cemented Comedy Showcase (LIVE Taping) ft. Rosebud Baker, Sienna Hubert-Ross, Eagle Witt, Ahamed Weinberg, Sean Patton, and Brittany Carney", "NYCC 11th Annual Fall Invitational - Semifinals", "New York Rangers vs. Tampa Bay Lightning", "Yi Yi", "Filipi\u00f1ana", "The Social Reckoning", "Ghost in the Shell: 30th Anniversary Remaster", "Stargazing on the High Line", "Zed, iroh, and WorkOS Happy Hour", "Fall Festival at Lakeside", "Trivia Night at BEEPUBLIC", "International Archaeology Day with Australian Ambassador Mr. James Larsen", "West Village Hidden History Cipher", "Japanese Tea Ceremony workshop at the Table", "New York Gubernatorial Debate Viewing Party @ 230 Fifth Rooftop"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
