@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, October 14</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, October 14</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-14.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Sylvan Esso">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98">Sylvan Esso</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene · 67</div>
+<p>the indie-electro duo&#x27;s dreamy synth-pop fills the restored Brooklyn Paramount</p>
+<a class="tickets" href="https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Pinhead Gunpowder">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/pinhead-gunpowder-new-york-new-york-10-14-2026/event/000064B2F22B43E2">Pinhead Gunpowder</a></h3>
+<div class="meta">7:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy · $69.17</div>
+<p>Billie Joe Armstrong&#x27;s punk side project tears through Irving Plaza</p>
+<a class="tickets" href="https://www.ticketmaster.com/pinhead-gunpowder-new-york-new-york-10-14-2026/event/000064B2F22B43E2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Blue Note&#x27;s 45th Anniversary Celebration hosted by Robert Glasper">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/blue-notes-45th-anniversary-celebration-blue-note-jazz-club-tickets/15041813">Blue Note&#x27;s 45th Anniversary Celebration hosted by Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · Free</div>
+<p>five-time Grammy winner hosts the legendary club&#x27;s 45th birthday — no cover, $20 food/drink minimum</p>
+<a class="tickets" href="https://www.ticketweb.com/event/blue-notes-45th-anniversary-celebration-blue-note-jazz-club-tickets/15041813">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Madi Diaz w/ Tasha">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/madi-diaz-tasha-tickets-1998250978468">Madi Diaz w/ Tasha</a></h3>
+<div class="meta">7:00 PM · Zone One at Elsewhere, Bushwick (West) · 33</div>
+<p>Nashville songwriter&#x27;s sharp, confessional indie rock in Bushwick&#x27;s Zone One, with Tasha</p>
+<a class="tickets" href="https://www.eventbrite.com/e/madi-diaz-tasha-tickets-1998250978468">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="David Ostwald&#x27;s Louis Armstrong Eternity Band">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14916383">David Ostwald&#x27;s Louis Armstrong Eternity Band</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>21 years of hot jazz from the city&#x27;s finest trad players — the week&#x27;s best musical bargain</p>
+<a class="tickets" href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14916383">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Good Eggs ft: Mark Normand, Jared Freid, Simeon Goodson, Gary Vider, Matt Ruby">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-jared-freid-simeon-goodson-gary-vider-matt-ruby">Good Eggs ft: Mark Normand, Jared Freid, Simeon Goodson, Gary Vider, Matt Ruby</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · 25</div>
+<p>Mark Normand&#x27;s long-running showcase with Jared Freid, Simeon Goodson and friends in the East Village</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-jared-freid-simeon-goodson-gary-vider-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="UG! KNOCKOUTS — Stand-Up Comedy as a Sport! ????????">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eastvillecomedy.com/events/ug-knockouts-stand-up-comedy-as-a-sport-2026-10-14200000">UG! KNOCKOUTS — Stand-Up Comedy as a Sport! ????????</a></h3>
+<div class="meta">8:00 PM · Eastville Comedy Club · 20</div>
+<p>a filmed stand-up competition where comedy meets fight night: 4 comics, 3 rounds, 1 winner</p>
+<a class="tickets" href="https://www.eastvillecomedy.com/events/ug-knockouts-stand-up-comedy-as-a-sport-2026-10-14200000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Josh &amp; Aaron Do Improv (Feat. Hayden Johnson)">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/josh-aaron-do-improv-feat-hayden-brooklyn-new-york-10-14-2026/event/30006518E7CD7F22">Josh &amp; Aaron Do Improv (Feat. Hayden Johnson)</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $20.3</div>
+<p>Josh &amp; Aaron&#x27;s improv duo night at the Bell House with Hayden Johnson</p>
+<a class="tickets" href="https://www.ticketmaster.com/josh-aaron-do-improv-feat-hayden-brooklyn-new-york-10-14-2026/event/30006518E7CD7F22">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Ask Comedians Anything ft. Sean Millea, Jamie Wolf, Orion Levine, Evan Lazarus, Ontonio Kareem, and Wilson Pelton">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/ask-comedians-anything-ft-sean-brooklyn-improv-the-main-room-tickets/14330194">Ask Comedians Anything ft. Sean Millea, Jamie Wolf, Orion Levine, Evan Lazarus, Ontonio Kareem, and Wilson Pelton</a></h3>
+<div class="meta">7:30 PM · Brooklyn Improv (The Main Room), Williamsburg · $14.78</div>
+<p>a monthly interactive show where the audience grills comics — with Jamie Wolf, Ontonio Kareem and more at Brooklyn Improv</p>
+<a class="tickets" href="https://www.ticketweb.com/event/ask-comedians-anything-ft-sean-brooklyn-improv-the-main-room-tickets/14330194">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Wednesday 8pm Stand Up Comedy Show">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://topsecretcomedyclub.com/events-listings/wednesday-8pm-stand-up-comedy-show-11/">Wednesday 8pm Stand Up Comedy Show</a></h3>
+<div class="meta">8:00 PM · Top Secret Comedy Club New York, East Village · 2</div>
+<p>HAND FIND: a $2 mixed-bill Wednesday show with no drink minimum and a history of surprise drop-ins</p>
+<a class="tickets" href="https://topsecretcomedyclub.com/events-listings/wednesday-8pm-stand-up-comedy-show-11/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-8" data-name="MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/my-undesirable-friends-part-ii-exile">MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3</a></h3>
+<div class="meta">6:30 PM · Film Forum, SoHo-Little Italy-Hudson Square · $9–$15</div>
+<p>Julia Loktev&#x27;s riveting follow-up on exiled Russian journalists — a NYT Critic&#x27;s Pick</p>
+<a class="tickets" href="https://filmforum.org/film/my-undesirable-friends-part-ii-exile">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="André Leon Talley: Style is Forever">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/andre-leon-talley-style-is-forever/">André Leon Talley: Style is Forever</a></h3>
+<div class="meta">1:15 PM · IFC Center, Greenwich Village</div>
+<p>new documentary on the trailblazing fashion icon, with Anna Wintour and Tom Ford</p>
+<a class="tickets" href="https://www.ifccenter.com/films/andre-leon-talley-style-is-forever/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-11" data-name="MOCA CINEMA – History of NYC&#x27;s Chinatown: Episode 2 and Episode 3">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/moca-cinema-history-of-nycs-chinatown-episode-2-and-episode-3-tickets-3QRZ7V?ref=ticketmaster">MOCA CINEMA – History of NYC&#x27;s Chinatown: Episode 2 and Episode 3</a></h3>
+<div class="meta">6:30 PM · Museum of Chinese in America, SoHo-Little Italy-Hudson Square · $5–$15</div>
+<p>MOCA screens episodes 2 and 3 of its history of NYC&#x27;s Chinatown</p>
+<a class="tickets" href="https://www.universe.com/events/moca-cinema-history-of-nycs-chinatown-episode-2-and-episode-3-tickets-3QRZ7V?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="KOOM GALLERY EXHIBITION">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/3sszgnmp">KOOM GALLERY EXHIBITION</a></h3>
+<div class="meta">6:00 PM · Space 776 Gallery, Lower East Side · Free</div>
+<p>opening night for a Korean art-tech exhibition in a private LES gallery — RSVP, no drinks, stories from the gallerist</p>
+<a class="tickets" href="https://luma.com/3sszgnmp">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-13" data-name="Maybe Happy Ending">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-10-14-2026/event/Z1r9uZruZqGZ17Jbbe">Maybe Happy Ending</a></h3>
+<div class="meta">2:00 PM · Belasco Theatre, Midtown-Times Square · $69.6</div>
+<p>the Tony-winning musical&#x27;s Wednesday matinee at the Belasco</p>
+<a class="tickets" href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-10-14-2026/event/Z1r9uZruZqGZ17Jbbe">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="CRAVE, by Sarah Kane">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/crave-by-sarah-kane-tickets-2003142171157">CRAVE, by Sarah Kane</a></h3>
+<div class="meta">7:30 PM · East Village Basement, East Village · 39</div>
+<p>OBIE-winning Hoi Polloi stages Sarah Kane&#x27;s haunting four-voice play in an East Village basement</p>
+<a class="tickets" href="https://www.eventbrite.com/e/crave-by-sarah-kane-tickets-2003142171157">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-15" data-name="Dave Zirin Discusses The People’s Historian: The Outsized Life of Howard Zinn with Chenjerai Kumanyika">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/dave-zirin-discusses-central-library-dweck-20261014-0700pm">Dave Zirin Discusses The People’s Historian: The Outsized Life of Howard Zinn with Chenjerai Kumanyika</a></h3>
+<div class="meta">7:00 PM · Brooklyn Public Library, Crown Heights (North) · Free</div>
+<p>The Nation&#x27;s sports editor on his new Howard Zinn biography, in conversation with Chenjerai Kumanyika</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/dave-zirin-discusses-central-library-dweck-20261014-0700pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Jonathan Ames: &quot;A Past Without Pictures&quot;">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/jonathan-ames-past-library-for-arts-culture-20261014-0630pm">Jonathan Ames: &quot;A Past Without Pictures&quot;</a></h3>
+<div class="meta">6:30 PM · Brooklyn Public Library, Crown Heights (North) · Free</div>
+<p>the Bored to Death creator celebrates his twisty new noir novel — free at BPL</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/jonathan-ames-past-library-for-arts-culture-20261014-0630pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="AI, Writing, and Publishing: What Everyone Should Know">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ai-writing-and-publishing-what-everyone-should-know-tickets-1999947305227">AI, Writing, and Publishing: What Everyone Should Know</a></h3>
+<div class="meta">6:30 PM · P&amp;T Knitwear, Lower East Side · $12.51</div>
+<p>writers, a publisher and a psychiatrist on protecting creative work in the AI age — includes a Bartz v. Anthropic plaintiff</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ai-writing-and-publishing-what-everyone-should-know-tickets-1999947305227">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-18" data-name="Mozzarella Making">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mozzarella-making-tickets-1996114071923">Mozzarella Making</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village · $92.77</div>
+<p>stretch your own fresh mozzarella with a Murray&#x27;s expert, wine in hand, at the Bleecker landmark</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mozzarella-making-tickets-1996114071923">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Challah Bake! Hosted by The Kid in Blue x Jbbakes">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/challah-bake-hosted-by-the-kid-in-blue-x-jbbakes-tickets-2003209094326">Challah Bake! Hosted by The Kid in Blue x Jbbakes</a></h3>
+<div class="meta">7:00 PM · Kane Street Synagogue, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · 25</div>
+<p>braid challah with @jbbakes, a glass of wine from Fortuna, and support an indie doc — kosher kitchen</p>
+<a class="tickets" href="https://www.eventbrite.com/e/challah-bake-hosted-by-the-kid-in-blue-x-jbbakes-tickets-2003209094326">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-20" data-name="Boozy Sundae Decorating Class">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/boozy-sundae-decorating-class-tickets-2002395507867">Boozy Sundae Decorating Class</a></h3>
+<div class="meta">3:00 PM · Tipsy Scoop, Astoria (North)-Ditmars-Steinway · $49.87</div>
+<p>build an Instagram-famous boozy sundae in Astoria and keep the barlour glass — 21+</p>
+<a class="tickets" href="https://www.eventbrite.com/e/boozy-sundae-decorating-class-tickets-2002395507867">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Chess Workshop Night at Moxy NYC Lower East Side (Adults Only)">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/chess-workshop-night-at-moxy-nyc-lower-east-side-adults-only-tickets-2002482627444">Chess Workshop Night at Moxy NYC Lower East Side (Adults Only)</a></h3>
+<div class="meta">6:00 PM · Moxy NYC Lower East Side, Lower East Side · $23.18</div>
+<p>beginner and intermediate chess workshops with coaching at the Bowery&#x27;s Moxy</p>
+<a class="tickets" href="https://www.eventbrite.com/e/chess-workshop-night-at-moxy-nyc-lower-east-side-adults-only-tickets-2002482627444">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Free Write Wednesdays">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nypl.org/events/programs/2026/10/14/free-write-wednesdays">Free Write Wednesdays</a></h3>
+<div class="meta">1:30 PM · Stavros Niarchos Foundation Library, Midtown · Free</div>
+<p>HAND FIND: an afternoon of free-form creative writing at the main library — prompts, 30 minutes of writing, optional sharing</p>
+<a class="tickets" href="https://www.nypl.org/events/programs/2026/10/14/free-write-wednesdays">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-24" data-name="Salsa Social">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/14/salsa-social">Salsa Social</a></h3>
+<div class="meta">6:00 PM · Garibaldi Plaza (in Washington Square Park), Greenwich Village · Free</div>
+<p>free outdoor salsa social at Garibaldi Plaza in Washington Square Park</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/14/salsa-social">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-25" data-name="General Literary Trivia">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/general-literary-trivia-tickets-2002132782047">General Literary Trivia</a></h3>
+<div class="meta">8:00 PM · Book Club Bar, Bushwick (West) · Free</div>
+<p>five rounds of trivia for people who actually read the book — free at Book Club Bar</p>
+<a class="tickets" href="https://www.eventbrite.com/e/general-literary-trivia-tickets-2002132782047">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-26" data-name="West Side Highway Walk &amp; Social">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/troud7lp">West Side Highway Walk &amp; Social</a></h3>
+<div class="meta">6:15 PM · Little Island, Pier 55 at Hudson River Park, West Village · 10</div>
+<p>a 3-mile sunset group walk from Little Island ending with curated bites at Fabrik Tribeca</p>
+<a class="tickets" href="https://luma.com/troud7lp">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-27" data-name="Olive Tree Writing Club in Greenpoint">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/fqjtbjir">Olive Tree Writing Club in Greenpoint</a></h3>
+<div class="meta">7:00 PM · Falu House, Greenpoint · 20</div>
+<p>a cozy café writing session in Greenpoint with a drink of your choice included</p>
+<a class="tickets" href="https://luma.com/fqjtbjir">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-14";
+const NAMES = ["Sylvan Esso", "Pinhead Gunpowder", "Blue Note's 45th Anniversary Celebration hosted by Robert Glasper", "Madi Diaz w/ Tasha", "David Ostwald's Louis Armstrong Eternity Band", "Good Eggs ft: Mark Normand, Jared Freid, Simeon Goodson, Gary Vider, Matt Ruby", "UG! KNOCKOUTS \u2014 Stand-Up Comedy as a Sport! ????????", "Josh & Aaron Do Improv (Feat. Hayden Johnson)", "MY UNDESIRABLE FRIENDS: PART II \u2013 EXILE: Chapters 1-3", "Andr\u00e9 Leon Talley: Style is Forever", "Ask Comedians Anything ft. Sean Millea, Jamie Wolf, Orion Levine, Evan Lazarus, Ontonio Kareem, and Wilson Pelton", "MOCA CINEMA \u2013 History of NYC's Chinatown: Episode 2 and Episode 3", "KOOM GALLERY EXHIBITION", "Maybe Happy Ending", "CRAVE, by Sarah Kane", "Dave Zirin Discusses The People\u2019s Historian: The Outsized Life of Howard Zinn with Chenjerai Kumanyika", "Jonathan Ames: \"A Past Without Pictures\"", "AI, Writing, and Publishing: What Everyone Should Know", "Mozzarella Making", "Challah Bake! Hosted by The Kid in Blue x Jbbakes", "Boozy Sundae Decorating Class", "Chess Workshop Night at Moxy NYC Lower East Side (Adults Only)", "Wednesday 8pm Stand Up Comedy Show", "Free Write Wednesdays", "Salsa Social", "General Literary Trivia", "West Side Highway Walk & Social", "Olive Tree Writing Club in Greenpoint"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
