@@ -1,0 +1,501 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261015-0@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T200000
+DTEND;TZID=America/New_York:20261015T220000
+SUMMARY:GZA performs 'Liquid Swords' in full
+LOCATION:Brooklyn Bowl\, Williamsburg
+DESCRIPTION:The Wu-Tang legend plays his stone-cold 1995 classic front to b
+ 
+ack\, lanes and pizza slices included. Tickets & info: https://www.ticketma
+ 
+ster.com/gza-performing-liquid-swords-w-phunky-brooklyn-new-york-10-15-2026
+ 
+/event/000064B6C484EDD7
+URL:https://www.ticketmaster.com/gza-performing-liquid-swords-w-phunky-broo
+ 
+klyn-new-york-10-15-2026/event/000064B6C484EDD7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-1@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T200000
+DTEND;TZID=America/New_York:20261015T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:The genre-melting pianist holds court at the Blue Note — alwa
+ 
+ys a two-drink minimum kind of night. Tickets & info: https://www.ticketweb
+ 
+.com/event/robert-glasper-og-acoustic-piano-blue-note-jazz-club-tickets/150
+ 
+41853
+URL:https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-n
+ 
+ote-jazz-club-tickets/15041853
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-2@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Slow Magic\, Maxo & 4evr
+LOCATION:Elsewhere - Zone One\, East Williamsburg
+DESCRIPTION:Masked dream-pop electronica plus Houston's Maxo — a woozy\, 
+ 
+late-night Elsewhere double bill. Tickets & info: https://www.eventbrite.co
+ 
+m/e/slow-magic-maxo-4evr-tickets-1985581729403
+URL:https://www.eventbrite.com/e/slow-magic-maxo-4evr-tickets-1985581729403
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-3@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T200000
+DTEND;TZID=America/New_York:20261015T220000
+SUMMARY:Troye Sivan
+LOCATION:Irving Plaza\, Gramercy
+DESCRIPTION:Pop's most choreographed heartthrob does the sweaty intimate-ro
+ 
+om thing before the arena era. Tickets & info: https://www.songkick.com/con
+ 
+certs/43463476-troye-sivan-at-irving-plaza
+URL:https://www.songkick.com/concerts/43463476-troye-sivan-at-irving-plaza
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-4@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T173000
+DTEND;TZID=America/New_York:20261015T193000
+SUMMARY:High Society New Orleans Jazz Band
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Old-school Dixieland trad jazz at Birdland's early set — a ti
+ 
+me machine with a bar tab. Tickets & info: https://www.ticketweb.com/event/
+ 
+the-high-society-new-orleans-birdland-theater-tickets/14916543
+URL:https://www.ticketweb.com/event/the-high-society-new-orleans-birdland-t
+ 
+heater-tickets/14916543
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-5@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:BODEGA at Rough Trade Below
+LOCATION:Rough Trade Below\, Midtown-Times Square
+DESCRIPTION:Brooklyn post-punks strip it back for an in-store set — loud\
+ 
+, wry\, and mercifully short on merch lines. Tickets & info: https://www.so
+ 
+ngkick.com/concerts/43386837-bodega-at-rough-trade-below
+URL:https://www.songkick.com/concerts/43386837-bodega-at-rough-trade-below
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-6@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T213000
+DTEND;TZID=America/New_York:20261015T233000
+SUMMARY:Jazz with Joelle (Halloween Edition)
+LOCATION:Old Flings\, East Village
+DESCRIPTION:Free monthly jazz jam at an East Village basement bar — stand
+ 
+ards\, originals\, costumes encouraged\, no drink minimum. Tickets & info: 
+ 
+https://partiful.com/e/hCI2LhVma3cQvr0F439A?source=discover
+URL:https://partiful.com/e/hCI2LhVma3cQvr0F439A?source=discover
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-7@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T193000
+DTEND;TZID=America/New_York:20261015T213000
+SUMMARY:Francesca Fiorentini & Matt Lieb
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Political comedy's power couple tag-teams the Bell House — sh
+ 
+arp\, furious\, and funny. Tickets & info: https://www.ticketmaster.com/fra
+ 
+ncesca-fiorentini-and-matt-lieb-brooklyn-new-york-10-15-2026/event/300064F4
+ 
+3E856080
+URL:https://www.ticketmaster.com/francesca-fiorentini-and-matt-lieb-brookly
+ 
+n-new-york-10-15-2026/event/300064F43E856080
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-8@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Comedy Mob: The Lineup
+LOCATION:New York Comedy Club
+DESCRIPTION:A free early-evening lineup at NY Comedy Club — zero dollars\
+ 
+, plenty of punchlines. Tickets & info: https://newyorkcomedyclub.com/event
+ 
+s/comedy-mob-presents-the-lineup-2026-10-15180000
+URL:https://newyorkcomedyclub.com/events/comedy-mob-presents-the-lineup-202
+ 
+6-10-15180000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-9@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T200000
+DTEND;TZID=America/New_York:20261015T220000
+SUMMARY:Fresh Towels
+LOCATION:Moxy NYC East Village\, East Village
+DESCRIPTION:A scrappy hotel-lobby-ish comedy night at the Moxy East Village
+ 
+ with a rotating local lineup. Tickets & info: https://www.eventbrite.com/e
+ 
+/fresh-towels-a-comedy-show-tickets-2002603607298
+URL:https://www.eventbrite.com/e/fresh-towels-a-comedy-show-tickets-2002603
+ 
+607298
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-10@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Maybe Happy Ending
+LOCATION:Belasco Theatre\, Midtown-Times Square
+DESCRIPTION:The tender robot-love musical keeps charming Broadway — bring
+ 
+ tissues\, leave hopeful. Tickets & info: https://www.ticketmaster.com/mayb
+ 
+e-happy-ending-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ17Jbbp
+URL:https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-10-15
+ 
+-2026/event/Z1r9uZruZqGZ17Jbbp
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-11@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T193000
+DTEND;TZID=America/New_York:20261015T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's unhinged First Lady farce remains the funniest ti
+ 
+cket in Midtown. Tickets & info: https://www.ticketmaster.com/oh-mary-new-y
+ 
+ork-new-york-10-15-2026/event/Z1r9uZruZqGZ17J9Ov
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-15-2026/event
+ 
+/Z1r9uZruZqGZ17J9Ov
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-12@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Buena Vista Social Club
+LOCATION:Gerald Schoenfeld Theatre\, Midtown-Times Square
+DESCRIPTION:Cuban son\, mambo\, and cha-cha-cha live on stage — pure warm
+ 
+th on an October night. Tickets & info: https://www.ticketmaster.com/buena-
+ 
+vista-social-club-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ1AvZ6At
+URL:https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-
+ 
+10-15-2026/event/Z1r9uZruZqGZ1AvZ6At
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-13@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Show Trial
+LOCATION:The Tank
+DESCRIPTION:Political satire gets the courtroom treatment at The Tank — v
+ 
+erdicts rendered in punchlines. Tickets & info: https://thetanknyc.org/cale
+ 
+ndar-1/showtrial
+URL:https://thetanknyc.org/calendar-1/showtrial
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-14@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T193000
+DTEND;TZID=America/New_York:20261015T213000
+SUMMARY:Dracula
+LOCATION:Bernie Wohl Center\, Upper West Side (Central)
+DESCRIPTION:The 1927 stage classic gets a full Equity showcase production 
+ 
+ capes\, mist\, and Van Helsing on the UWS. Tickets & info: https://outof
+ 
+theboxtheatre.ludus.com/index.php
+URL:https://outoftheboxtheatre.ludus.com/index.php
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-15@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T182000
+DTEND;TZID=America/New_York:20261015T202000
+SUMMARY:Unzipped
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Film Forum revival of the gloriously bitchy Isaac Mizrahi docum
+ 
+entary — fashion\, fame\, and 90s excess. Tickets & info: https://filmfor
+ 
+um.org/film/unzipped-2026
+URL:https://filmforum.org/film/unzipped-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-16@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:¡Palante\, Siempre Pa'lante!
+LOCATION:Sixth Street Community Center\, East Village
+DESCRIPTION:30th-anniversary screening of the Young Lords doc plus Q&A — 
+ 
+free\, in the East Village. Tickets & info: https://luma.com/s99c90j0
+URL:https://luma.com/s99c90j0
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-17@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Corner Unit (downtown festival x ditchers eddy)
+LOCATION:224 Centre St 6th floor\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:A micro-cinema screening night in a SoHo loft — small films\,
+ 
+ big conversation. Tickets & info: https://www.eventbrite.com/e/downtown-fe
+ 
+stival-x-ditchers-eddy-present-corner-unit-tickets-2002101222652
+URL:https://www.eventbrite.com/e/downtown-festival-x-ditchers-eddy-present-
+ 
+corner-unit-tickets-2002101222652
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-18@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T170000
+DTEND;TZID=America/New_York:20261015T190000
+SUMMARY:Free Wine Tasting: Alsace to California
+LOCATION:Millesima USA LLC\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Free pours spanning Riesling country to Napa at Millesima — s
+ 
+chool yourself\, sip by sip. Tickets & info: https://www.eventbrite.com/e/f
+ 
+ree-wine-tasting-alsace-to-california-a-world-of-wine-styles-tickets-200223
+ 
+1141242
+URL:https://www.eventbrite.com/e/free-wine-tasting-alsace-to-california-a-w
+ 
+orld-of-wine-styles-tickets-2002231141242
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-19@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T210000
+DTEND;TZID=America/New_York:20261015T230000
+SUMMARY:Arriba el Norte! Sotol Week Party
+LOCATION:La Diáspora\, Chinatown-Two Bridges
+DESCRIPTION:Sotol — mezcal's desert cousin — takes over a Chinatown bar
+ 
+ for the late shift. Tickets & info: https://www.eventbrite.com/e/arriba-el
+ 
+-norte-sotol-week-party-tickets-2002949513914
+URL:https://www.eventbrite.com/e/arriba-el-norte-sotol-week-party-tickets-2
+ 
+002949513914
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-20@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T150000
+DTEND;TZID=America/New_York:20261015T170000
+SUMMARY:Kings County Distillery Tour
+LOCATION:Kings County Distillery\, Brooklyn Navy Yard
+DESCRIPTION:America's smallest-city-whiskey distillery opens the doors at t
+ 
+he Navy Yard — tours plus a pour. Tickets & info: https://www.eventbrite.
+ 
+com/e/kings-county-distillery-whiskey-tour-tickets-2000463368787
+URL:https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-ticke
+ 
+ts-2000463368787
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-22@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Mathias Énard with Christopher Byrd
+LOCATION:Albertine\, Upper East Side-Carnegie Hill
+DESCRIPTION:The French novelist talks his hypnotic\, globetrotting fiction 
+ 
+at Albertine — free. Tickets & info: https://bookevents.nyc/events/an-eve
+ 
+ning-with-mathias-nard-and-christopher-byrd-oct-15
+URL:https://bookevents.nyc/events/an-evening-with-mathias-nard-and-christop
+ 
+her-byrd-oct-15
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-23@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Jhumpa Lahiri on Grazia Deledda
+LOCATION:Italian Academy\, Morningside Heights
+DESCRIPTION:Lahiri traces the Nobel laureate from Sardinia at the Italian A
+ 
+cademy — literary deep cuts\, free. Tickets & info: https://www.eventbrit
+ 
+e.com/e/jhumpa-lahiri-grazia-deledda-writing-from-the-threshold-tickets-199
+ 
+7572023696
+URL:https://www.eventbrite.com/e/jhumpa-lahiri-grazia-deledda-writing-from-
+ 
+the-threshold-tickets-1997572023696
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-24@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Lectures on Tap: Alchemy 101
+LOCATION:Midtown Manhattan\, Midtown-Times Square
+DESCRIPTION:Turn lead into gold\, or at least turn a beer into an education
+ 
+ — mad-science pub lecture. Tickets & info: https://www.eventbrite.com/e/
+ 
+lectures-on-tap-alchemy-101-foundations-of-transmutation-tickets-2000010200
+ 
+348
+URL:https://www.eventbrite.com/e/lectures-on-tap-alchemy-101-foundations-of
+ 
+-transmutation-tickets-2000010200348
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-25@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:'The Road Beyond Maps' Vernissage
+LOCATION:Mriya Gallery\, Tribeca-Civic Center
+DESCRIPTION:Opening night at Mriya Gallery in Tribeca — art\, wine\, and 
+ 
+first-look small talk\, free. Tickets & info: https://luma.com/zstskx86
+URL:https://luma.com/zstskx86
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-26@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T190000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Produce Parties: Carrot Party
+LOCATION:TALEA Beer Co - Williamsburg\, Greenpoint
+DESCRIPTION:A produce-pun-themed party at a Williamsburg brewery — yes\, 
+ 
+really\, and it's delightful. Tickets & info: https://luma.com/nyvawtsb
+URL:https://luma.com/nyvawtsb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-27@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Cheese 101: Fall Favorites
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's Cheese teaches the autumn board — washed rinds\, alp
+ 
+ine styles\, and your new personality. Tickets & info: https://www.eventbri
+ 
+te.com/e/cheese-101-fall-favorites-tickets-1996118519225
+URL:https://www.eventbrite.com/e/cheese-101-fall-favorites-tickets-19961185
+ 
+19225
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-28@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Horology 104
+LOCATION:Horological Society of New York\, Midtown-Times Square
+DESCRIPTION:Learn what actually makes a watch tick from a master watchmaker
+ 
+ — for the gear-heads. Tickets & info: https://www.eventbrite.com/e/horol
+ 
+ogy-104-fundraising-class-taught-by-bernhard-lederer-tickets-2000153533060
+URL:https://www.eventbrite.com/e/horology-104-fundraising-class-taught-by-b
+ 
+ernhard-lederer-tickets-2000153533060
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-29@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T173000
+DTEND;TZID=America/New_York:20261015T193000
+SUMMARY:Double Dutch
+LOCATION:Garibaldi Plaza (in Washington Square Park)\, Greenwich Village
+DESCRIPTION:Free jump-rope session at Garibaldi Plaza — all levels\, all 
+ 
+vibes\, Washington Square Park energy. Tickets & info: http://www.nycgovpar
+ 
+ks.org/events/2026/10/15/double-dutch
+URL:http://www.nycgovparks.org/events/2026/10/15/double-dutch
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-30@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Thursday Trivia Night
+LOCATION:Boris & Horton\, East Village
+DESCRIPTION:Free trivia at Boris & Horton\, the dog-friendly EV café — b
+ 
+ring your brain and someone who knows capitals. Tickets & info: https://lum
+ 
+a.com/96pd6sfc
+URL:https://luma.com/96pd6sfc
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-31@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T193000
+DTEND;TZID=America/New_York:20261015T213000
+SUMMARY:Ghosts of Gotham's Greenwich
+LOCATION:Meet at Washington Square Arch\, 7:30pm Daily\, Greenwich Village
+DESCRIPTION:A twilight ghost walk starting at the Washington Square Arch 
+ 
+ spooky season\, officially. Tickets & info: https://www.eventbrite.com/e/
+ 
+ghosts-of-gothams-greenwich-tickets-1989125246157
+URL:https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-198912
+ 
+5246157
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261015-32@concierge
+DTSTAMP:20261015T120022Z
+DTSTART;TZID=America/New_York:20261015T193000
+DTEND;TZID=America/New_York:20261015T213000
+SUMMARY:Knicks vs. Raptors (Preseason)
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:First look at the new-look Knicks at the Garden — preseason\,
+ 
+ but the Garden hums anyway. Tickets & info: https://www.ticketmaster.com/p
+ 
+reseason-new-york-knicks-v-toronto-new-york-new-york-10-15-2026/event/3B006
+ 
+511E91B8624
+URL:https://www.ticketmaster.com/preseason-new-york-knicks-v-toronto-new-yo
+ 
+rk-new-york-10-15-2026/event/3B006511E91B8624
+END:VEVENT
+END:VCALENDAR

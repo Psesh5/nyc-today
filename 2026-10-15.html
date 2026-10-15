@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Thursday, October 15</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Thursday, October 15</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-15.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="GZA performs &#x27;Liquid Swords&#x27; in full">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/gza-performing-liquid-swords-w-phunky-brooklyn-new-york-10-15-2026/event/000064B6C484EDD7">GZA performs &#x27;Liquid Swords&#x27; in full</a></h3>
+<div class="meta">8:00 PM · Brooklyn Bowl, Williamsburg</div>
+<p>The Wu-Tang legend plays his stone-cold 1995 classic front to back, lanes and pizza slices included.</p>
+<a class="tickets" href="https://www.ticketmaster.com/gza-performing-liquid-swords-w-phunky-brooklyn-new-york-10-15-2026/event/000064B6C484EDD7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Robert Glasper">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-note-jazz-club-tickets/15041853">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $66.32</div>
+<p>The genre-melting pianist holds court at the Blue Note — always a two-drink minimum kind of night.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-note-jazz-club-tickets/15041853">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Slow Magic, Maxo &amp; 4evr">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/slow-magic-maxo-4evr-tickets-1985581729403">Slow Magic, Maxo &amp; 4evr</a></h3>
+<div class="meta">7:00 PM · Elsewhere - Zone One, East Williamsburg</div>
+<p>Masked dream-pop electronica plus Houston&#x27;s Maxo — a woozy, late-night Elsewhere double bill.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/slow-magic-maxo-4evr-tickets-1985581729403">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Troye Sivan">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/concerts/43463476-troye-sivan-at-irving-plaza">Troye Sivan</a></h3>
+<div class="meta">8:00 PM · Irving Plaza, Gramercy</div>
+<p>Pop&#x27;s most choreographed heartthrob does the sweaty intimate-room thing before the arena era.</p>
+<a class="tickets" href="https://www.songkick.com/concerts/43463476-troye-sivan-at-irving-plaza">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="High Society New Orleans Jazz Band">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-high-society-new-orleans-birdland-theater-tickets/14916543">High Society New Orleans Jazz Band</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>Old-school Dixieland trad jazz at Birdland&#x27;s early set — a time machine with a bar tab.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-high-society-new-orleans-birdland-theater-tickets/14916543">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="BODEGA at Rough Trade Below">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/concerts/43386837-bodega-at-rough-trade-below">BODEGA at Rough Trade Below</a></h3>
+<div class="meta">6:00 PM · Rough Trade Below, Midtown-Times Square</div>
+<p>Brooklyn post-punks strip it back for an in-store set — loud, wry, and mercifully short on merch lines.</p>
+<a class="tickets" href="https://www.songkick.com/concerts/43386837-bodega-at-rough-trade-below">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Jazz with Joelle (Halloween Edition)">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/hCI2LhVma3cQvr0F439A?source=discover">Jazz with Joelle (Halloween Edition)</a></h3>
+<div class="meta">9:30 PM · Old Flings, East Village · Free</div>
+<p>Free monthly jazz jam at an East Village basement bar — standards, originals, costumes encouraged, no drink minimum.</p>
+<a class="tickets" href="https://partiful.com/e/hCI2LhVma3cQvr0F439A?source=discover">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Francesca Fiorentini &amp; Matt Lieb">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/francesca-fiorentini-and-matt-lieb-brooklyn-new-york-10-15-2026/event/300064F43E856080">Francesca Fiorentini &amp; Matt Lieb</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Political comedy&#x27;s power couple tag-teams the Bell House — sharp, furious, and funny.</p>
+<a class="tickets" href="https://www.ticketmaster.com/francesca-fiorentini-and-matt-lieb-brooklyn-new-york-10-15-2026/event/300064F43E856080">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Comedy Mob: The Lineup">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/comedy-mob-presents-the-lineup-2026-10-15180000">Comedy Mob: The Lineup</a></h3>
+<div class="meta">6:00 PM · New York Comedy Club · Free</div>
+<p>A free early-evening lineup at NY Comedy Club — zero dollars, plenty of punchlines.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/comedy-mob-presents-the-lineup-2026-10-15180000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Fresh Towels">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/fresh-towels-a-comedy-show-tickets-2002603607298">Fresh Towels</a></h3>
+<div class="meta">8:00 PM · Moxy NYC East Village, East Village</div>
+<p>A scrappy hotel-lobby-ish comedy night at the Moxy East Village with a rotating local lineup.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/fresh-towels-a-comedy-show-tickets-2002603607298">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-10" data-name="Maybe Happy Ending">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ17Jbbp">Maybe Happy Ending</a></h3>
+<div class="meta">7:00 PM · Belasco Theatre, Midtown-Times Square</div>
+<p>The tender robot-love musical keeps charming Broadway — bring tissues, leave hopeful.</p>
+<a class="tickets" href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ17Jbbp">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Oh, Mary!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ17J9Ov">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Midtown-Times Square</div>
+<p>Cole Escola&#x27;s unhinged First Lady farce remains the funniest ticket in Midtown.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ17J9Ov">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Buena Vista Social Club">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ1AvZ6At">Buena Vista Social Club</a></h3>
+<div class="meta">7:00 PM · Gerald Schoenfeld Theatre, Midtown-Times Square</div>
+<p>Cuban son, mambo, and cha-cha-cha live on stage — pure warmth on an October night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-15-2026/event/Z1r9uZruZqGZ1AvZ6At">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Show Trial">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://thetanknyc.org/calendar-1/showtrial">Show Trial</a></h3>
+<div class="meta">7:00 PM · The Tank</div>
+<p>Political satire gets the courtroom treatment at The Tank — verdicts rendered in punchlines.</p>
+<a class="tickets" href="https://thetanknyc.org/calendar-1/showtrial">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Dracula">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://outoftheboxtheatre.ludus.com/index.php">Dracula</a></h3>
+<div class="meta">7:30 PM · Bernie Wohl Center, Upper West Side (Central) · 30</div>
+<p>The 1927 stage classic gets a full Equity showcase production — capes, mist, and Van Helsing on the UWS.</p>
+<a class="tickets" href="https://outoftheboxtheatre.ludus.com/index.php">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="Unzipped">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/unzipped-2026">Unzipped</a></h3>
+<div class="meta">6:20 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Film Forum revival of the gloriously bitchy Isaac Mizrahi documentary — fashion, fame, and 90s excess.</p>
+<a class="tickets" href="https://filmforum.org/film/unzipped-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="¡Palante, Siempre Pa&#x27;lante!">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/s99c90j0">¡Palante, Siempre Pa&#x27;lante!</a></h3>
+<div class="meta">6:00 PM · Sixth Street Community Center, East Village · Free</div>
+<p>30th-anniversary screening of the Young Lords doc plus Q&amp;A — free, in the East Village.</p>
+<a class="tickets" href="https://luma.com/s99c90j0">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Corner Unit (downtown festival x ditchers eddy)">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/downtown-festival-x-ditchers-eddy-present-corner-unit-tickets-2002101222652">Corner Unit (downtown festival x ditchers eddy)</a></h3>
+<div class="meta">7:00 PM · 224 Centre St 6th floor, SoHo-Little Italy-Hudson Square</div>
+<p>A micro-cinema screening night in a SoHo loft — small films, big conversation.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/downtown-festival-x-ditchers-eddy-present-corner-unit-tickets-2002101222652">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-18" data-name="Free Wine Tasting: Alsace to California">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/free-wine-tasting-alsace-to-california-a-world-of-wine-styles-tickets-2002231141242">Free Wine Tasting: Alsace to California</a></h3>
+<div class="meta">5:00 PM · Millesima USA LLC, Upper East Side-Lenox Hill-Roosevelt Island</div>
+<p>Free pours spanning Riesling country to Napa at Millesima — school yourself, sip by sip.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/free-wine-tasting-alsace-to-california-a-world-of-wine-styles-tickets-2002231141242">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Arriba el Norte! Sotol Week Party">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/arriba-el-norte-sotol-week-party-tickets-2002949513914">Arriba el Norte! Sotol Week Party</a></h3>
+<div class="meta">9:00 PM · La Diáspora, Chinatown-Two Bridges</div>
+<p>Sotol — mezcal&#x27;s desert cousin — takes over a Chinatown bar for the late shift.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/arriba-el-norte-sotol-week-party-tickets-2002949513914">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Kings County Distillery Tour">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-tickets-2000463368787">Kings County Distillery Tour</a></h3>
+<div class="meta">3:00 PM · Kings County Distillery, Brooklyn Navy Yard</div>
+<p>America&#x27;s smallest-city-whiskey distillery opens the doors at the Navy Yard — tours plus a pour.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-tickets-2000463368787">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="NYC Wine &amp; Food Festival (opening day)">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nycwff.org/">NYC Wine &amp; Food Festival (opening day)</a></h3>
+<div class="meta">All day · South Street Seaport, South Street Seaport</div>
+<p>Four days of celebrity-chef firepower kicks off at the Seaport — the Grand Tasting is the gravitational center.</p>
+<a class="tickets" href="https://nycwff.org/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-22" data-name="Mathias Énard with Christopher Byrd">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/an-evening-with-mathias-nard-and-christopher-byrd-oct-15">Mathias Énard with Christopher Byrd</a></h3>
+<div class="meta">6:00 PM · Albertine, Upper East Side-Carnegie Hill · Free</div>
+<p>The French novelist talks his hypnotic, globetrotting fiction at Albertine — free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/an-evening-with-mathias-nard-and-christopher-byrd-oct-15">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Jhumpa Lahiri on Grazia Deledda">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/jhumpa-lahiri-grazia-deledda-writing-from-the-threshold-tickets-1997572023696">Jhumpa Lahiri on Grazia Deledda</a></h3>
+<div class="meta">6:00 PM · Italian Academy, Morningside Heights</div>
+<p>Lahiri traces the Nobel laureate from Sardinia at the Italian Academy — literary deep cuts, free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/jhumpa-lahiri-grazia-deledda-writing-from-the-threshold-tickets-1997572023696">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Lectures on Tap: Alchemy 101">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lectures-on-tap-alchemy-101-foundations-of-transmutation-tickets-2000010200348">Lectures on Tap: Alchemy 101</a></h3>
+<div class="meta">6:30 PM · Midtown Manhattan, Midtown-Times Square</div>
+<p>Turn lead into gold, or at least turn a beer into an education — mad-science pub lecture.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lectures-on-tap-alchemy-101-foundations-of-transmutation-tickets-2000010200348">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="&#x27;The Road Beyond Maps&#x27; Vernissage">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/zstskx86">&#x27;The Road Beyond Maps&#x27; Vernissage</a></h3>
+<div class="meta">6:00 PM · Mriya Gallery, Tribeca-Civic Center · Free</div>
+<p>Opening night at Mriya Gallery in Tribeca — art, wine, and first-look small talk, free.</p>
+<a class="tickets" href="https://luma.com/zstskx86">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Produce Parties: Carrot Party">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/nyvawtsb">Produce Parties: Carrot Party</a></h3>
+<div class="meta">7:00 PM · TALEA Beer Co - Williamsburg, Greenpoint · $37</div>
+<p>A produce-pun-themed party at a Williamsburg brewery — yes, really, and it&#x27;s delightful.</p>
+<a class="tickets" href="https://luma.com/nyvawtsb">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-27" data-name="Cheese 101: Fall Favorites">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/cheese-101-fall-favorites-tickets-1996118519225">Cheese 101: Fall Favorites</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>Murray&#x27;s Cheese teaches the autumn board — washed rinds, alpine styles, and your new personality.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/cheese-101-fall-favorites-tickets-1996118519225">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Horology 104">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/horology-104-fundraising-class-taught-by-bernhard-lederer-tickets-2000153533060">Horology 104</a></h3>
+<div class="meta">6:00 PM · Horological Society of New York, Midtown-Times Square</div>
+<p>Learn what actually makes a watch tick from a master watchmaker — for the gear-heads.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/horology-104-fundraising-class-taught-by-bernhard-lederer-tickets-2000153533060">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-29" data-name="Double Dutch">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/15/double-dutch">Double Dutch</a></h3>
+<div class="meta">5:30 PM · Garibaldi Plaza (in Washington Square Park), Greenwich Village · Free</div>
+<p>Free jump-rope session at Garibaldi Plaza — all levels, all vibes, Washington Square Park energy.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/15/double-dutch">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-30" data-name="Thursday Trivia Night">
+<button class="toggle" data-idx="30" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/96pd6sfc">Thursday Trivia Night</a></h3>
+<div class="meta">6:30 PM · Boris &amp; Horton, East Village · Free</div>
+<p>Free trivia at Boris &amp; Horton, the dog-friendly EV café — bring your brain and someone who knows capitals.</p>
+<a class="tickets" href="https://luma.com/96pd6sfc">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-31" data-name="Ghosts of Gotham&#x27;s Greenwich">
+<button class="toggle" data-idx="31" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125246157">Ghosts of Gotham&#x27;s Greenwich</a></h3>
+<div class="meta">7:30 PM · Meet at Washington Square Arch, 7:30pm Daily, Greenwich Village</div>
+<p>A twilight ghost walk starting at the Washington Square Arch — spooky season, officially.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125246157">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-32" data-name="Knicks vs. Raptors (Preseason)">
+<button class="toggle" data-idx="32" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/preseason-new-york-knicks-v-toronto-new-york-new-york-10-15-2026/event/3B006511E91B8624">Knicks vs. Raptors (Preseason)</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>First look at the new-look Knicks at the Garden — preseason, but the Garden hums anyway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/preseason-new-york-knicks-v-toronto-new-york-new-york-10-15-2026/event/3B006511E91B8624">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-15";
+const NAMES = ["GZA performs 'Liquid Swords' in full", "Robert Glasper", "Slow Magic, Maxo & 4evr", "Troye Sivan", "High Society New Orleans Jazz Band", "BODEGA at Rough Trade Below", "Jazz with Joelle (Halloween Edition)", "Francesca Fiorentini & Matt Lieb", "Comedy Mob: The Lineup", "Fresh Towels", "Maybe Happy Ending", "Oh, Mary!", "Buena Vista Social Club", "Show Trial", "Dracula", "Unzipped", "\u00a1Palante, Siempre Pa'lante!", "Corner Unit (downtown festival x ditchers eddy)", "Free Wine Tasting: Alsace to California", "Arriba el Norte! Sotol Week Party", "Kings County Distillery Tour", "NYC Wine & Food Festival (opening day)", "Mathias \u00c9nard with Christopher Byrd", "Jhumpa Lahiri on Grazia Deledda", "Lectures on Tap: Alchemy 101", "'The Road Beyond Maps' Vernissage", "Produce Parties: Carrot Party", "Cheese 101: Fall Favorites", "Horology 104", "Double Dutch", "Thursday Trivia Night", "Ghosts of Gotham's Greenwich", "Knicks vs. Raptors (Preseason)"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
