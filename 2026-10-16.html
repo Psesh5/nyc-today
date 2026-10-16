@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, October 16</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, October 16</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-16.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Robert Glasper">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-note-jazz-club-tickets/15041903">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $77.65</div>
+<p>The piano polymath brings his OG acoustic trio back to the Village Vanguard&#x27;s big sibling for two sets of genre-melting jazz.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-note-jazz-club-tickets/15041903">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Fisher (16 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/concerts/43255934-fisher-at-forest-hills-stadium">Fisher (16 and Over)</a></h3>
+<div class="meta">5:45 PM · Forest Hills Stadium, Forest Hills</div>
+<p>Stadium-sized house from the DJ behind &#x27;Losing It&#x27; — sunset set at Forest Hills Stadium.</p>
+<a class="tickets" href="https://www.songkick.com/concerts/43255934-fisher-at-forest-hills-stadium">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Agnes Obel @ Rough Trade Below">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.songkick.com/concerts/43438294-agnes-obel-at-rough-trade-below">Agnes Obel @ Rough Trade Below</a></h3>
+<div class="meta">6:00 PM · Rough Trade Below, Midtown-Times Square · $32.92</div>
+<p>Danish chamber-folk songwriter plays an intimate in-store beneath Rockefeller Center.</p>
+<a class="tickets" href="https://www.songkick.com/concerts/43438294-agnes-obel-at-rough-trade-below">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Magoo">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/magoo-new-york-new-york-10-16-2026/event/000064F7B78F5F8D">Magoo</a></h3>
+<div class="meta">9:00 PM · Mercury Lounge, Lower East Side · $33.27</div>
+<p>A Mercury Lounge Friday: expect guitars, feedback, and a very loud Lower East Side.</p>
+<a class="tickets" href="https://www.ticketmaster.com/magoo-new-york-new-york-10-16-2026/event/000064F7B78F5F8D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Carole J. Bufford: Chanteuse">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/carole-j-bufford-chanteuse-birdland-theater-tickets/15007073">Carole J. Bufford: Chanteuse</a></h3>
+<div class="meta">7:00 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>Cabaret singer salutes the torch singers — Streisand, Garland, Piaf, Kitt — at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/carole-j-bufford-chanteuse-birdland-theater-tickets/15007073">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Stand-up at Comedy Cellar (Village Underground): Rich Aronovitch, Philipp Kostelecky, Janelle James, Keith Robinson &amp; more">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1792094400">Stand-up at Comedy Cellar (Village Underground): Rich Aronovitch, Philipp Kostelecky, Janelle James, Keith Robinson &amp; more</a></h3>
+<div class="meta">8:00 PM · Comedy Cellar (Village Underground), Greenwich Village · $25</div>
+<p>Janelle James headlines a stacked Friday lineup in the West Village&#x27;s most famous brick room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1792094400">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Stand-up at Comedy Cellar (Fat Black Pussycat): Dave Temple, Philipp Kostelecky, Marina Franklin, Amos Gill &amp; more">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1792090860">Stand-up at Comedy Cellar (Fat Black Pussycat): Dave Temple, Philipp Kostelecky, Marina Franklin, Amos Gill &amp; more</a></h3>
+<div class="meta">7:01 PM · Comedy Cellar (Fat Black Pussycat), Greenwich Village · $25</div>
+<p>Marina Franklin and friends across the street at the Cellar&#x27;s scrappier sister room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1792090860">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Jackie Fabulous, Marion Grodin, Graham Kay, Gastor Almonte, Mariel O&#x27;Reilly">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/jackie-fabulous-marion-grodin-graham-kay-gastor-almonte-mariel-o-reilly">Jackie Fabulous, Marion Grodin, Graham Kay, Gastor Almonte, Mariel O&#x27;Reilly</a></h3>
+<div class="meta">8:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Five comics, one brick wall, Upper West Side — Jackie&#x27;s back home for a Friday late-ish show.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/jackie-fabulous-marion-grodin-graham-kay-gastor-almonte-mariel-o-reilly">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-8" data-name="MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/my-undesirable-friends-part-ii-exile">MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3</a></h3>
+<div class="meta">7:15 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Julia Loktev&#x27;s six-hour landmark doc on exiled Russian journalists, in three parts at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/my-undesirable-friends-part-ii-exile">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Okja">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001736-okja/">Okja</a></h3>
+<div class="meta">1:45 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Bong Joon Ho&#x27;s super-pig fable in 4K at Metrograph — Tilda Swinton, Paul Dano, maximum chaos.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001736-okja/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="A Girl in Black">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/a-girl-in-black/">A Girl in Black</a></h3>
+<div class="meta">7:00 PM · Museum of the Moving Image, Astoria (Central) · $17.5</div>
+<p>Cacoyannis&#x27;s 1956 Golden Globe-winning Hydra tragedy screens at MoMI&#x27;s Redstone Theater.</p>
+<a class="tickets" href="https://movingimage.org/event/a-girl-in-black/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Exorcist">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-exorcist/">The Exorcist</a></h3>
+<div class="meta">11:45 PM · IFC Center, Greenwich Village</div>
+<p>Waverly Midnights: Friedkin&#x27;s 1973 shocker at 11:45 PM, the exact right hour.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-exorcist/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-12" data-name="Hadestown">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.broadway.com/shows/hadestown/">Hadestown</a></h3>
+<div class="meta">7:00 PM · Walter Kerr Theatre, Hell&#x27;s Kitchen · $139</div>
+<p>The Tony-winning folk opera still going strong at the Walter Kerr.</p>
+<a class="tickets" href="http://www.broadway.com/shows/hadestown/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="New York City Ballet: Eclectic NYCB I">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nycballet.com/season-and-tickets/fall-2026/eclectic-nycb-i">New York City Ballet: Eclectic NYCB I</a></h3>
+<div class="meta">7:30 PM · David H. Koch Theater, Upper West Side-Lincoln Square</div>
+<p>Mixed rep at the Koch — the company&#x27;s fall season in full swing.</p>
+<a class="tickets" href="https://www.nycballet.com/season-and-tickets/fall-2026/eclectic-nycb-i">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Nameless Reading x The Silver Cherry">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/nameless-reading-x-the-silver-night-club-101-tickets/14345044">Nameless Reading x The Silver Cherry</a></h3>
+<div class="meta">7:00 PM · Night Club 101, East Village · Free</div>
+<p>Free spoken word night at Night Club 101 on Avenue A — bring your ears, leave with something.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/nameless-reading-x-the-silver-night-club-101-tickets/14345044">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Exhibition: Under the Common Sea Opening">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/accentisa-fbwj">Exhibition: Under the Common Sea Opening</a></h3>
+<div class="meta">6:30 PM · Accent Sisters 重音社, Midtown South-Flatiron-Union Square · Free</div>
+<p>Opening reception for a group show on Chinese diasporic life in the US — artist walkthrough, live DJ, Sichuan peppercorn bites.</p>
+<a class="tickets" href="https://luma.com/accentisa-fbwj">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Houdini: Preserving a Legacy of Magic, Escapes, and Showmanship">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/houdini-preserving-a-legacy-of-magic-escapes-and-showmanship-tickets-2002316622920">Houdini: Preserving a Legacy of Magic, Escapes, and Showmanship</a></h3>
+<div class="meta">7:00 PM · New York Public Library for the Performing Arts -Bruno Walter Auditorium, Upper West Side-Lincoln Square · Free</div>
+<p>NYPL marks 100 years since Houdini&#x27;s death with archivists, rare artifacts, and a live escape artist — free, in person or virtual.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/houdini-preserving-a-legacy-of-magic-escapes-and-showmanship-tickets-2002316622920">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-30" data-name="I Survived an Oven Fire and Gas Leak Craft Night">
+<button class="toggle" data-idx="30" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/xjd5op39">I Survived an Oven Fire and Gas Leak Craft Night</a></h3>
+<div class="meta">7:00 PM · Washington Heights, Washington Heights (South) · Free</div>
+<p>A Washington Heights craft night to work on your Halloween costume — free, bring a project.</p>
+<a class="tickets" href="https://luma.com/xjd5op39">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-13" data-name="The Great Gatsby">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-great-gatsby-new-york-new-york-10-16-2026/event/Z1r9uZruZqGZ17JePo">The Great Gatsby</a></h3>
+<div class="meta">7:00 PM · Broadway Theatre, Midtown-Times Square</div>
+<p>The Jazz Age spectacle in its last stretch at the Broadway Theatre.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-great-gatsby-new-york-new-york-10-16-2026/event/Z1r9uZruZqGZ17JePo">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Metropolitan Opera Presents La Boheme">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvVuS">Metropolitan Opera Presents La Boheme</a></h3>
+<div class="meta">7:30 PM · Metropolitan Opera House, Upper West Side-Lincoln Square</div>
+<p>Puccini&#x27;s garret tragedy opens your Friday night at the Met.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvVuS">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-17" data-name="Franny Choi: We Radiant Things w/ Sarah Kay">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-store-franny-choi-we-radiant-things-w-sarah-kay-tickets-1998557738997">Franny Choi: We Radiant Things w/ Sarah Kay</a></h3>
+<div class="meta">7:00 PM · Books Are Magic, Brooklyn Heights · $10.89</div>
+<p>The poet launches a cyborg-essay collection at Books Are Magic; ticket includes book or gift card.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-store-franny-choi-we-radiant-things-w-sarah-kay-tickets-1998557738997">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="The LitFluence Cypher: Books as Communal Medicine">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-litfluence-cypher-books-as-communal-medicine-tickets-2002105831437">The LitFluence Cypher: Books as Communal Medicine</a></h3>
+<div class="meta">6:00 PM · Adanne Bookshop, Bedford-Stuyvesant (East) · $20</div>
+<p>A literary salon on healing and story at Bed-Stuy&#x27;s Adanne Bookshop, with &#x27;Hood Wellness&#x27; author Tamela J. Gordon.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-litfluence-cypher-books-as-communal-medicine-tickets-2002105831437">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-19" data-name="A culinary journey from Ecuador&#x27;s rainforest to Mesoamerica">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/a-culinary-journey-from-ecuadors-rainforest-to-mesoamerica-tickets-2001707637428">A culinary journey from Ecuador&#x27;s rainforest to Mesoamerica</a></h3>
+<div class="meta">7:00 PM · 178 Spring St, SoHo-Little Italy-Hudson Square · $120</div>
+<p>A SoHo cacao tasting that traces chocolate 5,000 years back to the Amazon — tuna tartare with cacao pulp included.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/a-culinary-journey-from-ecuadors-rainforest-to-mesoamerica-tickets-2001707637428">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Shuck Yea! and Oyster Shucking Experience">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517267650">Shuck Yea! and Oyster Shucking Experience</a></h3>
+<div class="meta">7:00 PM · Festival Cafe, Upper East Side-Lenox Hill-Roosevelt Island · $156.57</div>
+<p>Learn to shuck a dozen oysters (half of them by you) with bubbles and a martini at Festival Cafe.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517267650">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-21" data-name="K-Pop Dance Classes at Gotham Park">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/k-pop-dance-classes-at-gotham-park-tickets-1999610106657">K-Pop Dance Classes at Gotham Park</a></h3>
+<div class="meta">6:00 PM · Gotham Park, Tribeca-Civic Center · Free</div>
+<p>Free Friday dance class under the Brooklyn Bridge — no experience, just sneakers and water.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/k-pop-dance-classes-at-gotham-park-tickets-1999610106657">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="cutie collage keychains w/ @howdy.molly">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/akwnj7rk">cutie collage keychains w/ @howdy.molly</a></h3>
+<div class="meta">6:30 PM · haricot vert&#x27;s dreamworld, Williamsburg · $18</div>
+<p>Make a miniature collage sealed into a keychain at haricot vert&#x27;s dreamworld in Williamsburg.</p>
+<a class="tickets" href="https://luma.com/akwnj7rk">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-23" data-name="badminton night">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/sdszr14d">badminton night</a></h3>
+<div class="meta">7:00 PM · Queens, Maspeth · Free</div>
+<p>50 founders and builders, a few Queens courts, racquets provided — casual doubles all night.</p>
+<a class="tickets" href="https://luma.com/sdszr14d">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Girls Love Karaoke “Live” all R&amp;B all night edition">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/girls-love-karaoke-live-all-rb-all-night-edition-tickets-2000654332966">Girls Love Karaoke “Live” all R&amp;B all night edition</a></h3>
+<div class="meta">10:00 PM · HK Hall, Hell&#x27;s Kitchen · $28.52</div>
+<p>All-R&amp;B sing-along until 3 AM at HK Hall — 21+, doors at 10.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/girls-love-karaoke-live-all-rb-all-night-edition-tickets-2000654332966">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-25" data-name="Founders in AI Safety - BlueDot Happy Hour NYC">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/bluedot-txyw">Founders in AI Safety - BlueDot Happy Hour NYC</a></h3>
+<div class="meta">7:30 PM · BELTANE, Midtown South-Flatiron-Union Square · Free</div>
+<p>Drinks with AI-safety founders, grantmakers, and investors at Beltane — capped at 50, approval required.</p>
+<a class="tickets" href="https://luma.com/bluedot-txyw">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-26" data-name="West Village Hidden History Cipher">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/west-village-hidden-history-cipher-tickets-2000309363152">West Village Hidden History Cipher</a></h3>
+<div class="meta">10:00 AM · Abingdon Square, West Village · $23.18</div>
+<p>A two-hour digital scavenger hunt through hidden West Village history, starting at Abingdon Square.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/west-village-hidden-history-cipher-tickets-2000309363152">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-27" data-name="Juggling in Greeley Square Park">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/16/juggling-in-greeley-square-park">Juggling in Greeley Square Park</a></h3>
+<div class="meta">2:00 PM · Greeley Square Park, Midtown South-Flatiron-Union Square · Free</div>
+<p>Free outdoor juggling in the Flatiron — show up, pick up three balls, join in.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/16/juggling-in-greeley-square-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-16";
+const NAMES = ["Robert Glasper", "Fisher (16 and Over)", "Agnes Obel @ Rough Trade Below", "Magoo", "Carole J. Bufford: Chanteuse", "Stand-up at Comedy Cellar (Village Underground): Rich Aronovitch, Philipp Kostelecky, Janelle James, Keith Robinson & more", "Stand-up at Comedy Cellar (Fat Black Pussycat): Dave Temple, Philipp Kostelecky, Marina Franklin, Amos Gill & more", "Jackie Fabulous, Marion Grodin, Graham Kay, Gastor Almonte, Mariel O'Reilly", "MY UNDESIRABLE FRIENDS: PART II \u2013 EXILE: Chapters 1-3", "Okja", "A Girl in Black", "The Exorcist", "Hadestown", "The Great Gatsby", "Metropolitan Opera Presents La Boheme", "New York City Ballet: Eclectic NYCB I", "Nameless Reading x The Silver Cherry", "Franny Choi: We Radiant Things w/ Sarah Kay", "The LitFluence Cypher: Books as Communal Medicine", "A culinary journey from Ecuador's rainforest to Mesoamerica", "Shuck Yea! and Oyster Shucking Experience", "K-Pop Dance Classes at Gotham Park", "cutie collage keychains w/ @howdy.molly", "badminton night", "Girls Love Karaoke \u201cLive\u201d all R&B all night edition", "Founders in AI Safety - BlueDot Happy Hour NYC", "West Village Hidden History Cipher", "Juggling in Greeley Square Park", "Exhibition: Under the Common Sea Opening", "Houdini: Preserving a Legacy of Magic, Escapes, and Showmanship", "I Survived an Oven Fire and Gas Leak Craft Night"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

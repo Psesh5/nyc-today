@@ -1,0 +1,483 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261016-0@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T200000
+DTEND;TZID=America/New_York:20261016T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:The piano polymath brings his OG acoustic trio back to the Vill
+ 
+age Vanguard's big sibling for two sets of genre-melting jazz. Tickets & in
+ 
+fo: https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-n
+ 
+ote-jazz-club-tickets/15041903
+URL:https://www.ticketweb.com/event/robert-glasper-og-acoustic-piano-blue-n
+ 
+ote-jazz-club-tickets/15041903
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-1@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T174500
+DTEND;TZID=America/New_York:20261016T194500
+SUMMARY:Fisher (16 and Over)
+LOCATION:Forest Hills Stadium\, Forest Hills
+DESCRIPTION:Stadium-sized house from the DJ behind 'Losing It' — sunset s
+ 
+et at Forest Hills Stadium. Tickets & info: https://www.songkick.com/concer
+ 
+ts/43255934-fisher-at-forest-hills-stadium
+URL:https://www.songkick.com/concerts/43255934-fisher-at-forest-hills-stadi
+ 
+um
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-2@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T180000
+DTEND;TZID=America/New_York:20261016T200000
+SUMMARY:Agnes Obel @ Rough Trade Below
+LOCATION:Rough Trade Below\, Midtown-Times Square
+DESCRIPTION:Danish chamber-folk songwriter plays an intimate in-store benea
+ 
+th Rockefeller Center. Tickets & info: https://www.songkick.com/concerts/43
+ 
+438294-agnes-obel-at-rough-trade-below
+URL:https://www.songkick.com/concerts/43438294-agnes-obel-at-rough-trade-be
+ 
+low
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-3@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T210000
+DTEND;TZID=America/New_York:20261016T230000
+SUMMARY:Magoo
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:A Mercury Lounge Friday: expect guitars\, feedback\, and a very
+ 
+ loud Lower East Side. Tickets & info: https://www.ticketmaster.com/magoo-n
+ 
+ew-york-new-york-10-16-2026/event/000064F7B78F5F8D
+URL:https://www.ticketmaster.com/magoo-new-york-new-york-10-16-2026/event/0
+ 
+00064F7B78F5F8D
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-4@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Carole J. Bufford: Chanteuse
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Cabaret singer salutes the torch singers — Streisand\, Garlan
+ 
+d\, Piaf\, Kitt — at Birdland. Tickets & info: https://www.ticketweb.com/
+ 
+event/carole-j-bufford-chanteuse-birdland-theater-tickets/15007073
+URL:https://www.ticketweb.com/event/carole-j-bufford-chanteuse-birdland-the
+ 
+ater-tickets/15007073
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-5@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T200000
+DTEND;TZID=America/New_York:20261016T220000
+SUMMARY:Stand-up at Comedy Cellar (Village Underground): Rich Aronovitch\, 
+ 
+Philipp Kostelecky\, Janelle James\, Keith Robinson & more
+LOCATION:Comedy Cellar (Village Underground)\, Greenwich Village
+DESCRIPTION:Janelle James headlines a stacked Friday lineup in the West Vil
+ 
+lage's most famous brick room. Tickets & info: https://www.comedycellar.com
+ 
+/reservations-newyork/?showid=1792094400
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792094400
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-6@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190100
+DTEND;TZID=America/New_York:20261016T210100
+SUMMARY:Stand-up at Comedy Cellar (Fat Black Pussycat): Dave Temple\, Phili
+ 
+pp Kostelecky\, Marina Franklin\, Amos Gill & more
+LOCATION:Comedy Cellar (Fat Black Pussycat)\, Greenwich Village
+DESCRIPTION:Marina Franklin and friends across the street at the Cellar's s
+ 
+crappier sister room. Tickets & info: https://www.comedycellar.com/reservat
+ 
+ions-newyork/?showid=1792090860
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792090860
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-7@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T203000
+DTEND;TZID=America/New_York:20261016T223000
+SUMMARY:Jackie Fabulous\, Marion Grodin\, Graham Kay\, Gastor Almonte\, Mar
+ 
+iel O'Reilly
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Five comics\, one brick wall\, Upper West Side — Jackie's bac
+ 
+k home for a Friday late-ish show. Tickets & info: https://newyorkcomedyclu
+ 
+b.com/events/jackie-fabulous-marion-grodin-graham-kay-gastor-almonte-mariel
+ 
+-o-reilly
+URL:https://newyorkcomedyclub.com/events/jackie-fabulous-marion-grodin-grah
+ 
+am-kay-gastor-almonte-mariel-o-reilly
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-8@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T191500
+DTEND;TZID=America/New_York:20261016T211500
+SUMMARY:MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Julia Loktev's six-hour landmark doc on exiled Russian journali
+ 
+sts\, in three parts at Film Forum. Tickets & info: https://filmforum.org/f
+ 
+ilm/my-undesirable-friends-part-ii-exile
+URL:https://filmforum.org/film/my-undesirable-friends-part-ii-exile
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-9@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T134500
+DTEND;TZID=America/New_York:20261016T154500
+SUMMARY:Okja
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Bong Joon Ho's super-pig fable in 4K at Metrograph — Tilda Sw
+ 
+inton\, Paul Dano\, maximum chaos. Tickets & info: https://metrograph.com/f
+ 
+ilm/9999001736-okja/
+URL:https://metrograph.com/film/9999001736-okja/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-10@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:A Girl in Black
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Cacoyannis's 1956 Golden Globe-winning Hydra tragedy screens at
+ 
+ MoMI's Redstone Theater. Tickets & info: https://movingimage.org/event/a-g
+ 
+irl-in-black/
+URL:https://movingimage.org/event/a-girl-in-black/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-11@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T234500
+DTEND;TZID=America/New_York:20261017T014500
+SUMMARY:The Exorcist
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Waverly Midnights: Friedkin's 1973 shocker at 11:45 PM\, the ex
+ 
+act right hour. Tickets & info: https://www.ifccenter.com/films/the-exorcis
+ 
+t/
+URL:https://www.ifccenter.com/films/the-exorcist/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-12@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Hadestown
+LOCATION:Walter Kerr Theatre\, Hell's Kitchen
+DESCRIPTION:The Tony-winning folk opera still going strong at the Walter Ke
+ 
+rr. Tickets & info: http://www.broadway.com/shows/hadestown/
+URL:http://www.broadway.com/shows/hadestown/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-13@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:The Great Gatsby
+LOCATION:Broadway Theatre\, Midtown-Times Square
+DESCRIPTION:The Jazz Age spectacle in its last stretch at the Broadway Thea
+ 
+tre. Tickets & info: https://www.ticketmaster.com/the-great-gatsby-new-york
+ 
+-new-york-10-16-2026/event/Z1r9uZruZqGZ17JePo
+URL:https://www.ticketmaster.com/the-great-gatsby-new-york-new-york-10-16-2
+ 
+026/event/Z1r9uZruZqGZ17JePo
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-14@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T193000
+DTEND;TZID=America/New_York:20261016T213000
+SUMMARY:Metropolitan Opera Presents La Boheme
+LOCATION:Metropolitan Opera House\, Upper West Side-Lincoln Square
+DESCRIPTION:Puccini's garret tragedy opens your Friday night at the Met. Ti
+ 
+ckets & info: https://www.ticketmaster.com/event/Z7r9jZ1AAvVuS
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvVuS
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-15@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T193000
+DTEND;TZID=America/New_York:20261016T213000
+SUMMARY:New York City Ballet: Eclectic NYCB I
+LOCATION:David H. Koch Theater\, Upper West Side-Lincoln Square
+DESCRIPTION:Mixed rep at the Koch — the company's fall season in full swi
+ 
+ng. Tickets & info: https://www.nycballet.com/season-and-tickets/fall-2026/
+ 
+eclectic-nycb-i
+URL:https://www.nycballet.com/season-and-tickets/fall-2026/eclectic-nycb-i
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-16@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Nameless Reading x The Silver Cherry
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:Free spoken word night at Night Club 101 on Avenue A — bring 
+ 
+your ears\, leave with something. Tickets & info: https://www.ticketweb.com
+ 
+/event/nameless-reading-x-the-silver-night-club-101-tickets/14345044
+URL:https://www.ticketweb.com/event/nameless-reading-x-the-silver-night-clu
+ 
+b-101-tickets/14345044
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-17@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Franny Choi: We Radiant Things w/ Sarah Kay
+LOCATION:Books Are Magic\, Brooklyn Heights
+DESCRIPTION:The poet launches a cyborg-essay collection at Books Are Magic\
+ 
+; ticket includes book or gift card. Tickets & info: https://www.eventbrite
+ 
+.com/e/in-store-franny-choi-we-radiant-things-w-sarah-kay-tickets-199855773
+ 
+8997
+URL:https://www.eventbrite.com/e/in-store-franny-choi-we-radiant-things-w-s
+ 
+arah-kay-tickets-1998557738997
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-18@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T180000
+DTEND;TZID=America/New_York:20261016T200000
+SUMMARY:The LitFluence Cypher: Books as Communal Medicine
+LOCATION:Adanne Bookshop\, Bedford-Stuyvesant (East)
+DESCRIPTION:A literary salon on healing and story at Bed-Stuy's Adanne Book
+ 
+shop\, with 'Hood Wellness' author Tamela J. Gordon. Tickets & info: https:
+ 
+//www.eventbrite.com/e/the-litfluence-cypher-books-as-communal-medicine-tic
+ 
+kets-2002105831437
+URL:https://www.eventbrite.com/e/the-litfluence-cypher-books-as-communal-me
+ 
+dicine-tickets-2002105831437
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-19@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:A culinary journey from Ecuador's rainforest to Mesoamerica
+LOCATION:178 Spring St\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:A SoHo cacao tasting that traces chocolate 5\,000 years back to
+ 
+ the Amazon — tuna tartare with cacao pulp included. Tickets & info: http
+ 
+s://www.eventbrite.com/e/a-culinary-journey-from-ecuadors-rainforest-to-mes
+ 
+oamerica-tickets-2001707637428
+URL:https://www.eventbrite.com/e/a-culinary-journey-from-ecuadors-rainfores
+ 
+t-to-mesoamerica-tickets-2001707637428
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-20@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Shuck Yea! and Oyster Shucking Experience
+LOCATION:Festival Cafe\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Learn to shuck a dozen oysters (half of them by you) with bubbl
+ 
+es and a martini at Festival Cafe. Tickets & info: https://www.eventbrite.c
+ 
+om/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517267650
+URL:https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-t
+ 
+ickets-1987517267650
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-21@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T180000
+DTEND;TZID=America/New_York:20261016T200000
+SUMMARY:K-Pop Dance Classes at Gotham Park
+LOCATION:Gotham Park\, Tribeca-Civic Center
+DESCRIPTION:Free Friday dance class under the Brooklyn Bridge — no experi
+ 
+ence\, just sneakers and water. Tickets & info: https://www.eventbrite.com/
+ 
+e/k-pop-dance-classes-at-gotham-park-tickets-1999610106657
+URL:https://www.eventbrite.com/e/k-pop-dance-classes-at-gotham-park-tickets
+ 
+-1999610106657
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-22@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T183000
+DTEND;TZID=America/New_York:20261016T203000
+SUMMARY:cutie collage keychains w/ @howdy.molly
+LOCATION:haricot vert's dreamworld\, Williamsburg
+DESCRIPTION:Make a miniature collage sealed into a keychain at haricot vert
+ 
+'s dreamworld in Williamsburg. Tickets & info: https://luma.com/akwnj7rk
+URL:https://luma.com/akwnj7rk
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-23@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:badminton night
+LOCATION:Queens\, Maspeth
+DESCRIPTION:50 founders and builders\, a few Queens courts\, racquets provi
+ 
+ded — casual doubles all night. Tickets & info: https://luma.com/sdszr14d
+URL:https://luma.com/sdszr14d
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-24@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T220000
+DTEND;TZID=America/New_York:20261017T000000
+SUMMARY:Girls Love Karaoke “Live” all R&B all night edition
+LOCATION:HK Hall\, Hell's Kitchen
+DESCRIPTION:All-R&B sing-along until 3 AM at HK Hall — 21+\, doors at 10.
+ 
+ Tickets & info: https://www.eventbrite.com/e/girls-love-karaoke-live-all-r
+ 
+b-all-night-edition-tickets-2000654332966
+URL:https://www.eventbrite.com/e/girls-love-karaoke-live-all-rb-all-night-e
+ 
+dition-tickets-2000654332966
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-25@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T193000
+DTEND;TZID=America/New_York:20261016T213000
+SUMMARY:Founders in AI Safety - BlueDot Happy Hour NYC
+LOCATION:BELTANE\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Drinks with AI-safety founders\, grantmakers\, and investors at
+ 
+ Beltane — capped at 50\, approval required. Tickets & info: https://luma
+ 
+.com/bluedot-txyw
+URL:https://luma.com/bluedot-txyw
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-26@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T100000
+DTEND;TZID=America/New_York:20261016T120000
+SUMMARY:West Village Hidden History Cipher
+LOCATION:Abingdon Square\, West Village
+DESCRIPTION:A two-hour digital scavenger hunt through hidden West Village h
+ 
+istory\, starting at Abingdon Square. Tickets & info: https://www.eventbrit
+ 
+e.com/e/west-village-hidden-history-cipher-tickets-2000309363152
+URL:https://www.eventbrite.com/e/west-village-hidden-history-cipher-tickets
+ 
+-2000309363152
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-27@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T140000
+DTEND;TZID=America/New_York:20261016T160000
+SUMMARY:Juggling in Greeley Square Park
+LOCATION:Greeley Square Park\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Free outdoor juggling in the Flatiron — show up\, pick up thr
+ 
+ee balls\, join in. Tickets & info: http://www.nycgovparks.org/events/2026/
+ 
+10/16/juggling-in-greeley-square-park
+URL:http://www.nycgovparks.org/events/2026/10/16/juggling-in-greeley-square
+ 
+-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-28@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T183000
+DTEND;TZID=America/New_York:20261016T203000
+SUMMARY:Exhibition: Under the Common Sea Opening
+LOCATION:Accent Sisters 重音社\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Opening reception for a group show on Chinese diasporic life in
+ 
+ the US — artist walkthrough\, live DJ\, Sichuan peppercorn bites. Ticket
+ 
+s & info: https://luma.com/accentisa-fbwj
+URL:https://luma.com/accentisa-fbwj
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-29@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Houdini: Preserving a Legacy of Magic\, Escapes\, and Showmanship
+LOCATION:New York Public Library for the Performing Arts -Bruno Walter Audi
+ 
+torium\, Upper West Side-Lincoln Square
+DESCRIPTION:NYPL marks 100 years since Houdini's death with archivists\, ra
+ 
+re artifacts\, and a live escape artist — free\, in person or virtual. Ti
+ 
+ckets & info: https://www.eventbrite.com/e/houdini-preserving-a-legacy-of-m
+ 
+agic-escapes-and-showmanship-tickets-2002316622920
+URL:https://www.eventbrite.com/e/houdini-preserving-a-legacy-of-magic-escap
+ 
+es-and-showmanship-tickets-2002316622920
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261016-30@concierge
+DTSTAMP:20261016T120603Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:I Survived an Oven Fire and Gas Leak Craft Night
+LOCATION:Washington Heights\, Washington Heights (South)
+DESCRIPTION:A Washington Heights craft night to work on your Halloween cost
+ 
+ume — free\, bring a project. Tickets & info: https://luma.com/xjd5op39
+URL:https://luma.com/xjd5op39
+END:VEVENT
+END:VCALENDAR
