@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, October 17</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, October 17</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-17.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="BRIC JazzFest 2026">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/bric-jazzfest-2026-tickets-0CD1TX?ref=ticketmaster">BRIC JazzFest 2026</a></h3>
+<div class="meta">7:00 PM · BRIC HOUSE, Fort Greene</div>
+<p>Night two of BRIC&#x27;s jazz festival: Mohini Dey, Braxton Cook, Tyreek McDole, Salin and more stretch jazz into soul, R&amp;B and Afro-Caribbean grooves, ending in an after-hours dance party.</p>
+<a class="tickets" href="https://www.universe.com/events/bric-jazzfest-2026-tickets-0CD1TX?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Pasquale Grasso Trio">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club-tickets/14916023">Pasquale Grasso Trio</a></h3>
+<div class="meta">5:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $35.46</div>
+<p>The guitarist Pat Metheny called the best he&#x27;d ever heard leads his trio for an early-evening set at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club-tickets/14916023">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Ecca Vandal">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ecca-vandal-new-york-new-york-10-17-2026/event/000064B4B078DCBF">Ecca Vandal</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side · $41.49</div>
+<p>High-voltage punk-rap from Melbourne&#x27;s Ecca Vandal — mosh-pit energy in the Bowery&#x27;s best-sounding room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ecca-vandal-new-york-new-york-10-17-2026/event/000064B4B078DCBF">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-3" data-name="Asif Ali &amp; Friends">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/asif-ali-friends-brooklyn-new-york-10-17-2026/event/300065130A36B41E">Asif Ali &amp; Friends</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $37</div>
+<p>Deli Boys star Asif Ali hosts a night of stand-up with friends at the Bell House — one of Brooklyn&#x27;s best comedy rooms.</p>
+<a class="tickets" href="https://www.ticketmaster.com/asif-ali-friends-brooklyn-new-york-10-17-2026/event/300065130A36B41E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Josh Thomas: Jiggle, Jiggle">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/josh-thomas-jiggle-jiggle-new-york-new-york-10-17-2026/event/000064B5E09B65C8">Josh Thomas: Jiggle, Jiggle</a></h3>
+<div class="meta">7:00 PM · Gramercy Theatre, Gramercy · $45</div>
+<p>The Please Like Me creator brings his new hour to Gramercy — dry, filthy, and very funny.</p>
+<a class="tickets" href="https://www.ticketmaster.com/josh-thomas-jiggle-jiggle-new-york-new-york-10-17-2026/event/000064B5E09B65C8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Live! from Brooklyn Comedy Showcase">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-brooklyn-improv-the-lab-tickets/14375864">Live! from Brooklyn Comedy Showcase</a></h3>
+<div class="meta">6:45 PM · Brooklyn Improv (The Lab), Williamsburg · $15.81</div>
+<p>Cipha Sounds, Ayanna Dookie, Jared Goldstein and more pack a Saturday showcase in Brooklyn — big laughs, small room, small price.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-brooklyn-improv-the-lab-tickets/14375864">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="The Saturday Show">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://westsidecomedy.com/single-event/e/1991210241434/">The Saturday Show</a></h3>
+<div class="meta">8:00 PM · Westside Comedy Theater, Upper West Side</div>
+<p>Westside&#x27;s weekly Saturday blowout: Dave Waite, Leah Bonnema (Colbert), Jono Zalay and more — buy ahead, it warns it sells out.</p>
+<a class="tickets" href="https://westsidecomedy.com/single-event/e/1991210241434/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-7" data-name="Greenmarket at Grand Army Plaza">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-10-17/">Greenmarket at Grand Army Plaza</a></h3>
+<div class="meta">8:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>Brooklyn&#x27;s best Saturday ritual: farm stands, local wine, and people-watching at the park&#x27;s front door since 1989.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-10-17/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Tasting Notes by Serviette &amp; The Lighthouse">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/the-pfm7">Tasting Notes by Serviette &amp; The Lighthouse</a></h3>
+<div class="meta">11:00 AM · The Lighthouse Campus, Greenpoint · Free</div>
+<p>A free daytime tasting session from Serviette at the Lighthouse campus — details are light, but the coffee-and-culture crowd will be there.</p>
+<a class="tickets" href="https://luma.com/the-pfm7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Sober October: Brunch Buffet &amp; Sound Experience">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/w67ivw07">Sober October: Brunch Buffet &amp; Sound Experience</a></h3>
+<div class="meta">10:00 AM · The Maze NYC, Midtown South-Flatiron-Union Square · $25</div>
+<p>NYC&#x27;s first alcohol-free members club hosts a sober brunch with a sound bath — zero-proof, full-flavor Saturday.</p>
+<a class="tickets" href="https://luma.com/w67ivw07">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-10" data-name="Schmigadoon!">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-17-2026/event/Z1r9uZrrZbpZ1Ae7AOd">Schmigadoon!</a></h3>
+<div class="meta">2:00 PM · Nederlander Theatre, Midtown-Times Square · $82.8</div>
+<p>The Apple TV+ musical-comedy about a couple trapped in a golden-age musical finally hits Broadway — matinee, from about $83.</p>
+<a class="tickets" href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-17-2026/event/Z1r9uZrrZbpZ1Ae7AOd">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Oh, Mary!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-17-2026/event/Z1r9uZruZqGZ17J9OK">Oh, Mary!</a></h3>
+<div class="meta">5:00 PM · Lyceum Theatre, Midtown-Times Square · $646.24</div>
+<p>Cole Escola&#x27;s deranged Mary Todd Lincoln farce is still the hottest ticket in town — only a handful of orchestra seats left, priced accordingly.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-17-2026/event/Z1r9uZruZqGZ17J9OK">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-12" data-name="Stranger Things: The First Shadow">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-10-17-2026/event/Z1r9uZrrZbpZ1Aev73Z">Stranger Things: The First Shadow</a></h3>
+<div class="meta">1:00 PM · Marquis Theatre - NY, Hell&#x27;s Kitchen · $57.9</div>
+<p>The West End hit&#x27;s Broadway transfer: Hawkins, 1959, and the origin of the Upside Down — matinee from about $58.</p>
+<a class="tickets" href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-10-17-2026/event/Z1r9uZrrZbpZ1Aev73Z">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="DAYDREAM — Air Becomes Art (Balloon Museum)">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM — Air Becomes Art (Balloon Museum)</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>The Balloon Museum&#x27;s new permanent flagship at the Seaport: immersive, touchable installations from Marina Abramović, Martin Creed and more.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="A Different Familiar — Opening Reception">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/vtgshco0">A Different Familiar — Opening Reception</a></h3>
+<div class="meta">2:00 PM · Nalata Nalata, Lower East Side · Free</div>
+<p>Opening reception for the Hender Scheme + Artek collection show at this tiny, perfect design shop — free, with the good crowd.</p>
+<a class="tickets" href="https://luma.com/vtgshco0">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="The Devils">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">11:59 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s notorious 1971 masterpiece, newly restored in 4K on 35mm — the evening shows are gone, but the 11:59 PM late show still has seats.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Naza">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/naza/">Naza</a></h3>
+<div class="meta">2:35 PM · IFC Center, Greenwich Village</div>
+<p>An urgent new documentary from Israeli filmmakers Yuval Abraham and Rachel Szor, built from three years of rooftop conversations in Tel Aviv — afternoon show still bookable.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/naza/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-17" data-name="Open House New York: Grand Army Plaza Arch Tour">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/ohny-soldiers-and-sailors-memorial-arch-tours/">Open House New York: Grand Army Plaza Arch Tour</a></h3>
+<div class="meta">10:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>OHNY weekend: Urban Park Rangers lead tours inside the Soldiers&#x27; and Sailors&#x27; Arch — the rare chance to go up inside the monument.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/ohny-soldiers-and-sailors-memorial-arch-tours/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Dog Halloween Costume Contest">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/17/dog-halloween-costume-contest-in-washington-square-park">Dog Halloween Costume Contest</a></h3>
+<div class="meta">10:00 AM · Garibaldi Plaza, Washington Square Park, Greenwich Village · Free</div>
+<p>The annual parade of costumed pups takes over Garibaldi Plaza — bring a dog in a costume or just come for the chaos.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/17/dog-halloween-costume-contest-in-washington-square-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-19" data-name="Open House New York: Fort Totten">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/17/open-house-new-york-fort-totten">Open House New York: Fort Totten</a></h3>
+<div class="meta">11:00 AM · Fort Totten Front Gate (in Fort Totten Park), Bay Terrace-Clearview · Free</div>
+<p>OHNY weekend: explore the Civil War-era fortress and 100+ years of military history on this hidden Queens peninsula.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/17/open-house-new-york-fort-totten">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Farmhouse Family Day: Autumnal Wonders">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/farmhouse-family-day-autumnal-wonders-tickets-2000470952470">Farmhouse Family Day: Autumnal Wonders</a></h3>
+<div class="meta">11:00 AM · The Wyckoff House Museum, East Flatbush-Rugby · Free</div>
+<p>Fall crafts and hands-on history at NYC&#x27;s oldest house (c. 1652) — an easy family Saturday in Brooklyn.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/farmhouse-family-day-autumnal-wonders-tickets-2000470952470">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-21" data-name="Shaping LGBTQ+ History: Family Tour &amp; Workshop">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shaping-lgbtq-history-a-family-tour-and-workshop-tickets-1995688856091">Shaping LGBTQ+ History: Family Tour &amp; Workshop</a></h3>
+<div class="meta">10:00 AM · Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>A family-friendly tour of Green-Wood&#x27;s LGBTQ+ history with History UnErased, plus a hands-on workshop after.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shaping-lgbtq-history-a-family-tour-and-workshop-tickets-1995688856091">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Hudson Valley Pottery Tour">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://greenwichhouse.org/event/hudson-valley-pottery-tour/2026-10-17/">Hudson Valley Pottery Tour</a></h3>
+<div class="meta">8:30 AM · Greenwich House Pottery</div>
+<p>Chartered bus out of the city to Hudson Valley pottery studios — a full day for clay nerds, back by evening.</p>
+<a class="tickets" href="https://greenwichhouse.org/event/hudson-valley-pottery-tour/2026-10-17/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-23" data-name="NYRR Open Run: Astoria Park">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/17/nyrr-open-run-astoria-park">NYRR Open Run: Astoria Park</a></h3>
+<div class="meta">8:45 AM · Astoria Park, Astoria Park · Free</div>
+<p>Free weekly community 5K along the East River — all paces welcome, no registration stress.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/17/nyrr-open-run-astoria-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-24" data-name="Candlelight Ghost Tours">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/17/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Candlelight Ghost Tours</a></h3>
+<div class="meta">6:30 PM · Merchant&#x27;s House Museum, Greenwich Village · $70</div>
+<p>Manhattan&#x27;s most haunted house by flickering candlelight, with paranormal investigators — peak October. Steep at $70, but it&#x27;s the real thing.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/17/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-25" data-name="AI Product Demos &amp; Social NYC">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/9aa5ea6b">AI Product Demos &amp; Social NYC</a></h3>
+<div class="meta">2:00 PM · Theater District, Midtown-Times Square · Free</div>
+<p>Founders demo what they&#x27;re building, then everyone argues about it over drinks — the most NYC tech Saturday there is.</p>
+<a class="tickets" href="https://luma.com/9aa5ea6b">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-26" data-name="Who&#x27;s Sus? Social Deduction Game Night">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/whos-sus-social-deduction-game-night-for-30-nyc-tickets-2002408763515">Who&#x27;s Sus? Social Deduction Game Night</a></h3>
+<div class="meta">7:00 PM · 38 W 39th St, Midtown-Times Square</div>
+<p>A 30-person social deduction game night (think Among Us IRL) — show up solo, leave with new friends.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/whos-sus-social-deduction-game-night-for-30-nyc-tickets-2002408763515">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="NYCFC vs. LAFC">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-city-fc-vs-los-queens-new-york-10-17-2026/event/1D006378C85846BC">NYCFC vs. LAFC</a></h3>
+<div class="meta">7:30 PM · Citi Field, Flushing Meadows-Corona Park · $47.97</div>
+<p>NYCFC hosts LAFC under the lights at Citi Field — resale from about $48, and the atmosphere will be electric.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-city-fc-vs-los-queens-new-york-10-17-2026/event/1D006378C85846BC">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-17";
+const NAMES = ["BRIC JazzFest 2026", "Pasquale Grasso Trio", "Ecca Vandal", "Asif Ali & Friends", "Josh Thomas: Jiggle, Jiggle", "Live! from Brooklyn Comedy Showcase", "The Saturday Show", "Greenmarket at Grand Army Plaza", "Tasting Notes by Serviette & The Lighthouse", "Sober October: Brunch Buffet & Sound Experience", "Schmigadoon!", "Oh, Mary!", "Stranger Things: The First Shadow", "DAYDREAM \u2014 Air Becomes Art (Balloon Museum)", "A Different Familiar \u2014 Opening Reception", "The Devils", "Naza", "Open House New York: Grand Army Plaza Arch Tour", "Dog Halloween Costume Contest", "Open House New York: Fort Totten", "Farmhouse Family Day: Autumnal Wonders", "Shaping LGBTQ+ History: Family Tour & Workshop", "Hudson Valley Pottery Tour", "NYRR Open Run: Astoria Park", "Candlelight Ghost Tours", "AI Product Demos & Social NYC", "Who's Sus? Social Deduction Game Night", "NYCFC vs. LAFC"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

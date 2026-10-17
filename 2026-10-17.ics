@@ -1,0 +1,471 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261017-0@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T190000
+DTEND;TZID=America/New_York:20261017T210000
+SUMMARY:BRIC JazzFest 2026
+LOCATION:BRIC HOUSE\, Fort Greene
+DESCRIPTION:Night two of BRIC's jazz festival: Mohini Dey\, Braxton Cook\, 
+ 
+Tyreek McDole\, Salin and more stretch jazz into soul\, R&B and Afro-Caribb
+ 
+ean grooves\, ending in an after-hours dance party. Tickets & info: https:/
+ 
+/www.universe.com/events/bric-jazzfest-2026-tickets-0CD1TX?ref=ticketmaster
+URL:https://www.universe.com/events/bric-jazzfest-2026-tickets-0CD1TX?ref=t
+ 
+icketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-1@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T173000
+DTEND;TZID=America/New_York:20261017T193000
+SUMMARY:Pasquale Grasso Trio
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:The guitarist Pat Metheny called the best he'd ever heard leads
+ 
+ his trio for an early-evening set at Birdland. Tickets & info: https://www
+ 
+.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club-tickets/149160
+ 
+23
+URL:https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club
+ 
+-tickets/14916023
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-2@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T190000
+DTEND;TZID=America/New_York:20261017T210000
+SUMMARY:Ecca Vandal
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:High-voltage punk-rap from Melbourne's Ecca Vandal — mosh-pit
+ 
+ energy in the Bowery's best-sounding room. Tickets & info: https://www.tic
+ 
+ketmaster.com/ecca-vandal-new-york-new-york-10-17-2026/event/000064B4B078DC
+ 
+BF
+URL:https://www.ticketmaster.com/ecca-vandal-new-york-new-york-10-17-2026/e
+ 
+vent/000064B4B078DCBF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-3@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T193000
+DTEND;TZID=America/New_York:20261017T213000
+SUMMARY:Asif Ali & Friends
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Deli Boys star Asif Ali hosts a night of stand-up with friends 
+ 
+at the Bell House — one of Brooklyn's best comedy rooms. Tickets & info: 
+ 
+https://www.ticketmaster.com/asif-ali-friends-brooklyn-new-york-10-17-2026/
+ 
+event/300065130A36B41E
+URL:https://www.ticketmaster.com/asif-ali-friends-brooklyn-new-york-10-17-2
+ 
+026/event/300065130A36B41E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-4@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T190000
+DTEND;TZID=America/New_York:20261017T210000
+SUMMARY:Josh Thomas: Jiggle\, Jiggle
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:The Please Like Me creator brings his new hour to Gramercy — 
+ 
+dry\, filthy\, and very funny. Tickets & info: https://www.ticketmaster.com
+ 
+/josh-thomas-jiggle-jiggle-new-york-new-york-10-17-2026/event/000064B5E09B6
+ 
+5C8
+URL:https://www.ticketmaster.com/josh-thomas-jiggle-jiggle-new-york-new-yor
+ 
+k-10-17-2026/event/000064B5E09B65C8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-5@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T184500
+DTEND;TZID=America/New_York:20261017T204500
+SUMMARY:Live! from Brooklyn Comedy Showcase
+LOCATION:Brooklyn Improv (The Lab)\, Williamsburg
+DESCRIPTION:Cipha Sounds\, Ayanna Dookie\, Jared Goldstein and more pack a 
+ 
+Saturday showcase in Brooklyn — big laughs\, small room\, small price. Ti
+ 
+ckets & info: https://www.ticketweb.com/event/live-from-brooklyn-comedy-sho
+ 
+wcase-brooklyn-improv-the-lab-tickets/14375864
+URL:https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-broo
+ 
+klyn-improv-the-lab-tickets/14375864
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-6@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T200000
+DTEND;TZID=America/New_York:20261017T220000
+SUMMARY:The Saturday Show
+LOCATION:Westside Comedy Theater\, Upper West Side
+DESCRIPTION:Westside's weekly Saturday blowout: Dave Waite\, Leah Bonnema (
+ 
+Colbert)\, Jono Zalay and more — buy ahead\, it warns it sells out. Ticke
+ 
+ts & info: https://westsidecomedy.com/single-event/e/1991210241434/
+URL:https://westsidecomedy.com/single-event/e/1991210241434/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-7@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T080000
+DTEND;TZID=America/New_York:20261017T100000
+SUMMARY:Greenmarket at Grand Army Plaza
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Brooklyn's best Saturday ritual: farm stands\, local wine\, and
+ 
+ people-watching at the park's front door since 1989. Tickets & info: https
+ 
+://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-10-17/
+URL:https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/20
+ 
+26-10-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-8@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T110000
+DTEND;TZID=America/New_York:20261017T130000
+SUMMARY:Tasting Notes by Serviette & The Lighthouse
+LOCATION:The Lighthouse Campus\, Greenpoint
+DESCRIPTION:A free daytime tasting session from Serviette at the Lighthouse
+ 
+ campus — details are light\, but the coffee-and-culture crowd will be th
+ 
+ere. Tickets & info: https://luma.com/the-pfm7
+URL:https://luma.com/the-pfm7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-9@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Sober October: Brunch Buffet & Sound Experience
+LOCATION:The Maze NYC\, Midtown South-Flatiron-Union Square
+DESCRIPTION:NYC's first alcohol-free members club hosts a sober brunch with
+ 
+ a sound bath — zero-proof\, full-flavor Saturday. Tickets & info: https:
+ 
+//luma.com/w67ivw07
+URL:https://luma.com/w67ivw07
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-10@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T140000
+DTEND;TZID=America/New_York:20261017T160000
+SUMMARY:Schmigadoon!
+LOCATION:Nederlander Theatre\, Midtown-Times Square
+DESCRIPTION:The Apple TV+ musical-comedy about a couple trapped in a golden
+ 
+-age musical finally hits Broadway — matinee\, from about $83. Tickets & 
+ 
+info: https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-17-2026
+ 
+/event/Z1r9uZrrZbpZ1Ae7AOd
+URL:https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-17-2026/e
+ 
+vent/Z1r9uZrrZbpZ1Ae7AOd
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-11@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T170000
+DTEND;TZID=America/New_York:20261017T190000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's deranged Mary Todd Lincoln farce is still the hot
+ 
+test ticket in town — only a handful of orchestra seats left\, priced acc
+ 
+ordingly. Tickets & info: https://www.ticketmaster.com/oh-mary-new-york-new
+ 
+-york-10-17-2026/event/Z1r9uZruZqGZ17J9OK
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-17-2026/event
+ 
+/Z1r9uZruZqGZ17J9OK
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-12@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T150000
+SUMMARY:Stranger Things: The First Shadow
+LOCATION:Marquis Theatre - NY\, Hell's Kitchen
+DESCRIPTION:The West End hit's Broadway transfer: Hawkins\, 1959\, and the 
+ 
+origin of the Upside Down — matinee from about $58. Tickets & info: https
+ 
+://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-
+ 
+10-17-2026/event/Z1r9uZrrZbpZ1Aev73Z
+URL:https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-
+ 
+new-york-10-17-2026/event/Z1r9uZrrZbpZ1Aev73Z
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-13@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:DAYDREAM — Air Becomes Art (Balloon Museum)
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:The Balloon Museum's new permanent flagship at the Seaport: imm
+ 
+ersive\, touchable installations from Marina Abramović\, Martin Creed and 
+ 
+more. Tickets & info: https://www.universe.com/events/daydream-air-becomes-
+ 
+art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-14@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T140000
+DTEND;TZID=America/New_York:20261017T160000
+SUMMARY:A Different Familiar — Opening Reception
+LOCATION:Nalata Nalata\, Lower East Side
+DESCRIPTION:Opening reception for the Hender Scheme + Artek collection show
+ 
+ at this tiny\, perfect design shop — free\, with the good crowd. Tickets
+ 
+ & info: https://luma.com/vtgshco0
+URL:https://luma.com/vtgshco0
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-15@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T235900
+DTEND;TZID=America/New_York:20261018T015900
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's notorious 1971 masterpiece\, newly restored in 4K
+ 
+ on 35mm — the evening shows are gone\, but the 11:59 PM late show still 
+ 
+has seats. Tickets & info: https://www.ifccenter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-16@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T143500
+DTEND;TZID=America/New_York:20261017T163500
+SUMMARY:Naza
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:An urgent new documentary from Israeli filmmakers Yuval Abraham
+ 
+ and Rachel Szor\, built from three years of rooftop conversations in Tel A
+ 
+viv — afternoon show still bookable. Tickets & info: https://www.ifccente
+ 
+r.com/films/naza/
+URL:https://www.ifccenter.com/films/naza/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-17@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Open House New York: Grand Army Plaza Arch Tour
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:OHNY weekend: Urban Park Rangers lead tours inside the Soldiers
+ 
+' and Sailors' Arch — the rare chance to go up inside the monument. Ticke
+ 
+ts & info: https://www.prospectpark.org/event/ohny-soldiers-and-sailors-mem
+ 
+orial-arch-tours/
+URL:https://www.prospectpark.org/event/ohny-soldiers-and-sailors-memorial-a
+ 
+rch-tours/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-18@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Dog Halloween Costume Contest
+LOCATION:Garibaldi Plaza\, Washington Square Park\, Greenwich Village
+DESCRIPTION:The annual parade of costumed pups takes over Garibaldi Plaza 
+ 
+ bring a dog in a costume or just come for the chaos. Tickets & info: htt
+ 
+p://www.nycgovparks.org/events/2026/10/17/dog-halloween-costume-contest-in-
+ 
+washington-square-park
+URL:http://www.nycgovparks.org/events/2026/10/17/dog-halloween-costume-cont
+ 
+est-in-washington-square-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-19@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T110000
+DTEND;TZID=America/New_York:20261017T130000
+SUMMARY:Open House New York: Fort Totten
+LOCATION:Fort Totten Front Gate (in Fort Totten Park)\, Bay Terrace-Clearvi
+ 
+ew
+DESCRIPTION:OHNY weekend: explore the Civil War-era fortress and 100+ years
+ 
+ of military history on this hidden Queens peninsula. Tickets & info: http:
+ 
+//www.nycgovparks.org/events/2026/10/17/open-house-new-york-fort-totten
+URL:http://www.nycgovparks.org/events/2026/10/17/open-house-new-york-fort-t
+ 
+otten
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-20@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T110000
+DTEND;TZID=America/New_York:20261017T130000
+SUMMARY:Farmhouse Family Day: Autumnal Wonders
+LOCATION:The Wyckoff House Museum\, East Flatbush-Rugby
+DESCRIPTION:Fall crafts and hands-on history at NYC's oldest house (c. 1652
+ 
+) — an easy family Saturday in Brooklyn. Tickets & info: https://www.even
+ 
+tbrite.com/e/farmhouse-family-day-autumnal-wonders-tickets-2000470952470
+URL:https://www.eventbrite.com/e/farmhouse-family-day-autumnal-wonders-tick
+ 
+ets-2000470952470
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-21@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Shaping LGBTQ+ History: Family Tour & Workshop
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:A family-friendly tour of Green-Wood's LGBTQ+ history with Hist
+ 
+ory UnErased\, plus a hands-on workshop after. Tickets & info: https://www.
+ 
+eventbrite.com/e/shaping-lgbtq-history-a-family-tour-and-workshop-tickets-1
+ 
+995688856091
+URL:https://www.eventbrite.com/e/shaping-lgbtq-history-a-family-tour-and-wo
+ 
+rkshop-tickets-1995688856091
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-22@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T083000
+DTEND;TZID=America/New_York:20261017T103000
+SUMMARY:Hudson Valley Pottery Tour
+LOCATION:Greenwich House Pottery
+DESCRIPTION:Chartered bus out of the city to Hudson Valley pottery studios 
+ 
+— a full day for clay nerds\, back by evening. Tickets & info: https://gr
+ 
+eenwichhouse.org/event/hudson-valley-pottery-tour/2026-10-17/
+URL:https://greenwichhouse.org/event/hudson-valley-pottery-tour/2026-10-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-23@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T084500
+DTEND;TZID=America/New_York:20261017T104500
+SUMMARY:NYRR Open Run: Astoria Park
+LOCATION:Astoria Park\, Astoria Park
+DESCRIPTION:Free weekly community 5K along the East River — all paces wel
+ 
+come\, no registration stress. Tickets & info: http://www.nycgovparks.org/e
+ 
+vents/2026/10/17/nyrr-open-run-astoria-park
+URL:http://www.nycgovparks.org/events/2026/10/17/nyrr-open-run-astoria-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-24@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T183000
+DTEND;TZID=America/New_York:20261017T203000
+SUMMARY:Candlelight Ghost Tours
+LOCATION:Merchant's House Museum\, Greenwich Village
+DESCRIPTION:Manhattan's most haunted house by flickering candlelight\, with
+ 
+ paranormal investigators — peak October. Steep at $70\, but it's the rea
+ 
+l thing. Tickets & info: http://www.nycgovparks.org/events/2026/10/17/super
+ 
+-spooky-candlelight-ghost-tours-with-paranormal-investi
+URL:http://www.nycgovparks.org/events/2026/10/17/super-spooky-candlelight-g
+ 
+host-tours-with-paranormal-investi
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-25@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T140000
+DTEND;TZID=America/New_York:20261017T160000
+SUMMARY:AI Product Demos & Social NYC
+LOCATION:Theater District\, Midtown-Times Square
+DESCRIPTION:Founders demo what they're building\, then everyone argues abou
+ 
+t it over drinks — the most NYC tech Saturday there is. Tickets & info: h
+ 
+ttps://luma.com/9aa5ea6b
+URL:https://luma.com/9aa5ea6b
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-26@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T190000
+DTEND;TZID=America/New_York:20261017T210000
+SUMMARY:Who's Sus? Social Deduction Game Night
+LOCATION:38 W 39th St\, Midtown-Times Square
+DESCRIPTION:A 30-person social deduction game night (think Among Us IRL) 
+ 
+ show up solo\, leave with new friends. Tickets & info: https://www.eventb
+ 
+rite.com/e/whos-sus-social-deduction-game-night-for-30-nyc-tickets-20024087
+ 
+63515
+URL:https://www.eventbrite.com/e/whos-sus-social-deduction-game-night-for-3
+ 
+0-nyc-tickets-2002408763515
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261017-27@concierge
+DTSTAMP:20261017T120317Z
+DTSTART;TZID=America/New_York:20261017T193000
+DTEND;TZID=America/New_York:20261017T213000
+SUMMARY:NYCFC vs. LAFC
+LOCATION:Citi Field\, Flushing Meadows-Corona Park
+DESCRIPTION:NYCFC hosts LAFC under the lights at Citi Field — resale from
+ 
+ about $48\, and the atmosphere will be electric. Tickets & info: https://w
+ 
+ww.ticketmaster.com/new-york-city-fc-vs-los-queens-new-york-10-17-2026/even
+ 
+t/1D006378C85846BC
+URL:https://www.ticketmaster.com/new-york-city-fc-vs-los-queens-new-york-10
+ 
+-17-2026/event/1D006378C85846BC
+END:VEVENT
+END:VCALENDAR
