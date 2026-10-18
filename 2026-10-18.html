@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, October 18</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, October 18</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-18.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Anthony Cohen&#x27;s Album Release Concert: Promenade">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/nqs3h9pg">Anthony Cohen&#x27;s Album Release Concert: Promenade</a></h3>
+<div class="meta">4:00 PM · The Jazz Gallery, Midtown South-Flatiron-Union Square · $19.99</div>
+<p>Saxophonist Anthony Cohen celebrates his new album Promenade with a full live performance at the West Village&#x27;s beloved jazz loft.</p>
+<a class="tickets" href="https://luma.com/nqs3h9pg">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Adi Yeshaya Jazz Orchestra feat. Jennifer Grimm">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/adi-yeshaya-jazz-orchestra-feat-birdland-jazz-club-tickets/14979653">Adi Yeshaya Jazz Orchestra feat. Jennifer Grimm</a></h3>
+<div class="meta">5:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $35.46</div>
+<p>Big-band jazz with singer Jennifer Grimm at Birdland — swinging Sunday evening set from a master arranger.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/adi-yeshaya-jazz-orchestra-feat-birdland-jazz-club-tickets/14979653">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Valories">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/valories-new-york-new-york-10-18-2026/event/00006528EB5C7895">Valories</a></h3>
+<div class="meta">5:00 PM · Mercury Lounge, Lower East Side</div>
+<p>NYC rockers Valories bring their scrappy guitar-pop energy to the Mercury Lounge&#x27;s tiny, loud room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/valories-new-york-new-york-10-18-2026/event/00006528EB5C7895">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Plini - An Unnameable Desire North American Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-new-york-new-york-10-18-2026/event/000064BE1BDA47C8">Plini - An Unnameable Desire North American Tour</a></h3>
+<div class="meta">6:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>Australian prog-guitar phenom Plini&#x27;s instrumental fireworks land at Irving Plaza — jaw-dropping technique, no words needed.</p>
+<a class="tickets" href="https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-new-york-new-york-10-18-2026/event/000064BE1BDA47C8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Open Air Season Closing ft. Marco Carola, PAWSA - Ages 21+">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx7A">Open Air Season Closing ft. Marco Carola, PAWSA - Ages 21+</a></h3>
+<div class="meta">8:00 PM · Pacha New York, Hell&#x27;s Kitchen</div>
+<p>Pacha&#x27;s first open-air season ends with a bang: techno heavyweight Marco Carola b2b PAWSA under the Brooklyn sky.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx7A">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Aziz Ansari: Hypothetical Tour">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/aziz-ansari-hypothetical-tour-new-york-new-york-10-18-2026/event/3B0064FD96283E85">Aziz Ansari: Hypothetical Tour</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Aziz works through brand-new hour on his Hypothetical Tour — Beacon Theatre, sharp observational comedy, one of the night&#x27;s biggest stages.</p>
+<a class="tickets" href="https://www.ticketmaster.com/aziz-ansari-hypothetical-tour-new-york-new-york-10-18-2026/event/3B0064FD96283E85">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Kendall Farrell: Standup Comedy Special Taping">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kendall-farrell-standup-comedy-special-taping-tickets-1993612956018">Kendall Farrell: Standup Comedy Special Taping</a></h3>
+<div class="meta">7:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Be in the room where the special happens — Kendall Farrell tapes her hour at littlefield, fresh off an Edinburgh Fringe run.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kendall-farrell-standup-comedy-special-taping-tickets-1993612956018">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Yerrrlywood ft: Chris Redd, Drew Lynch, Justin Martindale, Nataly Aukar, Cris Sosa + Special Guest!">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/yerrrlywood-ft-chris-redd-drew-lynch-justin-martindale-nataly-aukar-cris-sosa-special-guest">Yerrrlywood ft: Chris Redd, Drew Lynch, Justin Martindale, Nataly Aukar, Cris Sosa + Special Guest!</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $35</div>
+<p>The Comedy Store&#x27;s hit format crosses coasts: Chris Redd, Drew Lynch, Justin Martindale and more in the East Village room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/yerrrlywood-ft-chris-redd-drew-lynch-justin-martindale-nataly-aukar-cris-sosa-special-guest">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Comedy Mob Sunday Mic">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://comedymob.com/">Comedy Mob Sunday Mic</a></h3>
+<div class="meta">5:30 PM · New York Comedy Club (East 4th St), East Village · Free</div>
+<p>NYC&#x27;s most unpredictable open mic: 10+ comics rapid-fire at the East Village&#x27;s New York Comedy Club — free, one-item minimum.</p>
+<a class="tickets" href="http://comedymob.com/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-8" data-name="Katyń">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/katyn-wajda-100">Katyń</a></h3>
+<div class="meta">1:00 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Wajda&#x27;s devastating, Oscar-nominated account of the Katyń massacre — essential cinema on 35mm at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/katyn-wajda-100">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Brooklyn Horror: Secret Screening #2">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/secret-screening-bk-horror-2/">Brooklyn Horror: Secret Screening #2</a></h3>
+<div class="meta">4:15 PM · Nitehawk Cinema Williamsburg, Williamsburg</div>
+<p>A mystery horror film announced only by rumor — part of the Brooklyn Horror Film Fest, with cheap drinks and Nitehawk&#x27;s signature dread.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/secret-screening-bk-horror-2/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Once Upon a Time in China">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999004431-once-upon-a-time-in-china/">Once Upon a Time in China</a></h3>
+<div class="meta">8:30 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Tsui Hark&#x27;s martial-arts epic with Jet Li at his peak — Wong Fei-hung&#x27;s legend, big-screen, Metrograph&#x27;s gorgeous room.</p>
+<a class="tickets" href="https://metrograph.com/film/9999004431-once-upon-a-time-in-china/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Stella">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/stella/">Stella</a></h3>
+<div class="meta">3:00 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>A restoration of this overlooked gem plays the Museum of the Moving Image — classic Hollywood done right.</p>
+<a class="tickets" href="https://movingimage.org/event/stella/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-12" data-name="Malcolm Gladwell discusses THE AMERCAN WAY OF KILLING at B&amp;N Union Square">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/malcolm-gladwell-discusses-the-amercan-way-of-killing-at-bn-union-square-tickets-1993141074608">Malcolm Gladwell discusses THE AMERCAN WAY OF KILLING at B&amp;N Union Square</a></h3>
+<div class="meta">3:00 PM · Barnes &amp; Noble, Midtown South-Flatiron-Union Square · $40.87</div>
+<p>Gladwell in conversation on his new book at Union Square — expect sharp questions, sharper storytelling, and a long signing line.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/malcolm-gladwell-discusses-the-amercan-way-of-killing-at-bn-union-square-tickets-1993141074608">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Classical Interludes: Ljova and WhEE (Where Else Ensemble)">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/classical-interludes-central-library-dweck-20261018-0400pm">Classical Interludes: Ljova and WhEE (Where Else Ensemble)</a></h3>
+<div class="meta">4:00 PM · Brooklyn Public Library</div>
+<p>Violist-composer Ljova and friends play a free-adjacent Sunday chamber set at Brooklyn Public Library&#x27;s Dweck Center.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/classical-interludes-central-library-dweck-20261018-0400pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Comedians Interview Experts: Understanding elections with Andrea Jones-Rooy and Lindsey Cormack">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/comedians-interview-experts-understanding-elections-with-andrea-jones-rooy-and-lindsey-cormack-tickets-2000524117488">Comedians Interview Experts: Understanding elections with Andrea Jones-Rooy and Lindsey Cormack</a></h3>
+<div class="meta">7:30 PM · Caveat, Lower East Side</div>
+<p>Comics grill political scientists about how elections actually work — Caveat&#x27;s smartest-funniest night out.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/comedians-interview-experts-understanding-elections-with-andrea-jones-rooy-and-lindsey-cormack-tickets-2000524117488">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-15" data-name="New York City Ballet: Adrian Danchig-Waring Farewell">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZxGv">New York City Ballet: Adrian Danchig-Waring Farewell</a></h3>
+<div class="meta">3:00 PM · David H. Koch Theater, Upper West Side-Lincoln Square</div>
+<p>A principal dancer bows out after 24 years with the company — farewell program with a Pam Tanowitz world premiere, one night only.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZxGv">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Philosophy at the Museum: Medieval Art at The Met Cloisters">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/6bw1wedf">Philosophy at the Museum: Medieval Art at The Met Cloisters</a></h3>
+<div class="meta">2:00 PM · The Met Cloisters, Washington Heights (North) · $9</div>
+<p>Talk philosophy among the unicorns — a guided conversation in the Cloisters&#x27; medieval halls, Fort Tryon Park views included.</p>
+<a class="tickets" href="https://luma.com/6bw1wedf">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="OnConnect ( ) Opening Day">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/T79uHQFTwGpNCd7ap4n3">OnConnect ( ) Opening Day</a></h3>
+<div class="meta">12:00 PM · The Living Gallery, Bushwick · Free</div>
+<p>Ten media artists open their interactive group show OnConnect( ) at The Living Gallery in Bushwick — doors all day, artist talk at 7pm.</p>
+<a class="tickets" href="https://partiful.com/e/T79uHQFTwGpNCd7ap4n3">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-16" data-name="The Holes - Sunday, Oct 18th Evening">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-holes-sunday-oct-18th-evening-tickets-1995603719445">The Holes - Sunday, Oct 18th Evening</a></h3>
+<div class="meta">7:00 PM · wild project, East Village</div>
+<p>A new play gets its Sunday evening run at the wild project&#x27;s intimate East Village theater.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-holes-sunday-oct-18th-evening-tickets-1995603719445">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-18" data-name="Glittering Apple—Mapping Nightlife History from East Village to Gramercy">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/glittering-applemapping-nightlife-history-from-east-village-to-gramercy-tickets-1992496783516">Glittering Apple—Mapping Nightlife History from East Village to Gramercy</a></h3>
+<div class="meta">3:00 PM · 126 2nd Ave, East Village</div>
+<p>A walking tour through NYC&#x27;s queer nightlife history — drag balls, clubs, and vanished dancefloors from the East Village to Gramercy.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/glittering-applemapping-nightlife-history-from-east-village-to-gramercy-tickets-1992496783516">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Haunted Bay Ridge Walking Tour">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943360212">Haunted Bay Ridge Walking Tour</a></h3>
+<div class="meta">6:00 PM · 29 83rd St, Bay Ridge</div>
+<p>Ghosts of old Bay Ridge: Victorian mansions, cemetery lore, and spooky harbor history on a Sunday evening walk.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943360212">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-20" data-name="Brooklyn Mac and Cheese Takedown">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/brooklyn-mac-and-cheese-takedown-tickets-2001092893713">Brooklyn Mac and Cheese Takedown</a></h3>
+<div class="meta">1:00 PM · Royal Palms Shuffleboard Club, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Chefs face off for mac-and-cheese supremacy at Royal Palms — you judge, you eat, everybody wins.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/brooklyn-mac-and-cheese-takedown-tickets-2001092893713">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Sotol Grand Tasting | Sotol Week 2026">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sotol-grand-tasting-sotol-week-2026-tickets-2002958506812">Sotol Grand Tasting | Sotol Week 2026</a></h3>
+<div class="meta">2:00 PM · The Cactus Shop, Williamsburg</div>
+<p>Taste the desert spirit: sotol producers pour at The Cactus Shop for Sotol Week&#x27;s grand tasting.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sotol-grand-tasting-sotol-week-2026-tickets-2002958506812">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-22" data-name="The Dark Folklore of Plants">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/18/the-dark-folklore-of-plants">The Dark Folklore of Plants</a></h3>
+<div class="meta">2:00 PM · East Fourth Street Community Garden, Windsor Terrace-South Slope</div>
+<p>Poisonous, magical, and murderous plants get their due — a free talk in an East Village community garden.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/18/the-dark-folklore-of-plants">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Nocturnal Insects Hike">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/18/nocturnal-insects-and-creatures-hike">Nocturnal Insects Hike</a></h3>
+<div class="meta">7:00 PM · Van Cortlandt Nature Center (in Van Cortlandt Park), Van Cortlandt Park</div>
+<p>Moths, crickets, and fireflies: a free nighttime nature walk through Van Cortlandt Park with park naturalists.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/18/nocturnal-insects-and-creatures-hike">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-24" data-name="‘DURING JUN, FOR OCT: Fermentation Workshop’">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/during-jun-for-oct-fermentation-workshop-tickets-2002840738564">‘DURING JUN, FOR OCT: Fermentation Workshop’</a></h3>
+<div class="meta">2:00 PM · FMFM, Crown Heights (South)</div>
+<p>Get your hands funky at FMFM&#x27;s fermentation workshop — kraut, kimchi, and everything bubbling in between.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/during-jun-for-oct-fermentation-workshop-tickets-2002840738564">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Sunday Brunch With Scientist: From Droplet To Ocean">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/8ak20ny3">Sunday Brunch With Scientist: From Droplet To Ocean</a></h3>
+<div class="meta">11:00 AM · 56 Bogart St, East Williamsburg</div>
+<p>Eat brunch while a real scientist explains how a droplet becomes an ocean — only in Bushwick.</p>
+<a class="tickets" href="https://luma.com/8ak20ny3">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-18";
+const NAMES = ["Anthony Cohen's Album Release Concert: Promenade", "Adi Yeshaya Jazz Orchestra feat. Jennifer Grimm", "Valories", "Plini - An Unnameable Desire North American Tour", "Open Air Season Closing ft. Marco Carola, PAWSA - Ages 21+", "Aziz Ansari: Hypothetical Tour", "Kendall Farrell: Standup Comedy Special Taping", "Yerrrlywood ft: Chris Redd, Drew Lynch, Justin Martindale, Nataly Aukar, Cris Sosa + Special Guest!", "Katy\u0144", "Brooklyn Horror: Secret Screening #2", "Once Upon a Time in China", "Stella", "Malcolm Gladwell discusses THE AMERCAN WAY OF KILLING at B&N Union Square", "Classical Interludes: Ljova and WhEE (Where Else Ensemble)", "Comedians Interview Experts: Understanding elections with Andrea Jones-Rooy and Lindsey Cormack", "New York City Ballet: Adrian Danchig-Waring Farewell", "The Holes - Sunday, Oct 18th Evening", "Philosophy at the Museum: Medieval Art at The Met Cloisters", "Glittering Apple\u2014Mapping Nightlife History from East Village to Gramercy", "Haunted Bay Ridge Walking Tour", "Brooklyn Mac and Cheese Takedown", "Sotol Grand Tasting | Sotol Week 2026", "The Dark Folklore of Plants", "Nocturnal Insects Hike", "\u2018DURING JUN, FOR OCT: Fermentation Workshop\u2019", "Sunday Brunch With Scientist: From Droplet To Ocean", "OnConnect ( ) Opening Day", "Comedy Mob Sunday Mic"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

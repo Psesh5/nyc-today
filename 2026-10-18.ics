@@ -1,0 +1,465 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261018-0@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T160000
+DTEND;TZID=America/New_York:20261018T180000
+SUMMARY:Anthony Cohen's Album Release Concert: Promenade
+LOCATION:The Jazz Gallery\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Saxophonist Anthony Cohen celebrates his new album Promenade wi
+ 
+th a full live performance at the West Village's beloved jazz loft. Tickets
+ 
+ & info: https://luma.com/nqs3h9pg
+URL:https://luma.com/nqs3h9pg
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-1@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T173000
+DTEND;TZID=America/New_York:20261018T193000
+SUMMARY:Adi Yeshaya Jazz Orchestra feat. Jennifer Grimm
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Big-band jazz with singer Jennifer Grimm at Birdland — swingi
+ 
+ng Sunday evening set from a master arranger. Tickets & info: https://www.t
+ 
+icketweb.com/event/adi-yeshaya-jazz-orchestra-feat-birdland-jazz-club-ticke
+ 
+ts/14979653
+URL:https://www.ticketweb.com/event/adi-yeshaya-jazz-orchestra-feat-birdlan
+ 
+d-jazz-club-tickets/14979653
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-2@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T170000
+DTEND;TZID=America/New_York:20261018T190000
+SUMMARY:Valories
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:NYC rockers Valories bring their scrappy guitar-pop energy to t
+ 
+he Mercury Lounge's tiny\, loud room. Tickets & info: https://www.ticketmas
+ 
+ter.com/valories-new-york-new-york-10-18-2026/event/00006528EB5C7895
+URL:https://www.ticketmaster.com/valories-new-york-new-york-10-18-2026/even
+ 
+t/00006528EB5C7895
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-3@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T180000
+DTEND;TZID=America/New_York:20261018T200000
+SUMMARY:Plini - An Unnameable Desire North American Tour
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Australian prog-guitar phenom Plini's instrumental fireworks la
+ 
+nd at Irving Plaza — jaw-dropping technique\, no words needed. Tickets & 
+ 
+info: https://www.ticketmaster.com/plini-an-unnameable-desire-north-america
+ 
+n-new-york-new-york-10-18-2026/event/000064BE1BDA47C8
+URL:https://www.ticketmaster.com/plini-an-unnameable-desire-north-american-
+ 
+new-york-new-york-10-18-2026/event/000064BE1BDA47C8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-4@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T200000
+DTEND;TZID=America/New_York:20261018T220000
+SUMMARY:Open Air Season Closing ft. Marco Carola\, PAWSA - Ages 21+
+LOCATION:Pacha New York\, Hell's Kitchen
+DESCRIPTION:Pacha's first open-air season ends with a bang: techno heavywei
+ 
+ght Marco Carola b2b PAWSA under the Brooklyn sky. Tickets & info: https://
+ 
+www.ticketmaster.com/event/Z7r9jZ1AAvx7A
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvx7A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-5@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T193000
+DTEND;TZID=America/New_York:20261018T213000
+SUMMARY:Aziz Ansari: Hypothetical Tour
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Aziz works through brand-new hour on his Hypothetical Tour — 
+ 
+Beacon Theatre\, sharp observational comedy\, one of the night's biggest st
+ 
+ages. Tickets & info: https://www.ticketmaster.com/aziz-ansari-hypothetical
+ 
+-tour-new-york-new-york-10-18-2026/event/3B0064FD96283E85
+URL:https://www.ticketmaster.com/aziz-ansari-hypothetical-tour-new-york-new
+ 
+-york-10-18-2026/event/3B0064FD96283E85
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-6@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T190000
+DTEND;TZID=America/New_York:20261018T210000
+SUMMARY:Kendall Farrell: Standup Comedy Special Taping
+LOCATION:littlefield\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Be in the room where the special happens — Kendall Farrell ta
+ 
+pes her hour at littlefield\, fresh off an Edinburgh Fringe run. Tickets & 
+ 
+info: https://www.eventbrite.com/e/kendall-farrell-standup-comedy-special-t
+ 
+aping-tickets-1993612956018
+URL:https://www.eventbrite.com/e/kendall-farrell-standup-comedy-special-tap
+ 
+ing-tickets-1993612956018
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-7@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T200000
+DTEND;TZID=America/New_York:20261018T220000
+SUMMARY:Yerrrlywood ft: Chris Redd\, Drew Lynch\, Justin Martindale\, Natal
+ 
+y Aukar\, Cris Sosa + Special Guest!
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:The Comedy Store's hit format crosses coasts: Chris Redd\, Drew
+ 
+ Lynch\, Justin Martindale and more in the East Village room. Tickets & inf
+ 
+o: https://newyorkcomedyclub.com/events/yerrrlywood-ft-chris-redd-drew-lync
+ 
+h-justin-martindale-nataly-aukar-cris-sosa-special-guest
+URL:https://newyorkcomedyclub.com/events/yerrrlywood-ft-chris-redd-drew-lyn
+ 
+ch-justin-martindale-nataly-aukar-cris-sosa-special-guest
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-8@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T130000
+DTEND;TZID=America/New_York:20261018T150000
+SUMMARY:Katyń
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Wajda's devastating\, Oscar-nominated account of the Katyń mas
+ 
+sacre — essential cinema on 35mm at Film Forum. Tickets & info: https://f
+ 
+ilmforum.org/film/katyn-wajda-100
+URL:https://filmforum.org/film/katyn-wajda-100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-9@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T161500
+DTEND;TZID=America/New_York:20261018T181500
+SUMMARY:Brooklyn Horror: Secret Screening #2
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:A mystery horror film announced only by rumor — part of the B
+ 
+rooklyn Horror Film Fest\, with cheap drinks and Nitehawk's signature dread
+ 
+. Tickets & info: https://nitehawkcinema.com/williamsburg/movies/secret-scr
+ 
+eening-bk-horror-2/
+URL:https://nitehawkcinema.com/williamsburg/movies/secret-screening-bk-horr
+ 
+or-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-10@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T203000
+DTEND;TZID=America/New_York:20261018T223000
+SUMMARY:Once Upon a Time in China
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Tsui Hark's martial-arts epic with Jet Li at his peak — Wong 
+ 
+Fei-hung's legend\, big-screen\, Metrograph's gorgeous room. Tickets & info
+ 
+: https://metrograph.com/film/9999004431-once-upon-a-time-in-china/
+URL:https://metrograph.com/film/9999004431-once-upon-a-time-in-china/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-11@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T150000
+DTEND;TZID=America/New_York:20261018T170000
+SUMMARY:Stella
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:A restoration of this overlooked gem plays the Museum of the Mo
+ 
+ving Image — classic Hollywood done right. Tickets & info: https://moving
+ 
+image.org/event/stella/
+URL:https://movingimage.org/event/stella/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-12@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T150000
+DTEND;TZID=America/New_York:20261018T170000
+SUMMARY:Malcolm Gladwell discusses THE AMERCAN WAY OF KILLING at B&N Union 
+ 
+Square
+LOCATION:Barnes & Noble\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Gladwell in conversation on his new book at Union Square — ex
+ 
+pect sharp questions\, sharper storytelling\, and a long signing line. Tick
+ 
+ets & info: https://www.eventbrite.com/e/malcolm-gladwell-discusses-the-ame
+ 
+rcan-way-of-killing-at-bn-union-square-tickets-1993141074608
+URL:https://www.eventbrite.com/e/malcolm-gladwell-discusses-the-amercan-way
+ 
+-of-killing-at-bn-union-square-tickets-1993141074608
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-13@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T160000
+DTEND;TZID=America/New_York:20261018T180000
+SUMMARY:Classical Interludes: Ljova and WhEE (Where Else Ensemble)
+LOCATION:Brooklyn Public Library
+DESCRIPTION:Violist-composer Ljova and friends play a free-adjacent Sunday 
+ 
+chamber set at Brooklyn Public Library's Dweck Center. Tickets & info: http
+ 
+s://www.bklynlibrary.org/calendar/classical-interludes-central-library-dwec
+ 
+k-20261018-0400pm
+URL:https://www.bklynlibrary.org/calendar/classical-interludes-central-libr
+ 
+ary-dweck-20261018-0400pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-14@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T193000
+DTEND;TZID=America/New_York:20261018T213000
+SUMMARY:Comedians Interview Experts: Understanding elections with Andrea Jo
+ 
+nes-Rooy and Lindsey Cormack
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Comics grill political scientists about how elections actually 
+ 
+work — Caveat's smartest-funniest night out. Tickets & info: https://www.
+ 
+eventbrite.com/e/comedians-interview-experts-understanding-elections-with-a
+ 
+ndrea-jones-rooy-and-lindsey-cormack-tickets-2000524117488
+URL:https://www.eventbrite.com/e/comedians-interview-experts-understanding-
+ 
+elections-with-andrea-jones-rooy-and-lindsey-cormack-tickets-2000524117488
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-15@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T150000
+DTEND;TZID=America/New_York:20261018T170000
+SUMMARY:New York City Ballet: Adrian Danchig-Waring Farewell
+LOCATION:David H. Koch Theater\, Upper West Side-Lincoln Square
+DESCRIPTION:A principal dancer bows out after 24 years with the company —
+ 
+ farewell program with a Pam Tanowitz world premiere\, one night only. Tick
+ 
+ets & info: https://www.ticketmaster.com/event/Z7r9jZ1AAZxGv
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZxGv
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-16@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T190000
+DTEND;TZID=America/New_York:20261018T210000
+SUMMARY:The Holes - Sunday\, Oct 18th Evening
+LOCATION:wild project\, East Village
+DESCRIPTION:A new play gets its Sunday evening run at the wild project's in
+ 
+timate East Village theater. Tickets & info: https://www.eventbrite.com/e/t
+ 
+he-holes-sunday-oct-18th-evening-tickets-1995603719445
+URL:https://www.eventbrite.com/e/the-holes-sunday-oct-18th-evening-tickets-
+ 
+1995603719445
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-17@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T140000
+DTEND;TZID=America/New_York:20261018T160000
+SUMMARY:Philosophy at the Museum: Medieval Art at The Met Cloisters
+LOCATION:The Met Cloisters\, Washington Heights (North)
+DESCRIPTION:Talk philosophy among the unicorns — a guided conversation in
+ 
+ the Cloisters' medieval halls\, Fort Tryon Park views included. Tickets & 
+ 
+info: https://luma.com/6bw1wedf
+URL:https://luma.com/6bw1wedf
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-18@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T150000
+DTEND;TZID=America/New_York:20261018T170000
+SUMMARY:Glittering Apple—Mapping Nightlife History from East Village to G
+ 
+ramercy
+LOCATION:126 2nd Ave\, East Village
+DESCRIPTION:A walking tour through NYC's queer nightlife history — drag b
+ 
+alls\, clubs\, and vanished dancefloors from the East Village to Gramercy. 
+ 
+Tickets & info: https://www.eventbrite.com/e/glittering-applemapping-nightl
+ 
+ife-history-from-east-village-to-gramercy-tickets-1992496783516
+URL:https://www.eventbrite.com/e/glittering-applemapping-nightlife-history-
+ 
+from-east-village-to-gramercy-tickets-1992496783516
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-19@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T180000
+DTEND;TZID=America/New_York:20261018T200000
+SUMMARY:Haunted Bay Ridge Walking Tour
+LOCATION:29 83rd St\, Bay Ridge
+DESCRIPTION:Ghosts of old Bay Ridge: Victorian mansions\, cemetery lore\, a
+ 
+nd spooky harbor history on a Sunday evening walk. Tickets & info: https://
+ 
+www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943360212
+URL:https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-199
+ 
+1943360212
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-20@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T130000
+DTEND;TZID=America/New_York:20261018T150000
+SUMMARY:Brooklyn Mac and Cheese Takedown
+LOCATION:Royal Palms Shuffleboard Club\, Carroll Gardens-Cobble Hill-Gowanu
+ 
+s-Red Hook
+DESCRIPTION:Chefs face off for mac-and-cheese supremacy at Royal Palms — 
+ 
+you judge\, you eat\, everybody wins. Tickets & info: https://www.eventbrit
+ 
+e.com/e/brooklyn-mac-and-cheese-takedown-tickets-2001092893713
+URL:https://www.eventbrite.com/e/brooklyn-mac-and-cheese-takedown-tickets-2
+ 
+001092893713
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-21@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T140000
+DTEND;TZID=America/New_York:20261018T160000
+SUMMARY:Sotol Grand Tasting | Sotol Week 2026
+LOCATION:The Cactus Shop\, Williamsburg
+DESCRIPTION:Taste the desert spirit: sotol producers pour at The Cactus Sho
+ 
+p for Sotol Week's grand tasting. Tickets & info: https://www.eventbrite.co
+ 
+m/e/sotol-grand-tasting-sotol-week-2026-tickets-2002958506812
+URL:https://www.eventbrite.com/e/sotol-grand-tasting-sotol-week-2026-ticket
+ 
+s-2002958506812
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-22@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T140000
+DTEND;TZID=America/New_York:20261018T160000
+SUMMARY:The Dark Folklore of Plants
+LOCATION:East Fourth Street Community Garden\, Windsor Terrace-South Slope
+DESCRIPTION:Poisonous\, magical\, and murderous plants get their due — a 
+ 
+free talk in an East Village community garden. Tickets & info: http://www.n
+ 
+ycgovparks.org/events/2026/10/18/the-dark-folklore-of-plants
+URL:http://www.nycgovparks.org/events/2026/10/18/the-dark-folklore-of-plant
+ 
+s
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-23@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T190000
+DTEND;TZID=America/New_York:20261018T210000
+SUMMARY:Nocturnal Insects Hike
+LOCATION:Van Cortlandt Nature Center (in Van Cortlandt Park)\, Van Cortland
+ 
+t Park
+DESCRIPTION:Moths\, crickets\, and fireflies: a free nighttime nature walk 
+ 
+through Van Cortlandt Park with park naturalists. Tickets & info: http://ww
+ 
+w.nycgovparks.org/events/2026/10/18/nocturnal-insects-and-creatures-hike
+URL:http://www.nycgovparks.org/events/2026/10/18/nocturnal-insects-and-crea
+ 
+tures-hike
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-24@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T140000
+DTEND;TZID=America/New_York:20261018T160000
+SUMMARY:‘DURING JUN\, FOR OCT: Fermentation Workshop’
+LOCATION:FMFM\, Crown Heights (South)
+DESCRIPTION:Get your hands funky at FMFM's fermentation workshop — kraut\
+ 
+, kimchi\, and everything bubbling in between. Tickets & info: https://www.
+ 
+eventbrite.com/e/during-jun-for-oct-fermentation-workshop-tickets-200284073
+ 
+8564
+URL:https://www.eventbrite.com/e/during-jun-for-oct-fermentation-workshop-t
+ 
+ickets-2002840738564
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-25@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T110000
+DTEND;TZID=America/New_York:20261018T130000
+SUMMARY:Sunday Brunch With Scientist: From Droplet To Ocean
+LOCATION:56 Bogart St\, East Williamsburg
+DESCRIPTION:Eat brunch while a real scientist explains how a droplet become
+ 
+s an ocean — only in Bushwick. Tickets & info: https://luma.com/8ak20ny3
+URL:https://luma.com/8ak20ny3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-26@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T120000
+DTEND;TZID=America/New_York:20261018T140000
+SUMMARY:OnConnect ( ) Opening Day
+LOCATION:The Living Gallery\, Bushwick
+DESCRIPTION:Ten media artists open their interactive group show OnConnect( 
+ 
+) at The Living Gallery in Bushwick — doors all day\, artist talk at 7pm.
+ 
+ Tickets & info: https://partiful.com/e/T79uHQFTwGpNCd7ap4n3
+URL:https://partiful.com/e/T79uHQFTwGpNCd7ap4n3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261018-27@concierge
+DTSTAMP:20261018T120204Z
+DTSTART;TZID=America/New_York:20261018T173000
+DTEND;TZID=America/New_York:20261018T193000
+SUMMARY:Comedy Mob Sunday Mic
+LOCATION:New York Comedy Club (East 4th St)\, East Village
+DESCRIPTION:NYC's most unpredictable open mic: 10+ comics rapid-fire at the
+ 
+ East Village's New York Comedy Club — free\, one-item minimum. Tickets &
+ 
+ info: http://comedymob.com/
+URL:http://comedymob.com/
+END:VEVENT
+END:VCALENDAR
