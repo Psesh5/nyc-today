@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261019-0@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T173000
+DTEND;TZID=America/New_York:20261019T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning 1920s hot jazz from the city's sharpest-dressed 
+ 
+band — a Birdland residency that never misses. Tickets & info: https://ww
+ 
+w.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-ti
+ 
+ckets/14916153
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14916153
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-1@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T200000
+DTEND;TZID=America/New_York:20261019T220000
+SUMMARY:Amber Mark
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Genre-blurring R&B singer takes the legendary jazz room\; two s
+ 
+ets tonight. Tickets & info: https://www.ticketweb.com/event/amber-mark-blu
+ 
+e-note-jazz-club-tickets/14292404
+URL:https://www.ticketweb.com/event/amber-mark-blue-note-jazz-club-tickets/
+ 
+14292404
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-2@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:Earl Sweatshirt & MIKE  Home on the Range Tour 2026
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Two of underground rap's most poetic voices share a stage on th
+ 
+e Home on the Range tour. Tickets & info: https://www.ticketmaster.com/earl
+ 
+-sweatshirt-mike-home-on-the-brooklyn-new-york-10-19-2026/event/000064650A2
+ 
+CE579
+URL:https://www.ticketmaster.com/earl-sweatshirt-mike-home-on-the-brooklyn-
+ 
+new-york-10-19-2026/event/000064650A2CE579
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-3@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T200000
+DTEND;TZID=America/New_York:20261019T220000
+SUMMARY:Toad The Wet Sprocket - Rings: The Acoustic Tour
+LOCATION:Sony Hall\, Midtown-Times Square
+DESCRIPTION:The '90s hitmakers strip it down to acoustic arrangements in a 
+ 
+gorgeous Times Square theater. Tickets & info: https://www.ticketmaster.com
+ 
+/toad-the-wet-sprocket-rings-the-new-york-new-york-10-19-2026/event/000064B
+ 
+F394CEFCB
+URL:https://www.ticketmaster.com/toad-the-wet-sprocket-rings-the-new-york-n
+ 
+ew-york-10-19-2026/event/000064BF394CEFCB
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-4@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:Colin Quinn Returns to The CQ Room at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:The quintessential New York comic back in his home club's CQ Ro
+ 
+om. Tickets & info: https://www.comedycellar.com/reservations-newyork/?show
+ 
+id=1792436400
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792436400
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-5@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T193000
+DTEND;TZID=America/New_York:20261019T213000
+SUMMARY:Comedy & DJ Sunset Cruise: Laughs\, Music & Statue Views on the NYC
+ 
+ Harbor
+LOCATION:Pier 36 NYC\, Lower East Side
+DESCRIPTION:Stand-up on the water with Statue of Liberty views\, then a DJ 
+ 
+set as the city lights come up. Tickets & info: https://www.eventbrite.com/
+ 
+e/comedy-dj-sunset-cruise-laughs-music-statue-views-on-the-nyc-harbor-ticke
+ 
+ts-1520959343339
+URL:https://www.eventbrite.com/e/comedy-dj-sunset-cruise-laughs-music-statu
+ 
+e-views-on-the-nyc-harbor-tickets-1520959343339
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-6@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:The Play That Goes Wrong
+LOCATION:New World Stages - Stage 4\, Hell's Kitchen
+DESCRIPTION:The beloved disaster farce — still the funniest two hours in 
+ 
+Midtown. Tickets & info: https://www.ticketmaster.com/the-play-that-goes-wr
+ 
+ong-new-york-new-york-10-19-2026/event/Z1r9uZruZqGZ1AvZa7s
+URL:https://www.ticketmaster.com/the-play-that-goes-wrong-new-york-new-york
+ 
+-10-19-2026/event/Z1r9uZruZqGZ1AvZa7s
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-7@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T200000
+DTEND;TZID=America/New_York:20261019T220000
+SUMMARY:Metropolitan Opera presents Lincoln in the Bardo
+LOCATION:Metropolitan Opera House\, Upper West Side-Lincoln Square
+DESCRIPTION:World premiere night: Missy Mazzoli turns George Saunders' Book
+ 
+er winner into opera\, Yannick conducts. Tickets & info: https://www.eventt
+ 
+icketscenter.com/lincoln-in-the-bardo-new-york-tickets/1356345/e
+URL:https://www.eventticketscenter.com/lincoln-in-the-bardo-new-york-ticket
+ 
+s/1356345/e
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-8@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T214500
+DTEND;TZID=America/New_York:20261019T234500
+SUMMARY:Passion of Joan of Arc with live score
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Dreyer's silent masterpiece with a live score — the rare revi
+ 
+val that sells out on atmosphere. Tickets & info: https://nitehawkcinema.co
+ 
+m/williamsburg/movies/passion-of-joan-of-arc-with-live-score/
+URL:https://nitehawkcinema.com/williamsburg/movies/passion-of-joan-of-arc-w
+ 
+ith-live-score/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-9@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T185000
+DTEND;TZID=America/New_York:20261019T205000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's gloriously unhinged 1971 classic\, back on the bi
+ 
+g screen where it belongs. Tickets & info: https://www.ifccenter.com/films/
+ 
+the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-10@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T213000
+DTEND;TZID=America/New_York:20261019T233000
+SUMMARY:O Brother\, Where Art Thou?
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:The Coens' bluegrass odyssey — perfect late-show fuel. Ticket
+ 
+s & info: https://metrograph.com/film/9999005017-o-brother-where-art-thou/
+URL:https://metrograph.com/film/9999005017-o-brother-where-art-thou/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-11@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:112th: Roger Berkowitz on Hannah Arendt with Roosevelt Montás
+LOCATION:Book Culture\, Morningside Heights
+DESCRIPTION:Hannah Arendt's thinking for dark times\, with Roosevelt Montas
+ 
+ — free and genuinely stimulating. Tickets & info: https://bookevents.nyc
+ 
+/events/bookculture-roger-berkowitz-on-hannah-book-culture-oct-19-2026
+URL:https://bookevents.nyc/events/bookculture-roger-berkowitz-on-hannah-boo
+ 
+k-culture-oct-19-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-12@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:CBH Talk | Why We Want to Believe: UFOs\, Aliens\, and Us
+LOCATION:Brooklyn Public Library\, Crown Heights (North)
+DESCRIPTION:Brooklyn Public Library asks why we want to believe — aliens\
+ 
+, folklore\, and us. Tickets & info: https://www.bklynlibrary.org/calendar/
+ 
+cbh-talk-why-we-want-center-for-brooklyn-20261019-0630pm
+URL:https://www.bklynlibrary.org/calendar/cbh-talk-why-we-want-center-for-b
+ 
+rooklyn-20261019-0630pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-13@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T193000
+DTEND;TZID=America/New_York:20261019T213000
+SUMMARY:Laurence Leamer with Derek Blasberg: Ladies’ Man — The Careless
+ 
+ Heart of John F. Kennedy
+LOCATION:92nd Street Y\, Upper East Side-Carnegie Hill
+DESCRIPTION:A free 92Y evening on JFK's 'careless heart' with two great sto
+ 
+rytellers. Tickets & info: https://bookevents.nyc/events/laurence-leamer-92
+ 
+nd-street-y-oct-19-2026
+URL:https://bookevents.nyc/events/laurence-leamer-92nd-street-y-oct-19-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-14@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:How Three Pages Can Change Your Life
+LOCATION:PEN America\, Midtown-Times Square
+DESCRIPTION:A PEN America evening on how a few pages can change a life — 
+ 
+free. Tickets & info: https://bookevents.nyc/events/how-three-pages-can-cha
+ 
+nge-your-life-oct-19-2026
+URL:https://bookevents.nyc/events/how-three-pages-can-change-your-life-oct-
+ 
+19-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-15@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:Nuyorican Bowery Slam
+LOCATION:Bowery Poetry Club\, Greenwich Village
+DESCRIPTION:The city's most storied poetry mic brings slam energy to a Mond
+ 
+ay night. Tickets & info: https://www.eventbrite.com/e/nuyorican-bowery-sla
+ 
+m-tickets-1988049951923
+URL:https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-198804995192
+ 
+3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-16@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:Public Craft Night Mondays and Thursdays!
+LOCATION:NYC Resistor\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Free weekly craft night at the hackerspace — bring a project\
+ 
+, borrow their tools. Tickets & info: https://www.eventbrite.com/e/public-c
+ 
+raft-night-mondays-and-thursdays-tickets-1992098778071
+URL:https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-t
+ 
+ickets-1992098778071
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-17@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:Making Fire Cider with Astoria School of Plant Wisdom
+LOCATION:21-07 41st Ave\, Queensbridge-Ravenswood-Dutch Kills
+DESCRIPTION:$20 hands-on folk-remedy workshop with the Astoria School of Pl
+ 
+ant Wisdom. Tickets & info: https://luma.com/mxh5e0qy
+URL:https://luma.com/mxh5e0qy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-18@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:LED Neon Sign Making in a Art Studio
+LOCATION:17-17 Troutman St\, Ridgewood
+DESCRIPTION:Bend your own glowing sign in a real Bushwick art studio. Ticke
+ 
+ts & info: https://www.eventbrite.com/e/led-neon-sign-making-in-a-art-studi
+ 
+o-tickets-1990716202751
+URL:https://www.eventbrite.com/e/led-neon-sign-making-in-a-art-studio-ticke
+ 
+ts-1990716202751
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-19@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T120000
+DTEND;TZID=America/New_York:20261019T140000
+SUMMARY:Juggling Class
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free lunchtime juggling in the park — all levels\, props prov
+ 
+ided. Tickets & info: https://bryantpark.org/calendar/event/juggling-weekda
+ 
+y/2026-10-19
+URL:https://bryantpark.org/calendar/event/juggling-weekday/2026-10-19
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-20@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Boozy Ice Cream Cocktail Class in Astoria
+LOCATION:Tipsy Scoop\, Astoria (North)-Ditmars-Steinway
+DESCRIPTION:Learn to spike your scoops at the boozy ice cream bar. Tickets 
+ 
+& info: https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-asto
+ 
+ria-tickets-2002395300246
+URL:https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-astoria-
+ 
+tickets-2002395300246
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-21@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T203000
+DTEND;TZID=America/New_York:20261019T223000
+SUMMARY:$8 Margaritas! Margarita Monday at Sheba's Speakeasy
+LOCATION:The Three Monkeys\, Midtown-Times Square
+DESCRIPTION:Eight-dollar margaritas at a speakeasy — the week's cheapest 
+ 
+good decision. Tickets & info: https://www.eventbrite.com/e/8-margaritas-ma
+ 
+rgarita-monday-at-shebas-speakeasy-tickets-1998300069300
+URL:https://www.eventbrite.com/e/8-margaritas-margarita-monday-at-shebas-sp
+ 
+eakeasy-tickets-1998300069300
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-22@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T184500
+DTEND;TZID=America/New_York:20261019T204500
+SUMMARY:Harlem Run: Monday Night Run
+LOCATION:Marcus Garvey Park\, East Harlem (North)
+DESCRIPTION:Free weekly group run from Marcus Garvey Park — all paces wel
+ 
+come. Tickets & info: http://www.nycgovparks.org/events/2026/10/19/harlem-r
+ 
+un-monday-night-run
+URL:http://www.nycgovparks.org/events/2026/10/19/harlem-run-monday-night-ru
+ 
+n
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-23@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:Board Game Speed Dating - Threes Brewing - Greenpoint NYC (Ages 25-
+ 
+39)
+LOCATION:Threes Brewing Greenpoint\, Greenpoint
+DESCRIPTION:Singles night meets board games at the Greenpoint brewery — a
+ 
+ges 25-39\, way better than an app. Tickets & info: https://www.eventbrite.
+ 
+com/e/board-game-speed-dating-threes-brewing-greenpoint-nyc-ages-25-39-tick
+ 
+ets-2002241382875
+URL:https://www.eventbrite.com/e/board-game-speed-dating-threes-brewing-gre
+ 
+enpoint-nyc-ages-25-39-tickets-2002241382875
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-24@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T110000
+DTEND;TZID=America/New_York:20261019T130000
+SUMMARY:Chelsea Market\, High Line & Hudson Yards Food & History Tour
+LOCATION:Chelsea Market\, Chelsea-Hudson Yards
+DESCRIPTION:Eat your way through Chelsea Market and the High Line with a gu
+ 
+ide who knows the stories. Tickets & info: https://www.eventbrite.com/e/che
+ 
+lsea-market-high-line-hudson-yards-food-history-tour-tickets-1993686820950
+URL:https://www.eventbrite.com/e/chelsea-market-high-line-hudson-yards-food
+ 
+-history-tour-tickets-1993686820950
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-25@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T190000
+DTEND;TZID=America/New_York:20261019T210000
+SUMMARY:New York Rangers vs. Anaheim Ducks
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Blueshirts at home against Anaheim — Monday night hockey at t
+ 
+he Garden. Tickets & info: https://www.ticketmaster.com/new-york-rangers-vs
+ 
+-anaheim-ducks-new-york-new-york-10-19-2026/event/3B0064F1B1D84447
+URL:https://www.ticketmaster.com/new-york-rangers-vs-anaheim-ducks-new-york
+ 
+-new-york-10-19-2026/event/3B0064F1B1D84447
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-26@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T193000
+DTEND;TZID=America/New_York:20261019T213000
+SUMMARY:Comic Relief Live
+LOCATION:Carnegie Hall\, Midtown West
+DESCRIPTION:John Oliver hosts a one-night benefit with Zarna Garg\, Josh Jo
+ 
+hnson\, Roy Wood Jr. and more — 40 years of Comic Relief. Tickets & info:
+ 
+ https://www.carnegiehall.org/Calendar/2026/10/19/Comic-Relief-Live-0730PM
+URL:https://www.carnegiehall.org/Calendar/2026/10/19/Comic-Relief-Live-0730
+ 
+PM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-27@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T200000
+DTEND;TZID=America/New_York:20261019T220000
+SUMMARY:Monday New Material Night
+LOCATION:Top Secret Comedy Club\, East Village
+DESCRIPTION:London's cult comedy club runs a $2 new-material night in the E
+ 
+ast Village — surprise drop-ins happen. Tickets & info: https://topsecret
+ 
+comedyclub.com/events-listing
+URL:https://topsecretcomedyclub.com/events-listing
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-28@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T193000
+DTEND;TZID=America/New_York:20261019T213000
+SUMMARY:Good Eggs ft: Mark Normand\, Orion Levine\, Gary Vider\, Samantha S
+ 
+antos\, Matt Ruby
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Mark Normand\, Gary Vider and more top comics in the Upper West
+ 
+ Side room — a stacked Monday lineup. Tickets & info: https://newyorkcome
+ 
+dyclub.com/events/good-eggs-ft-mark-normand-orion-levine-gary-vider-samanth
+ 
+a-santos-matt-ruby
+URL:https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-orion-le
+ 
+vine-gary-vider-samantha-santos-matt-ruby
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261019-29@concierge
+DTSTAMP:20261019T120412Z
+DTSTART;TZID=America/New_York:20261019T193000
+DTEND;TZID=America/New_York:20261019T213000
+SUMMARY:STEPS IN CONCERT
+LOCATION:The Joyce Theater\, Chelsea-Hudson Yards
+DESCRIPTION:The stars of STEPS on Broadway take the Joyce stage for one nig
+ 
+ht — dance royalty\, up close. Tickets & info: https://www.eventbrite.com
+ 
+/e/steps-in-concert-tickets-2002738044403
+URL:https://www.eventbrite.com/e/steps-in-concert-tickets-2002738044403
+END:VEVENT
+END:VCALENDAR
