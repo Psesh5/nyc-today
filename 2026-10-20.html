@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, October 20</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, October 20</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-20.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Allison Russell: In The Hour of Chaos Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/allison-russell-in-the-hour-of-new-york-new-york-10-20-2026/event/0000650AC63E0A3F">Allison Russell: In The Hour of Chaos Tour</a></h3>
+<div class="meta">6:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy · $61+</div>
+<p>Grammy winner brings her new album&#x27;s plea for connection to Irving Plaza, in the tour&#x27;s biggest NY stop.</p>
+<a class="tickets" href="https://www.ticketmaster.com/allison-russell-in-the-hour-of-new-york-new-york-10-20-2026/event/0000650AC63E0A3F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916233">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Big-band 1920s–30s hot jazz from the Boardwalk Empire bandleader — a Birdland Tuesday institution.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916233">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Knew Them When Fest: Performances by NYU Rising Stars">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/knew-them-when-fest-performances-by-new-york-new-york-10-20-2026/event/000065429E84AF5B">Knew Them When Fest: Performances by NYU Rising Stars</a></h3>
+<div class="meta">9:00 PM · Mercury Lounge, Lower East Side</div>
+<p>NYU&#x27;s next wave of songwriters in a friendly early slot at the Mercury Lounge.</p>
+<a class="tickets" href="https://www.ticketmaster.com/knew-them-when-fest-performances-by-new-york-new-york-10-20-2026/event/000065429E84AF5B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Juana Molina @ Le Poisson Rouge">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bandsintown.com/e/108642048-juana-molina-at-le-poisson-rouge?came_from=253&amp;utm_medium=web&amp;utm_source=venue_page&amp;utm_campaign=event">Juana Molina @ Le Poisson Rouge</a></h3>
+<div class="meta">6:30 PM · Le Poisson Rouge, Greenwich Village</div>
+<p>Argentina&#x27;s loop-pedal sorceress returns to the Village with her hypnotic, one-woman orchestra.</p>
+<a class="tickets" href="https://www.bandsintown.com/e/108642048-juana-molina-at-le-poisson-rouge?came_from=253&amp;utm_medium=web&amp;utm_source=venue_page&amp;utm_campaign=event">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="New York Knicks Opening Night Watch Party">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/new-york-knicks-opening-night-watch-party-tickets-2003176197932">New York Knicks Opening Night Watch Party</a></h3>
+<div class="meta">6:00 PM · Industry City Bandshell in Courtyard 1/2, Sunset Park (West)</div>
+<p>Watch the opener and the ring ceremony with fellow fans under the string lights at Industry City.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/new-york-knicks-opening-night-watch-party-tickets-2003176197932">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="The Vinyl Word">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://donyc.com/events/2026/10/20/the-vinyl-word-tickets">The Vinyl Word</a></h3>
+<div class="meta">6:30 PM · Baby&#x27;s All Right, Williamsburg · 20</div>
+<p>DJs spin full vinyl sides front-to-back at Baby&#x27;s All Right — a listening bar night for crate-diggers.</p>
+<a class="tickets" href="http://donyc.com/events/2026/10/20/the-vinyl-word-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-4" data-name="The Devils">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">6:50 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s long-suppressed 1971 masterpiece back on the big screen — still shocking, still gorgeous.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Making Marie Antoinette">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/making-marie-antoinette/">Making Marie Antoinette</a></h3>
+<div class="meta">6:30 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>How Sofia Coppola rebuilt Versailles-era excess — a design-and-craft deep dive at MoMI.</p>
+<a class="tickets" href="https://movingimage.org/event/making-marie-antoinette/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Once Upon A Time In Harlem">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/once-upon-a-time-in-harlem">Once Upon A Time In Harlem</a></h3>
+<div class="meta">6:00 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>New documentary on Harlem&#x27;s storied nightlife and music history at the Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/once-upon-a-time-in-harlem">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="A Benefit for Little Essentials with David Cross &amp; Friends">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/a-benefit-for-little-essentials-with-brooklyn-new-york-10-20-2026/event/30006512E9FA7FBD">A Benefit for Little Essentials with David Cross &amp; Friends</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>David Cross headlines a one-night benefit with friends — proceeds support NYC families.</p>
+<a class="tickets" href="https://www.ticketmaster.com/a-benefit-for-little-essentials-with-brooklyn-new-york-10-20-2026/event/30006512E9FA7FBD">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Nice Try ft: Michael Kosta, Ashley Austin Morris, Kevin Dombrowski, Subhah Agarwal, Gibran Saleem">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-ashley-austin-morris-kevin-dombrowski-subhah-agarwal-gibran-saleem">Nice Try ft: Michael Kosta, Ashley Austin Morris, Kevin Dombrowski, Subhah Agarwal, Gibran Saleem</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $9</div>
+<p>Nine-dollar showcase: Michael Kosta, Gibran Saleem, Subhah Agarwal and more trying new material.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-ashley-austin-morris-kevin-dombrowski-subhah-agarwal-gibran-saleem">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Tuesdays at the Red Room">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tuesdays-at-the-red-room-tickets-1996104854353">Tuesdays at the Red Room</a></h3>
+<div class="meta">8:00 PM · The Red Room at KGB, East Village</div>
+<p>Free underground-style set in KGB Bar&#x27;s back room — the East Village&#x27;s best cheap Tuesday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tuesdays-at-the-red-room-tickets-1996104854353">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Wild Card Comedy Free Every Tuesday">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://donyc.com/events/2026/10/20/wild-card-comedy-free-every-tuesday-tickets">Wild Card Comedy Free Every Tuesday</a></h3>
+<div class="meta">8:30 PM · Alphaville, Bushwick (West) · Free</div>
+<p>Free Brooklyn lineup show — comics work out new bits, you risk nothing.</p>
+<a class="tickets" href="http://donyc.com/events/2026/10/20/wild-card-comedy-free-every-tuesday-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-11" data-name="New York Knicks vs. Philadelphia 76ers">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-philadelphia-76ers-new-york-new-york-10-20-2026/event/3B006511E91B8627">New York Knicks vs. Philadelphia 76ers</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Opening night at the Garden: the banner, the rings, and the 76ers in town for the celebration.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-philadelphia-76ers-new-york-new-york-10-20-2026/event/3B006511E91B8627">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-13" data-name="(IN) PRACTICE: Poetry, Community &amp; Art as Advocacy with Joel Leon">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/the-jb5w">(IN) PRACTICE: Poetry, Community &amp; Art as Advocacy with Joel Leon</a></h3>
+<div class="meta">5:00 PM · The Lighthouse Campus, Greenpoint</div>
+<p>Poetry and art as advocacy with Joel (and company) at Greenpoint&#x27;s Lighthouse Campus.</p>
+<a class="tickets" href="https://luma.com/the-jb5w">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="The Forgotten History of the Bowery IN PERSON">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-forgotten-history-of-the-bowery-in-person-tickets-2002765477456">The Forgotten History of the Bowery IN PERSON</a></h3>
+<div class="meta">6:00 PM · The General Society Library, Midtown-Times Square</div>
+<p>Bowery historian digs into the street&#x27;s wild forgotten past — live at the General Society Library.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-forgotten-history-of-the-bowery-in-person-tickets-2002765477456">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-14" data-name="PUBLIC ART PARTY #4">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/public-art-party-4-tickets-2001385569113">PUBLIC ART PARTY #4</a></h3>
+<div class="meta">6:00 PM · Van Alen Institute, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Van Alen&#x27;s public-art party — mingle with the people who actually make the city&#x27;s street-level art.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/public-art-party-4-tickets-2001385569113">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Elissa Bassist presents Inside Jokes, with Special Guests">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/elissa-bassist-presents-inside-jokes-with-special-guests-tickets-1999429410189">Elissa Bassist presents Inside Jokes, with Special Guests</a></h3>
+<div class="meta">6:30 PM · P&amp;T Knitwear, Lower East Side · $10</div>
+<p>The comedy writer launches Inside Jokes with special guests at the LES knitwear shop-slash-venue.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/elissa-bassist-presents-inside-jokes-with-special-guests-tickets-1999429410189">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Marisa Meltzer with Vanessa Friedman | It Girl: The Life and Legacy of Jane Birkin">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/marisa-meltzer-with-vanessa-friedman-it-girl-the-oct-20">Marisa Meltzer with Vanessa Friedman | It Girl: The Life and Legacy of Jane Birkin</a></h3>
+<div class="meta">6:30 PM · Stavros Niarchos Foundation Library, Midtown-Times Square</div>
+<p>Marisa Meltzer on fashion&#x27;s original It Girl, in conversation with critic Vanessa Friedman.</p>
+<a class="tickets" href="https://bookevents.nyc/events/marisa-meltzer-with-vanessa-friedman-it-girl-the-oct-20">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Book Launch | Needlemouth by K-Ming Chang">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/book-launch-needlemouth-by-k-ming-chang-oct-20-2026">Book Launch | Needlemouth by K-Ming Chang</a></h3>
+<div class="meta">6:00 PM · Yu &amp; Me Books, Chinatown-Two Bridges</div>
+<p>K-Ming Chang launches her new novel at Chinatown&#x27;s beloved Yu &amp; Me Books.</p>
+<a class="tickets" href="https://bookevents.nyc/events/book-launch-needlemouth-by-k-ming-chang-oct-20-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Fandom, Cities, and the Psychology of Collective Emotion">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/fandom-cities-and-the-psychology-of-collective-emotion-tickets-2003371268393">Fandom, Cities, and the Psychology of Collective Emotion</a></h3>
+<div class="meta">5:00 PM · 19 Washington Square N, Greenwich Village</div>
+<p>An NYU psych talk on why fandoms, cities, and collective emotion are more connected than you think.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/fandom-cities-and-the-psychology-of-collective-emotion-tickets-2003371268393">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-20" data-name="Claude Code Workshop with Provectus - New York City">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/claude-code-workshop-nyc-oct-20">Claude Code Workshop with Provectus - New York City</a></h3>
+<div class="meta">1:00 PM · Financial District, Financial District-Battery Park City</div>
+<p>Provectus&#x27;s hands-on session for building with Anthropic&#x27;s agentic coding tool — bring a laptop.</p>
+<a class="tickets" href="https://luma.com/claude-code-workshop-nyc-oct-20">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Tuesday Evening Fall Migration Bird Walk Series - Brooklyn">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tuesday-evening-fall-migration-bird-walk-series-brooklyn-tickets-1995981280741">Tuesday Evening Fall Migration Bird Walk Series - Brooklyn</a></h3>
+<div class="meta">5:00 PM · Prospect Park, Prospect Park</div>
+<p>Fall migration is peaking — join the evening bird walk through Prospect Park with real guides.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tuesday-evening-fall-migration-bird-walk-series-brooklyn-tickets-1995981280741">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Juggling Class">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/juggling-weekday/2026-10-20">Juggling Class</a></h3>
+<div class="meta">12:00 PM · Bryant Park, Midtown-Times Square</div>
+<p>Free lunchtime juggling in Bryant Park — beginners genuinely welcome, props provided.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/juggling-weekday/2026-10-20">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-21" data-name="Incomputable Earth: Technology and the Anthropocene Hypothesis">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/incomputable-earth-technology-and-the-anthropocene-hypothesis-tickets-2002770084235">Incomputable Earth: Technology and the Anthropocene Hypothesis</a></h3>
+<div class="meta">7:00 PM · e-flux, Clinton Hill</div>
+<p>e-flux evening on tech, the Anthropocene, and what &#x27;incomputable&#x27; means for the planet.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/incomputable-earth-technology-and-the-anthropocene-hypothesis-tickets-2002770084235">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-24" data-name="Meet the Makers: French Wine Night at OCabanon">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/meet-the-makers-french-wine-night-at-ocabanon-tickets-2001251312548">Meet the Makers: French Wine Night at OCabanon</a></h3>
+<div class="meta">5:30 PM · OCabanon, Midtown South-Flatiron-Union Square</div>
+<p>Taste Piedmont wines with the people who make them at this French bistro tasting.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/meet-the-makers-french-wine-night-at-ocabanon-tickets-2001251312548">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="Fall Festival at Lakeside">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/fall-festival-at-lakeside/2026-10-20/">Fall Festival at Lakeside</a></h3>
+<div class="meta">4:00 PM · Prospect Park, Prospect Park</div>
+<p>Prospect Park&#x27;s Lakeside fall fest — peak foliage, family-friendly, free.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/fall-festival-at-lakeside/2026-10-20/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Jo March Madness">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/jo-march-madness-tickets-1999942140780">Jo March Madness</a></h3>
+<div class="meta">9:30 PM · Caveat, Lower East Side</div>
+<p>Caveat&#x27;s literary drinking-game night, Little Women edition. Costumes encouraged, chaos guaranteed.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/jo-march-madness-tickets-1999942140780">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-27" data-name="NYRR Open Run: Brooklyn Bridge Park">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/20/nyrr-open-run-brooklyn-bridge-park">NYRR Open Run: Brooklyn Bridge Park</a></h3>
+<div class="meta">6:45 PM · Pier 6 (in Brooklyn Bridge Park), The Battery-Governors Island-Ellis Island-Liberty Island</div>
+<p>Free weekly group run along the Brooklyn Bridge Park waterfront — all paces welcome.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/20/nyrr-open-run-brooklyn-bridge-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-28" data-name="Trivia Tuesday with NYC Trivia League at Time Out Market Union Square">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/trivia-tuesday-with-nyc-trivia-league-at-time-out-market-union-square-tickets-2001402903962">Trivia Tuesday with NYC Trivia League at Time Out Market Union Square</a></h3>
+<div class="meta">7:00 PM · Time Out Market USQ, East Village</div>
+<p>The NYC Trivia League&#x27;s Tuesday night at the Union Square food hall — grab dinner and play.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/trivia-tuesday-with-nyc-trivia-league-at-time-out-market-union-square-tickets-2001402903962">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-20";
+const NAMES = ["Allison Russell: In The Hour of Chaos Tour", "Vince Giordano and the Nighthawks", "Knew Them When Fest: Performances by NYU Rising Stars", "Juana Molina @ Le Poisson Rouge", "The Devils", "Making Marie Antoinette", "Once Upon A Time In Harlem", "A Benefit for Little Essentials with David Cross & Friends", "Nice Try ft: Michael Kosta, Ashley Austin Morris, Kevin Dombrowski, Subhah Agarwal, Gibran Saleem", "Tuesdays at the Red Room", "Wild Card Comedy Free Every Tuesday", "New York Knicks vs. Philadelphia 76ers", "New York Knicks Opening Night Watch Party", "(IN) PRACTICE: Poetry, Community & Art as Advocacy with Joel Leon", "PUBLIC ART PARTY #4", "The Forgotten History of the Bowery IN PERSON", "Elissa Bassist presents Inside Jokes, with Special Guests", "Marisa Meltzer with Vanessa Friedman | It Girl: The Life and Legacy of Jane Birkin", "Book Launch | Needlemouth by K-Ming Chang", "Fandom, Cities, and the Psychology of Collective Emotion", "Claude Code Workshop with Provectus - New York City", "Incomputable Earth: Technology and the Anthropocene Hypothesis", "Tuesday Evening Fall Migration Bird Walk Series - Brooklyn", "Juggling Class", "Meet the Makers: French Wine Night at OCabanon", "Fall Festival at Lakeside", "Jo March Madness", "NYRR Open Run: Brooklyn Bridge Park", "Trivia Tuesday with NYC Trivia League at Time Out Market Union Square", "The Vinyl Word"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

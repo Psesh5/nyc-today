@@ -1,0 +1,495 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261020-0@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:Allison Russell: In The Hour of Chaos Tour
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Grammy winner brings her new album's plea for connection to Irv
+ 
+ing Plaza\, in the tour's biggest NY stop. Tickets & info: https://www.tick
+ 
+etmaster.com/allison-russell-in-the-hour-of-new-york-new-york-10-20-2026/ev
+ 
+ent/0000650AC63E0A3F
+URL:https://www.ticketmaster.com/allison-russell-in-the-hour-of-new-york-ne
+ 
+w-york-10-20-2026/event/0000650AC63E0A3F
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-1@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T173000
+DTEND;TZID=America/New_York:20261020T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Big-band 1920s–30s hot jazz from the Boardwalk Empire bandlea
+ 
+der — a Birdland Tuesday institution. Tickets & info: https://www.ticketw
+ 
+eb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/149
+ 
+16233
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14916233
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-2@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T210000
+DTEND;TZID=America/New_York:20261020T230000
+SUMMARY:Knew Them When Fest: Performances by NYU Rising Stars
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:NYU's next wave of songwriters in a friendly early slot at the 
+ 
+Mercury Lounge. Tickets & info: https://www.ticketmaster.com/knew-them-when
+ 
+-fest-performances-by-new-york-new-york-10-20-2026/event/000065429E84AF5B
+URL:https://www.ticketmaster.com/knew-them-when-fest-performances-by-new-yo
+ 
+rk-new-york-10-20-2026/event/000065429E84AF5B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-3@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:Juana Molina @ Le Poisson Rouge
+LOCATION:Le Poisson Rouge\, Greenwich Village
+DESCRIPTION:Argentina's loop-pedal sorceress returns to the Village with he
+ 
+r hypnotic\, one-woman orchestra. Tickets & info: https://www.bandsintown.c
+ 
+om/e/108642048-juana-molina-at-le-poisson-rouge?came_from=253&utm_medium=we
+ 
+b&utm_source=venue_page&utm_campaign=event
+URL:https://www.bandsintown.com/e/108642048-juana-molina-at-le-poisson-roug
+ 
+e?came_from=253&utm_medium=web&utm_source=venue_page&utm_campaign=event
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-4@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T185000
+DTEND;TZID=America/New_York:20261020T205000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's long-suppressed 1971 masterpiece back on the big 
+ 
+screen — still shocking\, still gorgeous. Tickets & info: https://www.ifc
+ 
+center.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-5@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:Making Marie Antoinette
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:How Sofia Coppola rebuilt Versailles-era excess — a design-an
+ 
+d-craft deep dive at MoMI. Tickets & info: https://movingimage.org/event/ma
+ 
+king-marie-antoinette/
+URL:https://movingimage.org/event/making-marie-antoinette/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-6@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:Once Upon A Time In Harlem
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:New documentary on Harlem's storied nightlife and music history
+ 
+ at the Forum. Tickets & info: https://filmforum.org/film/once-upon-a-time-
+ 
+in-harlem
+URL:https://filmforum.org/film/once-upon-a-time-in-harlem
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-7@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T193000
+DTEND;TZID=America/New_York:20261020T213000
+SUMMARY:A Benefit for Little Essentials with David Cross & Friends
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:David Cross headlines a one-night benefit with friends — proc
+ 
+eeds support NYC families. Tickets & info: https://www.ticketmaster.com/a-b
+ 
+enefit-for-little-essentials-with-brooklyn-new-york-10-20-2026/event/300065
+ 
+12E9FA7FBD
+URL:https://www.ticketmaster.com/a-benefit-for-little-essentials-with-brook
+ 
+lyn-new-york-10-20-2026/event/30006512E9FA7FBD
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-8@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T200000
+DTEND;TZID=America/New_York:20261020T220000
+SUMMARY:Nice Try ft: Michael Kosta\, Ashley Austin Morris\, Kevin Dombrowsk
+ 
+i\, Subhah Agarwal\, Gibran Saleem
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Nine-dollar showcase: Michael Kosta\, Gibran Saleem\, Subhah Ag
+ 
+arwal and more trying new material. Tickets & info: https://newyorkcomedycl
+ 
+ub.com/events/nice-try-ft-michael-kosta-ashley-austin-morris-kevin-dombrows
+ 
+ki-subhah-agarwal-gibran-saleem
+URL:https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-ashley-a
+ 
+ustin-morris-kevin-dombrowski-subhah-agarwal-gibran-saleem
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-9@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T200000
+DTEND;TZID=America/New_York:20261020T220000
+SUMMARY:Tuesdays at the Red Room
+LOCATION:The Red Room at KGB\, East Village
+DESCRIPTION:Free underground-style set in KGB Bar's back room — the East 
+ 
+Village's best cheap Tuesday. Tickets & info: https://www.eventbrite.com/e/
+ 
+tuesdays-at-the-red-room-tickets-1996104854353
+URL:https://www.eventbrite.com/e/tuesdays-at-the-red-room-tickets-199610485
+ 
+4353
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-10@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T203000
+DTEND;TZID=America/New_York:20261020T223000
+SUMMARY:Wild Card Comedy Free Every Tuesday
+LOCATION:Alphaville\, Bushwick (West)
+DESCRIPTION:Free Brooklyn lineup show — comics work out new bits\, you ri
+ 
+sk nothing. Tickets & info: http://donyc.com/events/2026/10/20/wild-card-co
+ 
+medy-free-every-tuesday-tickets
+URL:http://donyc.com/events/2026/10/20/wild-card-comedy-free-every-tuesday-
+ 
+tickets
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-11@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T190000
+DTEND;TZID=America/New_York:20261020T210000
+SUMMARY:New York Knicks vs. Philadelphia 76ers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Opening night at the Garden: the banner\, the rings\, and the 7
+ 
+6ers in town for the celebration. Tickets & info: https://www.ticketmaster.
+ 
+com/new-york-knicks-vs-philadelphia-76ers-new-york-new-york-10-20-2026/even
+ 
+t/3B006511E91B8627
+URL:https://www.ticketmaster.com/new-york-knicks-vs-philadelphia-76ers-new-
+ 
+york-new-york-10-20-2026/event/3B006511E91B8627
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-12@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:New York Knicks Opening Night Watch Party
+LOCATION:Industry City Bandshell in Courtyard 1/2\, Sunset Park (West)
+DESCRIPTION:Watch the opener and the ring ceremony with fellow fans under t
+ 
+he string lights at Industry City. Tickets & info: https://www.eventbrite.c
+ 
+om/e/new-york-knicks-opening-night-watch-party-tickets-2003176197932
+URL:https://www.eventbrite.com/e/new-york-knicks-opening-night-watch-party-
+ 
+tickets-2003176197932
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-13@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T170000
+DTEND;TZID=America/New_York:20261020T190000
+SUMMARY:(IN) PRACTICE: Poetry\, Community & Art as Advocacy with Joel Leon
+LOCATION:The Lighthouse Campus\, Greenpoint
+DESCRIPTION:Poetry and art as advocacy with Joel (and company) at Greenpoin
+ 
+t's Lighthouse Campus. Tickets & info: https://luma.com/the-jb5w
+URL:https://luma.com/the-jb5w
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-14@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:PUBLIC ART PARTY #4
+LOCATION:Van Alen Institute\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Van Alen's public-art party — mingle with the people who actu
+ 
+ally make the city's street-level art. Tickets & info: https://www.eventbri
+ 
+te.com/e/public-art-party-4-tickets-2001385569113
+URL:https://www.eventbrite.com/e/public-art-party-4-tickets-2001385569113
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-15@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:The Forgotten History of the Bowery IN PERSON
+LOCATION:The General Society Library\, Midtown-Times Square
+DESCRIPTION:Bowery historian digs into the street's wild forgotten past —
+ 
+ live at the General Society Library. Tickets & info: https://www.eventbrit
+ 
+e.com/e/the-forgotten-history-of-the-bowery-in-person-tickets-2002765477456
+URL:https://www.eventbrite.com/e/the-forgotten-history-of-the-bowery-in-per
+ 
+son-tickets-2002765477456
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-16@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:Elissa Bassist presents Inside Jokes\, with Special Guests
+LOCATION:P&T Knitwear\, Lower East Side
+DESCRIPTION:The comedy writer launches Inside Jokes with special guests at 
+ 
+the LES knitwear shop-slash-venue. Tickets & info: https://www.eventbrite.c
+ 
+om/e/elissa-bassist-presents-inside-jokes-with-special-guests-tickets-19994
+ 
+29410189
+URL:https://www.eventbrite.com/e/elissa-bassist-presents-inside-jokes-with-
+ 
+special-guests-tickets-1999429410189
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-17@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:Marisa Meltzer with Vanessa Friedman | It Girl: The Life and Legacy
+ 
+ of Jane Birkin
+LOCATION:Stavros Niarchos Foundation Library\, Midtown-Times Square
+DESCRIPTION:Marisa Meltzer on fashion's original It Girl\, in conversation 
+ 
+with critic Vanessa Friedman. Tickets & info: https://bookevents.nyc/events
+ 
+/marisa-meltzer-with-vanessa-friedman-it-girl-the-oct-20
+URL:https://bookevents.nyc/events/marisa-meltzer-with-vanessa-friedman-it-g
+ 
+irl-the-oct-20
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-18@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T200000
+SUMMARY:Book Launch | Needlemouth by K-Ming Chang
+LOCATION:Yu & Me Books\, Chinatown-Two Bridges
+DESCRIPTION:K-Ming Chang launches her new novel at Chinatown's beloved Yu &
+ 
+ Me Books. Tickets & info: https://bookevents.nyc/events/book-launch-needle
+ 
+mouth-by-k-ming-chang-oct-20-2026
+URL:https://bookevents.nyc/events/book-launch-needlemouth-by-k-ming-chang-o
+ 
+ct-20-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-19@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T170000
+DTEND;TZID=America/New_York:20261020T190000
+SUMMARY:Fandom\, Cities\, and the Psychology of Collective Emotion
+LOCATION:19 Washington Square N\, Greenwich Village
+DESCRIPTION:An NYU psych talk on why fandoms\, cities\, and collective emot
+ 
+ion are more connected than you think. Tickets & info: https://www.eventbri
+ 
+te.com/e/fandom-cities-and-the-psychology-of-collective-emotion-tickets-200
+ 
+3371268393
+URL:https://www.eventbrite.com/e/fandom-cities-and-the-psychology-of-collec
+ 
+tive-emotion-tickets-2003371268393
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-20@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T130000
+DTEND;TZID=America/New_York:20261020T150000
+SUMMARY:Claude Code Workshop with Provectus - New York City
+LOCATION:Financial District\, Financial District-Battery Park City
+DESCRIPTION:Provectus's hands-on session for building with Anthropic's agen
+ 
+tic coding tool — bring a laptop. Tickets & info: https://luma.com/claude
+ 
+-code-workshop-nyc-oct-20
+URL:https://luma.com/claude-code-workshop-nyc-oct-20
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-21@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T190000
+DTEND;TZID=America/New_York:20261020T210000
+SUMMARY:Incomputable Earth: Technology and the Anthropocene Hypothesis
+LOCATION:e-flux\, Clinton Hill
+DESCRIPTION:e-flux evening on tech\, the Anthropocene\, and what 'incomputa
+ 
+ble' means for the planet. Tickets & info: https://www.eventbrite.com/e/inc
+ 
+omputable-earth-technology-and-the-anthropocene-hypothesis-tickets-20027700
+ 
+84235
+URL:https://www.eventbrite.com/e/incomputable-earth-technology-and-the-anth
+ 
+ropocene-hypothesis-tickets-2002770084235
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-22@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T170000
+DTEND;TZID=America/New_York:20261020T190000
+SUMMARY:Tuesday Evening Fall Migration Bird Walk Series - Brooklyn
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Fall migration is peaking — join the evening bird walk throug
+ 
+h Prospect Park with real guides. Tickets & info: https://www.eventbrite.co
+ 
+m/e/tuesday-evening-fall-migration-bird-walk-series-brooklyn-tickets-199598
+ 
+1280741
+URL:https://www.eventbrite.com/e/tuesday-evening-fall-migration-bird-walk-s
+ 
+eries-brooklyn-tickets-1995981280741
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-23@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T120000
+DTEND;TZID=America/New_York:20261020T140000
+SUMMARY:Juggling Class
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free lunchtime juggling in Bryant Park — beginners genuinely 
+ 
+welcome\, props provided. Tickets & info: https://bryantpark.org/calendar/e
+ 
+vent/juggling-weekday/2026-10-20
+URL:https://bryantpark.org/calendar/event/juggling-weekday/2026-10-20
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-24@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T173000
+DTEND;TZID=America/New_York:20261020T193000
+SUMMARY:Meet the Makers: French Wine Night at OCabanon
+LOCATION:OCabanon\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Taste Piedmont wines with the people who make them at this Fren
+ 
+ch bistro tasting. Tickets & info: https://www.eventbrite.com/e/meet-the-ma
+ 
+kers-french-wine-night-at-ocabanon-tickets-2001251312548
+URL:https://www.eventbrite.com/e/meet-the-makers-french-wine-night-at-ocaba
+ 
+non-tickets-2001251312548
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-25@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Fall Festival at Lakeside
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Prospect Park's Lakeside fall fest — peak foliage\, family-fr
+ 
+iendly\, free. Tickets & info: https://www.prospectpark.org/event/fall-fest
+ 
+ival-at-lakeside/2026-10-20/
+URL:https://www.prospectpark.org/event/fall-festival-at-lakeside/2026-10-20
+ 
+/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-26@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T213000
+DTEND;TZID=America/New_York:20261020T233000
+SUMMARY:Jo March Madness
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Caveat's literary drinking-game night\, Little Women edition. C
+ 
+ostumes encouraged\, chaos guaranteed. Tickets & info: https://www.eventbri
+ 
+te.com/e/jo-march-madness-tickets-1999942140780
+URL:https://www.eventbrite.com/e/jo-march-madness-tickets-1999942140780
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-27@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T184500
+DTEND;TZID=America/New_York:20261020T204500
+SUMMARY:NYRR Open Run: Brooklyn Bridge Park
+LOCATION:Pier 6 (in Brooklyn Bridge Park)\, The Battery-Governors Island-El
+ 
+lis Island-Liberty Island
+DESCRIPTION:Free weekly group run along the Brooklyn Bridge Park waterfront
+ 
+ — all paces welcome. Tickets & info: http://www.nycgovparks.org/events/2
+ 
+026/10/20/nyrr-open-run-brooklyn-bridge-park
+URL:http://www.nycgovparks.org/events/2026/10/20/nyrr-open-run-brooklyn-bri
+ 
+dge-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-28@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T190000
+DTEND;TZID=America/New_York:20261020T210000
+SUMMARY:Trivia Tuesday with NYC Trivia League at Time Out Market Union Squa
+ 
+re
+LOCATION:Time Out Market USQ\, East Village
+DESCRIPTION:The NYC Trivia League's Tuesday night at the Union Square food 
+ 
+hall — grab dinner and play. Tickets & info: https://www.eventbrite.com/e
+ 
+/trivia-tuesday-with-nyc-trivia-league-at-time-out-market-union-square-tick
+ 
+ets-2001402903962
+URL:https://www.eventbrite.com/e/trivia-tuesday-with-nyc-trivia-league-at-t
+ 
+ime-out-market-union-square-tickets-2001402903962
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261020-29@concierge
+DTSTAMP:20261020T120202Z
+DTSTART;TZID=America/New_York:20261020T183000
+DTEND;TZID=America/New_York:20261020T203000
+SUMMARY:The Vinyl Word
+LOCATION:Baby's All Right\, Williamsburg
+DESCRIPTION:DJs spin full vinyl sides front-to-back at Baby's All Right —
+ 
+ a listening bar night for crate-diggers. Tickets & info: http://donyc.com/
+ 
+events/2026/10/20/the-vinyl-word-tickets
+URL:http://donyc.com/events/2026/10/20/the-vinyl-word-tickets
+END:VEVENT
+END:VCALENDAR
