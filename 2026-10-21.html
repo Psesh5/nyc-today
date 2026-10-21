@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, October 21</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, October 21</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-21.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Garden residency rolls on — another night of the Together, Together tour.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Robert Glasper X Questlove + Special Guest Bilal">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-x-questlove-blue-note-jazz-club-tickets/15018833">Robert Glasper X Questlove + Special Guest Bilal</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village</div>
+<p>Two jazz heavyweights plus Bilal, one night only at the Blue Note.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-x-questlove-blue-note-jazz-club-tickets/15018833">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Yunchan Lim">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.carnegiehall.org/">Yunchan Lim</a></h3>
+<div class="meta">8:00 PM · Stern Auditorium / Perelman Stage at Carnegie Hall, Hell&#x27;s Kitchen</div>
+<p>The Van Cliburn gold medalist opens his four-concert Mozart sonata cycle at Carnegie Hall.</p>
+<a class="tickets" href="https://www.carnegiehall.org/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Ron Carter">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/ron-carters-great-big-band-birdland-jazz-club-tickets/14223814">Ron Carter</a></h3>
+<div class="meta">9:30 PM · Birdland, Hell&#x27;s Kitchen · $45.76</div>
+<p>The jazz legend leads his Great Big Band for a late set.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/ron-carters-great-big-band-birdland-jazz-club-tickets/14223814">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Frank Vignola&#x27;s Guitar Night with Matt Munisteri and Pasquale Grasso">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/frank-vignolas-guitar-night-with-birdland-theater-tickets/14916443">Frank Vignola&#x27;s Guitar Night with Matt Munisteri and Pasquale Grasso</a></h3>
+<div class="meta">8:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>Three generations of jazz guitar in one Birdland Theater night.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/frank-vignolas-guitar-night-with-birdland-theater-tickets/14916443">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Built To Spill (18 and Over)">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PIP8">Built To Spill (18 and Over)</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>Doug Martsch&#x27;s indie-rock institution brings the fall tour to Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PIP8">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Brett Goldstein Runs His Hour Before His Tour">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/brett-goldstein-runs-his-hour-before-brooklyn-new-york-10-21-2026/event/300064E6E5A07BB8">Brett Goldstein Runs His Hour Before His Tour</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Roy Kent in the flesh, workshopping a full hour of new stand-up before his tour.</p>
+<a class="tickets" href="https://www.ticketmaster.com/brett-goldstein-runs-his-hour-before-brooklyn-new-york-10-21-2026/event/300064E6E5A07BB8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="KEVIN HART WORKS OUT NEW JOKES">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/kevin-hart-works-out-new-jokes-new-york-new-york-10-21-2026/event/0000654EDDB92998">KEVIN HART WORKS OUT NEW JOKES</a></h3>
+<div class="meta">10:00 PM · Gramercy Theatre, Gramercy</div>
+<p>Hart tests brand-new material in a phone-free room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/kevin-hart-works-out-new-jokes-new-york-new-york-10-21-2026/event/0000654EDDB92998">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/story-warz-w-big-jay-oakerson-luis-j-gomez-special-guests-2026-10-21194500">Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests</a></h3>
+<div class="meta">7:45 PM · New York Comedy Club · $25</div>
+<p>Big Jay Oakerson and Luis J Gomez trade war stories with surprise guests.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/story-warz-w-big-jay-oakerson-luis-j-gomez-special-guests-2026-10-21194500">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-9" data-name="The Illiac Passion">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005028-the-illiac-passion/">The Illiac Passion</a></h3>
+<div class="meta">7:40 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>A rare 16mm screening of Markopoulos&#x27;s 1967 experimental portrait.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005028-the-illiac-passion/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Man Of Marble">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/man-of-marble-wajda-100">Man Of Marble</a></h3>
+<div class="meta">12:15 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Wajda&#x27;s 1977 classic, part of the Wajda 100 centenary retrospective.</p>
+<a class="tickets" href="https://filmforum.org/film/man-of-marble-wajda-100">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Sweet Rush">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/sweet-rush-wajda-100">Sweet Rush</a></h3>
+<div class="meta">4:00 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>A quieter, later Wajda — the centenary series digs deep.</p>
+<a class="tickets" href="https://filmforum.org/film/sweet-rush-wajda-100">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-12" data-name="Other Desert Cities">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PNvK">Other Desert Cities</a></h3>
+<div class="meta">1:00 PM · Hudson Theatre -NY, Hell&#x27;s Kitchen</div>
+<p>Jon Robin Baitz&#x27;s family-drama blockbuster in its Broadway revival.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PNvK">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="The Imaginary Invalid">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7JkO7">The Imaginary Invalid</a></h3>
+<div class="meta">2:00 PM · Todd Haimes Theatre, Hell&#x27;s Kitchen</div>
+<p>Molière&#x27;s final farce in a fresh Broadway staging.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7JkO7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="CRAVE, by Sarah Kane">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/crave-by-sarah-kane-tickets-1994109153157">CRAVE, by Sarah Kane</a></h3>
+<div class="meta">7:30 PM · East Village Basement, East Village</div>
+<p>Hoi Polloi stages Sarah Kane&#x27;s shattering two-hander in an East Village basement.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/crave-by-sarah-kane-tickets-1994109153157">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="The Bald Soprano by Eugène Ionesco translated by Donald M. Allen">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-bald-soprano-by-eugene-ionesco-translated-by-donald-m-allen-tickets-2001226872447">The Bald Soprano by Eugène Ionesco translated by Donald M. Allen</a></h3>
+<div class="meta">2:00 PM · The Sheen Center For Thought and Culture/ Frank Shiner Theatre, Greenwich Village</div>
+<p>Ionesco&#x27;s absurdist classic in a brisk afternoon matinee.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-bald-soprano-by-eugene-ionesco-translated-by-donald-m-allen-tickets-2001226872447">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-16" data-name="The Designated Mourner, a reading">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-designated-mourner-a-reading-tickets-2002302157654">The Designated Mourner, a reading</a></h3>
+<div class="meta">6:30 PM · Brooklyn Masonic Temple, Clinton Hill</div>
+<p>Wallace Shawn himself stages his acclaimed play in a grand Masonic temple.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-designated-mourner-a-reading-tickets-2002302157654">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Lil Jon discusses I ONLY SHOUT SO YOU CAN HEAR ME at B&amp;N Union Square">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lil-jon-discusses-i-only-shout-so-you-can-hear-me-at-bn-union-square-tickets-1994238954396">Lil Jon discusses I ONLY SHOUT SO YOU CAN HEAR ME at B&amp;N Union Square</a></h3>
+<div class="meta">6:00 PM · Barnes &amp; Noble, Midtown South-Flatiron-Union Square · $36.29</div>
+<p>The king of crunk discusses his new memoir.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lil-jon-discusses-i-only-shout-so-you-can-hear-me-at-bn-union-square-tickets-1994238954396">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Susan Orlean with John Wilson: Joyride">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/susan-orlean-92nd-street-y-oct-21-2026">Susan Orlean with John Wilson: Joyride</a></h3>
+<div class="meta">7:30 PM · 92nd Street Y, Upper East Side-Carnegie Hill</div>
+<p>Two of the best observers of odd American life, talking memoir.</p>
+<a class="tickets" href="https://bookevents.nyc/events/susan-orlean-92nd-street-y-oct-21-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="A Dead White: An Argument Against White Paint">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/a-dead-white-an-argument-against-white-paint-tickets-1997481345475">A Dead White: An Argument Against White Paint</a></h3>
+<div class="meta">6:00 PM · Rizzoli, Midtown South-Flatiron-Union Square</div>
+<p>A book talk arguing against white paint, with Wendy S. Walters and Margo Jefferson.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/a-dead-white-an-argument-against-white-paint-tickets-1997481345475">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Anni Albers: a Life by Nicholas Fox Weber | Talk of the Town">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/anni-albers-a-life-by-nicholas-fox-weber-talk-of-the-town-tickets-1999259581226">Anni Albers: a Life by Nicholas Fox Weber | Talk of the Town</a></h3>
+<div class="meta">6:30 PM · Salmagundi Club, Greenwich Village</div>
+<p>Nicholas Fox Weber on the Bauhaus weaver, at the Salmagundi Club&#x27;s Talk of the Town.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/anni-albers-a-life-by-nicholas-fox-weber-talk-of-the-town-tickets-1999259581226">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Making the Museum: Inside Victoria &amp; Albert&#x27;s East Storehouse">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.cooperhewitt.org/event/making-the-museum-inside-victoria-alberts-east-storehouse-10-21-2026/">Making the Museum: Inside Victoria &amp; Albert&#x27;s East Storehouse</a></h3>
+<div class="meta">6:30 PM · Cooper Hewitt, Smithsonian Design Museum, Upper East Side · 20</div>
+<p>Architect Elizabeth Diller and V&amp;A curators unpack the newly opened V&amp;A East Storehouse in London.</p>
+<a class="tickets" href="https://www.cooperhewitt.org/event/making-the-museum-inside-victoria-alberts-east-storehouse-10-21-2026/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-22" data-name="Brooklyn Nets v. Charlotte Hornets (Opening Night)">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/brooklyn-nets-v-charlotte-hornets-opening-brooklyn-new-york-10-21-2026/event/300064FBC4AB4A56">Brooklyn Nets v. Charlotte Hornets (Opening Night)</a></h3>
+<div class="meta">7:30 PM · Barclays Center, Park Slope</div>
+<p>Opening night: the Nets tip off the season at Barclays.</p>
+<a class="tickets" href="https://www.ticketmaster.com/brooklyn-nets-v-charlotte-hornets-opening-brooklyn-new-york-10-21-2026/event/300064FBC4AB4A56">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-23" data-name="She AI x 14Y: Wellness, Meet AI">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/szh9bnf7">She AI x 14Y: Wellness, Meet AI</a></h3>
+<div class="meta">6:00 PM · The 14th Street Y, East Village · $15</div>
+<p>Wellness meets AI at the 14th Street Y.</p>
+<a class="tickets" href="https://luma.com/szh9bnf7">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-24" data-name="Brooklyn Trivia, with The Trivia Masters">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/brooklyn-trivia-trivia-center-for-brooklyn-20261021-0630pm">Brooklyn Trivia, with The Trivia Masters</a></h3>
+<div class="meta">6:30 PM · Brooklyn Public Library</div>
+<p>A free quiz night at the library, with the Borough Historian dropping in for a guest round.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/brooklyn-trivia-trivia-center-for-brooklyn-20261021-0630pm">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="EMBROIDERY AS MEMORY w/ NICOLE MONTGOMERY">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/embroidery-as-memory-w-nicole-montgomery-tickets-2003032288495">EMBROIDERY AS MEMORY w/ NICOLE MONTGOMERY</a></h3>
+<div class="meta">6:00 PM · The People&#x27;s Forum, Chelsea-Hudson Yards</div>
+<p>A hands-on stitching workshop with Nicole Montgomery.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/embroidery-as-memory-w-nicole-montgomery-tickets-2003032288495">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-26" data-name="Curran Hatleberg: River&#x27;s Dream, 2010–2020 — opening reception">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://higherpictures.com/exhibitions/curran-hatleberg-rivers-dream/">Curran Hatleberg: River&#x27;s Dream, 2010–2020 — opening reception</a></h3>
+<div class="meta">6:00 PM · Higher Pictures Generation, Tribeca · Free</div>
+<p>A decade of the photographer&#x27;s Southern Americana opens tonight with a reception.</p>
+<a class="tickets" href="https://higherpictures.com/exhibitions/curran-hatleberg-rivers-dream/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Eunha Kim: Are We Home Yet? — opening reception">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://flohaus.nyc/exhibitions/eunha-kim-are-we-home-yet">Eunha Kim: Are We Home Yet? — opening reception</a></h3>
+<div class="meta">6:00 PM · Flohaus · Free</div>
+<p>The Korean-born painter&#x27;s first New York solo show — UFOs, folk masks, and questions of belonging.</p>
+<a class="tickets" href="https://flohaus.nyc/exhibitions/eunha-kim-are-we-home-yet">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-21";
+const NAMES = ["Harry Styles: Together, Together", "Robert Glasper X Questlove + Special Guest Bilal", "Yunchan Lim", "Ron Carter", "Frank Vignola's Guitar Night with Matt Munisteri and Pasquale Grasso", "Built To Spill (18 and Over)", "Brett Goldstein Runs His Hour Before His Tour", "KEVIN HART WORKS OUT NEW JOKES", "Story Warz w/ Big Jay Oakerson, Luis J Gomez + Special Guests", "The Illiac Passion", "Man Of Marble", "Sweet Rush", "Other Desert Cities", "The Imaginary Invalid", "CRAVE, by Sarah Kane", "The Bald Soprano by Eug\u00e8ne Ionesco translated by Donald M. Allen", "The Designated Mourner, a reading", "Lil Jon discusses I ONLY SHOUT SO YOU CAN HEAR ME at B&N Union Square", "Susan Orlean with John Wilson: Joyride", "A Dead White: An Argument Against White Paint", "Anni Albers: a Life by Nicholas Fox Weber | Talk of the Town", "Making the Museum: Inside Victoria & Albert's East Storehouse", "Brooklyn Nets v. Charlotte Hornets (Opening Night)", "She AI x 14Y: Wellness, Meet AI", "Brooklyn Trivia, with The Trivia Masters", "EMBROIDERY AS MEMORY w/ NICOLE MONTGOMERY", "Curran Hatleberg: River's Dream, 2010\u20132020 \u2014 opening reception", "Eunha Kim: Are We Home Yet? \u2014 opening reception"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
