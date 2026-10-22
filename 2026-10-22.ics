@@ -1,0 +1,501 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261022-0@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T183000
+DTEND;TZID=America/New_York:20261022T203000
+SUMMARY:Lamplight\, Anna McClellan\, Margaux
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:Three dreamy indie voices — Lamplight's gauzy pop\, Anna McCl
+ 
+ellan's razor-sharp songwriting — at an East Village basement built for l
+ 
+oud nights. Tickets & info: https://www.ticketweb.com/event/lamplight-anna-
+ 
+mcclellan-margaux-night-club-101-tickets/15014583
+URL:https://www.ticketweb.com/event/lamplight-anna-mcclellan-margaux-night-
+ 
+club-101-tickets/15014583
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-1@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T213000
+DTEND;TZID=America/New_York:20261022T233000
+SUMMARY:Blak Emoji | Paris Monster
+LOCATION:Berlin\, East Village
+DESCRIPTION:Alt-R&B oddball Blak Emoji and two-man funk wrecking crew Paris
+ 
+ Monster in the lower-level of 2A — sweaty in the best way. Tickets & inf
+ 
+o: https://www.ticketweb.com/event/blak-emoji-paris-monster-berlin-tickets/
+ 
+14299054
+URL:https://www.ticketweb.com/event/blak-emoji-paris-monster-berlin-tickets
+ 
+/14299054
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-2@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Center Mid
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Mercury Lounge early set: Center Mid's punchy indie-rock hour b
+ 
+efore the late show rolls in. Tickets & info: https://www.ticketmaster.com/
+ 
+center-mid-new-york-new-york-10-22-2026/event/000064FFF0186383
+URL:https://www.ticketmaster.com/center-mid-new-york-new-york-10-22-2026/ev
+ 
+ent/000064FFF0186383
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-3@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T210000
+DTEND;TZID=America/New_York:20261022T230000
+SUMMARY:The Solids
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Garage-pop energy at 9 PM on Houston St — The Solids bring bi
+ 
+g choruses to a small room. Tickets & info: https://www.ticketmaster.com/th
+ 
+e-solids-new-york-new-york-10-22-2026/event/00006524DB23BD07
+URL:https://www.ticketmaster.com/the-solids-new-york-new-york-10-22-2026/ev
+ 
+ent/00006524DB23BD07
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-4@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:After
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Bowery Ballroom\, 7 PM: After's swirling\, cinematic set fills 
+ 
+a room that was made for it. Tickets & info: https://www.ticketmaster.com/a
+ 
+fter-new-york-new-york-10-22-2026/event/000064F6D32F27E4
+URL:https://www.ticketmaster.com/after-new-york-new-york-10-22-2026/event/0
+ 
+00064F6D32F27E4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-5@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:An Hour with Jim Norton at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:A full hour with Jim Norton in the Cellar's flagship room — t
+ 
+he sharpest\, filthiest hour in the Village\, with surprise drop-ins likely
+ 
+. Tickets & info: https://www.comedycellar.com/reservations-newyork/?showid
+ 
+=1792692000
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792692000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-6@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Chucklefest ft: Matthew Broussard\, Bo Bigelow\, Konner Kienzle\, M
+ 
+aggie Crane\, Kevin Israel\, Mo Mussa\, Tristan Bowling
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Nine comics\, one stage: Broussard\, Bo Bigelow and the Chuckle
+ 
+fest crew at the 4th Street room for $30. Tickets & info: https://newyorkco
+ 
+medyclub.com/events/chucklefest-ft-matthew-broussard-bo-bigelow-konner-kien
+ 
+zle-maggie-crane-kevin-israel-mo-mussa-tristan-bowling
+URL:https://newyorkcomedyclub.com/events/chucklefest-ft-matthew-broussard-b
+ 
+o-bigelow-konner-kienzle-maggie-crane-kevin-israel-mo-mussa-tristan-bowling
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-7@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T193000
+DTEND;TZID=America/New_York:20261022T213000
+SUMMARY:Yohay Sponder: Genesis
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Israeli comic Yohay Sponder's Genesis tour hits the Beacon — 
+ 
+big-room stand-up with real bite. Tickets & info: https://www.ticketmaster.
+ 
+com/yohay-sponder-genesis-new-york-new-york-10-22-2026/event/3B0064CBAEFD49
+ 
+A5
+URL:https://www.ticketmaster.com/yohay-sponder-genesis-new-york-new-york-10
+ 
+-22-2026/event/3B0064CBAEFD49A5
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-8@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T193000
+DTEND;TZID=America/New_York:20261022T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's delirious\, sold-out-on-Broadway comedy about Mar
+ 
+y Todd Lincoln — a Lyceum hit that's worth every cent if you can grab sea
+ 
+ts. Tickets & info: https://www.ticketmaster.com/oh-mary-new-york-new-york-
+ 
+10-22-2026/event/Z1r9uZruZqGZ17J9Oe
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-22-2026/event
+ 
+/Z1r9uZruZqGZ17J9Oe
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-9@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:Stranger Things: The First Shadow
+LOCATION:Marquis Theatre - NY\, Hell's Kitchen
+DESCRIPTION:The Hawkins prequel storming Broadway at the Marquis — stagec
+ 
+raft on a scale the Netflix show only wishes it had. Tickets & info: https:
+ 
+//www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-1
+ 
+0-22-2026/event/Z1r9uZrrZbpZ1Aev7oa
+URL:https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-
+ 
+new-york-10-22-2026/event/Z1r9uZrrZbpZ1Aev7oa
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-10@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Gates in the Trees by Shawna X
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Prospect Park after dark: animated light projections ripple acr
+ 
+oss the water and tree canopy with an ambient set by Kat Offline. Free RSVP
+ 
+. Tickets & info: https://www.prospectpark.org/event/gates-in-the-trees-by-
+ 
+shawna-x/
+URL:https://www.prospectpark.org/event/gates-in-the-trees-by-shawna-x/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-11@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T183000
+DTEND;TZID=America/New_York:20261022T203000
+SUMMARY:Frenzy Fest 2026 | One Act Theater Festival
+LOCATION:El Barrio's Artspace PS109\, East Harlem (South)
+DESCRIPTION:Bilingual one-act festival at El Barrio's Artspace PS109 — tw
+ 
+o short plays tackling the psyche\, part of a two-week competitive run. Tic
+ 
+kets & info: https://www.eventbrite.com/e/frenzy-fest-2026-one-act-theater-
+ 
+festival-tickets-1997978363068
+URL:https://www.eventbrite.com/e/frenzy-fest-2026-one-act-theater-festival-
+ 
+tickets-1997978363068
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-12@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T185000
+DTEND;TZID=America/New_York:20261022T205000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's infamous 1971 masterpiece in a new 4K restoration
+ 
+ on 35mm at IFC — Vanessa Redgrave and Oliver Reed at full fever pitch. T
+ 
+ickets & info: https://www.ifccenter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-13@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T175000
+DTEND;TZID=America/New_York:20261022T195000
+SUMMARY:Ashes & Diamonds
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Wajda's masterwork in a U.S.-premiere 4K restoration\, part of 
+ 
+the centenary retrospective — introduced by a recorded Martin Scorsese. T
+ 
+ickets & info: https://filmforum.org/film/ashes-and-diamonds-wajda-100
+URL:https://filmforum.org/film/ashes-and-diamonds-wajda-100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-14@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:The Social Reckoning
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Sorkin's Facebook-whistleblower follow-up to The Social Network
+ 
+ with Jeremy Allen White and Mikey Madison — dinner-and-a-movie at Niteha
+ 
+wk\, plus the Zuckerburger pairing. Tickets & info: https://nitehawkcinema.
+ 
+com/williamsburg/movies/the-social-reckoning/
+URL:https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-15@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:MOCA PERFORMS – Echoes of Arrival: Becoming
+LOCATION:Museum of Chinese in America\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Seven immigrant artists tell stories of migration and becoming 
+ 
+through poetry\, music\, dance and stand-up at the Museum of Chinese in Ame
+ 
+rica. Tickets & info: https://www.universe.com/events/moca-performs-echoes-
+ 
+of-arrival-becoming-tickets-L6ZS1D?ref=ticketmaster
+URL:https://www.universe.com/events/moca-performs-echoes-of-arrival-becomin
+ 
+g-tickets-L6ZS1D?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-16@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:BoogieManja
+LOCATION:Brooklyn Improv (The Lab)\, Williamsburg
+DESCRIPTION:Improv at Brooklyn Improv's Lab — $21.40 for a loose\, high-e
+ 
+nergy 75-minute set in Williamsburg. Tickets & info: https://www.ticketweb.
+ 
+com/event/boogiemanja-brooklyn-improv-the-lab-tickets/15003433
+URL:https://www.ticketweb.com/event/boogiemanja-brooklyn-improv-the-lab-tic
+ 
+kets/15003433
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-17@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T150000
+DTEND;TZID=America/New_York:20261022T170000
+SUMMARY:Wicked Wicks & Whiskey
+LOCATION:Newlab\, Brooklyn Navy Yard
+DESCRIPTION:Free Halloween-season afternoon at Newlab: walk-in candle makin
+ 
+g\, then a Kings County whiskey tasting with food pairings. Tickets & info:
+ 
+ https://luma.com/pwgwy6yr
+URL:https://luma.com/pwgwy6yr
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-18@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T183000
+DTEND;TZID=America/New_York:20261022T203000
+SUMMARY:Rare & Seasonal Finds: Wine & Cheese Tasting
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's rarest wheels and wedges with equally rare wines\, gui
+ 
+ded by one of their experts in the Bleecker classroom. Tickets & info: http
+ 
+s://www.eventbrite.com/e/rare-seasonal-finds-wine-cheese-tasting-tickets-19
+ 
+96471918251
+URL:https://www.eventbrite.com/e/rare-seasonal-finds-wine-cheese-tasting-ti
+ 
+ckets-1996471918251
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-19@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T190000
+DTEND;TZID=America/New_York:20261022T210000
+SUMMARY:Salsa Thursdays at Time Out Market
+LOCATION:Time Out Market New York\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Free salsa night on the fifth floor in DUMBO: a lesson from Mar
+ 
+lene Veras\, then DJ Ray Suave and live timbales till 10. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/salsa-thursdays-at-time-out-market-tickets-1981
+ 
+361470495
+URL:https://www.eventbrite.com/e/salsa-thursdays-at-time-out-market-tickets
+ 
+-1981361470495
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-20@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Laurie Anderson: The Weather and Other Stories
+LOCATION:Rizzoli\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Laurie Anderson in conversation with poet Paul Muldoon at Rizzo
+ 
+li about 40+ years of her work\, followed by a signing. Free\, first come f
+ 
+irst served. Tickets & info: https://www.eventbrite.com/e/laurie-anderson-t
+ 
+he-weather-and-other-stories-tickets-2003081167694
+URL:https://www.eventbrite.com/e/laurie-anderson-the-weather-and-other-stor
+ 
+ies-tickets-2003081167694
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-21@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Album for Joy: A Conversation with artist Chelsey Pettyjohn
+LOCATION:368 Broadway suite 411\, Tribeca-Civic Center
+DESCRIPTION:Artist Chelsey Pettyjohn on her exhibition built from the Roman
+ 
+ov family photo archive — memory\, images\, and the stories we tell about
+ 
+ them. Tickets & info: https://luma.com/2z7xisof
+URL:https://luma.com/2z7xisof
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-22@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:BLC Hybrid Adult & Teens Banned Book Monthly Club The Giver by Lois
+ 
+ Lowry
+LOCATION:Bronx Library Center\, Midtown-Times Square
+DESCRIPTION:NYPL's Bronx hybrid club tackles Lois Lowry's The Giver — tee
+ 
+ns and adults\, in person and online. Free. Tickets & info: https://bookeve
+ 
+nts.nyc/events/lois-lowry-bronx-library-center-oct-22-2026
+URL:https://bookevents.nyc/events/lois-lowry-bronx-library-center-oct-22-20
+ 
+26
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-23@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Stripe Developer Meetup New York October 2026
+LOCATION:Stripe\, Financial District-Battery Park City
+DESCRIPTION:Stripe's NY office opens its doors: talks on agentic payments a
+ 
+nd Stripe APIs\, with food and drinks. Free RSVP\, hard cap. Tickets & info
+ 
+: https://luma.com/sbsq7dkp
+URL:https://luma.com/sbsq7dkp
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-24@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T183000
+DTEND;TZID=America/New_York:20261022T203000
+SUMMARY:Thursday Trivia Night!
+LOCATION:Boris & Horton\, East Village
+DESCRIPTION:Trivia at Boris & Horton — the dog-friendly cafe on Avenue A.
+ 
+ Bring your smartest (or favorite) friends and dogs\, win prizes. Free. Tic
+ 
+kets & info: https://luma.com/o5usjagv
+URL:https://luma.com/o5usjagv
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-25@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T073000
+DTEND;TZID=America/New_York:20261022T093000
+SUMMARY:Prospect Park Fall Migration Walks
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Brooklyn Bird Club's dawn walk through the park's habitats at p
+ 
+eak fall migration — bring binoculars. Free. Tickets & info: https://www.
+ 
+prospectpark.org/event/prospect-park-fall-migration-walks-5/2026-10-22/
+URL:https://www.prospectpark.org/event/prospect-park-fall-migration-walks-5
+ 
+/2026-10-22/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-26@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Nanonite Social: NYC Nanotechnology Meetup
+LOCATION:Harlem Tavern\, Harlem (South)
+DESCRIPTION:Nanotech NYC's recurring meetup at Harlem Tavern: scientists\, 
+ 
+founders\, students and the merely curious\, no agenda\, just conversation.
+ 
+ Free. Tickets & info: https://luma.com/hhl725g4
+URL:https://luma.com/hhl725g4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-27@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T200000
+DTEND;TZID=America/New_York:20261022T220000
+SUMMARY:Thursday 8pm Stand Up Comedy Show: Daniela Mora\, Daniel Geneen\, M
+ 
+urahd Shawki\, Chanel Ali & Cam Bird
+LOCATION:Top Secret Comedy Club\, East Village
+DESCRIPTION:East Village's underground comedy cellar does weeknight shows f
+ 
+or a $3 booking fee — tonight's lineup at Top Secret\, no drink minimum\,
+ 
+ $5 beers. Tickets & info: https://topsecretcomedyclub.com/
+URL:https://topsecretcomedyclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-28@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T120000
+DTEND;TZID=America/New_York:20261022T140000
+SUMMARY:Pumpkin Arch at Pier 17 (opens today)
+LOCATION:Pier 17 / Heineken Riverdeck\, Seaport
+DESCRIPTION:The Seaport's annual Pumpkin Arch returns today at the Heineken
+ 
+ Riverdeck — free\, open 24/7\, pumpkins plus Brooklyn Bridge views. Tick
+ 
+ets & info: https://www.averagesocialite.com/nyc-events/2026/10/22/pumpkin-
+ 
+arch-at-pier-17-nyc
+URL:https://www.averagesocialite.com/nyc-events/2026/10/22/pumpkin-arch-at-
+ 
+pier-17-nyc
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261022-29@concierge
+DTSTAMP:20261022T120010Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Chelsea opening receptions: Sharon Core 'Flowering' + Karen Gunders
+ 
+on 'Dark Waves Rising'
+LOCATION:Yancey Richardson Gallery\, Chelsea
+DESCRIPTION:Opening receptions tonight at Yancey Richardson: Core's lush pl
+ 
+ant photographs and Gunderson's dark\, richly worked paintings — then hop
+ 
+ the block for more Chelsea openings. Tickets & info: https://www.galleries
+ 
+now.net/new-york-chelsea/
+URL:https://www.galleriesnow.net/new-york-chelsea/
+END:VEVENT
+END:VCALENDAR
