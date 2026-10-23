@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, October 23</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, October 23</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-23.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="MARIS">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/maris-new-york-new-york-10-23-2026/event/000064BBDE85796A">MARIS</a></h3>
+<div class="meta">6:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Dreamy, big-chorus indie pop in the LES basement where a hundred favorite bands got their start.</p>
+<a class="tickets" href="https://www.ticketmaster.com/maris-new-york-new-york-10-23-2026/event/000064BBDE85796A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Telescreens - Why The Lights Flicker North American Tour">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/telescreens-why-the-lights-flicker-north-new-york-new-york-10-23-2026/event/000064CBA8AACF1F">Telescreens - Why The Lights Flicker North American Tour</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Jagged Brooklyn post-punk doing a home-turf headline set — loud, wiry, and a lot of fun.</p>
+<a class="tickets" href="https://www.ticketmaster.com/telescreens-why-the-lights-flicker-north-new-york-new-york-10-23-2026/event/000064CBA8AACF1F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="BECK: RIDE LONESOME TOUR">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/beck-ride-lonesome-tour-brooklyn-new-york-10-23-2026/event/00006483ADA3C789">BECK: RIDE LONESOME TOUR</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Beck&#x27;s stripped-back RIDE LONESOME run lands at the newly restored Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/beck-ride-lonesome-tour-brooklyn-new-york-10-23-2026/event/00006483ADA3C789">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Thundercat w/ TiaCorine">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7J3bP">Thundercat w/ TiaCorine</a></h3>
+<div class="meta">8:00 PM · Kings Theatre, Flatbush</div>
+<p>Virtuoso bass wizardry plus TiaCorine&#x27;s razor-sharp rap inside a gorgeous old Flatbush movie palace.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7J3bP">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="The Cure Halloween Party">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-cure-halloween-party-bowery-palace-tickets/14324204">The Cure Halloween Party</a></h3>
+<div class="meta">7:00 PM · Bowery Palace, East Village · $12.44</div>
+<p>Goth Christmas in October: a Cure tribute night at Bowery Palace — wear black.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-cure-halloween-party-bowery-palace-tickets/14324204">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Pardoner, Laughing Cocks, The Smarthearts">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/pardoner-laughing-cocks-the-smarthearts-night-club-101-tickets/14284454">Pardoner, Laughing Cocks, The Smarthearts</a></h3>
+<div class="meta">7:00 PM · Night Club 101, East Village · $20.01</div>
+<p>Three noisy guitar bands, one East Village basement — the exact right Friday plan.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/pardoner-laughing-cocks-the-smarthearts-night-club-101-tickets/14284454">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Trouble x Diamond Terrifier: Emanate / Crenellate">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://roulette.org/event/trouble-emanate-crenellate-sam-hillmer-laura-paris/">Trouble x Diamond Terrifier: Emanate / Crenellate</a></h3>
+<div class="meta">8:00 PM · Roulette, Boerum Hill · 15</div>
+<p>A one-night multi-channel video installation with live experimental sets (Sam Hillmer, Luke Stewart and more) — $15 advance.</p>
+<a class="tickets" href="https://roulette.org/event/trouble-emanate-crenellate-sam-hillmer-laura-paris/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-7" data-name="Pre-Existing Condition">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7J6q8">Pre-Existing Condition</a></h3>
+<div class="meta">5:30 PM · Greenwich House Theater, Financial District-Battery Park City</div>
+<p>A sharp new play at a Village theater — small room, big ideas, early enough for dinner after.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7J6q8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Paranormal Activity (NY)">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A70gx4">Paranormal Activity (NY)</a></h3>
+<div class="meta">8:00 PM · August Wilson Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>The found-footage franchise goes live on a Broadway stage. Brave the dark.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A70gx4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-8" data-name="2:22 - A Ghost Story">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfA0">2:22 - A Ghost Story</a></h3>
+<div class="meta">7:30 PM · Lucille Lortel Theatre, West Village</div>
+<p>The West End ghost-story hit haunts the Lucille Lortel — perfect pre-Halloween nerves.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfA0">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Drunk Dracula">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/drunk-dracula-nyc-tickets-1978936620704">Drunk Dracula</a></h3>
+<div class="meta">8:00 PM · The Ruby Theatre, Chelsea-Hudson Yards</div>
+<p>A gleefully hammered retelling of the vampire classic — interactive, chaotic, very Friday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/drunk-dracula-nyc-tickets-1978936620704">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="15-Minute Tour: Highlights of the Exhibition “Untitled” (America)">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://whitney.org/events/untitled-america-15min-ffn">15-Minute Tour: Highlights of the Exhibition “Untitled” (America)</a></h3>
+<div class="meta">6:00 PM · Whitney Museum of American Art, Meatpacking District</div>
+<p>Fifteen minutes on the Whitney&#x27;s provocative ‘Untitled’ (America) show — the ideal Friday-night art hit.</p>
+<a class="tickets" href="https://whitney.org/events/untitled-america-15min-ffn">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-12" data-name="Pitchfork Comedy Festival">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/pitchfork-comedy-festival-night-club-101-tickets/14370904">Pitchfork Comedy Festival</a></h3>
+<div class="meta">8:15 PM · Night Club 101, East Village</div>
+<p>Pitchfork&#x27;s comedy arm takes over an East Village club for a festival night.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/pitchfork-comedy-festival-night-club-101-tickets/14370904">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Casey Balsham, Colin Quinn, Ethan Simmons-Patterson &amp; more">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1792778400">Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Casey Balsham, Colin Quinn, Ethan Simmons-Patterson &amp; more</a></h3>
+<div class="meta">6:00 PM · Comedy Cellar (Village Underground), Greenwich Village</div>
+<p>The gold standard: tonight&#x27;s lineup (Ray Ellin, Colin Quinn and more) at the Village Underground.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1792778400">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Sydnee Washington: My Black Barbie Story">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sydnee-washington-my-black-barbie-story-brooklyn-new-york-10-23-2026/event/300065273C85AE0A">Sydnee Washington: My Black Barbie Story</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Sydnee Washington workshopping her new hour at the Bell House — a comic at the top of her game.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sydnee-washington-my-black-barbie-story-brooklyn-new-york-10-23-2026/event/300065273C85AE0A">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="Persona: 60th Anniversary Screening (Co-presented with NewFest)">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/persona-60th/">Persona: 60th Anniversary Screening (Co-presented with NewFest)</a></h3>
+<div class="meta">6:15 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>Bergman&#x27;s Persona turns 60 with a new DCP at MoMI — see those close-ups on a big screen.</p>
+<a class="tickets" href="https://movingimage.org/event/persona-60th/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Almost Famous">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005039-almost-famous/">Almost Famous</a></h3>
+<div class="meta">8:25 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Cameron Crowe&#x27;s love letter to rock fandom, in 4K at the Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005039-almost-famous/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Hellraiser">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/hellraiser/">Hellraiser</a></h3>
+<div class="meta">9:30 PM · IFC Center, Greenwich Village</div>
+<p>Clive Barker&#x27;s original nightmare gets a late show at IFC. Bring a friend.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/hellraiser/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-18" data-name="Jill Lepore presents The Rise and Fall of the Artificial State, in conversation with Andrew Marantz">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/jill-lepore-presents-the-rise-and-fall-of-the-oct-23">Jill Lepore presents The Rise and Fall of the Artificial State, in conversation with Andrew Marantz</a></h3>
+<div class="meta">7:00 PM · Community Bookstore, Park Slope</div>
+<p>The New Yorker historian on her new book about the rise and fall of the artificial state — Park Slope, free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/jill-lepore-presents-the-rise-and-fall-of-the-oct-23">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Doireann Ní Ghríofa + Megan Nolan: Said the Dead">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/doireann-ni-ghriofa-megan-nolan-said-the-dead-tickets-1996171394376">Doireann Ní Ghríofa + Megan Nolan: Said the Dead</a></h3>
+<div class="meta">7:00 PM · Strand Books, Greenwich Village · $13.61</div>
+<p>Two of Ireland&#x27;s sharpest writers on grief, ghosts, and mothers — at the Strand.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/doireann-ni-ghriofa-megan-nolan-said-the-dead-tickets-1996171394376">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Bars &amp; Books: De La Soul&#x27;s &#x27;Stakes Is High&#x27; Listening Session">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/marcus-j-moore-brooklyn-public-library-oct-23-2026">Bars &amp; Books: De La Soul&#x27;s &#x27;Stakes Is High&#x27; Listening Session</a></h3>
+<div class="meta">6:15 PM · Brooklyn Public Library, Crown Heights (North)</div>
+<p>BPL&#x27;s Bars &amp; Books series digs into De La Soul&#x27;s Stakes Is High, track by track. Free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/marcus-j-moore-brooklyn-public-library-oct-23-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="In Conversation: Tarah Paul Artist Talk + Q&amp;A">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/tsx3nsun">In Conversation: Tarah Paul Artist Talk + Q&amp;A</a></h3>
+<div class="meta">6:00 PM · Neighbor, Chelsea-Hudson Yards</div>
+<p>An artist talk + Q&amp;A in a low-key art space — the kind of Friday that feels like a real find.</p>
+<a class="tickets" href="https://luma.com/tsx3nsun">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-22" data-name="The Cheese &amp; Wine Pairing Hour">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-1996472239211">The Cheese &amp; Wine Pairing Hour</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>The cheese mecca&#x27;s crash course in why wine and cheese belong together.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-1996472239211">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Kings County Distillery Whiskey Tour">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-tickets-2000463371796">Kings County Distillery Whiskey Tour</a></h3>
+<div class="meta">3:00 PM · Kings County Distillery, Brooklyn Navy Yard</div>
+<p>NYC&#x27;s oldest whiskey distillery opens its Navy Yard doors for a Friday afternoon tour.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-tickets-2000463371796">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Cider Village">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/cider-village-tickets-2002955554983">Cider Village</a></h3>
+<div class="meta">10:00 AM · Union Square Greenmarket, Midtown South-Flatiron-Union Square</div>
+<p>Apple everything at Union Square Greenmarket — tastings, cider, and a donut-eating contest.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/cider-village-tickets-2002955554983">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="Boozy Ice Cream Cocktail Class in Astoria">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-astoria-tickets-1983325858031">Boozy Ice Cream Cocktail Class in Astoria</a></h3>
+<div class="meta">1:00 PM · Tipsy Scoop, Astoria (North)-Ditmars-Steinway</div>
+<p>Learn to spike your ice cream like a pro at Tipsy Scoop&#x27;s Astoria barlour.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-astoria-tickets-1983325858031">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Juggling Class">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/juggling-weekday/2026-10-23">Juggling Class</a></h3>
+<div class="meta">12:00 PM · Bryant Park, Midtown-Times Square</div>
+<p>Free lunchtime juggling lesson in Bryant Park — leave with a new party trick.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/juggling-weekday/2026-10-23">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-27" data-name="Candlelight Ghost Tours">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/23/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Candlelight Ghost Tours</a></h3>
+<div class="meta">6:30 PM · Merchant&#x27;s House Museum, Greenwich Village</div>
+<p>A paranormal investigator leads you through &#x27;Manhattan&#x27;s most haunted house&#x27; by candlelight. Free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/23/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-28" data-name="Juggling in Greeley Square Park">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/23/juggling-in-greeley-square-park">Juggling in Greeley Square Park</a></h3>
+<div class="meta">2:00 PM · Greeley Square Park, Midtown South-Flatiron-Union Square</div>
+<p>Free weekday juggling in Greeley Square — watch the show or learn a few throws yourself.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/23/juggling-in-greeley-square-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-29" data-name="Knicks Game 2 Watch Party">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/54hek4fq">Knicks Game 2 Watch Party</a></h3>
+<div class="meta">7:00 PM · Renarts Queens, Elmhurst</div>
+<p>Game 2 with fellow Knicks diehards in Queens — free, loud, and cathartic either way.</p>
+<a class="tickets" href="https://luma.com/54hek4fq">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-30" data-name="The Design World&#x27;s Greatest Sample Sale: The Spoils (NYC, 2026)">
+<button class="toggle" data-idx="30" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-design-worlds-greatest-sample-sale-the-spoils-nyc-2026-tickets-1999920899246">The Design World&#x27;s Greatest Sample Sale: The Spoils (NYC, 2026)</a></h3>
+<div class="meta">6:00 PM · Starrett-Lehigh Building, Chelsea-Hudson Yards</div>
+<p>The design world&#x27;s greatest sample sale takes over Starrett-Lehigh — go early for the good stuff.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-design-worlds-greatest-sample-sale-the-spoils-nyc-2026-tickets-1999920899246">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-23";
+const NAMES = ["MARIS", "Telescreens - Why The Lights Flicker North American Tour", "BECK: RIDE LONESOME TOUR", "Thundercat w/ TiaCorine", "The Cure Halloween Party", "Pardoner, Laughing Cocks, The Smarthearts", "Trouble x Diamond Terrifier: Emanate / Crenellate", "Pre-Existing Condition", "2:22 - A Ghost Story", "Paranormal Activity (NY)", "Drunk Dracula", "15-Minute Tour: Highlights of the Exhibition \u201cUntitled\u201d (America)", "Pitchfork Comedy Festival", "Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Casey Balsham, Colin Quinn, Ethan Simmons-Patterson & more", "Sydnee Washington: My Black Barbie Story", "Persona: 60th Anniversary Screening (Co-presented with NewFest)", "Almost Famous", "Hellraiser", "Jill Lepore presents The Rise and Fall of the Artificial State, in conversation with Andrew Marantz", "Doireann N\u00ed Ghr\u00edofa + Megan Nolan: Said the Dead", "Bars & Books: De La Soul's 'Stakes Is High' Listening Session", "In Conversation: Tarah Paul Artist Talk + Q&A", "The Cheese & Wine Pairing Hour", "Kings County Distillery Whiskey Tour", "Cider Village", "Boozy Ice Cream Cocktail Class in Astoria", "Juggling Class", "Candlelight Ghost Tours", "Juggling in Greeley Square Park", "Knicks Game 2 Watch Party", "The Design World's Greatest Sample Sale: The Spoils (NYC, 2026)"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

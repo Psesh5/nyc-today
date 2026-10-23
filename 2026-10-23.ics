@@ -1,0 +1,483 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261023-0@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:MARIS
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Dreamy\, big-chorus indie pop in the LES basement where a hundr
+ 
+ed favorite bands got their start. Tickets & info: https://www.ticketmaster
+ 
+.com/maris-new-york-new-york-10-23-2026/event/000064BBDE85796A
+URL:https://www.ticketmaster.com/maris-new-york-new-york-10-23-2026/event/0
+ 
+00064BBDE85796A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-1@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Telescreens - Why The Lights Flicker North American Tour
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Jagged Brooklyn post-punk doing a home-turf headline set — lo
+ 
+ud\, wiry\, and a lot of fun. Tickets & info: https://www.ticketmaster.com/
+ 
+telescreens-why-the-lights-flicker-north-new-york-new-york-10-23-2026/event
+ 
+/000064CBA8AACF1F
+URL:https://www.ticketmaster.com/telescreens-why-the-lights-flicker-north-n
+ 
+ew-york-new-york-10-23-2026/event/000064CBA8AACF1F
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-2@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:BECK: RIDE LONESOME TOUR
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Beck's stripped-back RIDE LONESOME run lands at the newly resto
+ 
+red Brooklyn Paramount. Tickets & info: https://www.ticketmaster.com/beck-r
+ 
+ide-lonesome-tour-brooklyn-new-york-10-23-2026/event/00006483ADA3C789
+URL:https://www.ticketmaster.com/beck-ride-lonesome-tour-brooklyn-new-york-
+ 
+10-23-2026/event/00006483ADA3C789
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-3@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261023T220000
+SUMMARY:Thundercat w/ TiaCorine
+LOCATION:Kings Theatre\, Flatbush
+DESCRIPTION:Virtuoso bass wizardry plus TiaCorine's razor-sharp rap inside 
+ 
+a gorgeous old Flatbush movie palace. Tickets & info: https://www.ticketmas
+ 
+ter.com/event/Z7r9jZ1A7J3bP
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J3bP
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-4@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:The Cure Halloween Party
+LOCATION:Bowery Palace\, East Village
+DESCRIPTION:Goth Christmas in October: a Cure tribute night at Bowery Palac
+ 
+e — wear black. Tickets & info: https://www.ticketweb.com/event/the-cure-
+ 
+halloween-party-bowery-palace-tickets/14324204
+URL:https://www.ticketweb.com/event/the-cure-halloween-party-bowery-palace-
+ 
+tickets/14324204
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-5@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Pardoner\, Laughing Cocks\, The Smarthearts
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:Three noisy guitar bands\, one East Village basement — the ex
+ 
+act right Friday plan. Tickets & info: https://www.ticketweb.com/event/pard
+ 
+oner-laughing-cocks-the-smarthearts-night-club-101-tickets/14284454
+URL:https://www.ticketweb.com/event/pardoner-laughing-cocks-the-smarthearts
+ 
+-night-club-101-tickets/14284454
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-6@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261023T220000
+SUMMARY:Trouble x Diamond Terrifier: Emanate / Crenellate
+LOCATION:Roulette\, Boerum Hill
+DESCRIPTION:A one-night multi-channel video installation with live experime
+ 
+ntal sets (Sam Hillmer\, Luke Stewart and more) — $15 advance. Tickets & 
+ 
+info: https://roulette.org/event/trouble-emanate-crenellate-sam-hillmer-lau
+ 
+ra-paris/
+URL:https://roulette.org/event/trouble-emanate-crenellate-sam-hillmer-laura
+ 
+-paris/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-7@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T173000
+DTEND;TZID=America/New_York:20261023T193000
+SUMMARY:Pre-Existing Condition
+LOCATION:Greenwich House Theater\, Financial District-Battery Park City
+DESCRIPTION:A sharp new play at a Village theater — small room\, big idea
+ 
+s\, early enough for dinner after. Tickets & info: https://www.ticketmaster
+ 
+.com/event/Z7r9jZ1A7J6q8
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J6q8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-8@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T193000
+DTEND;TZID=America/New_York:20261023T213000
+SUMMARY:2:22 - A Ghost Story
+LOCATION:Lucille Lortel Theatre\, West Village
+DESCRIPTION:The West End ghost-story hit haunts the Lucille Lortel — perf
+ 
+ect pre-Halloween nerves. Tickets & info: https://www.ticketmaster.com/even
+ 
+t/Z7r9jZ1AAZfA0
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZfA0
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-9@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261023T220000
+SUMMARY:Paranormal Activity (NY)
+LOCATION:August Wilson Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The found-footage franchise goes live on a Broadway stage. Brav
+ 
+e the dark. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A70gx
+ 
+4
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70gx4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-10@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261023T220000
+SUMMARY:Drunk Dracula
+LOCATION:The Ruby Theatre\, Chelsea-Hudson Yards
+DESCRIPTION:A gleefully hammered retelling of the vampire classic — inter
+ 
+active\, chaotic\, very Friday. Tickets & info: https://www.eventbrite.com/
+ 
+e/drunk-dracula-nyc-tickets-1978936620704
+URL:https://www.eventbrite.com/e/drunk-dracula-nyc-tickets-1978936620704
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-11@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:15-Minute Tour: Highlights of the Exhibition “Untitled” (Americ
+ 
+a)
+LOCATION:Whitney Museum of American Art\, Meatpacking District
+DESCRIPTION:Fifteen minutes on the Whitney's provocative ‘Untitled’ (Am
+ 
+erica) show — the ideal Friday-night art hit. Tickets & info: https://whi
+ 
+tney.org/events/untitled-america-15min-ffn
+URL:https://whitney.org/events/untitled-america-15min-ffn
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-12@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T201500
+DTEND;TZID=America/New_York:20261023T221500
+SUMMARY:Pitchfork Comedy Festival
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:Pitchfork's comedy arm takes over an East Village club for a fe
+ 
+stival night. Tickets & info: https://www.ticketweb.com/event/pitchfork-com
+ 
+edy-festival-night-club-101-tickets/14370904
+URL:https://www.ticketweb.com/event/pitchfork-comedy-festival-night-club-10
+ 
+1-tickets/14370904
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-13@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:Stand-up at Comedy Cellar (Village Underground): Ray Ellin\, Casey 
+ 
+Balsham\, Colin Quinn\, Ethan Simmons-Patterson & more
+LOCATION:Comedy Cellar (Village Underground)\, Greenwich Village
+DESCRIPTION:The gold standard: tonight's lineup (Ray Ellin\, Colin Quinn an
+ 
+d more) at the Village Underground. Tickets & info: https://www.comedycella
+ 
+r.com/reservations-newyork/?showid=1792778400
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792778400
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-14@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T193000
+DTEND;TZID=America/New_York:20261023T213000
+SUMMARY:Sydnee Washington: My Black Barbie Story
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Sydnee Washington workshopping her new hour at the Bell House 
+ 
+ a comic at the top of her game. Tickets & info: https://www.ticketmaster
+ 
+.com/sydnee-washington-my-black-barbie-story-brooklyn-new-york-10-23-2026/e
+ 
+vent/300065273C85AE0A
+URL:https://www.ticketmaster.com/sydnee-washington-my-black-barbie-story-br
+ 
+ooklyn-new-york-10-23-2026/event/300065273C85AE0A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-15@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T181500
+DTEND;TZID=America/New_York:20261023T201500
+SUMMARY:Persona: 60th Anniversary Screening (Co-presented with NewFest)
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Bergman's Persona turns 60 with a new DCP at MoMI — see those
+ 
+ close-ups on a big screen. Tickets & info: https://movingimage.org/event/p
+ 
+ersona-60th/
+URL:https://movingimage.org/event/persona-60th/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-16@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T202500
+DTEND;TZID=America/New_York:20261023T222500
+SUMMARY:Almost Famous
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Cameron Crowe's love letter to rock fandom\, in 4K at the Metro
+ 
+graph. Tickets & info: https://metrograph.com/film/9999005039-almost-famous
+ 
+/
+URL:https://metrograph.com/film/9999005039-almost-famous/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-17@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T213000
+DTEND;TZID=America/New_York:20261023T233000
+SUMMARY:Hellraiser
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Clive Barker's original nightmare gets a late show at IFC. Brin
+ 
+g a friend. Tickets & info: https://www.ifccenter.com/films/hellraiser/
+URL:https://www.ifccenter.com/films/hellraiser/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-18@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Jill Lepore presents The Rise and Fall of the Artificial State\, in
+ 
+ conversation with Andrew Marantz
+LOCATION:Community Bookstore\, Park Slope
+DESCRIPTION:The New Yorker historian on her new book about the rise and fal
+ 
+l of the artificial state — Park Slope\, free. Tickets & info: https://bo
+ 
+okevents.nyc/events/jill-lepore-presents-the-rise-and-fall-of-the-oct-23
+URL:https://bookevents.nyc/events/jill-lepore-presents-the-rise-and-fall-of
+ 
+-the-oct-23
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-19@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Doireann Ní Ghríofa + Megan Nolan: Said the Dead
+LOCATION:Strand Books\, Greenwich Village
+DESCRIPTION:Two of Ireland's sharpest writers on grief\, ghosts\, and mothe
+ 
+rs — at the Strand. Tickets & info: https://www.eventbrite.com/e/doireann
+ 
+-ni-ghriofa-megan-nolan-said-the-dead-tickets-1996171394376
+URL:https://www.eventbrite.com/e/doireann-ni-ghriofa-megan-nolan-said-the-d
+ 
+ead-tickets-1996171394376
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-20@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T181500
+DTEND;TZID=America/New_York:20261023T201500
+SUMMARY:Bars & Books: De La Soul's 'Stakes Is High' Listening Session
+LOCATION:Brooklyn Public Library\, Crown Heights (North)
+DESCRIPTION:BPL's Bars & Books series digs into De La Soul's Stakes Is High
+ 
+\, track by track. Free. Tickets & info: https://bookevents.nyc/events/marc
+ 
+us-j-moore-brooklyn-public-library-oct-23-2026
+URL:https://bookevents.nyc/events/marcus-j-moore-brooklyn-public-library-oc
+ 
+t-23-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-21@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:In Conversation: Tarah Paul Artist Talk + Q&A
+LOCATION:Neighbor\, Chelsea-Hudson Yards
+DESCRIPTION:An artist talk + Q&A in a low-key art space — the kind of Fri
+ 
+day that feels like a real find. Tickets & info: https://luma.com/tsx3nsun
+URL:https://luma.com/tsx3nsun
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-22@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T183000
+DTEND;TZID=America/New_York:20261023T203000
+SUMMARY:The Cheese & Wine Pairing Hour
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:The cheese mecca's crash course in why wine and cheese belong t
+ 
+ogether. Tickets & info: https://www.eventbrite.com/e/the-cheese-wine-pairi
+ 
+ng-hour-tickets-1996472239211
+URL:https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-19964
+ 
+72239211
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-23@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T150000
+DTEND;TZID=America/New_York:20261023T170000
+SUMMARY:Kings County Distillery Whiskey Tour
+LOCATION:Kings County Distillery\, Brooklyn Navy Yard
+DESCRIPTION:NYC's oldest whiskey distillery opens its Navy Yard doors for a
+ 
+ Friday afternoon tour. Tickets & info: https://www.eventbrite.com/e/kings-
+ 
+county-distillery-whiskey-tour-tickets-2000463371796
+URL:https://www.eventbrite.com/e/kings-county-distillery-whiskey-tour-ticke
+ 
+ts-2000463371796
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-24@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T100000
+DTEND;TZID=America/New_York:20261023T120000
+SUMMARY:Cider Village
+LOCATION:Union Square Greenmarket\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Apple everything at Union Square Greenmarket — tastings\, cid
+ 
+er\, and a donut-eating contest. Tickets & info: https://www.eventbrite.com
+ 
+/e/cider-village-tickets-2002955554983
+URL:https://www.eventbrite.com/e/cider-village-tickets-2002955554983
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-25@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T130000
+DTEND;TZID=America/New_York:20261023T150000
+SUMMARY:Boozy Ice Cream Cocktail Class in Astoria
+LOCATION:Tipsy Scoop\, Astoria (North)-Ditmars-Steinway
+DESCRIPTION:Learn to spike your ice cream like a pro at Tipsy Scoop's Astor
+ 
+ia barlour. Tickets & info: https://www.eventbrite.com/e/boozy-ice-cream-co
+ 
+cktail-class-in-astoria-tickets-1983325858031
+URL:https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-astoria-
+ 
+tickets-1983325858031
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-26@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T120000
+DTEND;TZID=America/New_York:20261023T140000
+SUMMARY:Juggling Class
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free lunchtime juggling lesson in Bryant Park — leave with a 
+ 
+new party trick. Tickets & info: https://bryantpark.org/calendar/event/jugg
+ 
+ling-weekday/2026-10-23
+URL:https://bryantpark.org/calendar/event/juggling-weekday/2026-10-23
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-27@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T183000
+DTEND;TZID=America/New_York:20261023T203000
+SUMMARY:Candlelight Ghost Tours
+LOCATION:Merchant's House Museum\, Greenwich Village
+DESCRIPTION:A paranormal investigator leads you through 'Manhattan's most h
+ 
+aunted house' by candlelight. Free. Tickets & info: http://www.nycgovparks.
+ 
+org/events/2026/10/23/super-spooky-candlelight-ghost-tours-with-paranormal-
+ 
+investi
+URL:http://www.nycgovparks.org/events/2026/10/23/super-spooky-candlelight-g
+ 
+host-tours-with-paranormal-investi
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-28@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T140000
+DTEND;TZID=America/New_York:20261023T160000
+SUMMARY:Juggling in Greeley Square Park
+LOCATION:Greeley Square Park\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Free weekday juggling in Greeley Square — watch the show or l
+ 
+earn a few throws yourself. Tickets & info: http://www.nycgovparks.org/even
+ 
+ts/2026/10/23/juggling-in-greeley-square-park
+URL:http://www.nycgovparks.org/events/2026/10/23/juggling-in-greeley-square
+ 
+-park
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-29@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Knicks Game 2 Watch Party
+LOCATION:Renarts Queens\, Elmhurst
+DESCRIPTION:Game 2 with fellow Knicks diehards in Queens — free\, loud\, 
+ 
+and cathartic either way. Tickets & info: https://luma.com/54hek4fq
+URL:https://luma.com/54hek4fq
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261023-30@concierge
+DTSTAMP:20261023T120228Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:The Design World's Greatest Sample Sale: The Spoils (NYC\, 2026)
+LOCATION:Starrett-Lehigh Building\, Chelsea-Hudson Yards
+DESCRIPTION:The design world's greatest sample sale takes over Starrett-Leh
+ 
+igh — go early for the good stuff. Tickets & info: https://www.eventbrite
+ 
+.com/e/the-design-worlds-greatest-sample-sale-the-spoils-nyc-2026-tickets-1
+ 
+999920899246
+URL:https://www.eventbrite.com/e/the-design-worlds-greatest-sample-sale-the
+ 
+-spoils-nyc-2026-tickets-1999920899246
+END:VEVENT
+END:VCALENDAR
