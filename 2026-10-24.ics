@@ -4,7 +4,7 @@ PRODID:-//NYC Concierge//Daily Digest//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-20261024-0@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T173000
 DTEND;TZID=America/New_York:20261024T193000
 SUMMARY:Pasquale Grasso Trio
@@ -22,7 +22,7 @@ URL:https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-1@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T180000
 DTEND;TZID=America/New_York:20261024T200000
 SUMMARY:L7: The Last Hurrah Tour 2026
@@ -38,7 +38,7 @@ kdown-center-new-york-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-2@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T180000
 DTEND;TZID=America/New_York:20261024T200000
 SUMMARY:Big Crown Records 10 Year Anniversary ft El Michels Affair + specia
@@ -58,7 +58,39 @@ l-michels-affair-special-guests-tickets-1992653482206
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-3@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
+DTSTART;TZID=America/New_York:20261024T183000
+DTEND;TZID=America/New_York:20261024T203000
+SUMMARY:Be Your Own Pet w/ Farmer's Wife
+LOCATION:Elsewhere\, Bushwick (West)
+DESCRIPTION:Nashville garage-punk revivalists Be Your Own Pet tear through 
+ 
+Elsewhere's Zone One. Tickets & info: https://www.ticketmaster.com/event/Z7
+ 
+r9jZ1A70Pe6
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Pe6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261024-4@concierge
+DTSTAMP:20261024T120207Z
+DTSTART;TZID=America/New_York:20261024T190000
+DTEND;TZID=America/New_York:20261024T210000
+SUMMARY:Dead Gowns\, Helenor\, Bloomsday
+LOCATION:Night Club 101\, East Village
+DESCRIPTION:Three indie bands\, one East Village basement — a classic Sat
+ 
+urday-night triple bill at Night Club 101. Tickets & info: https://www.tick
+ 
+etweb.com/event/dead-gowns-helenor-bloomsday-night-club-101-tickets/1428392
+ 
+4
+URL:https://www.ticketweb.com/event/dead-gowns-helenor-bloomsday-night-club
+ 
+-101-tickets/14283924
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261024-5@concierge
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T190000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:TINASHE - ONE NIGHT WITH A POPSTAR
@@ -73,40 +105,8 @@ URL:https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-brooklyn-
 new-york-10-24-2026/event/000064F4F879F85D
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261024-4@concierge
-DTSTAMP:20261024T120142Z
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:Harry Styles: Together\, Together
-LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
-DESCRIPTION:Harry Styles brings his Together\, Together run to the Garden f
- 
-or a Saturday-night arena singalong. Tickets & info: https://www.ticketmast
- 
-er.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B
- 
-00643506AE83A2
-URL:https://www.ticketmaster.com/harry-styles-together-together-new-york-ne
- 
-w-york-10-24-2026/event/3B00643506AE83A2
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261024-5@concierge
-DTSTAMP:20261024T120142Z
-DTSTART;TZID=America/New_York:20261024T200000
-DTEND;TZID=America/New_York:20261024T220000
-SUMMARY:Pixies w/ Amanda Petrusich
-LOCATION:Webster Hall\, East Village
-DESCRIPTION:The Pixies back at Webster Hall\, with music writer Amanda Petr
- 
-usich in the mix. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ
- 
-1AAvx7k
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvx7k
-END:VEVENT
-BEGIN:VEVENT
 UID:nyc-20261024-6@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T200000
 DTEND;TZID=America/New_York:20261024T220000
 SUMMARY:Robert Glasper
@@ -122,7 +122,7 @@ URL:https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-7@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T173000
 DTEND;TZID=America/New_York:20261024T193000
 SUMMARY:ACE Presents: Rosemary's Baby
@@ -136,7 +136,7 @@ URL:https://metrograph.com/film/9999005053-ace-presents-rosemarys-baby/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-8@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T234000
 DTEND;TZID=America/New_York:20261025T014000
 SUMMARY:The Exorcist
@@ -150,7 +150,23 @@ URL:https://www.ifccenter.com/films/the-exorcist/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-9@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
+DTSTART;TZID=America/New_York:20261024T170000
+DTEND;TZID=America/New_York:20261024T190000
+SUMMARY:Todd Barry\, Patricia Dinglasan\, Meka Mo\, Adam Gilbert
+LOCATION:New York Comedy Club
+DESCRIPTION:Deadpan master Todd Barry headlines a sharp Midtown stand-up li
+ 
+neup. Tickets & info: https://newyorkcomedyclub.com/events/todd-barry-patri
+ 
+cia-dinglasan-meka-mo-adam-gilbert
+URL:https://newyorkcomedyclub.com/events/todd-barry-patricia-dinglasan-meka
+ 
+-mo-adam-gilbert
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261024-10@concierge
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T180000
 DTEND;TZID=America/New_York:20261024T200000
 SUMMARY:Stand-up at Comedy Cellar (Village Underground): Ray Ellin\, Lynne 
@@ -165,24 +181,8 @@ litz and Ray Ellin — two-drink minimum\, phone-free room. Tickets & info:
 URL:https://www.comedycellar.com/reservations-newyork/?showid=1792864800
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261024-10@concierge
-DTSTAMP:20261024T120142Z
-DTSTART;TZID=America/New_York:20261024T193000
-DTEND;TZID=America/New_York:20261024T213000
-SUMMARY:DRUNK BOLLYWOOD LIVE!
-LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
-DESCRIPTION:A boozy\, loving parody of Hindi cinema live at the Bell House.
- 
- Tickets & info: https://www.ticketmaster.com/drunk-bollywood-live-brooklyn
- 
--new-york-10-24-2026/event/3000652D4D15ED32
-URL:https://www.ticketmaster.com/drunk-bollywood-live-brooklyn-new-york-10-
- 
-24-2026/event/3000652D4D15ED32
-END:VEVENT
-BEGIN:VEVENT
 UID:nyc-20261024-11@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T220000
 DTEND;TZID=America/New_York:20261025T000000
 SUMMARY:Kevin Hart Works Out New Jokes
@@ -198,7 +198,7 @@ v-the-main-room-tickets/14385474
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-12@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:The Revolution Continues: Brooklyn’s Black Trailblazers
@@ -216,7 +216,7 @@ railblazers-tickets-1997450076950
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-13@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:Arts\, Culture & Fun: Día de Muertos Celebration!
@@ -234,7 +234,7 @@ rtos-celebration
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-14@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T140000
 DTEND;TZID=America/New_York:20261024T160000
 SUMMARY:Billy Crystal
@@ -250,21 +250,23 @@ URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-24-
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-15@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T140000
 DTEND;TZID=America/New_York:20261024T160000
-SUMMARY:Hadestown
-LOCATION:Walter Kerr Theatre\, Hell's Kitchen
-DESCRIPTION:The Tony-winning folk opera retelling Orpheus and Eurydice\, ma
+SUMMARY:The Holes - Saturday\, October 24th Matinee
+LOCATION:wild project\, East Village
+DESCRIPTION:A chilling new Off-Broadway dark comedy set in a decaying upsta
  
-tinee at the Walter Kerr. Tickets & info: https://www.ticketmaster.com/even
+te bar\, at wild project. Tickets & info: https://www.eventbrite.com/e/the-
  
-t/Z7r9jZ1A7x4Zf
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7x4Zf
+holes-saturday-october-24th-matinee-tickets-2001880891636
+URL:https://www.eventbrite.com/e/the-holes-saturday-october-24th-matinee-ti
+ 
+ckets-2001880891636
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-16@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T210000
 DTEND;TZID=America/New_York:20261024T230000
 SUMMARY:The Rocky Horror Picture Show with The Flesh Junkies
@@ -282,7 +284,7 @@ island-new-york-10-24-2026/event/0000646BE6A32706
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-17@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T130000
 DTEND;TZID=America/New_York:20261024T150000
 SUMMARY:Blocktoberfest 2026
@@ -296,7 +298,7 @@ URL:https://www.eventbrite.com/e/blocktoberfest-2026-tickets-1994375320270
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-18@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T173000
 DTEND;TZID=America/New_York:20261024T193000
 SUMMARY:Around-the-World Cheese & Wine Tasting
@@ -312,7 +314,7 @@ ts-1996472712627
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-19@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:craftyween party
@@ -324,7 +326,7 @@ URL:https://luma.com/kzgy86qv
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-20@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T130000
 DTEND;TZID=America/New_York:20261024T150000
 SUMMARY:Open House: A Day of Free Poetry Workshops with Megan Fernandes\, W
@@ -344,7 +346,7 @@ URL:https://bookevents.nyc/events/open-house-a-day-of-free-poetry-workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-21@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T140000
 DTEND;TZID=America/New_York:20261024T160000
 SUMMARY:Water as Portal: a Suminagashi Workshop
@@ -358,7 +360,7 @@ URL:https://luma.com/z4wdnui4
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-22@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T110000
 DTEND;TZID=America/New_York:20261024T130000
 SUMMARY:Designing Central Park: Olmsted's Landscape Experiment
@@ -376,7 +378,7 @@ experiment-tickets-1999433238640
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-23@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T180000
 DTEND;TZID=America/New_York:20261024T200000
 SUMMARY:Haunted Bay Ridge Walking Tour
@@ -392,7 +394,7 @@ URL:https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-199
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-24@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:What is Sex? By Alenka Zupančič
@@ -406,7 +408,7 @@ URL:https://luma.com/el91z7q9
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-25@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T190000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:Autumn Starfest
@@ -422,7 +424,7 @@ URL:http://www.nycgovparks.org/events/2026/10/24/autumn-starfest
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-26@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T223000
 DTEND;TZID=America/New_York:20261025T003000
 SUMMARY:10 Years of CruCast: (A-Z) Blossom\, [IVY]\, SKEPSIS + oomfRAVE
@@ -438,7 +440,7 @@ s-oomfrave-tickets-1996989624725
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-27@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T090000
 DTEND;TZID=America/New_York:20261024T110000
 SUMMARY:Corgi Run Club NYC
@@ -450,7 +452,7 @@ URL:https://luma.com/d857a5fa
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-28@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T130000
 DTEND;TZID=America/New_York:20261024T150000
 SUMMARY:[Presentación] Principio\, medio\, fin Valeria Luiselli
@@ -468,7 +470,7 @@ uiselli-tickets-2002757612933
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261024-29@concierge
-DTSTAMP:20261024T120142Z
+DTSTAMP:20261024T120207Z
 DTSTART;TZID=America/New_York:20261024T190000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:Nigel Dick
