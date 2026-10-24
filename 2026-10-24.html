@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, October 24</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, October 24</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-24.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Pasquale Grasso Trio">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club-tickets/14916033">Pasquale Grasso Trio</a></h3>
+<div class="meta">5:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $35.46</div>
+<p>Bebop guitar at its most dazzling — Pat Metheny&#x27;s pick for the best guitarist he&#x27;s heard — in Birdland&#x27;s intimate room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/pasquale-grasso-trio-birdland-jazz-club-tickets/14916033">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="L7: The Last Hurrah Tour 2026">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://dice.fm/event/8e59aw-l7-the-last-hurrah-tour-2026-24th-oct-knockdown-center-new-york-tickets">L7: The Last Hurrah Tour 2026</a></h3>
+<div class="meta">6:00 PM · Knockdown Center, Bushwick (West) · $56.71</div>
+<p>Punk legends L7 on their farewell tour, loud as ever at Knockdown Center.</p>
+<a class="tickets" href="https://dice.fm/event/8e59aw-l7-the-last-hurrah-tour-2026-24th-oct-knockdown-center-new-york-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Big Crown Records 10 Year Anniversary ft El Michels Affair + special guests">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/big-crown-records-10-year-anniversary-ft-el-michels-affair-special-guests-tickets-1992653482206">Big Crown Records 10 Year Anniversary ft El Michels Affair + special guests</a></h3>
+<div class="meta">6:00 PM · Elsewhere - The Hall, East Williamsburg · $39.94</div>
+<p>A decade of Brooklyn soul: El Michels Affair headlines Big Crown&#x27;s anniversary party at Elsewhere.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/big-crown-records-10-year-anniversary-ft-el-michels-affair-special-guests-tickets-1992653482206">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="TINASHE - ONE NIGHT WITH A POPSTAR">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-brooklyn-new-york-10-24-2026/event/000064F4F879F85D">TINASHE - ONE NIGHT WITH A POPSTAR</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>One night only with pop star Tinashe at the restored Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/tinashe-one-night-with-a-popstar-brooklyn-new-york-10-24-2026/event/000064F4F879F85D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Harry Styles brings his Together, Together run to the Garden for a Saturday-night arena singalong.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Pixies w/ Amanda Petrusich">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx7k">Pixies w/ Amanda Petrusich</a></h3>
+<div class="meta">8:00 PM · Webster Hall, East Village</div>
+<p>The Pixies back at Webster Hall, with music writer Amanda Petrusich in the mix.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx7k">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Robert Glasper">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note-jazz-club-tickets/15018913">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $88.98</div>
+<p>Grammy-winning pianist Robert Glasper with KEM for his Blue Note &#x27;Robtober&#x27; residency.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note-jazz-club-tickets/15018913">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-7" data-name="ACE Presents: Rosemary&#x27;s Baby">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005053-ace-presents-rosemarys-baby/">ACE Presents: Rosemary&#x27;s Baby</a></h3>
+<div class="meta">5:30 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Polanski&#x27;s slow-burn 1968 classic on 35mm at Metrograph, with a Q&amp;A after the screening.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005053-ace-presents-rosemarys-baby/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="The Exorcist">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-exorcist/">The Exorcist</a></h3>
+<div class="meta">11:40 PM · IFC Center, Greenwich Village</div>
+<p>Late-night Waverly Midnights screening of Friedkin&#x27;s still-shocking 1973 horror landmark.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-exorcist/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-9" data-name="Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Lynne Koplitz, Colin Quinn, Ethan Simmons-Patterson &amp; more">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1792864800">Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Lynne Koplitz, Colin Quinn, Ethan Simmons-Patterson &amp; more</a></h3>
+<div class="meta">6:00 PM · Comedy Cellar (Village Underground), Greenwich Village</div>
+<p>Classic Village Underground lineup with Colin Quinn, Lynne Koplitz and Ray Ellin — two-drink minimum, phone-free room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1792864800">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="DRUNK BOLLYWOOD LIVE!">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/drunk-bollywood-live-brooklyn-new-york-10-24-2026/event/3000652D4D15ED32">DRUNK BOLLYWOOD LIVE!</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>A boozy, loving parody of Hindi cinema live at the Bell House.</p>
+<a class="tickets" href="https://www.ticketmaster.com/drunk-bollywood-live-brooklyn-new-york-10-24-2026/event/3000652D4D15ED32">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-11" data-name="Kevin Hart Works Out New Jokes">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/kevin-hart-works-out-new-brooklyn-improv-the-main-room-tickets/14385474">Kevin Hart Works Out New Jokes</a></h3>
+<div class="meta">10:00 PM · Brooklyn Improv (The Main Room), Williamsburg · $63.11</div>
+<p>Kevin Hart testing brand-new material in a phone-free Brooklyn Improv room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/kevin-hart-works-out-new-brooklyn-improv-the-main-room-tickets/14385474">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="The Revolution Continues: Brooklyn’s Black Trailblazers">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-revolution-continues-brooklyns-black-trailblazers-tickets-1997450076950">The Revolution Continues: Brooklyn’s Black Trailblazers</a></h3>
+<div class="meta">10:00 AM · Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>A trolley tour through Green-Wood honoring Brooklyn&#x27;s Black trailblazers, from Basquiat to James Weldon Johnson.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-revolution-continues-brooklyns-black-trailblazers-tickets-1997450076950">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Arts, Culture &amp; Fun: Día de Muertos Celebration!">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/24/arts-culture-fun-da-de-muertos-celebration">Arts, Culture &amp; Fun: Día de Muertos Celebration!</a></h3>
+<div class="meta">12:00 PM · Herbert Von King Cultural Arts Center (in Herbert Von King Park), Bedford-Stuyvesant (West)</div>
+<p>Free Día de Muertos celebration in Herbert Von King Park with dance, art and music.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/24/arts-culture-fun-da-de-muertos-celebration">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Billy Crystal">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-24-2026/event/Z1r9uZruZqGZ1AvZapb">Billy Crystal</a></h3>
+<div class="meta">2:00 PM · Imperial Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>Billy Crystal&#x27;s solo Broadway show, a rare limited engagement at the Imperial.</p>
+<a class="tickets" href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-24-2026/event/Z1r9uZruZqGZ1AvZapb">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Hadestown">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7x4Zf">Hadestown</a></h3>
+<div class="meta">2:00 PM · Walter Kerr Theatre, Hell&#x27;s Kitchen</div>
+<p>The Tony-winning folk opera retelling Orpheus and Eurydice, matinee at the Walter Kerr.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7x4Zf">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="The Rocky Horror Picture Show with The Flesh Junkies">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-rocky-horror-picture-show-with-staten-island-new-york-10-24-2026/event/0000646BE6A32706">The Rocky Horror Picture Show with The Flesh Junkies</a></h3>
+<div class="meta">9:00 PM · St. George Theatre, St. George-New Brighton</div>
+<p>Rocky Horror on the big screen in Staten Island with a live Flesh Junkies performance — costumes encouraged.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-rocky-horror-picture-show-with-staten-island-new-york-10-24-2026/event/0000646BE6A32706">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-17" data-name="Blocktoberfest 2026">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/blocktoberfest-2026-tickets-1994375320270">Blocktoberfest 2026</a></h3>
+<div class="meta">1:00 PM · Culture Lab LIC, Long Island City-Hunters Point</div>
+<p>NYC Brewers Guild&#x27;s street-party-turned-festival: 30+ local breweries pouring at Culture Lab LIC.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/blocktoberfest-2026-tickets-1994375320270">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Around-the-World Cheese &amp; Wine Tasting">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/around-the-world-cheese-wine-tasting-tickets-1996472712627">Around-the-World Cheese &amp; Wine Tasting</a></h3>
+<div class="meta">5:30 PM · Murray&#x27;s Cheese Shop, West Village · $98.04</div>
+<p>Four cheeses, four wines, one Murray&#x27;s expert — a globe-trotting tasting on Bleecker Street.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/around-the-world-cheese-wine-tasting-tickets-1996472712627">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-19" data-name="craftyween party">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/kzgy86qv">craftyween party</a></h3>
+<div class="meta">12:00 PM · haricot vert&#x27;s dreamworld, Williamsburg</div>
+<p>Spooky collaging, seasonal sips and astrology readings at a cozy Williamsburg craft afternoon.</p>
+<a class="tickets" href="https://luma.com/kzgy86qv">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Open House: A Day of Free Poetry Workshops with Megan Fernandes, Wendy Xu, D.S. Waldman, and Dorothea Lasky">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/open-house-a-day-of-free-poetry-workshops-with-oct-24">Open House: A Day of Free Poetry Workshops with Megan Fernandes, Wendy Xu, D.S. Waldman, and Dorothea Lasky</a></h3>
+<div class="meta">1:00 PM · Elizabeth Kray Hall, Poets House, Financial District-Battery Park City · $10</div>
+<p>A full day of free poetry workshops at Poets House with four acclaimed poets, ending in a community reading.</p>
+<a class="tickets" href="https://bookevents.nyc/events/open-house-a-day-of-free-poetry-workshops-with-oct-24">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Water as Portal: a Suminagashi Workshop">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/z4wdnui4">Water as Portal: a Suminagashi Workshop</a></h3>
+<div class="meta">2:00 PM · 21-07 41st Ave, Queensbridge-Ravenswood-Dutch Kills · $40</div>
+<p>Learn suminagashi, the ancient art of floating-ink marbling, in a meditative Astoria studio session.</p>
+<a class="tickets" href="https://luma.com/z4wdnui4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-22" data-name="Designing Central Park: Olmsted&#x27;s Landscape Experiment">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/designing-central-park-olmsteds-landscape-experiment-tickets-1999433238640">Designing Central Park: Olmsted&#x27;s Landscape Experiment</a></h3>
+<div class="meta">11:00 AM · Central Park, Midtown-Times Square · $81.88</div>
+<p>Olmsted scholar Ethan Carr leads a small, expert walk through Central Park&#x27;s design at peak foliage.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/designing-central-park-olmsteds-landscape-experiment-tickets-1999433238640">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Haunted Bay Ridge Walking Tour">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943883778">Haunted Bay Ridge Walking Tour</a></h3>
+<div class="meta">6:00 PM · 29 83rd St, Bay Ridge · $39.19</div>
+<p>Ghost stories, unsolved murders and a faceless woman — a historian-led haunted walk through Bay Ridge.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943883778">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-24" data-name="What is Sex? By Alenka Zupančič">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/el91z7q9">What is Sex? By Alenka Zupančič</a></h3>
+<div class="meta">12:00 PM · 199 E 23rd St, Gramercy</div>
+<p>A small, friendly philosophy reading group tackling the first 34 pages of Zupančič&#x27;s What Is Sex?</p>
+<a class="tickets" href="https://luma.com/el91z7q9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Autumn Starfest">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/24/autumn-starfest">Autumn Starfest</a></h3>
+<div class="meta">7:00 PM · West 218th Street and Indian Road (in Inwood Hill Park), Inwood Hill Park</div>
+<p>Free telescopes in Inwood Hill Park with the Amateur Astronomers Association — Jupiter, Saturn and the Moon&#x27;s craters.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/24/autumn-starfest">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="10 Years of CruCast: (A-Z) Blossom, [IVY], SKEPSIS + oomfRAVE">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/10-years-of-crucast-a-z-blossom-ivy-skepsis-oomfrave-tickets-1996989624725">10 Years of CruCast: (A-Z) Blossom, [IVY], SKEPSIS + oomfRAVE</a></h3>
+<div class="meta">10:30 PM · Elsewhere, East Williamsburg · $30.44</div>
+<p>CruCast&#x27;s ten-year anniversary club night takes over Elsewhere until 4am.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/10-years-of-crucast-a-z-blossom-ivy-skepsis-oomfrave-tickets-1996989624725">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-27" data-name="Corgi Run Club NYC">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/d857a5fa">Corgi Run Club NYC</a></h3>
+<div class="meta">9:00 AM · Pier 34 at Hudson River Park, SoHo-Little Italy-Hudson Square</div>
+<p>A social 5K from Pier 34 to the Corgi Cafe in NoMad — all paces (and dogs) welcome.</p>
+<a class="tickets" href="https://luma.com/d857a5fa">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-28" data-name="[Presentación] Principio, medio, fin Valeria Luiselli">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/presentacion-principio-medio-fin-valeria-luiselli-tickets-2002757612933">[Presentación] Principio, medio, fin Valeria Luiselli</a></h3>
+<div class="meta">1:00 PM · John Jay College of Criminal Justice, Upper West Side-Lincoln Square</div>
+<p>Valeria Luiselli presents her new book Principio, medio, fin, in Spanish, at John Jay.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/presentacion-principio-medio-fin-valeria-luiselli-tickets-2002757612933">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Nigel Dick">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/nigel-dick-word-bookstore-oct-24-2026">Nigel Dick</a></h3>
+<div class="meta">7:00 PM · WORD Bookstore, Greenpoint</div>
+<p>The director behind 450+ music videos — including Band Aid&#x27;s &#x27;Do They Know It&#x27;s Christmas?&#x27; — talks shop at WORD.</p>
+<a class="tickets" href="https://bookevents.nyc/events/nigel-dick-word-bookstore-oct-24-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-24";
+const NAMES = ["Pasquale Grasso Trio", "L7: The Last Hurrah Tour 2026", "Big Crown Records 10 Year Anniversary ft El Michels Affair + special guests", "TINASHE - ONE NIGHT WITH A POPSTAR", "Harry Styles: Together, Together", "Pixies w/ Amanda Petrusich", "Robert Glasper", "ACE Presents: Rosemary's Baby", "The Exorcist", "Stand-up at Comedy Cellar (Village Underground): Ray Ellin, Lynne Koplitz, Colin Quinn, Ethan Simmons-Patterson & more", "DRUNK BOLLYWOOD LIVE!", "Kevin Hart Works Out New Jokes", "The Revolution Continues: Brooklyn\u2019s Black Trailblazers", "Arts, Culture & Fun: D\u00eda de Muertos Celebration!", "Billy Crystal", "Hadestown", "The Rocky Horror Picture Show with The Flesh Junkies", "Blocktoberfest 2026", "Around-the-World Cheese & Wine Tasting", "craftyween party", "Open House: A Day of Free Poetry Workshops with Megan Fernandes, Wendy Xu, D.S. Waldman, and Dorothea Lasky", "Water as Portal: a Suminagashi Workshop", "Designing Central Park: Olmsted's Landscape Experiment", "Haunted Bay Ridge Walking Tour", "What is Sex? By Alenka Zupan\u010di\u010d", "Autumn Starfest", "10 Years of CruCast: (A-Z) Blossom, [IVY], SKEPSIS + oomfRAVE", "Corgi Run Club NYC", "[Presentaci\u00f3n] Principio, medio, fin Valeria Luiselli", "Nigel Dick"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
