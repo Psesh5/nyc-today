@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, October 25</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, October 25</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-25.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Mac DeMarco">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.carnegiehall.org/Calendar/2026/10/25/Mac-DeMarco-0800PM">Mac DeMarco</a></h3>
+<div class="meta">8:00 PM · Stern Auditorium / Perelman Stage at Carnegie Hall, Hell&#x27;s Kitchen</div>
+<p>Mac DeMarco brings songs from his latest album Guitar — plus the old favorites — to Carnegie Hall&#x27;s Perelman Stage.</p>
+<a class="tickets" href="https://www.carnegiehall.org/Calendar/2026/10/25/Mac-DeMarco-0800PM">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Dashboard Confessional - solo acoustic">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/dashboard-confessional-solo-acoustic-new-york-new-york-10-25-2026/event/00006553BDD4A015">Dashboard Confessional - solo acoustic</a></h3>
+<div class="meta">5:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Chris Carrabba strips Dashboard Confessional down to one voice and one guitar at Mercury Lounge.</p>
+<a class="tickets" href="https://www.ticketmaster.com/dashboard-confessional-solo-acoustic-new-york-new-york-10-25-2026/event/00006553BDD4A015">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Robert Glasper X Kem presents Alkemy">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note-jazz-club-tickets/15018923">Robert Glasper X Kem presents Alkemy</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $88.98</div>
+<p>Glasper&#x27;s genre-blurring piano meets Kem&#x27;s silky R&amp;B soul for a one-night Blue Note collaboration.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note-jazz-club-tickets/15018923">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Cavetown - Running With Scissors Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/cavetown-running-with-scissors-tour-brooklyn-new-york-10-25-2026/event/00006427A4305C8C">Cavetown - Running With Scissors Tour</a></h3>
+<div class="meta">6:30 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Cavetown&#x27;s tender bedroom-pop anthems fill the grand Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/cavetown-running-with-scissors-tour-brooklyn-new-york-10-25-2026/event/00006427A4305C8C">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="June Cavlan: &quot;Celebrating Ella&quot;">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/june-cavlan-celebrating-ella-birdland-jazz-club-tickets/15007053">June Cavlan: &quot;Celebrating Ella&quot;</a></h3>
+<div class="meta">5:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $35.46</div>
+<p>Award-winning jazz vocalist June Cavlan salutes Ella Fitzgerald in Birdland&#x27;s intimate room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/june-cavlan-celebrating-ella-birdland-jazz-club-tickets/15007053">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="John Oliver &amp; Seth Meyers">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-10-25-2026/event/3B00649092792D59">John Oliver &amp; Seth Meyers</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>The two late-night hosts&#x27; monthly Beacon residency: long stand-up sets, then a joint Q&amp;A.</p>
+<a class="tickets" href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-10-25-2026/event/3B00649092792D59">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Jeff Garlin: Best Seat in the House — Book Talk &amp; Signing Featuring Music &amp; Cultural Historian Ashley Kahn &amp; GRAMMY Award-Winning Pianist Taylor Eigsti">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/jeff-garlin-best-seat-in-blue-note-jazz-club-tickets/14382644">Jeff Garlin: Best Seat in the House — Book Talk &amp; Signing Featuring Music &amp; Cultural Historian Ashley Kahn &amp; GRAMMY Award-Winning Pianist Taylor Eigsti</a></h3>
+<div class="meta">12:00 PM · Blue Note Jazz Club, Greenwich Village · Free</div>
+<p>Free with RSVP: Garlin shares backstage comedy stories and photos, with live piano from Taylor Eigsti and a book signing.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/jeff-garlin-best-seat-in-blue-note-jazz-club-tickets/14382644">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Stand-up at Comedy Cellar (Fat Black Pussycat): Simeon Goodson, Harrison Greenbaum, Todd Barry, Liza Treyger &amp; more">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1792967400">Stand-up at Comedy Cellar (Fat Black Pussycat): Simeon Goodson, Harrison Greenbaum, Todd Barry, Liza Treyger &amp; more</a></h3>
+<div class="meta">10:30 PM · Comedy Cellar (Fat Black Pussycat), Greenwich Village</div>
+<p>A late Cellar bill headlined by Todd Barry, with Liza Treyger in the lineup — phone-free, two-item minimum.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1792967400">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="BYOT: Bring Your Own Thing (UCB Open Mic)">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://nyc-shows.brooklynvegan.com/events/2026/10/25/byot-tickets">BYOT: Bring Your Own Thing (UCB Open Mic)</a></h3>
+<div class="meta">9:00 PM · Upright Citizens Brigade Theatre, East Village · Free</div>
+<p>UCB&#x27;s free, anything-goes open mic — sketch, improv, stand-up, musical comedy, or just screaming wildly. Free, no reservation needed.</p>
+<a class="tickets" href="http://nyc-shows.brooklynvegan.com/events/2026/10/25/byot-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Sunday FREE Spanish Stand Up Show | Comedia en Español en Times Square">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.meetup.com/comediaespanol/">Sunday FREE Spanish Stand Up Show | Comedia en Español en Times Square</a></h3>
+<div class="meta">2:00 PM · The Grisly Pear - Midtown, Midtown-Times Square · Free</div>
+<p>Free Spanish-language stand-up (100% en español) at the Grisly Pear Midtown — doors 2pm, show 2:30pm, one-drink minimum, 21+.</p>
+<a class="tickets" href="https://www.meetup.com/comediaespanol/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-8" data-name="Conan O&#x27;Brien w/ David Remnick">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvpbv">Conan O&#x27;Brien w/ David Remnick</a></h3>
+<div class="meta">5:30 PM · Webster Hall, East Village</div>
+<p>Conan in live conversation with New Yorker editor David Remnick at Webster Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvpbv">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="An Evening of Storytelling with Malcolm Gladwell">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/an-evening-of-storytelling-with-malcolm-new-york-new-york-10-25-2026/event/30006542CD709C01">An Evening of Storytelling with Malcolm Gladwell</a></h3>
+<div class="meta">8:00 PM · Audible&#x27;s Minetta Lane Theatre, Greenwich Village</div>
+<p>Gladwell live on American gun violence — a one-off storytelling night at Minetta Lane.</p>
+<a class="tickets" href="https://www.ticketmaster.com/an-evening-of-storytelling-with-malcolm-new-york-new-york-10-25-2026/event/30006542CD709C01">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Stonewall and Beyond: Memoirs from the Gay Liberation Front">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/stonewall-and-beyond-memoirs-from-the-gay-liberation-front-tickets-2002093183607">Stonewall and Beyond: Memoirs from the Gay Liberation Front</a></h3>
+<div class="meta">4:00 PM · Stonewall National Monument Visitor Center, West Village</div>
+<p>Firsthand accounts from Gay Liberation Front activists, told at the Stonewall visitor center.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/stonewall-and-beyond-memoirs-from-the-gay-liberation-front-tickets-2002093183607">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-11" data-name="Dead Pilots Society">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/dead-pilots-society-brooklyn-new-york-10-25-2026/event/3000651E456BB0C6">Dead Pilots Society</a></h3>
+<div class="meta">7:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Unproduced TV pilots read aloud by well-known TV actors — the show&#x27;s NYC debut at the Bell House.</p>
+<a class="tickets" href="https://www.ticketmaster.com/dead-pilots-society-brooklyn-new-york-10-25-2026/event/3000651E456BB0C6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Billy Crystal">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-25-2026/event/Z1r9uZruZqGZ1AvZabZ">Billy Crystal</a></h3>
+<div class="meta">3:00 PM · Imperial Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>Billy Crystal&#x27;s solo Broadway show, a rare limited engagement at the Imperial.</p>
+<a class="tickets" href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-25-2026/event/Z1r9uZruZqGZ1AvZabZ">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-13" data-name="Rosemary&#x27;s Baby">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001188-rosemarys-baby/">Rosemary&#x27;s Baby</a></h3>
+<div class="meta">8:45 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Polanski&#x27;s slow-burn 1968 thriller on 35mm at Metrograph — the perfect pre-Halloween scare.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001188-rosemarys-baby/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Symbiopsychotaxiplasm: Take One">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greaves-100">Symbiopsychotaxiplasm: Take One</a></h3>
+<div class="meta">7:10 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Greaves&#x27;s wild 1968 film-about-filming-a-film, screening in his centenary retrospective at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greaves-100">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-15" data-name="Green-Wood After Hours">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/green-wood-after-hours-tickets-1998759267775">Green-Wood After Hours</a></h3>
+<div class="meta">5:00 PM · Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>After dark in Green-Wood, including the Catacombs, normally locked to the public.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/green-wood-after-hours-tickets-1998759267775">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Meet the Artists: Dots and Loops">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/25/meet-the-artists-dots-and-loops">Meet the Artists: Dots and Loops</a></h3>
+<div class="meta">1:00 PM · Wave Hill, Riverdale-Spuyten Duyvil</div>
+<p>Exhibiting artists lead workshops around Wave Hill&#x27;s Dots and Loops show.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/25/meet-the-artists-dots-and-loops">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-17" data-name="New York Knicks vs. Orlando Magic">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-orlando-magic-new-york-new-york-10-25-2026/event/3B006511E91C8629">New York Knicks vs. Orlando Magic</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Both teams are 0–2 and hunting a first win — the Knicks&#x27; second home game of the young season.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-orlando-magic-new-york-new-york-10-25-2026/event/3B006511E91C8629">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="St. John&#x27;s Red Storm Men&#x27;s Basketball v. Texas (Exhibition)">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-york-new-york-10-25-2026/event/3B006530DF77A7A7">St. John&#x27;s Red Storm Men&#x27;s Basketball v. Texas (Exhibition)</a></h3>
+<div class="meta">12:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Rick Pitino&#x27;s Red Storm host Texas in an exhibition at the Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-york-new-york-10-25-2026/event/3B006530DF77A7A7">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-19" data-name="Smorgasburg">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/smorgasburg-4/2026-10-25/">Smorgasburg</a></h3>
+<div class="meta">11:00 AM · Prospect Park, Prospect Park</div>
+<p>The final Smorgasburg Sunday of the season: 60+ local food vendors on Breeze Hill in Prospect Park.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/smorgasburg-4/2026-10-25/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Let&#x27;s Talk About Sake!">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2000321438269">Let&#x27;s Talk About Sake!</a></h3>
+<div class="meta">1:30 PM · Kato Sake Works, Bushwick (West)</div>
+<p>A guided 90-minute sake tasting at Bushwick&#x27;s Kato Sake Works — seats are limited.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2000321438269">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="mowri&#x27;s new music listening session">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/jrfnlgqo">mowri&#x27;s new music listening session</a></h3>
+<div class="meta">2:00 PM · Reforesters Laboratory, Williamsburg · $30</div>
+<p>Lie back for Mowri&#x27;s calming-to-cinematic sound pieces through a 24-channel spatial audio system in Williamsburg.</p>
+<a class="tickets" href="https://luma.com/jrfnlgqo">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-22" data-name="Brooklyn Monarch">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/brooklyn-monarch-tickets-2000664492353">Brooklyn Monarch</a></h3>
+<div class="meta">5:00 PM · The Brooklyn Monarch, East Williamsburg</div>
+<p>Lucha libre returns to Brooklyn with a Día de Muertos Halloween show at the Brooklyn Monarch.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/brooklyn-monarch-tickets-2000664492353">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Comedians Interview Experts: Grief, trauma and your brain with Michael Cruz Kayne and Rachel Yehuda">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/comedians-interview-experts-grief-trauma-and-your-brain-with-michael-cruz-kayne-and-rachel-yehuda-tickets-2000859573847">Comedians Interview Experts: Grief, trauma and your brain with Michael Cruz Kayne and Rachel Yehuda</a></h3>
+<div class="meta">7:30 PM · Caveat, Lower East Side</div>
+<p>Neuroscientist Rachel Yehuda talks grief, trauma and the brain — interviewed by a comedian at Caveat.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/comedians-interview-experts-grief-trauma-and-your-brain-with-michael-cruz-kayne-and-rachel-yehuda-tickets-2000859573847">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-24" data-name="Big Three Bon Odori Workshop in English (Free Public Program)">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-free-public-program-tickets-1994686462906">Big Three Bon Odori Workshop in English (Free Public Program)</a></h3>
+<div class="meta">1:00 PM · 130 W 56th St 5th floor, Midtown-Times Square · Free</div>
+<p>Three rare Bon Odori dance traditions taught in English, free, in Midtown.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-free-public-program-tickets-1994686462906">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-25" data-name="Full Moon Gowanus Voyage - OCTOBER">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/full-moon-gowanus-voyage-october-tickets-1987850024936">Full Moon Gowanus Voyage - OCTOBER</a></h3>
+<div class="meta">5:30 PM · Gowanus Dredgers Bunker, Sunset Park (West)</div>
+<p>A full-moon canoe trip on the Gowanus Canal at twilight.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/full-moon-gowanus-voyage-october-tickets-1987850024936">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-26" data-name="Urban Park Ranger | Fall Foliage Canoeing">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/urban-park-ranger-fall-foliage-canoeing/">Urban Park Ranger | Fall Foliage Canoeing</a></h3>
+<div class="meta">11:00 AM · Prospect Park, Prospect Park</div>
+<p>A free ranger-led autumn paddle on Prospect Park Lake, gear provided, ages 8 and up.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/urban-park-ranger-fall-foliage-canoeing/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Drag Bingo NYC - Ultimate Drag Queen Bingo &amp; Drag Show in NYC">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-drag-show-in-nyc-tickets-1916133078619">Drag Bingo NYC - Ultimate Drag Queen Bingo &amp; Drag Show in NYC</a></h3>
+<div class="meta">1:30 PM · Drag Bingo NYC - Drag Queens Bingo, Hell&#x27;s Kitchen</div>
+<p>Drag bingo plus a live drag show in Hell&#x27;s Kitchen.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-drag-show-in-nyc-tickets-1916133078619">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-25";
+const NAMES = ["Mac DeMarco", "Dashboard Confessional - solo acoustic", "Robert Glasper X Kem presents Alkemy", "Cavetown - Running With Scissors Tour", "June Cavlan: \"Celebrating Ella\"", "John Oliver & Seth Meyers", "Jeff Garlin: Best Seat in the House \u2014 Book Talk & Signing Featuring Music & Cultural Historian Ashley Kahn & GRAMMY Award-Winning Pianist Taylor Eigsti", "Stand-up at Comedy Cellar (Fat Black Pussycat): Simeon Goodson, Harrison Greenbaum, Todd Barry, Liza Treyger & more", "Conan O'Brien w/ David Remnick", "An Evening of Storytelling with Malcolm Gladwell", "Stonewall and Beyond: Memoirs from the Gay Liberation Front", "Dead Pilots Society", "Billy Crystal", "Rosemary's Baby", "Symbiopsychotaxiplasm: Take One", "Green-Wood After Hours", "Meet the Artists: Dots and Loops", "New York Knicks vs. Orlando Magic", "St. John's Red Storm Men's Basketball v. Texas (Exhibition)", "Smorgasburg", "Let's Talk About Sake!", "mowri's new music listening session", "Brooklyn Monarch", "Comedians Interview Experts: Grief, trauma and your brain with Michael Cruz Kayne and Rachel Yehuda", "Big Three Bon Odori Workshop in English (Free Public Program)", "Full Moon Gowanus Voyage - OCTOBER", "Urban Park Ranger | Fall Foliage Canoeing", "Drag Bingo NYC - Ultimate Drag Queen Bingo & Drag Show in NYC", "BYOT: Bring Your Own Thing (UCB Open Mic)", "Sunday FREE Spanish Stand Up Show | Comedia en Espa\u00f1ol en Times Square"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

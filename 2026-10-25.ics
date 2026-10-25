@@ -1,0 +1,495 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261025-0@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T200000
+DTEND;TZID=America/New_York:20261025T220000
+SUMMARY:Mac DeMarco
+LOCATION:Stern Auditorium / Perelman Stage at Carnegie Hall\, Hell's Kitche
+ 
+n
+DESCRIPTION:Mac DeMarco brings songs from his latest album Guitar — plus 
+ 
+the old favorites — to Carnegie Hall's Perelman Stage. Tickets & info: ht
+ 
+tps://www.carnegiehall.org/Calendar/2026/10/25/Mac-DeMarco-0800PM
+URL:https://www.carnegiehall.org/Calendar/2026/10/25/Mac-DeMarco-0800PM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-1@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T170000
+DTEND;TZID=America/New_York:20261025T190000
+SUMMARY:Dashboard Confessional - solo acoustic
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Chris Carrabba strips Dashboard Confessional down to one voice 
+ 
+and one guitar at Mercury Lounge. Tickets & info: https://www.ticketmaster.
+ 
+com/dashboard-confessional-solo-acoustic-new-york-new-york-10-25-2026/event
+ 
+/00006553BDD4A015
+URL:https://www.ticketmaster.com/dashboard-confessional-solo-acoustic-new-y
+ 
+ork-new-york-10-25-2026/event/00006553BDD4A015
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-2@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T200000
+DTEND;TZID=America/New_York:20261025T220000
+SUMMARY:Robert Glasper X Kem presents Alkemy
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Glasper's genre-blurring piano meets Kem's silky R&B soul for a
+ 
+ one-night Blue Note collaboration. Tickets & info: https://www.ticketweb.c
+ 
+om/event/robert-glasper-x-kem-presents-blue-note-jazz-club-tickets/15018923
+URL:https://www.ticketweb.com/event/robert-glasper-x-kem-presents-blue-note
+ 
+-jazz-club-tickets/15018923
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-3@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T183000
+DTEND;TZID=America/New_York:20261025T203000
+SUMMARY:Cavetown - Running With Scissors Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Cavetown's tender bedroom-pop anthems fill the grand Brooklyn P
+ 
+aramount. Tickets & info: https://www.ticketmaster.com/cavetown-running-wit
+ 
+h-scissors-tour-brooklyn-new-york-10-25-2026/event/00006427A4305C8C
+URL:https://www.ticketmaster.com/cavetown-running-with-scissors-tour-brookl
+ 
+yn-new-york-10-25-2026/event/00006427A4305C8C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-4@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T173000
+DTEND;TZID=America/New_York:20261025T193000
+SUMMARY:June Cavlan: "Celebrating Ella"
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Award-winning jazz vocalist June Cavlan salutes Ella Fitzgerald
+ 
+ in Birdland's intimate room. Tickets & info: https://www.ticketweb.com/eve
+ 
+nt/june-cavlan-celebrating-ella-birdland-jazz-club-tickets/15007053
+URL:https://www.ticketweb.com/event/june-cavlan-celebrating-ella-birdland-j
+ 
+azz-club-tickets/15007053
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-5@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T193000
+DTEND;TZID=America/New_York:20261025T213000
+SUMMARY:John Oliver & Seth Meyers
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:The two late-night hosts' monthly Beacon residency: long stand-
+ 
+up sets\, then a joint Q&A. Tickets & info: https://www.ticketmaster.com/jo
+ 
+hn-oliver-seth-meyers-new-york-new-york-10-25-2026/event/3B00649092792D59
+URL:https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-
+ 
+10-25-2026/event/3B00649092792D59
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-6@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T120000
+DTEND;TZID=America/New_York:20261025T140000
+SUMMARY:Jeff Garlin: Best Seat in the House — Book Talk & Signing Featuri
+ 
+ng Music & Cultural Historian Ashley Kahn & GRAMMY Award-Winning Pianist Ta
+ 
+ylor Eigsti
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Free with RSVP: Garlin shares backstage comedy stories and phot
+ 
+os\, with live piano from Taylor Eigsti and a book signing. Tickets & info:
+ 
+ https://www.ticketweb.com/event/jeff-garlin-best-seat-in-blue-note-jazz-cl
+ 
+ub-tickets/14382644
+URL:https://www.ticketweb.com/event/jeff-garlin-best-seat-in-blue-note-jazz
+ 
+-club-tickets/14382644
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-7@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T223000
+DTEND;TZID=America/New_York:20261026T003000
+SUMMARY:Stand-up at Comedy Cellar (Fat Black Pussycat): Simeon Goodson\, Ha
+ 
+rrison Greenbaum\, Todd Barry\, Liza Treyger & more
+LOCATION:Comedy Cellar (Fat Black Pussycat)\, Greenwich Village
+DESCRIPTION:A late Cellar bill headlined by Todd Barry\, with Liza Treyger 
+ 
+in the lineup — phone-free\, two-item minimum. Tickets & info: https://ww
+ 
+w.comedycellar.com/reservations-newyork/?showid=1792967400
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1792967400
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-8@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T173000
+DTEND;TZID=America/New_York:20261025T193000
+SUMMARY:Conan O'Brien w/ David Remnick
+LOCATION:Webster Hall\, East Village
+DESCRIPTION:Conan in live conversation with New Yorker editor David Remnick
+ 
+ at Webster Hall. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ
+ 
+1AAvpbv
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvpbv
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-9@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T200000
+DTEND;TZID=America/New_York:20261025T220000
+SUMMARY:An Evening of Storytelling with Malcolm Gladwell
+LOCATION:Audible's Minetta Lane Theatre\, Greenwich Village
+DESCRIPTION:Gladwell live on American gun violence — a one-off storytelli
+ 
+ng night at Minetta Lane. Tickets & info: https://www.ticketmaster.com/an-e
+ 
+vening-of-storytelling-with-malcolm-new-york-new-york-10-25-2026/event/3000
+ 
+6542CD709C01
+URL:https://www.ticketmaster.com/an-evening-of-storytelling-with-malcolm-ne
+ 
+w-york-new-york-10-25-2026/event/30006542CD709C01
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-10@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T160000
+DTEND;TZID=America/New_York:20261025T180000
+SUMMARY:Stonewall and Beyond: Memoirs from the Gay Liberation Front
+LOCATION:Stonewall National Monument Visitor Center\, West Village
+DESCRIPTION:Firsthand accounts from Gay Liberation Front activists\, told a
+ 
+t the Stonewall visitor center. Tickets & info: https://www.eventbrite.com/
+ 
+e/stonewall-and-beyond-memoirs-from-the-gay-liberation-front-tickets-200209
+ 
+3183607
+URL:https://www.eventbrite.com/e/stonewall-and-beyond-memoirs-from-the-gay-
+ 
+liberation-front-tickets-2002093183607
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-11@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T190000
+DTEND;TZID=America/New_York:20261025T210000
+SUMMARY:Dead Pilots Society
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Unproduced TV pilots read aloud by well-known TV actors — the
+ 
+ show's NYC debut at the Bell House. Tickets & info: https://www.ticketmast
+ 
+er.com/dead-pilots-society-brooklyn-new-york-10-25-2026/event/3000651E456BB
+ 
+0C6
+URL:https://www.ticketmaster.com/dead-pilots-society-brooklyn-new-york-10-2
+ 
+5-2026/event/3000651E456BB0C6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-12@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T150000
+DTEND;TZID=America/New_York:20261025T170000
+SUMMARY:Billy Crystal
+LOCATION:Imperial Theatre - NY\, Hell's Kitchen
+DESCRIPTION:Billy Crystal's solo Broadway show\, a rare limited engagement 
+ 
+at the Imperial. Tickets & info: https://www.ticketmaster.com/billy-crystal
+ 
+-860-new-york-new-york-10-25-2026/event/Z1r9uZruZqGZ1AvZabZ
+URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-25-
+ 
+2026/event/Z1r9uZruZqGZ1AvZabZ
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-13@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T204500
+DTEND;TZID=America/New_York:20261025T224500
+SUMMARY:Rosemary's Baby
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Polanski's slow-burn 1968 thriller on 35mm at Metrograph — th
+ 
+e perfect pre-Halloween scare. Tickets & info: https://metrograph.com/film/
+ 
+9999001188-rosemarys-baby/
+URL:https://metrograph.com/film/9999001188-rosemarys-baby/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-14@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T191000
+DTEND;TZID=America/New_York:20261025T211000
+SUMMARY:Symbiopsychotaxiplasm: Take One
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Greaves's wild 1968 film-about-filming-a-film\, screening in hi
+ 
+s centenary retrospective at Film Forum. Tickets & info: https://filmforum.
+ 
+org/film/symbiopsychotaxiplasm-take-one-william-greaves-100
+URL:https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greav
+ 
+es-100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-15@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T170000
+DTEND;TZID=America/New_York:20261025T190000
+SUMMARY:Green-Wood After Hours
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:After dark in Green-Wood\, including the Catacombs\, normally l
+ 
+ocked to the public. Tickets & info: https://www.eventbrite.com/e/green-woo
+ 
+d-after-hours-tickets-1998759267775
+URL:https://www.eventbrite.com/e/green-wood-after-hours-tickets-19987592677
+ 
+75
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-16@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T130000
+DTEND;TZID=America/New_York:20261025T150000
+SUMMARY:Meet the Artists: Dots and Loops
+LOCATION:Wave Hill\, Riverdale-Spuyten Duyvil
+DESCRIPTION:Exhibiting artists lead workshops around Wave Hill's Dots and L
+ 
+oops show. Tickets & info: http://www.nycgovparks.org/events/2026/10/25/mee
+ 
+t-the-artists-dots-and-loops
+URL:http://www.nycgovparks.org/events/2026/10/25/meet-the-artists-dots-and-
+ 
+loops
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-17@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T190000
+DTEND;TZID=America/New_York:20261025T210000
+SUMMARY:New York Knicks vs. Orlando Magic
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Both teams are 0–2 and hunting a first win — the Knicks' se
+ 
+cond home game of the young season. Tickets & info: https://www.ticketmaste
+ 
+r.com/new-york-knicks-vs-orlando-magic-new-york-new-york-10-25-2026/event/3
+ 
+B006511E91C8629
+URL:https://www.ticketmaster.com/new-york-knicks-vs-orlando-magic-new-york-
+ 
+new-york-10-25-2026/event/3B006511E91C8629
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-18@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T120000
+DTEND;TZID=America/New_York:20261025T140000
+SUMMARY:St. John's Red Storm Men's Basketball v. Texas (Exhibition)
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Rick Pitino's Red Storm host Texas in an exhibition at the Gard
+ 
+en. Tickets & info: https://www.ticketmaster.com/st-johns-red-storm-mens-ba
+ 
+sketball-new-york-new-york-10-25-2026/event/3B006530DF77A7A7
+URL:https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-yor
+ 
+k-new-york-10-25-2026/event/3B006530DF77A7A7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-19@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T110000
+DTEND;TZID=America/New_York:20261025T130000
+SUMMARY:Smorgasburg
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:The final Smorgasburg Sunday of the season: 60+ local food vend
+ 
+ors on Breeze Hill in Prospect Park. Tickets & info: https://www.prospectpa
+ 
+rk.org/event/smorgasburg-4/2026-10-25/
+URL:https://www.prospectpark.org/event/smorgasburg-4/2026-10-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-20@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T133000
+DTEND;TZID=America/New_York:20261025T153000
+SUMMARY:Let's Talk About Sake!
+LOCATION:Kato Sake Works\, Bushwick (West)
+DESCRIPTION:A guided 90-minute sake tasting at Bushwick's Kato Sake Works 
+ 
+ seats are limited. Tickets & info: https://www.eventbrite.com/e/lets-tal
+ 
+k-about-sake-tickets-2000321438269
+URL:https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2000321438269
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-21@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T140000
+DTEND;TZID=America/New_York:20261025T160000
+SUMMARY:mowri's new music listening session
+LOCATION:Reforesters Laboratory\, Williamsburg
+DESCRIPTION:Lie back for Mowri's calming-to-cinematic sound pieces through 
+ 
+a 24-channel spatial audio system in Williamsburg. Tickets & info: https://
+ 
+luma.com/jrfnlgqo
+URL:https://luma.com/jrfnlgqo
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-22@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T170000
+DTEND;TZID=America/New_York:20261025T190000
+SUMMARY:Brooklyn Monarch
+LOCATION:The Brooklyn Monarch\, East Williamsburg
+DESCRIPTION:Lucha libre returns to Brooklyn with a Día de Muertos Hallowee
+ 
+n show at the Brooklyn Monarch. Tickets & info: https://www.eventbrite.com/
+ 
+e/brooklyn-monarch-tickets-2000664492353
+URL:https://www.eventbrite.com/e/brooklyn-monarch-tickets-2000664492353
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-23@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T193000
+DTEND;TZID=America/New_York:20261025T213000
+SUMMARY:Comedians Interview Experts: Grief\, trauma and your brain with Mic
+ 
+hael Cruz Kayne and Rachel Yehuda
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Neuroscientist Rachel Yehuda talks grief\, trauma and the brain
+ 
+ — interviewed by a comedian at Caveat. Tickets & info: https://www.event
+ 
+brite.com/e/comedians-interview-experts-grief-trauma-and-your-brain-with-mi
+ 
+chael-cruz-kayne-and-rachel-yehuda-tickets-2000859573847
+URL:https://www.eventbrite.com/e/comedians-interview-experts-grief-trauma-a
+ 
+nd-your-brain-with-michael-cruz-kayne-and-rachel-yehuda-tickets-20008595738
+ 
+47
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-24@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T130000
+DTEND;TZID=America/New_York:20261025T150000
+SUMMARY:Big Three Bon Odori Workshop in English (Free Public Program)
+LOCATION:130 W 56th St 5th floor\, Midtown-Times Square
+DESCRIPTION:Three rare Bon Odori dance traditions taught in English\, free\
+ 
+, in Midtown. Tickets & info: https://www.eventbrite.com/e/big-three-bon-od
+ 
+ori-workshop-in-english-free-public-program-tickets-1994686462906
+URL:https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-fr
+ 
+ee-public-program-tickets-1994686462906
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-25@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T173000
+DTEND;TZID=America/New_York:20261025T193000
+SUMMARY:Full Moon Gowanus Voyage - OCTOBER
+LOCATION:Gowanus Dredgers Bunker\, Sunset Park (West)
+DESCRIPTION:A full-moon canoe trip on the Gowanus Canal at twilight. Ticket
+ 
+s & info: https://www.eventbrite.com/e/full-moon-gowanus-voyage-october-tic
+ 
+kets-1987850024936
+URL:https://www.eventbrite.com/e/full-moon-gowanus-voyage-october-tickets-1
+ 
+987850024936
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-26@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T110000
+DTEND;TZID=America/New_York:20261025T130000
+SUMMARY:Urban Park Ranger | Fall Foliage Canoeing
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:A free ranger-led autumn paddle on Prospect Park Lake\, gear pr
+ 
+ovided\, ages 8 and up. Tickets & info: https://www.prospectpark.org/event/
+ 
+urban-park-ranger-fall-foliage-canoeing/
+URL:https://www.prospectpark.org/event/urban-park-ranger-fall-foliage-canoe
+ 
+ing/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-27@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T133000
+DTEND;TZID=America/New_York:20261025T153000
+SUMMARY:Drag Bingo NYC - Ultimate Drag Queen Bingo & Drag Show in NYC
+LOCATION:Drag Bingo NYC - Drag Queens Bingo\, Hell's Kitchen
+DESCRIPTION:Drag bingo plus a live drag show in Hell's Kitchen. Tickets & i
+ 
+nfo: https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-
+ 
+drag-show-in-nyc-tickets-1916133078619
+URL:https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-d
+ 
+rag-show-in-nyc-tickets-1916133078619
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-28@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T210000
+DTEND;TZID=America/New_York:20261025T230000
+SUMMARY:BYOT: Bring Your Own Thing (UCB Open Mic)
+LOCATION:Upright Citizens Brigade Theatre\, East Village
+DESCRIPTION:UCB's free\, anything-goes open mic — sketch\, improv\, stand
+ 
+-up\, musical comedy\, or just screaming wildly. Free\, no reservation need
+ 
+ed. Tickets & info: http://nyc-shows.brooklynvegan.com/events/2026/10/25/by
+ 
+ot-tickets
+URL:http://nyc-shows.brooklynvegan.com/events/2026/10/25/byot-tickets
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261025-29@concierge
+DTSTAMP:20261025T120000Z
+DTSTART;TZID=America/New_York:20261025T140000
+DTEND;TZID=America/New_York:20261025T160000
+SUMMARY:Sunday FREE Spanish Stand Up Show | Comedia en Español en Times Sq
+ 
+uare
+LOCATION:The Grisly Pear - Midtown\, Midtown-Times Square
+DESCRIPTION:Free Spanish-language stand-up (100% en español) at the Grisly
+ 
+ Pear Midtown — doors 2pm\, show 2:30pm\, one-drink minimum\, 21+. Ticket
+ 
+s & info: https://www.meetup.com/comediaespanol/
+URL:https://www.meetup.com/comediaespanol/
+END:VEVENT
+END:VCALENDAR
