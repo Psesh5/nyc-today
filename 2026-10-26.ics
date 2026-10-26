@@ -1,0 +1,423 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261026-0@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T193000
+DTEND;TZID=America/New_York:20261026T213000
+SUMMARY:A New York Evening With Chris Carrabba of Dashboard Confessional
+LOCATION:The Greene Space\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Dashboard Confessional's frontman strips it down for an intimat
+ 
+e evening of songs and stories at the Greene Space. Tickets & info: https:/
+ 
+/www.universe.com/events/a-new-york-evening-with-chris-carrabba-of-dashboar
+ 
+d-confessional-tickets-G1Z39H?ref=ticketmaster
+URL:https://www.universe.com/events/a-new-york-evening-with-chris-carrabba-
+ 
+of-dashboard-confessional-tickets-G1Z39H?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-1@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:Baby Rose
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Smoky\, soulful vocals in the city's most storied jazz room. Ti
+ 
+ckets & info: https://www.ticketweb.com/event/baby-rose-blue-note-jazz-club
+ 
+-tickets/14328284
+URL:https://www.ticketweb.com/event/baby-rose-blue-note-jazz-club-tickets/1
+ 
+4328284
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-2@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T180000
+DTEND;TZID=America/New_York:20261026T200000
+SUMMARY:Hawthorne Heights - 20th anniversary of If Only You Were Lonely
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Twenty years of 'If Only You Were Lonely\,' played loud at Irvi
+ 
+ng Plaza. Tickets & info: https://www.ticketmaster.com/hawthorne-heights-20
+ 
+th-anniversary-of-if-new-york-new-york-10-26-2026/event/00006470DAF2D3CD
+URL:https://www.ticketmaster.com/hawthorne-heights-20th-anniversary-of-if-n
+ 
+ew-york-new-york-10-26-2026/event/00006470DAF2D3CD
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-3@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:Candlebox
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:The '90s rockers bring 'Far Behind' and the rest back to the Bo
+ 
+wery. Tickets & info: https://www.ticketmaster.com/candlebox-new-york-new-y
+ 
+ork-10-26-2026/event/000064E8C70EF9D4
+URL:https://www.ticketmaster.com/candlebox-new-york-new-york-10-26-2026/eve
+ 
+nt/000064E8C70EF9D4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-4@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T173000
+DTEND;TZID=America/New_York:20261026T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Roaring '20s jazz from the Nighthawks\, early show at Birdland 
+ 
+Theater. Tickets & info: https://www.ticketweb.com/event/vince-giordano-and
+ 
+-the-nighthawks-birdland-theater-tickets/14916253
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14916253
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-5@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T180000
+DTEND;TZID=America/New_York:20261026T200000
+SUMMARY:Steve Reich at 90!
+LOCATION:Roulette Intermedium\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A birthday celebration for the minimalist master at Roulette. T
+ 
+ickets & info: https://www.eventbrite.com/e/steve-reich-at-90-tickets-19924
+ 
+37336709
+URL:https://www.eventbrite.com/e/steve-reich-at-90-tickets-1992437336709
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-6@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T193000
+DTEND;TZID=America/New_York:20261026T213000
+SUMMARY:Good Eggs ft: Mark Normand\, Sean Patton\, Daniel Simonsen\, Bonnie
+ 
+ McFarlane\, Jessica Levin\, Matt Ruby
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Mark Normand headlines a stacked Monday lineup at the UWS club.
+ 
+ Tickets & info: https://newyorkcomedyclub.com/events/good-eggs-ft-mark-nor
+ 
+mand-sean-patton-daniel-simonsen-bonnie-mcfarlane-jessica-levin-matt-ruby
+URL:https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-sean-pat
+ 
+ton-daniel-simonsen-bonnie-mcfarlane-jessica-levin-matt-ruby
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-7@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:Colin Quinn Returns to The CQ Room at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Quinn holds court in the Cellar's intimate CQ Room. Tickets & i
+ 
+nfo: https://www.comedycellar.com/reservations-newyork/?showid=1793041200
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793041200
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-8@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:8pm The Matteo Lane Holiday Special Live Taping at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Be in the room as Matteo Lane tapes his holiday special. Ticket
+ 
+s & info: https://www.comedycellar.com/reservations-newyork/?showid=1793044
+ 
+800
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793044800
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-9@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T193000
+DTEND;TZID=America/New_York:20261026T213000
+SUMMARY:The Moth StorySLAM
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Five-minute true stories\, told live and judged by the crowd\, 
+ 
+at the Bell House. Tickets & info: https://www.ticketmaster.com/the-moth-st
+ 
+oryslam-brooklyn-new-york-10-26-2026/event/300064BB0C5CDEDB
+URL:https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-10-26
+ 
+-2026/event/300064BB0C5CDEDB
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-10@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:Downstate
+LOCATION:Booth Theatre\, Midtown-Times Square
+DESCRIPTION:Bruce Norris's unsettling drama about four men\, a group home\,
+ 
+ and a past that won't stay past. Tickets & info: https://www.ticketmaster.
+ 
+com/downstate-new-york-new-york-10-26-2026/event/Z1r9uZruZqGZ1AvZ3GU
+URL:https://www.ticketmaster.com/downstate-new-york-new-york-10-26-2026/eve
+ 
+nt/Z1r9uZruZqGZ1AvZ3GU
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-11@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T223000
+DTEND;TZID=America/New_York:20261027T003000
+SUMMARY:The Ripped Bodice Presents: ACOTAR 6 Midnight Release
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:A midnight party for the new 'Court of Thorns and Roses' book\,
+ 
+ hosted by the Ripped Bodice. Tickets & info: https://www.ticketmaster.com/
+ 
+the-ripped-bodice-presents-acotar-6-brooklyn-new-york-10-26-2026/event/3000
+ 
+65060DECB30C
+URL:https://www.ticketmaster.com/the-ripped-bodice-presents-acotar-6-brookl
+ 
+yn-new-york-10-26-2026/event/300065060DECB30C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-12@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T180000
+DTEND;TZID=America/New_York:20261026T200000
+SUMMARY:Earth [DakhaBrakha Score]
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Dovzhenko's silent classic with a live score from Ukraine's Dak
+ 
+haBrakha. Tickets & info: https://metrograph.com/film/9999004546-earth-dakh
+ 
+abrakha-score/
+URL:https://metrograph.com/film/9999004546-earth-dakhabrakha-score/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-13@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T202000
+DTEND;TZID=America/New_York:20261026T222000
+SUMMARY:Heathers
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Winona Ryder and Christian Slater's pitch-black teen satire —
+ 
+ 'What's your damage?' on the big screen. Tickets & info: https://metrograp
+ 
+h.com/film/9999003369-heathers/
+URL:https://metrograph.com/film/9999003369-heathers/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-14@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:Mikey And Nicky
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Elaine May's bleak\, brilliant gangster two-hander at Film Foru
+ 
+m. Tickets & info: https://filmforum.org/film/mikey-and-nicky
+URL:https://filmforum.org/film/mikey-and-nicky
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-15@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:Joy Harjo Discusses Cloud Runner with Tracy K. Smith
+LOCATION:Brooklyn Public Library\, Crown Heights (North)
+DESCRIPTION:The former U.S. Poet Laureate discusses her new book 'Cloud Run
+ 
+ner' with Tracy K. Smith. Tickets & info: https://www.bklynlibrary.org/cale
+ 
+ndar/joy-harjo-discusses-cloud-central-library-dweck-20261026-0700pm
+URL:https://www.bklynlibrary.org/calendar/joy-harjo-discusses-cloud-central
+ 
+-library-dweck-20261026-0700pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-16@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:Lydia Millet & Jenny Offill
+LOCATION:McNally Jackson Seaport\, Financial District-Battery Park City
+DESCRIPTION:Two of fiction's sharpest minds in conversation at McNally Jack
+ 
+son Seaport. Tickets & info: https://bookevents.nyc/events/new-relationship
+ 
+s-and-old-mcnally-jackson-seaport-oct-26-2026
+URL:https://bookevents.nyc/events/new-relationships-and-old-mcnally-jackson
+ 
+-seaport-oct-26-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-17@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:Maira Kalman: Joy
+LOCATION:92nd Street Y\, Upper East Side-Carnegie Hill
+DESCRIPTION:The beloved illustrator talks 'Joy' at the 92nd Street Y. Ticke
+ 
+ts & info: https://bookevents.nyc/events/maira-kalman-92nd-street-y-oct-26-
+ 
+2026
+URL:https://bookevents.nyc/events/maira-kalman-92nd-street-y-oct-26-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-18@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:SALTY\, NOT SWEET: NYT Food Critic Florence Fabricant in conversati
+ 
+on with Mark Kurlansky
+LOCATION:Barnes and Noble Upper West Side
+DESCRIPTION:The Times' Florence Fabricant and Mark Kurlansky talk salt\, fo
+ 
+od\, and writing. Tickets & info: https://bookevents.nyc/events/salty-not-s
+ 
+weet-nyt-food-barnes-and-noble-upper-west-oct-26-2026
+URL:https://bookevents.nyc/events/salty-not-sweet-nyt-food-barnes-and-noble
+ 
+-upper-west-oct-26-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-19@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:The Cabaret Burlesque presents: Code Red
+LOCATION:Berlin\, East Village
+DESCRIPTION:Parisian cabaret meets Studio 54 glamour — burlesque\, coutur
+ 
+e\, and late-night revelry at Berlin. Tickets & info: https://www.ticketweb
+ 
+.com/event/the-cabaret-burlesque-presents-code-berlin-tickets/14285484
+URL:https://www.ticketweb.com/event/the-cabaret-burlesque-presents-code-ber
+ 
+lin-tickets/14285484
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-20@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T183000
+DTEND;TZID=America/New_York:20261026T203000
+SUMMARY:Nuyorican Bowery Slam
+LOCATION:Bowery Poetry Club\, Greenwich Village
+DESCRIPTION:Poetry slam night at the Bowery Poetry Club — sign up or just
+ 
+ cheer. Tickets & info: https://www.eventbrite.com/e/nuyorican-bowery-slam-
+ 
+tickets-1988049952926
+URL:https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-198804995292
+ 
+6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-21@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T180000
+DTEND;TZID=America/New_York:20261026T200000
+SUMMARY:Steep & Unwind: an infused Tea Tasting with Honey Pot Treats
+LOCATION:Bar Heretic\, Fort Greene
+DESCRIPTION:An infused tea tasting with honey-pot treats in Fort Greene. Ti
+ 
+ckets & info: https://luma.com/vzws0y62
+URL:https://luma.com/vzws0y62
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-22@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T120000
+DTEND;TZID=America/New_York:20261026T140000
+SUMMARY:Grit & Growth Specialty Coffee Cupping: Finca Marinitas at Soul Caf
+ 
+e
+LOCATION:Soul Cafe Coffee Roasters [ LAB & Wholesale ]\, Sunset Park (West)
+DESCRIPTION:Taste a Finca Marinitas single-origin with the roasters at Soul
+ 
+ Cafe. Tickets & info: https://www.eventbrite.com/e/grit-growth-specialty-c
+ 
+offee-cupping-finca-marinitas-at-soul-cafe-tickets-2003712781869
+URL:https://www.eventbrite.com/e/grit-growth-specialty-coffee-cupping-finca
+ 
+-marinitas-at-soul-cafe-tickets-2003712781869
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-23@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T183000
+DTEND;TZID=America/New_York:20261026T203000
+SUMMARY:6th Annual Pumpkin Carve-Off at Grimm!
+LOCATION:Grimm Artisanal Ales\, East Williamsburg
+DESCRIPTION:Sixth annual pumpkin-carving contest at Grimm — carve\, drink
+ 
+\, compete. Tickets & info: https://www.eventbrite.com/e/6th-annual-pumpkin
+ 
+-carve-off-at-grimm-tickets-2003361674698
+URL:https://www.eventbrite.com/e/6th-annual-pumpkin-carve-off-at-grimm-tick
+ 
+ets-2003361674698
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-24@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T200000
+DTEND;TZID=America/New_York:20261026T220000
+SUMMARY:The Witch Wave with Pam Grossman LIVE!
+LOCATION:littlefield\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Pam Grossman brings her beloved witchcraft podcast to the littl
+ 
+efield stage. Tickets & info: https://www.eventbrite.com/e/the-witch-wave-w
+ 
+ith-pam-grossman-live-tickets-2001992815403
+URL:https://www.eventbrite.com/e/the-witch-wave-with-pam-grossman-live-tick
+ 
+ets-2001992815403
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-25@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T190000
+DTEND;TZID=America/New_York:20261026T210000
+SUMMARY:The Story Collider
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:True\, personal stories about science — funny\, raw\, and hum
+ 
+an at Caveat. Tickets & info: https://www.eventbrite.com/e/the-story-collid
+ 
+er-tickets-1983379599774
+URL:https://www.eventbrite.com/e/the-story-collider-tickets-1983379599774
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261026-26@concierge
+DTSTAMP:20261026T120759Z
+DTSTART;TZID=America/New_York:20261026T183000
+DTEND;TZID=America/New_York:20261026T203000
+SUMMARY:Monday Maker Night
+LOCATION:Brooklyn General Store\, Carroll Gardens-Cobble Hill-Gowanus-Red H
+ 
+ook
+DESCRIPTION:A hands-on evening of making at Brooklyn General Store — brin
+ 
+g a project or start one. Tickets & info: https://www.eventbrite.com/e/mond
+ 
+ay-maker-night-tickets-1980890005330
+URL:https://www.eventbrite.com/e/monday-maker-night-tickets-1980890005330
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, October 26</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, October 26</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-26.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="A New York Evening With Chris Carrabba of Dashboard Confessional">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/a-new-york-evening-with-chris-carrabba-of-dashboard-confessional-tickets-G1Z39H?ref=ticketmaster">A New York Evening With Chris Carrabba of Dashboard Confessional</a></h3>
+<div class="meta">7:30 PM · The Greene Space, SoHo-Little Italy-Hudson Square</div>
+<p>Dashboard Confessional&#x27;s frontman strips it down for an intimate evening of songs and stories at the Greene Space.</p>
+<a class="tickets" href="https://www.universe.com/events/a-new-york-evening-with-chris-carrabba-of-dashboard-confessional-tickets-G1Z39H?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Baby Rose">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/baby-rose-blue-note-jazz-club-tickets/14328284">Baby Rose</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village</div>
+<p>Smoky, soulful vocals in the city&#x27;s most storied jazz room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/baby-rose-blue-note-jazz-club-tickets/14328284">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Hawthorne Heights - 20th anniversary of If Only You Were Lonely">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/hawthorne-heights-20th-anniversary-of-if-new-york-new-york-10-26-2026/event/00006470DAF2D3CD">Hawthorne Heights - 20th anniversary of If Only You Were Lonely</a></h3>
+<div class="meta">6:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>Twenty years of &#x27;If Only You Were Lonely,&#x27; played loud at Irving Plaza.</p>
+<a class="tickets" href="https://www.ticketmaster.com/hawthorne-heights-20th-anniversary-of-if-new-york-new-york-10-26-2026/event/00006470DAF2D3CD">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Candlebox">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/candlebox-new-york-new-york-10-26-2026/event/000064E8C70EF9D4">Candlebox</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>The &#x27;90s rockers bring &#x27;Far Behind&#x27; and the rest back to the Bowery.</p>
+<a class="tickets" href="https://www.ticketmaster.com/candlebox-new-york-new-york-10-26-2026/event/000064E8C70EF9D4">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916253">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Roaring &#x27;20s jazz from the Nighthawks, early show at Birdland Theater.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14916253">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Steve Reich at 90!">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/steve-reich-at-90-tickets-1992437336709">Steve Reich at 90!</a></h3>
+<div class="meta">6:00 PM · Roulette Intermedium, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>A birthday celebration for the minimalist master at Roulette.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/steve-reich-at-90-tickets-1992437336709">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Good Eggs ft: Mark Normand, Sean Patton, Daniel Simonsen, Bonnie McFarlane, Jessica Levin, Matt Ruby">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-sean-patton-daniel-simonsen-bonnie-mcfarlane-jessica-levin-matt-ruby">Good Eggs ft: Mark Normand, Sean Patton, Daniel Simonsen, Bonnie McFarlane, Jessica Levin, Matt Ruby</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Mark Normand headlines a stacked Monday lineup at the UWS club.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-sean-patton-daniel-simonsen-bonnie-mcfarlane-jessica-levin-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Colin Quinn Returns to The CQ Room at Comedy Cellar">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793041200">Colin Quinn Returns to The CQ Room at Comedy Cellar</a></h3>
+<div class="meta">7:00 PM · Comedy Cellar, Greenwich Village</div>
+<p>Quinn holds court in the Cellar&#x27;s intimate CQ Room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793041200">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="8pm The Matteo Lane Holiday Special Live Taping at Comedy Cellar">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793044800">8pm The Matteo Lane Holiday Special Live Taping at Comedy Cellar</a></h3>
+<div class="meta">8:00 PM · Comedy Cellar, Greenwich Village</div>
+<p>Be in the room as Matteo Lane tapes his holiday special.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793044800">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-9" data-name="The Moth StorySLAM">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-10-26-2026/event/300064BB0C5CDEDB">The Moth StorySLAM</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $22.05</div>
+<p>Five-minute true stories, told live and judged by the crowd, at the Bell House.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-10-26-2026/event/300064BB0C5CDEDB">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Downstate">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/downstate-new-york-new-york-10-26-2026/event/Z1r9uZruZqGZ1AvZ3GU">Downstate</a></h3>
+<div class="meta">8:00 PM · Booth Theatre, Midtown-Times Square</div>
+<p>Bruce Norris&#x27;s unsettling drama about four men, a group home, and a past that won&#x27;t stay past.</p>
+<a class="tickets" href="https://www.ticketmaster.com/downstate-new-york-new-york-10-26-2026/event/Z1r9uZruZqGZ1AvZ3GU">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Ripped Bodice Presents: ACOTAR 6 Midnight Release">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-ripped-bodice-presents-acotar-6-brooklyn-new-york-10-26-2026/event/300065060DECB30C">The Ripped Bodice Presents: ACOTAR 6 Midnight Release</a></h3>
+<div class="meta">10:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $61</div>
+<p>A midnight party for the new &#x27;Court of Thorns and Roses&#x27; book, hosted by the Ripped Bodice.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-ripped-bodice-presents-acotar-6-brooklyn-new-york-10-26-2026/event/300065060DECB30C">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="Earth [DakhaBrakha Score]">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999004546-earth-dakhabrakha-score/">Earth [DakhaBrakha Score]</a></h3>
+<div class="meta">6:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Dovzhenko&#x27;s silent classic with a live score from Ukraine&#x27;s DakhaBrakha.</p>
+<a class="tickets" href="https://metrograph.com/film/9999004546-earth-dakhabrakha-score/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Heathers">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999003369-heathers/">Heathers</a></h3>
+<div class="meta">8:20 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Winona Ryder and Christian Slater&#x27;s pitch-black teen satire — &#x27;What&#x27;s your damage?&#x27; on the big screen.</p>
+<a class="tickets" href="https://metrograph.com/film/9999003369-heathers/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Mikey And Nicky">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/mikey-and-nicky">Mikey And Nicky</a></h3>
+<div class="meta">8:00 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Elaine May&#x27;s bleak, brilliant gangster two-hander at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/mikey-and-nicky">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-15" data-name="Joy Harjo Discusses Cloud Runner with Tracy K. Smith">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/joy-harjo-discusses-cloud-central-library-dweck-20261026-0700pm">Joy Harjo Discusses Cloud Runner with Tracy K. Smith</a></h3>
+<div class="meta">7:00 PM · Brooklyn Public Library, Crown Heights (North)</div>
+<p>The former U.S. Poet Laureate discusses her new book &#x27;Cloud Runner&#x27; with Tracy K. Smith.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/joy-harjo-discusses-cloud-central-library-dweck-20261026-0700pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Lydia Millet &amp; Jenny Offill">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/new-relationships-and-old-mcnally-jackson-seaport-oct-26-2026">Lydia Millet &amp; Jenny Offill</a></h3>
+<div class="meta">7:00 PM · McNally Jackson Seaport, Financial District-Battery Park City</div>
+<p>Two of fiction&#x27;s sharpest minds in conversation at McNally Jackson Seaport.</p>
+<a class="tickets" href="https://bookevents.nyc/events/new-relationships-and-old-mcnally-jackson-seaport-oct-26-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Maira Kalman: Joy">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/maira-kalman-92nd-street-y-oct-26-2026">Maira Kalman: Joy</a></h3>
+<div class="meta">8:00 PM · 92nd Street Y, Upper East Side-Carnegie Hill</div>
+<p>The beloved illustrator talks &#x27;Joy&#x27; at the 92nd Street Y.</p>
+<a class="tickets" href="https://bookevents.nyc/events/maira-kalman-92nd-street-y-oct-26-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="SALTY, NOT SWEET: NYT Food Critic Florence Fabricant in conversation with Mark Kurlansky">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/salty-not-sweet-nyt-food-barnes-and-noble-upper-west-oct-26-2026">SALTY, NOT SWEET: NYT Food Critic Florence Fabricant in conversation with Mark Kurlansky</a></h3>
+<div class="meta">7:00 PM · Barnes and Noble Upper West Side</div>
+<p>The Times&#x27; Florence Fabricant and Mark Kurlansky talk salt, food, and writing.</p>
+<a class="tickets" href="https://bookevents.nyc/events/salty-not-sweet-nyt-food-barnes-and-noble-upper-west-oct-26-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-19" data-name="The Cabaret Burlesque presents: Code Red">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-cabaret-burlesque-presents-code-berlin-tickets/14285484">The Cabaret Burlesque presents: Code Red</a></h3>
+<div class="meta">8:00 PM · Berlin, East Village · $42.71</div>
+<p>Parisian cabaret meets Studio 54 glamour — burlesque, couture, and late-night revelry at Berlin.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-cabaret-burlesque-presents-code-berlin-tickets/14285484">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Nuyorican Bowery Slam">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1988049952926">Nuyorican Bowery Slam</a></h3>
+<div class="meta">6:30 PM · Bowery Poetry Club, Greenwich Village · $20</div>
+<p>Poetry slam night at the Bowery Poetry Club — sign up or just cheer.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1988049952926">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-21" data-name="Steep &amp; Unwind: an infused Tea Tasting with Honey Pot Treats">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/vzws0y62">Steep &amp; Unwind: an infused Tea Tasting with Honey Pot Treats</a></h3>
+<div class="meta">6:00 PM · Bar Heretic, Fort Greene · $45</div>
+<p>An infused tea tasting with honey-pot treats in Fort Greene.</p>
+<a class="tickets" href="https://luma.com/vzws0y62">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Grit &amp; Growth Specialty Coffee Cupping: Finca Marinitas at Soul Cafe">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/grit-growth-specialty-coffee-cupping-finca-marinitas-at-soul-cafe-tickets-2003712781869">Grit &amp; Growth Specialty Coffee Cupping: Finca Marinitas at Soul Cafe</a></h3>
+<div class="meta">12:00 PM · Soul Cafe Coffee Roasters [ LAB &amp; Wholesale ], Sunset Park (West) · Free</div>
+<p>Taste a Finca Marinitas single-origin with the roasters at Soul Cafe.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/grit-growth-specialty-coffee-cupping-finca-marinitas-at-soul-cafe-tickets-2003712781869">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-23" data-name="6th Annual Pumpkin Carve-Off at Grimm!">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/6th-annual-pumpkin-carve-off-at-grimm-tickets-2003361674698">6th Annual Pumpkin Carve-Off at Grimm!</a></h3>
+<div class="meta">6:30 PM · Grimm Artisanal Ales, East Williamsburg</div>
+<p>Sixth annual pumpkin-carving contest at Grimm — carve, drink, compete.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/6th-annual-pumpkin-carve-off-at-grimm-tickets-2003361674698">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="The Witch Wave with Pam Grossman LIVE!">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-witch-wave-with-pam-grossman-live-tickets-2001992815403">The Witch Wave with Pam Grossman LIVE!</a></h3>
+<div class="meta">8:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Pam Grossman brings her beloved witchcraft podcast to the littlefield stage.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-witch-wave-with-pam-grossman-live-tickets-2001992815403">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="The Story Collider">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-story-collider-tickets-1983379599774">The Story Collider</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side</div>
+<p>True, personal stories about science — funny, raw, and human at Caveat.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-story-collider-tickets-1983379599774">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Monday Maker Night">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/monday-maker-night-tickets-1980890005330">Monday Maker Night</a></h3>
+<div class="meta">6:30 PM · Brooklyn General Store, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $6</div>
+<p>A hands-on evening of making at Brooklyn General Store — bring a project or start one.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/monday-maker-night-tickets-1980890005330">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-26";
+const NAMES = ["A New York Evening With Chris Carrabba of Dashboard Confessional", "Baby Rose", "Hawthorne Heights - 20th anniversary of If Only You Were Lonely", "Candlebox", "Vince Giordano and the Nighthawks", "Steve Reich at 90!", "Good Eggs ft: Mark Normand, Sean Patton, Daniel Simonsen, Bonnie McFarlane, Jessica Levin, Matt Ruby", "Colin Quinn Returns to The CQ Room at Comedy Cellar", "8pm The Matteo Lane Holiday Special Live Taping at Comedy Cellar", "The Moth StorySLAM", "Downstate", "The Ripped Bodice Presents: ACOTAR 6 Midnight Release", "Earth [DakhaBrakha Score]", "Heathers", "Mikey And Nicky", "Joy Harjo Discusses Cloud Runner with Tracy K. Smith", "Lydia Millet & Jenny Offill", "Maira Kalman: Joy", "SALTY, NOT SWEET: NYT Food Critic Florence Fabricant in conversation with Mark Kurlansky", "The Cabaret Burlesque presents: Code Red", "Nuyorican Bowery Slam", "Steep & Unwind: an infused Tea Tasting with Honey Pot Treats", "Grit & Growth Specialty Coffee Cupping: Finca Marinitas at Soul Cafe", "6th Annual Pumpkin Carve-Off at Grimm!", "The Witch Wave with Pam Grossman LIVE!", "The Story Collider", "Monday Maker Night"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
