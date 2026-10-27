@@ -1,0 +1,455 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261027-0@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Rodrigo y Gabriela - OurHome Tour
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Flamenco-fire guitar duo — two players sounding like a full b
+ 
+and — in an intimate Bowery room. Tickets & info: https://www.ticketmaste
+ 
+r.com/rodrigo-y-gabriela-ourhome-tour-new-york-new-york-10-27-2026/event/00
+ 
+0064C4C54165A8
+URL:https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-new-york-n
+ 
+ew-york-10-27-2026/event/000064C4C54165A8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-1@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T200000
+DTEND;TZID=America/New_York:20261027T220000
+SUMMARY:Vince Staples (16 and Over)
+LOCATION:Brooklyn Steel\, Greenpoint
+DESCRIPTION:Long Beach rap's sharpest deadpan voice brings the hits to Broo
+ 
+klyn Steel. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7PE8
+ 
+S
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PE8S
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-2@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Alexa Tarantino Quartet
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:A saxophonist-led jazz night in Birdland's classic room. Ticket
+ 
+s & info: https://www.ticketweb.com/event/alexa-tarantino-quartet-birdland-
+ 
+jazz-club-tickets/14195564
+URL:https://www.ticketweb.com/event/alexa-tarantino-quartet-birdland-jazz-c
+ 
+lub-tickets/14195564
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-3@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T200000
+DTEND;TZID=America/New_York:20261027T220000
+SUMMARY:Torture Tuesday
+LOCATION:Berlin\, East Village
+DESCRIPTION:Berlin's weekly East Village dance party\, leaning all the way 
+ 
+into Halloween-week mood. Tickets & info: https://www.ticketweb.com/event/t
+ 
+orture-tuesday-berlin-tickets/14343374
+URL:https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14343374
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-4@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T200000
+DTEND;TZID=America/New_York:20261027T220000
+SUMMARY:Dana and Alden (16 and Over)
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:Twin-sibling indie-soul and sax-driven grooves at Music Hall of
+ 
+ Williamsburg. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7
+ 
+PK8z
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PK8z
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-5@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T200000
+SUMMARY:Aziz Ansari In The Village Underground at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:A rare small-room set from Ansari at the Village Underground 
+ 
+ these go fast. Tickets & info: https://www.comedycellar.com/reservations-
+ 
+newyork/?showid=1793037600
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793037600
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-6@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Jessica Kirson Live in New York
+LOCATION:New York Comedy Club
+DESCRIPTION:High-energy\, famously physical stand-up from one of the city's
+ 
+ hardest-working headliners. Tickets & info: https://newyorkcomedyclub.com/
+ 
+events/jessica-kirson-live-in-new-york-2026-10-27190000
+URL:https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-20
+ 
+26-10-27190000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-7@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T200000
+DTEND;TZID=America/New_York:20261027T220000
+SUMMARY:Nice Try ft: Michael Kosta\, Emma Willmann\, Ashley Austin Morris\,
+ 
+ Charles McBee\, Erin Maguire\, Oscar Aydin
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:A $9 lineup show with Michael Kosta\, Emma Willmann and more 
+ 
+ the best value in the Village tonight. Tickets & info: https://newyorkcom
+ 
+edyclub.com/events/nice-try-ft-michael-kosta-emma-willmann-ashley-austin-mo
+ 
+rris-charles-mcbee-erin-maguire-oscar-aydin
+URL:https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-emma-wil
+ 
+lmann-ashley-austin-morris-charles-mcbee-erin-maguire-oscar-aydin
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-8@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Schmigadoon!
+LOCATION:Nederlander Theatre\, Midtown-Times Square
+DESCRIPTION:The TV musical-comedy parody lands on Broadway\, all jazz hands
+ 
+ and genre jokes. Tickets & info: https://www.ticketmaster.com/schmigadoon-
+ 
+new-york-new-york-10-27-2026/event/Z1r9uZrrZbpZ1Ae7Ajp
+URL:https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-27-2026/e
+ 
+vent/Z1r9uZrrZbpZ1Ae7Ajp
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-9@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Buena Vista Social Club
+LOCATION:Gerald Schoenfeld Theatre\, Midtown-Times Square
+DESCRIPTION:The Grammy-winning Cuban songbook\, staged with a live band and
+ 
+ serious dancing. Tickets & info: https://www.ticketmaster.com/buena-vista-
+ 
+social-club-new-york-new-york-10-27-2026/event/Z1r9uZruZqGZ1AvZ6Ay
+URL:https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-
+ 
+10-27-2026/event/Z1r9uZruZqGZ1AvZ6Ay
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-10@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T193000
+DTEND;TZID=America/New_York:20261027T213000
+SUMMARY:2:22 - A Ghost Story
+LOCATION:Lucille Lortel Theatre\, West Village
+DESCRIPTION:A supernatural thriller built for the week before Halloween —
+ 
+ jump scares with a West Village address. Tickets & info: https://www.ticke
+ 
+tmaster.com/event/Z7r9jZ1AAZfAE
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZfAE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-11@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T185000
+DTEND;TZID=America/New_York:20261027T205000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's gloriously unhinged 1971 nun drama\, rarely scree
+ 
+ned — part of IFC's late-October series. Tickets & info: https://www.ifcc
+ 
+enter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-12@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T200000
+SUMMARY:Reality Bites
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Winona Ryder\, Ethan Hawke and '90s slacker angst on the Metrog
+ 
+raph screen. Tickets & info: https://metrograph.com/film/9999005044-reality
+ 
+-bites/
+URL:https://metrograph.com/film/9999005044-reality-bites/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-13@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T202000
+DTEND;TZID=America/New_York:20261027T222000
+SUMMARY:Symbiopsychotaxiplasm: Take One
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:William Greaves's radical 1968 doc-about-a-doc\, still ahead of
+ 
+ its time. Tickets & info: https://filmforum.org/film/symbiopsychotaxiplasm
+ 
+-take-one-william-greaves-100
+URL:https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greav
+ 
+es-100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-14@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Inner Child Art Nyte: Spooky Szn!
+LOCATION:Fabrik NYC\, Tribeca-Civic Center
+DESCRIPTION:A no-skill-required spooky art night: make something weird\, le
+ 
+ave with a keepsake. Tickets & info: https://luma.com/ahafoa96
+URL:https://luma.com/ahafoa96
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-15@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Metamorphosis Series by x3butterfly
+LOCATION:Reforesters Laboratory\, Williamsburg
+DESCRIPTION:A tasting-style evening from a Williamsburg food collective —
+ 
+ part dinner\, part experiment. Tickets & info: https://luma.com/b8x20u73
+URL:https://luma.com/b8x20u73
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-16@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T183000
+DTEND;TZID=America/New_York:20261027T203000
+SUMMARY:CBH Talk | Haunted Brooklyn: Ghosts\, Folklore\, and the Stories We
+ 
+ Tell
+LOCATION:Brooklyn Public Library\, Crown Heights (North)
+DESCRIPTION:Ghost stories and folklore from the borough's darker corners\, 
+ 
+at the library — free. Tickets & info: https://www.bklynlibrary.org/calen
+ 
+dar/cbh-talk-haunted-brooklyn-center-for-brooklyn-20261027-0630pm
+URL:https://www.bklynlibrary.org/calendar/cbh-talk-haunted-brooklyn-center-
+ 
+for-brooklyn-20261027-0630pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-17@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T193000
+DTEND;TZID=America/New_York:20261027T213000
+SUMMARY:Lawrence Wright with Preet Bharara: Redemption
+LOCATION:92nd Street Y\, Upper East Side-Carnegie Hill
+DESCRIPTION:The Pulitzer winner talks his new book Redemption with the form
+ 
+er U.S. Attorney. Tickets & info: https://bookevents.nyc/events/lawrence-wr
+ 
+ight-92nd-street-y-oct-27-2026
+URL:https://bookevents.nyc/events/lawrence-wright-92nd-street-y-oct-27-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-18@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T200000
+SUMMARY:RENT at 30: A Conversation with Tim Weil\, Jeffrey Seller and Alan 
+ 
+Seales
+LOCATION:Drama Book Shop\, Midtown-Times Square
+DESCRIPTION:Thirty years of La Vie Bohème: the musical's team talks its le
+ 
+gacy at the Drama Book Shop. Tickets & info: https://www.eventbrite.com/e/r
+ 
+ent-at-30-a-conversation-with-tim-weil-jeffrey-seller-and-alan-seales-ticke
+ 
+ts-2003425237817
+URL:https://www.eventbrite.com/e/rent-at-30-a-conversation-with-tim-weil-je
+ 
+ffrey-seller-and-alan-seales-tickets-2003425237817
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-19@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Chad Harbach + Leslie Jamison: The Brightness
+LOCATION:Strand Books\, Greenwich Village
+DESCRIPTION:Two sharp literary minds discuss Harbach's new novel The Bright
+ 
+ness at the Strand. Tickets & info: https://bookevents.nyc/events/chad-harb
+ 
+ach-taffy-brodesser-akner-the-brightness-oct-27
+URL:https://bookevents.nyc/events/chad-harbach-taffy-brodesser-akner-the-br
+ 
+ightness-oct-27
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-20@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Headline Pasta Making
+LOCATION:Abigail's Kitchen\, Chinatown-Two Bridges
+DESCRIPTION:Free hands-on pasta making in Chinatown — flour\, eggs\, and 
+ 
+dinner you made yourself. Tickets & info: https://luma.com/v79ae6hy
+URL:https://luma.com/v79ae6hy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-21@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Substack Writers’ Workshop Part I
+LOCATION:Mya Coffee\, Bakery and Wine Bar\, Williamsburg
+DESCRIPTION:Part one of a practical Substack workshop over coffee and wine 
+ 
+in Williamsburg. Tickets & info: https://luma.com/jonfvewj
+URL:https://luma.com/jonfvewj
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-22@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T200000
+SUMMARY:Pawn Chess Club at Newlab
+LOCATION:Newlab\, Brooklyn Navy Yard
+DESCRIPTION:Casual chess at the Navy Yard — all levels\, no dues\, just s
+ 
+how up and play. Tickets & info: https://luma.com/d6xymuwk
+URL:https://luma.com/d6xymuwk
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-23@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T190000
+DTEND;TZID=America/New_York:20261027T210000
+SUMMARY:Prediction Markets NYC: Between the Headlines
+LOCATION:Pubkey\, Greenwich Village
+DESCRIPTION:Talk election odds and market mechanics over drinks at Pubkey\,
+ 
+ the Bitcoin bar. Tickets & info: https://luma.com/xrk2yiwt
+URL:https://luma.com/xrk2yiwt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-24@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T200000
+DTEND;TZID=America/New_York:20261027T220000
+SUMMARY:New York Knicks vs. Detroit Pistons
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Knicks host Detroit at the Garden — early season\, still 
+ 
+loud. Tickets & info: https://www.ticketmaster.com/new-york-knicks-vs-detro
+ 
+it-pistons-new-york-new-york-10-27-2026/event/3B006511E91D862B
+URL:https://www.ticketmaster.com/new-york-knicks-vs-detroit-pistons-new-yor
+ 
+k-new-york-10-27-2026/event/3B006511E91D862B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-25@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T193000
+DTEND;TZID=America/New_York:20261027T213000
+SUMMARY:Ghosts of Gotham's Greenwich
+LOCATION:Meet at Washington Square Arch\, 7:30pm Daily\, Greenwich Village
+DESCRIPTION:A Halloween-week ghost walk through the Village\, departing Was
+ 
+hington Square Arch. Tickets & info: https://www.eventbrite.com/e/ghosts-of
+ 
+-gothams-greenwich-tickets-1989125258193
+URL:https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-198912
+ 
+5258193
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-26@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T173000
+DTEND;TZID=America/New_York:20261027T193000
+SUMMARY:State of AI 2026 - NYC launch event
+LOCATION:Midtown South\, Midtown-Times Square
+DESCRIPTION:The annual State of AI report's NYC launch — the room where t
+ 
+he year's AI debate gets set. Tickets & info: https://luma.com/soai-nyc
+URL:https://luma.com/soai-nyc
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-27@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T170000
+DTEND;TZID=America/New_York:20261027T190000
+SUMMARY:MAKE ART · open studio tuesdays
+LOCATION:347 Maujer St 2nd floor\, East Williamsburg
+DESCRIPTION:A free\, drop-in open studio in East Williamsburg — bring a p
+ 
+roject or start one there. Tickets & info: https://luma.com/6by9vbes
+URL:https://luma.com/6by9vbes
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-28@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T200000
+SUMMARY:Brick and Mortar: The Future of the Gallery
+LOCATION:Gazelli Art House New York\, Chelsea-Hudson Yards
+DESCRIPTION:Three art-world figures debate whether the physical gallery sti
+ 
+ll matters\, inside Gazelli's new Chelsea space. Tickets & info: https://ww
+ 
+w.eventbrite.co.uk/e/brick-and-mortar-the-future-of-the-gallery-tickets-200
+ 
+3053665434
+URL:https://www.eventbrite.co.uk/e/brick-and-mortar-the-future-of-the-galle
+ 
+ry-tickets-2003053665434
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261027-29@concierge
+DTSTAMP:20261027T120045Z
+DTSTART;TZID=America/New_York:20261027T183000
+DTEND;TZID=America/New_York:20261027T203000
+SUMMARY:Public Work: Art\, Labor\, and the City – Artist Talk
+LOCATION:James Gallery\, CUNY Graduate Center\, Midtown South-Flatiron-Unio
+ 
+n Square
+DESCRIPTION:Artists and curators on how artist–municipal worker collabora
+ 
+tions build civic agency\, at the CUNY Graduate Center — free\, RSVP. Tic
+ 
+kets & info: https://docs.google.com/forms/d/e/1FAIpQLSdlaUPCLZSs7QVdrVRz8l
+ 
+e1Ngg9O8qjgnhrNQ7zRnM3yrBQCQ/viewform
+URL:https://docs.google.com/forms/d/e/1FAIpQLSdlaUPCLZSs7QVdrVRz8le1Ngg9O8q
+ 
+jgnhrNQ7zRnM3yrBQCQ/viewform
+END:VEVENT
+END:VCALENDAR

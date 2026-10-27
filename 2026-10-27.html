@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, October 27</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, October 27</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-27.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Rodrigo y Gabriela - OurHome Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-new-york-new-york-10-27-2026/event/000064C4C54165A8">Rodrigo y Gabriela - OurHome Tour</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Flamenco-fire guitar duo — two players sounding like a full band — in an intimate Bowery room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/rodrigo-y-gabriela-ourhome-tour-new-york-new-york-10-27-2026/event/000064C4C54165A8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Vince Staples (16 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PE8S">Vince Staples (16 and Over)</a></h3>
+<div class="meta">8:00 PM · Brooklyn Steel, Greenpoint</div>
+<p>Long Beach rap&#x27;s sharpest deadpan voice brings the hits to Brooklyn Steel.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PE8S">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Alexa Tarantino Quartet">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/alexa-tarantino-quartet-birdland-jazz-club-tickets/14195564">Alexa Tarantino Quartet</a></h3>
+<div class="meta">7:00 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>A saxophonist-led jazz night in Birdland&#x27;s classic room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/alexa-tarantino-quartet-birdland-jazz-club-tickets/14195564">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Torture Tuesday">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14343374">Torture Tuesday</a></h3>
+<div class="meta">8:00 PM · Berlin, East Village · $13.22</div>
+<p>Berlin&#x27;s weekly East Village dance party, leaning all the way into Halloween-week mood.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/torture-tuesday-berlin-tickets/14343374">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Dana and Alden (16 and Over)">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PK8z">Dana and Alden (16 and Over)</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>Twin-sibling indie-soul and sax-driven grooves at Music Hall of Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PK8z">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Aziz Ansari In The Village Underground at Comedy Cellar">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793037600">Aziz Ansari In The Village Underground at Comedy Cellar</a></h3>
+<div class="meta">6:00 PM · Comedy Cellar, Greenwich Village</div>
+<p>A rare small-room set from Ansari at the Village Underground — these go fast.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793037600">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Jessica Kirson Live in New York">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-10-27190000">Jessica Kirson Live in New York</a></h3>
+<div class="meta">7:00 PM · New York Comedy Club · $35</div>
+<p>High-energy, famously physical stand-up from one of the city&#x27;s hardest-working headliners.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-10-27190000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Nice Try ft: Michael Kosta, Emma Willmann, Ashley Austin Morris, Charles McBee, Erin Maguire, Oscar Aydin">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-emma-willmann-ashley-austin-morris-charles-mcbee-erin-maguire-oscar-aydin">Nice Try ft: Michael Kosta, Emma Willmann, Ashley Austin Morris, Charles McBee, Erin Maguire, Oscar Aydin</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $9</div>
+<p>A $9 lineup show with Michael Kosta, Emma Willmann and more — the best value in the Village tonight.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-emma-willmann-ashley-austin-morris-charles-mcbee-erin-maguire-oscar-aydin">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-8" data-name="Schmigadoon!">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-27-2026/event/Z1r9uZrrZbpZ1Ae7Ajp">Schmigadoon!</a></h3>
+<div class="meta">7:00 PM · Nederlander Theatre, Midtown-Times Square</div>
+<p>The TV musical-comedy parody lands on Broadway, all jazz hands and genre jokes.</p>
+<a class="tickets" href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-10-27-2026/event/Z1r9uZrrZbpZ1Ae7Ajp">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Buena Vista Social Club">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-27-2026/event/Z1r9uZruZqGZ1AvZ6Ay">Buena Vista Social Club</a></h3>
+<div class="meta">7:00 PM · Gerald Schoenfeld Theatre, Midtown-Times Square</div>
+<p>The Grammy-winning Cuban songbook, staged with a live band and serious dancing.</p>
+<a class="tickets" href="https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-10-27-2026/event/Z1r9uZruZqGZ1AvZ6Ay">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-10" data-name="2:22 - A Ghost Story">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfAE">2:22 - A Ghost Story</a></h3>
+<div class="meta">7:30 PM · Lucille Lortel Theatre, West Village</div>
+<p>A supernatural thriller built for the week before Halloween — jump scares with a West Village address.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfAE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Inner Child Art Nyte: Spooky Szn!">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/ahafoa96">Inner Child Art Nyte: Spooky Szn!</a></h3>
+<div class="meta">7:00 PM · Fabrik NYC, Tribeca-Civic Center · $10</div>
+<p>A no-skill-required spooky art night: make something weird, leave with a keepsake.</p>
+<a class="tickets" href="https://luma.com/ahafoa96">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="MAKE ART · open studio tuesdays">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/6by9vbes">MAKE ART · open studio tuesdays</a></h3>
+<div class="meta">5:00 PM · 347 Maujer St 2nd floor, East Williamsburg · Free</div>
+<p>A free, drop-in open studio in East Williamsburg — bring a project or start one there.</p>
+<a class="tickets" href="https://luma.com/6by9vbes">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-11" data-name="The Devils">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">6:50 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s gloriously unhinged 1971 nun drama, rarely screened — part of IFC&#x27;s late-October series.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Reality Bites">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005044-reality-bites/">Reality Bites</a></h3>
+<div class="meta">6:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Winona Ryder, Ethan Hawke and &#x27;90s slacker angst on the Metrograph screen.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005044-reality-bites/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Symbiopsychotaxiplasm: Take One">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greaves-100">Symbiopsychotaxiplasm: Take One</a></h3>
+<div class="meta">8:20 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>William Greaves&#x27;s radical 1968 doc-about-a-doc, still ahead of its time.</p>
+<a class="tickets" href="https://filmforum.org/film/symbiopsychotaxiplasm-take-one-william-greaves-100">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-15" data-name="Metamorphosis Series by x3butterfly">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/b8x20u73">Metamorphosis Series by x3butterfly</a></h3>
+<div class="meta">7:00 PM · Reforesters Laboratory, Williamsburg · $45</div>
+<p>A tasting-style evening from a Williamsburg food collective — part dinner, part experiment.</p>
+<a class="tickets" href="https://luma.com/b8x20u73">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-16" data-name="CBH Talk | Haunted Brooklyn: Ghosts, Folklore, and the Stories We Tell">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/cbh-talk-haunted-brooklyn-center-for-brooklyn-20261027-0630pm">CBH Talk | Haunted Brooklyn: Ghosts, Folklore, and the Stories We Tell</a></h3>
+<div class="meta">6:30 PM · Brooklyn Public Library, Crown Heights (North) · Free</div>
+<p>Ghost stories and folklore from the borough&#x27;s darker corners, at the library — free.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/cbh-talk-haunted-brooklyn-center-for-brooklyn-20261027-0630pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Lawrence Wright with Preet Bharara: Redemption">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/lawrence-wright-92nd-street-y-oct-27-2026">Lawrence Wright with Preet Bharara: Redemption</a></h3>
+<div class="meta">7:30 PM · 92nd Street Y, Upper East Side-Carnegie Hill · Free</div>
+<p>The Pulitzer winner talks his new book Redemption with the former U.S. Attorney.</p>
+<a class="tickets" href="https://bookevents.nyc/events/lawrence-wright-92nd-street-y-oct-27-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="RENT at 30: A Conversation with Tim Weil, Jeffrey Seller and Alan Seales">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/rent-at-30-a-conversation-with-tim-weil-jeffrey-seller-and-alan-seales-tickets-2003425237817">RENT at 30: A Conversation with Tim Weil, Jeffrey Seller and Alan Seales</a></h3>
+<div class="meta">6:00 PM · Drama Book Shop, Midtown-Times Square · Free</div>
+<p>Thirty years of La Vie Bohème: the musical&#x27;s team talks its legacy at the Drama Book Shop.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/rent-at-30-a-conversation-with-tim-weil-jeffrey-seller-and-alan-seales-tickets-2003425237817">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Chad Harbach + Leslie Jamison: The Brightness">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/chad-harbach-taffy-brodesser-akner-the-brightness-oct-27">Chad Harbach + Leslie Jamison: The Brightness</a></h3>
+<div class="meta">7:00 PM · Strand Books, Greenwich Village · $13.61</div>
+<p>Two sharp literary minds discuss Harbach&#x27;s new novel The Brightness at the Strand.</p>
+<a class="tickets" href="https://bookevents.nyc/events/chad-harbach-taffy-brodesser-akner-the-brightness-oct-27">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Brick and Mortar: The Future of the Gallery">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.co.uk/e/brick-and-mortar-the-future-of-the-gallery-tickets-2003053665434">Brick and Mortar: The Future of the Gallery</a></h3>
+<div class="meta">6:00 PM · Gazelli Art House New York, Chelsea-Hudson Yards · Free</div>
+<p>Three art-world figures debate whether the physical gallery still matters, inside Gazelli&#x27;s new Chelsea space.</p>
+<a class="tickets" href="https://www.eventbrite.co.uk/e/brick-and-mortar-the-future-of-the-gallery-tickets-2003053665434">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Public Work: Art, Labor, and the City – Artist Talk">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSdlaUPCLZSs7QVdrVRz8le1Ngg9O8qjgnhrNQ7zRnM3yrBQCQ/viewform">Public Work: Art, Labor, and the City – Artist Talk</a></h3>
+<div class="meta">6:30 PM · James Gallery, CUNY Graduate Center, Midtown South-Flatiron-Union Square · Free</div>
+<p>Artists and curators on how artist–municipal worker collaborations build civic agency, at the CUNY Graduate Center — free, RSVP.</p>
+<a class="tickets" href="https://docs.google.com/forms/d/e/1FAIpQLSdlaUPCLZSs7QVdrVRz8le1Ngg9O8qjgnhrNQ7zRnM3yrBQCQ/viewform">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-20" data-name="Headline Pasta Making">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/v79ae6hy">Headline Pasta Making</a></h3>
+<div class="meta">7:00 PM · Abigail&#x27;s Kitchen, Chinatown-Two Bridges · Free</div>
+<p>Free hands-on pasta making in Chinatown — flour, eggs, and dinner you made yourself.</p>
+<a class="tickets" href="https://luma.com/v79ae6hy">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Substack Writers’ Workshop Part I">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/jonfvewj">Substack Writers’ Workshop Part I</a></h3>
+<div class="meta">7:00 PM · Mya Coffee, Bakery and Wine Bar, Williamsburg · $20</div>
+<p>Part one of a practical Substack workshop over coffee and wine in Williamsburg.</p>
+<a class="tickets" href="https://luma.com/jonfvewj">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-22" data-name="Pawn Chess Club at Newlab">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/d6xymuwk">Pawn Chess Club at Newlab</a></h3>
+<div class="meta">6:00 PM · Newlab, Brooklyn Navy Yard · Free</div>
+<p>Casual chess at the Navy Yard — all levels, no dues, just show up and play.</p>
+<a class="tickets" href="https://luma.com/d6xymuwk">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Prediction Markets NYC: Between the Headlines">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/xrk2yiwt">Prediction Markets NYC: Between the Headlines</a></h3>
+<div class="meta">7:00 PM · Pubkey, Greenwich Village · Free</div>
+<p>Talk election odds and market mechanics over drinks at Pubkey, the Bitcoin bar.</p>
+<a class="tickets" href="https://luma.com/xrk2yiwt">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-24" data-name="New York Knicks vs. Detroit Pistons">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-detroit-pistons-new-york-new-york-10-27-2026/event/3B006511E91D862B">New York Knicks vs. Detroit Pistons</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Knicks host Detroit at the Garden — early season, still loud.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-detroit-pistons-new-york-new-york-10-27-2026/event/3B006511E91D862B">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-25" data-name="Ghosts of Gotham&#x27;s Greenwich">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125258193">Ghosts of Gotham&#x27;s Greenwich</a></h3>
+<div class="meta">7:30 PM · Meet at Washington Square Arch, 7:30pm Daily, Greenwich Village</div>
+<p>A Halloween-week ghost walk through the Village, departing Washington Square Arch.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125258193">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-26" data-name="State of AI 2026 - NYC launch event">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/soai-nyc">State of AI 2026 - NYC launch event</a></h3>
+<div class="meta">5:30 PM · Midtown South, Midtown-Times Square · Free</div>
+<p>The annual State of AI report&#x27;s NYC launch — the room where the year&#x27;s AI debate gets set.</p>
+<a class="tickets" href="https://luma.com/soai-nyc">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-27";
+const NAMES = ["Rodrigo y Gabriela - OurHome Tour", "Vince Staples (16 and Over)", "Alexa Tarantino Quartet", "Torture Tuesday", "Dana and Alden (16 and Over)", "Aziz Ansari In The Village Underground at Comedy Cellar", "Jessica Kirson Live in New York", "Nice Try ft: Michael Kosta, Emma Willmann, Ashley Austin Morris, Charles McBee, Erin Maguire, Oscar Aydin", "Schmigadoon!", "Buena Vista Social Club", "2:22 - A Ghost Story", "The Devils", "Reality Bites", "Symbiopsychotaxiplasm: Take One", "Inner Child Art Nyte: Spooky Szn!", "Metamorphosis Series by x3butterfly", "CBH Talk | Haunted Brooklyn: Ghosts, Folklore, and the Stories We Tell", "Lawrence Wright with Preet Bharara: Redemption", "RENT at 30: A Conversation with Tim Weil, Jeffrey Seller and Alan Seales", "Chad Harbach + Leslie Jamison: The Brightness", "Headline Pasta Making", "Substack Writers\u2019 Workshop Part I", "Pawn Chess Club at Newlab", "Prediction Markets NYC: Between the Headlines", "New York Knicks vs. Detroit Pistons", "Ghosts of Gotham's Greenwich", "State of AI 2026 - NYC launch event", "MAKE ART \u00b7 open studio tuesdays", "Brick and Mortar: The Future of the Gallery", "Public Work: Art, Labor, and the City \u2013 Artist Talk"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
