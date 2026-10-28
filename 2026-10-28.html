@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, October 28</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, October 28</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-28.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Harry Styles: Together, Together">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6">Harry Styles: Together, Together</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Harry Styles brings his Together, Together run to the Garden — one of the hardest tickets in town tonight.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Jeff Tweedy Solo">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/jeff-tweedy-solo-new-york-new-york-10-28-2026/event/030064C7177526DF">Jeff Tweedy Solo</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Wilco&#x27;s frontman, solo and unplugged at Town Hall — quiet songs, dry wit, and a room that suits both.</p>
+<a class="tickets" href="https://www.ticketmaster.com/jeff-tweedy-solo-new-york-new-york-10-28-2026/event/030064C7177526DF">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Robert Glasper">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note-jazz-club-tickets/15018973">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $77.79</div>
+<p>Glasper&#x27;s Robtober residency continues at the Blue Note with Meshell Ndegeocello, Isaiah Sharkey, and Chris Dave.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note-jazz-club-tickets/15018973">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="New York Philharmonic: Get Out in Concert">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oy">New York Philharmonic: Get Out in Concert</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>The Phil plays Jordan Peele&#x27;s Get Out live to picture at Geffen Hall — a horror score that earns the big room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oy">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Jazz at One: Jazz House Collective">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/jazz-at-one-jazz-house-collective-tickets-1993688906187">Jazz at One: Jazz House Collective</a></h3>
+<div class="meta">1:00 PM · Trinity Church, Financial District-Battery Park City</div>
+<p>A free midday set from the Jazz House Collective in the gorgeous nave of Trinity Church.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/jazz-at-one-jazz-house-collective-tickets-1993688906187">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Michelle Buteau">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/michelle-buteau-brooklyn-new-york-10-28-2026/event/300064BAD3758F79">Michelle Buteau</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Buteau headlines the Bell House in Brooklyn — big-energy stand-up from one of the city&#x27;s sharpest voices.</p>
+<a class="tickets" href="https://www.ticketmaster.com/michelle-buteau-brooklyn-new-york-10-28-2026/event/300064BAD3758F79">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Good Eggs ft: Mark Normand, Emma Willmann, Amos Gill, Gary Vider, Matt Ruby, Meghan Hanley">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/mark-normand-emma-willmann-amos-gill-gary-vider-matt-ruby-meghan-hanley">Good Eggs ft: Mark Normand, Emma Willmann, Amos Gill, Gary Vider, Matt Ruby, Meghan Hanley</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>The long-running underground staple at NY Comedy Club&#x27;s East Village room, with a stacked lineup and the usual surprise-drop potential.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/mark-normand-emma-willmann-amos-gill-gary-vider-matt-ruby-meghan-hanley">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="NYC’s HALLOWEEN PUNDERDOME®: Pun &amp; Pun-Costume Compuntitions – is on 10/28!">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nycs-halloween-punderdome-pun-pun-costume-compuntitions-is-on-1028-tickets-1998749270874">NYC’s HALLOWEEN PUNDERDOME®: Pun &amp; Pun-Costume Compuntitions – is on 10/28!</a></h3>
+<div class="meta">8:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $14.86</div>
+<p>The cult pun-slam goes Halloween: an all-star pun tournament plus the 12th annual pun-costume competition at littlefield.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nycs-halloween-punderdome-pun-pun-costume-compuntitions-is-on-1028-tickets-1998749270874">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Julio Torres Presents: The Cursed Amulet III">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/julio-torres-presents-the-cursed-amulet-iii-tickets-2002969188762">Julio Torres Presents: The Cursed Amulet III</a></h3>
+<div class="meta">9:00 PM · Elsewhere, East Williamsburg · From $60</div>
+<p>Torres&#x27; annual Halloween extravaganza at Elsewhere — DJs, surprise performances, and the grand midnight costume competition. 21+.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/julio-torres-presents-the-cursed-amulet-iii-tickets-2002969188762">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-9" data-name="In the Heights">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PaGU">In the Heights</a></h3>
+<div class="meta">6:00 PM · New York City Center, Hell&#x27;s Kitchen</div>
+<p>Lin-Manuel Miranda&#x27;s Washington Heights musical returns to City Center for one night — still impossible not to dance to.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PaGU">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Paranormal Activity (NY)">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A70g0v">Paranormal Activity (NY)</a></h3>
+<div class="meta">7:00 PM · August Wilson Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>The stage adaptation of the found-footage horror hit brings the scares to the August Wilson — perfect pre-Halloween timing.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A70g0v">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Rocky Horror Picture Show Live!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/the-rocky-horror-picture-show-hard-rock-cafe-times-square-tickets/14303654?REFERRAL_ID=tmfeed">The Rocky Horror Picture Show Live!</a></h3>
+<div class="meta">8:00 PM · Hard Rock Cafe, Midtown-Times Square</div>
+<p>A live Rocky Horror party at Hard Rock Times Square — fishnets encouraged, audience participation basically mandatory.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/the-rocky-horror-picture-show-hard-rock-cafe-times-square-tickets/14303654?REFERRAL_ID=tmfeed">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="An Evening With The New York Times Op-Docs 2026, Part 1">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/an-evening-with-the-new-york-times-op-docs-2026-part-1/">An Evening With The New York Times Op-Docs 2026, Part 1</a></h3>
+<div class="meta">6:30 PM · IFC Center, Greenwich Village</div>
+<p>Four acclaimed NYT Op-Docs shorts, followed by a Q&amp;A with the filmmakers and the Op-Docs team at IFC.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/an-evening-with-the-new-york-times-op-docs-2026-part-1/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="The Devils">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">8:50 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s notorious 1971 masterpiece in its new 4K restoration — Vanessa Redgrave, Oliver Reed, and absolutely nothing held back.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-14" data-name="Día de los Muertos: An Evening of Mezcal">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/dia-de-los-muertos-an-evening-of-mezcal-tickets-2002763242772">Día de los Muertos: An Evening of Mezcal</a></h3>
+<div class="meta">7:00 PM · Canyon Road, Upper East Side-Lenox Hill-Roosevelt Island · $55</div>
+<p>Six mezcals from across Mexico with a guest sommelier, hors d&#x27;oeuvres, and an ofrenda you can add a photo to.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/dia-de-los-muertos-an-evening-of-mezcal-tickets-2002763242772">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Soft Bar Wine School with Avery Gaines | Spooky Season Edition">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/soft-bar-wine-school-with-avery-gaines-spooky-season-edition-tickets-2003711982478">Soft Bar Wine School with Avery Gaines | Spooky Season Edition</a></h3>
+<div class="meta">6:00 PM · Soft Bar, Greenpoint</div>
+<p>A Halloween-edition wine class at Greenpoint&#x27;s Soft Bar — spooky pours, zero pretension.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/soft-bar-wine-school-with-avery-gaines-spooky-season-edition-tickets-2003711982478">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Boos &amp; Brews at Queue: A Halloween Beer &amp; Candy Pairing Night Out">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/boos-brews-at-queue-a-halloween-beer-candy-pairing-night-out-tickets-2002574326719">Boos &amp; Brews at Queue: A Halloween Beer &amp; Candy Pairing Night Out</a></h3>
+<div class="meta">7:00 PM · Queue Beer, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Beer and candy pairings at Queue in Carroll Gardens — the most fun you can have with a tasting flight this week.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/boos-brews-at-queue-a-halloween-beer-candy-pairing-night-out-tickets-2002574326719">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-17" data-name="Anand Giridharadas Discusses Man in the Mirror with Tara Westover">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/anand-giridharadas-central-library-dweck-20261028-0700pm">Anand Giridharadas Discusses Man in the Mirror with Tara Westover</a></h3>
+<div class="meta">7:00 PM · Brooklyn Public Library, Crown Heights (North)</div>
+<p>Giridharadas talks his propulsive new book on the Jordan Neely–Daniel Penny subway encounter, in conversation with Educated author Tara Westover.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/anand-giridharadas-central-library-dweck-20261028-0700pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Offsite: Barbara Kingsolver: Partita w/ Amor Towles">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/offsite-barbara-kingsolver-partita-w-amor-towles-tickets-1994686086781">Offsite: Barbara Kingsolver: Partita w/ Amor Towles</a></h3>
+<div class="meta">7:00 PM · St. Ann &amp; the Holy Trinity Church, Brooklyn Heights · $41.37</div>
+<p>Two Pulitzer-adjacent heavyweights in one Brooklyn church: Kingsolver on her new novel Partita, with Amor Towles asking the questions.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/offsite-barbara-kingsolver-partita-w-amor-towles-tickets-1994686086781">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Papers We Love NYC | Learning Rules: What can math tell us about language">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/xhgp3nlp">Papers We Love NYC | Learning Rules: What can math tell us about language</a></h3>
+<div class="meta">6:30 PM · Mindspace Williamsburg, Williamsburg</div>
+<p>A free evening for the paper-obsessed: what algebra, automata, and formal languages can tell us about how language works.</p>
+<a class="tickets" href="https://luma.com/xhgp3nlp">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Interview with the Vampire — 50 Years of Anne Rice’s Gothic Classic">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/interview-with-the-vampire-50-years-of-anne-rices-gothic-classic-tickets-2001006653767">Interview with the Vampire — 50 Years of Anne Rice’s Gothic Classic</a></h3>
+<div class="meta">6:00 PM · The National Arts Club, Gramercy</div>
+<p>Fifty years of Anne Rice&#x27;s gothic classic, celebrated at the National Arts Club — capes optional, swooning likely.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/interview-with-the-vampire-50-years-of-anne-rices-gothic-classic-tickets-2001006653767">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-21" data-name="Hyperion x Reading Rhythms: A Halloween Reading Party">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/reading-ee1h">Hyperion x Reading Rhythms: A Halloween Reading Party</a></h3>
+<div class="meta">6:30 PM · 10-15 43rd Ave, Long Island City-Hunters Point · $25</div>
+<p>A candlelit rooftop reading party in LIC: costumes, candy, themed drinks, quiet reading blocks, and free books for the first 50 readers.</p>
+<a class="tickets" href="https://luma.com/reading-ee1h">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Live Space Show: Voyage to the Center of the Milky Way">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/live-space-show-voyage-to-the-center-of-the-milky-way-tickets-2003455774152">Live Space Show: Voyage to the Center of the Milky Way</a></h3>
+<div class="meta">3:30 PM · CCNY Planetarium, Manhattanville-West Harlem</div>
+<p>A live guided tour of the galaxy at the CCNY Planetarium — an afternoon escape hatch from the city.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/live-space-show-voyage-to-the-center-of-the-milky-way-tickets-2003455774152">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="SKULLPANDA Off Mode Experience pop-up">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://oneinchpunch.net/p/skullpanda-opens-a-free-pop-up-dedicated-to-doing-nothing-in-manhattan">SKULLPANDA Off Mode Experience pop-up</a></h3>
+<div class="meta">All day · 423 W 14th St, Chelsea-Hudson Yards · Free</div>
+<p>Hand find: Pop Mart&#x27;s free SKULLPANDA pop-up at 423 W 14th St — three immersive rooms built around doing nothing, plus NYC-exclusive collectibles in the shop. Walk in, no ticket needed.</p>
+<a class="tickets" href="https://oneinchpunch.net/p/skullpanda-opens-a-free-pop-up-dedicated-to-doing-nothing-in-manhattan">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-23" data-name="Pasta Making &amp; Cheese Tasting">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/pasta-making-cheese-tasting-tickets-1996472989455">Pasta Making &amp; Cheese Tasting</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village · $92.77</div>
+<p>Make pasta dough with a Murray&#x27;s expert, taste three cheeses and pairings, and take your handmade pasta home to cook.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/pasta-making-cheese-tasting-tickets-1996472989455">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-24" data-name="New York City FC vs. Atlanta United FC">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-city-fc-vs-atlanta-queens-new-york-10-28-2026/event/1D00652AE3E0EA35">New York City FC vs. Atlanta United FC</a></h3>
+<div class="meta">7:30 PM · Citi Field, Flushing Meadows-Corona Park</div>
+<p>NYCFC hosts Atlanta at Citi Field under the lights — playoff-race soccer in Queens.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-city-fc-vs-atlanta-queens-new-york-10-28-2026/event/1D00652AE3E0EA35">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-25" data-name="Board Game Wednesdays">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/board-game-wednesdays-tickets-1999323740127">Board Game Wednesdays</a></h3>
+<div class="meta">6:00 PM · Stavros Niarchos Foundation Library, Midtown-Times Square</div>
+<p>Free board games at the Stavros Niarchos Library — show up, grab a table, meet strangers who also love cardboard.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/board-game-wednesdays-tickets-1999323740127">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-28";
+const NAMES = ["Harry Styles: Together, Together", "Jeff Tweedy Solo", "Robert Glasper", "New York Philharmonic: Get Out in Concert", "Jazz at One: Jazz House Collective", "Michelle Buteau", "Good Eggs ft: Mark Normand, Emma Willmann, Amos Gill, Gary Vider, Matt Ruby, Meghan Hanley", "NYC\u2019s HALLOWEEN PUNDERDOME\u00ae: Pun & Pun-Costume Compuntitions \u2013 is on 10/28!", "Julio Torres Presents: The Cursed Amulet III", "In the Heights", "Paranormal Activity (NY)", "The Rocky Horror Picture Show Live!", "An Evening With The New York Times Op-Docs 2026, Part 1", "The Devils", "D\u00eda de los Muertos: An Evening of Mezcal", "Soft Bar Wine School with Avery Gaines | Spooky Season Edition", "Boos & Brews at Queue: A Halloween Beer & Candy Pairing Night Out", "Anand Giridharadas Discusses Man in the Mirror with Tara Westover", "Offsite: Barbara Kingsolver: Partita w/ Amor Towles", "Papers We Love NYC | Learning Rules: What can math tell us about language", "Interview with the Vampire \u2014 50 Years of Anne Rice\u2019s Gothic Classic", "Hyperion x Reading Rhythms: A Halloween Reading Party", "Live Space Show: Voyage to the Center of the Milky Way", "Pasta Making & Cheese Tasting", "New York City FC vs. Atlanta United FC", "Board Game Wednesdays", "SKULLPANDA Off Mode Experience pop-up"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

@@ -1,0 +1,449 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261028-0@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:Harry Styles: Together\, Together
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Harry Styles brings his Together\, Together run to the Garden 
+ 
+ one of the hardest tickets in town tonight. Tickets & info: https://www.
+ 
+ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-202
+ 
+6/event/3B00643506BF83B6
+URL:https://www.ticketmaster.com/harry-styles-together-together-new-york-ne
+ 
+w-york-10-28-2026/event/3B00643506BF83B6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-1@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:Jeff Tweedy Solo
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Wilco's frontman\, solo and unplugged at Town Hall — quiet so
+ 
+ngs\, dry wit\, and a room that suits both. Tickets & info: https://www.tic
+ 
+ketmaster.com/jeff-tweedy-solo-new-york-new-york-10-28-2026/event/030064C71
+ 
+77526DF
+URL:https://www.ticketmaster.com/jeff-tweedy-solo-new-york-new-york-10-28-2
+ 
+026/event/030064C7177526DF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-2@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Glasper's Robtober residency continues at the Blue Note with Me
+ 
+shell Ndegeocello\, Isaiah Sharkey\, and Chris Dave. Tickets & info: https:
+ 
+//www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note
+ 
+-jazz-club-tickets/15018973
+URL:https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello
+ 
+-blue-note-jazz-club-tickets/15018973
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-3@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T193000
+DTEND;TZID=America/New_York:20261028T213000
+SUMMARY:New York Philharmonic: Get Out in Concert
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:The Phil plays Jordan Peele's Get Out live to picture at Geffen
+ 
+ Hall — a horror score that earns the big room. Tickets & info: https://w
+ 
+ww.ticketmaster.com/event/Z7r9jZ1AAZ-oy
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-oy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-4@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T130000
+DTEND;TZID=America/New_York:20261028T150000
+SUMMARY:Jazz at One: Jazz House Collective
+LOCATION:Trinity Church\, Financial District-Battery Park City
+DESCRIPTION:A free midday set from the Jazz House Collective in the gorgeou
+ 
+s nave of Trinity Church. Tickets & info: https://www.eventbrite.com/e/jazz
+ 
+-at-one-jazz-house-collective-tickets-1993688906187
+URL:https://www.eventbrite.com/e/jazz-at-one-jazz-house-collective-tickets-
+ 
+1993688906187
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-5@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T193000
+DTEND;TZID=America/New_York:20261028T213000
+SUMMARY:Michelle Buteau
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Buteau headlines the Bell House in Brooklyn — big-energy stan
+ 
+d-up from one of the city's sharpest voices. Tickets & info: https://www.ti
+ 
+cketmaster.com/michelle-buteau-brooklyn-new-york-10-28-2026/event/300064BAD
+ 
+3758F79
+URL:https://www.ticketmaster.com/michelle-buteau-brooklyn-new-york-10-28-20
+ 
+26/event/300064BAD3758F79
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-6@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:Good Eggs ft: Mark Normand\, Emma Willmann\, Amos Gill\, Gary Vider
+ 
+\, Matt Ruby\, Meghan Hanley
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:The long-running underground staple at NY Comedy Club's East Vi
+ 
+llage room\, with a stacked lineup and the usual surprise-drop potential. T
+ 
+ickets & info: https://newyorkcomedyclub.com/events/mark-normand-emma-willm
+ 
+ann-amos-gill-gary-vider-matt-ruby-meghan-hanley
+URL:https://newyorkcomedyclub.com/events/mark-normand-emma-willmann-amos-gi
+ 
+ll-gary-vider-matt-ruby-meghan-hanley
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-7@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:NYC’s HALLOWEEN PUNDERDOME®: Pun & Pun-Costume Compuntitions –
+ 
+ is on 10/28!
+LOCATION:littlefield\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The cult pun-slam goes Halloween: an all-star pun tournament pl
+ 
+us the 12th annual pun-costume competition at littlefield. Tickets & info: 
+ 
+https://www.eventbrite.com/e/nycs-halloween-punderdome-pun-pun-costume-comp
+ 
+untitions-is-on-1028-tickets-1998749270874
+URL:https://www.eventbrite.com/e/nycs-halloween-punderdome-pun-pun-costume-
+ 
+compuntitions-is-on-1028-tickets-1998749270874
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-8@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T210000
+DTEND;TZID=America/New_York:20261028T230000
+SUMMARY:Julio Torres Presents: The Cursed Amulet III
+LOCATION:Elsewhere\, East Williamsburg
+DESCRIPTION:Torres' annual Halloween extravaganza at Elsewhere — DJs\, su
+ 
+rprise performances\, and the grand midnight costume competition. 21+. Tick
+ 
+ets & info: https://www.eventbrite.com/e/julio-torres-presents-the-cursed-a
+ 
+mulet-iii-tickets-2002969188762
+URL:https://www.eventbrite.com/e/julio-torres-presents-the-cursed-amulet-ii
+ 
+i-tickets-2002969188762
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-9@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T180000
+DTEND;TZID=America/New_York:20261028T200000
+SUMMARY:In the Heights
+LOCATION:New York City Center\, Hell's Kitchen
+DESCRIPTION:Lin-Manuel Miranda's Washington Heights musical returns to City
+ 
+ Center for one night — still impossible not to dance to. Tickets & info:
+ 
+ https://www.ticketmaster.com/event/Z7r9jZ1A7PaGU
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PaGU
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-10@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T190000
+DTEND;TZID=America/New_York:20261028T210000
+SUMMARY:Paranormal Activity (NY)
+LOCATION:August Wilson Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The stage adaptation of the found-footage horror hit brings the
+ 
+ scares to the August Wilson — perfect pre-Halloween timing. Tickets & in
+ 
+fo: https://www.ticketmaster.com/event/Z7r9jZ1A70g0v
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70g0v
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-11@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T200000
+DTEND;TZID=America/New_York:20261028T220000
+SUMMARY:The Rocky Horror Picture Show Live!
+LOCATION:Hard Rock Cafe\, Midtown-Times Square
+DESCRIPTION:A live Rocky Horror party at Hard Rock Times Square — fishnet
+ 
+s encouraged\, audience participation basically mandatory. Tickets & info: 
+ 
+https://www.ticketweb.com/event/the-rocky-horror-picture-show-hard-rock-caf
+ 
+e-times-square-tickets/14303654?REFERRAL_ID=tmfeed
+URL:https://www.ticketweb.com/event/the-rocky-horror-picture-show-hard-rock
+ 
+-cafe-times-square-tickets/14303654?REFERRAL_ID=tmfeed
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-12@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T183000
+DTEND;TZID=America/New_York:20261028T203000
+SUMMARY:An Evening With The New York Times Op-Docs 2026\, Part 1
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Four acclaimed NYT Op-Docs shorts\, followed by a Q&A with the 
+ 
+filmmakers and the Op-Docs team at IFC. Tickets & info: https://www.ifccent
+ 
+er.com/films/an-evening-with-the-new-york-times-op-docs-2026-part-1/
+URL:https://www.ifccenter.com/films/an-evening-with-the-new-york-times-op-d
+ 
+ocs-2026-part-1/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-13@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T205000
+DTEND;TZID=America/New_York:20261028T225000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's notorious 1971 masterpiece in its new 4K restorat
+ 
+ion — Vanessa Redgrave\, Oliver Reed\, and absolutely nothing held back. 
+ 
+Tickets & info: https://www.ifccenter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-14@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T190000
+DTEND;TZID=America/New_York:20261028T210000
+SUMMARY:Día de los Muertos: An Evening of Mezcal
+LOCATION:Canyon Road\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Six mezcals from across Mexico with a guest sommelier\, hors d'
+ 
+oeuvres\, and an ofrenda you can add a photo to. Tickets & info: https://ww
+ 
+w.eventbrite.com/e/dia-de-los-muertos-an-evening-of-mezcal-tickets-20027632
+ 
+42772
+URL:https://www.eventbrite.com/e/dia-de-los-muertos-an-evening-of-mezcal-ti
+ 
+ckets-2002763242772
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-15@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T180000
+DTEND;TZID=America/New_York:20261028T200000
+SUMMARY:Soft Bar Wine School with Avery Gaines | Spooky Season Edition
+LOCATION:Soft Bar\, Greenpoint
+DESCRIPTION:A Halloween-edition wine class at Greenpoint's Soft Bar — spo
+ 
+oky pours\, zero pretension. Tickets & info: https://www.eventbrite.com/e/s
+ 
+oft-bar-wine-school-with-avery-gaines-spooky-season-edition-tickets-2003711
+ 
+982478
+URL:https://www.eventbrite.com/e/soft-bar-wine-school-with-avery-gaines-spo
+ 
+oky-season-edition-tickets-2003711982478
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-16@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T190000
+DTEND;TZID=America/New_York:20261028T210000
+SUMMARY:Boos & Brews at Queue: A Halloween Beer & Candy Pairing Night Out
+LOCATION:Queue Beer\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Beer and candy pairings at Queue in Carroll Gardens — the mos
+ 
+t fun you can have with a tasting flight this week. Tickets & info: https:/
+ 
+/www.eventbrite.com/e/boos-brews-at-queue-a-halloween-beer-candy-pairing-ni
+ 
+ght-out-tickets-2002574326719
+URL:https://www.eventbrite.com/e/boos-brews-at-queue-a-halloween-beer-candy
+ 
+-pairing-night-out-tickets-2002574326719
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-17@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T190000
+DTEND;TZID=America/New_York:20261028T210000
+SUMMARY:Anand Giridharadas Discusses Man in the Mirror with Tara Westover
+LOCATION:Brooklyn Public Library\, Crown Heights (North)
+DESCRIPTION:Giridharadas talks his propulsive new book on the Jordan Neely
+ 
+Daniel Penny subway encounter\, in conversation with Educated author Tara
+ 
+ Westover. Tickets & info: https://www.bklynlibrary.org/calendar/anand-giri
+ 
+dharadas-central-library-dweck-20261028-0700pm
+URL:https://www.bklynlibrary.org/calendar/anand-giridharadas-central-librar
+ 
+y-dweck-20261028-0700pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-18@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T190000
+DTEND;TZID=America/New_York:20261028T210000
+SUMMARY:Offsite: Barbara Kingsolver: Partita w/ Amor Towles
+LOCATION:St. Ann & the Holy Trinity Church\, Brooklyn Heights
+DESCRIPTION:Two Pulitzer-adjacent heavyweights in one Brooklyn church: King
+ 
+solver on her new novel Partita\, with Amor Towles asking the questions. Ti
+ 
+ckets & info: https://www.eventbrite.com/e/offsite-barbara-kingsolver-parti
+ 
+ta-w-amor-towles-tickets-1994686086781
+URL:https://www.eventbrite.com/e/offsite-barbara-kingsolver-partita-w-amor-
+ 
+towles-tickets-1994686086781
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-19@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T183000
+DTEND;TZID=America/New_York:20261028T203000
+SUMMARY:Papers We Love NYC | Learning Rules: What can math tell us about la
+ 
+nguage
+LOCATION:Mindspace Williamsburg\, Williamsburg
+DESCRIPTION:A free evening for the paper-obsessed: what algebra\, automata\
+ 
+, and formal languages can tell us about how language works. Tickets & info
+ 
+: https://luma.com/xhgp3nlp
+URL:https://luma.com/xhgp3nlp
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-20@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T180000
+DTEND;TZID=America/New_York:20261028T200000
+SUMMARY:Interview with the Vampire — 50 Years of Anne Rice’s Gothic Cla
+ 
+ssic
+LOCATION:The National Arts Club\, Gramercy
+DESCRIPTION:Fifty years of Anne Rice's gothic classic\, celebrated at the N
+ 
+ational Arts Club — capes optional\, swooning likely. Tickets & info: htt
+ 
+ps://www.eventbrite.com/e/interview-with-the-vampire-50-years-of-anne-rices
+ 
+-gothic-classic-tickets-2001006653767
+URL:https://www.eventbrite.com/e/interview-with-the-vampire-50-years-of-ann
+ 
+e-rices-gothic-classic-tickets-2001006653767
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-21@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T183000
+DTEND;TZID=America/New_York:20261028T203000
+SUMMARY:Hyperion x Reading Rhythms: A Halloween Reading Party
+LOCATION:10-15 43rd Ave\, Long Island City-Hunters Point
+DESCRIPTION:A candlelit rooftop reading party in LIC: costumes\, candy\, th
+ 
+emed drinks\, quiet reading blocks\, and free books for the first 50 reader
+ 
+s. Tickets & info: https://luma.com/reading-ee1h
+URL:https://luma.com/reading-ee1h
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-22@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T153000
+DTEND;TZID=America/New_York:20261028T173000
+SUMMARY:Live Space Show: Voyage to the Center of the Milky Way
+LOCATION:CCNY Planetarium\, Manhattanville-West Harlem
+DESCRIPTION:A live guided tour of the galaxy at the CCNY Planetarium — an
+ 
+ afternoon escape hatch from the city. Tickets & info: https://www.eventbri
+ 
+te.com/e/live-space-show-voyage-to-the-center-of-the-milky-way-tickets-2003
+ 
+455774152
+URL:https://www.eventbrite.com/e/live-space-show-voyage-to-the-center-of-th
+ 
+e-milky-way-tickets-2003455774152
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-23@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T183000
+DTEND;TZID=America/New_York:20261028T203000
+SUMMARY:Pasta Making & Cheese Tasting
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Make pasta dough with a Murray's expert\, taste three cheeses a
+ 
+nd pairings\, and take your handmade pasta home to cook. Tickets & info: ht
+ 
+tps://www.eventbrite.com/e/pasta-making-cheese-tasting-tickets-199647298945
+ 
+5
+URL:https://www.eventbrite.com/e/pasta-making-cheese-tasting-tickets-199647
+ 
+2989455
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-24@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T193000
+DTEND;TZID=America/New_York:20261028T213000
+SUMMARY:New York City FC vs. Atlanta United FC
+LOCATION:Citi Field\, Flushing Meadows-Corona Park
+DESCRIPTION:NYCFC hosts Atlanta at Citi Field under the lights — playoff-
+ 
+race soccer in Queens. Tickets & info: https://www.ticketmaster.com/new-yor
+ 
+k-city-fc-vs-atlanta-queens-new-york-10-28-2026/event/1D00652AE3E0EA35
+URL:https://www.ticketmaster.com/new-york-city-fc-vs-atlanta-queens-new-yor
+ 
+k-10-28-2026/event/1D00652AE3E0EA35
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261028-25@concierge
+DTSTAMP:20261028T120037Z
+DTSTART;TZID=America/New_York:20261028T180000
+DTEND;TZID=America/New_York:20261028T200000
+SUMMARY:Board Game Wednesdays
+LOCATION:Stavros Niarchos Foundation Library\, Midtown-Times Square
+DESCRIPTION:Free board games at the Stavros Niarchos Library — show up\, 
+ 
+grab a table\, meet strangers who also love cardboard. Tickets & info: http
+ 
+s://www.eventbrite.com/e/board-game-wednesdays-tickets-1999323740127
+URL:https://www.eventbrite.com/e/board-game-wednesdays-tickets-199932374012
+ 
+7
+END:VEVENT
+END:VCALENDAR
