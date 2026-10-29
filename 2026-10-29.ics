@@ -1,0 +1,451 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261029-0@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Glasper's Robtober residency rolls on at the Blue Note with Mes
+ 
+hell Ndegeocello\, Isaiah Sharkey and Chris Dave — a supergroup night in 
+ 
+the Village's most storied jazz room. Tickets & info: https://www.ticketweb
+ 
+.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note-jazz-club-tick
+ 
+ets/15019003
+URL:https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello
+ 
+-blue-note-jazz-club-tickets/15019003
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-1@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:The Barr Brothers
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Montreal's Barr Brothers bring their warm\, rootsy folk-rock ba
+ 
+ck to the Bowery Ballroom. Tickets & info: https://www.ticketmaster.com/the
+ 
+-barr-brothers-new-york-new-york-10-29-2026/event/000064CFAE96C0B5
+URL:https://www.ticketmaster.com/the-barr-brothers-new-york-new-york-10-29-
+ 
+2026/event/000064CFAE96C0B5
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-2@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T193000
+DTEND;TZID=America/New_York:20261029T213000
+SUMMARY:New York Philharmonic: Get Out in Concert
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:The Phil performs the Get Out score live as the film plays at G
+ 
+effen Hall — creepy\, classy\, and very Halloween-week. Tickets & info: h
+ 
+ttps://www.ticketmaster.com/event/Z7r9jZ1AAZ-3Z
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3Z
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-3@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:HARBOUR
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:Cincinnati indie-rockers HARBOUR bring their anthemic\, singalo
+ 
+ng set to Gramercy Theatre. Tickets & info: https://www.ticketmaster.com/ha
+ 
+rbour-new-york-new-york-10-29-2026/event/000064D6BC6DFA85
+URL:https://www.ticketmaster.com/harbour-new-york-new-york-10-29-2026/event
+ 
+/000064D6BC6DFA85
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-4@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T213000
+DTEND;TZID=America/New_York:20261029T233000
+SUMMARY:Ron Carter's Foursight Quartet
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Jazz legend Ron Carter leads his Foursight Quartet at Birdland 
+ 
+— still swinging\, still essential. Tickets & info: https://www.ticketweb
+ 
+.com/event/ron-carters-foursight-quartet-birdland-jazz-club-tickets/1422395
+ 
+4
+URL:https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-
+ 
+jazz-club-tickets/14223954
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-5@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:The Hails
+LOCATION:Elsewhere\, Bushwick (West)
+DESCRIPTION:Brooklyn indie outfit The Hails headline Elsewhere's Hall with 
+ 
+The Ocho — a loud\, sweaty Bushwick Thursday. Tickets & info: https://www
+ 
+.eventbrite.com/e/the-hails-the-ocho-tickets-1992166767429
+URL:https://www.eventbrite.com/e/the-hails-the-ocho-tickets-1992166767429
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-6@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T204500
+DTEND;TZID=America/New_York:20261029T224500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Petey DeAbreu\, Mike 
+ 
+Yard\, Gregg Rogell\, Erin Maguire & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic MacDougal Street room: Petey DeAbreu\, Mike Yard\, 
+ 
+Gregg Rogell\, Erin Maguire and more\, plus the usual surprise drop-ins. Tw
+ 
+o-item minimum\, phones away. Tickets & info: https://www.comedycellar.com/
+ 
+reservations-newyork/?showid=1793306700
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793306700
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-7@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:Corinne Fisher\, Mike Britt\, Max Antonucci\, James Mattern
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Four sharp downtown comics — Corinne Fisher\, Mike Britt\, Ma
+ 
+x Antonucci and James Mattern — on one East Village bill. Tickets & info:
+ 
+ https://newyorkcomedyclub.com/events/corinne-fisher-mike-britt-max-antonuc
+ 
+ci-james-mattern
+URL:https://newyorkcomedyclub.com/events/corinne-fisher-mike-britt-max-anto
+ 
+nucci-james-mattern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-8@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:6PM Weekday Open Mics @ Eastville Comedy
+LOCATION:Eastville Comedy Club
+DESCRIPTION:See tomorrow's headliners tonight\, raw: Eastville's weekday op
+ 
+en mic\, $10 including a soda\, popcorn or snack. Tickets & info: https://w
+ 
+ww.eastvillecomedy.com/events/6pm-weekday-open-mics-eastville-comedy-2026-1
+ 
+0-29180000
+URL:https://www.eastvillecomedy.com/events/6pm-weekday-open-mics-eastville-
+ 
+comedy-2026-10-29180000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-9@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T193000
+DTEND;TZID=America/New_York:20261029T213000
+SUMMARY:In the Heights
+LOCATION:New York City Center\, Hell's Kitchen
+DESCRIPTION:Lin-Manuel Miranda's Washington Heights musical returns to City
+ 
+ Center — the rare revival that feels like a homecoming. Tickets & info: 
+ 
+https://www.ticketmaster.com/event/Z7r9jZ1A7PaGM
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PaGM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-10@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T193000
+DTEND;TZID=America/New_York:20261029T213000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's unhinged Mary Todd Lincoln comedy is still the fu
+ 
+nniest ticket on Broadway. Tickets & info: https://www.ticketmaster.com/oh-
+ 
+mary-new-york-new-york-10-29-2026/event/Z1r9uZruZqGZ17J9OU
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-29-2026/event
+ 
+/Z1r9uZruZqGZ17J9OU
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-11@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T193000
+DTEND;TZID=America/New_York:20261029T213000
+SUMMARY:2:22 - A Ghost Story
+LOCATION:Lucille Lortel Theatre\, West Village
+DESCRIPTION:A supernatural thriller built for Halloween week — a couple\,
+ 
+ a new house\, and something that shows up at 2:22 AM. Tickets & info: http
+ 
+s://www.ticketmaster.com/event/Z7r9jZ1AAZfAt
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZfAt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-12@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:Wunderkammer: A Taxidermy Showcase and Competition
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:A taxidermy showcase and competition at the Bell House — dead
+ 
+ things\, live crowd\, very Brooklyn Halloween. Tickets & info: https://www
+ 
+.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brookly
+ 
+n-new-york-10-29-2026/event/3000650B12927DCC
+URL:https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-comp
+ 
+etition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-13@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T214000
+DTEND;TZID=America/New_York:20261029T234000
+SUMMARY:Rosemary's Baby
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Polanski's slow-burn Satanic-panic classic on 35mm in Chinatown
+ 
+ — the perfect late show two nights before Halloween. Tickets & info: htt
+ 
+ps://metrograph.com/film/9999001188-rosemarys-baby/
+URL:https://metrograph.com/film/9999001188-rosemarys-baby/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-14@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T185000
+DTEND;TZID=America/New_York:20261029T205000
+SUMMARY:The Age of Innocence
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Scorsese's ravishing Wharton adaptation on 35mm — corsets\, l
+ 
+onging\, and some of the most beautiful compositions of his career. Tickets
+ 
+ & info: https://metrograph.com/film/9999000057-the-age-of-innocence/
+URL:https://metrograph.com/film/9999000057-the-age-of-innocence/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-15@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T202000
+DTEND;TZID=America/New_York:20261029T222000
+SUMMARY:The Harder They Come
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Jimmy Cliff's reggae outlaw classic on the big screen at Film F
+ 
+orum\, soundtrack cranked. Tickets & info: https://filmforum.org/film/the-h
+ 
+arder-they-come
+URL:https://filmforum.org/film/the-harder-they-come
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-16@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:The Social Reckoning
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Aaron Sorkin's Facebook-whistleblower sequel at Nitehawk\, with
+ 
+ a Zuckerburger and banana daiquiri pairing if you're feeling thematic. Tic
+ 
+kets & info: https://nitehawkcinema.com/williamsburg/movies/the-social-reck
+ 
+oning/
+URL:https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-17@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Opening for Sống: Photographs by Ocean Vuong
+LOCATION:20 Cooper Square Gallery\, Greenwich Village
+DESCRIPTION:The opening reception for Ocean Vuong's first NYC photography s
+ 
+how — two decades of images on loss\, labor and kinship. Free\, registrat
+ 
+ion required. Tickets & info: https://www.eventbrite.com/e/opening-for-song
+ 
+-photographs-by-ocean-vuong-tickets-2001221041005
+URL:https://www.eventbrite.com/e/opening-for-song-photographs-by-ocean-vuon
+ 
+g-tickets-2001221041005
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-18@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:LaJuné McMillian: To See for Oneself
+LOCATION:bitforms gallery\, Lower East Side
+DESCRIPTION:A solo show at bitforms gallery where new-media artist LaJuné 
+ 
+McMillian explores AI\, embodiment and ecological regeneration through imme
+ 
+rsive worldbuilding. Free. Tickets & info: https://luma.com/fscywwqo
+URL:https://luma.com/fscywwqo
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-19@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Taking Up Space - Gallery Hop
+LOCATION:Morgan Presents\, Chelsea-Hudson Yards
+DESCRIPTION:A curated group hop through 3–4 Chelsea galleries centering m
+ 
+inority artists and minority-owned spaces\, ending with discounted drinks a
+ 
+t the Tippler. Tickets & info: https://luma.com/54bpkbhm
+URL:https://luma.com/54bpkbhm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-20@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T183000
+DTEND;TZID=America/New_York:20261029T203000
+SUMMARY:From The Caves: Murray's Cheeses & Red Wine Pairing
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Cave-aged cheeses and red wine in the Bleecker Street shop — 
+ 
+a masterclass in funk\, with pours to match. Sales end soon. Tickets & info
+ 
+: https://www.eventbrite.com/e/from-the-caves-murrays-cheeses-red-wine-pair
+ 
+ing-tickets-1996475168974
+URL:https://www.eventbrite.com/e/from-the-caves-murrays-cheeses-red-wine-pa
+ 
+iring-tickets-1996475168974
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-21@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Gurleen Pannu: Monster (IN HINDI)
+LOCATION:New York Comedy Club
+DESCRIPTION:Gurleen Pannu brings her high-energy Hindi stand-up hour Monste
+ 
+r to the New York Comedy Club's Midtown room. Tickets & info: https://newyo
+ 
+rkcomedyclub.com/events/gurleen-pannu-monster
+URL:https://newyorkcomedyclub.com/events/gurleen-pannu-monster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-22@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:Brotaku
+LOCATION:Eastville Comedy Club
+DESCRIPTION:Eastville's anime-and-comedy mashup night in Brooklyn — stand
+ 
+-up from the city's otaku scene\, $18. Tickets & info: https://www.eastvill
+ 
+ecomedy.com/events/brotaku-1
+URL:https://www.eastvillecomedy.com/events/brotaku-1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-23@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:Planet X\, Killer Asteroids & Other Things Lurking in Space
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Carnegie Science's spooky social at Caveat: astronomer Scott Sh
+ 
+eppard on Planet X\, killer asteroids and the Goblin\, plus trivia and a co
+ 
+stume contest. Tickets & info: https://www.eventbrite.com/e/planet-x-killer
+ 
+-asteroids-other-things-lurking-in-space-tickets-1999048189949
+URL:https://www.eventbrite.com/e/planet-x-killer-asteroids-other-things-lur
+ 
+king-in-space-tickets-1999048189949
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-24@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T183000
+DTEND;TZID=America/New_York:20261029T203000
+SUMMARY:Fine Objects Society × Young Victorians Mixer
+LOCATION:Arader Galleries\, Upper East Side
+DESCRIPTION:Antiques nerds and history lovers mingle among 18th- and 19th-c
+ 
+entury natural-history art on the Upper East Side. Free with registration. 
+ 
+Tickets & info: https://vicsocny.org/calendar/fine-objects-society-x-young-
+ 
+victorians-mixer/
+URL:https://vicsocny.org/calendar/fine-objects-society-x-young-victorians-m
+ 
+ixer/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-25@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Fall Festival at Lakeside
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Prospect Park's fall festival at Lakeside — pumpkins\, a corn
+ 
+ maze\, carnival games and the Haunted Hotel after dark\, family-friendly a
+ 
+nd in peak foliage season. Tickets & info: https://www.prospectpark.org/eve
+ 
+nt/fall-festival-at-lakeside-18/2026-10-29/
+URL:https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-10
+ 
+-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-26@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T183000
+DTEND;TZID=America/New_York:20261029T203000
+SUMMARY:Chinese / HK Mahjong on the Upper West Side! (Thursday)
+LOCATION:The Throwback\, Upper West Side (Central)
+DESCRIPTION:Weekly Chinese/HK mahjong on the Upper West Side — all levels
+ 
+ welcome\, points optional\, full bar and menu at the venue. Tickets & info
+ 
+: https://luma.com/8fl876tc
+URL:https://luma.com/8fl876tc
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-27@concierge
+DTSTAMP:20261029T120517Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:No. 08 — Murder Mystery: A Halloween Affair 🕯️🖤
+LOCATION:Loft on 5th\, Midtown South-Flatiron-Union Square
+DESCRIPTION:A members-only masquerade murder mystery in a Flatiron loft: a 
+ 
+character on arrival\, secrets all night\, open bar included. Tickets & inf
+ 
+o: https://luma.com/8yuprmdr
+URL:https://luma.com/8yuprmdr
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Thursday, October 29</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Thursday, October 29</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-29.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Robert Glasper">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note-jazz-club-tickets/15019003">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $77.79</div>
+<p>Glasper&#x27;s Robtober residency rolls on at the Blue Note with Meshell Ndegeocello, Isaiah Sharkey and Chris Dave — a supergroup night in the Village&#x27;s most storied jazz room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello-blue-note-jazz-club-tickets/15019003">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="The Barr Brothers">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-barr-brothers-new-york-new-york-10-29-2026/event/000064CFAE96C0B5">The Barr Brothers</a></h3>
+<div class="meta">8:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Montreal&#x27;s Barr Brothers bring their warm, rootsy folk-rock back to the Bowery Ballroom.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-barr-brothers-new-york-new-york-10-29-2026/event/000064CFAE96C0B5">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="New York Philharmonic: Get Out in Concert">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3Z">New York Philharmonic: Get Out in Concert</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>The Phil performs the Get Out score live as the film plays at Geffen Hall — creepy, classy, and very Halloween-week.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3Z">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="HARBOUR">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harbour-new-york-new-york-10-29-2026/event/000064D6BC6DFA85">HARBOUR</a></h3>
+<div class="meta">7:00 PM · Gramercy Theatre, Gramercy</div>
+<p>Cincinnati indie-rockers HARBOUR bring their anthemic, singalong set to Gramercy Theatre.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harbour-new-york-new-york-10-29-2026/event/000064D6BC6DFA85">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Ron Carter&#x27;s Foursight Quartet">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-jazz-club-tickets/14223954">Ron Carter&#x27;s Foursight Quartet</a></h3>
+<div class="meta">9:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Jazz legend Ron Carter leads his Foursight Quartet at Birdland — still swinging, still essential.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-jazz-club-tickets/14223954">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="The Hails">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-hails-the-ocho-tickets-1992166767429">The Hails</a></h3>
+<div class="meta">7:00 PM · Elsewhere, Bushwick (West) · $25</div>
+<p>Brooklyn indie outfit The Hails headline Elsewhere&#x27;s Hall with The Ocho — a loud, sweaty Bushwick Thursday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-hails-the-ocho-tickets-1992166767429">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Stand-up at Comedy Cellar (MacDougal Street): Petey DeAbreu, Mike Yard, Gregg Rogell, Erin Maguire &amp; more">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793306700">Stand-up at Comedy Cellar (MacDougal Street): Petey DeAbreu, Mike Yard, Gregg Rogell, Erin Maguire &amp; more</a></h3>
+<div class="meta">8:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · $18</div>
+<p>The classic MacDougal Street room: Petey DeAbreu, Mike Yard, Gregg Rogell, Erin Maguire and more, plus the usual surprise drop-ins. Two-item minimum, phones away.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793306700">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Corinne Fisher, Mike Britt, Max Antonucci, James Mattern">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/corinne-fisher-mike-britt-max-antonucci-james-mattern">Corinne Fisher, Mike Britt, Max Antonucci, James Mattern</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $20</div>
+<p>Four sharp downtown comics — Corinne Fisher, Mike Britt, Max Antonucci and James Mattern — on one East Village bill.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/corinne-fisher-mike-britt-max-antonucci-james-mattern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="6PM Weekday Open Mics @ Eastville Comedy">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eastvillecomedy.com/events/6pm-weekday-open-mics-eastville-comedy-2026-10-29180000">6PM Weekday Open Mics @ Eastville Comedy</a></h3>
+<div class="meta">6:00 PM · Eastville Comedy Club · $10</div>
+<p>See tomorrow&#x27;s headliners tonight, raw: Eastville&#x27;s weekday open mic, $10 including a soda, popcorn or snack.</p>
+<a class="tickets" href="https://www.eastvillecomedy.com/events/6pm-weekday-open-mics-eastville-comedy-2026-10-29180000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Gurleen Pannu: Monster (IN HINDI)">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/gurleen-pannu-monster">Gurleen Pannu: Monster (IN HINDI)</a></h3>
+<div class="meta">6:00 PM · New York Comedy Club · $40</div>
+<p>Gurleen Pannu brings her high-energy Hindi stand-up hour Monster to the New York Comedy Club&#x27;s Midtown room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/gurleen-pannu-monster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Brotaku">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eastvillecomedy.com/events/brotaku-1">Brotaku</a></h3>
+<div class="meta">8:00 PM · Eastville Comedy Club · $18</div>
+<p>Eastville&#x27;s anime-and-comedy mashup night in Brooklyn — stand-up from the city&#x27;s otaku scene, $18.</p>
+<a class="tickets" href="https://www.eastvillecomedy.com/events/brotaku-1">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-9" data-name="In the Heights">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7PaGM">In the Heights</a></h3>
+<div class="meta">7:30 PM · New York City Center, Hell&#x27;s Kitchen</div>
+<p>Lin-Manuel Miranda&#x27;s Washington Heights musical returns to City Center — the rare revival that feels like a homecoming.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7PaGM">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Oh, Mary!">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-29-2026/event/Z1r9uZruZqGZ17J9OU">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Midtown-Times Square</div>
+<p>Cole Escola&#x27;s unhinged Mary Todd Lincoln comedy is still the funniest ticket on Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-10-29-2026/event/Z1r9uZruZqGZ17J9OU">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="2:22 - A Ghost Story">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfAt">2:22 - A Ghost Story</a></h3>
+<div class="meta">7:30 PM · Lucille Lortel Theatre, West Village</div>
+<p>A supernatural thriller built for Halloween week — a couple, a new house, and something that shows up at 2:22 AM.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZfAt">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Wunderkammer: A Taxidermy Showcase and Competition">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC">Wunderkammer: A Taxidermy Showcase and Competition</a></h3>
+<div class="meta">8:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>A taxidermy showcase and competition at the Bell House — dead things, live crowd, very Brooklyn Halloween.</p>
+<a class="tickets" href="https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-13" data-name="Rosemary&#x27;s Baby">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001188-rosemarys-baby/">Rosemary&#x27;s Baby</a></h3>
+<div class="meta">9:40 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Polanski&#x27;s slow-burn Satanic-panic classic on 35mm in Chinatown — the perfect late show two nights before Halloween.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001188-rosemarys-baby/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="The Age of Innocence">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000057-the-age-of-innocence/">The Age of Innocence</a></h3>
+<div class="meta">6:50 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Scorsese&#x27;s ravishing Wharton adaptation on 35mm — corsets, longing, and some of the most beautiful compositions of his career.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000057-the-age-of-innocence/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="The Harder They Come">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/the-harder-they-come">The Harder They Come</a></h3>
+<div class="meta">8:20 PM · Film Forum, SoHo-Little Italy-Hudson Square · $15</div>
+<p>Jimmy Cliff&#x27;s reggae outlaw classic on the big screen at Film Forum, soundtrack cranked.</p>
+<a class="tickets" href="https://filmforum.org/film/the-harder-they-come">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="The Social Reckoning">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/">The Social Reckoning</a></h3>
+<div class="meta">7:00 PM · Nitehawk Cinema Williamsburg, Williamsburg · $18</div>
+<p>Aaron Sorkin&#x27;s Facebook-whistleblower sequel at Nitehawk, with a Zuckerburger and banana daiquiri pairing if you&#x27;re feeling thematic.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-17" data-name="Opening for Sống: Photographs by Ocean Vuong">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/opening-for-song-photographs-by-ocean-vuong-tickets-2001221041005">Opening for Sống: Photographs by Ocean Vuong</a></h3>
+<div class="meta">6:00 PM · 20 Cooper Square Gallery, Greenwich Village · Free</div>
+<p>The opening reception for Ocean Vuong&#x27;s first NYC photography show — two decades of images on loss, labor and kinship. Free, registration required.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/opening-for-song-photographs-by-ocean-vuong-tickets-2001221041005">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="LaJuné McMillian: To See for Oneself">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/fscywwqo">LaJuné McMillian: To See for Oneself</a></h3>
+<div class="meta">6:00 PM · bitforms gallery, Lower East Side · Free</div>
+<p>A solo show at bitforms gallery where new-media artist LaJuné McMillian explores AI, embodiment and ecological regeneration through immersive worldbuilding. Free.</p>
+<a class="tickets" href="https://luma.com/fscywwqo">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Taking Up Space - Gallery Hop">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/54bpkbhm">Taking Up Space - Gallery Hop</a></h3>
+<div class="meta">6:00 PM · Morgan Presents, Chelsea-Hudson Yards · $15</div>
+<p>A curated group hop through 3–4 Chelsea galleries centering minority artists and minority-owned spaces, ending with discounted drinks at the Tippler.</p>
+<a class="tickets" href="https://luma.com/54bpkbhm">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-20" data-name="From The Caves: Murray&#x27;s Cheeses &amp; Red Wine Pairing">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/from-the-caves-murrays-cheeses-red-wine-pairing-tickets-1996475168974">From The Caves: Murray&#x27;s Cheeses &amp; Red Wine Pairing</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village · $98.04</div>
+<p>Cave-aged cheeses and red wine in the Bleecker Street shop — a masterclass in funk, with pours to match. Sales end soon.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/from-the-caves-murrays-cheeses-red-wine-pairing-tickets-1996475168974">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-23" data-name="Planet X, Killer Asteroids &amp; Other Things Lurking in Space">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/planet-x-killer-asteroids-other-things-lurking-in-space-tickets-1999048189949">Planet X, Killer Asteroids &amp; Other Things Lurking in Space</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side · $23.18</div>
+<p>Carnegie Science&#x27;s spooky social at Caveat: astronomer Scott Sheppard on Planet X, killer asteroids and the Goblin, plus trivia and a costume contest.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/planet-x-killer-asteroids-other-things-lurking-in-space-tickets-1999048189949">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-24" data-name="Fine Objects Society × Young Victorians Mixer">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://vicsocny.org/calendar/fine-objects-society-x-young-victorians-mixer/">Fine Objects Society × Young Victorians Mixer</a></h3>
+<div class="meta">6:30 PM · Arader Galleries, Upper East Side · Free</div>
+<p>Antiques nerds and history lovers mingle among 18th- and 19th-century natural-history art on the Upper East Side. Free with registration.</p>
+<a class="tickets" href="https://vicsocny.org/calendar/fine-objects-society-x-young-victorians-mixer/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Fall Festival at Lakeside">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-10-29/">Fall Festival at Lakeside</a></h3>
+<div class="meta">4:00 PM · Prospect Park, Prospect Park</div>
+<p>Prospect Park&#x27;s fall festival at Lakeside — pumpkins, a corn maze, carnival games and the Haunted Hotel after dark, family-friendly and in peak foliage season.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-10-29/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-26" data-name="Chinese / HK Mahjong on the Upper West Side! (Thursday)">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/8fl876tc">Chinese / HK Mahjong on the Upper West Side! (Thursday)</a></h3>
+<div class="meta">6:30 PM · The Throwback, Upper West Side (Central) · $10</div>
+<p>Weekly Chinese/HK mahjong on the Upper West Side — all levels welcome, points optional, full bar and menu at the venue.</p>
+<a class="tickets" href="https://luma.com/8fl876tc">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="No. 08 — Murder Mystery: A Halloween Affair 🕯️🖤">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/8yuprmdr">No. 08 — Murder Mystery: A Halloween Affair 🕯️🖤</a></h3>
+<div class="meta">7:00 PM · Loft on 5th, Midtown South-Flatiron-Union Square · $20</div>
+<p>A members-only masquerade murder mystery in a Flatiron loft: a character on arrival, secrets all night, open bar included.</p>
+<a class="tickets" href="https://luma.com/8yuprmdr">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-29";
+const NAMES = ["Robert Glasper", "The Barr Brothers", "New York Philharmonic: Get Out in Concert", "HARBOUR", "Ron Carter's Foursight Quartet", "The Hails", "Stand-up at Comedy Cellar (MacDougal Street): Petey DeAbreu, Mike Yard, Gregg Rogell, Erin Maguire & more", "Corinne Fisher, Mike Britt, Max Antonucci, James Mattern", "6PM Weekday Open Mics @ Eastville Comedy", "In the Heights", "Oh, Mary!", "2:22 - A Ghost Story", "Wunderkammer: A Taxidermy Showcase and Competition", "Rosemary's Baby", "The Age of Innocence", "The Harder They Come", "The Social Reckoning", "Opening for S\u1ed1ng: Photographs by Ocean Vuong", "LaJun\u00e9 McMillian: To See for Oneself", "Taking Up Space - Gallery Hop", "From The Caves: Murray's Cheeses & Red Wine Pairing", "Gurleen Pannu: Monster (IN HINDI)", "Brotaku", "Planet X, Killer Asteroids & Other Things Lurking in Space", "Fine Objects Society \u00d7 Young Victorians Mixer", "Fall Festival at Lakeside", "Chinese / HK Mahjong on the Upper West Side! (Thursday)", "No. 08 \u2014 Murder Mystery: A Halloween Affair \ud83d\udd6f\ufe0f\ud83d\udda4"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
