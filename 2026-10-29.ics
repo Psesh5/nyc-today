@@ -4,7 +4,7 @@ PRODID:-//NYC Concierge//Daily Digest//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-20261029-0@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T200000
 DTEND;TZID=America/New_York:20261029T220000
 SUMMARY:Robert Glasper
@@ -24,7 +24,7 @@ URL:https://www.ticketweb.com/event/robert-glasper-feat-meshell-ndegeocello
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-1@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T200000
 DTEND;TZID=America/New_York:20261029T220000
 SUMMARY:The Barr Brothers
@@ -40,7 +40,7 @@ URL:https://www.ticketmaster.com/the-barr-brothers-new-york-new-york-10-29-
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-2@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T193000
 DTEND;TZID=America/New_York:20261029T213000
 SUMMARY:New York Philharmonic: Get Out in Concert
@@ -54,7 +54,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3Z
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-3@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T210000
 SUMMARY:HARBOUR
@@ -70,7 +70,7 @@ URL:https://www.ticketmaster.com/harbour-new-york-new-york-10-29-2026/event
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-4@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T213000
 DTEND;TZID=America/New_York:20261029T233000
 SUMMARY:Ron Carter's Foursight Quartet
@@ -88,7 +88,7 @@ jazz-club-tickets/14223954
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-5@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T210000
 SUMMARY:The Hails
@@ -102,7 +102,7 @@ URL:https://www.eventbrite.com/e/the-hails-the-ocho-tickets-1992166767429
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-6@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T204500
 DTEND;TZID=America/New_York:20261029T224500
 SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Petey DeAbreu\, Mike 
@@ -120,7 +120,7 @@ URL:https://www.comedycellar.com/reservations-newyork/?showid=1793306700
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-7@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T200000
 DTEND;TZID=America/New_York:20261029T220000
 SUMMARY:Corinne Fisher\, Mike Britt\, Max Antonucci\, James Mattern
@@ -138,7 +138,7 @@ nucci-james-mattern
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-8@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:6PM Weekday Open Mics @ Eastville Comedy
@@ -156,7 +156,7 @@ comedy-2026-10-29180000
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-9@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T193000
 DTEND;TZID=America/New_York:20261029T213000
 SUMMARY:In the Heights
@@ -170,7 +170,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PaGM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-10@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T193000
 DTEND;TZID=America/New_York:20261029T213000
 SUMMARY:Oh\, Mary!
@@ -186,7 +186,7 @@ URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-10-29-2026/event
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-11@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T193000
 DTEND;TZID=America/New_York:20261029T213000
 SUMMARY:2:22 - A Ghost Story
@@ -200,7 +200,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZfAt
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-12@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T200000
 DTEND;TZID=America/New_York:20261029T220000
 SUMMARY:Wunderkammer: A Taxidermy Showcase and Competition
@@ -218,7 +218,7 @@ etition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-13@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T214000
 DTEND;TZID=America/New_York:20261029T234000
 SUMMARY:Rosemary's Baby
@@ -232,7 +232,7 @@ URL:https://metrograph.com/film/9999001188-rosemarys-baby/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-14@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T185000
 DTEND;TZID=America/New_York:20261029T205000
 SUMMARY:The Age of Innocence
@@ -246,7 +246,7 @@ URL:https://metrograph.com/film/9999000057-the-age-of-innocence/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-15@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T202000
 DTEND;TZID=America/New_York:20261029T222000
 SUMMARY:The Harder They Come
@@ -260,7 +260,7 @@ URL:https://filmforum.org/film/the-harder-they-come
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-16@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T210000
 SUMMARY:The Social Reckoning
@@ -276,7 +276,7 @@ URL:https://nitehawkcinema.com/williamsburg/movies/the-social-reckoning/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-17@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:Opening for Sống: Photographs by Ocean Vuong
@@ -294,7 +294,7 @@ g-tickets-2001221041005
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-18@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:LaJuné McMillian: To See for Oneself
@@ -308,7 +308,7 @@ URL:https://luma.com/fscywwqo
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-19@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:Taking Up Space - Gallery Hop
@@ -322,7 +322,7 @@ URL:https://luma.com/54bpkbhm
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-20@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
 SUMMARY:From The Caves: Murray's Cheeses & Red Wine Pairing
@@ -340,7 +340,7 @@ iring-tickets-1996475168974
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-21@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T180000
 DTEND;TZID=America/New_York:20261029T200000
 SUMMARY:Gurleen Pannu: Monster (IN HINDI)
@@ -354,7 +354,7 @@ URL:https://newyorkcomedyclub.com/events/gurleen-pannu-monster
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-22@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T200000
 DTEND;TZID=America/New_York:20261029T220000
 SUMMARY:Brotaku
@@ -368,7 +368,7 @@ URL:https://www.eastvillecomedy.com/events/brotaku-1
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-23@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T210000
 SUMMARY:Planet X\, Killer Asteroids & Other Things Lurking in Space
@@ -386,7 +386,7 @@ king-in-space-tickets-1999048189949
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-24@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
 SUMMARY:Fine Objects Society × Young Victorians Mixer
@@ -404,7 +404,7 @@ ixer/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-25@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T160000
 DTEND;TZID=America/New_York:20261029T180000
 SUMMARY:Fall Festival at Lakeside
@@ -422,7 +422,7 @@ URL:https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-26@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T183000
 DTEND;TZID=America/New_York:20261029T203000
 SUMMARY:Chinese / HK Mahjong on the Upper West Side! (Thursday)
@@ -436,7 +436,7 @@ URL:https://luma.com/8fl876tc
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261029-27@concierge
-DTSTAMP:20261029T120517Z
+DTSTAMP:20261029T120703Z
 DTSTART;TZID=America/New_York:20261029T190000
 DTEND;TZID=America/New_York:20261029T210000
 SUMMARY:No. 08 — Murder Mystery: A Halloween Affair 🕯️🖤
@@ -447,5 +447,91 @@ character on arrival\, secrets all night\, open bar included. Tickets & inf
  
 o: https://luma.com/8yuprmdr
 URL:https://luma.com/8yuprmdr
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-28@concierge
+DTSTAMP:20261029T120703Z
+DTSTART;TZID=America/New_York:20261029T183000
+DTEND;TZID=America/New_York:20261029T203000
+SUMMARY:HOT & FRESH Burlesque: Halloween Edition
+LOCATION:House of Yes\, Bushwick (West)
+DESCRIPTION:Halloween-edition burlesque at House of Yes — glitter\, guts 
+ 
+and glamour in Bushwick. Few tickets left. Tickets & info: https://www.even
+ 
+tbrite.com/e/hot-fresh-burlesque-halloween-edition-tickets-2002576800117
+URL:https://www.eventbrite.com/e/hot-fresh-burlesque-halloween-edition-tick
+ 
+ets-2002576800117
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-29@concierge
+DTSTAMP:20261029T120703Z
+DTSTART;TZID=America/New_York:20261029T200000
+DTEND;TZID=America/New_York:20261029T220000
+SUMMARY:The Ridgewood Asylum 2026 - NYC Haunted House
+LOCATION:The Ridgewood Asylum\, East Williamsburg
+DESCRIPTION:A full haunted-house build in Ridgewood\, open tonight through 
+ 
+Nov 1 — the DIY scare maze for people who find corporate haunted houses t
+ 
+oo tame. Few tickets left. Tickets & info: https://www.eventbrite.com/e/the
+ 
+-ridgewood-asylum-2026-nyc-haunted-house-tickets-1997429608729
+URL:https://www.eventbrite.com/e/the-ridgewood-asylum-2026-nyc-haunted-hous
+ 
+e-tickets-1997429608729
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-30@concierge
+DTSTAMP:20261029T120703Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Spot P! Opening Reception
+LOCATION:Dyckman Farmhouse Museum (in Dyckman House Museum)\, Inwood
+DESCRIPTION:An opening reception at the Dyckman Farmhouse Museum in Inwood 
+ 
+— art and history in Manhattan's oldest farmhouse. Free\, registration re
+ 
+quired. Tickets & info: http://www.nycgovparks.org/events/2026/10/29/spot-p
+ 
+-opening-reception
+URL:http://www.nycgovparks.org/events/2026/10/29/spot-p-opening-reception
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-31@concierge
+DTSTAMP:20261029T120703Z
+DTSTART;TZID=America/New_York:20261029T193000
+DTEND;TZID=America/New_York:20261029T213000
+SUMMARY:Sicilian Dinner Pop-up\, EVENTO x Donnafugata Wines!
+LOCATION:75 Murray St\, Tribeca-Civic Center
+DESCRIPTION:A Sicilian dinner pop-up in Tribeca pouring Donnafugata wines 
+ 
+ island cooking\, island bottles\, wine pairing included. Sales end soon.
+ 
+ Tickets & info: https://www.eventbrite.com/e/sicilian-dinner-pop-up-evento
+ 
+-x-donnafugata-wines-tickets-2002837209007
+URL:https://www.eventbrite.com/e/sicilian-dinner-pop-up-evento-x-donnafugat
+ 
+a-wines-tickets-2002837209007
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261029-32@concierge
+DTSTAMP:20261029T120703Z
+DTSTART;TZID=America/New_York:20261029T190000
+DTEND;TZID=America/New_York:20261029T210000
+SUMMARY:The Great Pumpkin Pour: Pumpkin Carving with Open Bar
+LOCATION:Time Out Market New York\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Pumpkin carving with an open bar at Time Out Market — guts\, 
+ 
+gourds and drinks with a waterfront view. Sales end soon. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/the-great-pumpkin-pour-pumpkin-carving-with-ope
+ 
+n-bar-tickets-2002755059295
+URL:https://www.eventbrite.com/e/the-great-pumpkin-pour-pumpkin-carving-wit
+ 
+h-open-bar-tickets-2002755059295
 END:VEVENT
 END:VCALENDAR
