@@ -1,0 +1,461 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261030-0@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T213000
+DTEND;TZID=America/New_York:20261030T233000
+SUMMARY:Senri Oe Trio
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:The former Japanese pop star turned jazz pianist leads a swingi
+ 
+ng late set at Birdland. Tickets & info: https://www.ticketweb.com/event/se
+ 
+nri-oe-trio-birdland-theater-tickets/14979683
+URL:https://www.ticketweb.com/event/senri-oe-trio-birdland-theater-tickets/
+ 
+14979683
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-1@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T220000
+DTEND;TZID=America/New_York:20261031T000000
+SUMMARY:PURGATORY: Friday Night @ Refuge: Jayda G\, Soul Clap\, DJ E-Cology
+ 
+\, Suze Ijó
+LOCATION:Refuge\, East Williamsburg
+DESCRIPTION:A Halloween-eve dance party in East Williamsburg with Jayda G a
+ 
+nd Soul Clap on the decks — costumes encouraged\, obviously. Tickets & in
+ 
+fo: https://www.eventbrite.com/e/purgatory-friday-night-refuge-jayda-g-soul
+ 
+-clapdj-e-cology-suze-ijo-tickets-2002080071388
+URL:https://www.eventbrite.com/e/purgatory-friday-night-refuge-jayda-g-soul
+ 
+-clapdj-e-cology-suze-ijo-tickets-2002080071388
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-2@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Lawrence - Staycation
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Sibling-led soul-pop that turns a big room into a singalong —
+ 
+ the Staycation tour hits Brooklyn Paramount. Tickets & info: https://www.t
+ 
+icketmaster.com/lawrence-staycation-brooklyn-new-york-10-30-2026/event/0000
+ 
+6441083FECE9
+URL:https://www.ticketmaster.com/lawrence-staycation-brooklyn-new-york-10-3
+ 
+0-2026/event/00006441083FECE9
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-3@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:Neurosis
+LOCATION:Warsaw\, Greenpoint
+DESCRIPTION:Post-metal pioneers bring their slow\, crushing heaviness to Wa
+ 
+rsaw for one night. Tickets & info: https://www.ticketmaster.com/neurosis-b
+ 
+rooklyn-new-york-10-30-2026/event/00006523B5D944B7
+URL:https://www.ticketmaster.com/neurosis-brooklyn-new-york-10-30-2026/even
+ 
+t/00006523B5D944B7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-4@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T193000
+DTEND;TZID=America/New_York:20261030T213000
+SUMMARY:New York Philharmonic: Get Out in Concert
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:Jordan Peele's Get Out on the big screen\, with the Philharmoni
+ 
+c playing Michael Abels' score live. Tickets & info: https://www.ticketmast
+ 
+er.com/event/Z7r9jZ1AAZ-3v
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3v
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-5@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T200000
+DTEND;TZID=America/New_York:20261030T220000
+SUMMARY:Evil Island
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Bowery Ballroom goes full Halloween with a night of dark\, danc
+ 
+eable indie. Tickets & info: https://www.ticketmaster.com/evil-island-new-y
+ 
+ork-new-york-10-30-2026/event/0000650EF351CDAE
+URL:https://www.ticketmaster.com/evil-island-new-york-new-york-10-30-2026/e
+ 
+vent/0000650EF351CDAE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-7@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T193000
+DTEND;TZID=America/New_York:20261030T213000
+SUMMARY:Tim Dillon Halloween Spectacular! at Gotham Comedy Club
+LOCATION:Gotham Comedy Club\, Chelsea-Hudson Yards
+DESCRIPTION:Tim Dillon's Halloween Spectacular: the year's most unhinged st
+ 
+and-up night at Gotham. Tickets & info: https://gothamcomedyclub.com/events
+ 
+/tim-dillon-halloween-spectacularjl7chsq
+URL:https://gothamcomedyclub.com/events/tim-dillon-halloween-spectacularjl7
+ 
+chsq
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-8@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T203000
+DTEND;TZID=America/New_York:20261030T223000
+SUMMARY:Mark Normand\, Marion Grodin\, Chuck Nice\, Erin Maguire\, Chris Pa
+ 
+ttwell
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Mark Normand headlines an Upper West Side lineup with Chuck Nic
+ 
+e\, Jackie Fabulous\, and Erin Maguire. Tickets & info: https://newyorkcome
+ 
+dyclub.com/events/mark-normand-marion-grodin-chuck-nice-erin-maguire-chris-
+ 
+pattwell
+URL:https://newyorkcomedyclub.com/events/mark-normand-marion-grodin-chuck-n
+ 
+ice-erin-maguire-chris-pattwell
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-9@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T200000
+DTEND;TZID=America/New_York:20261030T220000
+SUMMARY:Nosferatu (with Live Piano Accompaniment)
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Murnau's 1922 vampire classic with live piano accompaniment at 
+ 
+MoMI — the perfect Halloween-eve screening. Tickets & info: https://movin
+ 
+gimage.org/event/nosferatu-with-live-accompaniment/
+URL:https://movingimage.org/event/nosferatu-with-live-accompaniment/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-10@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T230500
+DTEND;TZID=America/New_York:20261031T010500
+SUMMARY:The Exorcist
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:The 11 PM show: the scariest movie ever made\, on a big screen\
+ 
+, the night before Halloween. Tickets & info: https://www.ifccenter.com/fil
+ 
+ms/the-exorcist/
+URL:https://www.ifccenter.com/films/the-exorcist/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-11@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Alfreda’s Cinema\, Ten Minutes to Live (1932) w/ Live Vinyl Score
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:A rare 1932 pre-Code thriller in Prospect Park\, scored live on
+ 
+ vinyl by Alfreda's Cinema. Tickets & info: https://www.prospectpark.org/ev
+ 
+ent/alfredas-cinema-ten-minuets-to-live-1932-w-live-vinyl-score/
+URL:https://www.prospectpark.org/event/alfredas-cinema-ten-minuets-to-live-
+ 
+1932-w-live-vinyl-score/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-12@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Goodbye\, Dragon Inn
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Tsai Ming-liang's gorgeous\, ghostly love letter to the movie p
+ 
+alace\, at MoMI. Tickets & info: https://movingimage.org/event/goodbye-drag
+ 
+on-inn/
+URL:https://movingimage.org/event/goodbye-dragon-inn/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-13@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T200000
+DTEND;TZID=America/New_York:20261030T220000
+SUMMARY:The Rocky Horror Picture Show: Original Cast Spooktacular Tour
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:The original cast brings the Spooktacular tour to Town Hall —
+ 
+ fishnets strongly encouraged. Tickets & info: https://www.ticketmaster.com
+ 
+/the-rocky-horror-picture-show-original-new-york-new-york-10-30-2026/event/
+ 
+030064D1CACA1290
+URL:https://www.ticketmaster.com/the-rocky-horror-picture-show-original-new
+ 
+-york-new-york-10-30-2026/event/030064D1CACA1290
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-14@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T193000
+DTEND;TZID=America/New_York:20261030T213000
+SUMMARY:In the Heights
+LOCATION:New York City Center\, Hell's Kitchen
+DESCRIPTION:Lin-Manuel Miranda's Washington Heights musical returns to City
+ 
+ Center for one night. Tickets & info: https://www.nycitycenter.org/events/
+ 
+2026-2027-in-the-heights
+URL:https://www.nycitycenter.org/events/2026-2027-in-the-heights
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-15@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:The Curious Case of the Curse of Benjamin Button
+LOCATION:Public Theater - Newman Theater\, East Village
+DESCRIPTION:The West End hit's North American premiere: a man born old\, gr
+ 
+owing younger\, at the Public. Tickets & info: https://www.todaytix.com/nyc
+ 
+/shows/46894-the-curious-case-of-benjamin-button
+URL:https://www.todaytix.com/nyc/shows/46894-the-curious-case-of-benjamin-b
+ 
+utton
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-16@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:Dan Aykroyd + Ernest Cline: Soulhider
+LOCATION:Strand Books\, Greenwich Village
+DESCRIPTION:Dan Aykroyd and Ernest Cline talk Cline's new novel Soulhider a
+ 
+t Strand. Tickets & info: https://bookevents.nyc/events/dan-aykroyd-ernest-
+ 
+cline-soulhider-oct-30
+URL:https://bookevents.nyc/events/dan-aykroyd-ernest-cline-soulhider-oct-30
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-17@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T183000
+DTEND;TZID=America/New_York:20261030T203000
+SUMMARY:MOCA TALKS with Ming-Na Wen – Family Recipes from a Restaurant Da
+ 
+ughter
+LOCATION:Museum of Chinese in America\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Mulan herself talks family recipes and her new cookbook with re
+ 
+staurateur Annie Shi at MOCA. Tickets & info: https://www.universe.com/even
+ 
+ts/moca-talks-with-ming-na-wen-family-recipes-from-a-restaurant-daughter-ti
+ 
+ckets-JVT3KH?ref=ticketmaster
+URL:https://www.universe.com/events/moca-talks-with-ming-na-wen-family-reci
+ 
+pes-from-a-restaurant-daughter-tickets-JVT3KH?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-18@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T163000
+DTEND;TZID=America/New_York:20261030T183000
+SUMMARY:An FIT Future//Forward Conversation with Law Roach
+LOCATION:Fashion Institute of Technology\, Midtown South-Flatiron-Union Squ
+ 
+are
+DESCRIPTION:The image architect himself in conversation at FIT — also liv
+ 
+estreamed if you can't get there in person. Tickets & info: https://www.eve
+ 
+ntbrite.com/e/an-fit-futureforward-conversation-with-law-roach-tickets-2003
+ 
+839737597
+URL:https://www.eventbrite.com/e/an-fit-futureforward-conversation-with-law
+ 
+-roach-tickets-2003839737597
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-19@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T183000
+DTEND;TZID=America/New_York:20261030T203000
+SUMMARY:All Hallows Eve Cheese & Wine Pairing
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:A Halloween cheese and wine pairing at the city's most beloved 
+ 
+cheese counter. Tickets & info: https://www.eventbrite.com/e/all-hallows-ev
+ 
+e-cheese-wine-pairing-tickets-1996475604276
+URL:https://www.eventbrite.com/e/all-hallows-eve-cheese-wine-pairing-ticket
+ 
+s-1996475604276
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-20@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T190000
+DTEND;TZID=America/New_York:20261030T210000
+SUMMARY:The Great Pumpkin Pour: Pumpkin Carving with Open Bar
+LOCATION:Time Out Market New York\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Carve a pumpkin with an open bar at Time Out Market — the mos
+ 
+t Brooklyn Halloween night out. Tickets & info: https://www.eventbrite.com/
+ 
+e/the-great-pumpkin-pour-pumpkin-carving-with-open-bar-tickets-200275506029
+ 
+8
+URL:https://www.eventbrite.com/e/the-great-pumpkin-pour-pumpkin-carving-wit
+ 
+h-open-bar-tickets-2002755060298
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-21@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T120000
+DTEND;TZID=America/New_York:20261030T140000
+SUMMARY:PAWS IN THE CITY VOL 4 - PAWSHION SHOW
+LOCATION:NYC Pet\, East Williamsburg
+DESCRIPTION:Dogs in costumes on a runway in East Williamsburg — honestly\
+ 
+, what more do you need? Tickets & info: https://luma.com/snzkuelu
+URL:https://luma.com/snzkuelu
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-22@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T090000
+DTEND;TZID=America/New_York:20261030T110000
+SUMMARY:New Dendrology at the Arsenal Gallery
+LOCATION:Arsenal (in Central Park)\, Central Park
+DESCRIPTION:A quiet morning show of tree-inspired art at the Arsenal Galler
+ 
+y in Central Park. Tickets & info: http://www.nycgovparks.org/events/2026/1
+ 
+0/30/new-dendrology-at-the-arsenal-gallery
+URL:http://www.nycgovparks.org/events/2026/10/30/new-dendrology-at-the-arse
+ 
+nal-gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-23@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Pre-Halloween Last Friday at the Schomburg
+LOCATION:Schomburg Center for Research in Black Culture\, Harlem
+DESCRIPTION:The Schomburg Center turns into a Halloween party: music\, danc
+ 
+ing\, exhibitions\, drinks\, and a ghostly cocktail. Tickets & info: https:
+ 
+//www.nypl.org/events/programs/2026/10/30/pre-halloween-last-friday
+URL:https://www.nypl.org/events/programs/2026/10/30/pre-halloween-last-frid
+ 
+ay
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-24@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T183000
+DTEND;TZID=America/New_York:20261030T203000
+SUMMARY:Candlelight Ghost Tours
+LOCATION:Merchant's House Museum\, Greenwich Village
+DESCRIPTION:Merchant's House Museum by candlelight\, with paranormal invest
+ 
+igators on hand — free and spooky. Tickets & info: http://www.nycgovparks
+ 
+.org/events/2026/10/30/super-spooky-candlelight-ghost-tours-with-paranormal
+ 
+-investi
+URL:http://www.nycgovparks.org/events/2026/10/30/super-spooky-candlelight-g
+ 
+host-tours-with-paranormal-investi
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-25@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Hereafter Hours
+LOCATION:The Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:After-dark wandering at Green-Wood Cemetery\, one of the city's
+ 
+ most beautiful and haunted grounds. Tickets & info: https://www.eventbrite
+ 
+.com/e/hereafter-hours-tickets-1995465853083
+URL:https://www.eventbrite.com/e/hereafter-hours-tickets-1995465853083
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-26@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T193000
+DTEND;TZID=America/New_York:20261030T213000
+SUMMARY:Brooklyn Nets v. Detroit Pistons (Emirates NBA Cup Group Play)
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:Emirates NBA Cup group play at Barclays: the Nets host Detroit 
+ 
+under the lights. Tickets & info: https://www.ticketmaster.com/brooklyn-net
+ 
+s-v-detroit-pistons-emirates-brooklyn-new-york-10-30-2026/event/300064FBC4B
+ 
+64A5E
+URL:https://www.ticketmaster.com/brooklyn-nets-v-detroit-pistons-emirates-b
+ 
+rooklyn-new-york-10-30-2026/event/300064FBC4B64A5E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-27@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T110000
+DTEND;TZID=America/New_York:20261030T130000
+SUMMARY:STILL GOOD x COSMO FALL FREE SHOP
+LOCATION:cosmo brooklyn\, Bedford-Stuyvesant (East)
+DESCRIPTION:A free clothing shop in Bed-Stuy — take what you need\, leave
+ 
+ what you don't. Tickets & info: https://luma.com/7txveaqq
+URL:https://luma.com/7txveaqq
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261030-28@concierge
+DTSTAMP:20261030T120151Z
+DTSTART;TZID=America/New_York:20261030T130000
+DTEND;TZID=America/New_York:20261030T150000
+SUMMARY:Tteok or Treat? Baram Tteok Making Workshop x Rice Blossoms at HAUS
+ 
+ OF K!
+LOCATION:Haus of K\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Make Korean rice cakes with a Halloween twist at Haus of K in D
+ 
+owntown Brooklyn. Tickets & info: https://www.eventbrite.com/e/tteok-or-tre
+ 
+at-baram-tteok-making-workshop-x-rice-blossoms-at-haus-of-k-tickets-2003315
+ 
+699184
+URL:https://www.eventbrite.com/e/tteok-or-treat-baram-tteok-making-workshop
+ 
+-x-rice-blossoms-at-haus-of-k-tickets-2003315699184
+END:VEVENT
+END:VCALENDAR

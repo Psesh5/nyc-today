@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, October 30</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, October 30</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-30.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Senri Oe Trio">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/senri-oe-trio-birdland-theater-tickets/14979683">Senri Oe Trio</a></h3>
+<div class="meta">9:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>The former Japanese pop star turned jazz pianist leads a swinging late set at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/senri-oe-trio-birdland-theater-tickets/14979683">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="PURGATORY: Friday Night @ Refuge: Jayda G, Soul Clap, DJ E-Cology, Suze Ijó">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/purgatory-friday-night-refuge-jayda-g-soul-clapdj-e-cology-suze-ijo-tickets-2002080071388">PURGATORY: Friday Night @ Refuge: Jayda G, Soul Clap, DJ E-Cology, Suze Ijó</a></h3>
+<div class="meta">10:00 PM · Refuge, East Williamsburg</div>
+<p>A Halloween-eve dance party in East Williamsburg with Jayda G and Soul Clap on the decks — costumes encouraged, obviously.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/purgatory-friday-night-refuge-jayda-g-soul-clapdj-e-cology-suze-ijo-tickets-2002080071388">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Lawrence - Staycation">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/lawrence-staycation-brooklyn-new-york-10-30-2026/event/00006441083FECE9">Lawrence - Staycation</a></h3>
+<div class="meta">6:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Sibling-led soul-pop that turns a big room into a singalong — the Staycation tour hits Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/lawrence-staycation-brooklyn-new-york-10-30-2026/event/00006441083FECE9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Neurosis">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/neurosis-brooklyn-new-york-10-30-2026/event/00006523B5D944B7">Neurosis</a></h3>
+<div class="meta">7:00 PM · Warsaw, Greenpoint</div>
+<p>Post-metal pioneers bring their slow, crushing heaviness to Warsaw for one night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/neurosis-brooklyn-new-york-10-30-2026/event/00006523B5D944B7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="New York Philharmonic: Get Out in Concert">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3v">New York Philharmonic: Get Out in Concert</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>Jordan Peele&#x27;s Get Out on the big screen, with the Philharmonic playing Michael Abels&#x27; score live.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3v">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Evil Island">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/evil-island-new-york-new-york-10-30-2026/event/0000650EF351CDAE">Evil Island</a></h3>
+<div class="meta">8:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Bowery Ballroom goes full Halloween with a night of dark, danceable indie.</p>
+<a class="tickets" href="https://www.ticketmaster.com/evil-island-new-york-new-york-10-30-2026/event/0000650EF351CDAE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="NEW YORK NIGHT TRAIN 21st Annual HAUNTED HOP: Devil&#x27;s Night (Late Entry)">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.newyorknighttrain.com/2026/10/22/ny-night-train-halloween-parties/">NEW YORK NIGHT TRAIN 21st Annual HAUNTED HOP: Devil&#x27;s Night (Late Entry)</a></h3>
+<div class="meta">Time TBA · Knockdown Center, Maspeth · 25</div>
+<p>General admission is sold out, but late-entry tickets (1–4 AM, $25) still get you the $500 costume contest, Moogstar&#x27;s synth dance party, and the multi-room madness at Knockdown Center.</p>
+<a class="tickets" href="https://www.newyorknighttrain.com/2026/10/22/ny-night-train-halloween-parties/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Tim Dillon Halloween Spectacular! at Gotham Comedy Club">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://gothamcomedyclub.com/events/tim-dillon-halloween-spectacularjl7chsq">Tim Dillon Halloween Spectacular! at Gotham Comedy Club</a></h3>
+<div class="meta">7:30 PM · Gotham Comedy Club, Chelsea-Hudson Yards</div>
+<p>Tim Dillon&#x27;s Halloween Spectacular: the year&#x27;s most unhinged stand-up night at Gotham.</p>
+<a class="tickets" href="https://gothamcomedyclub.com/events/tim-dillon-halloween-spectacularjl7chsq">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Mark Normand, Marion Grodin, Chuck Nice, Erin Maguire, Chris Pattwell">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/mark-normand-marion-grodin-chuck-nice-erin-maguire-chris-pattwell">Mark Normand, Marion Grodin, Chuck Nice, Erin Maguire, Chris Pattwell</a></h3>
+<div class="meta">8:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Mark Normand headlines an Upper West Side lineup with Chuck Nice, Jackie Fabulous, and Erin Maguire.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/mark-normand-marion-grodin-chuck-nice-erin-maguire-chris-pattwell">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-9" data-name="Nosferatu (with Live Piano Accompaniment)">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/nosferatu-with-live-accompaniment/">Nosferatu (with Live Piano Accompaniment)</a></h3>
+<div class="meta">8:00 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>Murnau&#x27;s 1922 vampire classic with live piano accompaniment at MoMI — the perfect Halloween-eve screening.</p>
+<a class="tickets" href="https://movingimage.org/event/nosferatu-with-live-accompaniment/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="The Exorcist">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-exorcist/">The Exorcist</a></h3>
+<div class="meta">11:05 PM · IFC Center, Greenwich Village</div>
+<p>The 11 PM show: the scariest movie ever made, on a big screen, the night before Halloween.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-exorcist/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Alfreda’s Cinema, Ten Minutes to Live (1932) w/ Live Vinyl Score">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/alfredas-cinema-ten-minuets-to-live-1932-w-live-vinyl-score/">Alfreda’s Cinema, Ten Minutes to Live (1932) w/ Live Vinyl Score</a></h3>
+<div class="meta">6:00 PM · Prospect Park, Prospect Park · Free</div>
+<p>A rare 1932 pre-Code thriller in Prospect Park, scored live on vinyl by Alfreda&#x27;s Cinema.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/alfredas-cinema-ten-minuets-to-live-1932-w-live-vinyl-score/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Goodbye, Dragon Inn">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/goodbye-dragon-inn/">Goodbye, Dragon Inn</a></h3>
+<div class="meta">6:00 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>Tsai Ming-liang&#x27;s gorgeous, ghostly love letter to the movie palace, at MoMI.</p>
+<a class="tickets" href="https://movingimage.org/event/goodbye-dragon-inn/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-13" data-name="The Rocky Horror Picture Show: Original Cast Spooktacular Tour">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-rocky-horror-picture-show-original-new-york-new-york-10-30-2026/event/030064D1CACA1290">The Rocky Horror Picture Show: Original Cast Spooktacular Tour</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square</div>
+<p>The original cast brings the Spooktacular tour to Town Hall — fishnets strongly encouraged.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-rocky-horror-picture-show-original-new-york-new-york-10-30-2026/event/030064D1CACA1290">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="The Curious Case of the Curse of Benjamin Button">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.todaytix.com/nyc/shows/46894-the-curious-case-of-benjamin-button">The Curious Case of the Curse of Benjamin Button</a></h3>
+<div class="meta">7:00 PM · Public Theater - Newman Theater, East Village</div>
+<p>The West End hit&#x27;s North American premiere: a man born old, growing younger, at the Public.</p>
+<a class="tickets" href="https://www.todaytix.com/nyc/shows/46894-the-curious-case-of-benjamin-button">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-14" data-name="In the Heights">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nycitycenter.org/events/2026-2027-in-the-heights">In the Heights</a></h3>
+<div class="meta">7:30 PM · New York City Center, Hell&#x27;s Kitchen</div>
+<p>Lin-Manuel Miranda&#x27;s Washington Heights musical returns to City Center for one night.</p>
+<a class="tickets" href="https://www.nycitycenter.org/events/2026-2027-in-the-heights">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="PAWS IN THE CITY VOL 4 - PAWSHION SHOW">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/snzkuelu">PAWS IN THE CITY VOL 4 - PAWSHION SHOW</a></h3>
+<div class="meta">12:00 PM · NYC Pet, East Williamsburg · Free</div>
+<p>Dogs in costumes on a runway in East Williamsburg — honestly, what more do you need?</p>
+<a class="tickets" href="https://luma.com/snzkuelu">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="New Dendrology at the Arsenal Gallery">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/30/new-dendrology-at-the-arsenal-gallery">New Dendrology at the Arsenal Gallery</a></h3>
+<div class="meta">9:00 AM · Arsenal (in Central Park), Central Park · Free</div>
+<p>A quiet morning show of tree-inspired art at the Arsenal Gallery in Central Park.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/30/new-dendrology-at-the-arsenal-gallery">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Pre-Halloween Last Friday at the Schomburg">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nypl.org/events/programs/2026/10/30/pre-halloween-last-friday">Pre-Halloween Last Friday at the Schomburg</a></h3>
+<div class="meta">6:00 PM · Schomburg Center for Research in Black Culture, Harlem · Free</div>
+<p>The Schomburg Center turns into a Halloween party: music, dancing, exhibitions, drinks, and a ghostly cocktail.</p>
+<a class="tickets" href="https://www.nypl.org/events/programs/2026/10/30/pre-halloween-last-friday">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-16" data-name="Dan Aykroyd + Ernest Cline: Soulhider">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/dan-aykroyd-ernest-cline-soulhider-oct-30">Dan Aykroyd + Ernest Cline: Soulhider</a></h3>
+<div class="meta">7:00 PM · Strand Books, Greenwich Village · $42.64</div>
+<p>Dan Aykroyd and Ernest Cline talk Cline&#x27;s new novel Soulhider at Strand.</p>
+<a class="tickets" href="https://bookevents.nyc/events/dan-aykroyd-ernest-cline-soulhider-oct-30">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="MOCA TALKS with Ming-Na Wen – Family Recipes from a Restaurant Daughter">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/moca-talks-with-ming-na-wen-family-recipes-from-a-restaurant-daughter-tickets-JVT3KH?ref=ticketmaster">MOCA TALKS with Ming-Na Wen – Family Recipes from a Restaurant Daughter</a></h3>
+<div class="meta">6:30 PM · Museum of Chinese in America, SoHo-Little Italy-Hudson Square</div>
+<p>Mulan herself talks family recipes and her new cookbook with restaurateur Annie Shi at MOCA.</p>
+<a class="tickets" href="https://www.universe.com/events/moca-talks-with-ming-na-wen-family-recipes-from-a-restaurant-daughter-tickets-JVT3KH?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="An FIT Future//Forward Conversation with Law Roach">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/an-fit-futureforward-conversation-with-law-roach-tickets-2003839737597">An FIT Future//Forward Conversation with Law Roach</a></h3>
+<div class="meta">4:30 PM · Fashion Institute of Technology, Midtown South-Flatiron-Union Square</div>
+<p>The image architect himself in conversation at FIT — also livestreamed if you can&#x27;t get there in person.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/an-fit-futureforward-conversation-with-law-roach-tickets-2003839737597">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-19" data-name="All Hallows Eve Cheese &amp; Wine Pairing">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/all-hallows-eve-cheese-wine-pairing-tickets-1996475604276">All Hallows Eve Cheese &amp; Wine Pairing</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>A Halloween cheese and wine pairing at the city&#x27;s most beloved cheese counter.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/all-hallows-eve-cheese-wine-pairing-tickets-1996475604276">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="The Great Pumpkin Pour: Pumpkin Carving with Open Bar">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-great-pumpkin-pour-pumpkin-carving-with-open-bar-tickets-2002755060298">The Great Pumpkin Pour: Pumpkin Carving with Open Bar</a></h3>
+<div class="meta">7:00 PM · Time Out Market New York, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>Carve a pumpkin with an open bar at Time Out Market — the most Brooklyn Halloween night out.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-great-pumpkin-pour-pumpkin-carving-with-open-bar-tickets-2002755060298">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-24" data-name="Candlelight Ghost Tours">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/30/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Candlelight Ghost Tours</a></h3>
+<div class="meta">6:30 PM · Merchant&#x27;s House Museum, Greenwich Village · Free</div>
+<p>Merchant&#x27;s House Museum by candlelight, with paranormal investigators on hand — free and spooky.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/30/super-spooky-candlelight-ghost-tours-with-paranormal-investi">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Hereafter Hours">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hereafter-hours-tickets-1995465853083">Hereafter Hours</a></h3>
+<div class="meta">6:00 PM · The Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>After-dark wandering at Green-Wood Cemetery, one of the city&#x27;s most beautiful and haunted grounds.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hereafter-hours-tickets-1995465853083">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-26" data-name="Brooklyn Nets v. Detroit Pistons (Emirates NBA Cup Group Play)">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/brooklyn-nets-v-detroit-pistons-emirates-brooklyn-new-york-10-30-2026/event/300064FBC4B64A5E">Brooklyn Nets v. Detroit Pistons (Emirates NBA Cup Group Play)</a></h3>
+<div class="meta">7:30 PM · Barclays Center, Park Slope</div>
+<p>Emirates NBA Cup group play at Barclays: the Nets host Detroit under the lights.</p>
+<a class="tickets" href="https://www.ticketmaster.com/brooklyn-nets-v-detroit-pistons-emirates-brooklyn-new-york-10-30-2026/event/300064FBC4B64A5E">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-27" data-name="STILL GOOD x COSMO FALL FREE SHOP">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/7txveaqq">STILL GOOD x COSMO FALL FREE SHOP</a></h3>
+<div class="meta">11:00 AM · cosmo brooklyn, Bedford-Stuyvesant (East) · Free</div>
+<p>A free clothing shop in Bed-Stuy — take what you need, leave what you don&#x27;t.</p>
+<a class="tickets" href="https://luma.com/7txveaqq">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-28" data-name="Tteok or Treat? Baram Tteok Making Workshop x Rice Blossoms at HAUS OF K!">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tteok-or-treat-baram-tteok-making-workshop-x-rice-blossoms-at-haus-of-k-tickets-2003315699184">Tteok or Treat? Baram Tteok Making Workshop x Rice Blossoms at HAUS OF K!</a></h3>
+<div class="meta">1:00 PM · Haus of K, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>Make Korean rice cakes with a Halloween twist at Haus of K in Downtown Brooklyn.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tteok-or-treat-baram-tteok-making-workshop-x-rice-blossoms-at-haus-of-k-tickets-2003315699184">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-30";
+const NAMES = ["Senri Oe Trio", "PURGATORY: Friday Night @ Refuge: Jayda G, Soul Clap, DJ E-Cology, Suze Ij\u00f3", "Lawrence - Staycation", "Neurosis", "New York Philharmonic: Get Out in Concert", "Evil Island", "NEW YORK NIGHT TRAIN 21st Annual HAUNTED HOP: Devil's Night (Late Entry)", "Tim Dillon Halloween Spectacular! at Gotham Comedy Club", "Mark Normand, Marion Grodin, Chuck Nice, Erin Maguire, Chris Pattwell", "Nosferatu (with Live Piano Accompaniment)", "The Exorcist", "Alfreda\u2019s Cinema, Ten Minutes to Live (1932) w/ Live Vinyl Score", "Goodbye, Dragon Inn", "The Rocky Horror Picture Show: Original Cast Spooktacular Tour", "In the Heights", "The Curious Case of the Curse of Benjamin Button", "Dan Aykroyd + Ernest Cline: Soulhider", "MOCA TALKS with Ming-Na Wen \u2013 Family Recipes from a Restaurant Daughter", "An FIT Future//Forward Conversation with Law Roach", "All Hallows Eve Cheese & Wine Pairing", "The Great Pumpkin Pour: Pumpkin Carving with Open Bar", "PAWS IN THE CITY VOL 4 - PAWSHION SHOW", "New Dendrology at the Arsenal Gallery", "Pre-Halloween Last Friday at the Schomburg", "Candlelight Ghost Tours", "Hereafter Hours", "Brooklyn Nets v. Detroit Pistons (Emirates NBA Cup Group Play)", "STILL GOOD x COSMO FALL FREE SHOP", "Tteok or Treat? Baram Tteok Making Workshop x Rice Blossoms at HAUS OF K!"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
