@@ -4,7 +4,7 @@ PRODID:-//NYC Concierge//Daily Digest//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-20261031-0@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T190000
 DTEND;TZID=America/New_York:20261031T210000
 SUMMARY:Village Halloween Parade
@@ -22,7 +22,7 @@ URL:https://secretnyc.co/village-halloween-parade-2026-nyc-guide/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-1@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T113000
 DTEND;TZID=America/New_York:20261031T133000
 SUMMARY:Annual Urban Meadow Halloween Parade and Party
@@ -40,7 +40,7 @@ lloween-parade-and-party
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-2@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T120000
 DTEND;TZID=America/New_York:20261031T140000
 SUMMARY:Halloween Harvest Festival
@@ -56,7 +56,7 @@ URL:https://www.eventbrite.com/e/halloween-harvest-festival-tickets-1986570
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-3@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T190000
 DTEND;TZID=America/New_York:20261031T210000
 SUMMARY:Catbaret! NYC’s Cat-Themed Variety Show: Meowloween!
@@ -72,7 +72,7 @@ loween-tickets-1968865298107
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-4@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T170000
 DTEND;TZID=America/New_York:20261031T190000
 SUMMARY:Maggie's Scary Story Contest
@@ -88,7 +88,7 @@ URL:https://www.eventbrite.com/e/maggies-scary-story-contest-tickets-200266
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-5@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T200000
 DTEND;TZID=America/New_York:20261031T220000
 SUMMARY:Harry Styles: Together\, Together. Harryween.
@@ -106,7 +106,7 @@ ew-york-new-york-10-31-2026/event/3B00643506DA83DE
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-6@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T183000
 DTEND;TZID=America/New_York:20261031T203000
 SUMMARY:Cypress Hill - Haunted Hill
@@ -122,7 +122,7 @@ k-10-31-2026/event/00006515B92CB624
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-7@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T203000
 DTEND;TZID=America/New_York:20261031T223000
 SUMMARY:Ron Carter's Foursight Quartet
@@ -138,7 +138,7 @@ jazz-club-tickets/14223964
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-8@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T200000
 DTEND;TZID=America/New_York:20261031T220000
 SUMMARY:Robert Glasper
@@ -154,7 +154,7 @@ te-jazz-club-tickets/15019023
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-9@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T193000
 DTEND;TZID=America/New_York:20261031T213000
 SUMMARY:New York Philharmonic: Get Out in Concert
@@ -168,7 +168,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3e
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-10@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T150000
 DTEND;TZID=America/New_York:20261031T170000
 SUMMARY:Project 91 Presents Rooftop at Pier 17 Halloween: Krewella & Nervo
@@ -186,7 +186,7 @@ a-nervo-arty-dvbbs-tickets?skin=therooftopatpier17
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-11@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T190000
 DTEND;TZID=America/New_York:20261031T210000
 SUMMARY:Elsewhere Halloween: Cannelle\, EQ\, Tommy Fleece\, Corridos Ketami
@@ -206,7 +206,7 @@ ce-corridos-ketamina-more-tickets-1998452789089
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-12@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T153000
 DTEND;TZID=America/New_York:20261031T173000
 SUMMARY:The Exorcist
@@ -220,7 +220,7 @@ URL:https://movingimage.org/event/the-exorcist/2026-10-31/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-13@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T180000
 DTEND;TZID=America/New_York:20261031T200000
 SUMMARY:Poltergeist
@@ -232,7 +232,7 @@ URL:https://movingimage.org/event/poltergeist/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-14@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T160000
 DTEND;TZID=America/New_York:20261031T180000
 SUMMARY:Horror of Dracula
@@ -246,7 +246,7 @@ URL:https://metrograph.com/film/9999005060-horror-of-dracula/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-15@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T235500
 DTEND;TZID=America/New_York:20261101T015500
 SUMMARY:Halloween (1978)
@@ -260,7 +260,7 @@ URL:https://nitehawkcinema.com/williamsburg/movies/halloween-1978/
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-16@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T140000
 DTEND;TZID=America/New_York:20261031T160000
 SUMMARY:Billy Crystal
@@ -276,7 +276,7 @@ URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-31-
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-17@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T204500
 DTEND;TZID=America/New_York:20261031T224500
 SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Andre De
@@ -292,7 +292,7 @@ URL:https://www.comedycellar.com/reservations-newyork/?showid=1793479500
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-18@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T140000
 DTEND;TZID=America/New_York:20261031T160000
 SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
@@ -308,7 +308,7 @@ URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-10-31-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-19@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T170000
 DTEND;TZID=America/New_York:20261031T190000
 SUMMARY:Drunk Dracula
@@ -320,7 +320,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pypf
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-20@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T183000
 DTEND;TZID=America/New_York:20261031T203000
 SUMMARY:Haunted Bay Ridge Walking Tour
@@ -336,7 +336,7 @@ URL:https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-199
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-21@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T190000
 DTEND;TZID=America/New_York:20261031T210000
 SUMMARY:Kings County Distillery: Dead Distillers Halloween Tour
@@ -354,7 +354,7 @@ lloween-tour-tickets-2000638115459
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-22@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T130000
 DTEND;TZID=America/New_York:20261031T150000
 SUMMARY:Halloween Candy & Cheese Pairing
@@ -370,7 +370,7 @@ URL:https://www.eventbrite.com/e/halloween-candy-cheese-pairing-tickets-199
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-23@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T110000
 DTEND;TZID=America/New_York:20261031T130000
 SUMMARY:Coffee Tasting: Spooky Edition
@@ -386,23 +386,7 @@ URL:https://www.eventbrite.com/e/coffee-tasting-spooky-edition-tickets-2003
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261031-24@concierge
-DTSTAMP:20261031T120041Z
-DTSTART;TZID=America/New_York:20261031T180000
-DTEND;TZID=America/New_York:20261031T200000
-SUMMARY:Wearable Neon with Molmol Kuo
-LOCATION:UrbanGlass\, Fort Greene
-DESCRIPTION:Bend glass into wearable light with Molmol Kuo at UrbanGlass in
- 
- Fort Greene. Tickets & info: https://www.eventbrite.com/e/wearable-neon-wi
- 
-th-molmol-kuo-tickets-1991785601351
-URL:https://www.eventbrite.com/e/wearable-neon-with-molmol-kuo-tickets-1991
- 
-785601351
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261031-25@concierge
-DTSTAMP:20261031T120041Z
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T143000
 DTEND;TZID=America/New_York:20261031T163000
 SUMMARY:Make Your Own Emotional Support Ghost & Paint a mini Pumpkin
@@ -419,8 +403,8 @@ URL:https://www.eventbrite.com/e/make-your-own-emotional-support-ghost-pain
 t-a-mini-pumpkin-tickets-2003722101745
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261031-26@concierge
-DTSTAMP:20261031T120041Z
+UID:nyc-20261031-25@concierge
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T140000
 DTEND;TZID=America/New_York:20261031T160000
 SUMMARY:New York City FC vs. CF Montréal
@@ -435,8 +419,8 @@ URL:https://www.ticketmaster.com/new-york-city-fc-vs-cf-queens-new-york-10-
 31-2026/event/1D00652AE40EEAA8
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261031-27@concierge
-DTSTAMP:20261031T120041Z
+UID:nyc-20261031-26@concierge
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T130000
 DTEND;TZID=America/New_York:20261031T150000
 SUMMARY:Language City: Highlighting New York City’s Mother Tongues
@@ -453,8 +437,8 @@ URL:https://www.eventbrite.com/e/language-city-highlighting-new-york-citys-
 mother-tongues-tickets-2001421411318
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261031-28@concierge
-DTSTAMP:20261031T120041Z
+UID:nyc-20261031-27@concierge
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T080000
 DTEND;TZID=America/New_York:20261031T100000
 SUMMARY:Ice Skating
@@ -469,8 +453,8 @@ URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
 e-skating-rink-at-bryant-park/2026-10-31
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261031-29@concierge
-DTSTAMP:20261031T120041Z
+UID:nyc-20261031-28@concierge
+DTSTAMP:20261031T120330Z
 DTSTART;TZID=America/New_York:20261031T133000
 DTEND;TZID=America/New_York:20261031T153000
 SUMMARY:Roll for Friends
