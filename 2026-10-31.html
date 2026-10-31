@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, October 31</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, October 31</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-10-31.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-0" data-name="Village Halloween Parade">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://secretnyc.co/village-halloween-parade-2026-nyc-guide/">Village Halloween Parade</a></h3>
+<div class="meta">7:00 PM · Sixth Avenue, Greenwich Village, Greenwich Village · Free</div>
+<p>The 53rd annual Village Halloween Parade: giant puppets, bands and tens of thousands of costumes marching up Sixth Avenue. This year&#x27;s theme: Body &amp; Soul. Free to watch; costumed marchers can join at Canal Street from 6:30 PM.</p>
+<a class="tickets" href="https://secretnyc.co/village-halloween-parade-2026-nyc-guide/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Annual Urban Meadow Halloween Parade and Party">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/10/31/the-annual-urban-meadow-halloween-parade-and-party">Annual Urban Meadow Halloween Parade and Party</a></h3>
+<div class="meta">11:30 AM · Urban Meadow Community Garden, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · Free</div>
+<p>A neighborhood Halloween parade and party in the Urban Meadow garden in Carroll Gardens.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/10/31/the-annual-urban-meadow-halloween-parade-and-party">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Halloween Harvest Festival">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/halloween-harvest-festival-tickets-1986570753601">Halloween Harvest Festival</a></h3>
+<div class="meta">12:00 PM · Socrates Sculpture Park, Queensbridge-Ravenswood-Dutch Kills</div>
+<p>A fall festival at Socrates Sculpture Park in Astoria — costumes welcome.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/halloween-harvest-festival-tickets-1986570753601">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Catbaret! NYC’s Cat-Themed Variety Show: Meowloween!">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/catbaret-nycs-cat-themed-variety-show-meowloween-tickets-1968865298107">Catbaret! NYC’s Cat-Themed Variety Show: Meowloween!</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side · $24.41</div>
+<p>NYC&#x27;s cat-themed variety show goes Meowloween: burlesque, comedy and a costume contest.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/catbaret-nycs-cat-themed-variety-show-meowloween-tickets-1968865298107">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Maggie&#x27;s Scary Story Contest">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/maggies-scary-story-contest-tickets-2002664077165">Maggie&#x27;s Scary Story Contest</a></h3>
+<div class="meta">5:00 PM · Union Hall, Park Slope · $15.92</div>
+<p>Writers get 60 minutes to craft original scary stories, then read them live — winner takes all.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/maggies-scary-story-contest-tickets-2002664077165">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-5" data-name="Harry Styles: Together, Together. Harryween.">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE">Harry Styles: Together, Together. Harryween.</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Harryween returns to the Garden — Harry Styles&#x27; Halloween night at MSG, costumes strongly encouraged.</p>
+<a class="tickets" href="https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Cypress Hill - Haunted Hill">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/cypress-hill-haunted-hill-new-york-new-york-10-31-2026/event/00006515B92CB624">Cypress Hill - Haunted Hill</a></h3>
+<div class="meta">6:30 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>Cypress Hill bring the Haunted Hill to Irving Plaza for a Halloween-night set.</p>
+<a class="tickets" href="https://www.ticketmaster.com/cypress-hill-haunted-hill-new-york-new-york-10-31-2026/event/00006515B92CB624">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Ron Carter&#x27;s Foursight Quartet">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-jazz-club-tickets/14223964">Ron Carter&#x27;s Foursight Quartet</a></h3>
+<div class="meta">8:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Jazz royalty: bass legend Ron Carter leads his Foursight Quartet at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-jazz-club-tickets/14223964">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Robert Glasper">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/robert-glasper-x-halloween-with-blue-note-jazz-club-tickets/15019023">Robert Glasper</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club - NY, SoHo-Little Italy-Hudson Square · $89.12</div>
+<p>Robert Glasper&#x27;s Halloween session at the Blue Note — jazz, hip-hop and surprise guests.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/robert-glasper-x-halloween-with-blue-note-jazz-club-tickets/15019023">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="New York Philharmonic: Get Out in Concert">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3e">New York Philharmonic: Get Out in Concert</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>Jordan Peele&#x27;s Get Out on screen with the Philharmonic playing Michael Abels&#x27; score live.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3e">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Project 91 Presents Rooftop at Pier 17 Halloween: Krewella &amp; Nervo">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.axs.com/events/1547301/rooftop-at-pier-17-halloween-krewella-nervo-arty-dvbbs-tickets?skin=therooftopatpier17">Project 91 Presents Rooftop at Pier 17 Halloween: Krewella &amp; Nervo</a></h3>
+<div class="meta">3:00 PM · The Rooftop at Pier 17, Financial District-Battery Park City</div>
+<p>A daytime Halloween rave on the Pier 17 rooftop with Krewella, Nervo, ARTY and DVBBS.</p>
+<a class="tickets" href="https://www.axs.com/events/1547301/rooftop-at-pier-17-halloween-krewella-nervo-arty-dvbbs-tickets?skin=therooftopatpier17">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Elsewhere Halloween: Cannelle, EQ, Tommy Fleece, Corridos Ketamina + more">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/elsewhere-halloween-cannelle-eq-tommy-fleece-corridos-ketamina-more-tickets-1998452789089">Elsewhere Halloween: Cannelle, EQ, Tommy Fleece, Corridos Ketamina + more</a></h3>
+<div class="meta">7:00 PM · Elsewhere - The Hall, East Williamsburg · $33.59</div>
+<p>Elsewhere&#x27;s Halloween blowout in Bushwick: Cannelle, EQ and more across the Hall.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/elsewhere-halloween-cannelle-eq-tommy-fleece-corridos-ketamina-more-tickets-1998452789089">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="The Exorcist">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/the-exorcist/2026-10-31/">The Exorcist</a></h3>
+<div class="meta">3:30 PM · Museum of the Moving Image, Astoria (Central) · $17.5</div>
+<p>The scariest film ever made, now in 4K DCP at the Museum of the Moving Image.</p>
+<a class="tickets" href="https://movingimage.org/event/the-exorcist/2026-10-31/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Poltergeist">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/poltergeist/">Poltergeist</a></h3>
+<div class="meta">6:00 PM · Museum of the Moving Image, Astoria (Central) · $17.5</div>
+<p>Tobe Hooper and Spielberg&#x27;s suburban nightmare on 35mm — they&#x27;re here.</p>
+<a class="tickets" href="https://movingimage.org/event/poltergeist/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Horror of Dracula">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005060-horror-of-dracula/">Horror of Dracula</a></h3>
+<div class="meta">4:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Christopher Lee&#x27;s first, seductive turn as Dracula in Hammer&#x27;s 1958 Gothic classic, on 35mm.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005060-horror-of-dracula/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Halloween (1978)">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/halloween-1978/">Halloween (1978)</a></h3>
+<div class="meta">11:55 PM · Nitehawk Cinema Williamsburg, Williamsburg · 15</div>
+<p>The night HE came home: Carpenter&#x27;s original Halloween at the stroke of midnight.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/halloween-1978/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-16" data-name="Billy Crystal">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-31-2026/event/Z1r9uZruZqGZ1AvZab6">Billy Crystal</a></h3>
+<div class="meta">2:00 PM · Imperial Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>Billy Crystal live on Broadway — an afternoon with a comedy legend.</p>
+<a class="tickets" href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-31-2026/event/Z1r9uZruZqGZ1AvZab6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Andre De Freitas, Jenny Tian, Greer Barnes &amp; more">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793479500">Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Andre De Freitas, Jenny Tian, Greer Barnes &amp; more</a></h3>
+<div class="meta">8:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · 25</div>
+<p>The Cellar&#x27;s Saturday lineup, up close in the MacDougal Street room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793479500">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-18" data-name="Lost Boys Musical w/ Unknown Mortal Orchestra">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-10-31-2026/event/Z1r9uZrrZbpZ1AvOAbf">Lost Boys Musical w/ Unknown Mortal Orchestra</a></h3>
+<div class="meta">2:00 PM · Palace Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>The Lost Boys goes musical on Broadway — with Unknown Mortal Orchestra in the mix.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-10-31-2026/event/Z1r9uZrrZbpZ1AvOAbf">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Drunk Dracula">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7Pypf">Drunk Dracula</a></h3>
+<div class="meta">5:00 PM · The Ruby Theatre, Chelsea-Hudson Yards</div>
+<p>A tipsy take on the Count: Drunk Dracula at the Ruby Theatre.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7Pypf">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-20" data-name="Haunted Bay Ridge Walking Tour">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943885784">Haunted Bay Ridge Walking Tour</a></h3>
+<div class="meta">6:30 PM · 29 83rd St, Bay Ridge</div>
+<p>Ghost anecdotes, unsolved murders and a secret society of skull worshippers on a Bay Ridge night walk.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943885784">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Kings County Distillery: Dead Distillers Halloween Tour">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kings-county-distillery-dead-distillers-halloween-tour-tickets-2000638115459">Kings County Distillery: Dead Distillers Halloween Tour</a></h3>
+<div class="meta">7:00 PM · Kings County Distillery, Brooklyn Navy Yard</div>
+<p>A Halloween tour of Kings County Distillery with tales of its dead distillers — whiskey history with a ghostly twist.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kings-county-distillery-dead-distillers-halloween-tour-tickets-2000638115459">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-22" data-name="Halloween Candy &amp; Cheese Pairing">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/halloween-candy-cheese-pairing-tickets-1993709242012">Halloween Candy &amp; Cheese Pairing</a></h3>
+<div class="meta">1:00 PM · Murray&#x27;s Cheese Shop, West Village · $108.56</div>
+<p>Four cheeses meet four Halloween candies, with wine pours, in Murray&#x27;s Bleecker Street classroom.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/halloween-candy-cheese-pairing-tickets-1993709242012">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Coffee Tasting: Spooky Edition">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/coffee-tasting-spooky-edition-tickets-2003966914988">Coffee Tasting: Spooky Edition</a></h3>
+<div class="meta">11:00 AM · Devoción, Williamsburg</div>
+<p>A spooky-edition coffee tasting at Devoción in Williamsburg.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/coffee-tasting-spooky-edition-tickets-2003966914988">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-24" data-name="Wearable Neon with Molmol Kuo">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/wearable-neon-with-molmol-kuo-tickets-1991785601351">Wearable Neon with Molmol Kuo</a></h3>
+<div class="meta">6:00 PM · UrbanGlass, Fort Greene</div>
+<p>Bend glass into wearable light with Molmol Kuo at UrbanGlass in Fort Greene.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/wearable-neon-with-molmol-kuo-tickets-1991785601351">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Make Your Own Emotional Support Ghost &amp; Paint a mini Pumpkin">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/make-your-own-emotional-support-ghost-paint-a-mini-pumpkin-tickets-2003722101745">Make Your Own Emotional Support Ghost &amp; Paint a mini Pumpkin</a></h3>
+<div class="meta">2:30 PM · Building 103, Brooklyn Navy Yard</div>
+<p>Craft your own emotional support ghost and paint a mini pumpkin at the Brooklyn Navy Yard.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/make-your-own-emotional-support-ghost-paint-a-mini-pumpkin-tickets-2003722101745">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-26" data-name="New York City FC vs. CF Montréal">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-city-fc-vs-cf-queens-new-york-10-31-2026/event/1D00652AE40EEAA8">New York City FC vs. CF Montréal</a></h3>
+<div class="meta">2:00 PM · Citi Field, Flushing Meadows-Corona Park</div>
+<p>NYCFC host CF Montréal at Citi Field on Halloween afternoon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-city-fc-vs-cf-queens-new-york-10-31-2026/event/1D00652AE40EEAA8">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-27" data-name="Language City: Highlighting New York City’s Mother Tongues">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/language-city-highlighting-new-york-citys-mother-tongues-tickets-2001421411318">Language City: Highlighting New York City’s Mother Tongues</a></h3>
+<div class="meta">1:00 PM · Elizabeth Kray Hall, Poets House, Financial District-Battery Park City · Free</div>
+<p>A celebration of the hundreds of languages spoken across New York City, at Poets House.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/language-city-highlighting-new-york-citys-mother-tongues-tickets-2001421411318">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-28" data-name="Ice Skating">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-10-31">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>The Winter Village rink is open — free admission if you bring your own skates.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-10-31">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-29" data-name="Roll for Friends">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/roll-for-friends-tickets-2002102532570">Roll for Friends</a></h3>
+<div class="meta">1:30 PM · Caveat, Lower East Side</div>
+<p>A low-key tabletop social at Caveat: roll dice, meet people, stay for the games.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/roll-for-friends-tickets-2002102532570">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-10-31";
+const NAMES = ["Village Halloween Parade", "Annual Urban Meadow Halloween Parade and Party", "Halloween Harvest Festival", "Catbaret! NYC\u2019s Cat-Themed Variety Show: Meowloween!", "Maggie's Scary Story Contest", "Harry Styles: Together, Together. Harryween.", "Cypress Hill - Haunted Hill", "Ron Carter's Foursight Quartet", "Robert Glasper", "New York Philharmonic: Get Out in Concert", "Project 91 Presents Rooftop at Pier 17 Halloween: Krewella & Nervo", "Elsewhere Halloween: Cannelle, EQ, Tommy Fleece, Corridos Ketamina + more", "The Exorcist", "Poltergeist", "Horror of Dracula", "Halloween (1978)", "Billy Crystal", "Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Andre De Freitas, Jenny Tian, Greer Barnes & more", "Lost Boys Musical w/ Unknown Mortal Orchestra", "Drunk Dracula", "Haunted Bay Ridge Walking Tour", "Kings County Distillery: Dead Distillers Halloween Tour", "Halloween Candy & Cheese Pairing", "Coffee Tasting: Spooky Edition", "Wearable Neon with Molmol Kuo", "Make Your Own Emotional Support Ghost & Paint a mini Pumpkin", "New York City FC vs. CF Montr\u00e9al", "Language City: Highlighting New York City\u2019s Mother Tongues", "Ice Skating", "Roll for Friends"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

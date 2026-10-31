@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261031-0@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T190000
+DTEND;TZID=America/New_York:20261031T210000
+SUMMARY:Village Halloween Parade
+LOCATION:Sixth Avenue\, Greenwich Village\, Greenwich Village
+DESCRIPTION:The 53rd annual Village Halloween Parade: giant puppets\, bands
+ 
+ and tens of thousands of costumes marching up Sixth Avenue. This year's th
+ 
+eme: Body & Soul. Free to watch\; costumed marchers can join at Canal Stree
+ 
+t from 6:30 PM. Tickets & info: https://secretnyc.co/village-halloween-para
+ 
+de-2026-nyc-guide/
+URL:https://secretnyc.co/village-halloween-parade-2026-nyc-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-1@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T113000
+DTEND;TZID=America/New_York:20261031T133000
+SUMMARY:Annual Urban Meadow Halloween Parade and Party
+LOCATION:Urban Meadow Community Garden\, Carroll Gardens-Cobble Hill-Gowanu
+ 
+s-Red Hook
+DESCRIPTION:A neighborhood Halloween parade and party in the Urban Meadow g
+ 
+arden in Carroll Gardens. Tickets & info: http://www.nycgovparks.org/events
+ 
+/2026/10/31/the-annual-urban-meadow-halloween-parade-and-party
+URL:http://www.nycgovparks.org/events/2026/10/31/the-annual-urban-meadow-ha
+ 
+lloween-parade-and-party
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-2@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T120000
+DTEND;TZID=America/New_York:20261031T140000
+SUMMARY:Halloween Harvest Festival
+LOCATION:Socrates Sculpture Park\, Queensbridge-Ravenswood-Dutch Kills
+DESCRIPTION:A fall festival at Socrates Sculpture Park in Astoria — costu
+ 
+mes welcome. Tickets & info: https://www.eventbrite.com/e/halloween-harvest
+ 
+-festival-tickets-1986570753601
+URL:https://www.eventbrite.com/e/halloween-harvest-festival-tickets-1986570
+ 
+753601
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-3@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T190000
+DTEND;TZID=America/New_York:20261031T210000
+SUMMARY:Catbaret! NYC’s Cat-Themed Variety Show: Meowloween!
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:NYC's cat-themed variety show goes Meowloween: burlesque\, come
+ 
+dy and a costume contest. Tickets & info: https://www.eventbrite.com/e/catb
+ 
+aret-nycs-cat-themed-variety-show-meowloween-tickets-1968865298107
+URL:https://www.eventbrite.com/e/catbaret-nycs-cat-themed-variety-show-meow
+ 
+loween-tickets-1968865298107
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-4@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T170000
+DTEND;TZID=America/New_York:20261031T190000
+SUMMARY:Maggie's Scary Story Contest
+LOCATION:Union Hall\, Park Slope
+DESCRIPTION:Writers get 60 minutes to craft original scary stories\, then r
+ 
+ead them live — winner takes all. Tickets & info: https://www.eventbrite.
+ 
+com/e/maggies-scary-story-contest-tickets-2002664077165
+URL:https://www.eventbrite.com/e/maggies-scary-story-contest-tickets-200266
+ 
+4077165
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-5@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T200000
+DTEND;TZID=America/New_York:20261031T220000
+SUMMARY:Harry Styles: Together\, Together. Harryween.
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Harryween returns to the Garden — Harry Styles' Halloween nig
+ 
+ht at MSG\, costumes strongly encouraged. Tickets & info: https://www.ticke
+ 
+tmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-3
+ 
+1-2026/event/3B00643506DA83DE
+URL:https://www.ticketmaster.com/harry-styles-together-together-harryween-n
+ 
+ew-york-new-york-10-31-2026/event/3B00643506DA83DE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-6@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T183000
+DTEND;TZID=America/New_York:20261031T203000
+SUMMARY:Cypress Hill - Haunted Hill
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Cypress Hill bring the Haunted Hill to Irving Plaza for a Hallo
+ 
+ween-night set. Tickets & info: https://www.ticketmaster.com/cypress-hill-h
+ 
+aunted-hill-new-york-new-york-10-31-2026/event/00006515B92CB624
+URL:https://www.ticketmaster.com/cypress-hill-haunted-hill-new-york-new-yor
+ 
+k-10-31-2026/event/00006515B92CB624
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-7@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T203000
+DTEND;TZID=America/New_York:20261031T223000
+SUMMARY:Ron Carter's Foursight Quartet
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Jazz royalty: bass legend Ron Carter leads his Foursight Quarte
+ 
+t at Birdland. Tickets & info: https://www.ticketweb.com/event/ron-carters-
+ 
+foursight-quartet-birdland-jazz-club-tickets/14223964
+URL:https://www.ticketweb.com/event/ron-carters-foursight-quartet-birdland-
+ 
+jazz-club-tickets/14223964
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-8@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T200000
+DTEND;TZID=America/New_York:20261031T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Robert Glasper's Halloween session at the Blue Note — jazz\, 
+ 
+hip-hop and surprise guests. Tickets & info: https://www.ticketweb.com/even
+ 
+t/robert-glasper-x-halloween-with-blue-note-jazz-club-tickets/15019023
+URL:https://www.ticketweb.com/event/robert-glasper-x-halloween-with-blue-no
+ 
+te-jazz-club-tickets/15019023
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-9@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T193000
+DTEND;TZID=America/New_York:20261031T213000
+SUMMARY:New York Philharmonic: Get Out in Concert
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:Jordan Peele's Get Out on screen with the Philharmonic playing 
+ 
+Michael Abels' score live. Tickets & info: https://www.ticketmaster.com/eve
+ 
+nt/Z7r9jZ1AAZ-3e
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3e
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-10@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T150000
+DTEND;TZID=America/New_York:20261031T170000
+SUMMARY:Project 91 Presents Rooftop at Pier 17 Halloween: Krewella & Nervo
+LOCATION:The Rooftop at Pier 17\, Financial District-Battery Park City
+DESCRIPTION:A daytime Halloween rave on the Pier 17 rooftop with Krewella\,
+ 
+ Nervo\, ARTY and DVBBS. Tickets & info: https://www.axs.com/events/1547301
+ 
+/rooftop-at-pier-17-halloween-krewella-nervo-arty-dvbbs-tickets?skin=theroo
+ 
+ftopatpier17
+URL:https://www.axs.com/events/1547301/rooftop-at-pier-17-halloween-krewell
+ 
+a-nervo-arty-dvbbs-tickets?skin=therooftopatpier17
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-11@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T190000
+DTEND;TZID=America/New_York:20261031T210000
+SUMMARY:Elsewhere Halloween: Cannelle\, EQ\, Tommy Fleece\, Corridos Ketami
+ 
+na + more
+LOCATION:Elsewhere - The Hall\, East Williamsburg
+DESCRIPTION:Elsewhere's Halloween blowout in Bushwick: Cannelle\, EQ and mo
+ 
+re across the Hall. Tickets & info: https://www.eventbrite.com/e/elsewhere-
+ 
+halloween-cannelle-eq-tommy-fleece-corridos-ketamina-more-tickets-199845278
+ 
+9089
+URL:https://www.eventbrite.com/e/elsewhere-halloween-cannelle-eq-tommy-flee
+ 
+ce-corridos-ketamina-more-tickets-1998452789089
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-12@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T153000
+DTEND;TZID=America/New_York:20261031T173000
+SUMMARY:The Exorcist
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:The scariest film ever made\, now in 4K DCP at the Museum of th
+ 
+e Moving Image. Tickets & info: https://movingimage.org/event/the-exorcist/
+ 
+2026-10-31/
+URL:https://movingimage.org/event/the-exorcist/2026-10-31/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-13@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T180000
+DTEND;TZID=America/New_York:20261031T200000
+SUMMARY:Poltergeist
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Tobe Hooper and Spielberg's suburban nightmare on 35mm — they
+ 
+'re here. Tickets & info: https://movingimage.org/event/poltergeist/
+URL:https://movingimage.org/event/poltergeist/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-14@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T160000
+DTEND;TZID=America/New_York:20261031T180000
+SUMMARY:Horror of Dracula
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Christopher Lee's first\, seductive turn as Dracula in Hammer's
+ 
+ 1958 Gothic classic\, on 35mm. Tickets & info: https://metrograph.com/film
+ 
+/9999005060-horror-of-dracula/
+URL:https://metrograph.com/film/9999005060-horror-of-dracula/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-15@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T235500
+DTEND;TZID=America/New_York:20261101T015500
+SUMMARY:Halloween (1978)
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:The night HE came home: Carpenter's original Halloween at the s
+ 
+troke of midnight. Tickets & info: https://nitehawkcinema.com/williamsburg/
+ 
+movies/halloween-1978/
+URL:https://nitehawkcinema.com/williamsburg/movies/halloween-1978/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-16@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Billy Crystal
+LOCATION:Imperial Theatre - NY\, Hell's Kitchen
+DESCRIPTION:Billy Crystal live on Broadway — an afternoon with a comedy l
+ 
+egend. Tickets & info: https://www.ticketmaster.com/billy-crystal-860-new-y
+ 
+ork-new-york-10-31-2026/event/Z1r9uZruZqGZ1AvZab6
+URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-10-31-
+ 
+2026/event/Z1r9uZruZqGZ1AvZab6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-17@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T204500
+DTEND;TZID=America/New_York:20261031T224500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Andre De
+ 
+ Freitas\, Jenny Tian\, Greer Barnes & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The Cellar's Saturday lineup\, up close in the MacDougal Street
+ 
+ room. Tickets & info: https://www.comedycellar.com/reservations-newyork/?s
+ 
+howid=1793479500
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793479500
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-18@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
+LOCATION:Palace Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The Lost Boys goes musical on Broadway — with Unknown Mortal 
+ 
+Orchestra in the mix. Tickets & info: https://www.ticketmaster.com/the-lost
+ 
+-boys-new-york-new-york-10-31-2026/event/Z1r9uZrrZbpZ1AvOAbf
+URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-10-31-2026
+ 
+/event/Z1r9uZrrZbpZ1AvOAbf
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-19@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T170000
+DTEND;TZID=America/New_York:20261031T190000
+SUMMARY:Drunk Dracula
+LOCATION:The Ruby Theatre\, Chelsea-Hudson Yards
+DESCRIPTION:A tipsy take on the Count: Drunk Dracula at the Ruby Theatre. T
+ 
+ickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7Pypf
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pypf
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-20@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T183000
+DTEND;TZID=America/New_York:20261031T203000
+SUMMARY:Haunted Bay Ridge Walking Tour
+LOCATION:29 83rd St\, Bay Ridge
+DESCRIPTION:Ghost anecdotes\, unsolved murders and a secret society of skul
+ 
+l worshippers on a Bay Ridge night walk. Tickets & info: https://www.eventb
+ 
+rite.com/e/haunted-bay-ridge-walking-tour-tickets-1991943885784
+URL:https://www.eventbrite.com/e/haunted-bay-ridge-walking-tour-tickets-199
+ 
+1943885784
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-21@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T190000
+DTEND;TZID=America/New_York:20261031T210000
+SUMMARY:Kings County Distillery: Dead Distillers Halloween Tour
+LOCATION:Kings County Distillery\, Brooklyn Navy Yard
+DESCRIPTION:A Halloween tour of Kings County Distillery with tales of its d
+ 
+ead distillers — whiskey history with a ghostly twist. Tickets & info: ht
+ 
+tps://www.eventbrite.com/e/kings-county-distillery-dead-distillers-hallowee
+ 
+n-tour-tickets-2000638115459
+URL:https://www.eventbrite.com/e/kings-county-distillery-dead-distillers-ha
+ 
+lloween-tour-tickets-2000638115459
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-22@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T130000
+DTEND;TZID=America/New_York:20261031T150000
+SUMMARY:Halloween Candy & Cheese Pairing
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Four cheeses meet four Halloween candies\, with wine pours\, in
+ 
+ Murray's Bleecker Street classroom. Tickets & info: https://www.eventbrite
+ 
+.com/e/halloween-candy-cheese-pairing-tickets-1993709242012
+URL:https://www.eventbrite.com/e/halloween-candy-cheese-pairing-tickets-199
+ 
+3709242012
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-23@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T110000
+DTEND;TZID=America/New_York:20261031T130000
+SUMMARY:Coffee Tasting: Spooky Edition
+LOCATION:Devoción\, Williamsburg
+DESCRIPTION:A spooky-edition coffee tasting at Devoción in Williamsburg. T
+ 
+ickets & info: https://www.eventbrite.com/e/coffee-tasting-spooky-edition-t
+ 
+ickets-2003966914988
+URL:https://www.eventbrite.com/e/coffee-tasting-spooky-edition-tickets-2003
+ 
+966914988
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-24@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T180000
+DTEND;TZID=America/New_York:20261031T200000
+SUMMARY:Wearable Neon with Molmol Kuo
+LOCATION:UrbanGlass\, Fort Greene
+DESCRIPTION:Bend glass into wearable light with Molmol Kuo at UrbanGlass in
+ 
+ Fort Greene. Tickets & info: https://www.eventbrite.com/e/wearable-neon-wi
+ 
+th-molmol-kuo-tickets-1991785601351
+URL:https://www.eventbrite.com/e/wearable-neon-with-molmol-kuo-tickets-1991
+ 
+785601351
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-25@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T143000
+DTEND;TZID=America/New_York:20261031T163000
+SUMMARY:Make Your Own Emotional Support Ghost & Paint a mini Pumpkin
+LOCATION:Building 103\, Brooklyn Navy Yard
+DESCRIPTION:Craft your own emotional support ghost and paint a mini pumpkin
+ 
+ at the Brooklyn Navy Yard. Tickets & info: https://www.eventbrite.com/e/ma
+ 
+ke-your-own-emotional-support-ghost-paint-a-mini-pumpkin-tickets-2003722101
+ 
+745
+URL:https://www.eventbrite.com/e/make-your-own-emotional-support-ghost-pain
+ 
+t-a-mini-pumpkin-tickets-2003722101745
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-26@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T140000
+DTEND;TZID=America/New_York:20261031T160000
+SUMMARY:New York City FC vs. CF Montréal
+LOCATION:Citi Field\, Flushing Meadows-Corona Park
+DESCRIPTION:NYCFC host CF Montréal at Citi Field on Halloween afternoon. T
+ 
+ickets & info: https://www.ticketmaster.com/new-york-city-fc-vs-cf-queens-n
+ 
+ew-york-10-31-2026/event/1D00652AE40EEAA8
+URL:https://www.ticketmaster.com/new-york-city-fc-vs-cf-queens-new-york-10-
+ 
+31-2026/event/1D00652AE40EEAA8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-27@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T130000
+DTEND;TZID=America/New_York:20261031T150000
+SUMMARY:Language City: Highlighting New York City’s Mother Tongues
+LOCATION:Elizabeth Kray Hall\, Poets House\, Financial District-Battery Par
+ 
+k City
+DESCRIPTION:A celebration of the hundreds of languages spoken across New Yo
+ 
+rk City\, at Poets House. Tickets & info: https://www.eventbrite.com/e/lang
+ 
+uage-city-highlighting-new-york-citys-mother-tongues-tickets-2001421411318
+URL:https://www.eventbrite.com/e/language-city-highlighting-new-york-citys-
+ 
+mother-tongues-tickets-2001421411318
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-28@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T080000
+DTEND;TZID=America/New_York:20261031T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink is open — free admission if you bring
+ 
+ your own skates. Tickets & info: https://bryantpark.org/calendar/event/ban
+ 
+k-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-10-31
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-10-31
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261031-29@concierge
+DTSTAMP:20261031T120041Z
+DTSTART;TZID=America/New_York:20261031T133000
+DTEND;TZID=America/New_York:20261031T153000
+SUMMARY:Roll for Friends
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:A low-key tabletop social at Caveat: roll dice\, meet people\, 
+ 
+stay for the games. Tickets & info: https://www.eventbrite.com/e/roll-for-f
+ 
+riends-tickets-2002102532570
+URL:https://www.eventbrite.com/e/roll-for-friends-tickets-2002102532570
+END:VEVENT
+END:VCALENDAR
