@@ -1,0 +1,447 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261101-0@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T090000
+DTEND;TZID=America/New_York:20261101T110000
+SUMMARY:Sunday Greenmarket at Bartel-Pritchard Square
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:South Slope's beloved Sunday market: farm vegetables\, fresh-ca
+ 
+ught fish\, baked goods and flowers under the trees. Tickets & info: https:
+ 
+//www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritchard-square-
+ 
+4/2026-11-01/
+URL:https://www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritcha
+ 
+rd-square-4/2026-11-01/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-1@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T080000
+DTEND;TZID=America/New_York:20261101T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink is open — free admission if you bring
+ 
+ your own skates\, right in the heart of Midtown. Tickets & info: https://b
+ 
+ryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rin
+ 
+k-at-bryant-park/2026-11-01
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-01
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-2@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T100000
+DTEND;TZID=America/New_York:20261101T120000
+SUMMARY:Family Art Project: Day of the Dead
+LOCATION:Wave Hill\, Riverdale-Spuyten Duyvil
+DESCRIPTION:A family art morning at Wave Hill celebrating Día de los Muert
+ 
+os with hands-on making — free with grounds admission. Tickets & info: ht
+ 
+tp://www.nycgovparks.org/events/2026/11/01/family-art-project-day-of-the-de
+ 
+ad
+URL:http://www.nycgovparks.org/events/2026/11/01/family-art-project-day-of-
+ 
+the-dead
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-3@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T110000
+DTEND;TZID=America/New_York:20261101T130000
+SUMMARY:Brooklyn FAM 6th Annual Flagship Festival: Shine Your Light
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Brooklyn FAM's free\, family-friendly flagship: Indigenous musi
+ 
+c\, dance\, drumming circles and craft-making in Prospect Park. Tickets & i
+ 
+nfo: https://www.prospectpark.org/event/brooklyn-fam-6th-annual-flagship-fe
+ 
+stival-shine-your-light/
+URL:https://www.prospectpark.org/event/brooklyn-fam-6th-annual-flagship-fes
+ 
+tival-shine-your-light/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-4@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T160000
+DTEND;TZID=America/New_York:20261101T180000
+SUMMARY:Day of the Dead 2026
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:MoMI's free Día de los Muertos: Aztec Mexica dance\, folkloric
+ 
+ ballet\, face painting and a public ofrenda. Tickets & info: https://movin
+ 
+gimage.org/event/day-of-the-dead-2026/
+URL:https://movingimage.org/event/day-of-the-dead-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-5@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T150000
+DTEND;TZID=America/New_York:20261101T170000
+SUMMARY:Day of the Dead Celebration featuring Mariachi Real de Mexico
+LOCATION:Oak Ridge (in Forest Park)\, Forest Park
+DESCRIPTION:A free parks celebration with mariachi\, dance and Día de los 
+ 
+Muertos traditions in Forest Park. Tickets & info: http://www.nycgovparks.o
+ 
+rg/events/2026/11/01/day-of-the-dead-celebration-featuring-mariachi-real-de
+ 
+-mexic
+URL:http://www.nycgovparks.org/events/2026/11/01/day-of-the-dead-celebratio
+ 
+n-featuring-mariachi-real-de-mexic
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-6@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T103000
+DTEND;TZID=America/New_York:20261101T123000
+SUMMARY:NYC Marathon Watch Party 💐 with the Brave House
+LOCATION:Black Iris\, Fort Greene
+DESCRIPTION:Cheer the marathon from mile 8 in Fort Greene — one of the lo
+ 
+udest\, most joyful stretches of the course. Tickets & info: https://luma.c
+ 
+om/sqozia0p
+URL:https://luma.com/sqozia0p
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-7@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T183000
+DTEND;TZID=America/New_York:20261101T203000
+SUMMARY:NYC Marathon Post-Race Party
+LOCATION:The Ribbon\, Upper West Side-Lincoln Square
+DESCRIPTION:Medals still on? Head to The Ribbon for the post-race party —
+ 
+ good food\, no gels\, zero judgment. Tickets & info: https://luma.com/rtdb
+ 
+qy7m
+URL:https://luma.com/rtdbqy7m
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-8@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T140000
+DTEND;TZID=America/New_York:20261101T160000
+SUMMARY:Month Offline @ MoMI
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:A facilitated meetup for people doing 30 days without a smartph
+ 
+one — part of MoMI's Month Offline cohort. Tickets & info: https://moving
+ 
+image.org/event/month-offline-momi/2026-11-01/
+URL:https://movingimage.org/event/month-offline-momi/2026-11-01/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-9@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T130000
+DTEND;TZID=America/New_York:20261101T150000
+SUMMARY:Hands-On: Tiramisù al Pistacchio
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Get messy at Eataly's Scuola: build your own pistachio tiramis
+ 
+ from scratch\, with antipasto and a wine pairing. Tickets & info: https:/
+ 
+/www.eventbrite.com/e/hands-on-tiramisu-al-pistacchio-tickets-2002757069307
+URL:https://www.eventbrite.com/e/hands-on-tiramisu-al-pistacchio-tickets-20
+ 
+02757069307
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-10@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T140000
+DTEND;TZID=America/New_York:20261101T160000
+SUMMARY:The Cheese & Wine Pairing Hour
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's Cheese does what it does best: a guided hour of cheese
+ 
+ and wine pairings in the West Village. Tickets & info: https://www.eventbr
+ 
+ite.com/e/the-cheese-wine-pairing-hour-tickets-1997899278524
+URL:https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-19978
+ 
+99278524
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-11@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T183000
+DTEND;TZID=America/New_York:20261101T203000
+SUMMARY:Sunday Dinner at Maxwell with Bravo's Top Chef Contestant\, Nana Ar
+ 
+aba Wilmot
+LOCATION:Maxwell Tribeca\, Tribeca-Civic Center
+DESCRIPTION:Top Chef's Nana Araba Wilmot cooks an Afro-indigenous tasting d
+ 
+inner — fonio jollof\, whole fish\, plantain cake — at Maxwell Tribeca.
+ 
+ Tickets & info: https://luma.com/g8jijs99
+URL:https://luma.com/g8jijs99
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-12@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T183000
+DTEND;TZID=America/New_York:20261101T203000
+SUMMARY:Cypress Hill - Haunted Hill
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Cypress Hill brings the Haunted Hill Halloween hangover to Irvi
+ 
+ng Plaza — expect the hits\, loud. Tickets & info: https://www.ticketmast
+ 
+er.com/cypress-hill-haunted-hill-new-york-new-york-11-01-2026/event/0000651
+ 
+5BA2ABD11
+URL:https://www.ticketmaster.com/cypress-hill-haunted-hill-new-york-new-yor
+ 
+k-11-01-2026/event/00006515BA2ABD11
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-13@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T200000
+DTEND;TZID=America/New_York:20261101T220000
+SUMMARY:Robert Glasper
+LOCATION:Blue Note Jazz Club - NY\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Glasper closes his Blue Note run with Meshell Ndegeocello and C
+ 
+hris Dave — three generations of groove in one room. Tickets & info: http
+ 
+s://www.ticketweb.com/event/robert-glasper-x-finale-with-blue-note-jazz-clu
+ 
+b-tickets/15019043
+URL:https://www.ticketweb.com/event/robert-glasper-x-finale-with-blue-note-
+ 
+jazz-club-tickets/15019043
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-14@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T190000
+DTEND;TZID=America/New_York:20261101T210000
+SUMMARY:Chief Keef
+LOCATION:The Rooftop at Pier 17\, Financial District-Battery Park City
+DESCRIPTION:Chief Keef's rescheduled Pier 17 rooftop show lands tonight\, o
+ 
+utdoors with the skyline behind him. Tickets & info: https://www.axs.com/ev
+ 
+ents/1511193/chief-keef-tickets?skin=therooftopatpier17
+URL:https://www.axs.com/events/1511193/chief-keef-tickets?skin=therooftopat
+ 
+pier17
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-15@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T170000
+DTEND;TZID=America/New_York:20261101T190000
+SUMMARY:Rizzoli Music Aperitivo: Noa Fort
+LOCATION:Rizzoli Bookstore\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Jazz\, wine and a bookshop: Noa Fort's chamber-jazz Plant Peopl
+ 
+e play Rizzoli\, ticket includes a glass of wine. Tickets & info: https://w
+ 
+ww.eventbrite.com/e/rizzoli-music-aperitivo-noa-fort-tickets-2003454655807
+URL:https://www.eventbrite.com/e/rizzoli-music-aperitivo-noa-fort-tickets-2
+ 
+003454655807
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-16@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T170000
+DTEND;TZID=America/New_York:20261101T190000
+SUMMARY:Louie CK Working on VERY NEW Material at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Louie C.K. works out very new material in the Cellar's tiny Mac
+ 
+Dougal room — the classic drop-in gamble. Tickets & info: https://www.com
+ 
+edycellar.com/reservations-newyork/?showid=1793552400
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793552400
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-17@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T193000
+DTEND;TZID=America/New_York:20261101T213000
+SUMMARY:Kevin McDonald: My Stupid Career
+LOCATION:Union Hall\, Park Slope
+DESCRIPTION:Kids in the Hall's Kevin McDonald tells stories from his long\,
+ 
+ stupid career\, then takes your questions. Tickets & info: https://www.eve
+ 
+ntbrite.com/e/kevin-mcdonald-my-stupid-career-tickets-1997894136143
+URL:https://www.eventbrite.com/e/kevin-mcdonald-my-stupid-career-tickets-19
+ 
+97894136143
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-18@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T120000
+DTEND;TZID=America/New_York:20261101T140000
+SUMMARY:The Shining: International Version + Garrett Brown and Michael Chai
+ 
+ken in person
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Kubrick's shorter\, scarier European cut of The Shining on the 
+ 
+big screen\, with the Steadicam's inventor in person. Tickets & info: https
+ 
+://movingimage.org/event/the-shining-international-version/
+URL:https://movingimage.org/event/the-shining-international-version/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-19@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T110000
+DTEND;TZID=America/New_York:20261101T130000
+SUMMARY:Hocus Pocus
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:The Sanderson sisters return to Nitehawk Williamsburg for a Hal
+ 
+loween-weekend morning screening. Tickets & info: https://nitehawkcinema.co
+ 
+m/williamsburg/movies/hocus-pocus/
+URL:https://nitehawkcinema.com/williamsburg/movies/hocus-pocus/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-20@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T173000
+DTEND;TZID=America/New_York:20261101T193000
+SUMMARY:WIA NYC Animation Festival
+LOCATION:SVA Theatre\, Chelsea-Hudson Yards
+DESCRIPTION:Women in Animation NYC's third annual festival: new shorts\, aw
+ 
+ards and a reception at SVA Theatre. Tickets & info: https://www.eventbrite
+ 
+.com/e/wia-nyc-animation-festival-tickets-2002637902877
+URL:https://www.eventbrite.com/e/wia-nyc-animation-festival-tickets-2002637
+ 
+902877
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-21@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T193000
+DTEND;TZID=America/New_York:20261101T213000
+SUMMARY:Comedians Interview Experts: Astronomy and mythology with Ben Lilli
+ 
+e and Moiya McTier
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Caveat's best format: a comedian interviews an astrophysicist-f
+ 
+olklorist about the stars and the myths. Tickets & info: https://www.eventb
+ 
+rite.com/e/comedians-interview-experts-astronomy-and-mythology-with-ben-lil
+ 
+lie-and-moiya-mctier-tickets-2002433280847
+URL:https://www.eventbrite.com/e/comedians-interview-experts-astronomy-and-
+ 
+mythology-with-ben-lillie-and-moiya-mctier-tickets-2002433280847
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-22@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T110000
+DTEND;TZID=America/New_York:20261101T130000
+SUMMARY:Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of 
+ 
+Commerce
+LOCATION:The Woolworth Building (Inside Lobby)\, Financial District-Battery
+ 
+ Park City
+DESCRIPTION:Step inside the Woolworth Building's gilded lobby — the 'Cath
+ 
+edral of Commerce' — on a guided tour. Tickets & info: https://www.eventb
+ 
+rite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-c
+ 
+ommerce-registration-2003011450167
+URL:https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-buildi
+ 
+ng-nycs-cathedral-of-commerce-registration-2003011450167
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-23@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T180000
+DTEND;TZID=America/New_York:20261101T200000
+SUMMARY:New York Rangers vs. Edmonton Oilers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Rangers vs. Oilers at the Garden on a Sunday night — McDavid 
+ 
+in town\, always a show. Tickets & info: https://www.ticketmaster.com/new-y
+ 
+ork-rangers-vs-edmonton-oilers-new-york-new-york-11-01-2026/event/3B0064F1B
+ 
+1D9444C
+URL:https://www.ticketmaster.com/new-york-rangers-vs-edmonton-oilers-new-yo
+ 
+rk-new-york-11-01-2026/event/3B0064F1B1D9444C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-24@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T100000
+DTEND;TZID=America/New_York:20261101T120000
+SUMMARY:Grand Bazaar NYC: Wellness Weekend Bazaar
+LOCATION:Grand Bazaar NYC\, Upper West Side
+DESCRIPTION:The Upper West Side's Sunday institution: 100+ vendors of vinta
+ 
+ge\, crafts and artisanal food\, with a wellness theme this week. Tickets &
+ 
+ info: https://grandbazaarnyc.org/events/
+URL:https://grandbazaarnyc.org/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-25@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T140000
+DTEND;TZID=America/New_York:20261101T160000
+SUMMARY:Sea Chanteys and Maritime Music
+LOCATION:South Street Seaport Museum\, Financial District
+DESCRIPTION:The Seaport Museum's monthly sea-song singalong moves indoors f
+ 
+or November — join the round-robin or just listen in. Tickets & info: htt
+ 
+ps://southstreetseaportmuseum.org/in-person-chantey-sing/
+URL:https://southstreetseaportmuseum.org/in-person-chantey-sing/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261101-26@concierge
+DTSTAMP:20261101T130547Z
+DTSTART;TZID=America/New_York:20261101T150000
+DTEND;TZID=America/New_York:20261101T170000
+SUMMARY:My Mobster
+LOCATION:The Tank
+DESCRIPTION:Joy Nash's one-woman show gets its New York premiere at The Tan
+ 
+k: a sheltered student abroad\, a charming stranger in Venice\, and a love 
+ 
+story stranger than fiction. Tickets & info: https://thetanknyc.org/calenda
+ 
+r-1/mymobster
+URL:https://thetanknyc.org/calendar-1/mymobster
+END:VEVENT
+END:VCALENDAR
