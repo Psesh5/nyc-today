@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, November 2</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, November 2</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-02.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-0" data-name="Ice Skating">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-02">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>The Winter Village rink is open — free admission with your own skates, midtown&#x27;s best people-watching.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-02">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-1" data-name="Hands-On: Cavatelli">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hands-on-cavatelli-tickets-2002757478531">Hands-On: Cavatelli</a></h3>
+<div class="meta">1:00 PM · Eataly NYC Flatiron, Midtown South-Flatiron-Union Square · $112.35</div>
+<p>Roll your own pasta from scratch at Eataly&#x27;s hands-on cavatelli class, with wine and a seasonal menu.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hands-on-cavatelli-tickets-2002757478531">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Learn &amp; Practice Chess with an Expert">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.clubfreetime.com/new-york-city-nyc/free-workshop/2026-11-02/event/765232">Learn &amp; Practice Chess with an Expert</a></h3>
+<div class="meta">6:00 PM · Stavros Niarchos Foundation Library, Midtown · Free</div>
+<p>Marshall Chess Club expert Tamar Chanadiri coaches beginners from 6–7 PM, then open play for all levels — boards provided, free.</p>
+<a class="tickets" href="https://www.clubfreetime.com/new-york-city-nyc/free-workshop/2026-11-02/event/765232">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-2" data-name="Day of the Dead Family Celebration">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/day-of-the-dead-family-celebration-tickets-1998793496153">Day of the Dead Family Celebration</a></h3>
+<div class="meta">4:00 PM · Green-Wood Cemetery, Green-Wood Cemetery · Free</div>
+<p>Green-Wood marks Día de Muertos with crafts, music, performances and hands-on activities for the whole family.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/day-of-the-dead-family-celebration-tickets-1998793496153">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="DRAG GUBERNATORIAL DEBATE">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/drag-gubernatorial-debate-tickets-2003747104529">DRAG GUBERNATORIAL DEBATE</a></h3>
+<div class="meta">7:00 PM · Brooklyn Art Haus, Williamsburg · $23.25</div>
+<p>On the eve of Election Day, drag queens debate New York&#x27;s governor&#x27;s race at Brooklyn Art Haus.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/drag-gubernatorial-debate-tickets-2003747104529">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Nuyorican Bowery Slam">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1998786200331">Nuyorican Bowery Slam</a></h3>
+<div class="meta">6:30 PM · Bowery Poetry Club, Greenwich Village · $20</div>
+<p>The legendary slam series brings its competitive poetry night to the Bowery Poetry Club.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1998786200331">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Cozy Comfort Reading Party Williamsburg: November 2nd">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/bgvos1ce">Cozy Comfort Reading Party Williamsburg: November 2nd</a></h3>
+<div class="meta">7:00 PM · recess grove, Williamsburg · $25</div>
+<p>Bring a book, find a cozy corner: Williamsburg&#x27;s comfort reading party at recess grove.</p>
+<a class="tickets" href="https://luma.com/bgvos1ce">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-3" data-name="Fall Festival at Lakeside">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-11-02/">Fall Festival at Lakeside</a></h3>
+<div class="meta">4:00 PM · Prospect Park, Prospect Park</div>
+<p>Prospect Park&#x27;s Lakeside goes full autumn — pumpkins, a corn maze, carnival games and seasonal treats.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-11-02/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-4" data-name="Two Shows. One Night: WWE RAW &amp; SmackDown">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/two-shows-one-night-wwe-raw-brooklyn-new-york-11-02-2026/event/300064EE97A74F47">Two Shows. One Night: WWE RAW &amp; SmackDown</a></h3>
+<div class="meta">5:30 PM · Barclays Center, Park Slope</div>
+<p>Two WWE flagship shows, one Brooklyn night — Raw and SmackDown back-to-back at Barclays.</p>
+<a class="tickets" href="https://www.ticketmaster.com/two-shows-one-night-wwe-raw-brooklyn-new-york-11-02-2026/event/300064EE97A74F47">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="New York Knicks vs. Brooklyn Nets">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-brooklyn-nets-new-york-new-york-11-02-2026/event/3B006511E91D862D">New York Knicks vs. Brooklyn Nets</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Battle of the Boroughs under the Garden lights — Knicks host the Nets in a rivalry night that always crackles.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-brooklyn-nets-new-york-new-york-11-02-2026/event/3B006511E91D862D">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-5" data-name="Yebba">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/yebba-brooklyn-new-york-11-02-2026/event/00006513F7ACF009">Yebba</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Grammy-winning soul voice Yebba brings her powerhouse vocals to Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/yebba-brooklyn-new-york-11-02-2026/event/00006513F7ACF009">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Elena Pinderhughes">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-tickets/15018583">Elena Pinderhughes</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $32.47</div>
+<p>Flautist and vocalist Elena Pinderhughes leads a boundary-blurring jazz set at the Blue Note.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-tickets/15018583">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Mike Clark Quartet">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/mike-clark-quartet-smalls-jazz-club-tickets/14361434">Mike Clark Quartet</a></h3>
+<div class="meta">6:00 PM · Smalls Jazz Club, West Village · $43.7</div>
+<p>Headhunters drum legend Mike Clark — the funk behind Herbie Hancock&#x27;s Thrust — leads his quartet at Smalls.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/mike-clark-quartet-smalls-jazz-club-tickets/14361434">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Benefit Show for Sascha Melamed - Horsegirl, Anastasia Coope, Autobahn">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/benefit-show-for-sascha-melamed-horsegirl-anastasia-coope-autobahn-tickets-2003584038795">Benefit Show for Sascha Melamed - Horsegirl, Anastasia Coope, Autobahn</a></h3>
+<div class="meta">7:00 PM · [untitled] warehouse, Williamsburg · $15</div>
+<p>Horsegirl, Anastasia Coope and Autobahn play a Williamsburg warehouse benefit for Sascha Melamed — all proceeds to his family.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/benefit-show-for-sascha-melamed-horsegirl-anastasia-coope-autobahn-tickets-2003584038795">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="She Wants Revenge w/ Rosegarden Funeral Party">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A70E18">She Wants Revenge w/ Rosegarden Funeral Party</a></h3>
+<div class="meta">8:00 PM · Webster Hall, East Village</div>
+<p>Darkwave cult favorites She Wants Revenge return to Webster Hall with Rosegarden Funeral Party.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A70E18">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="OOA Midday Express Concerts: Rubin Kodheli, cello and Miles Johnston, guitar">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.hunter.cuny.edu/event/midday-express-concerts-rubin-kodheli-cello-and-miles-johnston-guitar/">OOA Midday Express Concerts: Rubin Kodheli, cello and Miles Johnston, guitar</a></h3>
+<div class="meta">1:00 PM · Lang Recital Hall, Hunter College, Upper East Side-Carnegie Hill · Free</div>
+<p>A free lunchtime concert at Hunter College: cellist Rubin Kodheli and guitarist Miles Johnston improvise and converse in real time.</p>
+<a class="tickets" href="https://www.hunter.cuny.edu/event/midday-express-concerts-rubin-kodheli-cello-and-miles-johnston-guitar/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-11" data-name="The 24 Hour Plays on Broadway 2026">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-24-hour-plays-on-broadway-2026-tickets-1992734693110">The 24 Hour Plays on Broadway 2026</a></h3>
+<div class="meta">7:00 PM · Todd Haimes Theatre, Midtown-Times Square · $161.9</div>
+<p>Plays written, rehearsed and performed in a single day — Broadway&#x27;s wildest annual sprint, honoring director Thomas Kail.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-24-hour-plays-on-broadway-2026-tickets-1992734693110">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Mark Twain Tonight! A Special One-night Only Performance">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/mark-twain-tonight-a-special-onenight-new-york-new-york-11-02-2026/event/03006532AAE730FF">Mark Twain Tonight! A Special One-night Only Performance</a></h3>
+<div class="meta">7:00 PM · Town Hall, Midtown-Times Square</div>
+<p>The legendary one-man Mark Twain show, revived for one night only at Town Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/mark-twain-tonight-a-special-onenight-new-york-new-york-11-02-2026/event/03006532AAE730FF">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Singfeld! A Musical About Nothing!">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-11-02-2026/event/300064F795BF3A58">Singfeld! A Musical About Nothing!</a></h3>
+<div class="meta">7:30 PM · The Theater Center, Midtown-Times Square</div>
+<p>A musical about nothing — Seinfeld, sung, at The Theater Center.</p>
+<a class="tickets" href="https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-11-02-2026/event/300064F795BF3A58">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-14" data-name="Pivot with Kara Swisher and Scott Galloway presented by beehiiv">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/pivot-with-kara-swisher-and-scott-new-york-new-york-11-02-2026/event/3B00652BB257558E">Pivot with Kara Swisher and Scott Galloway presented by beehiiv</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Kara Swisher and Scott Galloway take their hit podcast live at the Beacon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/pivot-with-kara-swisher-and-scott-new-york-new-york-11-02-2026/event/3B00652BB257558E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="(In-Person) Gail Simmons with Tom Colicchio on the Art of Guesting">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-person-gail-simmons-with-tom-colicchio-on-the-art-of-guesting-tickets-1992702117676">(In-Person) Gail Simmons with Tom Colicchio on the Art of Guesting</a></h3>
+<div class="meta">7:30 PM · The Temple Emanu-El Streicker Center, Upper East Side-Carnegie Hill · $34.37</div>
+<p>Top Chef&#x27;s Gail Simmons and Tom Colicchio talk the art of guesting, and Simmons&#x27;s new book.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-person-gail-simmons-with-tom-colicchio-on-the-art-of-guesting-tickets-1992702117676">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Memoirs of Magic Queen: Restoring Adelaide Herrmann’s Lost Legacy">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/memoirs-of-magic-queen-restoring-adelaide-herrmanns-lost-legacy-tickets-2003964453626">Memoirs of Magic Queen: Restoring Adelaide Herrmann’s Lost Legacy</a></h3>
+<div class="meta">6:00 PM · New York Public Library for the Performing Arts -Bruno Walter Auditorium, Upper West Side-Lincoln Square · Free</div>
+<p>Magician-historian Margaret B. Steele on Adelaide Herrmann, vaudeville&#x27;s Queen of Magic, with live magic and rare memorabilia — free, in person or online.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/memoirs-of-magic-queen-restoring-adelaide-herrmanns-lost-legacy-tickets-2003964453626">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Midnight Release Party with Holly Black and Cassandra Clare">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/midnight-release-party-with-holly-black-and-cassandra-clare-tickets-1994254691466">Midnight Release Party with Holly Black and Cassandra Clare</a></h3>
+<div class="meta">9:30 PM · Barnes &amp; Noble, Midtown South-Flatiron-Union Square · $61.4</div>
+<p>Holly Black and Cassandra Clare ring in a midnight book release at Barnes &amp; Noble Union Square — ticket includes both pre-signed books.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/midnight-release-party-with-holly-black-and-cassandra-clare-tickets-1994254691466">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-18" data-name="Good Eggs ft: Mark Normand, Gary Vider, Dan Davies">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vider-dan-davies">Good Eggs ft: Mark Normand, Gary Vider, Dan Davies</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Mark Normand headlines a stacked Good Eggs lineup at NY Comedy Club&#x27;s Upper West Side room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vider-dan-davies">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Colin Quinn Returns to The CQ Room at Comedy Cellar">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793646000">Colin Quinn Returns to The CQ Room at Comedy Cellar</a></h3>
+<div class="meta">7:00 PM · Comedy Cellar, Greenwich Village · $15</div>
+<p>Colin Quinn returns to the Comedy Cellar&#x27;s intimate CQ Room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793646000">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-21" data-name="The Parallax View">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005100-the-parallax-view/">The Parallax View</a></h3>
+<div class="meta">4:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Pakula&#x27;s paranoid classic on the big screen at Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005100-the-parallax-view/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Citizen Ruth">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/citizen-ruth">Citizen Ruth</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Alexander Payne&#x27;s razor-sharp satire, in a new 4K restoration, at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/citizen-ruth">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-24" data-name="Reissue Party: MFK Fisher&#x27;s The Art of Eating">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/reissue-party-mfk-fishers-the-art-of-eating-tickets-2003321990000">Reissue Party: MFK Fisher&#x27;s The Art of Eating</a></h3>
+<div class="meta">7:00 PM · Meatpacking Collective, West Village · $39.19</div>
+<p>A reissue party for M.F.K. Fisher&#x27;s The Art of Eating — cocktails, oysters and readings from Alison Roman and Helen Rosner.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/reissue-party-mfk-fishers-the-art-of-eating-tickets-2003321990000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="HAWT WING GAUNTLET NIGHT at Echo Bravo">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hawt-wing-gauntlet-night-at-echo-bravo-tickets-2003619228047">HAWT WING GAUNTLET NIGHT at Echo Bravo</a></h3>
+<div class="meta">8:00 PM · Echo Bravo, Bushwick (West) · Free</div>
+<p>Brave the wing gauntlet at Echo Bravo — free to watch, $30 to take on all ten hot wings.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hawt-wing-gauntlet-night-at-echo-bravo-tickets-2003619228047">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-02";
+const NAMES = ["Ice Skating", "Hands-On: Cavatelli", "Day of the Dead Family Celebration", "Fall Festival at Lakeside", "Two Shows. One Night: WWE RAW & SmackDown", "Yebba", "Elena Pinderhughes", "Mike Clark Quartet", "Benefit Show for Sascha Melamed - Horsegirl, Anastasia Coope, Autobahn", "She Wants Revenge w/ Rosegarden Funeral Party", "New York Knicks vs. Brooklyn Nets", "The 24 Hour Plays on Broadway 2026", "Mark Twain Tonight! A Special One-night Only Performance", "Singfeld! A Musical About Nothing!", "Pivot with Kara Swisher and Scott Galloway presented by beehiiv", "(In-Person) Gail Simmons with Tom Colicchio on the Art of Guesting", "Memoirs of Magic Queen: Restoring Adelaide Herrmann\u2019s Lost Legacy", "Midnight Release Party with Holly Black and Cassandra Clare", "Good Eggs ft: Mark Normand, Gary Vider, Dan Davies", "Colin Quinn Returns to The CQ Room at Comedy Cellar", "DRAG GUBERNATORIAL DEBATE", "The Parallax View", "Citizen Ruth", "Nuyorican Bowery Slam", "Reissue Party: MFK Fisher's The Art of Eating", "HAWT WING GAUNTLET NIGHT at Echo Bravo", "Cozy Comfort Reading Party Williamsburg: November 2nd", "OOA Midday Express Concerts: Rubin Kodheli, cello and Miles Johnston, guitar", "Learn & Practice Chess with an Expert"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

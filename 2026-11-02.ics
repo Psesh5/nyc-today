@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261102-0@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T080000
+DTEND;TZID=America/New_York:20261102T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink is open — free admission with your ow
+ 
+n skates\, midtown's best people-watching. Tickets & info: https://bryantpa
+ 
+rk.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-br
+ 
+yant-park/2026-11-02
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-02
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-1@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T130000
+DTEND;TZID=America/New_York:20261102T150000
+SUMMARY:Hands-On: Cavatelli
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Roll your own pasta from scratch at Eataly's hands-on cavatelli
+ 
+ class\, with wine and a seasonal menu. Tickets & info: https://www.eventbr
+ 
+ite.com/e/hands-on-cavatelli-tickets-2002757478531
+URL:https://www.eventbrite.com/e/hands-on-cavatelli-tickets-2002757478531
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-2@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Day of the Dead Family Celebration
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:Green-Wood marks Día de Muertos with crafts\, music\, performa
+ 
+nces and hands-on activities for the whole family. Tickets & info: https://
+ 
+www.eventbrite.com/e/day-of-the-dead-family-celebration-tickets-19987934961
+ 
+53
+URL:https://www.eventbrite.com/e/day-of-the-dead-family-celebration-tickets
+ 
+-1998793496153
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-3@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Fall Festival at Lakeside
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Prospect Park's Lakeside goes full autumn — pumpkins\, a corn
+ 
+ maze\, carnival games and seasonal treats. Tickets & info: https://www.pro
+ 
+spectpark.org/event/fall-festival-at-lakeside-18/2026-11-02/
+URL:https://www.prospectpark.org/event/fall-festival-at-lakeside-18/2026-11
+ 
+-02/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-4@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T173000
+DTEND;TZID=America/New_York:20261102T193000
+SUMMARY:Two Shows. One Night: WWE RAW & SmackDown
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:Two WWE flagship shows\, one Brooklyn night — Raw and SmackDo
+ 
+wn back-to-back at Barclays. Tickets & info: https://www.ticketmaster.com/t
+ 
+wo-shows-one-night-wwe-raw-brooklyn-new-york-11-02-2026/event/300064EE97A74
+ 
+F47
+URL:https://www.ticketmaster.com/two-shows-one-night-wwe-raw-brooklyn-new-y
+ 
+ork-11-02-2026/event/300064EE97A74F47
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-5@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Yebba
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Grammy-winning soul voice Yebba brings her powerhouse vocals to
+ 
+ Brooklyn Paramount. Tickets & info: https://www.ticketmaster.com/yebba-bro
+ 
+oklyn-new-york-11-02-2026/event/00006513F7ACF009
+URL:https://www.ticketmaster.com/yebba-brooklyn-new-york-11-02-2026/event/0
+ 
+0006513F7ACF009
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-6@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T200000
+DTEND;TZID=America/New_York:20261102T220000
+SUMMARY:Elena Pinderhughes
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Flautist and vocalist Elena Pinderhughes leads a boundary-blurr
+ 
+ing jazz set at the Blue Note. Tickets & info: https://www.ticketweb.com/ev
+ 
+ent/elena-pinderhughes-blue-note-jazz-club-tickets/15018583
+URL:https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-
+ 
+tickets/15018583
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-7@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T180000
+DTEND;TZID=America/New_York:20261102T200000
+SUMMARY:Mike Clark Quartet
+LOCATION:Smalls Jazz Club\, West Village
+DESCRIPTION:Headhunters drum legend Mike Clark — the funk behind Herbie H
+ 
+ancock's Thrust — leads his quartet at Smalls. Tickets & info: https://ww
+ 
+w.ticketweb.com/event/mike-clark-quartet-smalls-jazz-club-tickets/14361434
+URL:https://www.ticketweb.com/event/mike-clark-quartet-smalls-jazz-club-tic
+ 
+kets/14361434
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-8@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Benefit Show for Sascha Melamed - Horsegirl\, Anastasia Coope\, Aut
+ 
+obahn
+LOCATION:[untitled] warehouse\, Williamsburg
+DESCRIPTION:Horsegirl\, Anastasia Coope and Autobahn play a Williamsburg wa
+ 
+rehouse benefit for Sascha Melamed — all proceeds to his family. Tickets 
+ 
+& info: https://www.eventbrite.com/e/benefit-show-for-sascha-melamed-horseg
+ 
+irl-anastasia-coope-autobahn-tickets-2003584038795
+URL:https://www.eventbrite.com/e/benefit-show-for-sascha-melamed-horsegirl-
+ 
+anastasia-coope-autobahn-tickets-2003584038795
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-9@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T200000
+DTEND;TZID=America/New_York:20261102T220000
+SUMMARY:She Wants Revenge w/ Rosegarden Funeral Party
+LOCATION:Webster Hall\, East Village
+DESCRIPTION:Darkwave cult favorites She Wants Revenge return to Webster Hal
+ 
+l with Rosegarden Funeral Party. Tickets & info: https://www.ticketmaster.c
+ 
+om/event/Z7r9jZ1A70E18
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70E18
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-10@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T193000
+DTEND;TZID=America/New_York:20261102T213000
+SUMMARY:New York Knicks vs. Brooklyn Nets
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Battle of the Boroughs under the Garden lights — Knicks h
+ 
+ost the Nets in a rivalry night that always crackles. Tickets & info: https
+ 
+://www.ticketmaster.com/new-york-knicks-vs-brooklyn-nets-new-york-new-york-
+ 
+11-02-2026/event/3B006511E91D862D
+URL:https://www.ticketmaster.com/new-york-knicks-vs-brooklyn-nets-new-york-
+ 
+new-york-11-02-2026/event/3B006511E91D862D
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-11@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:The 24 Hour Plays on Broadway 2026
+LOCATION:Todd Haimes Theatre\, Midtown-Times Square
+DESCRIPTION:Plays written\, rehearsed and performed in a single day — Bro
+ 
+adway's wildest annual sprint\, honoring director Thomas Kail. Tickets & in
+ 
+fo: https://www.eventbrite.com/e/the-24-hour-plays-on-broadway-2026-tickets
+ 
+-1992734693110
+URL:https://www.eventbrite.com/e/the-24-hour-plays-on-broadway-2026-tickets
+ 
+-1992734693110
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-12@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Mark Twain Tonight! A Special One-night Only Performance
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:The legendary one-man Mark Twain show\, revived for one night o
+ 
+nly at Town Hall. Tickets & info: https://www.ticketmaster.com/mark-twain-t
+ 
+onight-a-special-onenight-new-york-new-york-11-02-2026/event/03006532AAE730
+ 
+FF
+URL:https://www.ticketmaster.com/mark-twain-tonight-a-special-onenight-new-
+ 
+york-new-york-11-02-2026/event/03006532AAE730FF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-13@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T193000
+DTEND;TZID=America/New_York:20261102T213000
+SUMMARY:Singfeld! A Musical About Nothing!
+LOCATION:The Theater Center\, Midtown-Times Square
+DESCRIPTION:A musical about nothing — Seinfeld\, sung\, at The Theater Ce
+ 
+nter. Tickets & info: https://www.ticketmaster.com/singfeld-a-musical-about
+ 
+-nothing-new-york-new-york-11-02-2026/event/300064F795BF3A58
+URL:https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-
+ 
+new-york-11-02-2026/event/300064F795BF3A58
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-14@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T193000
+DTEND;TZID=America/New_York:20261102T213000
+SUMMARY:Pivot with Kara Swisher and Scott Galloway presented by beehiiv
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Kara Swisher and Scott Galloway take their hit podcast live at 
+ 
+the Beacon. Tickets & info: https://www.ticketmaster.com/pivot-with-kara-sw
+ 
+isher-and-scott-new-york-new-york-11-02-2026/event/3B00652BB257558E
+URL:https://www.ticketmaster.com/pivot-with-kara-swisher-and-scott-new-york
+ 
+-new-york-11-02-2026/event/3B00652BB257558E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-15@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T193000
+DTEND;TZID=America/New_York:20261102T213000
+SUMMARY:(In-Person) Gail Simmons with Tom Colicchio on the Art of Guesting
+LOCATION:The Temple Emanu-El Streicker Center\, Upper East Side-Carnegie Hi
+ 
+ll
+DESCRIPTION:Top Chef's Gail Simmons and Tom Colicchio talk the art of guest
+ 
+ing\, and Simmons's new book. Tickets & info: https://www.eventbrite.com/e/
+ 
+in-person-gail-simmons-with-tom-colicchio-on-the-art-of-guesting-tickets-19
+ 
+92702117676
+URL:https://www.eventbrite.com/e/in-person-gail-simmons-with-tom-colicchio-
+ 
+on-the-art-of-guesting-tickets-1992702117676
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-16@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T180000
+DTEND;TZID=America/New_York:20261102T200000
+SUMMARY:Memoirs of Magic Queen: Restoring Adelaide Herrmann’s Lost Legacy
+LOCATION:New York Public Library for the Performing Arts -Bruno Walter Audi
+ 
+torium\, Upper West Side-Lincoln Square
+DESCRIPTION:Magician-historian Margaret B. Steele on Adelaide Herrmann\, va
+ 
+udeville's Queen of Magic\, with live magic and rare memorabilia — free\,
+ 
+ in person or online. Tickets & info: https://www.eventbrite.com/e/memoirs-
+ 
+of-magic-queen-restoring-adelaide-herrmanns-lost-legacy-tickets-20039644536
+ 
+26
+URL:https://www.eventbrite.com/e/memoirs-of-magic-queen-restoring-adelaide-
+ 
+herrmanns-lost-legacy-tickets-2003964453626
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-17@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T213000
+DTEND;TZID=America/New_York:20261102T233000
+SUMMARY:Midnight Release Party with Holly Black and Cassandra Clare
+LOCATION:Barnes & Noble\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Holly Black and Cassandra Clare ring in a midnight book release
+ 
+ at Barnes & Noble Union Square — ticket includes both pre-signed books. 
+ 
+Tickets & info: https://www.eventbrite.com/e/midnight-release-party-with-ho
+ 
+lly-black-and-cassandra-clare-tickets-1994254691466
+URL:https://www.eventbrite.com/e/midnight-release-party-with-holly-black-an
+ 
+d-cassandra-clare-tickets-1994254691466
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-18@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T193000
+DTEND;TZID=America/New_York:20261102T213000
+SUMMARY:Good Eggs ft: Mark Normand\, Gary Vider\, Dan Davies
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Mark Normand headlines a stacked Good Eggs lineup at NY Comedy 
+ 
+Club's Upper West Side room. Tickets & info: https://newyorkcomedyclub.com/
+ 
+events/good-eggs-ft-mark-normand-gary-vider-dan-davies
+URL:https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vid
+ 
+er-dan-davies
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-19@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Colin Quinn Returns to The CQ Room at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Colin Quinn returns to the Comedy Cellar's intimate CQ Room. Ti
+ 
+ckets & info: https://www.comedycellar.com/reservations-newyork/?showid=179
+ 
+3646000
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793646000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-20@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:DRAG GUBERNATORIAL DEBATE
+LOCATION:Brooklyn Art Haus\, Williamsburg
+DESCRIPTION:On the eve of Election Day\, drag queens debate New York's gove
+ 
+rnor's race at Brooklyn Art Haus. Tickets & info: https://www.eventbrite.co
+ 
+m/e/drag-gubernatorial-debate-tickets-2003747104529
+URL:https://www.eventbrite.com/e/drag-gubernatorial-debate-tickets-20037471
+ 
+04529
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-21@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:The Parallax View
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Pakula's paranoid classic on the big screen at Metrograph. Tick
+ 
+ets & info: https://metrograph.com/film/9999005100-the-parallax-view/
+URL:https://metrograph.com/film/9999005100-the-parallax-view/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-22@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T174000
+DTEND;TZID=America/New_York:20261102T194000
+SUMMARY:Citizen Ruth
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Alexander Payne's razor-sharp satire\, in a new 4K restoration\
+ 
+, at Film Forum. Tickets & info: https://filmforum.org/film/citizen-ruth
+URL:https://filmforum.org/film/citizen-ruth
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-23@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T183000
+DTEND;TZID=America/New_York:20261102T203000
+SUMMARY:Nuyorican Bowery Slam
+LOCATION:Bowery Poetry Club\, Greenwich Village
+DESCRIPTION:The legendary slam series brings its competitive poetry night t
+ 
+o the Bowery Poetry Club. Tickets & info: https://www.eventbrite.com/e/nuyo
+ 
+rican-bowery-slam-tickets-1998786200331
+URL:https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-199878620033
+ 
+1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-24@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Reissue Party: MFK Fisher's The Art of Eating
+LOCATION:Meatpacking Collective\, West Village
+DESCRIPTION:A reissue party for M.F.K. Fisher's The Art of Eating — cockt
+ 
+ails\, oysters and readings from Alison Roman and Helen Rosner. Tickets & i
+ 
+nfo: https://www.eventbrite.com/e/reissue-party-mfk-fishers-the-art-of-eati
+ 
+ng-tickets-2003321990000
+URL:https://www.eventbrite.com/e/reissue-party-mfk-fishers-the-art-of-eatin
+ 
+g-tickets-2003321990000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-25@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T200000
+DTEND;TZID=America/New_York:20261102T220000
+SUMMARY:HAWT WING GAUNTLET NIGHT at Echo Bravo
+LOCATION:Echo Bravo\, Bushwick (West)
+DESCRIPTION:Brave the wing gauntlet at Echo Bravo — free to watch\, $30 t
+ 
+o take on all ten hot wings. Tickets & info: https://www.eventbrite.com/e/h
+ 
+awt-wing-gauntlet-night-at-echo-bravo-tickets-2003619228047
+URL:https://www.eventbrite.com/e/hawt-wing-gauntlet-night-at-echo-bravo-tic
+ 
+kets-2003619228047
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-26@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T190000
+DTEND;TZID=America/New_York:20261102T210000
+SUMMARY:Cozy Comfort Reading Party Williamsburg: November 2nd
+LOCATION:recess grove\, Williamsburg
+DESCRIPTION:Bring a book\, find a cozy corner: Williamsburg's comfort readi
+ 
+ng party at recess grove. Tickets & info: https://luma.com/bgvos1ce
+URL:https://luma.com/bgvos1ce
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-27@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T130000
+DTEND;TZID=America/New_York:20261102T150000
+SUMMARY:OOA Midday Express Concerts: Rubin Kodheli\, cello and Miles Johnst
+ 
+on\, guitar
+LOCATION:Lang Recital Hall\, Hunter College\, Upper East Side-Carnegie Hill
+DESCRIPTION:A free lunchtime concert at Hunter College: cellist Rubin Kodhe
+ 
+li and guitarist Miles Johnston improvise and converse in real time. Ticket
+ 
+s & info: https://www.hunter.cuny.edu/event/midday-express-concerts-rubin-k
+ 
+odheli-cello-and-miles-johnston-guitar/
+URL:https://www.hunter.cuny.edu/event/midday-express-concerts-rubin-kodheli
+ 
+-cello-and-miles-johnston-guitar/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261102-28@concierge
+DTSTAMP:20261102T130316Z
+DTSTART;TZID=America/New_York:20261102T180000
+DTEND;TZID=America/New_York:20261102T200000
+SUMMARY:Learn & Practice Chess with an Expert
+LOCATION:Stavros Niarchos Foundation Library\, Midtown
+DESCRIPTION:Marshall Chess Club expert Tamar Chanadiri coaches beginners fr
+ 
+om 6–7 PM\, then open play for all levels — boards provided\, free. Tic
+ 
+kets & info: https://www.clubfreetime.com/new-york-city-nyc/free-workshop/2
+ 
+026-11-02/event/765232
+URL:https://www.clubfreetime.com/new-york-city-nyc/free-workshop/2026-11-02
+ 
+/event/765232
+END:VEVENT
+END:VCALENDAR
