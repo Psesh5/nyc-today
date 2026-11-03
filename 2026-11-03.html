@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, November 3</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, November 3</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-03.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-0" data-name="New Dendrology at the Arsenal Gallery">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/03/new-dendrology-at-the-arsenal-gallery">New Dendrology at the Arsenal Gallery</a></h3>
+<div class="meta">9:00 AM · Arsenal (in Central Park), Central Park · Free</div>
+<p>Eleven artists rethink trees — a quiet, leafy group show inside Central Park&#x27;s Arsenal Gallery.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/03/new-dendrology-at-the-arsenal-gallery">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Field Notes: The Exhibition | Opening Night @ Fabrik">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/nhh0e5st">Field Notes: The Exhibition | Opening Night @ Fabrik</a></h3>
+<div class="meta">5:30 PM · 12-16 Vestry St, Tribeca-Civic Center · Free</div>
+<p>Opening night for a new exhibition in Tribeca — free, small, and worth a wander before dinner.</p>
+<a class="tickets" href="https://luma.com/nhh0e5st">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-2" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225124">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Grammy-winning 1920s jazz, live and swinging, from an 11-piece band in a Birdland residency.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225124">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Cyrille Aimée">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005153">Cyrille Aimée</a></h3>
+<div class="meta">7:00 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Multilingual jazz vocalist with Afro-Caribbean roots, up close at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005153">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Yebba">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/yebba-brooklyn-new-york-11-03-2026/event/00006513F7AFF020">Yebba</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Soul singer Yebba headlines the restored Brooklyn Paramount — a voice that fills the room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/yebba-brooklyn-new-york-11-03-2026/event/00006513F7AFF020">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Marty O&#x27;Reilly">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/marty-oreilly-new-york-new-york-11-03-2026/event/0000653DFB1F92F1">Marty O&#x27;Reilly</a></h3>
+<div class="meta">6:00 PM · Mercury Lounge, Lower East Side</div>
+<p>Indie-folk songwriter with Lily Talmers at Mercury Lounge, doors at 6.</p>
+<a class="tickets" href="https://www.ticketmaster.com/marty-oreilly-new-york-new-york-11-03-2026/event/0000653DFB1F92F1">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Elena Pinderhughes">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-tickets/15018613">Elena Pinderhughes</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $32.47</div>
+<p>Flutist and vocalist Elena Pinderhughes brings her genre-bending set to the Blue Note.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-tickets/15018613">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="[NEW YORK] One-Day Choir: Ólafur Arnalds &amp; Talos - &quot;A Dawning&quot;">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/new-york-one-day-choir-olafur-arnalds-talos-a-dawning-tickets-2000538090281">[NEW YORK] One-Day Choir: Ólafur Arnalds &amp; Talos - &quot;A Dawning&quot;</a></h3>
+<div class="meta">6:30 PM · 100 Sutton Studios, Greenpoint</div>
+<p>Sing Ólafur Arnalds&#x27; &#x27;A Dawning&#x27; in a one-day choir in Greenpoint — no audition, just show up and harmonize.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/new-york-one-day-choir-olafur-arnalds-talos-a-dawning-tickets-2000538090281">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-8" data-name="Difficult People: The Movie (A Live Table Read)">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/difficult-people-the-movie-a-live-new-york-new-york-11-03-2026/event/030064E8F8571EDD">Difficult People: The Movie (A Live Table Read)</a></h3>
+<div class="meta">7:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Election-night escape: Julie Klausner and Billy Eichner reunite the Difficult People cast for a one-night live read of the unmade movie script, with guests from Meloni to Cecily Strong.</p>
+<a class="tickets" href="https://www.ticketmaster.com/difficult-people-the-movie-a-live-new-york-new-york-11-03-2026/event/030064E8F8571EDD">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="A Ghost in Your Ear">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/a-ghost-in-your-ear-new-york-new-york-11-03-2026/event/300064F5DFB2A34B">A Ghost in Your Ear</a></h3>
+<div class="meta">7:00 PM · Audible&#x27;s Minetta Lane Theatre, Greenwich Village</div>
+<p>Headphone horror live on stage — a ghost story recorded in a sound studio that starts leaking into real life.</p>
+<a class="tickets" href="https://www.ticketmaster.com/a-ghost-in-your-ear-new-york-new-york-11-03-2026/event/300064F5DFB2A34B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="The Imaginary Invalid">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7J6vI">The Imaginary Invalid</a></h3>
+<div class="meta">7:00 PM · Todd Haimes Theatre, Hell&#x27;s Kitchen</div>
+<p>Molière&#x27;s hypochondriac satire, Broadway-style, at the Todd Haimes Theatre.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7J6vI">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="CATS: The Jellicle Ball">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_8I">CATS: The Jellicle Ball</a></h3>
+<div class="meta">7:00 PM · Broadhurst Theatre, Hell&#x27;s Kitchen</div>
+<p>Cats reimagined as a ballroom ball — vogue, drama, and Jellicle glamour at the Broadhurst.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_8I">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-12" data-name="Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Mark Gagnon, Emma Willmann, Greer Barnes &amp; more">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793734200">Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Mark Gagnon, Emma Willmann, Greer Barnes &amp; more</a></h3>
+<div class="meta">7:30 PM · Comedy Cellar (MacDougal Street), Greenwich Village</div>
+<p>Classic Cellar lineup on MacDougal — Emma Willmann and Greer Barnes among tonight&#x27;s comics.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793734200">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Hot Soup in the FBPC at Comedy Cellar">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793745000">Hot Soup in the FBPC at Comedy Cellar</a></h3>
+<div class="meta">10:30 PM · Comedy Cellar, Greenwich Village</div>
+<p>Late-night Hot Soup with Mark Normand, Daniel Simonsen and Gary Vider in the Cellar&#x27;s downstairs room.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793745000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Nice Try ft: Michael Kosta, Mandal, Ashley Austin Morris, Kevin Dombrowski, Jack Finnegan">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-mandal-ashley-austin-morris-kevin-dombrowski-jack-finnegan">Nice Try ft: Michael Kosta, Mandal, Ashley Austin Morris, Kevin Dombrowski, Jack Finnegan</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $9</div>
+<p>Pros try brand-new material for the first time ever — Michael Kosta headlines a night of untested jokes.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-mandal-ashley-austin-morris-kevin-dombrowski-jack-finnegan">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="Yi Yi">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001293-yi-yi/">Yi Yi</a></h3>
+<div class="meta">3:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Edward Yang&#x27;s gentle, epic portrait of three generations of a Taipei family, on the big screen at Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001293-yi-yi/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Pickup On South Street">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/pick-up-on-south-street-nyc-in-transit">Pickup On South Street</a></h3>
+<div class="meta">8:00 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Sam Fuller noir in Film Forum&#x27;s NYC in Transit series — pickpockets, Cold War paranoia, and the subway.</p>
+<a class="tickets" href="https://filmforum.org/film/pick-up-on-south-street-nyc-in-transit">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="The Devils">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">7:00 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s gloriously unhinged historical horror, back on the IFC screen.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-18" data-name="An Evening with Fuchsia Dunlop: Five Tastes">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/an-evening-with-fuchsia-dunlop-five-tastes-tickets-2002629928024">An Evening with Fuchsia Dunlop: Five Tastes</a></h3>
+<div class="meta">5:30 PM · China Institute of America, Financial District-Battery Park City · 25</div>
+<p>Food writer Fuchsia Dunlop on what makes Chinese food taste Chinese, with tastings from her new book Five Tastes.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/an-evening-with-fuchsia-dunlop-five-tastes-tickets-2002629928024">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Nigel Ng AKA Uncle Roger: Don’t Mess Up Your Rice">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nigel-ng-aka-uncle-roger-dont-mess-up-your-rice-tickets-1991728564753">Nigel Ng AKA Uncle Roger: Don’t Mess Up Your Rice</a></h3>
+<div class="meta">7:00 PM · The Strand Building, Greenwich Village · $39.73</div>
+<p>Uncle Roger live at the Strand for his debut cookbook — rice, wok wisdom, and a signing line.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nigel-ng-aka-uncle-roger-dont-mess-up-your-rice-tickets-1991728564753">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Voices From the World: Marius Burokas on Lithuanian Poetry">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/marius-burokas-elizabeth-kray-hall-poets-nov-3-2026">Voices From the World: Marius Burokas on Lithuanian Poetry</a></h3>
+<div class="meta">7:00 PM · Elizabeth Kray Hall, Poets House, Financial District-Battery Park City · $10</div>
+<p>A roadmap to contemporary Lithuanian poetry, read and discussed at Poets House.</p>
+<a class="tickets" href="https://bookevents.nyc/events/marius-burokas-elizabeth-kray-hall-poets-nov-3-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="PhDs &amp; Pints: The Science of Being You">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/phds-pints-the-science-of-being-you-tickets-2003692688770">PhDs &amp; Pints: The Science of Being You</a></h3>
+<div class="meta">6:30 PM · Sugar Mouse NYC, East Village</div>
+<p>Real scientists, real stories, zero dry lectures — the science of identity over pints in the East Village.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/phds-pints-the-science-of-being-you-tickets-2003692688770">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Lectures on Tap - &quot;Radical New York: From Anarchists to Occupy Wall Street&quot;">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lectures-on-tap-radical-new-york-from-anarchists-to-occupy-wall-street-tickets-2003186976170">Lectures on Tap - &quot;Radical New York: From Anarchists to Occupy Wall Street&quot;</a></h3>
+<div class="meta">6:30 PM · Williamsburg, South Williamsburg</div>
+<p>A bar lecture on New York&#x27;s radical history, from anarchists to Occupy — history with a drink in hand.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lectures-on-tap-radical-new-york-from-anarchists-to-occupy-wall-street-tickets-2003186976170">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-23" data-name="Rare Scotch Whisky Tasting Experience - New York City">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/rare-scotch-whisky-tasting-experience-new-york-city-tickets-2002764923800">Rare Scotch Whisky Tasting Experience - New York City</a></h3>
+<div class="meta">6:30 PM · Macchiato Espresso Bar, Midtown-Times Square</div>
+<p>Rare single malts in Midtown with the Scotch Malt Whisky Society — a proper tasting, not a bar pour.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/rare-scotch-whisky-tasting-experience-new-york-city-tickets-2002764923800">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Ki One Korean Whisky Tasting">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ki-one-korean-whisky-tasting-tickets-2003618805784">Ki One Korean Whisky Tasting</a></h3>
+<div class="meta">6:00 PM · Hana House, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>Women Who Whiskey explores Korean spirits with pioneering distillery Ki One in DUMBO.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ki-one-korean-whisky-tasting-tickets-2003618805784">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="voguing 101 w/ zenith 🪩 • (11/3)">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/vogue113">voguing 101 w/ zenith 🪩 • (11/3)</a></h3>
+<div class="meta">7:00 PM · 448 E 149th St, Mott Haven-Port Morris · $25</div>
+<p>Learn to vogue in the Bronx with Zenith — a BIPOC-centered, queer-led dance night for all levels.</p>
+<a class="tickets" href="https://luma.com/vogue113">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-26" data-name="Ice Skating">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-03">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>The Winter Village rink at Bryant Park is open — free admission with your own skates, midtown&#x27;s best people-watching.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-03">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Backgammon Night">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/23mfb31k">Backgammon Night</a></h3>
+<div class="meta">7:30 PM · The Maze NYC, Midtown South-Flatiron-Union Square · $20</div>
+<p>The Egyptians played it, the Romans played it — now it&#x27;s your turn at The Maze.</p>
+<a class="tickets" href="https://luma.com/23mfb31k">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-28" data-name="Election Night Social and Live Show">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/election-night-social-and-live-show-tickets-2003378472942">Election Night Social and Live Show</a></h3>
+<div class="meta">7:00 PM · The Grisly Pear Midtown, Midtown-Times Square</div>
+<p>Watch the returns come in with company, prizes, and a live broadcast at the Grisly Pear — election night, together.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/election-night-social-and-live-show-tickets-2003378472942">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-03";
+const NAMES = ["New Dendrology at the Arsenal Gallery", "Field Notes: The Exhibition | Opening Night @ Fabrik", "Vince Giordano and the Nighthawks", "Cyrille Aim\u00e9e", "Yebba", "Marty O'Reilly", "Elena Pinderhughes", "[NEW YORK] One-Day Choir: \u00d3lafur Arnalds & Talos - \"A Dawning\"", "Difficult People: The Movie (A Live Table Read)", "A Ghost in Your Ear", "The Imaginary Invalid", "CATS: The Jellicle Ball", "Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Mark Gagnon, Emma Willmann, Greer Barnes & more", "Hot Soup in the FBPC at Comedy Cellar", "Nice Try ft: Michael Kosta, Mandal, Ashley Austin Morris, Kevin Dombrowski, Jack Finnegan", "Yi Yi", "Pickup On South Street", "The Devils", "An Evening with Fuchsia Dunlop: Five Tastes", "Nigel Ng AKA Uncle Roger: Don\u2019t Mess Up Your Rice", "Voices From the World: Marius Burokas on Lithuanian Poetry", "PhDs & Pints: The Science of Being You", "Lectures on Tap - \"Radical New York: From Anarchists to Occupy Wall Street\"", "Rare Scotch Whisky Tasting Experience - New York City", "Ki One Korean Whisky Tasting", "voguing 101 w/ zenith \ud83e\udea9 \u2022 (11/3)", "Ice Skating", "Backgammon Night", "Election Night Social and Live Show"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

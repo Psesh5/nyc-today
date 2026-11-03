@@ -1,0 +1,473 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261103-0@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T090000
+DTEND;TZID=America/New_York:20261103T110000
+SUMMARY:New Dendrology at the Arsenal Gallery
+LOCATION:Arsenal (in Central Park)\, Central Park
+DESCRIPTION:Eleven artists rethink trees — a quiet\, leafy group show ins
+ 
+ide Central Park's Arsenal Gallery. Tickets & info: http://www.nycgovparks.
+ 
+org/events/2026/11/03/new-dendrology-at-the-arsenal-gallery
+URL:http://www.nycgovparks.org/events/2026/11/03/new-dendrology-at-the-arse
+ 
+nal-gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-1@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T173000
+DTEND;TZID=America/New_York:20261103T193000
+SUMMARY:Field Notes: The Exhibition | Opening Night @ Fabrik
+LOCATION:12-16 Vestry St\, Tribeca-Civic Center
+DESCRIPTION:Opening night for a new exhibition in Tribeca — free\, small\
+ 
+, and worth a wander before dinner. Tickets & info: https://luma.com/nhh0e5
+ 
+st
+URL:https://luma.com/nhh0e5st
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-2@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T173000
+DTEND;TZID=America/New_York:20261103T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning 1920s jazz\, live and swinging\, from an 11-piec
+ 
+e band in a Birdland residency. Tickets & info: https://www.ticketweb.com/e
+ 
+vent/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225124
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14225124
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-3@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Cyrille Aimée
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Multilingual jazz vocalist with Afro-Caribbean roots\, up close
+ 
+ at Birdland. Tickets & info: https://www.ticketweb.com/event/cyrille-aime-
+ 
+birdland-jazz-club-tickets/15005153
+URL:https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets
+ 
+/15005153
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-4@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Yebba
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Soul singer Yebba headlines the restored Brooklyn Paramount —
+ 
+ a voice that fills the room. Tickets & info: https://www.ticketmaster.com/
+ 
+yebba-brooklyn-new-york-11-03-2026/event/00006513F7AFF020
+URL:https://www.ticketmaster.com/yebba-brooklyn-new-york-11-03-2026/event/0
+ 
+0006513F7AFF020
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-5@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T180000
+DTEND;TZID=America/New_York:20261103T200000
+SUMMARY:Marty O'Reilly
+LOCATION:Mercury Lounge\, Lower East Side
+DESCRIPTION:Indie-folk songwriter with Lily Talmers at Mercury Lounge\, doo
+ 
+rs at 6. Tickets & info: https://www.ticketmaster.com/marty-oreilly-new-yor
+ 
+k-new-york-11-03-2026/event/0000653DFB1F92F1
+URL:https://www.ticketmaster.com/marty-oreilly-new-york-new-york-11-03-2026
+ 
+/event/0000653DFB1F92F1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-6@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T200000
+DTEND;TZID=America/New_York:20261103T220000
+SUMMARY:Elena Pinderhughes
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Flutist and vocalist Elena Pinderhughes brings her genre-bendin
+ 
+g set to the Blue Note. Tickets & info: https://www.ticketweb.com/event/ele
+ 
+na-pinderhughes-blue-note-jazz-club-tickets/15018613
+URL:https://www.ticketweb.com/event/elena-pinderhughes-blue-note-jazz-club-
+ 
+tickets/15018613
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-7@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+SUMMARY:[NEW YORK] One-Day Choir: Ólafur Arnalds & Talos - "A Dawning"
+LOCATION:100 Sutton Studios\, Greenpoint
+DESCRIPTION:Sing Ólafur Arnalds' 'A Dawning' in a one-day choir in Greenpo
+ 
+int — no audition\, just show up and harmonize. Tickets & info: https://w
+ 
+ww.eventbrite.com/e/new-york-one-day-choir-olafur-arnalds-talos-a-dawning-t
+ 
+ickets-2000538090281
+URL:https://www.eventbrite.com/e/new-york-one-day-choir-olafur-arnalds-talo
+ 
+s-a-dawning-tickets-2000538090281
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-8@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Difficult People: The Movie (A Live Table Read)
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Election-night escape: Julie Klausner and Billy Eichner reunite
+ 
+ the Difficult People cast for a one-night live read of the unmade movie sc
+ 
+ript\, with guests from Meloni to Cecily Strong. Tickets & info: https://ww
+ 
+w.ticketmaster.com/difficult-people-the-movie-a-live-new-york-new-york-11-0
+ 
+3-2026/event/030064E8F8571EDD
+URL:https://www.ticketmaster.com/difficult-people-the-movie-a-live-new-york
+ 
+-new-york-11-03-2026/event/030064E8F8571EDD
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-9@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:A Ghost in Your Ear
+LOCATION:Audible's Minetta Lane Theatre\, Greenwich Village
+DESCRIPTION:Headphone horror live on stage — a ghost story recorded in a 
+ 
+sound studio that starts leaking into real life. Tickets & info: https://ww
+ 
+w.ticketmaster.com/a-ghost-in-your-ear-new-york-new-york-11-03-2026/event/3
+ 
+00064F5DFB2A34B
+URL:https://www.ticketmaster.com/a-ghost-in-your-ear-new-york-new-york-11-0
+ 
+3-2026/event/300064F5DFB2A34B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-10@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:The Imaginary Invalid
+LOCATION:Todd Haimes Theatre\, Hell's Kitchen
+DESCRIPTION:Molière's hypochondriac satire\, Broadway-style\, at the Todd 
+ 
+Haimes Theatre. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A
+ 
+7J6vI
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7J6vI
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-11@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:CATS: The Jellicle Ball
+LOCATION:Broadhurst Theatre\, Hell's Kitchen
+DESCRIPTION:Cats reimagined as a ballroom ball — vogue\, drama\, and Jell
+ 
+icle glamour at the Broadhurst. Tickets & info: https://www.ticketmaster.co
+ 
+m/event/Z7r9jZ1A7P_8I
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P_8I
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-12@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T193000
+DTEND;TZID=America/New_York:20261103T213000
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Mark Gag
+ 
+non\, Emma Willmann\, Greer Barnes & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:Classic Cellar lineup on MacDougal — Emma Willmann and Greer 
+ 
+Barnes among tonight's comics. Tickets & info: https://www.comedycellar.com
+ 
+/reservations-newyork/?showid=1793734200
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793734200
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-13@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T223000
+DTEND;TZID=America/New_York:20261104T003000
+SUMMARY:Hot Soup in the FBPC at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Late-night Hot Soup with Mark Normand\, Daniel Simonsen and Gar
+ 
+y Vider in the Cellar's downstairs room. Tickets & info: https://www.comedy
+ 
+cellar.com/reservations-newyork/?showid=1793745000
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793745000
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-14@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T200000
+DTEND;TZID=America/New_York:20261103T220000
+SUMMARY:Nice Try ft: Michael Kosta\, Mandal\, Ashley Austin Morris\, Kevin 
+ 
+Dombrowski\, Jack Finnegan
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Pros try brand-new material for the first time ever — Michael
+ 
+ Kosta headlines a night of untested jokes. Tickets & info: https://newyork
+ 
+comedyclub.com/events/nice-try-ft-michael-kosta-mandal-ashley-austin-morris
+ 
+-kevin-dombrowski-jack-finnegan
+URL:https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-mandal-a
+ 
+shley-austin-morris-kevin-dombrowski-jack-finnegan
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-15@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T150000
+DTEND;TZID=America/New_York:20261103T170000
+SUMMARY:Yi Yi
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Edward Yang's gentle\, epic portrait of three generations of a 
+ 
+Taipei family\, on the big screen at Metrograph. Tickets & info: https://me
+ 
+trograph.com/film/9999001293-yi-yi/
+URL:https://metrograph.com/film/9999001293-yi-yi/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-16@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T200000
+DTEND;TZID=America/New_York:20261103T220000
+SUMMARY:Pickup On South Street
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Sam Fuller noir in Film Forum's NYC in Transit series — pickp
+ 
+ockets\, Cold War paranoia\, and the subway. Tickets & info: https://filmfo
+ 
+rum.org/film/pick-up-on-south-street-nyc-in-transit
+URL:https://filmforum.org/film/pick-up-on-south-street-nyc-in-transit
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-17@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's gloriously unhinged historical horror\, back on t
+ 
+he IFC screen. Tickets & info: https://www.ifccenter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-18@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T173000
+DTEND;TZID=America/New_York:20261103T193000
+SUMMARY:An Evening with Fuchsia Dunlop: Five Tastes
+LOCATION:China Institute of America\, Financial District-Battery Park City
+DESCRIPTION:Food writer Fuchsia Dunlop on what makes Chinese food taste Chi
+ 
+nese\, with tastings from her new book Five Tastes. Tickets & info: https:/
+ 
+/www.eventbrite.com/e/an-evening-with-fuchsia-dunlop-five-tastes-tickets-20
+ 
+02629928024
+URL:https://www.eventbrite.com/e/an-evening-with-fuchsia-dunlop-five-tastes
+ 
+-tickets-2002629928024
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-19@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Nigel Ng AKA Uncle Roger: Don’t Mess Up Your Rice
+LOCATION:The Strand Building\, Greenwich Village
+DESCRIPTION:Uncle Roger live at the Strand for his debut cookbook — rice\
+ 
+, wok wisdom\, and a signing line. Tickets & info: https://www.eventbrite.c
+ 
+om/e/nigel-ng-aka-uncle-roger-dont-mess-up-your-rice-tickets-1991728564753
+URL:https://www.eventbrite.com/e/nigel-ng-aka-uncle-roger-dont-mess-up-your
+ 
+-rice-tickets-1991728564753
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-20@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Voices From the World: Marius Burokas on Lithuanian Poetry
+LOCATION:Elizabeth Kray Hall\, Poets House\, Financial District-Battery Par
+ 
+k City
+DESCRIPTION:A roadmap to contemporary Lithuanian poetry\, read and discusse
+ 
+d at Poets House. Tickets & info: https://bookevents.nyc/events/marius-buro
+ 
+kas-elizabeth-kray-hall-poets-nov-3-2026
+URL:https://bookevents.nyc/events/marius-burokas-elizabeth-kray-hall-poets-
+ 
+nov-3-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-21@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+SUMMARY:PhDs & Pints: The Science of Being You
+LOCATION:Sugar Mouse NYC\, East Village
+DESCRIPTION:Real scientists\, real stories\, zero dry lectures — the scie
+ 
+nce of identity over pints in the East Village. Tickets & info: https://www
+ 
+.eventbrite.com/e/phds-pints-the-science-of-being-you-tickets-2003692688770
+URL:https://www.eventbrite.com/e/phds-pints-the-science-of-being-you-ticket
+ 
+s-2003692688770
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-22@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+SUMMARY:Lectures on Tap - "Radical New York: From Anarchists to Occupy Wall
+ 
+ Street"
+LOCATION:Williamsburg\, South Williamsburg
+DESCRIPTION:A bar lecture on New York's radical history\, from anarchists t
+ 
+o Occupy — history with a drink in hand. Tickets & info: https://www.even
+ 
+tbrite.com/e/lectures-on-tap-radical-new-york-from-anarchists-to-occupy-wal
+ 
+l-street-tickets-2003186976170
+URL:https://www.eventbrite.com/e/lectures-on-tap-radical-new-york-from-anar
+ 
+chists-to-occupy-wall-street-tickets-2003186976170
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-23@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T183000
+DTEND;TZID=America/New_York:20261103T203000
+SUMMARY:Rare Scotch Whisky Tasting Experience - New York City
+LOCATION:Macchiato Espresso Bar\, Midtown-Times Square
+DESCRIPTION:Rare single malts in Midtown with the Scotch Malt Whisky Societ
+ 
+y — a proper tasting\, not a bar pour. Tickets & info: https://www.eventb
+ 
+rite.com/e/rare-scotch-whisky-tasting-experience-new-york-city-tickets-2002
+ 
+764923800
+URL:https://www.eventbrite.com/e/rare-scotch-whisky-tasting-experience-new-
+ 
+york-city-tickets-2002764923800
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-24@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T180000
+DTEND;TZID=America/New_York:20261103T200000
+SUMMARY:Ki One Korean Whisky Tasting
+LOCATION:Hana House\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Women Who Whiskey explores Korean spirits with pioneering disti
+ 
+llery Ki One in DUMBO. Tickets & info: https://www.eventbrite.com/e/ki-one-
+ 
+korean-whisky-tasting-tickets-2003618805784
+URL:https://www.eventbrite.com/e/ki-one-korean-whisky-tasting-tickets-20036
+ 
+18805784
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-25@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:voguing 101 w/ zenith 🪩 • (11/3)
+LOCATION:448 E 149th St\, Mott Haven-Port Morris
+DESCRIPTION:Learn to vogue in the Bronx with Zenith — a BIPOC-centered\, 
+ 
+queer-led dance night for all levels. Tickets & info: https://luma.com/vogu
+ 
+e113
+URL:https://luma.com/vogue113
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-26@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T080000
+DTEND;TZID=America/New_York:20261103T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink at Bryant Park is open — free admissi
+ 
+on with your own skates\, midtown's best people-watching. Tickets & info: h
+ 
+ttps://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-ska
+ 
+ting-rink-at-bryant-park/2026-11-03
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-03
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-27@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T193000
+DTEND;TZID=America/New_York:20261103T213000
+SUMMARY:Backgammon Night
+LOCATION:The Maze NYC\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Egyptians played it\, the Romans played it — now it's you
+ 
+r turn at The Maze. Tickets & info: https://luma.com/23mfb31k
+URL:https://luma.com/23mfb31k
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261103-28@concierge
+DTSTAMP:20261103T125902Z
+DTSTART;TZID=America/New_York:20261103T190000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:Election Night Social and Live Show
+LOCATION:The Grisly Pear Midtown\, Midtown-Times Square
+DESCRIPTION:Watch the returns come in with company\, prizes\, and a live br
+ 
+oadcast at the Grisly Pear — election night\, together. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/election-night-social-and-live-show-tickets-200
+ 
+3378472942
+URL:https://www.eventbrite.com/e/election-night-social-and-live-show-ticket
+ 
+s-2003378472942
+END:VEVENT
+END:VCALENDAR
