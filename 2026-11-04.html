@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, November 4</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, November 4</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-04.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-0" data-name="Ice Skating">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-04">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square</div>
+<p>The Winter Village rink at Bryant Park is open — free admission with your own skates, midtown&#x27;s best people-watching.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-04">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-1" data-name="New Dendrology at the Arsenal Gallery">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/04/new-dendrology-at-the-arsenal-gallery">New Dendrology at the Arsenal Gallery</a></h3>
+<div class="meta">9:00 AM · Arsenal (in Central Park), Central Park</div>
+<p>Eleven artists rethink trees — a quiet, leafy group show inside Central Park&#x27;s Arsenal Gallery, with street-tree tarot readings.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/04/new-dendrology-at-the-arsenal-gallery">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="No Lights No Lycra NYC - Dance Session - WED NOV 4, 2026 - 7PM">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/no-lights-no-lycra-nyc-dance-session-wed-nov-4-2026-7pm-tickets-2001607640334">No Lights No Lycra NYC - Dance Session - WED NOV 4, 2026 - 7PM</a></h3>
+<div class="meta">7:00 PM · 424 W 54th St, Hell&#x27;s Kitchen</div>
+<p>Dance in the dark, no teacher and no steps to learn — just music, movement, and a room full of strangers doing the same.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/no-lights-no-lycra-nyc-dance-session-wed-nov-4-2026-7pm-tickets-2001607640334">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Greenpoint Figure Drawing @ Neptune: Halloween Special (11/4)">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/greenpoint-figure-drawing-neptune-halloween-special-114-tickets-2003789250589">Greenpoint Figure Drawing @ Neptune: Halloween Special (11/4)</a></h3>
+<div class="meta">7:30 PM · The Neptune Room, Greenpoint · $17.85</div>
+<p>One-night Halloween figure drawing in a hidden Greenpoint space — bring your sketchbook, stay for the spooky poses.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/greenpoint-figure-drawing-neptune-halloween-special-114-tickets-2003789250589">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Hive Mind Reading Room: Silent Reading Night">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hive-mind-reading-room-silent-reading-night-tickets-2003993344038">Hive Mind Reading Room: Silent Reading Night</a></h3>
+<div class="meta">6:30 PM · Hive Mind Books, Bushwick (West)</div>
+<p>A cozy Bushwick bookstore silent-reading night, with drink discounts for readers who actually finish a chapter.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hive-mind-reading-room-silent-reading-night-tickets-2003993344038">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-5" data-name="Jeff Tweedy (18 and Over)">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7Ptek">Jeff Tweedy (18 and Over)</a></h3>
+<div class="meta">7:30 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>Wilco&#x27;s frontman, solo and up close in Williamsburg — the songs stripped back to voice, guitar, and room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7Ptek">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Olafur Arnalds">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-04-2026/event/03006428F84B282B">Olafur Arnalds</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Icelandic composer Ólafur Arnalds brings his piano-led, quietly epic work to Town Hall for one night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-04-2026/event/03006428F84B282B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Cyrille Aimée">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005163">Cyrille Aimée</a></h3>
+<div class="meta">7:00 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Multilingual jazz vocalist Cyrille Aimée, up close at Birdland — Afro-Caribbean roots, swing, and a voice that bends genres.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005163">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="New York Philharmonic: Thibaudet Performs Liszt">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt">New York Philharmonic: Thibaudet Performs Liszt</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>Jean-Yves Thibaudet plays Liszt with the Philharmonic at Geffen Hall — big, romantic piano, full orchestra behind it.</p>
+<a class="tickets" href="https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Bad Gyal">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A70p4w">Bad Gyal</a></h3>
+<div class="meta">8:00 PM · Terminal 5, Hell&#x27;s Kitchen</div>
+<p>Barcelona-born Bad Gyal headlines Terminal 5 — club-ready Catalan pop and reggaeton, loud and late.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A70p4w">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-10" data-name="Here There Are Blueberries">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-04-2026/event/Z1r9uZruZqGZ1AvZ3bJ">Here There Are Blueberries</a></h3>
+<div class="meta">7:30 PM · Barrymore Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>A Holocaust drama built around a discovered Auschwitz photo album — one of Broadway&#x27;s most talked-about new plays.</p>
+<a class="tickets" href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-04-2026/event/Z1r9uZruZqGZ1AvZ3bJ">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Much Ado About Nothing">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-04-2026/event/Z1r9uZruZqGZ17JbjZ">Much Ado About Nothing</a></h3>
+<div class="meta">2:00 PM · Winter Garden Theatre, Midtown-Times Square</div>
+<p>First preview of a new Shakespeare staging at the Winter Garden — and yes, there&#x27;s a pink dress code.</p>
+<a class="tickets" href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-04-2026/event/Z1r9uZruZqGZ17JbjZ">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="MOUNTAIN GIRL a new play by John Patrick Shanley">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116149325">MOUNTAIN GIRL a new play by John Patrick Shanley</a></h3>
+<div class="meta">7:30 PM · 154 Christopher St, West Village · $47</div>
+<p>A new comic fable from Pulitzer winner John Patrick Shanley, in an intimate West Village room.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116149325">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-13" data-name="An Evening with Michelle Wolf at Comedy Cellar">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1793815200">An Evening with Michelle Wolf at Comedy Cellar</a></h3>
+<div class="meta">6:00 PM · Comedy Cellar, Greenwich Village · $25</div>
+<p>Michelle Wolf headlines the Cellar — sharp, fearless stand-up in the room where comics sharpen their best sets.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1793815200">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Good Eggs ft: Mark Normand, Mike Vecchione, Sahib Singh, Gary Vider, Samantha Santos, Matt Ruby">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/mark-normand-mike-vecchione-sahib-singh-gary-vider-samantha-santos-matt-ruby">Good Eggs ft: Mark Normand, Mike Vecchione, Sahib Singh, Gary Vider, Samantha Santos, Matt Ruby</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>Mark Normand&#x27;s weekly underground lineup — a stacked bill of comics trying their sharpest material in the East Village.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/mark-normand-mike-vecchione-sahib-singh-gary-vider-samantha-santos-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="LABRATZ: DATE NIGHT">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://thepit-nyc.com/events/labratz-date-night/">LABRATZ: DATE NIGHT</a></h3>
+<div class="meta">7:30 PM · The PIT LAB, Midtown South-Flatiron-Union Square</div>
+<p>Experimental themed improv presents Date Night — a made-up-on-the-spot comedy night at the PIT LAB, produced by Magenta Rose Brown.</p>
+<a class="tickets" href="https://thepit-nyc.com/events/labratz-date-night/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Wednesday Night Scene Jam!">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://thepit-nyc.com/events/the-wednesday-night-scene-improv-jam/">Wednesday Night Scene Jam!</a></h3>
+<div class="meta">10:00 PM · The PIT Mainstage, Midtown South-Flatiron-Union Square · $5</div>
+<p>The PIT&#x27;s Wednesday night scene jam — $5 cash at the door, doors 9:30, and an hour of improv built to shake off the week.</p>
+<a class="tickets" href="https://thepit-nyc.com/events/the-wednesday-night-scene-improv-jam/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-17" data-name="Strangers on a Train">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000668-strangers-on-a-train/">Strangers on a Train</a></h3>
+<div class="meta">7:35 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Hitchcock&#x27;s 1951 thriller on 35mm at Metrograph — murder-swap suspense, the way it was meant to be seen.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000668-strangers-on-a-train/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Ghost in the Shell: 30th Anniversary Remaster">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000710-ghost-in-the-shell-30th-anniversary-remaster/">Ghost in the Shell: 30th Anniversary Remaster</a></h3>
+<div class="meta">10:20 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Mamoru Oshii&#x27;s 1995 anime classic, newly remastered for its 30th anniversary — late night at Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000710-ghost-in-the-shell-30th-anniversary-remaster/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-19" data-name="An Evening with Gaël Faye and Peter Godwin">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/gal-faye-albertine-nov-4-2026">An Evening with Gaël Faye and Peter Godwin</a></h3>
+<div class="meta">6:00 PM · Albertine, Upper East Side-Carnegie Hill</div>
+<p>Gaël Faye discusses his novel Jacaranda with Peter Godwin at Albertine — free, and quietly one of the night&#x27;s best literary rooms.</p>
+<a class="tickets" href="https://bookevents.nyc/events/gal-faye-albertine-nov-4-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Jane Austen’s Sense and Sensibility and the Art of Adaptation: Francine Prose, Radhika Jones and Sadie Stein in Conversation with Alexandra Schwartz">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/jane-austen-92nd-street-y-nov-4-2026">Jane Austen’s Sense and Sensibility and the Art of Adaptation: Francine Prose, Radhika Jones and Sadie Stein in Conversation with Alexandra Schwartz</a></h3>
+<div class="meta">7:00 PM · 92nd Street Y, Upper East Side-Carnegie Hill</div>
+<p>Francine Prose and Radhika Jones on Austen and the new Sense and Sensibility film, at the 92nd Street Y.</p>
+<a class="tickets" href="https://bookevents.nyc/events/jane-austen-92nd-street-y-nov-4-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Things I Do: An Evening with Paula Scher">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/things-i-do-an-evening-with-paula-scher-tickets-2003421879773">Things I Do: An Evening with Paula Scher</a></h3>
+<div class="meta">6:30 PM · Katie Murphy Amphitheatre, Midtown South-Flatiron-Union Square · $39.19</div>
+<p>Designer Paula Scher presents her identity projects and AI-era thinking — a masterclass in graphic design, live.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/things-i-do-an-evening-with-paula-scher-tickets-2003421879773">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Jennie Egerdie with Hayley DeRoche and Josh Gondelman">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/jennie-egerdie-with-hayley-deroche-and-josh-gondelman-tickets-2001890968777">Jennie Egerdie with Hayley DeRoche and Josh Gondelman</a></h3>
+<div class="meta">7:30 PM · Greenlight Bookstore, Fort Greene</div>
+<p>Jennie Egerdie returns with Frog and Toad Make History, a comedic parody, in conversation with Hayley DeRoche and Josh Gondelman at Greenlight — free, funny, and very Brooklyn.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/jennie-egerdie-with-hayley-deroche-and-josh-gondelman-tickets-2001890968777">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-23" data-name="A Winemaker&#x27;s Dinner with Peter Hahn (at Bar Heretic)">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/a-winemakers-dinner-with-peter-hahn-at-bar-heretic-tickets-2002819753798">A Winemaker&#x27;s Dinner with Peter Hahn (at Bar Heretic)</a></h3>
+<div class="meta">7:00 PM · Bar Heretic, Fort Greene · $132.24</div>
+<p>Winegrower Peter Hahn pairs a prix-fixe Fort Greene dinner with his book Angels in the Cellar — a proper winemaker&#x27;s table.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/a-winemakers-dinner-with-peter-hahn-at-bar-heretic-tickets-2002819753798">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-24" data-name="Soldering Workshop: Make an LED Tile">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/soldering-workshop-make-an-led-tile-tickets-2003477112977">Soldering Workshop: Make an LED Tile</a></h3>
+<div class="meta">6:00 PM · NYC Resistor, Downtown Brooklyn-DUMBO-Boerum Hill · $97.88</div>
+<p>Hands-on intro soldering at NYC Resistor — you leave with a glowing LED tile you built yourself.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/soldering-workshop-make-an-led-tile-tickets-2003477112977">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Hands-On: Tagliatelle with Fall Ragù">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002834512943">Hands-On: Tagliatelle with Fall Ragù</a></h3>
+<div class="meta">6:00 PM · Eataly NYC Downtown, Financial District-Battery Park City · $59.98</div>
+<p>Roll tagliatelle from scratch with an Eataly chef, then eat it with a fall ragù — dinner included in the lesson.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002834512943">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-26" data-name="Skip the Small Talk Night at Threes Brewing Greenpoint">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-threes-brewing-greenpoint-tickets-2002776429213">Skip the Small Talk Night at Threes Brewing Greenpoint</a></h3>
+<div class="meta">7:00 PM · Threes Brewing Greenpoint, Greenpoint · $15</div>
+<p>Structured question prompts, strangers, and good beer — conversation without the awkward small-talk warm-up.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-threes-brewing-greenpoint-tickets-2002776429213">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="New York Knicks vs. Chicago Bulls">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-chicago-bulls-new-york-new-york-11-04-2026/event/3B006511E91E862F">New York Knicks vs. Chicago Bulls</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>Knicks host the Bulls under the Garden lights — a classic Eastern Conference matchup in midtown.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-chicago-bulls-new-york-new-york-11-04-2026/event/3B006511E91E862F">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-04";
+const NAMES = ["Ice Skating", "New Dendrology at the Arsenal Gallery", "No Lights No Lycra NYC - Dance Session - WED NOV 4, 2026 - 7PM", "Greenpoint Figure Drawing @ Neptune: Halloween Special (11/4)", "Hive Mind Reading Room: Silent Reading Night", "Jeff Tweedy (18 and Over)", "Olafur Arnalds", "Cyrille Aim\u00e9e", "New York Philharmonic: Thibaudet Performs Liszt", "Bad Gyal", "Here There Are Blueberries", "Much Ado About Nothing", "MOUNTAIN GIRL a new play by John Patrick Shanley", "An Evening with Michelle Wolf at Comedy Cellar", "Good Eggs ft: Mark Normand, Mike Vecchione, Sahib Singh, Gary Vider, Samantha Santos, Matt Ruby", "LABRATZ: DATE NIGHT", "Wednesday Night Scene Jam!", "Strangers on a Train", "Ghost in the Shell: 30th Anniversary Remaster", "An Evening with Ga\u00ebl Faye and Peter Godwin", "Jane Austen\u2019s Sense and Sensibility and the Art of Adaptation: Francine Prose, Radhika Jones and Sadie Stein in Conversation with Alexandra Schwartz", "Things I Do: An Evening with Paula Scher", "Jennie Egerdie with Hayley DeRoche and Josh Gondelman", "A Winemaker's Dinner with Peter Hahn (at Bar Heretic)", "Soldering Workshop: Make an LED Tile", "Hands-On: Tagliatelle with Fall Rag\u00f9", "Skip the Small Talk Night at Threes Brewing Greenpoint", "New York Knicks vs. Chicago Bulls"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

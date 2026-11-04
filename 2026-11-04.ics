@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261104-0@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T080000
+DTEND;TZID=America/New_York:20261104T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink at Bryant Park is open — free admissi
+ 
+on with your own skates\, midtown's best people-watching. Tickets & info: h
+ 
+ttps://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-ska
+ 
+ting-rink-at-bryant-park/2026-11-04
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-04
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-1@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T090000
+DTEND;TZID=America/New_York:20261104T110000
+SUMMARY:New Dendrology at the Arsenal Gallery
+LOCATION:Arsenal (in Central Park)\, Central Park
+DESCRIPTION:Eleven artists rethink trees — a quiet\, leafy group show ins
+ 
+ide Central Park's Arsenal Gallery\, with street-tree tarot readings. Ticke
+ 
+ts & info: http://www.nycgovparks.org/events/2026/11/04/new-dendrology-at-t
+ 
+he-arsenal-gallery
+URL:http://www.nycgovparks.org/events/2026/11/04/new-dendrology-at-the-arse
+ 
+nal-gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-2@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:No Lights No Lycra NYC - Dance Session - WED NOV 4\, 2026 - 7PM
+LOCATION:424 W 54th St\, Hell's Kitchen
+DESCRIPTION:Dance in the dark\, no teacher and no steps to learn — just m
+ 
+usic\, movement\, and a room full of strangers doing the same. Tickets & in
+ 
+fo: https://www.eventbrite.com/e/no-lights-no-lycra-nyc-dance-session-wed-n
+ 
+ov-4-2026-7pm-tickets-2001607640334
+URL:https://www.eventbrite.com/e/no-lights-no-lycra-nyc-dance-session-wed-n
+ 
+ov-4-2026-7pm-tickets-2001607640334
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-3@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:Greenpoint Figure Drawing @ Neptune: Halloween Special (11/4)
+LOCATION:The Neptune Room\, Greenpoint
+DESCRIPTION:One-night Halloween figure drawing in a hidden Greenpoint space
+ 
+ — bring your sketchbook\, stay for the spooky poses. Tickets & info: htt
+ 
+ps://www.eventbrite.com/e/greenpoint-figure-drawing-neptune-halloween-speci
+ 
+al-114-tickets-2003789250589
+URL:https://www.eventbrite.com/e/greenpoint-figure-drawing-neptune-hallowee
+ 
+n-special-114-tickets-2003789250589
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-4@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T183000
+DTEND;TZID=America/New_York:20261104T203000
+SUMMARY:Hive Mind Reading Room: Silent Reading Night
+LOCATION:Hive Mind Books\, Bushwick (West)
+DESCRIPTION:A cozy Bushwick bookstore silent-reading night\, with drink dis
+ 
+counts for readers who actually finish a chapter. Tickets & info: https://w
+ 
+ww.eventbrite.com/e/hive-mind-reading-room-silent-reading-night-tickets-200
+ 
+3993344038
+URL:https://www.eventbrite.com/e/hive-mind-reading-room-silent-reading-nigh
+ 
+t-tickets-2003993344038
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-5@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:Jeff Tweedy (18 and Over)
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:Wilco's frontman\, solo and up close in Williamsburg — the so
+ 
+ngs stripped back to voice\, guitar\, and room. Tickets & info: https://www
+ 
+.ticketmaster.com/event/Z7r9jZ1A7Ptek
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Ptek
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-6@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T200000
+DTEND;TZID=America/New_York:20261104T220000
+SUMMARY:Olafur Arnalds
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Icelandic composer Ólafur Arnalds brings his piano-led\, quiet
+ 
+ly epic work to Town Hall for one night. Tickets & info: https://www.ticket
+ 
+master.com/olafur-arnalds-new-york-new-york-11-04-2026/event/03006428F84B28
+ 
+2B
+URL:https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-04-202
+ 
+6/event/03006428F84B282B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-7@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:Cyrille Aimée
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Multilingual jazz vocalist Cyrille Aimée\, up close at Birdlan
+ 
+d — Afro-Caribbean roots\, swing\, and a voice that bends genres. Tickets
+ 
+ & info: https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-ti
+ 
+ckets/15005163
+URL:https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets
+ 
+/15005163
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-8@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:New York Philharmonic: Thibaudet Performs Liszt
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:Jean-Yves Thibaudet plays Liszt with the Philharmonic at Geffen
+ 
+ Hall — big\, romantic piano\, full orchestra behind it. Tickets & info: 
+ 
+https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt
+URL:https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-9@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T200000
+DTEND;TZID=America/New_York:20261104T220000
+SUMMARY:Bad Gyal
+LOCATION:Terminal 5\, Hell's Kitchen
+DESCRIPTION:Barcelona-born Bad Gyal headlines Terminal 5 — club-ready Cat
+ 
+alan pop and reggaeton\, loud and late. Tickets & info: https://www.ticketm
+ 
+aster.com/event/Z7r9jZ1A70p4w
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70p4w
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-10@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:Here There Are Blueberries
+LOCATION:Barrymore Theatre-NY\, Hell's Kitchen
+DESCRIPTION:A Holocaust drama built around a discovered Auschwitz photo alb
+ 
+um — one of Broadway's most talked-about new plays. Tickets & info: https
+ 
+://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-04-
+ 
+2026/event/Z1r9uZruZqGZ1AvZ3bJ
+URL:https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-yo
+ 
+rk-11-04-2026/event/Z1r9uZruZqGZ1AvZ3bJ
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-11@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T140000
+DTEND;TZID=America/New_York:20261104T160000
+SUMMARY:Much Ado About Nothing
+LOCATION:Winter Garden Theatre\, Midtown-Times Square
+DESCRIPTION:First preview of a new Shakespeare staging at the Winter Garden
+ 
+ — and yes\, there's a pink dress code. Tickets & info: https://www.ticke
+ 
+tmaster.com/much-ado-about-nothing-new-york-new-york-11-04-2026/event/Z1r9u
+ 
+ZruZqGZ17JbjZ
+URL:https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-1
+ 
+1-04-2026/event/Z1r9uZruZqGZ17JbjZ
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-12@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:MOUNTAIN GIRL a new play by John Patrick Shanley
+LOCATION:154 Christopher St\, West Village
+DESCRIPTION:A new comic fable from Pulitzer winner John Patrick Shanley\, i
+ 
+n an intimate West Village room. Tickets & info: https://www.eventbrite.com
+ 
+/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116149325
+URL:https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-s
+ 
+hanley-tickets-2003116149325
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-13@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T200000
+SUMMARY:An Evening with Michelle Wolf at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Michelle Wolf headlines the Cellar — sharp\, fearless stand-u
+ 
+p in the room where comics sharpen their best sets. Tickets & info: https:/
+ 
+/www.comedycellar.com/reservations-newyork/?showid=1793815200
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1793815200
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-14@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T200000
+DTEND;TZID=America/New_York:20261104T220000
+SUMMARY:Good Eggs ft: Mark Normand\, Mike Vecchione\, Sahib Singh\, Gary Vi
+ 
+der\, Samantha Santos\, Matt Ruby
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Mark Normand's weekly underground lineup — a stacked bill of 
+ 
+comics trying their sharpest material in the East Village. Tickets & info: 
+ 
+https://newyorkcomedyclub.com/events/mark-normand-mike-vecchione-sahib-sing
+ 
+h-gary-vider-samantha-santos-matt-ruby
+URL:https://newyorkcomedyclub.com/events/mark-normand-mike-vecchione-sahib-
+ 
+singh-gary-vider-samantha-santos-matt-ruby
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-15@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:LABRATZ: DATE NIGHT
+LOCATION:The PIT LAB\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Experimental themed improv presents Date Night — a made-up-on
+ 
+-the-spot comedy night at the PIT LAB\, produced by Magenta Rose Brown. Tic
+ 
+kets & info: https://thepit-nyc.com/events/labratz-date-night/
+URL:https://thepit-nyc.com/events/labratz-date-night/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-16@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T220000
+DTEND;TZID=America/New_York:20261105T000000
+SUMMARY:Wednesday Night Scene Jam!
+LOCATION:The PIT Mainstage\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The PIT's Wednesday night scene jam — $5 cash at the door\, d
+ 
+oors 9:30\, and an hour of improv built to shake off the week. Tickets & in
+ 
+fo: https://thepit-nyc.com/events/the-wednesday-night-scene-improv-jam/
+URL:https://thepit-nyc.com/events/the-wednesday-night-scene-improv-jam/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-17@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193500
+DTEND;TZID=America/New_York:20261104T213500
+SUMMARY:Strangers on a Train
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Hitchcock's 1951 thriller on 35mm at Metrograph — murder-swap
+ 
+ suspense\, the way it was meant to be seen. Tickets & info: https://metrog
+ 
+raph.com/film/9999000668-strangers-on-a-train/
+URL:https://metrograph.com/film/9999000668-strangers-on-a-train/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-18@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T222000
+DTEND;TZID=America/New_York:20261105T002000
+SUMMARY:Ghost in the Shell: 30th Anniversary Remaster
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Mamoru Oshii's 1995 anime classic\, newly remastered for its 30
+ 
+th anniversary — late night at Metrograph. Tickets & info: https://metrog
+ 
+raph.com/film/9999000710-ghost-in-the-shell-30th-anniversary-remaster/
+URL:https://metrograph.com/film/9999000710-ghost-in-the-shell-30th-annivers
+ 
+ary-remaster/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-19@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T200000
+SUMMARY:An Evening with Gaël Faye and Peter Godwin
+LOCATION:Albertine\, Upper East Side-Carnegie Hill
+DESCRIPTION:Gaël Faye discusses his novel Jacaranda with Peter Godwin at A
+ 
+lbertine — free\, and quietly one of the night's best literary rooms. Tic
+ 
+kets & info: https://bookevents.nyc/events/gal-faye-albertine-nov-4-2026
+URL:https://bookevents.nyc/events/gal-faye-albertine-nov-4-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-20@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:Jane Austen’s Sense and Sensibility and the Art of Adaptation: Fr
+ 
+ancine Prose\, Radhika Jones and Sadie Stein in Conversation with Alexandra
+ 
+ Schwartz
+LOCATION:92nd Street Y\, Upper East Side-Carnegie Hill
+DESCRIPTION:Francine Prose and Radhika Jones on Austen and the new Sense an
+ 
+d Sensibility film\, at the 92nd Street Y. Tickets & info: https://bookeven
+ 
+ts.nyc/events/jane-austen-92nd-street-y-nov-4-2026
+URL:https://bookevents.nyc/events/jane-austen-92nd-street-y-nov-4-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-21@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T183000
+DTEND;TZID=America/New_York:20261104T203000
+SUMMARY:Things I Do: An Evening with Paula Scher
+LOCATION:Katie Murphy Amphitheatre\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Designer Paula Scher presents her identity projects and AI-era 
+ 
+thinking — a masterclass in graphic design\, live. Tickets & info: https:
+ 
+//www.eventbrite.com/e/things-i-do-an-evening-with-paula-scher-tickets-2003
+ 
+421879773
+URL:https://www.eventbrite.com/e/things-i-do-an-evening-with-paula-scher-ti
+ 
+ckets-2003421879773
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-22@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:Jennie Egerdie with Hayley DeRoche and Josh Gondelman
+LOCATION:Greenlight Bookstore\, Fort Greene
+DESCRIPTION:Jennie Egerdie returns with Frog and Toad Make History\, a come
+ 
+dic parody\, in conversation with Hayley DeRoche and Josh Gondelman at Gree
+ 
+nlight — free\, funny\, and very Brooklyn. Tickets & info: https://www.ev
+ 
+entbrite.com/e/jennie-egerdie-with-hayley-deroche-and-josh-gondelman-ticket
+ 
+s-2001890968777
+URL:https://www.eventbrite.com/e/jennie-egerdie-with-hayley-deroche-and-jos
+ 
+h-gondelman-tickets-2001890968777
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-23@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:A Winemaker's Dinner with Peter Hahn (at Bar Heretic)
+LOCATION:Bar Heretic\, Fort Greene
+DESCRIPTION:Winegrower Peter Hahn pairs a prix-fixe Fort Greene dinner with
+ 
+ his book Angels in the Cellar — a proper winemaker's table. Tickets & in
+ 
+fo: https://www.eventbrite.com/e/a-winemakers-dinner-with-peter-hahn-at-bar
+ 
+-heretic-tickets-2002819753798
+URL:https://www.eventbrite.com/e/a-winemakers-dinner-with-peter-hahn-at-bar
+ 
+-heretic-tickets-2002819753798
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-24@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T200000
+SUMMARY:Soldering Workshop: Make an LED Tile
+LOCATION:NYC Resistor\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Hands-on intro soldering at NYC Resistor — you leave with a g
+ 
+lowing LED tile you built yourself. Tickets & info: https://www.eventbrite.
+ 
+com/e/soldering-workshop-make-an-led-tile-tickets-2003477112977
+URL:https://www.eventbrite.com/e/soldering-workshop-make-an-led-tile-ticket
+ 
+s-2003477112977
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-25@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T180000
+DTEND;TZID=America/New_York:20261104T200000
+SUMMARY:Hands-On: Tagliatelle with Fall Ragù
+LOCATION:Eataly NYC Downtown\, Financial District-Battery Park City
+DESCRIPTION:Roll tagliatelle from scratch with an Eataly chef\, then eat it
+ 
+ with a fall ragù — dinner included in the lesson. Tickets & info: https
+ 
+://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002834
+ 
+512943
+URL:https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-ticket
+ 
+s-2002834512943
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-26@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T190000
+DTEND;TZID=America/New_York:20261104T210000
+SUMMARY:Skip the Small Talk Night at Threes Brewing Greenpoint
+LOCATION:Threes Brewing Greenpoint\, Greenpoint
+DESCRIPTION:Structured question prompts\, strangers\, and good beer — con
+ 
+versation without the awkward small-talk warm-up. Tickets & info: https://w
+ 
+ww.eventbrite.com/e/skip-the-small-talk-night-at-threes-brewing-greenpoint-
+ 
+tickets-2002776429213
+URL:https://www.eventbrite.com/e/skip-the-small-talk-night-at-threes-brewin
+ 
+g-greenpoint-tickets-2002776429213
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261104-27@concierge
+DTSTAMP:20261104T131209Z
+DTSTART;TZID=America/New_York:20261104T193000
+DTEND;TZID=America/New_York:20261104T213000
+SUMMARY:New York Knicks vs. Chicago Bulls
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Knicks host the Bulls under the Garden lights — a classic Eas
+ 
+tern Conference matchup in midtown. Tickets & info: https://www.ticketmaste
+ 
+r.com/new-york-knicks-vs-chicago-bulls-new-york-new-york-11-04-2026/event/3
+ 
+B006511E91E862F
+URL:https://www.ticketmaster.com/new-york-knicks-vs-chicago-bulls-new-york-
+ 
+new-york-11-04-2026/event/3B006511E91E862F
+END:VEVENT
+END:VCALENDAR
