@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Thursday, November 5</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Thursday, November 5</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-05.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Olafur Arnalds">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-05-2026/event/03006428F84E282E">Olafur Arnalds</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square · $73.95</div>
+<p>Icelandic composer Ólafur Arnalds brings his hushed, string-laden electronica to Town Hall — a rare quiet night in a loud city.</p>
+<a class="tickets" href="https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-05-2026/event/03006428F84E282E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Cyrille Aimée">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005223">Cyrille Aimée</a></h3>
+<div class="meta">7:00 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Grammy-nominated jazz vocalist, fresh off a New Orleans sojourn, back in New York with her Sondheim-kissed songbook at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005223">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Deerhoof">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/deerhoof-mercy-my-trio-tickets-1992954959934">Deerhoof</a></h3>
+<div class="meta">7:00 PM · Elsewhere, Bushwick (West) · $33.59</div>
+<p>Indie-rock lifers Deerhoof bring the joyful noise to Elsewhere&#x27;s Hall, with Mercy and My Trio opening — a loud Bushwick Thursday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/deerhoof-mercy-my-trio-tickets-1992954959934">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Sid Sriram">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/sid-sriram-blue-note-jazz-club-tickets/14900393">Sid Sriram</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $38.1</div>
+<p>Bollywood&#x27;s biggest voice goes intimate at the Blue Note, bending Carnatic melody through R&amp;B and indie rock.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/sid-sriram-blue-note-jazz-club-tickets/14900393">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Sammy Rae &amp; The Friends - the GET DOWN!">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-05-2026/event/0000643700A3F2B5">Sammy Rae &amp; The Friends - the GET DOWN!</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene · $59.5</div>
+<p>Brooklyn Paramount hosts Sammy Rae&#x27;s big-band dance party — horns, harmonies, and a room that will be on its feet.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-05-2026/event/0000643700A3F2B5">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Ally Venable">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/ally-venable-iridium-tickets/15022753">Ally Venable</a></h3>
+<div class="meta">8:30 PM · Iridium, Midtown-Times Square · $32.78</div>
+<p>Texas blues firebrand Ally Venable takes the Iridium stage — guitar solos with real bite, all ages welcome.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/ally-venable-iridium-tickets/15022753">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Sam Tallent">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sam-tallent-brooklyn-new-york-11-05-2026/event/3000648C41FC8C61">Sam Tallent</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $38.2</div>
+<p>The cult-favorite comic brings his beautifully unhinged hour to the Bell House — one of the sharpest stand-up sets touring right now.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sam-tallent-brooklyn-new-york-11-05-2026/event/3000648C41FC8C61">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Ken Boyd, Caroline Hanes, Eagle Witt, Vanessa Hollingshead, &amp; more!">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ken-boyd-caroline-hanes-eagle-witt-vanessa-hollingshead-more-tickets-2003839834888">Ken Boyd, Caroline Hanes, Eagle Witt, Vanessa Hollingshead, &amp; more!</a></h3>
+<div class="meta">8:00 PM · Comic Strip Live, Upper East Side-Yorkville · $25.71</div>
+<p>Comic Strip Live celebrates 50 years of comedy with a stacked lineup of club veterans and late-night regulars.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ken-boyd-caroline-hanes-eagle-witt-vanessa-hollingshead-more-tickets-2003839834888">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Usual Suspects ft. Maddy Smith, Neema Naz, Jackie Fabulous, Shane Torres, Jilberto Soto, and Damien Lemon">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/usual-suspects-ft-maddy-smith-brooklyn-improv-the-main-room-tickets/14377884">Usual Suspects ft. Maddy Smith, Neema Naz, Jackie Fabulous, Shane Torres, Jilberto Soto, and Damien Lemon</a></h3>
+<div class="meta">7:30 PM · Brooklyn Improv (The Main Room), Williamsburg · $15.81</div>
+<p>Maddy Smith headlines a stacked Williamsburg bill — six comics, two-item minimum, zero chance of a quiet night.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/usual-suspects-ft-maddy-smith-brooklyn-improv-the-main-room-tickets/14377884">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Thursday early open mic for comedy, 6pm every week at the Producers club">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.meetup.com/new-york-open-mic-meetup-group-at-the-producer-s-club/?eventOrigin=topic_overview_nearest_groups">Thursday early open mic for comedy, 6pm every week at the Producers club</a></h3>
+<div class="meta">6:00 PM · Producers Club Theaters, Midtown-Times Square · $5</div>
+<p>The cheapest stage in Midtown: five bucks, five minutes, sign up in person from 5:30 — comics testing brand-new material at the Producers Club.</p>
+<a class="tickets" href="https://www.meetup.com/new-york-open-mic-meetup-group-at-the-producer-s-club/?eventOrigin=topic_overview_nearest_groups">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-9" data-name="August Wilson&#x27;s Seven Guitars">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-05-2026/event/Z1r9uZruZqGZ1AvZoCF">August Wilson&#x27;s Seven Guitars</a></h3>
+<div class="meta">8:00 PM · Lincoln Center - Mitzi E. Newhouse Theater, Upper West Side-Lincoln Square · $106.8</div>
+<p>August Wilson&#x27;s blues-soaked drama about dreams deferred in 1940s Pittsburgh, staged at Lincoln Center&#x27;s Mitzi E. Newhouse.</p>
+<a class="tickets" href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-05-2026/event/Z1r9uZruZqGZ1AvZoCF">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Lost Boys Musical w/ Unknown Mortal Orchestra">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-05-2026/event/Z1r9uZrrZbpZ1AvOAfb">Lost Boys Musical w/ Unknown Mortal Orchestra</a></h3>
+<div class="meta">7:00 PM · Palace Theatre-NY, Hell&#x27;s Kitchen · $70.8</div>
+<p>The cult vampire classic becomes a stage musical with a live score from Unknown Mortal Orchestra — Palace Theatre, naturally, after dark.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-05-2026/event/Z1r9uZrrZbpZ1AvOAfb">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Here There Are Blueberries">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-05-2026/event/Z1r9uZruZqGZ1AvZ3bE">Here There Are Blueberries</a></h3>
+<div class="meta">7:30 PM · Barrymore Theatre-NY, Hell&#x27;s Kitchen · $94.8</div>
+<p>A Pulitzer finalist: a discovered album of Nazi-era photographs sparks a haunting reckoning with history at the Barrymore.</p>
+<a class="tickets" href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-05-2026/event/Z1r9uZruZqGZ1AvZ3bE">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="The Devils">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">8:50 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s notorious 1971 masterpiece in a new 4K restoration at IFC — Vanessa Redgrave and Oliver Reed at full, feverish tilt.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Citizen Ruth">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/citizen-ruth">Citizen Ruth</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square · $9</div>
+<p>Last day: Alexander Payne&#x27;s savagely funny 1996 satire, newly restored in 4K — Laura Dern as the world&#x27;s least likely culture-war pawn.</p>
+<a class="tickets" href="https://filmforum.org/film/citizen-ruth">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Visible Humans">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/visible-humans/">Visible Humans</a></h3>
+<div class="meta">6:00 PM · Museum of the Moving Image, Astoria (Central) · $17.5</div>
+<p>A screening and talk at MoMI on the Visible Human Project — the 3D body scans that raised big questions about consent and the body.</p>
+<a class="tickets" href="https://movingimage.org/event/visible-humans/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-15" data-name="Two Ships: David Reynolds in Conversation with Annette Gordon-Reed">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/two-ships-david-reynolds-in-conversation-with-annette-gordon-reed-tickets-1999069154655">Two Ships: David Reynolds in Conversation with Annette Gordon-Reed</a></h3>
+<div class="meta">6:30 PM · Elebash Recital Hall, The Graduate Center, Midtown South-Flatiron-Union Square</div>
+<p>Two Bancroft/Pulitzer-winning historians on America&#x27;s founding myths — Jamestown vs. Plymouth — at the Graduate Center. Free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/two-ships-david-reynolds-in-conversation-with-annette-gordon-reed-tickets-1999069154655">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Nerd Nite">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nerd-nite-tickets-1999866227722">Nerd Nite</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side · $20.29</div>
+<p>This month&#x27;s theme is butts and sitting: deck chairs, the console wars, and world records broken with buttocks. Caveat, obviously.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nerd-nite-tickets-1999866227722">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Lucy Caldwell&#x27;s &quot;Devotions&quot;">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lucy-caldwells-devotions-tickets-1999580298500">Lucy Caldwell&#x27;s &quot;Devotions&quot;</a></h3>
+<div class="meta">6:00 PM · Glucksman Ireland House NYU, Greenwich Village</div>
+<p>The acclaimed Irish short-story writer talks her new collection about love, grief, and time travel at Glucksman Ireland House. Free, few tickets left.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lucy-caldwells-devotions-tickets-1999580298500">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="The Wilderness by Angela Flournoy">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/the-wilderness-by-angela-flournoy-nov-5">The Wilderness by Angela Flournoy</a></h3>
+<div class="meta">6:00 PM · Webster Library, Midtown-Times Square</div>
+<p>National Book Award finalist Angela Flournoy on her new novel about five Black women and twenty years of friendship. Free, Upper East Side.</p>
+<a class="tickets" href="https://bookevents.nyc/events/the-wilderness-by-angela-flournoy-nov-5">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-19" data-name="Opening Reception | Clark Fox: Beyond Obedience">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/qmzuo278">Opening Reception | Clark Fox: Beyond Obedience</a></h3>
+<div class="meta">6:00 PM · Ethan Cohen Gallery 19th Street, Chelsea-Hudson Yards</div>
+<p>Opening night for Clark Fox&#x27;s solo show at Ethan Cohen Gallery — Chelsea art, free, and an easy stop before dinner.</p>
+<a class="tickets" href="https://luma.com/qmzuo278">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="BEMBÉ - The Feast of the King&#x27;s Eyes">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/bembe-the-feast-of-the-kings-eyes-tickets-2004069259102">BEMBÉ - The Feast of the King&#x27;s Eyes</a></h3>
+<div class="meta">6:00 PM · Consulate General of Brazil in New York, Murray Hill-Kips Bay</div>
+<p>A photography exhibition by Brazilian artist Roque Boa Morte opens at the Brazilian Consulate for Black Awareness Month. Free, reserve ahead.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/bembe-the-feast-of-the-kings-eyes-tickets-2004069259102">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="NYC Live Talent &amp; Table Top Games">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://events.musicofourdesire.com/event/bibo-nyc-live-talent-table-top-games-live-new-york-city-united-states">NYC Live Talent &amp; Table Top Games</a></h3>
+<div class="meta">7:00 PM · Mr Bell&#x27;s Cuisine &amp; Bar, Bushwick · $2</div>
+<p>A Bushwick talent showcase — live vocalists, comedy, poetry — with board games, trivia, and bingo in the intermissions. Two bucks in.</p>
+<a class="tickets" href="https://events.musicofourdesire.com/event/bibo-nyc-live-talent-table-top-games-live-new-york-city-united-states">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-21" data-name="Desolas Mezcal Tasting at Ray&#x27;s Hometown Bar in NY">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/2x8em4sy">Desolas Mezcal Tasting at Ray&#x27;s Hometown Bar in NY</a></h3>
+<div class="meta">6:30 PM · Ray&#x27;s Hometown Bar, Greenpoint · $45</div>
+<p>Four pours of low-smoke, herbal Desolas mezcal — Joven through single-barrel Añejo — at Ray&#x27;s in Greenpoint, with a welcome drink included.</p>
+<a class="tickets" href="https://luma.com/2x8em4sy">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Seat at the Table - An International Dining Experience">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/cmzlngka">Seat at the Table - An International Dining Experience</a></h3>
+<div class="meta">6:30 PM · Fabrik DUMBO, Downtown Brooklyn-DUMBO-Boerum Hill · $60</div>
+<p>A hosted family-style dinner in DUMBO: global dishes, the makers behind them, and a table built for meeting strangers.</p>
+<a class="tickets" href="https://luma.com/cmzlngka">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-23" data-name="Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011460197">Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce</a></h3>
+<div class="meta">6:00 PM · The Woolworth Building (Inside Lobby), Financial District-Battery Park City · $45.25</div>
+<p>Inside the Woolworth Building&#x27;s cathedral-like lobby — one of the city&#x27;s great interiors, rarely open to the public. Sales end soon.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011460197">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-24" data-name="Discover the Wonders of the Night Sky: Astronomy Night at Sheepshead Bay">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/discover-the-wonders-of-the-night-sky-astronomy-night-at-sheepshead-bay-tickets-2003743344282">Discover the Wonders of the Night Sky: Astronomy Night at Sheepshead Bay</a></h3>
+<div class="meta">6:30 PM · Brooklyn Public Library - Sheepshead Bay Branch, Sheepshead Bay-Manhattan Beach-Gerritsen Beach</div>
+<p>Urban Park Rangers and the Sheepshead Bay Library point telescopes at the night sky — free, and a lovely excuse to look up.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/discover-the-wonders-of-the-night-sky-astronomy-night-at-sheepshead-bay-tickets-2003743344282">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="Music Industry 101, Session 2: Recordings &amp; Label Deals">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/wp2kctqv">Music Industry 101, Session 2: Recordings &amp; Label Deals</a></h3>
+<div class="meta">7:00 PM · Index Chinatown, Tribeca-Civic Center · $20</div>
+<p>A working artist manager (BTS, Sting, Anderson .Paak) demystifies recording contracts and label deals at Index Chinatown.</p>
+<a class="tickets" href="https://luma.com/wp2kctqv">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-26" data-name="Boardgame Night ! 桌游之夜 with 老赵">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/f10pprlp">Boardgame Night ! 桌游之夜 with 老赵</a></h3>
+<div class="meta">6:30 PM · Accent Sisters 重音社, Midtown South-Flatiron-Union Square · $10.75</div>
+<p>Eighty-plus games, a host who hand-picks two or three for the group, and a ticket that doubles as store credit at Accent Sisters.</p>
+<a class="tickets" href="https://luma.com/f10pprlp">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="New York Rangers vs. Philadelphia Flyers">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-rangers-vs-philadelphia-flyers-new-york-new-york-11-05-2026/event/3B0064F1B1DB4451">New York Rangers vs. Philadelphia Flyers</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square · $83.3</div>
+<p>Rangers vs. Flyers at the Garden — an old rivalry, a Thursday-night crowd, and the loudest room in the city.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-rangers-vs-philadelphia-flyers-new-york-new-york-11-05-2026/event/3B0064F1B1DB4451">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-05";
+const NAMES = ["Olafur Arnalds", "Cyrille Aim\u00e9e", "Deerhoof", "Sid Sriram", "Sammy Rae & The Friends - the GET DOWN!", "Ally Venable", "Sam Tallent", "Ken Boyd, Caroline Hanes, Eagle Witt, Vanessa Hollingshead, & more!", "Usual Suspects ft. Maddy Smith, Neema Naz, Jackie Fabulous, Shane Torres, Jilberto Soto, and Damien Lemon", "August Wilson's Seven Guitars", "Lost Boys Musical w/ Unknown Mortal Orchestra", "Here There Are Blueberries", "The Devils", "Citizen Ruth", "Visible Humans", "Two Ships: David Reynolds in Conversation with Annette Gordon-Reed", "Nerd Nite", "Lucy Caldwell's \"Devotions\"", "The Wilderness by Angela Flournoy", "Opening Reception | Clark Fox: Beyond Obedience", "BEMB\u00c9 - The Feast of the King's Eyes", "Desolas Mezcal Tasting at Ray's Hometown Bar in NY", "Seat at the Table - An International Dining Experience", "Exclusive Tour Inside the Woolworth Building: NYC\u2019s Cathedral of Commerce", "Discover the Wonders of the Night Sky: Astronomy Night at Sheepshead Bay", "Music Industry 101, Session 2: Recordings & Label Deals", "Boardgame Night ! \u684c\u6e38\u4e4b\u591c with \u8001\u8d75", "New York Rangers vs. Philadelphia Flyers", "Thursday early open mic for comedy, 6pm every week at the Producers club", "NYC Live Talent & Table Top Games"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

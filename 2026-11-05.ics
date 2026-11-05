@@ -1,0 +1,519 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261105-0@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T200000
+DTEND;TZID=America/New_York:20261105T220000
+SUMMARY:Olafur Arnalds
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Icelandic composer Ólafur Arnalds brings his hushed\, string-l
+ 
+aden electronica to Town Hall — a rare quiet night in a loud city. Ticket
+ 
+s & info: https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-
+ 
+05-2026/event/03006428F84E282E
+URL:https://www.ticketmaster.com/olafur-arnalds-new-york-new-york-11-05-202
+ 
+6/event/03006428F84E282E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-1@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Cyrille Aimée
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:Grammy-nominated jazz vocalist\, fresh off a New Orleans sojour
+ 
+n\, back in New York with her Sondheim-kissed songbook at Birdland. Tickets
+ 
+ & info: https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-ti
+ 
+ckets/15005223
+URL:https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets
+ 
+/15005223
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-2@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Deerhoof
+LOCATION:Elsewhere\, Bushwick (West)
+DESCRIPTION:Indie-rock lifers Deerhoof bring the joyful noise to Elsewhere'
+ 
+s Hall\, with Mercy and My Trio opening — a loud Bushwick Thursday. Ticke
+ 
+ts & info: https://www.eventbrite.com/e/deerhoof-mercy-my-trio-tickets-1992
+ 
+954959934
+URL:https://www.eventbrite.com/e/deerhoof-mercy-my-trio-tickets-19929549599
+ 
+34
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-3@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T200000
+DTEND;TZID=America/New_York:20261105T220000
+SUMMARY:Sid Sriram
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Bollywood's biggest voice goes intimate at the Blue Note\, bend
+ 
+ing Carnatic melody through R&B and indie rock. Tickets & info: https://www
+ 
+.ticketweb.com/event/sid-sriram-blue-note-jazz-club-tickets/14900393
+URL:https://www.ticketweb.com/event/sid-sriram-blue-note-jazz-club-tickets/
+ 
+14900393
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-4@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Sammy Rae & The Friends - the GET DOWN!
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Brooklyn Paramount hosts Sammy Rae's big-band dance party — h
+ 
+orns\, harmonies\, and a room that will be on its feet. Tickets & info: htt
+ 
+ps://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-1
+ 
+1-05-2026/event/0000643700A3F2B5
+URL:https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new
+ 
+-york-11-05-2026/event/0000643700A3F2B5
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-5@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T203000
+DTEND;TZID=America/New_York:20261105T223000
+SUMMARY:Ally Venable
+LOCATION:Iridium\, Midtown-Times Square
+DESCRIPTION:Texas blues firebrand Ally Venable takes the Iridium stage — 
+ 
+guitar solos with real bite\, all ages welcome. Tickets & info: https://www
+ 
+.ticketweb.com/event/ally-venable-iridium-tickets/15022753
+URL:https://www.ticketweb.com/event/ally-venable-iridium-tickets/15022753
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-6@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T193000
+DTEND;TZID=America/New_York:20261105T213000
+SUMMARY:Sam Tallent
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The cult-favorite comic brings his beautifully unhinged hour to
+ 
+ the Bell House — one of the sharpest stand-up sets touring right now. Ti
+ 
+ckets & info: https://www.ticketmaster.com/sam-tallent-brooklyn-new-york-11
+ 
+-05-2026/event/3000648C41FC8C61
+URL:https://www.ticketmaster.com/sam-tallent-brooklyn-new-york-11-05-2026/e
+ 
+vent/3000648C41FC8C61
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-7@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T200000
+DTEND;TZID=America/New_York:20261105T220000
+SUMMARY:Ken Boyd\, Caroline Hanes\, Eagle Witt\, Vanessa Hollingshead\, & m
+ 
+ore!
+LOCATION:Comic Strip Live\, Upper East Side-Yorkville
+DESCRIPTION:Comic Strip Live celebrates 50 years of comedy with a stacked l
+ 
+ineup of club veterans and late-night regulars. Tickets & info: https://www
+ 
+.eventbrite.com/e/ken-boyd-caroline-hanes-eagle-witt-vanessa-hollingshead-m
+ 
+ore-tickets-2003839834888
+URL:https://www.eventbrite.com/e/ken-boyd-caroline-hanes-eagle-witt-vanessa
+ 
+-hollingshead-more-tickets-2003839834888
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-8@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T193000
+DTEND;TZID=America/New_York:20261105T213000
+SUMMARY:Usual Suspects ft. Maddy Smith\, Neema Naz\, Jackie Fabulous\, Shan
+ 
+e Torres\, Jilberto Soto\, and Damien Lemon
+LOCATION:Brooklyn Improv (The Main Room)\, Williamsburg
+DESCRIPTION:Maddy Smith headlines a stacked Williamsburg bill — six comic
+ 
+s\, two-item minimum\, zero chance of a quiet night. Tickets & info: https:
+ 
+//www.ticketweb.com/event/usual-suspects-ft-maddy-smith-brooklyn-improv-the
+ 
+-main-room-tickets/14377884
+URL:https://www.ticketweb.com/event/usual-suspects-ft-maddy-smith-brooklyn-
+ 
+improv-the-main-room-tickets/14377884
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-9@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T200000
+DTEND;TZID=America/New_York:20261105T220000
+SUMMARY:August Wilson's Seven Guitars
+LOCATION:Lincoln Center - Mitzi E. Newhouse Theater\, Upper West Side-Linco
+ 
+ln Square
+DESCRIPTION:August Wilson's blues-soaked drama about dreams deferred in 194
+ 
+0s Pittsburgh\, staged at Lincoln Center's Mitzi E. Newhouse. Tickets & inf
+ 
+o: https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-y
+ 
+ork-11-05-2026/event/Z1r9uZruZqGZ1AvZoCF
+URL:https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-
+ 
+york-11-05-2026/event/Z1r9uZruZqGZ1AvZoCF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-10@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
+LOCATION:Palace Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The cult vampire classic becomes a stage musical with a live sc
+ 
+ore from Unknown Mortal Orchestra — Palace Theatre\, naturally\, after da
+ 
+rk. Tickets & info: https://www.ticketmaster.com/the-lost-boys-new-york-new
+ 
+-york-11-05-2026/event/Z1r9uZrrZbpZ1AvOAfb
+URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-05-2026
+ 
+/event/Z1r9uZrrZbpZ1AvOAfb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-11@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T193000
+DTEND;TZID=America/New_York:20261105T213000
+SUMMARY:Here There Are Blueberries
+LOCATION:Barrymore Theatre-NY\, Hell's Kitchen
+DESCRIPTION:A Pulitzer finalist: a discovered album of Nazi-era photographs
+ 
+ sparks a haunting reckoning with history at the Barrymore. Tickets & info:
+ 
+ https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-
+ 
+11-05-2026/event/Z1r9uZruZqGZ1AvZ3bE
+URL:https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-yo
+ 
+rk-11-05-2026/event/Z1r9uZruZqGZ1AvZ3bE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-12@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T205000
+DTEND;TZID=America/New_York:20261105T225000
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's notorious 1971 masterpiece in a new 4K restoratio
+ 
+n at IFC — Vanessa Redgrave and Oliver Reed at full\, feverish tilt. Tick
+ 
+ets & info: https://www.ifccenter.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-13@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T174000
+DTEND;TZID=America/New_York:20261105T194000
+SUMMARY:Citizen Ruth
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Last day: Alexander Payne's savagely funny 1996 satire\, newly 
+ 
+restored in 4K — Laura Dern as the world's least likely culture-war pawn.
+ 
+ Tickets & info: https://filmforum.org/film/citizen-ruth
+URL:https://filmforum.org/film/citizen-ruth
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-14@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Visible Humans
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:A screening and talk at MoMI on the Visible Human Project — t
+ 
+he 3D body scans that raised big questions about consent and the body. Tick
+ 
+ets & info: https://movingimage.org/event/visible-humans/
+URL:https://movingimage.org/event/visible-humans/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-15@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T183000
+DTEND;TZID=America/New_York:20261105T203000
+SUMMARY:Two Ships: David Reynolds in Conversation with Annette Gordon-Reed
+LOCATION:Elebash Recital Hall\, The Graduate Center\, Midtown South-Flatiro
+ 
+n-Union Square
+DESCRIPTION:Two Bancroft/Pulitzer-winning historians on America's founding 
+ 
+myths — Jamestown vs. Plymouth — at the Graduate Center. Free. Tickets 
+ 
+& info: https://www.eventbrite.com/e/two-ships-david-reynolds-in-conversati
+ 
+on-with-annette-gordon-reed-tickets-1999069154655
+URL:https://www.eventbrite.com/e/two-ships-david-reynolds-in-conversation-w
+ 
+ith-annette-gordon-reed-tickets-1999069154655
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-16@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Nerd Nite
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:This month's theme is butts and sitting: deck chairs\, the cons
+ 
+ole wars\, and world records broken with buttocks. Caveat\, obviously. Tick
+ 
+ets & info: https://www.eventbrite.com/e/nerd-nite-tickets-1999866227722
+URL:https://www.eventbrite.com/e/nerd-nite-tickets-1999866227722
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-17@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Lucy Caldwell's "Devotions"
+LOCATION:Glucksman Ireland House NYU\, Greenwich Village
+DESCRIPTION:The acclaimed Irish short-story writer talks her new collection
+ 
+ about love\, grief\, and time travel at Glucksman Ireland House. Free\, fe
+ 
+w tickets left. Tickets & info: https://www.eventbrite.com/e/lucy-caldwells
+ 
+-devotions-tickets-1999580298500
+URL:https://www.eventbrite.com/e/lucy-caldwells-devotions-tickets-199958029
+ 
+8500
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-18@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:The Wilderness by Angela Flournoy
+LOCATION:Webster Library\, Midtown-Times Square
+DESCRIPTION:National Book Award finalist Angela Flournoy on her new novel a
+ 
+bout five Black women and twenty years of friendship. Free\, Upper East Sid
+ 
+e. Tickets & info: https://bookevents.nyc/events/the-wilderness-by-angela-f
+ 
+lournoy-nov-5
+URL:https://bookevents.nyc/events/the-wilderness-by-angela-flournoy-nov-5
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-19@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Opening Reception | Clark Fox: Beyond Obedience
+LOCATION:Ethan Cohen Gallery 19th Street\, Chelsea-Hudson Yards
+DESCRIPTION:Opening night for Clark Fox's solo show at Ethan Cohen Gallery 
+ 
+— Chelsea art\, free\, and an easy stop before dinner. Tickets & info: ht
+ 
+tps://luma.com/qmzuo278
+URL:https://luma.com/qmzuo278
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-20@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:BEMBÉ - The Feast of the King's Eyes
+LOCATION:Consulate General of Brazil in New York\, Murray Hill-Kips Bay
+DESCRIPTION:A photography exhibition by Brazilian artist Roque Boa Morte op
+ 
+ens at the Brazilian Consulate for Black Awareness Month. Free\, reserve ah
+ 
+ead. Tickets & info: https://www.eventbrite.com/e/bembe-the-feast-of-the-ki
+ 
+ngs-eyes-tickets-2004069259102
+URL:https://www.eventbrite.com/e/bembe-the-feast-of-the-kings-eyes-tickets-
+ 
+2004069259102
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-21@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T183000
+DTEND;TZID=America/New_York:20261105T203000
+SUMMARY:Desolas Mezcal Tasting at Ray's Hometown Bar in NY
+LOCATION:Ray's Hometown Bar\, Greenpoint
+DESCRIPTION:Four pours of low-smoke\, herbal Desolas mezcal — Joven throu
+ 
+gh single-barrel Añejo — at Ray's in Greenpoint\, with a welcome drink i
+ 
+ncluded. Tickets & info: https://luma.com/2x8em4sy
+URL:https://luma.com/2x8em4sy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-22@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T183000
+DTEND;TZID=America/New_York:20261105T203000
+SUMMARY:Seat at the Table - An International Dining Experience
+LOCATION:Fabrik DUMBO\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A hosted family-style dinner in DUMBO: global dishes\, the make
+ 
+rs behind them\, and a table built for meeting strangers. Tickets & info: h
+ 
+ttps://luma.com/cmzlngka
+URL:https://luma.com/cmzlngka
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-23@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of 
+ 
+Commerce
+LOCATION:The Woolworth Building (Inside Lobby)\, Financial District-Battery
+ 
+ Park City
+DESCRIPTION:Inside the Woolworth Building's cathedral-like lobby — one of
+ 
+ the city's great interiors\, rarely open to the public. Sales end soon. Ti
+ 
+ckets & info: https://www.eventbrite.com/e/exclusive-tour-inside-the-woolwo
+ 
+rth-building-nycs-cathedral-of-commerce-registration-2003011460197
+URL:https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-buildi
+ 
+ng-nycs-cathedral-of-commerce-registration-2003011460197
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-24@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T183000
+DTEND;TZID=America/New_York:20261105T203000
+SUMMARY:Discover the Wonders of the Night Sky: Astronomy Night at Sheepshea
+ 
+d Bay
+LOCATION:Brooklyn Public Library - Sheepshead Bay Branch\, Sheepshead Bay-M
+ 
+anhattan Beach-Gerritsen Beach
+DESCRIPTION:Urban Park Rangers and the Sheepshead Bay Library point telesco
+ 
+pes at the night sky — free\, and a lovely excuse to look up. Tickets & i
+ 
+nfo: https://www.eventbrite.com/e/discover-the-wonders-of-the-night-sky-ast
+ 
+ronomy-night-at-sheepshead-bay-tickets-2003743344282
+URL:https://www.eventbrite.com/e/discover-the-wonders-of-the-night-sky-astr
+ 
+onomy-night-at-sheepshead-bay-tickets-2003743344282
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-25@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:Music Industry 101\, Session 2: Recordings & Label Deals
+LOCATION:Index Chinatown\, Tribeca-Civic Center
+DESCRIPTION:A working artist manager (BTS\, Sting\, Anderson .Paak) demysti
+ 
+fies recording contracts and label deals at Index Chinatown. Tickets & info
+ 
+: https://luma.com/wp2kctqv
+URL:https://luma.com/wp2kctqv
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-26@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T183000
+DTEND;TZID=America/New_York:20261105T203000
+SUMMARY:Boardgame Night ! 桌游之夜 with 老赵
+LOCATION:Accent Sisters 重音社\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Eighty-plus games\, a host who hand-picks two or three for the 
+ 
+group\, and a ticket that doubles as store credit at Accent Sisters. Ticket
+ 
+s & info: https://luma.com/f10pprlp
+URL:https://luma.com/f10pprlp
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-27@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:New York Rangers vs. Philadelphia Flyers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Rangers vs. Flyers at the Garden — an old rivalry\, a Thursda
+ 
+y-night crowd\, and the loudest room in the city. Tickets & info: https://w
+ 
+ww.ticketmaster.com/new-york-rangers-vs-philadelphia-flyers-new-york-new-yo
+ 
+rk-11-05-2026/event/3B0064F1B1DB4451
+URL:https://www.ticketmaster.com/new-york-rangers-vs-philadelphia-flyers-ne
+ 
+w-york-new-york-11-05-2026/event/3B0064F1B1DB4451
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-28@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Thursday early open mic for comedy\, 6pm every week at the Producer
+ 
+s club
+LOCATION:Producers Club Theaters\, Midtown-Times Square
+DESCRIPTION:The cheapest stage in Midtown: five bucks\, five minutes\, sign
+ 
+ up in person from 5:30 — comics testing brand-new material at the Produc
+ 
+ers Club. Tickets & info: https://www.meetup.com/new-york-open-mic-meetup-g
+ 
+roup-at-the-producer-s-club/?eventOrigin=topic_overview_nearest_groups
+URL:https://www.meetup.com/new-york-open-mic-meetup-group-at-the-producer-s
+ 
+-club/?eventOrigin=topic_overview_nearest_groups
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261105-29@concierge
+DTSTAMP:20261105T130739Z
+DTSTART;TZID=America/New_York:20261105T190000
+DTEND;TZID=America/New_York:20261105T210000
+SUMMARY:NYC Live Talent & Table Top Games
+LOCATION:Mr Bell's Cuisine & Bar\, Bushwick
+DESCRIPTION:A Bushwick talent showcase — live vocalists\, comedy\, poetry
+ 
+ — with board games\, trivia\, and bingo in the intermissions. Two bucks 
+ 
+in. Tickets & info: https://events.musicofourdesire.com/event/bibo-nyc-live
+ 
+-talent-table-top-games-live-new-york-city-united-states
+URL:https://events.musicofourdesire.com/event/bibo-nyc-live-talent-table-to
+ 
+p-games-live-new-york-city-united-states
+END:VEVENT
+END:VCALENDAR
