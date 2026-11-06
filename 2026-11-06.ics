@@ -1,0 +1,481 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261106-0@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T223000
+DTEND;TZID=America/New_York:20261107T003000
+SUMMARY:Cyrille Aimee
+LOCATION:Birdland\, Hell's Kitchen
+DESCRIPTION:Grammy-nominated jazz vocalist back at Birdland with her Sondhe
+ 
+im-kissed songbook\, fresh off a New Orleans sojourn. Tickets & info: https
+ 
+://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005173
+URL:https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets
+ 
+/15005173
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-1@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T200000
+DTEND;TZID=America/New_York:20261106T220000
+SUMMARY:Sid Sriram
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Bollywood star turned R&B auteur brings his soulful\, Carnatic-
+ 
+inflected English songs to the Blue Note. Tickets & info: https://www.ticke
+ 
+tweb.com/event/sid-sriram-blue-note-jazz-club-tickets/14266424
+URL:https://www.ticketweb.com/event/sid-sriram-blue-note-jazz-club-tickets/
+ 
+14266424
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-2@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Sammy Rae & The Friends - the GET DOWN!
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Brooklyn's joyful funk-soul party band throws their signature G
+ 
+ET DOWN! — expect horns\, harmonies\, and a room on its feet. Tickets & i
+ 
+nfo: https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-ne
+ 
+w-york-11-06-2026/event/0000643700A7F2C3
+URL:https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new
+ 
+-york-11-06-2026/event/0000643700A7F2C3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-3@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Hiss Golden Messenger: I'm People Tour
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:M.C. Taylor's warm\, searching Americana\, touring the new I'm 
+ 
+People record. Tickets & info: https://www.ticketmaster.com/hiss-golden-mes
+ 
+senger-im-people-tour-new-york-new-york-11-06-2026/event/00006449E304A866
+URL:https://www.ticketmaster.com/hiss-golden-messenger-im-people-tour-new-y
+ 
+ork-new-york-11-06-2026/event/00006449E304A866
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-4@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Emancipator\, Shrimpnose\, Lapa
+LOCATION:Elsewhere - The Hall\, East Williamsburg
+DESCRIPTION:Downtempo electronic bliss in Elsewhere's big room\, with Shrim
+ 
+pnose and Lapa opening. Tickets & info: https://www.eventbrite.com/e/emanci
+ 
+pator-shrimpnose-lapa-tickets-1995465318484
+URL:https://www.eventbrite.com/e/emancipator-shrimpnose-lapa-tickets-199546
+ 
+5318484
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-5@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Lime Garden
+LOCATION:Elsewhere\, Bushwick (West)
+DESCRIPTION:Brighton indie-rockers with jangly hooks and a restless pulse\,
+ 
+ in Elsewhere's Zone One. Tickets & info: https://www.eventbrite.com/e/lime
+ 
+-garden-nine-perfect-lives-tickets-1985145677159
+URL:https://www.eventbrite.com/e/lime-garden-nine-perfect-lives-tickets-198
+ 
+5145677159
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-6@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T200000
+DTEND;TZID=America/New_York:20261106T220000
+SUMMARY:Billy Crystal
+LOCATION:Imperial Theatre - NY\, Hell's Kitchen
+DESCRIPTION:The comedy legend brings his one-man show 860 back to Broadway 
+ 
+for one night. Tickets & info: https://www.ticketmaster.com/billy-crystal-8
+ 
+60-new-york-new-york-11-06-2026/event/Z1r9uZruZqGZ1AvZabP
+URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-06-
+ 
+2026/event/Z1r9uZruZqGZ1AvZabP
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-7@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Tokyo Kanpai Boys Presented by the New York Comedy Festival
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Japan's funniest stand-ups\, in English\, on dating\, culture c
+ 
+lashes\, and being gloriously awkward. Tickets & info: https://newyorkcomed
+ 
+yclub.com/events/tokyo-kanpai-boys-presented-by-the-new-york-comedy-festiva
+ 
+l-1
+URL:https://newyorkcomedyclub.com/events/tokyo-kanpai-boys-presented-by-the
+ 
+-new-york-comedy-festival-1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-8@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T224500
+DTEND;TZID=America/New_York:20261107T004500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): James Mattern\, Josh 
+ 
+Ocean Thomas\, Melissa Rauch\, Peter Revello & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The late show at the Cellar's flagship room: Melissa Rauch\, Jo
+ 
+sh Ocean Thomas\, and more\, up close. Tickets & info: https://www.comedyce
+ 
+llar.com/reservations-newyork/?showid=1794005100
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1794005100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-9@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Ms. Pat
+LOCATION:The Venue @ Hard Rock Hotel NY\, Midtown-Times Square
+DESCRIPTION:The unfiltered stand-up star brings her no-holds-barred hour to
+ 
+ the Comedy Festival. Tickets & info: https://www.ticketweb.com/event/ms-pa
+ 
+t-the-venue-hard-rock-tickets/14246094
+URL:https://www.ticketweb.com/event/ms-pat-the-venue-hard-rock-tickets/1424
+ 
+6094
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-10@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T183000
+DTEND;TZID=America/New_York:20261106T203000
+SUMMARY:A Clockwork Orange
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Kubrick's notorious dystopia on 35mm\, big and bleak on the Red
+ 
+stone screen. Tickets & info: https://movingimage.org/event/a-clockwork-ora
+ 
+nge-2026/
+URL:https://movingimage.org/event/a-clockwork-orange-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-11@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T174000
+DTEND;TZID=America/New_York:20261106T194000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's ravishing 1991 classic opens today in a new 4K re
+ 
+storation. Tickets & info: https://filmforum.org/film/raise-the-red-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-12@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T191500
+DTEND;TZID=America/New_York:20261106T211500
+SUMMARY:Godzilla Minus Zero
+LOCATION:Nitehawk Cinema Prospect Park\, Prospect Park
+DESCRIPTION:The Oscar-winning kaiju epic gets a sequel — opening night\, 
+ 
+big screen\, Brooklyn. Tickets & info: https://nitehawkcinema.com/prospectp
+ 
+ark/movies/godzilla-minus-zero/
+URL:https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-13@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T200000
+DTEND;TZID=America/New_York:20261106T220000
+SUMMARY:August Wilson's Seven Guitars
+LOCATION:Lincoln Center - Mitzi E. Newhouse Theater\, Upper West Side-Linco
+ 
+ln Square
+DESCRIPTION:Wilson's blues-soaked 1940s Pittsburgh drama\, in a major Linco
+ 
+ln Center revival. Tickets & info: https://www.ticketmaster.com/august-wils
+ 
+ons-seven-guitars-new-york-new-york-11-06-2026/event/Z1r9uZruZqGZ1AvZoOP
+URL:https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-
+ 
+york-11-06-2026/event/Z1r9uZruZqGZ1AvZoOP
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-14@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
+LOCATION:Palace Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The cult vampire classic becomes a stage musical\, with a live 
+ 
+score by Unknown Mortal Orchestra. Tickets & info: https://www.ticketmaster
+ 
+.com/the-lost-boys-new-york-new-york-11-06-2026/event/Z1r9uZrrZbpZ1AvOA4p
+URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-06-2026
+ 
+/event/Z1r9uZrrZbpZ1AvOA4p
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-15@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T193000
+DTEND;TZID=America/New_York:20261106T213000
+SUMMARY:Here There Are Blueberries
+LOCATION:Barrymore Theatre-NY\, Hell's Kitchen
+DESCRIPTION:A haunting play built from a rediscovered album of Nazi-era pho
+ 
+tographs. Tickets & info: https://www.ticketmaster.com/here-there-are-blueb
+ 
+erries-new-york-new-york-11-06-2026/event/Z1r9uZruZqGZ1AvZ3bI
+URL:https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-yo
+ 
+rk-11-06-2026/event/Z1r9uZruZqGZ1AvZ3bI
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-16@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Elena Dudum & Kiese Laymon
+LOCATION:McNally Jackson Seaport\, Financial District-Battery Park City
+DESCRIPTION:Dudum traces her Palestinian family's archive with Kiese Laymon
+ 
+\, one of America's essential memoirists. Tickets & info: https://bookevent
+ 
+s.nyc/events/archival-fragments-and-mcnally-jackson-seaport-nov-6-2026
+URL:https://bookevents.nyc/events/archival-fragments-and-mcnally-jackson-se
+ 
+aport-nov-6-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-17@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Rita Indiana in Washington Heights: Celebrating ASMODEUS
+LOCATION:Alianza Dominicana Cultural Center\, Washington Heights (South)
+DESCRIPTION:The Dominican writer-musician celebrates her hallucinatory new 
+ 
+novel ASMODEUS in the neighborhood she calls home. Tickets & info: https://
+ 
+bookevents.nyc/events/rita-indiana-alianza-dominicana-cultural-nov-6-2026
+URL:https://bookevents.nyc/events/rita-indiana-alianza-dominicana-cultural-
+ 
+nov-6-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-18@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T173000
+DTEND;TZID=America/New_York:20261106T193000
+SUMMARY:An Evening with Dr. Kai-Fu Lee: AI Native
+LOCATION:China Institute of America\, Financial District-Battery Park City
+DESCRIPTION:The AI pioneer on living — and building — in the age of age
+ 
+nts. Few tickets left. Tickets & info: https://www.eventbrite.com/e/an-even
+ 
+ing-with-dr-kai-fu-lee-ai-native-tickets-2004176565057
+URL:https://www.eventbrite.com/e/an-evening-with-dr-kai-fu-lee-ai-native-ti
+ 
+ckets-2004176565057
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-19@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Book Launch: Bodega Cats of New York by Dan Rimada
+LOCATION:POWERHOUSE Arena\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A book launch celebrating the working cats of NYC bodegas\, in 
+ 
+photos and stories. Tickets & info: https://bookevents.nyc/events/dan-rimad
+ 
+a-nov-6-2026
+URL:https://bookevents.nyc/events/dan-rimada-nov-6-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-20@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:MOCA PERFORMS – Echoes of Arrival: Becoming
+LOCATION:Museum of Chinese in America\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Seven immigrant artists tell their stories of arrival through p
+ 
+oetry\, music\, dance\, and comedy. Tickets & info: https://www.universe.co
+ 
+m/events/moca-performs-echoes-of-arrival-becoming-tickets-L6ZS1D?ref=ticket
+ 
+master
+URL:https://www.universe.com/events/moca-performs-echoes-of-arrival-becomin
+ 
+g-tickets-L6ZS1D?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-21@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Archadia\, Opening Night
+LOCATION:65 Allen St\, Chinatown-Two Bridges
+DESCRIPTION:Wood\, wool\, earth\, and fiber take new forms at Allen Street 
+ 
+Gallery's opening — drinks and an evening among the work. Tickets & info:
+ 
+ https://luma.com/fyma6djb
+URL:https://luma.com/fyma6djb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-22@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T100000
+DTEND;TZID=America/New_York:20261106T120000
+SUMMARY:Noguchi Museum Free First Friday
+LOCATION:The Noguchi Museum\, Long Island City
+DESCRIPTION:Free all day at the serene sculpture museum\, with the new Akar
+ 
+i at 75 show and afternoon art-making. Tickets & info: https://www.noguchi.
+ 
+org/museum/calendar/event/2026-11-06-1430-gallery-kit/
+URL:https://www.noguchi.org/museum/calendar/event/2026-11-06-1430-gallery-k
+ 
+it/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-23@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Latte Art Throwdown
+LOCATION:Miski Cafe\, Prospect Lefferts Gardens-Wingate
+DESCRIPTION:Baristas battle pour-for-pour in Prospect Lefferts Gardens\, wi
+ 
+th pizza and a Halloween-costume prize. Tickets & info: https://www.eventbr
+ 
+ite.com/e/latte-art-throwdown-tickets-2003672732079
+URL:https://www.eventbrite.com/e/latte-art-throwdown-tickets-2003672732079
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-24@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T193000
+DTEND;TZID=America/New_York:20261106T213000
+SUMMARY:Ghosts of Gotham's Greenwich
+LOCATION:Meet at Washington Square Arch\, 7:30pm Daily\, Greenwich Village
+DESCRIPTION:A candlelit walk through the Village's haunted history. Fifteen
+ 
+ spots left. Tickets & info: https://www.eventbrite.com/e/ghosts-of-gothams
+ 
+-greenwich-tickets-1989125268223
+URL:https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-198912
+ 
+5268223
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-25@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Brooklyn Book Club: Read your book and then meet some people! BYO B
+ 
+ook!
+LOCATION:The Tiny Cupboard\, Bushwick (East)
+DESCRIPTION:Bring whatever you're reading and meet fellow readers over it 
+ 
+ Bushwick's low-key BYO-book night. Tickets & info: https://www.eventbrit
+ 
+e.com/e/brooklyn-book-club-read-your-book-and-then-meet-some-people-byo-boo
+ 
+k-tickets-1996345141057
+URL:https://www.eventbrite.com/e/brooklyn-book-club-read-your-book-and-then
+ 
+-meet-some-people-byo-book-tickets-1996345141057
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-26@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Off The Clock at Saint James Libations
+LOCATION:Saint James Libations\, Bushwick (West)
+DESCRIPTION:A free Friday social in Bushwick: soulful DJ sets\, natural win
+ 
+e\, and small plates. Tickets & info: https://events.musicofourdesire.com/e
+ 
+vent/ixiv-off-the-clock-w-vonnie-mack-dj-set-new-york-city-united-states
+URL:https://events.musicofourdesire.com/event/ixiv-off-the-clock-w-vonnie-m
+ 
+ack-dj-set-new-york-city-united-states
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-27@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:How to Use Agents and Not Have Them Kill You
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:A plain-English hour on what AI agents actually are — no codi
+ 
+ng required\, RSVP ahead. Tickets & info: https://movingimage.org/event/how
+ 
+-to-use-agents-and-not-have-them-kill-you/2026-11-06/
+URL:https://movingimage.org/event/how-to-use-agents-and-not-have-them-kill-
+ 
+you/2026-11-06/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-28@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T200000
+SUMMARY:Chelsea Neighborhood Puzzle Night
+LOCATION:Neighbor\, Chelsea-Hudson Yards
+DESCRIPTION:Help the Chelsea Love Collective finish a giant puzzle — snac
+ 
+ks provided\, BYOB welcome. Tickets & info: https://luma.com/wqmluusg
+URL:https://luma.com/wqmluusg
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261106-29@concierge
+DTSTAMP:20261106T131435Z
+DTSTART;TZID=America/New_York:20261106T080000
+DTEND;TZID=America/New_York:20261106T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink is open — free if you bring your own 
+ 
+skates (reserve a slot first). Tickets & info: https://bryantpark.org/calen
+ 
+dar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/20
+ 
+26-11-06
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-06
+END:VEVENT
+END:VCALENDAR
