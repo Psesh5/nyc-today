@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, November 7</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, November 7</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-07.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Taka Kigawa: Debussy’s Complete Préludes – Book I &amp; II">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://greenwichhouse.org/event/taka-kigawa-debussys-complete-preludes-book-i-ii/">Taka Kigawa: Debussy’s Complete Préludes – Book I &amp; II</a></h3>
+<div class="meta">7:00 PM · Greenwich House Music School · $28.52</div>
+<p>Debussy&#x27;s complete Préludes, both books, in one sitting — a pianist who makes the piano sound like weather.</p>
+<a class="tickets" href="https://greenwichhouse.org/event/taka-kigawa-debussys-complete-preludes-book-i-ii/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="New York Philharmonic: Thibaudet Performs Liszt">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3k">New York Philharmonic: Thibaudet Performs Liszt</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>Jean-Yves Thibaudet takes on Liszt&#x27;s showpiece concertos with the Philharmonic at Geffen Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3k">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Sleeping With Sirens: An Ending In Itself Tour">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9">Sleeping With Sirens: An Ending In Itself Tour</a></h3>
+<div class="meta">7:00 PM · Manhattan Center Hammerstein Ballroom, Chelsea-Hudson Yards</div>
+<p>Post-hardcore veterans bring the big-room singalongs to Hammerstein Ballroom.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Babehoven (21 and Over)">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZV4A">Babehoven (21 and Over)</a></h3>
+<div class="meta">7:00 PM · Baby&#x27;s All Right, Williamsburg</div>
+<p>Dreamy, hushed indie rock from the Hudson Valley duo at Baby&#x27;s All Right.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZV4A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Cyrille Aimee">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005233">Cyrille Aimee</a></h3>
+<div class="meta">8:30 PM · Birdland, Hell&#x27;s Kitchen · $45.76</div>
+<p>Grammy-nominated jazz vocalist with a Sondheim-kissed songbook, back at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/cyrille-aime-birdland-jazz-club-tickets/15005233">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Scorpio Stings: Junior Sanchez, Ultra Violet and DJ Guari">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://calendar.houseofyes.org/e/fR6kBcon4S">Scorpio Stings: Junior Sanchez, Ultra Violet and DJ Guari</a></h3>
+<div class="meta">10:00 PM · House of Yes, Bushwick (West)</div>
+<p>Scorpio season takes over House of Yes — sharp looks, sharp tongues, and a dancefloor that stays intense till late.</p>
+<a class="tickets" href="https://calendar.houseofyes.org/e/fR6kBcon4S">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="New York Comedy Festival &amp; LN Present: Dave Chappelle Karmageddon">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-comedy-festival-ln-present-new-york-new-york-11-07-2026/event/3B006530A1E35128">New York Comedy Festival &amp; LN Present: Dave Chappelle Karmageddon</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The festival&#x27;s biggest night: Chappelle closes out his Karmageddon tour at the Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-comedy-festival-ln-present-new-york-new-york-11-07-2026/event/3B006530A1E35128">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="NY Comedy Festival: Joanne McNally: Pinotphile Netflix Special Taping">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-joanne-mcnally-pinotphile-new-york-new-york-11-07-2026/event/030064E6C4F8112D">NY Comedy Festival: Joanne McNally: Pinotphile Netflix Special Taping</a></h3>
+<div class="meta">9:00 PM · Town Hall, Midtown-Times Square · $40.05</div>
+<p>The Irish comic tapes her Netflix special Pinotphile live at Town Hall — the late show, tickets from $40.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-joanne-mcnally-pinotphile-new-york-new-york-11-07-2026/event/030064E6C4F8112D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Jay Jurden">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/jay-jurden-brooklyn-new-york-11-07-2026/event/30006511E19D98F2">Jay Jurden</a></h3>
+<div class="meta">4:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Sharp, crowd-work-heavy stand-up from a festival favorite at the Bell House.</p>
+<a class="tickets" href="https://www.ticketmaster.com/jay-jurden-brooklyn-new-york-11-07-2026/event/30006511E19D98F2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Drunk Black History - New York Comedy Festival Edition">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/drunk-black-history-new-york-comedy-festival-edition-tickets-1997797177136">Drunk Black History - New York Comedy Festival Edition</a></h3>
+<div class="meta">1:30 PM · Caveat, Lower East Side</div>
+<p>History, cocktails, and very funny people: the festival edition at Caveat.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/drunk-black-history-new-york-comedy-festival-edition-tickets-1997797177136">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Charlie Flynn: Live at Union Hall">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/charlie-flynn-live-at-union-hall-tickets-1997940209951?aff=odcleoeventsincollection">Charlie Flynn: Live at Union Hall</a></h3>
+<div class="meta">5:00 PM · Union Hall, Park Slope</div>
+<p>Pseudo-academic stand-up meets oral history — Flynn&#x27;s hour headlines Union Hall for the Comedy Festival.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/charlie-flynn-live-at-union-hall-tickets-1997940209951?aff=odcleoeventsincollection">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-11" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Zhang Yimou&#x27;s ravishing, devastating classic on the big screen at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Godzilla Minus Zero">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Godzilla Minus Zero</a></h3>
+<div class="meta">7:15 PM · Nitehawk Cinema Prospect Park, Prospect Park · $9</div>
+<p>The king of monsters returns, remastered in black and white, at Nitehawk Prospect Park.</p>
+<a class="tickets" href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="The Devils">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">7:25 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s banned-for-decades fever dream, late show at IFC Center.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-14" data-name="Stranger Things: The First Shadow">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-07-2026/event/Z1r9uZrrZbpZ1Aev73d">Stranger Things: The First Shadow</a></h3>
+<div class="meta">1:00 PM · Marquis Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>The Broadway prequel to the Hawkins saga — matinee at the Marquis.</p>
+<a class="tickets" href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-07-2026/event/Z1r9uZrrZbpZ1Aev73d">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Maybe Happy Ending">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-11-07-2026/event/Z1r9uZruZqGZ17JbbS">Maybe Happy Ending</a></h3>
+<div class="meta">2:00 PM · Belasco Theatre, Midtown-Times Square</div>
+<p>The gentle, Tony-winning robot love story at the Belasco.</p>
+<a class="tickets" href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-11-07-2026/event/Z1r9uZruZqGZ17JbbS">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-16" data-name="Food Crawl Club Dumpling Edition: Presented by HobbyCon">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/food-crawl-club-dumpling-edition-presented-by-hobbycon-tickets-1999123641627">Food Crawl Club Dumpling Edition: Presented by HobbyCon</a></h3>
+<div class="meta">12:00 PM · Columbus Park Pavilion, Chinatown-Two Bridges</div>
+<p>A guided dumpling crawl through Chinatown — bring an appetite.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/food-crawl-club-dumpling-edition-presented-by-hobbycon-tickets-1999123641627">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Fall Treats Crawl 🍂🍁🥧">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/hkjbr6sk">Fall Treats Crawl 🍂🍁🥧</a></h3>
+<div class="meta">2:00 PM · Unregular Bakery, Greenwich Village · $20</div>
+<p>A walking tour of the West Village&#x27;s best autumn bakes, starting at Unregular Bakery.</p>
+<a class="tickets" href="https://luma.com/hkjbr6sk">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Spanish Cheese &amp; Wine Tasting">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/spanish-cheese-wine-tasting-tickets-2002466210340">Spanish Cheese &amp; Wine Tasting</a></h3>
+<div class="meta">5:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>Murray&#x27;s pours and plates a guided tour of Spain&#x27;s cheeses and wines.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/spanish-cheese-wine-tasting-tickets-2002466210340">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-19" data-name="Poetry Double Feature: John Bonanni and Stephen S. Mills">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/poetry-double-feature-john-bonanni-and-stephen-s-mills-tickets-2004084011226">Poetry Double Feature: John Bonanni and Stephen S. Mills</a></h3>
+<div class="meta">6:00 PM · Hive Mind Books, Bushwick (West) · Free</div>
+<p>Two poets, one night: John Bonanni and Stephen S. Mills read at Hive Mind Books in Bushwick. Free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/poetry-double-feature-john-bonanni-and-stephen-s-mills-tickets-2004084011226">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="The 2nd Annual NYC Indie Horror Book Fair">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-2nd-annual-nyc-indie-horror-book-fair-tickets-2001191927927">The 2nd Annual NYC Indie Horror Book Fair</a></h3>
+<div class="meta">12:00 PM · Gottscheer Hall, Ridgewood</div>
+<p>Indie horror presses, authors, and spooky merch take over Gottscheer Hall in Ridgewood.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-2nd-annual-nyc-indie-horror-book-fair-tickets-2001191927927">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Author Talk: More Punk Than the Public Library">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/j-hunter-bennett-brooklyn-public-library-nov-7-2026">Author Talk: More Punk Than the Public Library</a></h3>
+<div class="meta">3:00 PM · Brooklyn Public Library, Crown Heights (North) · Free</div>
+<p>J. Hunter Bennett on punk, libraries, and DIY culture at Brooklyn Public Library.</p>
+<a class="tickets" href="https://bookevents.nyc/events/j-hunter-bennett-brooklyn-public-library-nov-7-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-22" data-name="In the Heights">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7Pau6">In the Heights</a></h3>
+<div class="meta">2:00 PM · New York City Center, Hell&#x27;s Kitchen</div>
+<p>Lin-Manuel Miranda&#x27;s Washington Heights musical returns to City Center.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7Pau6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Waacking Showcase: The Next Generation">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/waacking-showcase-the-next-generation-tickets-2002466103019">Waacking Showcase: The Next Generation</a></h3>
+<div class="meta">3:00 PM · New York Public Library for the Performing Arts -Bruno Walter Auditorium, Upper West Side-Lincoln Square</div>
+<p>The next generation of waackers takes the stage at Lincoln Center&#x27;s Bruno Walter Auditorium.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/waacking-showcase-the-next-generation-tickets-2002466103019">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="New York Gems Jewelry &amp; Mineral Show">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/new-york-gems-jewelry-mineral-show-tickets-1998125355727">New York Gems Jewelry &amp; Mineral Show</a></h3>
+<div class="meta">10:00 AM · Metropolitan Pavilion, Chelsea-Hudson Yards</div>
+<p>Crystals, minerals, and jewelry from dozens of dealers at the Metropolitan Pavilion.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/new-york-gems-jewelry-mineral-show-tickets-1998125355727">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="The 12th Annual Bajan Broughtupsy">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-12th-annual-bajan-broughtupsy-the-barbados-pre-independence-cultural-tickets-1996817548039">The 12th Annual Bajan Broughtupsy</a></h3>
+<div class="meta">6:00 PM · Medgar Evers College, CUNY, Crown Heights (North) · $44.52</div>
+<p>Barbados&#x27;s 60th independence anniversary, celebrated with music, poetry, and storytelling at Medgar Evers.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-12th-annual-bajan-broughtupsy-the-barbados-pre-independence-cultural-tickets-1996817548039">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-26" data-name="FILM — Film Photography &amp; Developing Workshop">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/29fpavby">FILM — Film Photography &amp; Developing Workshop</a></h3>
+<div class="meta">1:00 PM · 56 Bogart St, East Williamsburg · Free</div>
+<p>Shoot and develop your own film in an afternoon — free, in Bushwick.</p>
+<a class="tickets" href="https://luma.com/29fpavby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Banksy Museum NY - REBEL STENCIL WORKSHOP">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/banksy-museum-ny-rebel-stencil-workshop-tickets-SGPY20?ref=ticketmaster">Banksy Museum NY - REBEL STENCIL WORKSHOP</a></h3>
+<div class="meta">12:00 PM · Banksy Museum New York, SoHo-Little Italy-Hudson Square</div>
+<p>Cut your own stencil and spray like Banksy, inside the Banksy Museum.</p>
+<a class="tickets" href="https://www.universe.com/events/banksy-museum-ny-rebel-stencil-workshop-tickets-SGPY20?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-28" data-name="Diwali Dinner with IIT alumni 🪔">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/73d75on8">Diwali Dinner with IIT alumni 🪔</a></h3>
+<div class="meta">6:00 PM · Ishq, East Village · Free</div>
+<p>A Diwali dinner with the IIT alumni community at Ishq in the East Village.</p>
+<a class="tickets" href="https://luma.com/73d75on8">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-29" data-name="Corgi Run Club NYC">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/ngq8owfr">Corgi Run Club NYC</a></h3>
+<div class="meta">9:00 AM · Pier 34 at Hudson River Park, SoHo-Little Italy-Hudson Square · Free</div>
+<p>A morning run — and a lot of corgis — along the Hudson at Pier 34. Free.</p>
+<a class="tickets" href="https://luma.com/ngq8owfr">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-07";
+const NAMES = ["Taka Kigawa: Debussy\u2019s Complete Pr\u00e9ludes \u2013 Book I & II", "New York Philharmonic: Thibaudet Performs Liszt", "Sleeping With Sirens: An Ending In Itself Tour", "Babehoven (21 and Over)", "Cyrille Aimee", "Scorpio Stings: Junior Sanchez, Ultra Violet and DJ Guari", "New York Comedy Festival & LN Present: Dave Chappelle Karmageddon", "NY Comedy Festival: Joanne McNally: Pinotphile Netflix Special Taping", "Jay Jurden", "Drunk Black History - New York Comedy Festival Edition", "Charlie Flynn: Live at Union Hall", "Raise The Red Lantern", "Godzilla Minus Zero", "The Devils", "Stranger Things: The First Shadow", "Maybe Happy Ending", "Food Crawl Club Dumpling Edition: Presented by HobbyCon", "Fall Treats Crawl \ud83c\udf42\ud83c\udf41\ud83e\udd67", "Spanish Cheese & Wine Tasting", "Poetry Double Feature: John Bonanni and Stephen S. Mills", "The 2nd Annual NYC Indie Horror Book Fair", "Author Talk: More Punk Than the Public Library", "In the Heights", "Waacking Showcase: The Next Generation", "New York Gems Jewelry & Mineral Show", "The 12th Annual Bajan Broughtupsy", "FILM \u2014 Film Photography & Developing Workshop", "Banksy Museum NY - REBEL STENCIL WORKSHOP", "Diwali Dinner with IIT alumni \ud83e\ude94", "Corgi Run Club NYC"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
