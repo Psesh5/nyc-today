@@ -1,0 +1,473 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261108-0@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T213000
+DTEND;TZID=America/New_York:20261108T233000
+SUMMARY:Tatiana Eva-Marie
+LOCATION:Birdland\, Hell's Kitchen
+DESCRIPTION:Parisian jazz vocals with a vintage swing\, in Birdland's stori
+ 
+ed room. Tickets & info: https://www.ticketweb.com/event/tatiana-eva-marie-
+ 
+jazz-in-birdland-theater-tickets/15007153
+URL:https://www.ticketweb.com/event/tatiana-eva-marie-jazz-in-birdland-thea
+ 
+ter-tickets/15007153
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-1@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T170000
+DTEND;TZID=America/New_York:20261108T190000
+SUMMARY:The Final Round of the KF Wieniawski Violin Competition
+LOCATION:The Kosciuszko Foundation\, Upper East Side-Carnegie Hill
+DESCRIPTION:The final round of a top violin competition — hear tomorrow's
+ 
+ soloists before they're famous. Tickets & info: https://www.eventbrite.com
+ 
+/e/the-final-round-of-the-kf-wieniawski-violin-competition-tickets-20036865
+ 
+94542
+URL:https://www.eventbrite.com/e/the-final-round-of-the-kf-wieniawski-violi
+ 
+n-competition-tickets-2003686594542
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-2@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T190000
+DTEND;TZID=America/New_York:20261108T210000
+SUMMARY:NY Comedy Festival Presents Sarah Sherman and Patti Harrison
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Two of comedy's weirdest minds share a Town Hall stage for the 
+ 
+Comedy Festival. Tickets & info: https://www.ticketmaster.com/ny-comedy-fes
+ 
+tival-presents-sarah-sherman-new-york-new-york-11-08-2026/event/030064EAA4B
+ 
+510FA
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-sarah-sherman-
+ 
+new-york-new-york-11-08-2026/event/030064EAA4B510FA
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-3@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T193000
+DTEND;TZID=America/New_York:20261108T213000
+SUMMARY:NY Comedy Festival Presents Marc Maron: Yammering into the Void Tou
+ 
+r
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Two of comedy's weirdest minds share a Town Hall stage for the 
+ 
+Comedy Festival. Tickets & info: https://www.ticketmaster.com/ny-comedy-fes
+ 
+tival-presents-marc-maron-new-york-new-york-11-08-2026/event/3B0064D8E81375
+ 
+2F
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-marc-maron-new
+ 
+-york-new-york-11-08-2026/event/3B0064D8E813752F
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-4@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T200000
+DTEND;TZID=America/New_York:20261108T220000
+SUMMARY:Best Friends with Nicole Byer and Sasheer Zamata
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:Best Friends live: two of the funniest people in comedy\, riffi
+ 
+ng in real time. Tickets & info: https://www.ticketmaster.com/best-friends-
+ 
+with-nicole-byer-and-new-york-new-york-11-08-2026/event/000064BCC9D7463E
+URL:https://www.ticketmaster.com/best-friends-with-nicole-byer-and-new-york
+ 
+-new-york-11-08-2026/event/000064BCC9D7463E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-5@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T170000
+DTEND;TZID=America/New_York:20261108T190000
+SUMMARY:Louie CK Working on VERY NEW Material at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Louie CK works out very new material in the room where stand-up
+ 
+ lives. Tickets & info: https://www.comedycellar.com/reservations-newyork/?
+ 
+showid=1794157200
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1794157200
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-6@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:The General
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Buster Keaton's stone-faced masterpiece on the big screen\, the
+ 
+ way it was meant to be seen. Tickets & info: https://metrograph.com/film/9
+ 
+999000730-the-general/
+URL:https://metrograph.com/film/9999000730-the-general/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-7@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:The Killing
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Kubrick's lean\, twisty 1956 heist noir\, in a pristine screeni
+ 
+ng at MoMI. Tickets & info: https://movingimage.org/event/the-killing-2026/
+URL:https://movingimage.org/event/the-killing-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-8@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T113000
+DTEND;TZID=America/New_York:20261108T133000
+SUMMARY:Spellbound
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Hitchcock's dream-logic thriller — Dalí-designed dream seque
+ 
+nce included. Tickets & info: https://metrograph.com/film/9999001825-spellb
+ 
+ound/
+URL:https://metrograph.com/film/9999001825-spellbound/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-9@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T164500
+DTEND;TZID=America/New_York:20261108T184500
+SUMMARY:Raging Bull
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Scorsese's brutal\, beautiful boxing epic\, back on the big scr
+ 
+een in Astoria. Tickets & info: https://movingimage.org/event/raging-bull/
+URL:https://movingimage.org/event/raging-bull/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-10@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T140000
+DTEND;TZID=America/New_York:20261108T160000
+SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
+LOCATION:Palace Theatre-NY\, Hell's Kitchen
+DESCRIPTION:A new musical take on the vampire cult classic\, with Unknown M
+ 
+ortal Orchestra's score live. Tickets & info: https://www.ticketmaster.com/
+ 
+the-lost-boys-new-york-new-york-11-08-2026/event/Z1r9uZrrZbpZ1AvOA_s
+URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-08-2026
+ 
+/event/Z1r9uZrrZbpZ1AvOA_s
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-11@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:Second Sundays: November 2026
+LOCATION:Pioneer Works\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Pioneer Works' free monthly open house: open studios\, exhibiti
+ 
+ons\, live music\, all three floors. Tickets & info: https://www.eventbrite
+ 
+.com/e/second-sundays-november-2026-tickets-1981791457598
+URL:https://www.eventbrite.com/e/second-sundays-november-2026-tickets-19817
+ 
+91457598
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-12@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T190000
+DTEND;TZID=America/New_York:20261108T210000
+SUMMARY:Fuzzy Palace Puppet Slam: The Dark Side of the Palace
+LOCATION:Brooklyn Art Haus\, Williamsburg
+DESCRIPTION:Puppets go dark — a late-night puppet slam at Brooklyn Art Ha
+ 
+us. Tickets & info: https://www.eventbrite.com/e/fuzzy-palace-puppet-slam-t
+ 
+he-dark-side-of-the-palace-tickets-2002235742003
+URL:https://www.eventbrite.com/e/fuzzy-palace-puppet-slam-the-dark-side-of-
+ 
+the-palace-tickets-2002235742003
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-13@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:Exhibit: The Shirley Chisholm Way: Brooklyn’s Blueprint for Chang
+ 
+e
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:A free exhibit on Brooklyn's blueprint for change\, from its fi
+ 
+rst Black congresswoman. Tickets & info: https://www.prospectpark.org/event
+ 
+/the-shirley-chisholm-way-brooklyns-blueprint-for-change-4/2026-11-08/
+URL:https://www.prospectpark.org/event/the-shirley-chisholm-way-brooklyns-b
+ 
+lueprint-for-change-4/2026-11-08/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-14@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:Native American Heritage Month: Early Food Traditions
+LOCATION:Old Stone House (in Washington Park)\, Park Slope
+DESCRIPTION:A free afternoon on Indigenous food traditions at the Old Stone
+ 
+ House in Park Slope. Tickets & info: http://www.nycgovparks.org/events/202
+ 
+6/11/08/native-american-heritage-month-early-food-traditions
+URL:http://www.nycgovparks.org/events/2026/11/08/native-american-heritage-m
+ 
+onth-early-food-traditions
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-15@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T123000
+DTEND;TZID=America/New_York:20261108T143000
+SUMMARY:Kenneth Chenault Book Tour - Harlem
+LOCATION:The Abyssinian Baptist Church\, Harlem (North)
+DESCRIPTION:The former Amex CEO talks leadership and his new book in Harlem
+ 
+'s Abyssinian Baptist Church. Tickets & info: https://www.eventbrite.com/e/
+ 
+kenneth-chenault-book-tour-harlem-tickets-2003769987974
+URL:https://www.eventbrite.com/e/kenneth-chenault-book-tour-harlem-tickets-
+ 
+2003769987974
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-16@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T173000
+DTEND;TZID=America/New_York:20261108T193000
+SUMMARY:Jim Whiteside presents Another Man: Poems\, with Dan Kraines
+LOCATION:P&T Knitwear\, Lower East Side
+DESCRIPTION:Poems from 'Another Man' at P&T Knitwear\, with a reading and c
+ 
+onversation. Tickets & info: https://www.eventbrite.com/e/jim-whiteside-pre
+ 
+sents-another-man-poems-with-dan-kraines-tickets-2002649638980
+URL:https://www.eventbrite.com/e/jim-whiteside-presents-another-man-poems-w
+ 
+ith-dan-kraines-tickets-2002649638980
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-17@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T110000
+DTEND;TZID=America/New_York:20261108T130000
+SUMMARY:Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of 
+ 
+Commerce
+LOCATION:The Woolworth Building (Inside Lobby)\, Financial District-Battery
+ 
+ Park City
+DESCRIPTION:Inside the 'Cathedral of Commerce': a rare guided tour of the W
+ 
+oolworth Building lobby. Tickets & info: https://www.eventbrite.com/e/exclu
+ 
+sive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registra
+ 
+tion-2003011480257
+URL:https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-buildi
+ 
+ng-nycs-cathedral-of-commerce-registration-2003011480257
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-18@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T110000
+DTEND;TZID=America/New_York:20261108T130000
+SUMMARY:Grave Beginnings: Green-Wood By Trolley
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:A trolley ride through Green-Wood's history\, from its famous r
+ 
+esidents to its Gothic gates. Tickets & info: https://www.green-wood.com/ev
+ 
+ent/grave-beginnings-green-wood-by-trolley-6/
+URL:https://www.green-wood.com/event/grave-beginnings-green-wood-by-trolley
+ 
+-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-19@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T130000
+DTEND;TZID=America/New_York:20261108T150000
+SUMMARY:Big Three Bon Odori Workshop in English (Free Public Program)
+LOCATION:130 W 56th St 5th floor\, Midtown-Times Square
+DESCRIPTION:Learn the dances of Japan's summer festival season\, free and i
+ 
+n English. Tickets & info: https://www.eventbrite.com/e/big-three-bon-odori
+ 
+-workshop-in-english-free-public-program-tickets-1994686462906
+URL:https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-fr
+ 
+ee-public-program-tickets-1994686462906
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-20@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T160000
+DTEND;TZID=America/New_York:20261108T180000
+SUMMARY:Breathwork Experience
+LOCATION:Reforesters Laboratory\, Williamsburg
+DESCRIPTION:A guided breathwork session in a Williamsburg lab — exhale th
+ 
+e week away. Tickets & info: https://luma.com/zqkh6713
+URL:https://luma.com/zqkh6713
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-21@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T133000
+DTEND;TZID=America/New_York:20261108T153000
+SUMMARY:Let's Talk About Sake!
+LOCATION:Kato Sake Works\, Bushwick (West)
+DESCRIPTION:A guided sake tasting at Kato Sake Works in Bushwick. Tickets &
+ 
+ info: https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2004031678
+ 
+698
+URL:https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2004031678698
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-22@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T130000
+DTEND;TZID=America/New_York:20261108T150000
+SUMMARY:Leaf Peeping in Central Park Hike
+LOCATION:Entrance - West 100 Street and Central Park West (in Central Park)
+ 
+\, Central Park
+DESCRIPTION:A free guided fall-foliage hike through Central Park at peak co
+ 
+lor. Tickets & info: http://www.nycgovparks.org/events/2026/11/08/leaf-peep
+ 
+ing-in-central-park-hike
+URL:http://www.nycgovparks.org/events/2026/11/08/leaf-peeping-in-central-pa
+ 
+rk-hike
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-23@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T120000
+DTEND;TZID=America/New_York:20261108T140000
+SUMMARY:St. John's Red Storm Men's Basketball v. Iona
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:College hoops at the Garden: St. John's opens against Iona at n
+ 
+oon. Tickets & info: https://www.ticketmaster.com/st-johns-red-storm-mens-b
+ 
+asketball-new-york-new-york-11-08-2026/event/3B006530DF98A7C4
+URL:https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-yor
+ 
+k-new-york-11-08-2026/event/3B006530DF98A7C4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-24@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T133000
+DTEND;TZID=America/New_York:20261108T153000
+SUMMARY:Drag Bingo NYC - Ultimate Drag Queen Bingo & Drag Show in NYC
+LOCATION:Drag Bingo NYC - Drag Queens Bingo\, Hell's Kitchen
+DESCRIPTION:Drag queens\, bingo balls\, and a full show — Sunday afternoo
+ 
+n at its loudest. Tickets & info: https://www.eventbrite.com/e/drag-bingo-n
+ 
+yc-ultimate-drag-queen-bingo-drag-show-in-nyc-tickets-1916133118739
+URL:https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-d
+ 
+rag-show-in-nyc-tickets-1916133118739
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-25@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T110000
+DTEND;TZID=America/New_York:20261108T130000
+SUMMARY:Collectible New York 2026
+LOCATION:210 East 86th Street\, Upper East Side-Yorkville
+DESCRIPTION:Last day: 110 designers of wild contemporary furniture and obje
+ 
+cts take over a former Upper East Side cinema. Tickets & info: https://coll
+ 
+ectible.design/collectible-nyc/
+URL:https://collectible.design/collectible-nyc/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-26@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T110000
+DTEND;TZID=America/New_York:20261108T130000
+SUMMARY:Salon Art + Design 2026
+LOCATION:Park Avenue Armory\, Upper East Side-Yorkville
+DESCRIPTION:Last day: 40+ galleries of museum-quality design and fine art f
+ 
+ill the Park Avenue Armory. Tickets & info: http://www.thesalonny.com/
+URL:http://www.thesalonny.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-27@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T190000
+DTEND;TZID=America/New_York:20261108T210000
+SUMMARY:Arde Bogota
+LOCATION:Elsewhere\, Bushwick (West)
+DESCRIPTION:Colombian rockers Arde Bogotá headline The Hall at Elsewhere. 
+ 
+Tickets & info: https://www.eventbrite.com/e/arde-bogota-tickets-1990883722
+ 
+808
+URL:https://www.eventbrite.com/e/arde-bogota-tickets-1990883722808
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-28@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T190000
+DTEND;TZID=America/New_York:20261108T210000
+SUMMARY:The Holes - Sunday\, November 8th Evening
+LOCATION:wild project\, East Village
+DESCRIPTION:A brand-new Off-Broadway play\, Sunday evening at the wild proj
+ 
+ect. Tickets & info: https://www.eventbrite.com/e/the-holes-sunday-november
+ 
+-8th-evening-tickets-2002292973183
+URL:https://www.eventbrite.com/e/the-holes-sunday-november-8th-evening-tick
+ 
+ets-2002292973183
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261108-29@concierge
+DTSTAMP:20261108T130633Z
+DTSTART;TZID=America/New_York:20261108T150000
+DTEND;TZID=America/New_York:20261108T170000
+SUMMARY:Heart of a Dog
+LOCATION:Theater 86\, Hell's Kitchen
+DESCRIPTION:Bulgakov's satirical classic opens Theater 86's new home. Ticke
+ 
+ts & info: https://www.eventbrite.com/e/heart-of-a-dog-tickets-200298186567
+ 
+9
+URL:https://www.eventbrite.com/e/heart-of-a-dog-tickets-2002981865679
+END:VEVENT
+END:VCALENDAR

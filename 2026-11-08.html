@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, November 8</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, November 8</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-08.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Tatiana Eva-Marie">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/tatiana-eva-marie-jazz-in-birdland-theater-tickets/15007153">Tatiana Eva-Marie</a></h3>
+<div class="meta">9:30 PM · Birdland, Hell&#x27;s Kitchen · $30</div>
+<p>Parisian jazz vocals with a vintage swing, in Birdland&#x27;s storied room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/tatiana-eva-marie-jazz-in-birdland-theater-tickets/15007153">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="The Final Round of the KF Wieniawski Violin Competition">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-final-round-of-the-kf-wieniawski-violin-competition-tickets-2003686594542">The Final Round of the KF Wieniawski Violin Competition</a></h3>
+<div class="meta">5:00 PM · The Kosciuszko Foundation, Upper East Side-Carnegie Hill</div>
+<p>The final round of a top violin competition — hear tomorrow&#x27;s soloists before they&#x27;re famous.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-final-round-of-the-kf-wieniawski-violin-competition-tickets-2003686594542">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Arde Bogota">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/arde-bogota-tickets-1990883722808">Arde Bogota</a></h3>
+<div class="meta">7:00 PM · Elsewhere, Bushwick (West) · $45</div>
+<p>Colombian rockers Arde Bogotá headline The Hall at Elsewhere.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/arde-bogota-tickets-1990883722808">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-2" data-name="NY Comedy Festival Presents Sarah Sherman and Patti Harrison">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-presents-sarah-sherman-new-york-new-york-11-08-2026/event/030064EAA4B510FA">NY Comedy Festival Presents Sarah Sherman and Patti Harrison</a></h3>
+<div class="meta">7:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Two of comedy&#x27;s weirdest minds share a Town Hall stage for the Comedy Festival.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-presents-sarah-sherman-new-york-new-york-11-08-2026/event/030064EAA4B510FA">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="NY Comedy Festival Presents Marc Maron: Yammering into the Void Tour">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-presents-marc-maron-new-york-new-york-11-08-2026/event/3B0064D8E813752F">NY Comedy Festival Presents Marc Maron: Yammering into the Void Tour</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Two of comedy&#x27;s weirdest minds share a Town Hall stage for the Comedy Festival.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-presents-marc-maron-new-york-new-york-11-08-2026/event/3B0064D8E813752F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Best Friends with Nicole Byer and Sasheer Zamata">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/best-friends-with-nicole-byer-and-new-york-new-york-11-08-2026/event/000064BCC9D7463E">Best Friends with Nicole Byer and Sasheer Zamata</a></h3>
+<div class="meta">8:00 PM · Gramercy Theatre, Gramercy</div>
+<p>Best Friends live: two of the funniest people in comedy, riffing in real time.</p>
+<a class="tickets" href="https://www.ticketmaster.com/best-friends-with-nicole-byer-and-new-york-new-york-11-08-2026/event/000064BCC9D7463E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Louie CK Working on VERY NEW Material at Comedy Cellar">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1794157200">Louie CK Working on VERY NEW Material at Comedy Cellar</a></h3>
+<div class="meta">5:00 PM · Comedy Cellar, Greenwich Village</div>
+<p>Louie CK works out very new material in the room where stand-up lives.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1794157200">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-6" data-name="The General">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000730-the-general/">The General</a></h3>
+<div class="meta">12:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Buster Keaton&#x27;s stone-faced masterpiece on the big screen, the way it was meant to be seen.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000730-the-general/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="The Killing">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/the-killing-2026/">The Killing</a></h3>
+<div class="meta">12:00 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>Kubrick&#x27;s lean, twisty 1956 heist noir, in a pristine screening at MoMI.</p>
+<a class="tickets" href="https://movingimage.org/event/the-killing-2026/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Spellbound">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001825-spellbound/">Spellbound</a></h3>
+<div class="meta">11:30 AM · Metrograph, Chinatown-Two Bridges</div>
+<p>Hitchcock&#x27;s dream-logic thriller — Dalí-designed dream sequence included.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001825-spellbound/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Raging Bull">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/raging-bull/">Raging Bull</a></h3>
+<div class="meta">4:45 PM · Museum of the Moving Image, Astoria (Central)</div>
+<p>Scorsese&#x27;s brutal, beautiful boxing epic, back on the big screen in Astoria.</p>
+<a class="tickets" href="https://movingimage.org/event/raging-bull/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-10" data-name="Lost Boys Musical w/ Unknown Mortal Orchestra">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-08-2026/event/Z1r9uZrrZbpZ1AvOA_s">Lost Boys Musical w/ Unknown Mortal Orchestra</a></h3>
+<div class="meta">2:00 PM · Palace Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>A new musical take on the vampire cult classic, with Unknown Mortal Orchestra&#x27;s score live.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-08-2026/event/Z1r9uZrrZbpZ1AvOA_s">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="The Holes - Sunday, November 8th Evening">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-holes-sunday-november-8th-evening-tickets-2002292973183">The Holes - Sunday, November 8th Evening</a></h3>
+<div class="meta">7:00 PM · wild project, East Village</div>
+<p>A brand-new Off-Broadway play, Sunday evening at the wild project.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-holes-sunday-november-8th-evening-tickets-2002292973183">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Heart of a Dog">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/heart-of-a-dog-tickets-2002981865679">Heart of a Dog</a></h3>
+<div class="meta">3:00 PM · Theater 86, Hell&#x27;s Kitchen</div>
+<p>Bulgakov&#x27;s satirical classic opens Theater 86&#x27;s new home.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/heart-of-a-dog-tickets-2002981865679">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-11" data-name="Second Sundays: November 2026">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/second-sundays-november-2026-tickets-1981791457598">Second Sundays: November 2026</a></h3>
+<div class="meta">12:00 PM · Pioneer Works, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Pioneer Works&#x27; free monthly open house: open studios, exhibitions, live music, all three floors.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/second-sundays-november-2026-tickets-1981791457598">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Fuzzy Palace Puppet Slam: The Dark Side of the Palace">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/fuzzy-palace-puppet-slam-the-dark-side-of-the-palace-tickets-2002235742003">Fuzzy Palace Puppet Slam: The Dark Side of the Palace</a></h3>
+<div class="meta">7:00 PM · Brooklyn Art Haus, Williamsburg</div>
+<p>Puppets go dark — a late-night puppet slam at Brooklyn Art Haus.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/fuzzy-palace-puppet-slam-the-dark-side-of-the-palace-tickets-2002235742003">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Exhibit: The Shirley Chisholm Way: Brooklyn’s Blueprint for Change">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/the-shirley-chisholm-way-brooklyns-blueprint-for-change-4/2026-11-08/">Exhibit: The Shirley Chisholm Way: Brooklyn’s Blueprint for Change</a></h3>
+<div class="meta">12:00 PM · Prospect Park, Prospect Park</div>
+<p>A free exhibit on Brooklyn&#x27;s blueprint for change, from its first Black congresswoman.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/the-shirley-chisholm-way-brooklyns-blueprint-for-change-4/2026-11-08/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Collectible New York 2026">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://collectible.design/collectible-nyc/">Collectible New York 2026</a></h3>
+<div class="meta">11:00 AM · 210 East 86th Street, Upper East Side-Yorkville</div>
+<p>Last day: 110 designers of wild contemporary furniture and objects take over a former Upper East Side cinema.</p>
+<a class="tickets" href="https://collectible.design/collectible-nyc/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Salon Art + Design 2026">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.thesalonny.com/">Salon Art + Design 2026</a></h3>
+<div class="meta">11:00 AM · Park Avenue Armory, Upper East Side-Yorkville · $35</div>
+<p>Last day: 40+ galleries of museum-quality design and fine art fill the Park Avenue Armory.</p>
+<a class="tickets" href="http://www.thesalonny.com/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-14" data-name="Native American Heritage Month: Early Food Traditions">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/08/native-american-heritage-month-early-food-traditions">Native American Heritage Month: Early Food Traditions</a></h3>
+<div class="meta">12:00 PM · Old Stone House (in Washington Park), Park Slope</div>
+<p>A free afternoon on Indigenous food traditions at the Old Stone House in Park Slope.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/08/native-american-heritage-month-early-food-traditions">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Kenneth Chenault Book Tour - Harlem">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/kenneth-chenault-book-tour-harlem-tickets-2003769987974">Kenneth Chenault Book Tour - Harlem</a></h3>
+<div class="meta">12:30 PM · The Abyssinian Baptist Church, Harlem (North)</div>
+<p>The former Amex CEO talks leadership and his new book in Harlem&#x27;s Abyssinian Baptist Church.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/kenneth-chenault-book-tour-harlem-tickets-2003769987974">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Jim Whiteside presents Another Man: Poems, with Dan Kraines">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/jim-whiteside-presents-another-man-poems-with-dan-kraines-tickets-2002649638980">Jim Whiteside presents Another Man: Poems, with Dan Kraines</a></h3>
+<div class="meta">5:30 PM · P&amp;T Knitwear, Lower East Side · $10</div>
+<p>Poems from &#x27;Another Man&#x27; at P&amp;T Knitwear, with a reading and conversation.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/jim-whiteside-presents-another-man-poems-with-dan-kraines-tickets-2002649638980">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-17" data-name="Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011480257">Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce</a></h3>
+<div class="meta">11:00 AM · The Woolworth Building (Inside Lobby), Financial District-Battery Park City</div>
+<p>Inside the &#x27;Cathedral of Commerce&#x27;: a rare guided tour of the Woolworth Building lobby.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011480257">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Grave Beginnings: Green-Wood By Trolley">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.green-wood.com/event/grave-beginnings-green-wood-by-trolley-6/">Grave Beginnings: Green-Wood By Trolley</a></h3>
+<div class="meta">11:00 AM · Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>A trolley ride through Green-Wood&#x27;s history, from its famous residents to its Gothic gates.</p>
+<a class="tickets" href="https://www.green-wood.com/event/grave-beginnings-green-wood-by-trolley-6/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-19" data-name="Big Three Bon Odori Workshop in English (Free Public Program)">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-free-public-program-tickets-1994686462906">Big Three Bon Odori Workshop in English (Free Public Program)</a></h3>
+<div class="meta">1:00 PM · 130 W 56th St 5th floor, Midtown-Times Square</div>
+<p>Learn the dances of Japan&#x27;s summer festival season, free and in English.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/big-three-bon-odori-workshop-in-english-free-public-program-tickets-1994686462906">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Breathwork Experience">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/zqkh6713">Breathwork Experience</a></h3>
+<div class="meta">4:00 PM · Reforesters Laboratory, Williamsburg · $40</div>
+<p>A guided breathwork session in a Williamsburg lab — exhale the week away.</p>
+<a class="tickets" href="https://luma.com/zqkh6713">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-21" data-name="Let&#x27;s Talk About Sake!">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2004031678698">Let&#x27;s Talk About Sake!</a></h3>
+<div class="meta">1:30 PM · Kato Sake Works, Bushwick (West)</div>
+<p>A guided sake tasting at Kato Sake Works in Bushwick.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2004031678698">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-22" data-name="Leaf Peeping in Central Park Hike">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/08/leaf-peeping-in-central-park-hike">Leaf Peeping in Central Park Hike</a></h3>
+<div class="meta">1:00 PM · Entrance - West 100 Street and Central Park West (in Central Park), Central Park</div>
+<p>A free guided fall-foliage hike through Central Park at peak color.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/08/leaf-peeping-in-central-park-hike">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-23" data-name="St. John&#x27;s Red Storm Men&#x27;s Basketball v. Iona">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-york-new-york-11-08-2026/event/3B006530DF98A7C4">St. John&#x27;s Red Storm Men&#x27;s Basketball v. Iona</a></h3>
+<div class="meta">12:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>College hoops at the Garden: St. John&#x27;s opens against Iona at noon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/st-johns-red-storm-mens-basketball-new-york-new-york-11-08-2026/event/3B006530DF98A7C4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-24" data-name="Drag Bingo NYC - Ultimate Drag Queen Bingo &amp; Drag Show in NYC">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-drag-show-in-nyc-tickets-1916133118739">Drag Bingo NYC - Ultimate Drag Queen Bingo &amp; Drag Show in NYC</a></h3>
+<div class="meta">1:30 PM · Drag Bingo NYC - Drag Queens Bingo, Hell&#x27;s Kitchen</div>
+<p>Drag queens, bingo balls, and a full show — Sunday afternoon at its loudest.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/drag-bingo-nyc-ultimate-drag-queen-bingo-drag-show-in-nyc-tickets-1916133118739">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-08";
+const NAMES = ["Tatiana Eva-Marie", "The Final Round of the KF Wieniawski Violin Competition", "NY Comedy Festival Presents Sarah Sherman and Patti Harrison", "NY Comedy Festival Presents Marc Maron: Yammering into the Void Tour", "Best Friends with Nicole Byer and Sasheer Zamata", "Louie CK Working on VERY NEW Material at Comedy Cellar", "The General", "The Killing", "Spellbound", "Raging Bull", "Lost Boys Musical w/ Unknown Mortal Orchestra", "Second Sundays: November 2026", "Fuzzy Palace Puppet Slam: The Dark Side of the Palace", "Exhibit: The Shirley Chisholm Way: Brooklyn\u2019s Blueprint for Change", "Native American Heritage Month: Early Food Traditions", "Kenneth Chenault Book Tour - Harlem", "Jim Whiteside presents Another Man: Poems, with Dan Kraines", "Exclusive Tour Inside the Woolworth Building: NYC\u2019s Cathedral of Commerce", "Grave Beginnings: Green-Wood By Trolley", "Big Three Bon Odori Workshop in English (Free Public Program)", "Breathwork Experience", "Let's Talk About Sake!", "Leaf Peeping in Central Park Hike", "St. John's Red Storm Men's Basketball v. Iona", "Drag Bingo NYC - Ultimate Drag Queen Bingo & Drag Show in NYC", "Collectible New York 2026", "Salon Art + Design 2026", "Arde Bogota", "The Holes - Sunday, November 8th Evening", "Heart of a Dog"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
