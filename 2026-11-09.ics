@@ -1,0 +1,453 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261109-0@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Orville Peck - Man Turned Mule Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:The masked country crooner brings his deep-baritone torch songs
+ 
+ to the gorgeous Brooklyn Paramount. Tickets & info: https://www.ticketmast
+ 
+er.com/orville-peck-man-turned-mule-tour-brooklyn-new-york-11-09-2026/event
+ 
+/000064F4C1072E4B
+URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-brooklyn
+ 
+-new-york-11-09-2026/event/000064F4C1072E4B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-1@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:New Constellations: It Comes In Waves Tour
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Toronto dream-pop duo's lush\, synth-soaked set in one of the c
+ 
+ity's best-sounding rooms. Tickets & info: https://www.ticketmaster.com/new
+ 
+-constellations-it-comes-in-waves-new-york-new-york-11-09-2026/event/000064
+ 
+E1CF9677A3
+URL:https://www.ticketmaster.com/new-constellations-it-comes-in-waves-new-y
+ 
+ork-new-york-11-09-2026/event/000064E1CF9677A3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-2@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T200000
+DTEND;TZID=America/New_York:20261109T220000
+SUMMARY:Hamilton Leithauser w/ Rostam
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:The Walkmen frontman teams up with the former Vampire Weekend p
+ 
+roducer for one night in Williamsburg. Tickets & info: https://www.ticketma
+ 
+ster.com/event/Z7r9jZ1AAvyov
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvyov
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-3@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T173000
+DTEND;TZID=America/New_York:20261109T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning hot jazz straight out of the 1920s\, from the ba
+ 
+nd behind the Boardwalk Empire soundtrack. Tickets & info: https://www.tick
+ 
+etweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/
+ 
+14225184
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14225184
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-4@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:ADULT. + A Place To Bury Strangers\, Kill Alters
+LOCATION:Elsewhere - The Hall\, East Williamsburg
+DESCRIPTION:Two generations of noise: Detroit electro-punk meets Brooklyn's
+ 
+ loudest shoegaze wall. Tickets & info: https://www.eventbrite.com/e/adult-
+ 
+a-place-to-bury-strangers-kill-alters-tickets-1989618769298
+URL:https://www.eventbrite.com/e/adult-a-place-to-bury-strangers-kill-alter
+ 
+s-tickets-1989618769298
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-5@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T193000
+DTEND;TZID=America/New_York:20261109T213000
+SUMMARY:Dewayne Perkins: How Being Black & Gay Made Me Better Than You
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:A New York Comedy Festival hour from the Emmy-winning writer be
+ 
+hind The Blackening. Tickets & info: https://www.ticketmaster.com/dewayne-p
+ 
+erkins-how-being-black-gay-brooklyn-new-york-11-09-2026/event/3000650C1E89D
+ 
+44B
+URL:https://www.ticketmaster.com/dewayne-perkins-how-being-black-gay-brookl
+ 
+yn-new-york-11-09-2026/event/3000650C1E89D44B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-6@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:NY Comedy Festival Presents: Demi Adejuyigbe Sells Out
+LOCATION:littlefield\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The internet's favorite musical-comedy weirdo brings his viral 
+ 
+song-and-dance hour to Gowanus. Tickets & info: https://www.eventbrite.com/
+ 
+e/ny-comedy-festival-presents-demi-adejuyigbe-sells-out-tickets-19983844426
+ 
+63
+URL:https://www.eventbrite.com/e/ny-comedy-festival-presents-demi-adejuyigb
+ 
+e-sells-out-tickets-1998384442663
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-7@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Colin Quinn Returns to The CQ Room at Comedy Cellar
+LOCATION:Comedy Cellar\, Greenwich Village
+DESCRIPTION:Colin Quinn holds court in the Cellar's intimate upstairs room 
+ 
+— classic New York stand-up\, up close. Tickets & info: https://www.comed
+ 
+ycellar.com/reservations-newyork/?showid=1794250800
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1794250800
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-8@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T193000
+DTEND;TZID=America/New_York:20261109T213000
+SUMMARY:Good Eggs ft: Mark Normand\, Gary Vider\, Chase DuRousseau\, Matt R
+ 
+uby
+LOCATION:New York Comedy Club Upper West Side
+DESCRIPTION:Time Out's pick for one of the best weekly shows in the city\, 
+ 
+stacked with headliners. Tickets & info: https://newyorkcomedyclub.com/even
+ 
+ts/mark-normand-gary-vider-chase-durousseau-matt-ruby
+URL:https://newyorkcomedyclub.com/events/mark-normand-gary-vider-chase-duro
+ 
+usseau-matt-ruby
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-9@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Six: The Musical
+LOCATION:Lena Horne Theatre\, Hell's Kitchen
+DESCRIPTION:Henry VIII's six wives reclaim the mic in this 80-minute pop co
+ 
+ncert of a musical. Tickets & info: https://www.ticketmaster.com/six-new-yo
+ 
+rk-ny-new-york-new-york-11-09-2026/event/Z1r9uZrrZbpZ1AvP6uy
+URL:https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-11-09-20
+ 
+26/event/Z1r9uZrrZbpZ1AvP6uy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-10@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T200000
+DTEND;TZID=America/New_York:20261109T220000
+SUMMARY:August Wilson's Seven Guitars
+LOCATION:Lincoln Center - Mitzi E. Newhouse Theater\, Upper West Side-Linco
+ 
+ln Square
+DESCRIPTION:Wilson's blues-soaked 1940s Pittsburgh drama\, staged at Lincol
+ 
+n Center. Tickets & info: https://www.ticketmaster.com/august-wilsons-seven
+ 
+-guitars-new-york-new-york-11-09-2026/event/Z1r9uZruZqGZ1AvZoOE
+URL:https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-
+ 
+york-11-09-2026/event/Z1r9uZruZqGZ1AvZoOE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-11@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Impressive\, Sincerely (A New Play)
+LOCATION:P&T Knitwear\, Lower East Side
+DESCRIPTION:A world-premiere deadpan comedy opens tonight in a beloved Lowe
+ 
+r East Side bookstore. Tickets & info: https://www.eventbrite.com/e/impress
+ 
+ive-sincerely-a-new-play-tickets-2002474228322
+URL:https://www.eventbrite.com/e/impressive-sincerely-a-new-play-tickets-20
+ 
+02474228322
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-12@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T174500
+DTEND;TZID=America/New_York:20261109T194500
+SUMMARY:You Can See Everything
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Elizabeth Holmes\, 34 days from prison\, invites a film crew in
+ 
+ — the Nathan Fielder-produced doc everyone will be talking about. Ticket
+ 
+s & info: https://nitehawkcinema.com/williamsburg/movies/you-can-see-everyt
+ 
+hing/
+URL:https://nitehawkcinema.com/williamsburg/movies/you-can-see-everything/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-13@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T174000
+DTEND;TZID=America/New_York:20261109T194000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's ravishing 1991 masterpiece\, back on the big scre
+ 
+en in a new 4K restoration. Tickets & info: https://filmforum.org/film/rais
+ 
+e-the-red-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-14@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T213000
+DTEND;TZID=America/New_York:20261109T233000
+SUMMARY:The Silence of the Lambs
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Clarice and Hannibal on 35mm\, late-night\, with a drink in han
+ 
+d — Nitehawk does it right. Tickets & info: https://nitehawkcinema.com/wi
+ 
+lliamsburg/movies/silence-of-the-lambs/
+URL:https://nitehawkcinema.com/williamsburg/movies/silence-of-the-lambs/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-15@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Yung Pueblo + Terri Cole: Journey
+LOCATION:The Strand Building\, Greenwich Village
+DESCRIPTION:The bestselling poet on his new book\, in conversation with the
+ 
+rapist Terri Cole. Tickets & info: https://www.eventbrite.com/e/yung-pueblo
+ 
+-terri-cole-journey-tickets-1992069418255
+URL:https://www.eventbrite.com/e/yung-pueblo-terri-cole-journey-tickets-199
+ 
+2069418255
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-16@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Then and Now: A Conversation About the Rise of Fascism
+LOCATION:McNally Jackson Seaport\, Financial District-Battery Park City
+DESCRIPTION:Rebecca Donner and playwright Sarah Ruhl on resistance then and
+ 
+ now — free at the Seaport. Tickets & info: https://bookevents.nyc/events
+ 
+/playwright-sarah-ruhl-mcnally-jackson-seaport-nov-9-2026
+URL:https://bookevents.nyc/events/playwright-sarah-ruhl-mcnally-jackson-sea
+ 
+port-nov-9-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-17@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T183000
+DTEND;TZID=America/New_York:20261109T203000
+SUMMARY:CBH Talk | Rebuilding American Democracy: The Path to a Functioning
+ 
+ Government
+LOCATION:Brooklyn Public Library
+DESCRIPTION:Legal scholar K. Sabeel Rahman on rebuilding the machinery of A
+ 
+merican democracy — with the NYT's Talmon Joseph Smith. Tickets & info: h
+ 
+ttps://www.bklynlibrary.org/calendar/cbh-talk-rebuilding-center-for-brookly
+ 
+n-20261109-0630pm
+URL:https://www.bklynlibrary.org/calendar/cbh-talk-rebuilding-center-for-br
+ 
+ooklyn-20261109-0630pm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-18@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T173000
+DTEND;TZID=America/New_York:20261109T193000
+SUMMARY:Willy Chavarria in Conversation with Vanessa Friedman
+LOCATION:Katie Murphy Amphitheatre at FIT\, Midtown South-Flatiron-Union Sq
+ 
+uare
+DESCRIPTION:The designer and the Times' fashion director on clothes\, cultu
+ 
+re\, and building the village. Tickets & info: https://www.eventbrite.com/e
+ 
+/willy-chavarria-in-conversation-with-vanessa-friedman-tickets-200281764649
+ 
+5
+URL:https://www.eventbrite.com/e/willy-chavarria-in-conversation-with-vanes
+ 
+sa-friedman-tickets-2002817646495
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-19@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T100000
+DTEND;TZID=America/New_York:20261109T120000
+SUMMARY:DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:A walk-through wonderland of giant inflatable art at the Seapor
+ 
+t's Tin Building. Tickets & info: https://www.universe.com/events/daydream-
+ 
+air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmast
+ 
+er
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-20@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T183000
+DTEND;TZID=America/New_York:20261109T203000
+SUMMARY:BOOK DRIVE! Reading Rhythms Lower Manhattan: November 9
+LOCATION:21 E 1st St\, East Village
+DESCRIPTION:A reading party with live music and curated playlists — bring
+ 
+ a book\, leave with new friends. Tonight doubles as a book drive. Tickets 
+ 
+& info: https://luma.com/reading-5a23
+URL:https://luma.com/reading-5a23
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-21@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T180000
+DTEND;TZID=America/New_York:20261109T200000
+SUMMARY:Tastes Like Home: Custom Flavored Butter & Sourdough Bread Workshop
+LOCATION:Dumbo\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Blend your own flavored butters\, taste fresh sourdough\, and d
+ 
+emystify home bread baking. Tickets & info: https://luma.com/qabzs9wi
+URL:https://luma.com/qabzs9wi
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-22@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T193000
+DTEND;TZID=America/New_York:20261109T213000
+SUMMARY:$10 Monday Night Figure Drawing!
+LOCATION:476 Jefferson St #307\, Bushwick (West)
+DESCRIPTION:Cheap\, casual life drawing with a live model — bring your ow
+ 
+n supplies. Tickets & info: https://www.eventbrite.com/e/10-monday-night-fi
+ 
+gure-drawing-tickets-1998309629896
+URL:https://www.eventbrite.com/e/10-monday-night-figure-drawing-tickets-199
+ 
+8309629896
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-23@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T190000
+DTEND;TZID=America/New_York:20261109T210000
+SUMMARY:Shuck Yea! and Oyster Shucking Experience
+LOCATION:Festival Cafe\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Learn to shuck like a pro\, paired with three drinks. Tickets &
+ 
+ info: https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experienc
+ 
+e-tickets-1987517291722
+URL:https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-t
+ 
+ickets-1987517291722
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-24@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T183000
+DTEND;TZID=America/New_York:20261109T203000
+SUMMARY:ABOVE IT ALL | Hospitality & Design Networking
+LOCATION:Harriet's Rooftop\, Brooklyn Heights
+DESCRIPTION:A rooftop reception closing out Boutique Design New York — fi
+ 
+rst drink's on the house. Tickets & info: https://luma.com/hfq6huw2
+URL:https://luma.com/hfq6huw2
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-25@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T180000
+DTEND;TZID=America/New_York:20261109T200000
+SUMMARY:NY Tech Meetup
+LOCATION:Civic Hall\, East Village
+DESCRIPTION:The last NY Tech Meetup of 2026 — live demos from Columbia's 
+ 
+tech management innovators. Tickets & info: https://luma.com/s37hns0o
+URL:https://luma.com/s37hns0o
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-26@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T184500
+DTEND;TZID=America/New_York:20261109T204500
+SUMMARY:Harlem Run: Monday Night Run
+LOCATION:Marcus Garvey Park\, East Harlem (North)
+DESCRIPTION:Free\, inclusive\, pacer-led run through Harlem — all paces w
+ 
+elcome. Tickets & info: http://www.nycgovparks.org/events/2026/11/09/harlem
+ 
+-run-monday-night-run
+URL:http://www.nycgovparks.org/events/2026/11/09/harlem-run-monday-night-ru
+ 
+n
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261109-27@concierge
+DTSTAMP:20261109T132023Z
+DTSTART;TZID=America/New_York:20261109T173000
+DTEND;TZID=America/New_York:20261109T193000
+SUMMARY:Cohort After Hours: Game Night
+LOCATION:Moxy NYC Chelsea\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Close the laptops and pull up a chair — board games with the 
+ 
+builders from Monday coworking. Tickets & info: https://luma.com/cohort-w1h
+ 
+f
+URL:https://luma.com/cohort-w1hf
+END:VEVENT
+END:VCALENDAR

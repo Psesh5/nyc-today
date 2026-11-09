@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, November 9</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, November 9</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-09.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Orville Peck - Man Turned Mule Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-brooklyn-new-york-11-09-2026/event/000064F4C1072E4B">Orville Peck - Man Turned Mule Tour</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>The masked country crooner brings his deep-baritone torch songs to the gorgeous Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-brooklyn-new-york-11-09-2026/event/000064F4C1072E4B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="New Constellations: It Comes In Waves Tour">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-constellations-it-comes-in-waves-new-york-new-york-11-09-2026/event/000064E1CF9677A3">New Constellations: It Comes In Waves Tour</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Toronto dream-pop duo&#x27;s lush, synth-soaked set in one of the city&#x27;s best-sounding rooms.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-constellations-it-comes-in-waves-new-york-new-york-11-09-2026/event/000064E1CF9677A3">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Hamilton Leithauser w/ Rostam">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvyov">Hamilton Leithauser w/ Rostam</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>The Walkmen frontman teams up with the former Vampire Weekend producer for one night in Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvyov">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225184">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Grammy-winning hot jazz straight out of the 1920s, from the band behind the Boardwalk Empire soundtrack.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225184">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="ADULT. + A Place To Bury Strangers, Kill Alters">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/adult-a-place-to-bury-strangers-kill-alters-tickets-1989618769298">ADULT. + A Place To Bury Strangers, Kill Alters</a></h3>
+<div class="meta">7:00 PM · Elsewhere - The Hall, East Williamsburg · $27.84</div>
+<p>Two generations of noise: Detroit electro-punk meets Brooklyn&#x27;s loudest shoegaze wall.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/adult-a-place-to-bury-strangers-kill-alters-tickets-1989618769298">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Dewayne Perkins: How Being Black &amp; Gay Made Me Better Than You">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/dewayne-perkins-how-being-black-gay-brooklyn-new-york-11-09-2026/event/3000650C1E89D44B">Dewayne Perkins: How Being Black &amp; Gay Made Me Better Than You</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>A New York Comedy Festival hour from the Emmy-winning writer behind The Blackening.</p>
+<a class="tickets" href="https://www.ticketmaster.com/dewayne-perkins-how-being-black-gay-brooklyn-new-york-11-09-2026/event/3000650C1E89D44B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="NY Comedy Festival Presents: Demi Adejuyigbe Sells Out">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ny-comedy-festival-presents-demi-adejuyigbe-sells-out-tickets-1998384442663">NY Comedy Festival Presents: Demi Adejuyigbe Sells Out</a></h3>
+<div class="meta">7:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $24.36</div>
+<p>The internet&#x27;s favorite musical-comedy weirdo brings his viral song-and-dance hour to Gowanus.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ny-comedy-festival-presents-demi-adejuyigbe-sells-out-tickets-1998384442663">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Colin Quinn Returns to The CQ Room at Comedy Cellar">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1794250800">Colin Quinn Returns to The CQ Room at Comedy Cellar</a></h3>
+<div class="meta">7:00 PM · Comedy Cellar, Greenwich Village · 15</div>
+<p>Colin Quinn holds court in the Cellar&#x27;s intimate upstairs room — classic New York stand-up, up close.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1794250800">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Good Eggs ft: Mark Normand, Gary Vider, Chase DuRousseau, Matt Ruby">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/mark-normand-gary-vider-chase-durousseau-matt-ruby">Good Eggs ft: Mark Normand, Gary Vider, Chase DuRousseau, Matt Ruby</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Time Out&#x27;s pick for one of the best weekly shows in the city, stacked with headliners.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/mark-normand-gary-vider-chase-durousseau-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-9" data-name="Six: The Musical">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-11-09-2026/event/Z1r9uZrrZbpZ1AvP6uy">Six: The Musical</a></h3>
+<div class="meta">7:00 PM · Lena Horne Theatre, Hell&#x27;s Kitchen</div>
+<p>Henry VIII&#x27;s six wives reclaim the mic in this 80-minute pop concert of a musical.</p>
+<a class="tickets" href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-11-09-2026/event/Z1r9uZrrZbpZ1AvP6uy">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="August Wilson&#x27;s Seven Guitars">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-09-2026/event/Z1r9uZruZqGZ1AvZoOE">August Wilson&#x27;s Seven Guitars</a></h3>
+<div class="meta">8:00 PM · Lincoln Center - Mitzi E. Newhouse Theater, Upper West Side-Lincoln Square</div>
+<p>Wilson&#x27;s blues-soaked 1940s Pittsburgh drama, staged at Lincoln Center.</p>
+<a class="tickets" href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-09-2026/event/Z1r9uZruZqGZ1AvZoOE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Impressive, Sincerely (A New Play)">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/impressive-sincerely-a-new-play-tickets-2002474228322">Impressive, Sincerely (A New Play)</a></h3>
+<div class="meta">7:00 PM · P&amp;T Knitwear, Lower East Side · $20</div>
+<p>A world-premiere deadpan comedy opens tonight in a beloved Lower East Side bookstore.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/impressive-sincerely-a-new-play-tickets-2002474228322">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="You Can See Everything">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/you-can-see-everything/">You Can See Everything</a></h3>
+<div class="meta">5:45 PM · Nitehawk Cinema Williamsburg, Williamsburg · 18</div>
+<p>Elizabeth Holmes, 34 days from prison, invites a film crew in — the Nathan Fielder-produced doc everyone will be talking about.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/you-can-see-everything/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square · 9</div>
+<p>Zhang Yimou&#x27;s ravishing 1991 masterpiece, back on the big screen in a new 4K restoration.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="The Silence of the Lambs">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/silence-of-the-lambs/">The Silence of the Lambs</a></h3>
+<div class="meta">9:30 PM · Nitehawk Cinema Williamsburg, Williamsburg · 18</div>
+<p>Clarice and Hannibal on 35mm, late-night, with a drink in hand — Nitehawk does it right.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/silence-of-the-lambs/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-15" data-name="Yung Pueblo + Terri Cole: Journey">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/yung-pueblo-terri-cole-journey-tickets-1992069418255">Yung Pueblo + Terri Cole: Journey</a></h3>
+<div class="meta">7:00 PM · The Strand Building, Greenwich Village · $48.44</div>
+<p>The bestselling poet on his new book, in conversation with therapist Terri Cole.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/yung-pueblo-terri-cole-journey-tickets-1992069418255">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Then and Now: A Conversation About the Rise of Fascism">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/playwright-sarah-ruhl-mcnally-jackson-seaport-nov-9-2026">Then and Now: A Conversation About the Rise of Fascism</a></h3>
+<div class="meta">7:00 PM · McNally Jackson Seaport, Financial District-Battery Park City · Free</div>
+<p>Rebecca Donner and playwright Sarah Ruhl on resistance then and now — free at the Seaport.</p>
+<a class="tickets" href="https://bookevents.nyc/events/playwright-sarah-ruhl-mcnally-jackson-seaport-nov-9-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="CBH Talk | Rebuilding American Democracy: The Path to a Functioning Government">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.bklynlibrary.org/calendar/cbh-talk-rebuilding-center-for-brooklyn-20261109-0630pm">CBH Talk | Rebuilding American Democracy: The Path to a Functioning Government</a></h3>
+<div class="meta">6:30 PM · Brooklyn Public Library</div>
+<p>Legal scholar K. Sabeel Rahman on rebuilding the machinery of American democracy — with the NYT&#x27;s Talmon Joseph Smith.</p>
+<a class="tickets" href="https://www.bklynlibrary.org/calendar/cbh-talk-rebuilding-center-for-brooklyn-20261109-0630pm">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Willy Chavarria in Conversation with Vanessa Friedman">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/willy-chavarria-in-conversation-with-vanessa-friedman-tickets-2002817646495">Willy Chavarria in Conversation with Vanessa Friedman</a></h3>
+<div class="meta">5:30 PM · Katie Murphy Amphitheatre at FIT, Midtown South-Flatiron-Union Square · Free</div>
+<p>The designer and the Times&#x27; fashion director on clothes, culture, and building the village.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/willy-chavarria-in-conversation-with-vanessa-friedman-tickets-2002817646495">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-19" data-name="DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>A walk-through wonderland of giant inflatable art at the Seaport&#x27;s Tin Building.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="BOOK DRIVE! Reading Rhythms Lower Manhattan: November 9">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/reading-5a23">BOOK DRIVE! Reading Rhythms Lower Manhattan: November 9</a></h3>
+<div class="meta">6:30 PM · 21 E 1st St, East Village · $25</div>
+<p>A reading party with live music and curated playlists — bring a book, leave with new friends. Tonight doubles as a book drive.</p>
+<a class="tickets" href="https://luma.com/reading-5a23">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-21" data-name="Tastes Like Home: Custom Flavored Butter &amp; Sourdough Bread Workshop">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/qabzs9wi">Tastes Like Home: Custom Flavored Butter &amp; Sourdough Bread Workshop</a></h3>
+<div class="meta">6:00 PM · Dumbo, Downtown Brooklyn-DUMBO-Boerum Hill · $50</div>
+<p>Blend your own flavored butters, taste fresh sourdough, and demystify home bread baking.</p>
+<a class="tickets" href="https://luma.com/qabzs9wi">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="$10 Monday Night Figure Drawing!">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/10-monday-night-figure-drawing-tickets-1998309629896">$10 Monday Night Figure Drawing!</a></h3>
+<div class="meta">7:30 PM · 476 Jefferson St #307, Bushwick (West) · $13.62</div>
+<p>Cheap, casual life drawing with a live model — bring your own supplies.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/10-monday-night-figure-drawing-tickets-1998309629896">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-23" data-name="Shuck Yea! and Oyster Shucking Experience">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517291722">Shuck Yea! and Oyster Shucking Experience</a></h3>
+<div class="meta">7:00 PM · Festival Cafe, Upper East Side-Lenox Hill-Roosevelt Island · $156.57</div>
+<p>Learn to shuck like a pro, paired with three drinks.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517291722">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-24" data-name="ABOVE IT ALL | Hospitality &amp; Design Networking">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/hfq6huw2">ABOVE IT ALL | Hospitality &amp; Design Networking</a></h3>
+<div class="meta">6:30 PM · Harriet&#x27;s Rooftop, Brooklyn Heights · Free</div>
+<p>A rooftop reception closing out Boutique Design New York — first drink&#x27;s on the house.</p>
+<a class="tickets" href="https://luma.com/hfq6huw2">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tech</h2>
+
+<article class="event" id="event-25" data-name="NY Tech Meetup">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/s37hns0o">NY Tech Meetup</a></h3>
+<div class="meta">6:00 PM · Civic Hall, East Village · $20</div>
+<p>The last NY Tech Meetup of 2026 — live demos from Columbia&#x27;s tech management innovators.</p>
+<a class="tickets" href="https://luma.com/s37hns0o">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-26" data-name="Harlem Run: Monday Night Run">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/09/harlem-run-monday-night-run">Harlem Run: Monday Night Run</a></h3>
+<div class="meta">6:45 PM · Marcus Garvey Park, East Harlem (North) · Free</div>
+<p>Free, inclusive, pacer-led run through Harlem — all paces welcome.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/09/harlem-run-monday-night-run">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Cohort After Hours: Game Night">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/cohort-w1hf">Cohort After Hours: Game Night</a></h3>
+<div class="meta">5:30 PM · Moxy NYC Chelsea, Midtown South-Flatiron-Union Square · Free</div>
+<p>Close the laptops and pull up a chair — board games with the builders from Monday coworking.</p>
+<a class="tickets" href="https://luma.com/cohort-w1hf">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-09";
+const NAMES = ["Orville Peck - Man Turned Mule Tour", "New Constellations: It Comes In Waves Tour", "Hamilton Leithauser w/ Rostam", "Vince Giordano and the Nighthawks", "ADULT. + A Place To Bury Strangers, Kill Alters", "Dewayne Perkins: How Being Black & Gay Made Me Better Than You", "NY Comedy Festival Presents: Demi Adejuyigbe Sells Out", "Colin Quinn Returns to The CQ Room at Comedy Cellar", "Good Eggs ft: Mark Normand, Gary Vider, Chase DuRousseau, Matt Ruby", "Six: The Musical", "August Wilson's Seven Guitars", "Impressive, Sincerely (A New Play)", "You Can See Everything", "Raise The Red Lantern", "The Silence of the Lambs", "Yung Pueblo + Terri Cole: Journey", "Then and Now: A Conversation About the Rise of Fascism", "CBH Talk | Rebuilding American Democracy: The Path to a Functioning Government", "Willy Chavarria in Conversation with Vanessa Friedman", "DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry", "BOOK DRIVE! Reading Rhythms Lower Manhattan: November 9", "Tastes Like Home: Custom Flavored Butter & Sourdough Bread Workshop", "$10 Monday Night Figure Drawing!", "Shuck Yea! and Oyster Shucking Experience", "ABOVE IT ALL | Hospitality & Design Networking", "NY Tech Meetup", "Harlem Run: Monday Night Run", "Cohort After Hours: Game Night"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
