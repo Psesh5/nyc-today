@@ -1,0 +1,501 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261110-0@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Orville Peck - Man Turned Mule Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:The masked country crooner brings his deep-baritone torch songs
+ 
+ and rhinestone swagger to the Paramount for one night. Tickets & info: htt
+ 
+ps://www.ticketmaster.com/orville-peck-man-turned-mule-tour-brooklyn-new-yo
+ 
+rk-11-10-2026/event/000064F4C10A2E5B
+URL:https://www.ticketmaster.com/orville-peck-man-turned-mule-tour-brooklyn
+ 
+-new-york-11-10-2026/event/000064F4C10A2E5B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-1@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:The Afghan Whigs
+LOCATION:Warsaw\, Greenpoint
+DESCRIPTION:Greg Dulli's soulful rockers return to Greenpoint — loud guit
+ 
+ars\, late-night swagger\, and a catalog built for rooms like Warsaw. Ticke
+ 
+ts & info: https://www.ticketmaster.com/the-afghan-whigs-brooklyn-new-york-
+ 
+11-10-2026/event/000064C273D045D4
+URL:https://www.ticketmaster.com/the-afghan-whigs-brooklyn-new-york-11-10-2
+ 
+026/event/000064C273D045D4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-2@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T213000
+DTEND;TZID=America/New_York:20261110T233000
+SUMMARY:Houston Person Quintet: 92nd Birthday Celebration
+LOCATION:Birdland Jazz Club\, Hell's Kitchen
+DESCRIPTION:The tenor sax legend celebrates his 92nd birthday at Birdland\,
+ 
+ leading his quintet through a lifetime of swing. Tickets & info: https://w
+ 
+ww.ticketweb.com/event/houston-person-quintet-92nd-birthday-birdland-jazz-c
+ 
+lub-tickets/15007203
+URL:https://www.ticketweb.com/event/houston-person-quintet-92nd-birthday-bi
+ 
+rdland-jazz-club-tickets/15007203
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-3@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T173000
+DTEND;TZID=America/New_York:20261110T193000
+SUMMARY:Vince Giordano and the Nighthawks
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning hot jazz straight out of the 1920s\, from the ba
+ 
+nd behind the Boardwalk Empire soundtrack. Tickets & info: https://www.tick
+ 
+etweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/
+ 
+14225114
+URL:https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdl
+ 
+and-theater-tickets/14225114
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-4@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Wally Baram: My Snake's Quinceañera\, Presented by the NY Comedy F
+ 
+est.
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:A New York Comedy Festival hour from the sharp\, self-deprecati
+ 
+ng stand-up behind the snake-themed quinceañera of the title. Tickets & in
+ 
+fo: https://www.ticketmaster.com/wally-baram-my-snakes-quinceanera-presente
+ 
+d-new-york-new-york-11-10-2026/event/0000650AC7C5106E
+URL:https://www.ticketmaster.com/wally-baram-my-snakes-quinceanera-presente
+ 
+d-new-york-new-york-11-10-2026/event/0000650AC7C5106E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-5@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T200000
+DTEND;TZID=America/New_York:20261110T220000
+SUMMARY:Nice Try ft: Michael Kosta\, Vinny Guadagnino\, Ashley Austin Morri
+ 
+s\, Erin Maguire\, Pedro Gonzalez\, Ahri Findling
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Michael Kosta and friends road-test brand-new material in this 
+ 
+weekly East Village work-in-progress show — $9 for a Daily Show correspon
+ 
+dent's lab. Tickets & info: https://newyorkcomedyclub.com/events/michael-ko
+ 
+sta-vinny-guadagnino-ashley-austin-morris-erin-maguire-pedro-gonzalez-ahri-
+ 
+findling
+URL:https://newyorkcomedyclub.com/events/michael-kosta-vinny-guadagnino-ash
+ 
+ley-austin-morris-erin-maguire-pedro-gonzalez-ahri-findling
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-6@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T193000
+DTEND;TZID=America/New_York:20261110T213000
+SUMMARY:PRETTY MAJOR Hosted by Jay Jurden NYCF Edition
+LOCATION:Union Hall\, Park Slope
+DESCRIPTION:Jay Jurden hosts a variety-comedy blowout with Sophie Duker\, M
+ 
+andal\, and more\, part of the New York Comedy Festival. Tickets & info: ht
+ 
+tps://www.eventbrite.com/e/pretty-major-hosted-by-jay-jurden-nycf-edition-t
+ 
+ickets-1997943602097
+URL:https://www.eventbrite.com/e/pretty-major-hosted-by-jay-jurden-nycf-edi
+ 
+tion-tickets-1997943602097
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-7@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T193000
+DTEND;TZID=America/New_York:20261110T213000
+SUMMARY:Comedy Spotlight w/ Tim Dillon\, Joe List & More at Gotham Comedy C
+ 
+lub
+LOCATION:Gotham Comedy Club\, Chelsea-Hudson Yards
+DESCRIPTION:Tim Dillon and Joe List headline a stacked Chelsea lineup of pr
+ 
+os and surprise drop-ins. Tickets & info: https://gothamcomedyclub.com/even
+ 
+ts/comedy-spotlightmay11qy2u6iw
+URL:https://gothamcomedyclub.com/events/comedy-spotlightmay11qy2u6iw
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-8@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T150000
+DTEND;TZID=America/New_York:20261110T170000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The Rockettes kick off the season at Radio City — the 3 PM ma
+ 
+tinee is the easiest way to catch the holiday classic. Tickets & info: http
+ 
+s://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-
+ 
+york-new-york-11-10-2026/event/3C006457CE301EE6
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-10-2026/event/3C006457CE301EE6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-9@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Asteroid B-612
+LOCATION:Gene Frankel Theatre\, Greenwich Village
+DESCRIPTION:A one-man\, off-Broadway meditation on solitude and creativity\
+ 
+, inspired by The Little Prince's tiny planet. Tickets & info: https://www.
+ 
+eventbrite.com/e/asteroid-b-612-tickets-2002061715485
+URL:https://www.eventbrite.com/e/asteroid-b-612-tickets-2002061715485
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-10@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's 4K-restored 1991 masterpiece — Gong Li in a gil
+ 
+ded cage of red lanterns and ritual cruelty. Tickets & info: https://filmfo
+ 
+rum.org/film/raise-the-red-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-11@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T213000
+DTEND;TZID=America/New_York:20261110T233000
+SUMMARY:Paprika
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Satoshi Kon's dream-heist anime on 35mm\, big and psychedelic t
+ 
+he way it was meant to be seen. Tickets & info: https://nitehawkcinema.com/
+ 
+williamsburg/movies/paprika/
+URL:https://nitehawkcinema.com/williamsburg/movies/paprika/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-12@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T184500
+DTEND;TZID=America/New_York:20261110T204500
+SUMMARY:Wild Horse Nine
+LOCATION:Nitehawk Cinema Prospect Park\, Prospect Park
+DESCRIPTION:Martin McDonagh's new CIA caper — Malkovich and Rockwell on E
+ 
+aster Island in 1973\, with a pisco punch to match. Tickets & info: https:/
+ 
+/nitehawkcinema.com/prospectpark/movies/wild-horse-nine/
+URL:https://nitehawkcinema.com/prospectpark/movies/wild-horse-nine/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-13@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Pressoir Session: Whole Cluster
+LOCATION:Pressoir.wine Tasting Room & Clubhouse\, Tribeca-Civic Center
+DESCRIPTION:A deep dive into whole-cluster winemaking with six Burgundies\,
+ 
+ from a Nuits-Saint-Georges 2020 to a Volnay premier cru. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/pressoir-session-whole-cluster-tickets-20005119
+ 
+27026
+URL:https://www.eventbrite.com/e/pressoir-session-whole-cluster-tickets-200
+ 
+0511927026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-14@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T170000
+DTEND;TZID=America/New_York:20261110T190000
+SUMMARY:Taco Tuesday at Blend Williamsburg | $45 Bottomless Tacos & Margari
+ 
+tas
+LOCATION:Blend Williamsburg\, Williamsburg
+DESCRIPTION:Ninety minutes of bottomless tacos and margaritas on Kent Avenu
+ 
+e — $45\, arrive before 9:30. Tickets & info: https://www.eventbrite.com/
+ 
+e/taco-tuesday-at-blend-williamsburg-45-bottomless-tacos-margaritas-tickets
+ 
+-2003748675227
+URL:https://www.eventbrite.com/e/taco-tuesday-at-blend-williamsburg-45-bott
+ 
+omless-tacos-margaritas-tickets-2003748675227
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-15@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Spirited Away Psychic & Paranormal Night Tues Nov 10th
+LOCATION:Barrow’s Intense NY Tasting Room\, Sunset Park (West)
+DESCRIPTION:Tarot\, aura photography\, cheese readings\, and craft cocktail
+ 
+s in Industry City's courtyard — entry is free\, readings from $20. Ticke
+ 
+ts & info: https://www.eventbrite.com/e/spirited-away-psychic-paranormal-ni
+ 
+ght-tues-nov-10th-tickets-1970801056011
+URL:https://www.eventbrite.com/e/spirited-away-psychic-paranormal-night-tue
+ 
+s-nov-10th-tickets-1970801056011
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-16@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T100000
+DTEND;TZID=America/New_York:20261110T120000
+SUMMARY:DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:DAYDREAM turns the Seaport's Tin Building into a walk-through w
+ 
+orld of inflatable art\, including a Marina Abramović piece. Tickets & inf
+ 
+o: https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-
+ 
+flexible-entry-tickets-XV56PW?ref=ticketmaster
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-17@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T170000
+DTEND;TZID=America/New_York:20261110T190000
+SUMMARY:MAKE ART · open studio tuesdays
+LOCATION:347 Maujer St\, East Williamsburg
+DESCRIPTION:Bring a half-finished project to this East Williamsburg open st
+ 
+udio — materials\, machines\, and encouragement provided\, pay what you c
+ 
+an. Tickets & info: https://luma.com/hvxdumhf
+URL:https://luma.com/hvxdumhf
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-18@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T193000
+DTEND;TZID=America/New_York:20261110T213000
+SUMMARY:CRAFT CLUB #030
+LOCATION:Unruly Collective\, Bushwick (East)
+DESCRIPTION:Figure drawing with live music\, comedy\, and poetry as the mod
+ 
+els — bring your sketchbook\, tip the performers. Tickets & info: https:/
+ 
+/luma.com/xa5o6qb8
+URL:https://luma.com/xa5o6qb8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-19@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Bin Kuroshima: Hand-Painted Kyo-Yuzen — Opening Reception
+LOCATION:Carl Hansen & Søn Flagship Store\, Midtown East
+DESCRIPTION:Kyoto master dyer Bin Kuroshima opens his first show with Carl 
+ 
+Hansen & Søn — hand-painted silks among Danish modern furniture\, artist
+ 
+ in attendance. Tickets & info: https://resobox.com/event/bin-kuroshima-han
+ 
+d-painted-kyo-yuzen/
+URL:https://resobox.com/event/bin-kuroshima-hand-painted-kyo-yuzen/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-20@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T203000
+SUMMARY:Borderless: Home is for Everyone
+LOCATION:The National Arts Club\, Gramercy
+DESCRIPTION:Three award-winning documentaries on migration and belonging\, 
+ 
+with the filmmakers in the room at the National Arts Club. Tickets & info: 
+ 
+https://www.eventbrite.com/e/borderless-home-is-for-everyone-tickets-200302
+ 
+0227420
+URL:https://www.eventbrite.com/e/borderless-home-is-for-everyone-tickets-20
+ 
+03020227420
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-21@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Book Launch: West Side Highway by William Howell
+LOCATION:Afterword Bookshop\, East Village
+DESCRIPTION:William Howell launches his photo book on the West Side Highway
+ 
+ piers — the lost gay cruising grounds of the '70s and '80s — at Afterw
+ 
+ord Bookshop. Tickets & info: https://partiful.com/e/uJTNKnNCssLvxCYoA2qL?s
+ 
+ource=discover
+URL:https://partiful.com/e/uJTNKnNCssLvxCYoA2qL?source=discover
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-22@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Sake 101 with Will Sugerman of Komé Collective at Verve Wine NYC
+LOCATION:Verve Wine NYC\, Tribeca-Civic Center
+DESCRIPTION:A guided flight of seven craft sakes\, from sparkling junmai to
+ 
+ daiginjo\, with charcuterie — twelve seats only. Tickets & info: https:/
+ 
+/www.eventbrite.com/e/sake-101-with-will-sugerman-of-kome-collective-at-ver
+ 
+ve-wine-nyc-tickets-2004430546723
+URL:https://www.eventbrite.com/e/sake-101-with-will-sugerman-of-kome-collec
+ 
+tive-at-verve-wine-nyc-tickets-2004430546723
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-23@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Hands On: Ravioli Ricotta e Spinaci
+LOCATION:Eataly NYC Downtown\, Financial District-Battery Park City
+DESCRIPTION:Roll\, fill\, and shape ricotta-spinach ravioli from scratch at
+ 
+ Eataly's downtown Scuola\, prosecco included. Tickets & info: https://www.
+ 
+eventbrite.com/e/hands-on-ravioli-ricotta-e-spinaci-tickets-2002902822258
+URL:https://www.eventbrite.com/e/hands-on-ravioli-ricotta-e-spinaci-tickets
+ 
+-2002902822258
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-24@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:The Writing Group - Readings and Social in the West Village
+LOCATION:Playhouse\, West Village
+DESCRIPTION:Read five minutes of your work to a room of writers in the West
+ 
+ Village\, then get honest feedback over happy hour. Tickets & info: https:
+ 
+//www.eventbrite.com/e/the-writing-group-readings-and-social-in-the-west-vi
+ 
+llage-tickets-2003741633164
+URL:https://www.eventbrite.com/e/the-writing-group-readings-and-social-in-t
+ 
+he-west-village-tickets-2003741633164
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-25@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Dinner with Creatives: NYC Film + Music Edition
+LOCATION:Restaurant of the Week\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Strangers in film and music\, one table\, one restaurant — si
+ 
+gn up and they book the spot. Tickets & info: https://www.eventbrite.com/e/
+ 
+dinner-with-creatives-nyc-film-music-edition-tickets-1986285439218
+URL:https://www.eventbrite.com/e/dinner-with-creatives-nyc-film-music-editi
+ 
+on-tickets-1986285439218
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-26@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T193000
+DTEND;TZID=America/New_York:20261110T213000
+SUMMARY:New York Knicks vs. Milwaukee Bucks
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Knicks host the Bucks at the Garden — resale only at this poi
+ 
+nt\, so expect a premium for the privilege. Tickets & info: https://www.tic
+ 
+ketmaster.com/new-york-knicks-vs-milwaukee-bucks-new-york-new-york-11-10-20
+ 
+26/event/3B006511E91F8631
+URL:https://www.ticketmaster.com/new-york-knicks-vs-milwaukee-bucks-new-yor
+ 
+k-new-york-11-10-2026/event/3B006511E91F8631
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-27@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T220000
+DTEND;TZID=America/New_York:20261111T000000
+SUMMARY:Free Clone Hero (Guitar Hero) Open Play Night
+LOCATION:The Tiny Cupboard\, Bushwick (East)
+DESCRIPTION:Free Guitar Hero open play at the Tiny Cupboard's game bar — 
+ 
+thousands of songs\, plastic guitars provided. Tickets & info: https://www.
+ 
+eventbrite.com/e/free-clone-hero-guitar-hero-open-play-night-tickets-199471
+ 
+8103544
+URL:https://www.eventbrite.com/e/free-clone-hero-guitar-hero-open-play-nigh
+ 
+t-tickets-1994718103544
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261110-28@concierge
+DTSTAMP:20261110T130712Z
+DTSTART;TZID=America/New_York:20261110T184500
+DTEND;TZID=America/New_York:20261110T204500
+SUMMARY:NYRR Open Run: Brooklyn Bridge Park
+LOCATION:Pier 6 (in Brooklyn Bridge Park)\, The Battery-Governors Island-El
+ 
+lis Island-Liberty Island
+DESCRIPTION:A free\, friendly group run from Pier 6 in Brooklyn Bridge Park
+ 
+ — all paces\, every Tuesday. Tickets & info: http://www.nycgovparks.org/
+ 
+events/2026/11/10/nyrr-open-run-brooklyn-bridge-park
+URL:http://www.nycgovparks.org/events/2026/11/10/nyrr-open-run-brooklyn-bri
+ 
+dge-park
+END:VEVENT
+END:VCALENDAR
