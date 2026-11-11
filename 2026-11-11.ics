@@ -4,7 +4,7 @@ PRODID:-//NYC Concierge//Daily Digest//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nyc-20261111-0@concierge
-DTSTAMP:20261111T130716Z
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:STING 3.0 Tour
@@ -22,7 +22,7 @@ URL:https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261111-1@concierge
-DTSTAMP:20261111T130716Z
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T200000
 DTEND;TZID=America/New_York:20261111T220000
 SUMMARY:Fruit Bats (16 and Over)
@@ -36,7 +36,7 @@ URL:https://www.ticketmaster.com/event/Z7r9jZ1A7xeag
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261111-2@concierge
-DTSTAMP:20261111T130716Z
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:Joy Oladokun: The Heavy Things Tour
@@ -52,21 +52,7 @@ n-new-york-11-11-2026/event/000064F6B4BE8601
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-20261111-3@concierge
-DTSTAMP:20261111T130716Z
-DTSTART;TZID=America/New_York:20261111T200000
-DTEND;TZID=America/New_York:20261111T220000
-SUMMARY:George Clanton (16 and Over)
-LOCATION:Brooklyn Steel\, Greenpoint
-DESCRIPTION:Vaporwave's cult hero brings the chrome-plated nostalgia to Bro
- 
-oklyn Steel. Resale only. Tickets & info: https://www.ticketmaster.com/even
- 
-t/Z7r9jZ1AAZOfK
-URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZOfK
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261111-4@concierge
-DTSTAMP:20261111T130716Z
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T193000
 DTEND;TZID=America/New_York:20261111T213000
 SUMMARY:Metropolitan Opera presents Lincoln in the Bardo
@@ -79,8 +65,8 @@ era.org/season/2026-27-season/lincoln-in-the-bardo/
 URL:https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-5@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-4@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T213000
 DTEND;TZID=America/New_York:20261111T233000
 SUMMARY:Dee Dee Bridgewater
@@ -95,24 +81,8 @@ URL:https://www.ticketweb.com/event/dee-dee-bridgewater-birdland-jazz-club-
 tickets/15005303
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-6@concierge
-DTSTAMP:20261111T130716Z
-DTSTART;TZID=America/New_York:20261111T100000
-DTEND;TZID=America/New_York:20261111T120000
-SUMMARY:Free Entry for Veteran's Day
-LOCATION:Banksy Museum New York\, SoHo-Little Italy-Hudson Square
-DESCRIPTION:Veterans get in free with ID today at the immersive Banksy muse
- 
-um. Tickets & info: https://www.universe.com/events/free-entry-for-veterans
- 
--day-tickets-4S6MGL?ref=ticketmaster
-URL:https://www.universe.com/events/free-entry-for-veterans-day-tickets-4S6
- 
-MGL?ref=ticketmaster
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261111-7@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-5@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Group Exhibition Opening: The Wyrd Sisters
@@ -125,8 +95,8 @@ m/accentisa-q57y
 URL:https://luma.com/accentisa-q57y
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-8@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-6@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T183000
 DTEND;TZID=America/New_York:20261111T203000
 SUMMARY:Winter Warmth Drive & Card Making
@@ -137,24 +107,8 @@ d in Chelsea. Tickets & info: https://luma.com/831cgk8n
 URL:https://luma.com/831cgk8n
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-9@concierge
-DTSTAMP:20261111T130716Z
-DTSTART;TZID=America/New_York:20261111T110000
-DTEND;TZID=America/New_York:20261111T130000
-SUMMARY:Le Carrousel Extravaganza
-LOCATION:Bryant Park\, Midtown-Times Square
-DESCRIPTION:A free kids' magic show at Bryant Park's carousel — a sweet V
- 
-eterans Day morning outing. Tickets & info: https://bryantpark.org/calendar
- 
-/event/le-carrousel-extravaganza-fall/2026-11-11
-URL:https://bryantpark.org/calendar/event/le-carrousel-extravaganza-fall/20
- 
-26-11-11
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261111-10@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-7@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T183000
 DTEND;TZID=America/New_York:20261111T203000
 SUMMARY:Shared Sacred Sites
@@ -167,8 +121,8 @@ tps://www.eventbrite.com/e/shared-sacred-sites-tickets-2004026662695
 URL:https://www.eventbrite.com/e/shared-sacred-sites-tickets-2004026662695
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-11@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-8@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T193000
 DTEND;TZID=America/New_York:20261111T213000
 SUMMARY:Oh\, Mary!
@@ -183,8 +137,8 @@ URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-11-11-2026/event
 /Z1r9uZruZqGZ17J9-A
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-12@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-9@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T200000
 DTEND;TZID=America/New_York:20261111T220000
 SUMMARY:Good Eggs ft: Caitlin Peluffo\, Geoffrey Asmus\, Gary Vider\, Josh 
@@ -203,8 +157,8 @@ URL:https://newyorkcomedyclub.com/events/good-eggs-ft-caitlin-peluffo-geoff
 rey-asmus-gary-vider-josh-adam-meyers-matt-ruby
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-13@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-10@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T211500
 DTEND;TZID=America/New_York:20261111T231500
 SUMMARY:An Hour with Yamaneika Saunders Presented by the New York Comedy Fe
@@ -223,8 +177,8 @@ URL:https://newyorkcomedyclub.com/events/an-hour-with-yamaneika-saunders-pr
 esented-by-the-new-york-comedy-festival
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-14@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-11@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T214500
 DTEND;TZID=America/New_York:20261111T234500
 SUMMARY:Blade Runner: The Final Cut
@@ -237,8 +191,8 @@ the-final-cut/
 URL:https://metrograph.com/film/9999000718-blade-runner-the-final-cut/
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-15@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-12@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T173000
 DTEND;TZID=America/New_York:20261111T193000
 SUMMARY:Beetlejuice
@@ -249,8 +203,8 @@ Tickets & info: https://metrograph.com/film/9999001197-beetlejuice/
 URL:https://metrograph.com/film/9999001197-beetlejuice/
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-16@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-13@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T181500
 DTEND;TZID=America/New_York:20261111T201500
 SUMMARY:Godzilla Minus Zero
@@ -263,8 +217,8 @@ hawk Prospect Park. Tickets & info: https://nitehawkcinema.com/prospectpark
 URL:https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-17@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-14@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:Priyanka Mattoo: How to Be Less Useful w/ Radhika Jones
@@ -281,8 +235,8 @@ URL:https://www.eventbrite.com/e/in-store-priyanka-mattoo-how-to-be-less-us
 eful-w-radhika-jones-tickets-2002233033903
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-18@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-15@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:The International Library: Mieko Kawakami on Sisters in Yellow with
@@ -301,8 +255,8 @@ URL:https://bookevents.nyc/events/the-international-library-mieko-kawakami-
 on-nov-11-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-19@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-16@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T193000
 DTEND;TZID=America/New_York:20261111T213000
 SUMMARY:Frank Capra with Sam Wasson
@@ -317,8 +271,8 @@ URL:https://bookevents.nyc/events/sam-wasson-the-drama-book-shop-nov-11-202
 6
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-20@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-17@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:THE LOST COUNTRY POP-UP - The last desserts of Yugoslavia
@@ -335,8 +289,8 @@ URL:https://www.eventbrite.com/e/the-lost-country-pop-up-the-last-desserts-
 of-yugoslavia-tickets-2004040651536
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-21@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-18@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:Cocktails + Convo: Brooklyn | A Night Out with New Friends
@@ -351,24 +305,8 @@ URL:https://www.eventbrite.com/e/cocktails-convo-brooklyn-a-night-out-with-
 new-friends-tickets-1990291338972
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-22@concierge
-DTSTAMP:20261111T130716Z
-DTSTART;TZID=America/New_York:20261111T080000
-DTEND;TZID=America/New_York:20261111T100000
-SUMMARY:Wednesday Greenmarket at Bartel-Pritchard Square
-LOCATION:Prospect Park\, Prospect Park
-DESCRIPTION:Farm stands\, baked goods and fresh-caught fish at Prospect Par
- 
-k's Wednesday market. Tickets & info: https://www.prospectpark.org/event/we
- 
-dnesday-greenmarket-at-bartel-pritchard-square/2026-11-11/
-URL:https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-prit
- 
-chard-square/2026-11-11/
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261111-23@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-19@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:11:11\, Make a Wish
@@ -379,8 +317,8 @@ intention-setting in DUMBO. Tickets & info: https://luma.com/xj4auu6n
 URL:https://luma.com/xj4auu6n
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-24@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-20@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:Skip the Small Talk Night at Pianos
@@ -395,26 +333,8 @@ URL:https://www.eventbrite.com/e/skip-the-small-talk-night-at-pianos-ticket
 s-2003643558821
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-25@concierge
-DTSTAMP:20261111T130716Z
-DTSTART;TZID=America/New_York:20261111T080000
-DTEND;TZID=America/New_York:20261111T100000
-SUMMARY:Ice Skating
-LOCATION:Bryant Park\, Midtown-Times Square
-DESCRIPTION:The Winter Village rink is open — free admission if you bring
- 
- your own skates (reserve a slot first). Tickets & info: https://bryantpark
- 
-.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-brya
- 
-nt-park/2026-11-11
-URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
- 
-e-skating-rink-at-bryant-park/2026-11-11
-END:VEVENT
-BEGIN:VEVENT
-UID:nyc-20261111-26@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-21@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:make a wish: 11/11 journaling workshop w/ @journalingclasses
@@ -425,8 +345,8 @@ a dreamy Williamsburg craft nook. Tickets & info: https://luma.com/4snkoh62
 URL:https://luma.com/4snkoh62
 END:VEVENT
 BEGIN:VEVENT
-UID:nyc-20261111-27@concierge
-DTSTAMP:20261111T130716Z
+UID:nyc-20261111-22@concierge
+DTSTAMP:20261111T153335Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:New York Knicks vs. Cleveland Cavaliers
@@ -439,5 +359,121 @@ fo: https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new
 URL:https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new
  
 -york-new-york-11-11-2026/event/3B006511E9208634
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-23@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T183000
+DTEND;TZID=America/New_York:20261111T203000
+SUMMARY:Eric Sanderson's Guide to NYC’s Indigenous Landscape
+LOCATION:The Graduate Center\, CUNY\, Midtown
+DESCRIPTION:The naturalist behind Mannahatta on the Indigenous landscape un
+ 
+der today's city\, at the Graduate Center. Tickets & info: https://www.even
+ 
+tbrite.com/e/eric-sandersons-guide-to-nycs-indigenous-landscape-tickets-200
+ 
+4091638038
+URL:https://www.eventbrite.com/e/eric-sandersons-guide-to-nycs-indigenous-l
+ 
+andscape-tickets-2004091638038
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-24@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T210000
+SUMMARY:BKRFC Presents: The 17th Annual Kings County Spelling Bee
+LOCATION:The Cutting Room\, Midtown
+DESCRIPTION:The Kings County Spelling Bee is back for year 17 — competiti
+ 
+ve spelling\, very serious\, very funny. Tickets & info: https://www.eventb
+ 
+rite.com/e/bkrfc-presents-the-17th-annual-kings-county-spelling-bee-tickets
+ 
+-2003211574745
+URL:https://www.eventbrite.com/e/bkrfc-presents-the-17th-annual-kings-count
+ 
+y-spelling-bee-tickets-2003211574745
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-25@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T210000
+SUMMARY:Cheers & Cheese: An Evening of Beer & Cheese Pairing
+LOCATION:Carmine Street Beers\, West Village
+DESCRIPTION:Beer and cheese\, properly paired\, at Carmine Street Beers. Ti
+ 
+ckets & info: https://www.eventbrite.com/e/cheers-cheese-an-evening-of-beer
+ 
+-cheese-pairing-tickets-2003221858504
+URL:https://www.eventbrite.com/e/cheers-cheese-an-evening-of-beer-cheese-pa
+ 
+iring-tickets-2003221858504
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-26@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T210000
+SUMMARY:Shuck Yea! and Oyster Shucking Experience
+LOCATION:Festival Cafe
+DESCRIPTION:Learn to shuck oysters\, then eat your homework\, at Festival C
+ 
+afe. Tickets & info: https://www.eventbrite.com/e/shuck-yea-and-oyster-shuc
+ 
+king-experience-tickets-1987517293728
+URL:https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-t
+ 
+ickets-1987517293728
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-27@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T193000
+DTEND;TZID=America/New_York:20261111T213000
+SUMMARY:New York Comedy Festival: Close Friends
+LOCATION:Brooklyn Comedy Collective\, East Williamsburg
+DESCRIPTION:The Comedy Festival's late-night showcase at Brooklyn Comedy Co
+ 
+llective. Tickets & info: https://www.eventbrite.com/e/new-york-comedy-fest
+ 
+ival-close-friends-tickets-1997860372154
+URL:https://www.eventbrite.com/e/new-york-comedy-festival-close-friends-tic
+ 
+kets-1997860372154
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-28@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T173000
+DTEND;TZID=America/New_York:20261111T193000
+SUMMARY:Hands-On: Pizza Napoletana with Rossopomodoro
+LOCATION:Eataly NYC Downtown\, Financial District
+DESCRIPTION:Hands-on Neapolitan pizza with Rossopomodoro at Eataly Downtown
+ 
+. Tickets & info: https://www.eventbrite.com/e/hands-on-pizza-napoletana-wi
+ 
+th-rossopomodoro-tickets-2002834969308
+URL:https://www.eventbrite.com/e/hands-on-pizza-napoletana-with-rossopomodo
+ 
+ro-tickets-2002834969308
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261111-29@concierge
+DTSTAMP:20261111T153335Z
+DTSTART;TZID=America/New_York:20261111T130000
+DTEND;TZID=America/New_York:20261111T150000
+SUMMARY:Jazz at One: Georgia Heers
+LOCATION:Trinity Church\, Financial District
+DESCRIPTION:Free lunchtime jazz in Trinity Church — Georgia Heers at 1pm.
+ 
+ Tickets & info: https://www.eventbrite.com/e/jazz-at-one-georgia-heers-tic
+ 
+kets-1993689187027
+URL:https://www.eventbrite.com/e/jazz-at-one-georgia-heers-tickets-19936891
+ 
+87027
 END:VEVENT
 END:VCALENDAR
