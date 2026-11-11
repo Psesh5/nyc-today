@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, November 11</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, November 11</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-11.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="STING 3.0 Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05">STING 3.0 Tour</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene · $423.5</div>
+<p>Sting strips it back to a trio for the hits — &#x27;Every Breath You Take&#x27; to &#x27;Roxanne&#x27; — at the Paramount. Resale only, and pricey.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Fruit Bats (16 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7xeag">Fruit Bats (16 and Over)</a></h3>
+<div class="meta">8:00 PM · Webster Hall, East Village · $69.17</div>
+<p>Eric Johnson&#x27;s warm, harmony-soaked indie folk returns to Webster Hall. Resale only.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7xeag">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Joy Oladokun: The Heavy Things Tour">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/joy-oladokun-the-heavy-things-tour-brooklyn-new-york-11-11-2026/event/000064F6B4BE8601">Joy Oladokun: The Heavy Things Tour</a></h3>
+<div class="meta">7:00 PM · Warsaw, Greenpoint · $42.1</div>
+<p>The Nashville singer-songwriter&#x27;s heavy, hopeful folk-soul, live at Warsaw.</p>
+<a class="tickets" href="https://www.ticketmaster.com/joy-oladokun-the-heavy-things-tour-brooklyn-new-york-11-11-2026/event/000064F6B4BE8601">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="George Clanton (16 and Over)">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZOfK">George Clanton (16 and Over)</a></h3>
+<div class="meta">8:00 PM · Brooklyn Steel, Greenpoint · $232.54</div>
+<p>Vaporwave&#x27;s cult hero brings the chrome-plated nostalgia to Brooklyn Steel. Resale only.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZOfK">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Metropolitan Opera presents Lincoln in the Bardo">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/">Metropolitan Opera presents Lincoln in the Bardo</a></h3>
+<div class="meta">7:30 PM · Metropolitan Opera House, Upper West Side-Lincoln Square · 33</div>
+<p>The Met&#x27;s new opera adapts George Saunders&#x27; ghost-story novel — only single seats left, so move fast.</p>
+<a class="tickets" href="https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Dee Dee Bridgewater">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/dee-dee-bridgewater-birdland-jazz-club-tickets/15005303">Dee Dee Bridgewater</a></h3>
+<div class="meta">9:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>The Grammy- and Tony-winning jazz giant, up close at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/dee-dee-bridgewater-birdland-jazz-club-tickets/15005303">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-6" data-name="Free Entry for Veteran&#x27;s Day">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/free-entry-for-veterans-day-tickets-4S6MGL?ref=ticketmaster">Free Entry for Veteran&#x27;s Day</a></h3>
+<div class="meta">10:00 AM · Banksy Museum New York, SoHo-Little Italy-Hudson Square</div>
+<p>Veterans get in free with ID today at the immersive Banksy museum.</p>
+<a class="tickets" href="https://www.universe.com/events/free-entry-for-veterans-day-tickets-4S6MGL?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Group Exhibition Opening: The Wyrd Sisters">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/accentisa-q57y">Group Exhibition Opening: The Wyrd Sisters</a></h3>
+<div class="meta">6:00 PM · Accent Sisters 重音社, Midtown South-Flatiron-Union Square · Free</div>
+<p>A group show of fantasy, fate and the supernatural opens tonight — free, with the artists in the room.</p>
+<a class="tickets" href="https://luma.com/accentisa-q57y">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Winter Warmth Drive &amp; Card Making">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/831cgk8n">Winter Warmth Drive &amp; Card Making</a></h3>
+<div class="meta">6:30 PM · Neighbor, Chelsea-Hudson Yards · Free</div>
+<p>Swap scarves and coats, make gratitude cards, and do some good in Chelsea.</p>
+<a class="tickets" href="https://luma.com/831cgk8n">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Le Carrousel Extravaganza">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/le-carrousel-extravaganza-fall/2026-11-11">Le Carrousel Extravaganza</a></h3>
+<div class="meta">11:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>A free kids&#x27; magic show at Bryant Park&#x27;s carousel — a sweet Veterans Day morning outing.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/le-carrousel-extravaganza-fall/2026-11-11">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Shared Sacred Sites">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shared-sacred-sites-tickets-2004026662695">Shared Sacred Sites</a></h3>
+<div class="meta">6:30 PM · The Tesdell House, Upper West Side (Central) · Free</div>
+<p>An exhibit opening and lecture on shared houses of worship across the Mediterranean, in an Upper West Side brownstone.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shared-sacred-sites-tickets-2004026662695">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-11" data-name="Oh, Mary!">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-11-2026/event/Z1r9uZruZqGZ17J9-A">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Midtown-Times Square · $433.55</div>
+<p>Cole Escola&#x27;s delirious, Tony-winning Mary Todd Lincoln farce — still the hottest ticket in town.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-11-2026/event/Z1r9uZruZqGZ17J9-A">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-12" data-name="Good Eggs ft: Caitlin Peluffo, Geoffrey Asmus, Gary Vider, Josh Adam Meyers, Matt Ruby">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-caitlin-peluffo-geoffrey-asmus-gary-vider-josh-adam-meyers-matt-ruby">Good Eggs ft: Caitlin Peluffo, Geoffrey Asmus, Gary Vider, Josh Adam Meyers, Matt Ruby</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>The long-running underground stand-up staple, presented by Mark Normand&#x27;s crew.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-caitlin-peluffo-geoffrey-asmus-gary-vider-josh-adam-meyers-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="An Hour with Yamaneika Saunders Presented by the New York Comedy Festival">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/an-hour-with-yamaneika-saunders-presented-by-the-new-york-comedy-festival">An Hour with Yamaneika Saunders Presented by the New York Comedy Festival</a></h3>
+<div class="meta">9:15 PM · New York Comedy Club Upper West Side · $25</div>
+<p>The unfiltered comic brings her new hour to the Comedy Festival&#x27;s Upper West Side stage.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/an-hour-with-yamaneika-saunders-presented-by-the-new-york-comedy-festival">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-14" data-name="Blade Runner: The Final Cut">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000718-blade-runner-the-final-cut/">Blade Runner: The Final Cut</a></h3>
+<div class="meta">9:45 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Ridley Scott&#x27;s neon-noir masterpiece on the big screen at Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000718-blade-runner-the-final-cut/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Beetlejuice">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001197-beetlejuice/">Beetlejuice</a></h3>
+<div class="meta">5:30 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Tim Burton&#x27;s 1988 goth classic on 35mm — say it three times.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001197-beetlejuice/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Godzilla Minus Zero">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Godzilla Minus Zero</a></h3>
+<div class="meta">6:15 PM · Nitehawk Cinema Prospect Park, Prospect Park · $18</div>
+<p>The brand-new Godzilla epic, Japanese with subtitles, at Nitehawk Prospect Park.</p>
+<a class="tickets" href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-17" data-name="Priyanka Mattoo: How to Be Less Useful w/ Radhika Jones">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-store-priyanka-mattoo-how-to-be-less-useful-w-radhika-jones-tickets-2002233033903">Priyanka Mattoo: How to Be Less Useful w/ Radhika Jones</a></h3>
+<div class="meta">7:00 PM · Books Are Magic, Brooklyn Heights · $10.89</div>
+<p>The Vulture columnist on the joy of being less useful, in conversation with former Vanity Fair editor Radhika Jones.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-store-priyanka-mattoo-how-to-be-less-useful-w-radhika-jones-tickets-2002233033903">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="The International Library: Mieko Kawakami on Sisters in Yellow with Hitomi Yoshio">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/the-international-library-mieko-kawakami-on-nov-11-2026">The International Library: Mieko Kawakami on Sisters in Yellow with Hitomi Yoshio</a></h3>
+<div class="meta">7:00 PM · The Center for Fiction, Fort Greene · Free</div>
+<p>The acclaimed Japanese novelist launches the English edition of Sisters in Yellow, with translator Hitomi Yoshio.</p>
+<a class="tickets" href="https://bookevents.nyc/events/the-international-library-mieko-kawakami-on-nov-11-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Frank Capra with Sam Wasson">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/sam-wasson-the-drama-book-shop-nov-11-2026">Frank Capra with Sam Wasson</a></h3>
+<div class="meta">7:30 PM · The Drama Book Shop, Midtown-Times Square · Free</div>
+<p>Biographer Sam Wasson on the director of It&#x27;s a Wonderful Life, with a live podcast taping and signing.</p>
+<a class="tickets" href="https://bookevents.nyc/events/sam-wasson-the-drama-book-shop-nov-11-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-20" data-name="THE LOST COUNTRY POP-UP - The last desserts of Yugoslavia">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-lost-country-pop-up-the-last-desserts-of-yugoslavia-tickets-2004040651536">THE LOST COUNTRY POP-UP - The last desserts of Yugoslavia</a></h3>
+<div class="meta">6:00 PM · Gallery MC, Hell&#x27;s Kitchen · $40</div>
+<p>Four Yugoslav desserts — walnut baklava, Reforma cake, šape and apple pita — in one $40 tasting box.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-lost-country-pop-up-the-last-desserts-of-yugoslavia-tickets-2004040651536">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Cocktails + Convo: Brooklyn | A Night Out with New Friends">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/cocktails-convo-brooklyn-a-night-out-with-new-friends-tickets-1990291338972">Cocktails + Convo: Brooklyn | A Night Out with New Friends</a></h3>
+<div class="meta">7:00 PM · Bar of the Week, East Williamsburg · $12.16</div>
+<p>A strangers-become-friends dinner out in Brooklyn; the venue is revealed once you book.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/cocktails-convo-brooklyn-a-night-out-with-new-friends-tickets-1990291338972">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Wednesday Greenmarket at Bartel-Pritchard Square">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-pritchard-square/2026-11-11/">Wednesday Greenmarket at Bartel-Pritchard Square</a></h3>
+<div class="meta">8:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>Farm stands, baked goods and fresh-caught fish at Prospect Park&#x27;s Wednesday market.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-pritchard-square/2026-11-11/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-23" data-name="11:11, Make a Wish">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/xj4auu6n">11:11, Make a Wish</a></h3>
+<div class="meta">6:00 PM · Fabrik DUMBO, Downtown Brooklyn-DUMBO-Boerum Hill · $75</div>
+<p>Lean all the way into 11/11: vision boards, candle wishes and intention-setting in DUMBO.</p>
+<a class="tickets" href="https://luma.com/xj4auu6n">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Skip the Small Talk Night at Pianos">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-pianos-tickets-2003643558821">Skip the Small Talk Night at Pianos</a></h3>
+<div class="meta">7:00 PM · Pianos, Lower East Side · $15</div>
+<p>Prompt-guided conversations with strangers at Pianos — come solo, leave with new people.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-pianos-tickets-2003643558821">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-25" data-name="Ice Skating">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-11">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>The Winter Village rink is open — free admission if you bring your own skates (reserve a slot first).</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-11">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-26" data-name="make a wish: 11/11 journaling workshop w/ @journalingclasses">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/4snkoh62">make a wish: 11/11 journaling workshop w/ @journalingclasses</a></h3>
+<div class="meta">7:00 PM · haricot vert&#x27;s dreamworld, Williamsburg · $38</div>
+<p>Guided journaling and collage to set intentions for 11/11, in a dreamy Williamsburg craft nook.</p>
+<a class="tickets" href="https://luma.com/4snkoh62">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="New York Knicks vs. Cleveland Cavaliers">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new-york-new-york-11-11-2026/event/3B006511E9208634">New York Knicks vs. Cleveland Cavaliers</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square · $203</div>
+<p>The Knicks host Cleveland under the Garden lights.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new-york-new-york-11-11-2026/event/3B006511E9208634">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-11";
+const NAMES = ["STING 3.0 Tour", "Fruit Bats (16 and Over)", "Joy Oladokun: The Heavy Things Tour", "George Clanton (16 and Over)", "Metropolitan Opera presents Lincoln in the Bardo", "Dee Dee Bridgewater", "Free Entry for Veteran's Day", "Group Exhibition Opening: The Wyrd Sisters", "Winter Warmth Drive & Card Making", "Le Carrousel Extravaganza", "Shared Sacred Sites", "Oh, Mary!", "Good Eggs ft: Caitlin Peluffo, Geoffrey Asmus, Gary Vider, Josh Adam Meyers, Matt Ruby", "An Hour with Yamaneika Saunders Presented by the New York Comedy Festival", "Blade Runner: The Final Cut", "Beetlejuice", "Godzilla Minus Zero", "Priyanka Mattoo: How to Be Less Useful w/ Radhika Jones", "The International Library: Mieko Kawakami on Sisters in Yellow with Hitomi Yoshio", "Frank Capra with Sam Wasson", "THE LOST COUNTRY POP-UP - The last desserts of Yugoslavia", "Cocktails + Convo: Brooklyn | A Night Out with New Friends", "Wednesday Greenmarket at Bartel-Pritchard Square", "11:11, Make a Wish", "Skip the Small Talk Night at Pianos", "Ice Skating", "make a wish: 11/11 journaling workshop w/ @journalingclasses", "New York Knicks vs. Cleveland Cavaliers"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
