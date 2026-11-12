@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261112-0@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:STING 3.0 Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:The trio format puts the songs front and center — Police clas
+ 
+sics and solo hits\, up close at the Paramount. Resale only\, and pricey. T
+ 
+ickets & info: https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york
+ 
+-11-12-2026/event/0000645905AEDC0E
+URL:https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026
+ 
+/event/0000645905AEDC0E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-1@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T193000
+DTEND;TZID=America/New_York:20261112T213000
+SUMMARY:Dave Matthews Band
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Two nights at the Garden — DMB's marathon jams\, with the who
+ 
+le arena singing along. Tickets & info: https://www.ticketmaster.com/dave-m
+ 
+atthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510
+URL:https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12
+ 
+-2026/event/3B0064F8E6F49510
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-2@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Genesis Owusu (21 and Over)
+LOCATION:Baby's All Right\, Williamsburg
+DESCRIPTION:The artful Australian rapper-singer brings his shape-shifting l
+ 
+ive show to Baby's All Right. Tickets & info: https://www.ticketmaster.com/
+ 
+event/Z7r9jZ1A70Mvk
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A70Mvk
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-3@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T200000
+DTEND;TZID=America/New_York:20261112T220000
+SUMMARY:Protomartyr (16 and Over)
+LOCATION:Webster Hall\, East Village
+DESCRIPTION:Detroit post-punk\, all jagged guitars and dry wit\, loud at We
+ 
+bster Hall. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1A7Jou
+ 
+p
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Joup
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-4@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T213000
+DTEND;TZID=America/New_York:20261112T233000
+SUMMARY:Dee Dee Bridgewater
+LOCATION:Birdland\, Hell's Kitchen
+DESCRIPTION:A Grammy- and Tony-winning jazz giant\, up close at Birdland. T
+ 
+ickets & info: https://www.ticketweb.com/event/dee-dee-bridgewater-birdland
+ 
+-jazz-club-tickets/15005323
+URL:https://www.ticketweb.com/event/dee-dee-bridgewater-birdland-jazz-club-
+ 
+tickets/15005323
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-5@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T200000
+DTEND;TZID=America/New_York:20261112T220000
+SUMMARY:WEBSURF by Hard Res3t
+LOCATION:Future Space Studios\, Ridgewood
+DESCRIPTION:A free night of left-field electronic sets in a Ridgewood studi
+ 
+o space. Tickets & info: https://luma.com/22k6wokd
+URL:https://luma.com/22k6wokd
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-6@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T200000
+DTEND;TZID=America/New_York:20261112T220000
+SUMMARY:NY Comedy Festival Presents Jordan Jensen: The Wet Hug Tour
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:The no-filter stand-up takes her Wet Hug Tour to the Beacon for
+ 
+ the Comedy Festival. Tickets & info: https://www.ticketmaster.com/ny-comed
+ 
+y-festival-presents-jordan-jensen-new-york-new-york-11-12-2026/event/3B0064
+ 
+E6866B2012
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-jordan-jensen-
+ 
+new-york-new-york-11-12-2026/event/3B0064E6866B2012
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-7@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:NY Comedy Festival Presents Ben Bankas
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:The festival brings the sharp-tongued Toronto comic to Town Hal
+ 
+l. Tickets & info: https://www.ticketmaster.com/ny-comedy-festival-presents
+ 
+-ben-bankas-new-york-new-york-11-12-2026/event/030064E6C5A2113C
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-ben-bankas-new
+ 
+-york-new-york-11-12-2026/event/030064E6C5A2113C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-8@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T184500
+DTEND;TZID=America/New_York:20261112T204500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Cipha So
+ 
+unds\, Learnmore Jonasi\, Ryan Hamilton & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic room: Jon Laster\, Cipha Sounds\, Learnmore Jonasi 
+ 
+and more\, plus whoever drops in. Tickets & info: https://www.comedycellar.
+ 
+com/reservations-newyork/?showid=1794509100
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1794509100
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-9@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T203000
+DTEND;TZID=America/New_York:20261112T223000
+SUMMARY:Live at the Barbershop NYC: Hottest Stand Up Comedy Show in NYC! BY
+ 
+OB!
+LOCATION:East Village Stand Up Comedy (Original Barbershop)\, East Village
+DESCRIPTION:Stand-up inside a real East Village barbershop — secret lineu
+ 
+p\, surprise drop-ins\, BYOB. 21+. Tickets & info: https://www.eventbrite.c
+ 
+om/e/live-at-the-barbershop-nyc-hottest-stand-up-comedy-show-in-nyc-byob-ti
+ 
+ckets-1999037574197
+URL:https://www.eventbrite.com/e/live-at-the-barbershop-nyc-hottest-stand-u
+ 
+p-comedy-show-in-nyc-byob-tickets-1999037574197
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-10@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T203000
+SUMMARY:Sneak Preview: Paper Tiger with James Gray in person
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:See James Gray's new Adam Driver–Scarlett Johansson film earl
+ 
+y\, with the director in the room at MoMI. Tickets & info: https://movingim
+ 
+age.org/event/paper-tiger-with-james-gray-in-person/
+URL:https://movingimage.org/event/paper-tiger-with-james-gray-in-person/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-11@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T174000
+DTEND;TZID=America/New_York:20261112T194000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's ravishing\, Oscar-nominated classic on the big sc
+ 
+reen at Film Forum. Tickets & info: https://filmforum.org/film/raise-the-re
+ 
+d-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-12@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T203000
+SUMMARY:Cheese & Wine Tasting: Autumn Specials!
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's leans into fall — Rogue River Blue and holiday pairi
+ 
+ngs for Cheese and Wine Week. Tickets & info: https://www.eventbrite.com/e/
+ 
+cheese-wine-tasting-autumn-specials-tickets-1997985398110
+URL:https://www.eventbrite.com/e/cheese-wine-tasting-autumn-specials-ticket
+ 
+s-1997985398110
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-13@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T173000
+DTEND;TZID=America/New_York:20261112T193000
+SUMMARY:Free Sake Tasting: Meet the Brewer of Reigen\, Germany's First Sake
+ 
+!
+LOCATION:Bin Bin Sake\, Greenpoint
+DESCRIPTION:Taste a natural sake brewed in a Berlin bowling-alley basement\
+ 
+, with the brewer pouring. Tickets & info: https://www.eventbrite.com/e/fre
+ 
+e-sake-tasting-meet-the-brewer-of-reigen-germanys-first-sake-tickets-200469
+ 
+8423951
+URL:https://www.eventbrite.com/e/free-sake-tasting-meet-the-brewer-of-reige
+ 
+n-germanys-first-sake-tickets-2004698423951
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-14@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T200000
+SUMMARY:Exhibition Opening Reception: Dana Nechmad "Holding On To Nothing I
+ 
+s Not The Same As Letting Go"
+LOCATION:KALINER\, Chinatown-Two Bridges
+DESCRIPTION:Opening reception for a new solo show at the Chinatown gallery 
+ 
+KALINER — free\, just drop in. Tickets & info: https://luma.com/5u8w88jy
+URL:https://luma.com/5u8w88jy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-15@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T200000
+SUMMARY:Open Studio: Postcards\, Prints\, and Paper
+LOCATION:El Museo del Barrio\, East Harlem (South)
+DESCRIPTION:An evening of looking\, making\, and experimenting at El Museo 
+ 
+del Barrio. Tickets & info: https://www.eventbrite.com/e/open-studio-postca
+ 
+rds-prints-and-paper-tickets-1992002664593
+URL:https://www.eventbrite.com/e/open-studio-postcards-prints-and-paper-tic
+ 
+kets-1992002664593
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-16@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T173000
+DTEND;TZID=America/New_York:20261112T193000
+SUMMARY:Y’s by Yohji Yamamoto — Installation @ESSX
+LOCATION:ESSX NYC\, Lower East Side
+DESCRIPTION:Yohji Yamamoto's Y's line takes over the LES concept store ESSX
+ 
+ — free to wander in. Tickets & info: https://luma.com/4l1afmbm
+URL:https://luma.com/4l1afmbm
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-17@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:The Curious Case of the Curse of Benjamin Button
+LOCATION:Public Theater - Newman Theater\, East Village
+DESCRIPTION:The Olivier-winning musical's North American premiere — a lif
+ 
+e lived backwards\, at the Public. Tickets & info: https://publictheater.or
+ 
+g/productions/season/2627/the-curious-case-of-benjamin-button/
+URL:https://publictheater.org/productions/season/2627/the-curious-case-of-b
+ 
+enjamin-button/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-18@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:The Rocky Horror Show
+LOCATION:Studio 54\, Hell's Kitchen
+DESCRIPTION:Richard O'Brien's cult classic returns to Studio 54 — audienc
+ 
+e participation encouraged. Tickets & info: https://www.ticketmaster.com/ev
+ 
+ent/Z7r9jZ1A7Jv3f
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jv3f
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-19@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Operation Mincemeat: A New Musical
+LOCATION:John Golden Theatre\, Hell's Kitchen
+DESCRIPTION:The hit WWII caper musical — spies\, a corpse\, and a very Br
+ 
+itish farce. Tickets & info: https://www.ticketmaster.com/operation-minceme
+ 
+at-a-new-musical-new-york-new-york-11-12-2026/event/Z1r9uZruZqGZ17JeQe
+URL:https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york
+ 
+-new-york-11-12-2026/event/Z1r9uZruZqGZ17JeQe
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-20@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T203000
+SUMMARY:The City Speaks: An Interactive One-Man Show of New York Slang & Sp
+ 
+eech
+LOCATION:Henry Street Settlement (Entrance Down Stairs\, Left of Abrons Art
+ 
+s Center)\, Lower East Side
+DESCRIPTION:A one-man show on how New York talks — slang\, accents\, and 
+ 
+the voices of the Lower East Side. Tickets & info: https://www.eventbrite.c
+ 
+om/e/the-city-speaks-an-interactive-one-man-show-of-new-york-slang-speech-r
+ 
+egistration-2003917694769
+URL:https://www.eventbrite.com/e/the-city-speaks-an-interactive-one-man-sho
+ 
+w-of-new-york-slang-speech-registration-2003917694769
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-21@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T170000
+DTEND;TZID=America/New_York:20261112T190000
+SUMMARY:An LGBTQ+ Author Panel with ANTONI POROWSKI at Housing Works
+LOCATION:Housing Works Bookstore\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Queer Eye's Antoni Porowski hosts four LGBTQ+ writers on the bo
+ 
+oks shaping contemporary literature. Tickets & info: https://www.eventbrite
+ 
+.com/e/an-lgbtq-author-panel-with-antoni-porowski-at-housing-works-tickets-
+ 
+2004031458038
+URL:https://www.eventbrite.com/e/an-lgbtq-author-panel-with-antoni-porowski
+ 
+-at-housing-works-tickets-2004031458038
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-22@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:James Gleick + Rivka Galchen: The Telephone: A New History
+LOCATION:Strand Books\, Greenwich Village
+DESCRIPTION:The historian of chaos theory on the telephone's strange new hi
+ 
+story\, with novelist Rivka Galchen. Tickets & info: https://www.eventbrite
+ 
+.com/e/james-gleick-rivka-galchen-the-telephone-a-new-history-tickets-19978
+ 
+77955747
+URL:https://www.eventbrite.com/e/james-gleick-rivka-galchen-the-telephone-a
+ 
+-new-history-tickets-1997877955747
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-23@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Author Event: Baker's Dozen by Dasha Kelly in conversation with Jac
+ 
+queline Woodson
+LOCATION:Gladys Books & Wine\, Bedford-Stuyvesant (East)
+DESCRIPTION:Baker's Dozen — grief\, desire\, and family history\, in conv
+ 
+ersation with Jacqueline Woodson. Tickets & info: https://bookevents.nyc/ev
+ 
+ents/dasha-kelly-gladys-books-wine-nov-12-2026
+URL:https://bookevents.nyc/events/dasha-kelly-gladys-books-wine-nov-12-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-24@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T203000
+SUMMARY:Chinese Arts Workshop Series: Sip & Brush – Calligraphy
+LOCATION:Museum of Chinese in America\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Sip and brush: an evening of Chinese calligraphy at the Museum 
+ 
+of Chinese in America. Tickets & info: https://www.universe.com/events/chin
+ 
+ese-arts-workshop-series-sip-brush-calligraphy-tickets-BQXMG5?ref=ticketmas
+ 
+ter
+URL:https://www.universe.com/events/chinese-arts-workshop-series-sip-brush-
+ 
+calligraphy-tickets-BQXMG5?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-25@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T203000
+SUMMARY:Public Craft Night Mondays and Thursdays!
+LOCATION:NYC Resistor\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Bring a project\, borrow a tool\, make something — NYC Resist
+ 
+or's open craft night in Brooklyn. Tickets & info: https://www.eventbrite.c
+ 
+om/e/public-craft-night-mondays-and-thursdays-tickets-1992098746978
+URL:https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-t
+ 
+ickets-1992098746978
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-26@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Baby Teeth Kick Off Mixer
+LOCATION:Someday Bar NYC\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A new queer social kicks off at Someday Bar — free\, just sho
+ 
+w up. Tickets & info: https://luma.com/6p7anwzd
+URL:https://luma.com/6p7anwzd
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-27@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T200000
+SUMMARY:Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of 
+ 
+Commerce
+LOCATION:The Woolworth Building (Inside Lobby)\, Financial District-Battery
+ 
+ Park City
+DESCRIPTION:Inside the 'Cathedral of Commerce' — the gilded lobby and hid
+ 
+den details of the 1913 tower. Tickets & info: https://www.eventbrite.com/e
+ 
+/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-re
+ 
+gistration-2003011485272
+URL:https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-buildi
+ 
+ng-nycs-cathedral-of-commerce-registration-2003011485272
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261112-28@concierge
+DTSTAMP:20261112T130718Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Trivia Night @ PYO Chai
+LOCATION:PYO Chai\, Astoria (East)-Woodside (North)
+DESCRIPTION:A cozy chai-house trivia night in Astoria — teams welcome\, q
+ 
+uestions general-knowledge. Tickets & info: https://www.eventbrite.com/e/tr
+ 
+ivia-night-pyo-chai-tickets-2004687447119
+URL:https://www.eventbrite.com/e/trivia-night-pyo-chai-tickets-200468744711
+ 
+9
+END:VEVENT
+END:VCALENDAR
