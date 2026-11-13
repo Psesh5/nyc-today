@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, November 13</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, November 13</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-13.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Dave Matthews Band">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505">Dave Matthews Band</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>DMB&#x27;s second night at the Garden — marathon jams, with the whole arena singing along.</p>
+<a class="tickets" href="https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Nation of Language (18 and Over)">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AA7vOS">Nation of Language (18 and Over)</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>Brooklyn synth-pop at its swooning best, back home at Music Hall of Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AA7vOS">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Eggy: The Final Tour (of 2026)">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/eggy-the-final-tour-of-2026-new-york-new-york-11-13-2026/event/000064FFCE602538">Eggy: The Final Tour (of 2026)</a></h3>
+<div class="meta">8:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Eggy closes out 2026 with a final hometown blowout at the Bowery Ballroom.</p>
+<a class="tickets" href="https://www.ticketmaster.com/eggy-the-final-tour-of-2026-new-york-new-york-11-13-2026/event/000064FFCE602538">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Slow Pulp">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/slow-pulp-brooklyn-new-york-11-13-2026/event/000064A7B381F2E4">Slow Pulp</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Dreamy indie rock from Slow Pulp in the grand old Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/slow-pulp-brooklyn-new-york-11-13-2026/event/000064A7B381F2E4">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="New York Philharmonic: Puccini&#x27;s Tosca (opera in concert)">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.nyphil.org/concerts-tickets/2627/tosca-nov-13">New York Philharmonic: Puccini&#x27;s Tosca (opera in concert)</a></h3>
+<div class="meta">7:30 PM · Stern Auditorium / Perelman Stage at Carnegie Hall, Hell&#x27;s Kitchen</div>
+<p>Dudamel conducts Puccini&#x27;s Tosca in concert — Marina Rebeka, Jonas Kaufmann, and a full chorus at Carnegie Hall.</p>
+<a class="tickets" href="https://www.nyphil.org/concerts-tickets/2627/tosca-nov-13">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="yasiin bey: The Ecstatic">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/yasiin-bey-the-ecstatic-new-york-new-york-11-13-2026/event/00006569F93015EC">yasiin bey: The Ecstatic</a></h3>
+<div class="meta">11:00 PM · Sony Hall, Midtown-Times Square</div>
+<p>Yasiin Bey performs The Ecstatic in full, late night at Sony Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/yasiin-bey-the-ecstatic-new-york-new-york-11-13-2026/event/00006569F93015EC">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="NY Comedy Festival Presents Ilana Glazer Live!">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-presents-ilana-glazer-new-york-new-york-11-13-2026/event/3B0064EAA8625394">NY Comedy Festival Presents Ilana Glazer Live!</a></h3>
+<div class="meta">6:45 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Ilana Glazer brings her sharp, unfiltered stand-up to the Beacon for the Comedy Festival.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-presents-ilana-glazer-new-york-new-york-11-13-2026/event/3B0064EAA8625394">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="NY Comedy Festival Presents Adam Friedland">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-presents-adam-friedland-new-york-new-york-11-13-2026/event/030064E6C5E81145">NY Comedy Festival Presents Adam Friedland</a></h3>
+<div class="meta">7:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Adam Friedland&#x27;s deadpan chaos takes over Town Hall for one Comedy Festival night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-presents-adam-friedland-new-york-new-york-11-13-2026/event/030064E6C5E81145">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Irene Tu">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/irene-tu-brooklyn-new-york-11-13-2026/event/3000650D92C92459">Irene Tu</a></h3>
+<div class="meta">7:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Irene Tu&#x27;s wry, precise stand-up at the Bell House — a perfect Friday comedy pick.</p>
+<a class="tickets" href="https://www.ticketmaster.com/irene-tu-brooklyn-new-york-11-13-2026/event/3000650D92C92459">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Jordan Carlos, Casey Balsham, Dov Davidoff &amp; more">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1794595500">Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Jordan Carlos, Casey Balsham, Dov Davidoff &amp; more</a></h3>
+<div class="meta">6:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · 25</div>
+<p>The classic MacDougal Street room — Jon Laster, Jordan Carlos, Casey Balsham and Dov Davidoff for a $25 cover.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1794595500">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-10" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-13-2026/event/3C006457CE501EF8">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">3:00 PM · Radio City Music Hall, Midtown-Times Square</div>
+<p>The Rockettes kick off the season — the Christmas Spectacular is back at Radio City.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-13-2026/event/3C006457CE501EF8">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Curious Case of the Curse of Benjamin Button">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://publictheater.org/productions/season/2627/the-curious-case-of-benjamin-button/">The Curious Case of the Curse of Benjamin Button</a></h3>
+<div class="meta">7:00 PM · Public Theater - Newman Theater, East Village</div>
+<p>The Olivier-winning Benjamin Button musical, in its North American premiere at the Public.</p>
+<a class="tickets" href="https://publictheater.org/productions/season/2627/the-curious-case-of-benjamin-button/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="CATS: The Jellicle Ball">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_oZ">CATS: The Jellicle Ball</a></h3>
+<div class="meta">7:00 PM · Broadhurst Theatre, Hell&#x27;s Kitchen</div>
+<p>CATS reimagined as a ballroom spectacle — the Jellicle Ball takes over the Broadhurst.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_oZ">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Lost Boys Musical w/ Unknown Mortal Orchestra">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-13-2026/event/Z1r9uZrrZbpZ1AvOA49">Lost Boys Musical w/ Unknown Mortal Orchestra</a></h3>
+<div class="meta">7:00 PM · Palace Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>The Lost Boys live on stage, with Unknown Mortal Orchestra playing the score.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-13-2026/event/Z1r9uZrrZbpZ1AvOA49">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-14" data-name="Cabaret">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/cabaret/">Cabaret</a></h3>
+<div class="meta">7:00 PM · Museum of the Moving Image, Astoria (Central) · $17.5</div>
+<p>Fosse&#x27;s Cabaret on 35mm at MoMI — Liza Minnelli and Joel Grey at their Oscar-winning peak.</p>
+<a class="tickets" href="https://movingimage.org/event/cabaret/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="threeASFOUR: FULL CIRCLE">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/threeasfour-full-circle">threeASFOUR: FULL CIRCLE</a></h3>
+<div class="meta">7:00 PM · Film Forum, SoHo-Little Italy-Hudson Square · 15</div>
+<p>Sean Ono Lennon directs a portrait of downtown fashion trio threeASFOUR — opening night at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/threeasfour-full-circle">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Godzilla Minus Zero">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Godzilla Minus Zero</a></h3>
+<div class="meta">6:00 PM · Nitehawk Cinema Prospect Park, Prospect Park · 18</div>
+<p>Godzilla Minus Zero stomps into Nitehawk Prospect Park — kaiju on the big screen, beer in hand.</p>
+<a class="tickets" href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-17" data-name="New York Tattoo Convention 2026, November 13-15">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/new-york-tattoo-convention-2026-november-13-15-tickets-1996490000335">New York Tattoo Convention 2026, November 13-15</a></h3>
+<div class="meta">2:00 PM · The Duggal Greenhouse, Brooklyn Navy Yard · $33.85</div>
+<p>320 tattoo artists, live music, burlesque and vendors take over the Duggal Greenhouse all weekend.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/new-york-tattoo-convention-2026-november-13-15-tickets-1996490000335">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Closing Reception – Sunset Park Through the Lens">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/closing-reception-sunset-park-through-the-lens-tickets-2004253331668">Closing Reception – Sunset Park Through the Lens</a></h3>
+<div class="meta">5:30 PM · MADE Bush Terminal, Sunset Park (West) · Free</div>
+<p>Closing night for a photo history of Sunset Park — free, with the artists and neighbors who made it.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/closing-reception-sunset-park-through-the-lens-tickets-2004253331668">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-19" data-name="Jen Percy and E. Jean Carroll with Jessica Bennett: Girls Play Dead">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/jen-percy-92nd-street-y-nov-13-2026">Jen Percy and E. Jean Carroll with Jessica Bennett: Girls Play Dead</a></h3>
+<div class="meta">8:00 PM · 92nd Street Y, Upper East Side-Carnegie Hill</div>
+<p>Jen Percy and E. Jean Carroll talk Girls Play Dead with Jessica Bennett at the 92nd Street Y.</p>
+<a class="tickets" href="https://bookevents.nyc/events/jen-percy-92nd-street-y-nov-13-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Tareq Baconi &amp; Rashid Khalidi">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/challenging-and-upturning-the-mcnally-jackson-seaport-nov-13-2026">Tareq Baconi &amp; Rashid Khalidi</a></h3>
+<div class="meta">7:00 PM · McNally Jackson Seaport, Financial District-Battery Park City</div>
+<p>Tareq Baconi and Rashid Khalidi on liberation, resistance, and the future — free at McNally Jackson Seaport.</p>
+<a class="tickets" href="https://bookevents.nyc/events/challenging-and-upturning-the-mcnally-jackson-seaport-nov-13-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-21" data-name="Free Yourself from Big Tech">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/free-yourself-from-big-tech/2026-11-13/">Free Yourself from Big Tech</a></h3>
+<div class="meta">5:00 PM · Museum of the Moving Image, Astoria (Central) · Free</div>
+<p>A hands-on workshop for ditching Big Tech — local AI, alt search, and practical privacy, free with RSVP.</p>
+<a class="tickets" href="https://movingimage.org/event/free-yourself-from-big-tech/2026-11-13/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Intro to Boro: Rings and Things! with Han Duong">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/intro-to-boro-rings-and-things-with-han-duong-tickets-1990506520586">Intro to Boro: Rings and Things! with Han Duong</a></h3>
+<div class="meta">6:00 PM · UrbanGlass, Fort Greene · $165</div>
+<p>Learn to make your own glass rings with a torch at UrbanGlass — leave with 2–3 of your own.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/intro-to-boro-rings-and-things-with-han-duong-tickets-1990506520586">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-23" data-name="The Cheese &amp; Wine Pairing Hour">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-1998254253263">The Cheese &amp; Wine Pairing Hour</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village · $71.72</div>
+<p>Three cheeses, three wines, one delicious hour with a Murray&#x27;s expert on Bleecker.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-1998254253263">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Mao Mao at Soft Hours | Tea Tasting &amp; Incense Experience">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mao-mao-at-soft-hours-tea-tasting-incense-experience-registration-2003791720978">Mao Mao at Soft Hours | Tea Tasting &amp; Incense Experience</a></h3>
+<div class="meta">6:00 PM · Soft Hours Tea House 柔時閑堂, Chinatown-Two Bridges · $120</div>
+<p>An intimate tea and incense tasting for eight guests at Soft Hours — spring Maojian, confections, and a gift set to take home.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mao-mao-at-soft-hours-tea-tasting-incense-experience-registration-2003791720978">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Wine &amp; Cheese: Perfect Holiday Picks">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/wine-cheese-perfect-holiday-picks-tickets-2002818922311">Wine &amp; Cheese: Perfect Holiday Picks</a></h3>
+<div class="meta">6:00 PM · Eataly SoHo, SoHo-Little Italy-Hudson Square · $94.8</div>
+<p>Eataly&#x27;s beverage experts walk you through holiday wine and cheese pairings, Italian-style.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/wine-cheese-perfect-holiday-picks-tickets-2002818922311">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-26" data-name="2027 Marvels of Media Festival Kickoff Mixer">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://movingimage.org/event/2027-marvels-of-media-festival-kickoff-mixer/">2027 Marvels of Media Festival Kickoff Mixer</a></h3>
+<div class="meta">5:00 PM · Museum of the Moving Image, Astoria (Central) · Free</div>
+<p>Food, music and fellow filmmakers at MoMI as the Marvels of Media Festival kicks off its 2027 season — free with RSVP.</p>
+<a class="tickets" href="https://movingimage.org/event/2027-marvels-of-media-festival-kickoff-mixer/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Trivia With a Country Twist">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/trivia-with-a-country-twist-lucindas-tickets/14443234">Trivia With a Country Twist</a></h3>
+<div class="meta">5:00 PM · Lucinda&#x27;s, East Village · Free</div>
+<p>Country trivia, bingo and bar tabs at Lucinda&#x27;s — free to play, with a new round every hour.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/trivia-with-a-country-twist-lucindas-tickets/14443234">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-28" data-name="Ice Skating">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-13">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square</div>
+<p>Free admission skating at Bryant Park&#x27;s Winter Village — bring your own skates and glide under the skyline.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-13">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-29" data-name="LoL Worlds Eve NYC: Esports Mixer with FlyQuest">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/r7ylgnvq">LoL Worlds Eve NYC: Esports Mixer with FlyQuest</a></h3>
+<div class="meta">5:00 PM · The Playwright Irish Pub, Midtown-Times Square · Free</div>
+<p>The night before the League of Legends World Finals — an esports mixer with FlyQuest, free drinks while the tab lasts.</p>
+<a class="tickets" href="https://luma.com/r7ylgnvq">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-13";
+const NAMES = ["Dave Matthews Band", "Nation of Language (18 and Over)", "Eggy: The Final Tour (of 2026)", "Slow Pulp", "New York Philharmonic: Puccini's Tosca (opera in concert)", "yasiin bey: The Ecstatic", "NY Comedy Festival Presents Ilana Glazer Live!", "NY Comedy Festival Presents Adam Friedland", "Irene Tu", "Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Jordan Carlos, Casey Balsham, Dov Davidoff & more", "Christmas Spectacular Starring The Radio City Rockettes", "The Curious Case of the Curse of Benjamin Button", "CATS: The Jellicle Ball", "Lost Boys Musical w/ Unknown Mortal Orchestra", "Cabaret", "threeASFOUR: FULL CIRCLE", "Godzilla Minus Zero", "New York Tattoo Convention 2026, November 13-15", "Closing Reception \u2013 Sunset Park Through the Lens", "Jen Percy and E. Jean Carroll with Jessica Bennett: Girls Play Dead", "Tareq Baconi & Rashid Khalidi", "Free Yourself from Big Tech", "Intro to Boro: Rings and Things! with Han Duong", "The Cheese & Wine Pairing Hour", "Mao Mao at Soft Hours | Tea Tasting & Incense Experience", "Wine & Cheese: Perfect Holiday Picks", "2027 Marvels of Media Festival Kickoff Mixer", "Trivia With a Country Twist", "Ice Skating", "LoL Worlds Eve NYC: Esports Mixer with FlyQuest"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

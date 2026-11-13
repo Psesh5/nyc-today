@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261113-0@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T193000
+DTEND;TZID=America/New_York:20261113T213000
+SUMMARY:Dave Matthews Band
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:DMB's second night at the Garden — marathon jams\, with the w
+ 
+hole arena singing along. Tickets & info: https://www.ticketmaster.com/dave
+ 
+-matthews-band-new-york-new-york-11-13-2026/event/3B0064F8E6EE9505
+URL:https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-13
+ 
+-2026/event/3B0064F8E6EE9505
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-1@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T200000
+DTEND;TZID=America/New_York:20261113T220000
+SUMMARY:Nation of Language (18 and Over)
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:Brooklyn synth-pop at its swooning best\, back home at Music Ha
+ 
+ll of Williamsburg. Tickets & info: https://www.ticketmaster.com/event/Z7r9
+ 
+jZ1AA7vOS
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AA7vOS
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-2@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T200000
+DTEND;TZID=America/New_York:20261113T220000
+SUMMARY:Eggy: The Final Tour (of 2026)
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Eggy closes out 2026 with a final hometown blowout at the Bower
+ 
+y Ballroom. Tickets & info: https://www.ticketmaster.com/eggy-the-final-tou
+ 
+r-of-2026-new-york-new-york-11-13-2026/event/000064FFCE602538
+URL:https://www.ticketmaster.com/eggy-the-final-tour-of-2026-new-york-new-y
+ 
+ork-11-13-2026/event/000064FFCE602538
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-3@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Slow Pulp
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Dreamy indie rock from Slow Pulp in the grand old Brooklyn Para
+ 
+mount. Tickets & info: https://www.ticketmaster.com/slow-pulp-brooklyn-new-
+ 
+york-11-13-2026/event/000064A7B381F2E4
+URL:https://www.ticketmaster.com/slow-pulp-brooklyn-new-york-11-13-2026/eve
+ 
+nt/000064A7B381F2E4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-4@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T193000
+DTEND;TZID=America/New_York:20261113T213000
+SUMMARY:New York Philharmonic: Puccini's Tosca (opera in concert)
+LOCATION:Stern Auditorium / Perelman Stage at Carnegie Hall\, Hell's Kitche
+ 
+n
+DESCRIPTION:Dudamel conducts Puccini's Tosca in concert — Marina Rebeka\,
+ 
+ Jonas Kaufmann\, and a full chorus at Carnegie Hall. Tickets & info: https
+ 
+://www.nyphil.org/concerts-tickets/2627/tosca-nov-13
+URL:https://www.nyphil.org/concerts-tickets/2627/tosca-nov-13
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-5@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T230000
+DTEND;TZID=America/New_York:20261114T010000
+SUMMARY:yasiin bey: The Ecstatic
+LOCATION:Sony Hall\, Midtown-Times Square
+DESCRIPTION:Yasiin Bey performs The Ecstatic in full\, late night at Sony H
+ 
+all. Tickets & info: https://www.ticketmaster.com/yasiin-bey-the-ecstatic-n
+ 
+ew-york-new-york-11-13-2026/event/00006569F93015EC
+URL:https://www.ticketmaster.com/yasiin-bey-the-ecstatic-new-york-new-york-
+ 
+11-13-2026/event/00006569F93015EC
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-6@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T184500
+DTEND;TZID=America/New_York:20261113T204500
+SUMMARY:NY Comedy Festival Presents Ilana Glazer Live!
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Ilana Glazer brings her sharp\, unfiltered stand-up to the Beac
+ 
+on for the Comedy Festival. Tickets & info: https://www.ticketmaster.com/ny
+ 
+-comedy-festival-presents-ilana-glazer-new-york-new-york-11-13-2026/event/3
+ 
+B0064EAA8625394
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-ilana-glazer-n
+ 
+ew-york-new-york-11-13-2026/event/3B0064EAA8625394
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-7@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:NY Comedy Festival Presents Adam Friedland
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:Adam Friedland's deadpan chaos takes over Town Hall for one Com
+ 
+edy Festival night. Tickets & info: https://www.ticketmaster.com/ny-comedy-
+ 
+festival-presents-adam-friedland-new-york-new-york-11-13-2026/event/030064E
+ 
+6C5E81145
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-adam-friedland
+ 
+-new-york-new-york-11-13-2026/event/030064E6C5E81145
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-8@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Irene Tu
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Irene Tu's wry\, precise stand-up at the Bell House — a perfe
+ 
+ct Friday comedy pick. Tickets & info: https://www.ticketmaster.com/irene-t
+ 
+u-brooklyn-new-york-11-13-2026/event/3000650D92C92459
+URL:https://www.ticketmaster.com/irene-tu-brooklyn-new-york-11-13-2026/even
+ 
+t/3000650D92C92459
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-9@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T184500
+DTEND;TZID=America/New_York:20261113T204500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Jordan C
+ 
+arlos\, Casey Balsham\, Dov Davidoff & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic MacDougal Street room — Jon Laster\, Jordan Carlo
+ 
+s\, Casey Balsham and Dov Davidoff for a $25 cover. Tickets & info: https:/
+ 
+/www.comedycellar.com/reservations-newyork/?showid=1794595500
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1794595500
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-10@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T150000
+DTEND;TZID=America/New_York:20261113T170000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The Rockettes kick off the season — the Christmas Spectacular
+ 
+ is back at Radio City. Tickets & info: https://www.ticketmaster.com/christ
+ 
+mas-spectacular-starring-the-radio-city-new-york-new-york-11-13-2026/event/
+ 
+3C006457CE501EF8
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-13-2026/event/3C006457CE501EF8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-11@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:The Curious Case of the Curse of Benjamin Button
+LOCATION:Public Theater - Newman Theater\, East Village
+DESCRIPTION:The Olivier-winning Benjamin Button musical\, in its North Amer
+ 
+ican premiere at the Public. Tickets & info: https://publictheater.org/prod
+ 
+uctions/season/2627/the-curious-case-of-benjamin-button/
+URL:https://publictheater.org/productions/season/2627/the-curious-case-of-b
+ 
+enjamin-button/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-12@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:CATS: The Jellicle Ball
+LOCATION:Broadhurst Theatre\, Hell's Kitchen
+DESCRIPTION:CATS reimagined as a ballroom spectacle — the Jellicle Ball t
+ 
+akes over the Broadhurst. Tickets & info: https://www.ticketmaster.com/even
+ 
+t/Z7r9jZ1A7P_oZ
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P_oZ
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-13@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Lost Boys Musical w/ Unknown Mortal Orchestra
+LOCATION:Palace Theatre-NY\, Hell's Kitchen
+DESCRIPTION:The Lost Boys live on stage\, with Unknown Mortal Orchestra pla
+ 
+ying the score. Tickets & info: https://www.ticketmaster.com/the-lost-boys-
+ 
+new-york-new-york-11-13-2026/event/Z1r9uZrrZbpZ1AvOA49
+URL:https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-13-2026
+ 
+/event/Z1r9uZrrZbpZ1AvOA49
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-14@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Cabaret
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Fosse's Cabaret on 35mm at MoMI — Liza Minnelli and Joel Grey
+ 
+ at their Oscar-winning peak. Tickets & info: https://movingimage.org/event
+ 
+/cabaret/
+URL:https://movingimage.org/event/cabaret/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-15@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:threeASFOUR: FULL CIRCLE
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Sean Ono Lennon directs a portrait of downtown fashion trio thr
+ 
+eeASFOUR — opening night at Film Forum. Tickets & info: https://filmforum
+ 
+.org/film/threeasfour-full-circle
+URL:https://filmforum.org/film/threeasfour-full-circle
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-16@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:Godzilla Minus Zero
+LOCATION:Nitehawk Cinema Prospect Park\, Prospect Park
+DESCRIPTION:Godzilla Minus Zero stomps into Nitehawk Prospect Park — kaij
+ 
+u on the big screen\, beer in hand. Tickets & info: https://nitehawkcinema.
+ 
+com/prospectpark/movies/godzilla-minus-zero/
+URL:https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-17@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T140000
+DTEND;TZID=America/New_York:20261113T160000
+SUMMARY:New York Tattoo Convention 2026\, November 13-15
+LOCATION:The Duggal Greenhouse\, Brooklyn Navy Yard
+DESCRIPTION:320 tattoo artists\, live music\, burlesque and vendors take ov
+ 
+er the Duggal Greenhouse all weekend. Tickets & info: https://www.eventbrit
+ 
+e.com/e/new-york-tattoo-convention-2026-november-13-15-tickets-199649000033
+ 
+5
+URL:https://www.eventbrite.com/e/new-york-tattoo-convention-2026-november-1
+ 
+3-15-tickets-1996490000335
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-18@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T173000
+DTEND;TZID=America/New_York:20261113T193000
+SUMMARY:Closing Reception – Sunset Park Through the Lens
+LOCATION:MADE Bush Terminal\, Sunset Park (West)
+DESCRIPTION:Closing night for a photo history of Sunset Park — free\, wit
+ 
+h the artists and neighbors who made it. Tickets & info: https://www.eventb
+ 
+rite.com/e/closing-reception-sunset-park-through-the-lens-tickets-200425333
+ 
+1668
+URL:https://www.eventbrite.com/e/closing-reception-sunset-park-through-the-
+ 
+lens-tickets-2004253331668
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-19@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T200000
+DTEND;TZID=America/New_York:20261113T220000
+SUMMARY:Jen Percy and E. Jean Carroll with Jessica Bennett: Girls Play Dead
+LOCATION:92nd Street Y\, Upper East Side-Carnegie Hill
+DESCRIPTION:Jen Percy and E. Jean Carroll talk Girls Play Dead with Jessica
+ 
+ Bennett at the 92nd Street Y. Tickets & info: https://bookevents.nyc/event
+ 
+s/jen-percy-92nd-street-y-nov-13-2026
+URL:https://bookevents.nyc/events/jen-percy-92nd-street-y-nov-13-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-20@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Tareq Baconi & Rashid Khalidi
+LOCATION:McNally Jackson Seaport\, Financial District-Battery Park City
+DESCRIPTION:Tareq Baconi and Rashid Khalidi on liberation\, resistance\, an
+ 
+d the future — free at McNally Jackson Seaport. Tickets & info: https://b
+ 
+ookevents.nyc/events/challenging-and-upturning-the-mcnally-jackson-seaport-
+ 
+nov-13-2026
+URL:https://bookevents.nyc/events/challenging-and-upturning-the-mcnally-jac
+ 
+kson-seaport-nov-13-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-21@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T170000
+DTEND;TZID=America/New_York:20261113T190000
+SUMMARY:Free Yourself from Big Tech
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:A hands-on workshop for ditching Big Tech — local AI\, alt se
+ 
+arch\, and practical privacy\, free with RSVP. Tickets & info: https://movi
+ 
+ngimage.org/event/free-yourself-from-big-tech/2026-11-13/
+URL:https://movingimage.org/event/free-yourself-from-big-tech/2026-11-13/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-22@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:Intro to Boro: Rings and Things! with Han Duong
+LOCATION:UrbanGlass\, Fort Greene
+DESCRIPTION:Learn to make your own glass rings with a torch at UrbanGlass 
+ 
+ leave with 2–3 of your own. Tickets & info: https://www.eventbrite.com
+ 
+/e/intro-to-boro-rings-and-things-with-han-duong-tickets-1990506520586
+URL:https://www.eventbrite.com/e/intro-to-boro-rings-and-things-with-han-du
+ 
+ong-tickets-1990506520586
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-23@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T203000
+SUMMARY:The Cheese & Wine Pairing Hour
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Three cheeses\, three wines\, one delicious hour with a Murray'
+ 
+s expert on Bleecker. Tickets & info: https://www.eventbrite.com/e/the-chee
+ 
+se-wine-pairing-hour-tickets-1998254253263
+URL:https://www.eventbrite.com/e/the-cheese-wine-pairing-hour-tickets-19982
+ 
+54253263
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-24@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:Mao Mao at Soft Hours | Tea Tasting & Incense Experience
+LOCATION:Soft Hours Tea House 柔時閑堂\, Chinatown-Two Bridges
+DESCRIPTION:An intimate tea and incense tasting for eight guests at Soft Ho
+ 
+urs — spring Maojian\, confections\, and a gift set to take home. Tickets
+ 
+ & info: https://www.eventbrite.com/e/mao-mao-at-soft-hours-tea-tasting-inc
+ 
+ense-experience-registration-2003791720978
+URL:https://www.eventbrite.com/e/mao-mao-at-soft-hours-tea-tasting-incense-
+ 
+experience-registration-2003791720978
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-25@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T200000
+SUMMARY:Wine & Cheese: Perfect Holiday Picks
+LOCATION:Eataly SoHo\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Eataly's beverage experts walk you through holiday wine and che
+ 
+ese pairings\, Italian-style. Tickets & info: https://www.eventbrite.com/e/
+ 
+wine-cheese-perfect-holiday-picks-tickets-2002818922311
+URL:https://www.eventbrite.com/e/wine-cheese-perfect-holiday-picks-tickets-
+ 
+2002818922311
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-26@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T170000
+DTEND;TZID=America/New_York:20261113T190000
+SUMMARY:2027 Marvels of Media Festival Kickoff Mixer
+LOCATION:Museum of the Moving Image\, Astoria (Central)
+DESCRIPTION:Food\, music and fellow filmmakers at MoMI as the Marvels of Me
+ 
+dia Festival kicks off its 2027 season — free with RSVP. Tickets & info: 
+ 
+https://movingimage.org/event/2027-marvels-of-media-festival-kickoff-mixer/
+URL:https://movingimage.org/event/2027-marvels-of-media-festival-kickoff-mi
+ 
+xer/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-27@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T170000
+DTEND;TZID=America/New_York:20261113T190000
+SUMMARY:Trivia With a Country Twist
+LOCATION:Lucinda's\, East Village
+DESCRIPTION:Country trivia\, bingo and bar tabs at Lucinda's — free to pl
+ 
+ay\, with a new round every hour. Tickets & info: https://www.ticketweb.com
+ 
+/event/trivia-with-a-country-twist-lucindas-tickets/14443234
+URL:https://www.ticketweb.com/event/trivia-with-a-country-twist-lucindas-ti
+ 
+ckets/14443234
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-28@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T080000
+DTEND;TZID=America/New_York:20261113T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free admission skating at Bryant Park's Winter Village — brin
+ 
+g your own skates and glide under the skyline. Tickets & info: https://brya
+ 
+ntpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-a
+ 
+t-bryant-park/2026-11-13
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-13
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261113-29@concierge
+DTSTAMP:20261113T133253Z
+DTSTART;TZID=America/New_York:20261113T170000
+DTEND;TZID=America/New_York:20261113T190000
+SUMMARY:LoL Worlds Eve NYC: Esports Mixer with FlyQuest
+LOCATION:The Playwright Irish Pub\, Midtown-Times Square
+DESCRIPTION:The night before the League of Legends World Finals — an espo
+ 
+rts mixer with FlyQuest\, free drinks while the tab lasts. Tickets & info: 
+ 
+https://luma.com/r7ylgnvq
+URL:https://luma.com/r7ylgnvq
+END:VEVENT
+END:VCALENDAR
