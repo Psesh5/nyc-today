@@ -1,0 +1,463 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261114-0@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T200000
+DTEND;TZID=America/New_York:20261114T220000
+SUMMARY:STING 3.0 Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Sting strips it back to a trio for the hits — doors 7 PM\, sh
+ 
+ow 8 PM at the Paramount. Tickets & info: https://www.ticketmaster.com/stin
+ 
+g-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A
+URL:https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026
+ 
+/event/0000645905B2DC1A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-1@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T200000
+DTEND;TZID=America/New_York:20261114T220000
+SUMMARY:Eggy: The Final Tour (of 2026)
+LOCATION:Bowery Ballroom\, Lower East Side
+DESCRIPTION:Jam-band favorites close out their final run of the year at the
+ 
+ Bowery — expect a long\, loose night. Tickets & info: https://www.ticket
+ 
+master.com/eggy-the-final-tour-of-2026-new-york-new-york-11-14-2026/event/0
+ 
+00064FFCE62255A
+URL:https://www.ticketmaster.com/eggy-the-final-tour-of-2026-new-york-new-y
+ 
+ork-11-14-2026/event/000064FFCE62255A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-2@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T200000
+DTEND;TZID=America/New_York:20261114T220000
+SUMMARY:Donny Benet (18 and Over)
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:Australia's smoothest bass-slinging showman returns to Williams
+ 
+burg — part concert\, part fever dream. Tickets & info: https://www.ticke
+ 
+tmaster.com/event/Z7r9jZ1A7xboV
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7xboV
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-3@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T190000
+DTEND;TZID=America/New_York:20261114T210000
+SUMMARY:The Bends
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:Radiohead tribute\, note for note — 'OK Computer'-era deep cu
+ 
+ts at Irving Plaza. Tickets & info: https://www.ticketmaster.com/the-bends-
+ 
+new-york-new-york-11-14-2026/event/0000648AE70D24DD
+URL:https://www.ticketmaster.com/the-bends-new-york-new-york-11-14-2026/eve
+ 
+nt/0000648AE70D24DD
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-4@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T190000
+DTEND;TZID=America/New_York:20261114T210000
+SUMMARY:NY Comedy Festival Presents Daniel Sloss: Bitter
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:The Scottish firebrand's new hour — dark\, sharp\, and very f
+ 
+unny. Tickets & info: https://www.ticketmaster.com/ny-comedy-festival-prese
+ 
+nts-daniel-sloss-new-york-new-york-11-14-2026/event/3B0064EAAB4F56D7
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-daniel-sloss-n
+ 
+ew-york-new-york-11-14-2026/event/3B0064EAAB4F56D7
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-5@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T150000
+DTEND;TZID=America/New_York:20261114T170000
+SUMMARY:NY Comedy Festival\, The Moth x Comic Relief
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:True stories told live\, for a good cause — the Festival's wa
+ 
+rmest night. Tickets & info: https://www.ticketmaster.com/ny-comedy-festiva
+ 
+l-the-moth-x-new-york-new-york-11-14-2026/event/030064E7F30116F8
+URL:https://www.ticketmaster.com/ny-comedy-festival-the-moth-x-new-york-new
+ 
+-york-11-14-2026/event/030064E7F30116F8
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-6@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T190000
+DTEND;TZID=America/New_York:20261114T210000
+SUMMARY:NY Comedy Festival Presents Sh&t Show Hosted by Jordan Klepper
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:The Daily Show correspondent hosts a gloriously unhinged night 
+ 
+of stand-up. Tickets & info: https://www.ticketmaster.com/ny-comedy-festiva
+ 
+l-presents-sht-show-new-york-new-york-11-14-2026/event/030064E6C65A1151
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-sht-show-new-y
+ 
+ork-new-york-11-14-2026/event/030064E6C65A1151
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-7@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T140000
+DTEND;TZID=America/New_York:20261114T160000
+SUMMARY:In the Heights
+LOCATION:New York City Center\, Hell's Kitchen
+DESCRIPTION:Lin-Manuel Miranda's Washington Heights love letter\, back on t
+ 
+he City Center stage. Tickets & info: https://www.nycitycenter.org/events/2
+ 
+026-2027-in-the-heights
+URL:https://www.nycitycenter.org/events/2026-2027-in-the-heights
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-8@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T110000
+DTEND;TZID=America/New_York:20261114T130000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The season officially starts: high kicks\, living nativity\, an
+ 
+d Radio City at its most magical. Tickets & info: https://www.ticketmaster.
+ 
+com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-14-2
+ 
+026/event/3C006457CE671F03
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-14-2026/event/3C006457CE671F03
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-9@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
+SUMMARY:The Curious Case of the Curse of Benjamin Button
+LOCATION:Public Theater - Newman Theater\, East Village
+DESCRIPTION:The Olivier-winning musical's North American premiere — a man
+ 
+ ages backward\, a Cornish village sings. Tickets & info: https://publicthe
+ 
+ater.org/productions/season/2627/the-curious-case-of-benjamin-button/
+URL:https://publictheater.org/productions/season/2627/the-curious-case-of-b
+ 
+enjamin-button/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-10@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T192500
+DTEND;TZID=America/New_York:20261114T212500
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's notorious\, blazing 4K restoration — still shoc
+ 
+king\, still stunning. Tickets & info: https://www.ifccenter.com/films/the-
+ 
+devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-11@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T223500
+DTEND;TZID=America/New_York:20261115T003500
+SUMMARY:Lost Highway
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Lynch's fever-dream noir on the big screen at 10:35 — a late-
+ 
+night trip. Tickets & info: https://metrograph.com/film/9999001208-lost-hig
+ 
+hway/
+URL:https://metrograph.com/film/9999001208-lost-highway/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-12@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
+SUMMARY:Brooklyn Cocktail Fest
+LOCATION:Industry City - Building 5 Indoor Event Venue\, Sunset Park (West)
+DESCRIPTION:Dozens of distillers and bars pour at Industry City — the bor
+ 
+ough's biggest cocktail crawl under one roof. Tickets & info: https://www.e
+ 
+ventbrite.com/e/brooklyn-cocktail-fest-tickets-1993625399236
+URL:https://www.eventbrite.com/e/brooklyn-cocktail-fest-tickets-19936253992
+ 
+36
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-13@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T080000
+DTEND;TZID=America/New_York:20261114T100000
+SUMMARY:Greenmarket at Grand Army Plaza
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Saturday-morning ritual: peak fall produce\, hot cider\, and th
+ 
+e best people-watching in Brooklyn. Tickets & info: https://www.prospectpar
+ 
+k.org/event/greenmarket-at-grand-army-plaza-2/2026-11-14/
+URL:https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/20
+ 
+26-11-14/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-14@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T173000
+DTEND;TZID=America/New_York:20261114T193000
+SUMMARY:French Cheese & Wine Tasting
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's does what Murray's does best — a guided tour of Fren
+ 
+ch cheese with the right wines. Tickets & info: https://www.eventbrite.com/
+ 
+e/french-cheese-wine-tasting-tickets-1998255315440
+URL:https://www.eventbrite.com/e/french-cheese-wine-tasting-tickets-1998255
+ 
+315440
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-15@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T150000
+DTEND;TZID=America/New_York:20261114T170000
+SUMMARY:The Art-Curious Club at Christie’s for a Behind-the-Scenes Previe
+ 
+w of Multi-Million Dollar Artworks | 3-330pm Session
+LOCATION:Christie's New York\, Midtown-Times Square
+DESCRIPTION:A free behind-the-scenes look at multi-million-dollar artworks 
+ 
+before they go under the hammer. Tickets & info: https://luma.com/jqjcrnvy
+URL:https://luma.com/jqjcrnvy
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-16@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T120000
+SUMMARY:Open House — All Studios Open
+LOCATION:56 Bogart St\, East Williamsburg
+DESCRIPTION:Bushwick studios throw their doors open — wander\, meet artis
+ 
+ts\, see work in progress. Tickets & info: https://luma.com/z4am3eyt
+URL:https://luma.com/z4am3eyt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-17@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T170000
+DTEND;TZID=America/New_York:20261114T190000
+SUMMARY:The Great Shift — Opening Reception
+LOCATION:Solas Studio\, Gramercy
+DESCRIPTION:Art Week's closing weekend: a new show on change and transforma
+ 
+tion opens in Gramercy. Tickets & info: https://www.eventbrite.com/e/the-gr
+ 
+eat-shift-opening-reception-tickets-2004324753292
+URL:https://www.eventbrite.com/e/the-great-shift-opening-reception-tickets-
+ 
+2004324753292
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-18@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T120000
+DTEND;TZID=America/New_York:20261114T140000
+SUMMARY:PAAC ’26 — Pakistani-American Artists’ Convention
+LOCATION:Rollin Studios\, Greenpoint
+DESCRIPTION:The first Pakistani-American Artists' Convention — gallery\, 
+ 
+panels\, films\, and Natasha Noorani live. Tickets & info: https://www.even
+ 
+tbrite.com/e/pakistani-american-artists-convention-tickets-1998985204558
+URL:https://www.eventbrite.com/e/pakistani-american-artists-convention-tick
+ 
+ets-1998985204558
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-19@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T120000
+SUMMARY:Family Art Project: Tiny Terrariums
+LOCATION:Wave Hill\, Riverdale-Spuyten Duyvil
+DESCRIPTION:Build a tiny world at Wave Hill — free\, family-friendly\, an
+ 
+d gloriously green. Tickets & info: http://www.nycgovparks.org/events/2026/
+ 
+11/14/family-art-project-tiny-terrariums
+URL:http://www.nycgovparks.org/events/2026/11/14/family-art-project-tiny-te
+ 
+rrariums
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-20@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T140000
+DTEND;TZID=America/New_York:20261114T160000
+SUMMARY:Burrata Making
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Learn to stretch your own burrata at Murray's\, then eat the ev
+ 
+idence. Tickets & info: https://www.eventbrite.com/e/burrata-making-tickets
+ 
+-1998254393683
+URL:https://www.eventbrite.com/e/burrata-making-tickets-1998254393683
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-21@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T080000
+DTEND;TZID=America/New_York:20261114T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:The Winter Village rink is open — free admission if you bring
+ 
+ your own skates. Tickets & info: https://bryantpark.org/calendar/event/ban
+ 
+k-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-14
+URL:https://bryantpark.org/calendar/event/bank-of-america-winter-village-ic
+ 
+e-skating-rink-at-bryant-park/2026-11-14
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-22@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
+SUMMARY:Urban Park Rangers | Fall Foliage Hike
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Rangers lead a peak-color walk through Prospect Park. Tickets &
+ 
+ info: https://www.prospectpark.org/event/urban-park-rangers-fall-foliage-h
+ 
+ike/
+URL:https://www.prospectpark.org/event/urban-park-rangers-fall-foliage-hike
+ 
+/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-23@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T140000
+DTEND;TZID=America/New_York:20261114T160000
+SUMMARY:Intersections of Exile: Tahir Hamut Izgil & Yang Lian
+LOCATION:G-Gallery\, Tribeca-Civic Center
+DESCRIPTION:Poets Tahir Hamut Izgil and Yang Lian on exile\, translation\, 
+ 
+and home — free at G-Gallery. Tickets & info: https://www.eventbrite.com/
+ 
+e/intersections-of-exile-tahir-hamut-izgil-yang-lian-tickets-2003361429966
+URL:https://www.eventbrite.com/e/intersections-of-exile-tahir-hamut-izgil-y
+ 
+ang-lian-tickets-2003361429966
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-24@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
+SUMMARY:PlayStation: The First 30 Years | Book Launch at Vitamin
+LOCATION:Vitamin\, Williamsburg
+DESCRIPTION:A book launch for three decades of PlayStation\, in Williamsbur
+ 
+g — nostalgia\, guaranteed. Tickets & info: https://luma.com/05pm2bno
+URL:https://luma.com/05pm2bno
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-25@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T160000
+DTEND;TZID=America/New_York:20261114T180000
+SUMMARY:THE BACKGAMMON SOCIAL
+LOCATION:Bushwick\, Bushwick (West)
+DESCRIPTION:Roll the dice in Bushwick — all levels welcome\, boards provi
+ 
+ded. Tickets & info: https://luma.com/zbx9c63m
+URL:https://luma.com/zbx9c63m
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-26@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T150000
+DTEND;TZID=America/New_York:20261114T170000
+SUMMARY:Coffee Rave @ Pi Bakerie
+LOCATION:Pi Bakerie\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:A daytime dance party over coffee in SoHo — the most wholesom
+ 
+e rave you'll ever attend. Tickets & info: https://partiful.com/e/HqRCYxG65
+ 
+g0IJ5WANeJs
+URL:https://partiful.com/e/HqRCYxG65g0IJ5WANeJs
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-27@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
+SUMMARY:Cortaca Jug
+LOCATION:Yankee Stadium\, Yankee Stadium-Macombs Dam Park
+DESCRIPTION:Ithaca vs. Cortland takes over Yankee Stadium — the biggest l
+ 
+ittle game in college football. Tickets & info: https://www.ticketmaster.co
+ 
+m/cortaca-jug-bronx-new-york-11-14-2026/event/1D00636BCBC554CC
+URL:https://www.ticketmaster.com/cortaca-jug-bronx-new-york-11-14-2026/even
+ 
+t/1D00636BCBC554CC
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-28@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T170000
+DTEND;TZID=America/New_York:20261114T190000
+SUMMARY:UFC 334
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Fight night at the Garden — the loudest room in the city toni
+ 
+ght. Tickets & info: https://www.ticketmaster.com/ufc-334-new-york-new-york
+ 
+-11-14-2026/event/3B00652EC2504689
+URL:https://www.ticketmaster.com/ufc-334-new-york-new-york-11-14-2026/event
+ 
+/3B00652EC2504689
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261114-29@concierge
+DTSTAMP:20261114T131243Z
+DTSTART;TZID=America/New_York:20261114T170000
+DTEND;TZID=America/New_York:20261114T190000
+SUMMARY:Green-Wood After Hours
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:The cemetery after dark — history\, lanterns\, and one of the
+ 
+ best views in Brooklyn. Tickets & info: https://www.eventbrite.com/e/green
+ 
+-wood-after-hours-tickets-1998759413210
+URL:https://www.eventbrite.com/e/green-wood-after-hours-tickets-19987594132
+ 
+10
+END:VEVENT
+END:VCALENDAR
