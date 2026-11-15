@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, November 15</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, November 15</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-15.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="New York Philharmonic: Puccini’s Tosca (opera in concert)">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.carnegiehall.org/Calendar/2026/11/15/New-York-Philharmonic-0200PM">New York Philharmonic: Puccini’s Tosca (opera in concert)</a></h3>
+<div class="meta">2:00 PM · Stern Auditorium / Perelman Stage at Carnegie Hall, Hell&#x27;s Kitchen · 199</div>
+<p>Dudamel conducts Puccini&#x27;s Tosca in concert with Rebeka, Kaufmann and Tézier — one of only two performances, and availability is already low.</p>
+<a class="tickets" href="https://www.carnegiehall.org/Calendar/2026/11/15/New-York-Philharmonic-0200PM">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Trinity Youth Chorus: Gloria">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/trinity-youth-chorus-gloria-tickets-1993623188624">Trinity Youth Chorus: Gloria</a></h3>
+<div class="meta">3:00 PM · Trinity Church, Financial District · Free</div>
+<p>Trinity&#x27;s young voices sing Vivaldi&#x27;s Gloria and Mozart&#x27;s Mass in C with orchestra — free, but register ahead, seats are limited.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/trinity-youth-chorus-gloria-tickets-1993623188624">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Orla Gartland">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/orla-gartland-bowery-palace-tickets/14411564">Orla Gartland</a></h3>
+<div class="meta">6:30 PM · Bowery Palace, East Village · $18.78</div>
+<p>Irish indie-pop songwriter plays Bowery Palace on a run of buzzy NYC dates.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/orla-gartland-bowery-palace-tickets/14411564">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Lalah Hathaway">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/lalah-hathaway-new-york-new-york-11-15-2026/event/000064E7E54C45AE">Lalah Hathaway</a></h3>
+<div class="meta">7:00 PM · Sony Hall, Midtown-Times Square</div>
+<p>Five-time Grammy winner brings her velvet R&amp;B to Sony Hall for an early-evening set.</p>
+<a class="tickets" href="https://www.ticketmaster.com/lalah-hathaway-new-york-new-york-11-15-2026/event/000064E7E54C45AE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Armand Hammer - Ages 18+">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7ObaE">Armand Hammer - Ages 18+</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>billy woods and ELUCID bring their dense, literary rap to Music Hall of Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7ObaE">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="Matthew Broussard">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/matthew-broussard-brooklyn-new-york-11-15-2026/event/3000652F50EEF1E0">Matthew Broussard</a></h3>
+<div class="meta">4:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>The Bell House hosts Broussard&#x27;s sharp, self-deprecating hour — two shows today, 4 PM is the early one.</p>
+<a class="tickets" href="https://www.ticketmaster.com/matthew-broussard-brooklyn-new-york-11-15-2026/event/3000652F50EEF1E0">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="NY Comedy Festival Presents Mojo Brookzz: Outta Pocket Comedy Tour">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ny-comedy-festival-presents-mojo-brookzz-new-york-new-york-11-15-2026/event/3B0064EAA8355370">NY Comedy Festival Presents Mojo Brookzz: Outta Pocket Comedy Tour</a></h3>
+<div class="meta">6:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>NY Comedy Festival closer-week energy at the Beacon: Brookzz&#x27;s Outta Pocket tour, big-room and unfiltered.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ny-comedy-festival-presents-mojo-brookzz-new-york-new-york-11-15-2026/event/3B0064EAA8355370">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Geoffrey Asmus">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/geoffrey-asmus-new-york-new-york-11-15-2026/event/000064F7CDFAC431">Geoffrey Asmus</a></h3>
+<div class="meta">7:00 PM · Gramercy Theatre, Gramercy</div>
+<p>Dry, deadpan stand-up from a festival favorite at Gramercy Theatre.</p>
+<a class="tickets" href="https://www.ticketmaster.com/geoffrey-asmus-new-york-new-york-11-15-2026/event/000064F7CDFAC431">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-8" data-name="The Rocky Horror Show">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7Jv46">The Rocky Horror Show</a></h3>
+<div class="meta">2:00 PM · Studio 54, Hell&#x27;s Kitchen</div>
+<p>Studio 54 does the Time Warp: the cult classic live, fishnets and audience participation encouraged.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7Jv46">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Oh, Mary!">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-15-2026/event/Z1r9uZruZqGZ17J9-O">Oh, Mary!</a></h3>
+<div class="meta">3:00 PM · Lyceum Theatre, Midtown-Times Square</div>
+<p>The runaway hit farce about Mary Todd Lincoln is still the funniest ticket on Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-15-2026/event/Z1r9uZruZqGZ17J9-O">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Schmigadoon!">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-15-2026/event/Z1r9uZrrZbpZ1Ae7A-d">Schmigadoon!</a></h3>
+<div class="meta">3:00 PM · Nederlander Theatre, Midtown-Times Square</div>
+<p>The Apple TV musical-comedy jumps to the stage — big songs, bigger jokes, full Broadway treatment.</p>
+<a class="tickets" href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-15-2026/event/Z1r9uZrrZbpZ1Ae7A-d">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="ACT UP 40th Anniversary Fundraiser: WHAT HAPPENS TO BOYS IN CHELSEA">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/act-up-40th-anniversary-fundraiser-what-happens-to-boys-in-chelsea-tickets-2002984276891">ACT UP 40th Anniversary Fundraiser: WHAT HAPPENS TO BOYS IN CHELSEA</a></h3>
+<div class="meta">6:30 PM · Judson Memorial Church, Greenwich Village · 10</div>
+<p>A solo choreopoem about a gay boy in Chelsea, performed as a fundraiser for ACT UP&#x27;s 40th anniversary — opening remarks from a founding member.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/act-up-40th-anniversary-fundraiser-what-happens-to-boys-in-chelsea-tickets-2002984276891">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="DIFF NYC &#x27;26 - Michael - Special Screening Co-Presented by Lionsgate">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/diff-nyc-26-michael-special-screening-co-presented-by-lionsgate-tickets-2003627723457">DIFF NYC &#x27;26 - Michael - Special Screening Co-Presented by Lionsgate</a></h3>
+<div class="meta">3:45 PM · Samuel B. &amp; David Rose Building, Upper West Side-Lincoln Square · Free</div>
+<p>NYC premiere of the Michael Jackson biopic at Lincoln Center, with a Q&amp;A after — free, first come, first served.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/diff-nyc-26-michael-special-screening-co-presented-by-lionsgate-tickets-2003627723457">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">6:20 PM · Film Forum, SoHo-Little Italy-Hudson Square · 9</div>
+<p>Zhang Yimou&#x27;s ravishing 4K restoration of the Gong Li classic, still playing at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Wild Horse Nine">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/wild-horse-nine/">Wild Horse Nine</a></h3>
+<div class="meta">7:35 PM · Nitehawk Cinema Williamsburg, Williamsburg · 18</div>
+<p>Martin McDonagh&#x27;s new CIA caper — Malkovich, Rockwell and Buscemi loose on Easter Island — on the big screen with dinner service.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/wild-horse-nine/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-15" data-name="Sunday Greenmarket at Bartel-Pritchard Square">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritchard-square-4/2026-11-15/">Sunday Greenmarket at Bartel-Pritchard Square</a></h3>
+<div class="meta">9:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>South Slope&#x27;s Sunday market inside Prospect Park: farm vegetables, baked goods, fresh-caught fish and flowers, until 2 PM.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritchard-square-4/2026-11-15/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Let&#x27;s Talk About Sake!">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2003933101852">Let&#x27;s Talk About Sake!</a></h3>
+<div class="meta">1:30 PM · Kato Sake Works, Bushwick (West) · 45</div>
+<p>A 90-minute guided tasting at Bushwick&#x27;s own sake brewery — limited seats, very much worth it.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2003933101852">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-17" data-name="All Ages Event: Book Release and Pigeon Party with Tine Bird">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/wjiysbob">All Ages Event: Book Release and Pigeon Party with Tine Bird</a></h3>
+<div class="meta">12:00 PM · A.MANO Brooklyn, Prospect Heights · Free</div>
+<p>A book launch for a pigeon alphabet book, with readings, paper-doll pigeons and figure-drawing demos — gloriously unserious, all ages.</p>
+<a class="tickets" href="https://luma.com/wjiysbob">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Play Fair Brooklyn">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/IxY0ewj9tmvLvHToDw6V">Play Fair Brooklyn</a></h3>
+<div class="meta">1:00 PM · Bogart House, East Williamsburg · 30</div>
+<p>A community festival for North Brooklyn: 20+ drop-in activities from yoga to pottery, a club fair of local groups, a DJ and a $300 raffle — $30 covers everything.</p>
+<a class="tickets" href="https://partiful.com/e/IxY0ewj9tmvLvHToDw6V">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Grand Exhibition of Classical and Historical Fencing">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/grand-exhibition-of-classical-and-historical-fencing-tickets-1997898779030">Grand Exhibition of Classical and Historical Fencing</a></h3>
+<div class="meta">2:30 PM · St. Ann &amp; the Holy Trinity Church, Brooklyn Heights · 10</div>
+<p>Nineteenth-century blades, live demonstrations and Gilded Age fencing lore inside a Brooklyn Heights church.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/grand-exhibition-of-classical-and-historical-fencing-tickets-1997898779030">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-20" data-name="Sunday Pranzo Club - Pasta Making -">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sunday-pranzo-club-pasta-making--tickets-2003213528589">Sunday Pranzo Club - Pasta Making -</a></h3>
+<div class="meta">1:00 PM · Ciao Evento, Tribeca-Civic Center · $127.02</div>
+<p>A relaxed Sunday pasta-making afternoon in Tribeca: aperitivo, handmade pasta, then a communal meal — 21+, seats still open this weekend.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sunday-pranzo-club-pasta-making--tickets-2003213528589">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Hands-On: Tagliatelle with Fall Ragù">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002761713197">Hands-On: Tagliatelle with Fall Ragù</a></h3>
+<div class="meta">2:00 PM · Eataly NYC Flatiron, Midtown South-Flatiron-Union Square · $112.35</div>
+<p>Roll your own tagliatelle with squash ragù at Eataly&#x27;s La Scuola, wine pairing included — sales end soon.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002761713197">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-22" data-name="TASTE Live at Rizzoli with Melissa Clark (TICKETED)">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/taste-live-at-rizzoli-with-melissa-clark-ticketed-tickets-2002302094465">TASTE Live at Rizzoli with Melissa Clark (TICKETED)</a></h3>
+<div class="meta">5:00 PM · Rizzoli, Midtown South-Flatiron-Union Square · $55.2</div>
+<p>The NYT&#x27;s Melissa Clark celebrates her Big Book of Dinner at Rizzoli, live-recorded with a signing after — going fast.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/taste-live-at-rizzoli-with-melissa-clark-ticketed-tickets-2002302094465">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Terence Tao: Six Math Essentials">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/terence-tao-six-math-essentials-tickets-2000314474440">Terence Tao: Six Math Essentials</a></h3>
+<div class="meta">7:00 PM · Pioneer Works, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · Free</div>
+<p>The world&#x27;s most famous living mathematician talks his first popular book with Janna Levin at Pioneer Works, then signs copies.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/terence-tao-six-math-essentials-tickets-2000314474440">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-24" data-name="Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011498311">Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce</a></h3>
+<div class="meta">2:00 PM · The Woolworth Building (Inside Lobby), Financial District-Battery Park City · $45.25</div>
+<p>The only way inside the private Woolworth Building: ornate lobby, original vault, and usually the 26th floor — advance registration required.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003011498311">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-25" data-name="Gotham FC vs. Kansas City Current – NWSL Semifinals">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://randallsisland.org/events/gotham-fc-vs-kansas-city-current-nwsl-semifinals">Gotham FC vs. Kansas City Current – NWSL Semifinals</a></h3>
+<div class="meta">3:00 PM · Icahn Stadium, Randall&#x27;s Island</div>
+<p>NWSL semifinal at Icahn Stadium: Gotham chase back-to-back titles and a third in four years.</p>
+<a class="tickets" href="https://randallsisland.org/events/gotham-fc-vs-kansas-city-current-nwsl-semifinals">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Try Curling 2026-2027 Season (Fall)">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/try-curling-2026-2027-season-fall-tickets-2004502453799">Try Curling 2026-2027 Season (Fall)</a></h3>
+<div class="meta">6:10 PM · LeFrak Center at Lakeside Prospect Park Brooklyn, Prospect Park · 110</div>
+<p>Never curled? This 90-minute on-ice intro at Prospect Park&#x27;s LeFrak Center is the way in — and today is National Curling Day, fittingly.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/try-curling-2026-2027-season-fall-tickets-2004502453799">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-27" data-name="MILNA MARKET: South Asian Pop-Up Market NYC">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/mezmgieh">MILNA MARKET: South Asian Pop-Up Market NYC</a></h3>
+<div class="meta">11:00 AM · 5-2-A at Industry City, Sunset Park (West) · $4.36</div>
+<p>Sixty-plus South Asian makers take over Industry City — food, fashion, jewelry, henna and a desi charm bar, $4 in.</p>
+<a class="tickets" href="https://luma.com/mezmgieh">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-28" data-name="Board Game Brunch">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/board-game-brunch-tickets-2004012588599">Board Game Brunch</a></h3>
+<div class="meta">11:00 AM · Hive Mind Books, Bushwick (West)</div>
+<p>Coffee, snacks and a rotating table of games at Bushwick&#x27;s bookshop-café — pull up a chair, stay a couple of easy hours.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/board-game-brunch-tickets-2004012588599">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-15";
+const NAMES = ["New York Philharmonic: Puccini\u2019s Tosca (opera in concert)", "Trinity Youth Chorus: Gloria", "Orla Gartland", "Lalah Hathaway", "Armand Hammer - Ages 18+", "Matthew Broussard", "NY Comedy Festival Presents Mojo Brookzz: Outta Pocket Comedy Tour", "Geoffrey Asmus", "The Rocky Horror Show", "Oh, Mary!", "Schmigadoon!", "ACT UP 40th Anniversary Fundraiser: WHAT HAPPENS TO BOYS IN CHELSEA", "DIFF NYC '26 - Michael - Special Screening Co-Presented by Lionsgate", "Raise The Red Lantern", "Wild Horse Nine", "Sunday Greenmarket at Bartel-Pritchard Square", "Let's Talk About Sake!", "All Ages Event: Book Release and Pigeon Party with Tine Bird", "Play Fair Brooklyn", "Grand Exhibition of Classical and Historical Fencing", "Sunday Pranzo Club - Pasta Making -", "Hands-On: Tagliatelle with Fall Rag\u00f9", "TASTE Live at Rizzoli with Melissa Clark (TICKETED)", "Terence Tao: Six Math Essentials", "Exclusive Tour Inside the Woolworth Building: NYC\u2019s Cathedral of Commerce", "Gotham FC vs. Kansas City Current \u2013 NWSL Semifinals", "Try Curling 2026-2027 Season (Fall)", "MILNA MARKET: South Asian Pop-Up Market NYC", "Board Game Brunch"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

@@ -1,0 +1,493 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261115-0@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T140000
+DTEND;TZID=America/New_York:20261115T160000
+SUMMARY:New York Philharmonic: Puccini’s Tosca (opera in concert)
+LOCATION:Stern Auditorium / Perelman Stage at Carnegie Hall\, Hell's Kitche
+ 
+n
+DESCRIPTION:Dudamel conducts Puccini's Tosca in concert with Rebeka\, Kaufm
+ 
+ann and Tézier — one of only two performances\, and availability is alre
+ 
+ady low. Tickets & info: https://www.carnegiehall.org/Calendar/2026/11/15/N
+ 
+ew-York-Philharmonic-0200PM
+URL:https://www.carnegiehall.org/Calendar/2026/11/15/New-York-Philharmonic-
+ 
+0200PM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-1@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T150000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Trinity Youth Chorus: Gloria
+LOCATION:Trinity Church\, Financial District
+DESCRIPTION:Trinity's young voices sing Vivaldi's Gloria and Mozart's Mass 
+ 
+in C with orchestra — free\, but register ahead\, seats are limited. Tick
+ 
+ets & info: https://www.eventbrite.com/e/trinity-youth-chorus-gloria-ticket
+ 
+s-1993623188624
+URL:https://www.eventbrite.com/e/trinity-youth-chorus-gloria-tickets-199362
+ 
+3188624
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-2@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T183000
+DTEND;TZID=America/New_York:20261115T203000
+SUMMARY:Orla Gartland
+LOCATION:Bowery Palace\, East Village
+DESCRIPTION:Irish indie-pop songwriter plays Bowery Palace on a run of buzz
+ 
+y NYC dates. Tickets & info: https://www.ticketweb.com/event/orla-gartland-
+ 
+bowery-palace-tickets/14411564
+URL:https://www.ticketweb.com/event/orla-gartland-bowery-palace-tickets/144
+ 
+11564
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-3@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T190000
+DTEND;TZID=America/New_York:20261115T210000
+SUMMARY:Lalah Hathaway
+LOCATION:Sony Hall\, Midtown-Times Square
+DESCRIPTION:Five-time Grammy winner brings her velvet R&B to Sony Hall for 
+ 
+an early-evening set. Tickets & info: https://www.ticketmaster.com/lalah-ha
+ 
+thaway-new-york-new-york-11-15-2026/event/000064E7E54C45AE
+URL:https://www.ticketmaster.com/lalah-hathaway-new-york-new-york-11-15-202
+ 
+6/event/000064E7E54C45AE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-4@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T200000
+DTEND;TZID=America/New_York:20261115T220000
+SUMMARY:Armand Hammer - Ages 18+
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:billy woods and ELUCID bring their dense\, literary rap to Musi
+ 
+c Hall of Williamsburg. Tickets & info: https://www.ticketmaster.com/event/
+ 
+Z7r9jZ1A7ObaE
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7ObaE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-5@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T160000
+DTEND;TZID=America/New_York:20261115T180000
+SUMMARY:Matthew Broussard
+LOCATION:The Bell House\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The Bell House hosts Broussard's sharp\, self-deprecating hour 
+ 
+— two shows today\, 4 PM is the early one. Tickets & info: https://www.ti
+ 
+cketmaster.com/matthew-broussard-brooklyn-new-york-11-15-2026/event/3000652
+ 
+F50EEF1E0
+URL:https://www.ticketmaster.com/matthew-broussard-brooklyn-new-york-11-15-
+ 
+2026/event/3000652F50EEF1E0
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-6@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T183000
+DTEND;TZID=America/New_York:20261115T203000
+SUMMARY:NY Comedy Festival Presents Mojo Brookzz: Outta Pocket Comedy Tour
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:NY Comedy Festival closer-week energy at the Beacon: Brookzz's 
+ 
+Outta Pocket tour\, big-room and unfiltered. Tickets & info: https://www.ti
+ 
+cketmaster.com/ny-comedy-festival-presents-mojo-brookzz-new-york-new-york-1
+ 
+1-15-2026/event/3B0064EAA8355370
+URL:https://www.ticketmaster.com/ny-comedy-festival-presents-mojo-brookzz-n
+ 
+ew-york-new-york-11-15-2026/event/3B0064EAA8355370
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-7@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T190000
+DTEND;TZID=America/New_York:20261115T210000
+SUMMARY:Geoffrey Asmus
+LOCATION:Gramercy Theatre\, Gramercy
+DESCRIPTION:Dry\, deadpan stand-up from a festival favorite at Gramercy The
+ 
+atre. Tickets & info: https://www.ticketmaster.com/geoffrey-asmus-new-york-
+ 
+new-york-11-15-2026/event/000064F7CDFAC431
+URL:https://www.ticketmaster.com/geoffrey-asmus-new-york-new-york-11-15-202
+ 
+6/event/000064F7CDFAC431
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-8@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T140000
+DTEND;TZID=America/New_York:20261115T160000
+SUMMARY:The Rocky Horror Show
+LOCATION:Studio 54\, Hell's Kitchen
+DESCRIPTION:Studio 54 does the Time Warp: the cult classic live\, fishnets 
+ 
+and audience participation encouraged. Tickets & info: https://www.ticketma
+ 
+ster.com/event/Z7r9jZ1A7Jv46
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Jv46
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-9@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T150000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:The runaway hit farce about Mary Todd Lincoln is still the funn
+ 
+iest ticket on Broadway. Tickets & info: https://www.ticketmaster.com/oh-ma
+ 
+ry-new-york-new-york-11-15-2026/event/Z1r9uZruZqGZ17J9-O
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-11-15-2026/event
+ 
+/Z1r9uZruZqGZ17J9-O
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-10@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T150000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Schmigadoon!
+LOCATION:Nederlander Theatre\, Midtown-Times Square
+DESCRIPTION:The Apple TV musical-comedy jumps to the stage — big songs\, 
+ 
+bigger jokes\, full Broadway treatment. Tickets & info: https://www.ticketm
+ 
+aster.com/schmigadoon-new-york-new-york-11-15-2026/event/Z1r9uZrrZbpZ1Ae7A-
+ 
+d
+URL:https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-15-2026/e
+ 
+vent/Z1r9uZrrZbpZ1Ae7A-d
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-11@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T183000
+DTEND;TZID=America/New_York:20261115T203000
+SUMMARY:ACT UP 40th Anniversary Fundraiser: WHAT HAPPENS TO BOYS IN CHELSEA
+LOCATION:Judson Memorial Church\, Greenwich Village
+DESCRIPTION:A solo choreopoem about a gay boy in Chelsea\, performed as a f
+ 
+undraiser for ACT UP's 40th anniversary — opening remarks from a founding
+ 
+ member. Tickets & info: https://www.eventbrite.com/e/act-up-40th-anniversa
+ 
+ry-fundraiser-what-happens-to-boys-in-chelsea-tickets-2002984276891
+URL:https://www.eventbrite.com/e/act-up-40th-anniversary-fundraiser-what-ha
+ 
+ppens-to-boys-in-chelsea-tickets-2002984276891
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-12@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T154500
+DTEND;TZID=America/New_York:20261115T174500
+SUMMARY:DIFF NYC '26 - Michael - Special Screening Co-Presented by Lionsgat
+ 
+e
+LOCATION:Samuel B. & David Rose Building\, Upper West Side-Lincoln Square
+DESCRIPTION:NYC premiere of the Michael Jackson biopic at Lincoln Center\, 
+ 
+with a Q&A after — free\, first come\, first served. Tickets & info: http
+ 
+s://www.eventbrite.com/e/diff-nyc-26-michael-special-screening-co-presented
+ 
+-by-lionsgate-tickets-2003627723457
+URL:https://www.eventbrite.com/e/diff-nyc-26-michael-special-screening-co-p
+ 
+resented-by-lionsgate-tickets-2003627723457
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-13@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T182000
+DTEND;TZID=America/New_York:20261115T202000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's ravishing 4K restoration of the Gong Li classic\,
+ 
+ still playing at Film Forum. Tickets & info: https://filmforum.org/film/ra
+ 
+ise-the-red-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-14@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T193500
+DTEND;TZID=America/New_York:20261115T213500
+SUMMARY:Wild Horse Nine
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:Martin McDonagh's new CIA caper — Malkovich\, Rockwell and Bu
+ 
+scemi loose on Easter Island — on the big screen with dinner service. Tic
+ 
+kets & info: https://nitehawkcinema.com/williamsburg/movies/wild-horse-nine
+ 
+/
+URL:https://nitehawkcinema.com/williamsburg/movies/wild-horse-nine/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-15@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T090000
+DTEND;TZID=America/New_York:20261115T110000
+SUMMARY:Sunday Greenmarket at Bartel-Pritchard Square
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:South Slope's Sunday market inside Prospect Park: farm vegetabl
+ 
+es\, baked goods\, fresh-caught fish and flowers\, until 2 PM. Tickets & in
+ 
+fo: https://www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritcha
+ 
+rd-square-4/2026-11-15/
+URL:https://www.prospectpark.org/event/sunday-greenmarket-at-bartel-pritcha
+ 
+rd-square-4/2026-11-15/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-16@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T133000
+DTEND;TZID=America/New_York:20261115T153000
+SUMMARY:Let's Talk About Sake!
+LOCATION:Kato Sake Works\, Bushwick (West)
+DESCRIPTION:A 90-minute guided tasting at Bushwick's own sake brewery — l
+ 
+imited seats\, very much worth it. Tickets & info: https://www.eventbrite.c
+ 
+om/e/lets-talk-about-sake-tickets-2003933101852
+URL:https://www.eventbrite.com/e/lets-talk-about-sake-tickets-2003933101852
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-17@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T120000
+DTEND;TZID=America/New_York:20261115T140000
+SUMMARY:All Ages Event: Book Release and Pigeon Party with Tine Bird
+LOCATION:A.MANO Brooklyn\, Prospect Heights
+DESCRIPTION:A book launch for a pigeon alphabet book\, with readings\, pape
+ 
+r-doll pigeons and figure-drawing demos — gloriously unserious\, all ages
+ 
+. Tickets & info: https://luma.com/wjiysbob
+URL:https://luma.com/wjiysbob
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-18@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T130000
+DTEND;TZID=America/New_York:20261115T150000
+SUMMARY:Play Fair Brooklyn
+LOCATION:Bogart House\, East Williamsburg
+DESCRIPTION:A community festival for North Brooklyn: 20+ drop-in activities
+ 
+ from yoga to pottery\, a club fair of local groups\, a DJ and a $300 raffl
+ 
+e — $30 covers everything. Tickets & info: https://partiful.com/e/IxY0ewj
+ 
+9tmvLvHToDw6V
+URL:https://partiful.com/e/IxY0ewj9tmvLvHToDw6V
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-19@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T143000
+DTEND;TZID=America/New_York:20261115T163000
+SUMMARY:Grand Exhibition of Classical and Historical Fencing
+LOCATION:St. Ann & the Holy Trinity Church\, Brooklyn Heights
+DESCRIPTION:Nineteenth-century blades\, live demonstrations and Gilded Age 
+ 
+fencing lore inside a Brooklyn Heights church. Tickets & info: https://www.
+ 
+eventbrite.com/e/grand-exhibition-of-classical-and-historical-fencing-ticke
+ 
+ts-1997898779030
+URL:https://www.eventbrite.com/e/grand-exhibition-of-classical-and-historic
+ 
+al-fencing-tickets-1997898779030
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-20@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T130000
+DTEND;TZID=America/New_York:20261115T150000
+SUMMARY:Sunday Pranzo Club - Pasta Making -
+LOCATION:Ciao Evento\, Tribeca-Civic Center
+DESCRIPTION:A relaxed Sunday pasta-making afternoon in Tribeca: aperitivo\,
+ 
+ handmade pasta\, then a communal meal — 21+\, seats still open this week
+ 
+end. Tickets & info: https://www.eventbrite.com/e/sunday-pranzo-club-pasta-
+ 
+making--tickets-2003213528589
+URL:https://www.eventbrite.com/e/sunday-pranzo-club-pasta-making--tickets-2
+ 
+003213528589
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-21@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T140000
+DTEND;TZID=America/New_York:20261115T160000
+SUMMARY:Hands-On: Tagliatelle with Fall Ragù
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Roll your own tagliatelle with squash ragù at Eataly's La Scuo
+ 
+la\, wine pairing included — sales end soon. Tickets & info: https://www.
+ 
+eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-tickets-2002761713197
+URL:https://www.eventbrite.com/e/hands-on-tagliatelle-with-fall-ragu-ticket
+ 
+s-2002761713197
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-22@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T170000
+DTEND;TZID=America/New_York:20261115T190000
+SUMMARY:TASTE Live at Rizzoli with Melissa Clark (TICKETED)
+LOCATION:Rizzoli\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The NYT's Melissa Clark celebrates her Big Book of Dinner at Ri
+ 
+zzoli\, live-recorded with a signing after — going fast. Tickets & info: 
+ 
+https://www.eventbrite.com/e/taste-live-at-rizzoli-with-melissa-clark-ticke
+ 
+ted-tickets-2002302094465
+URL:https://www.eventbrite.com/e/taste-live-at-rizzoli-with-melissa-clark-t
+ 
+icketed-tickets-2002302094465
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-23@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T190000
+DTEND;TZID=America/New_York:20261115T210000
+SUMMARY:Terence Tao: Six Math Essentials
+LOCATION:Pioneer Works\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:The world's most famous living mathematician talks his first po
+ 
+pular book with Janna Levin at Pioneer Works\, then signs copies. Tickets &
+ 
+ info: https://www.eventbrite.com/e/terence-tao-six-math-essentials-tickets
+ 
+-2000314474440
+URL:https://www.eventbrite.com/e/terence-tao-six-math-essentials-tickets-20
+ 
+00314474440
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-24@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T140000
+DTEND;TZID=America/New_York:20261115T160000
+SUMMARY:Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of 
+ 
+Commerce
+LOCATION:The Woolworth Building (Inside Lobby)\, Financial District-Battery
+ 
+ Park City
+DESCRIPTION:The only way inside the private Woolworth Building: ornate lobb
+ 
+y\, original vault\, and usually the 26th floor — advance registration re
+ 
+quired. Tickets & info: https://www.eventbrite.com/e/exclusive-tour-inside-
+ 
+the-woolworth-building-nycs-cathedral-of-commerce-registration-200301149831
+ 
+1
+URL:https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-buildi
+ 
+ng-nycs-cathedral-of-commerce-registration-2003011498311
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-25@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T150000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Gotham FC vs. Kansas City Current – NWSL Semifinals
+LOCATION:Icahn Stadium\, Randall's Island
+DESCRIPTION:NWSL semifinal at Icahn Stadium: Gotham chase back-to-back titl
+ 
+es and a third in four years. Tickets & info: https://randallsisland.org/ev
+ 
+ents/gotham-fc-vs-kansas-city-current-nwsl-semifinals
+URL:https://randallsisland.org/events/gotham-fc-vs-kansas-city-current-nwsl
+ 
+-semifinals
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-26@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T181000
+DTEND;TZID=America/New_York:20261115T201000
+SUMMARY:Try Curling 2026-2027 Season (Fall)
+LOCATION:LeFrak Center at Lakeside Prospect Park Brooklyn\, Prospect Park
+DESCRIPTION:Never curled? This 90-minute on-ice intro at Prospect Park's Le
+ 
+Frak Center is the way in — and today is National Curling Day\, fittingly
+ 
+. Tickets & info: https://www.eventbrite.com/e/try-curling-2026-2027-season
+ 
+-fall-tickets-2004502453799
+URL:https://www.eventbrite.com/e/try-curling-2026-2027-season-fall-tickets-
+ 
+2004502453799
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-27@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T110000
+DTEND;TZID=America/New_York:20261115T130000
+SUMMARY:MILNA MARKET: South Asian Pop-Up Market NYC
+LOCATION:5-2-A at Industry City\, Sunset Park (West)
+DESCRIPTION:Sixty-plus South Asian makers take over Industry City — food\
+ 
+, fashion\, jewelry\, henna and a desi charm bar\, $4 in. Tickets & info: h
+ 
+ttps://luma.com/mezmgieh
+URL:https://luma.com/mezmgieh
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261115-28@concierge
+DTSTAMP:20261115T134030Z
+DTSTART;TZID=America/New_York:20261115T110000
+DTEND;TZID=America/New_York:20261115T130000
+SUMMARY:Board Game Brunch
+LOCATION:Hive Mind Books\, Bushwick (West)
+DESCRIPTION:Coffee\, snacks and a rotating table of games at Bushwick's boo
+ 
+kshop-café — pull up a chair\, stay a couple of easy hours. Tickets & in
+ 
+fo: https://www.eventbrite.com/e/board-game-brunch-tickets-2004012588599
+URL:https://www.eventbrite.com/e/board-game-brunch-tickets-2004012588599
+END:VEVENT
+END:VCALENDAR
