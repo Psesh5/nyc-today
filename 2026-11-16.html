@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, November 16</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, November 16</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-16.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Sleep: North America 2026 (MOVED FROM BROOKLYN PARAMOUNT)">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sleep-north-america-2026-moved-from-new-york-new-york-11-16-2026/event/00006529DD758B0F">Sleep: North America 2026 (MOVED FROM BROOKLYN PARAMOUNT)</a></h3>
+<div class="meta">7:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy · $59.5</div>
+<p>Doom-metal legends Sleep bring the heavy riffs to Irving Plaza after the show moved from Brooklyn Paramount — all previously purchased tickets honored.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sleep-north-america-2026-moved-from-new-york-new-york-11-16-2026/event/00006529DD758B0F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Scott Neumann Quartet">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/scott-neumann-quartet-smalls-jazz-club-tickets/14362484">Scott Neumann Quartet</a></h3>
+<div class="meta">6:00 PM · Smalls Jazz Club, West Village · $43.7</div>
+<p>Veteran drummer leads a top-shelf quartet at Smalls, the West Village&#x27;s tiny temple of jazz.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/scott-neumann-quartet-smalls-jazz-club-tickets/14362484">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Jim Caruso&#x27;s Cast Party with Billy Stritch">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/jim-carusos-cast-party-with-birdland-jazz-club-tickets/15007253">Jim Caruso&#x27;s Cast Party with Billy Stritch</a></h3>
+<div class="meta">9:30 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $35.46</div>
+<p>Broadway glitz and impromptu variety at Birdland&#x27;s Monday-night institution — running since 1993, with surprise drop-ins from showbiz stars.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/jim-carusos-cast-party-with-birdland-jazz-club-tickets/15007253">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-3" data-name="Six: The Musical">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-11-16-2026/event/Z1r9uZrrZbpZ1AvP6CZ">Six: The Musical</a></h3>
+<div class="meta">7:00 PM · Lena Horne Theatre, Hell&#x27;s Kitchen · $93.9</div>
+<p>Henry VIII&#x27;s six wives reclaim the mic in this 80-minute pop-concert musical — still one of Broadway&#x27;s liveliest nights out.</p>
+<a class="tickets" href="https://www.ticketmaster.com/six-new-york-ny-new-york-new-york-11-16-2026/event/Z1r9uZrrZbpZ1AvP6CZ">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Inter Alia">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/inter-alia-new-york-new-york-11-16-2026/event/Z1r9uZruZqGZ1AvZkj6">Inter Alia</a></h3>
+<div class="meta">7:30 PM · Music Box Theatre-NY, Hell&#x27;s Kitchen · $166.8</div>
+<p>A sharp new drama on Broadway&#x27;s Music Box stage.</p>
+<a class="tickets" href="https://www.ticketmaster.com/inter-alia-new-york-new-york-11-16-2026/event/Z1r9uZruZqGZ1AvZkj6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="MOUNTAIN GIRL a new play by John Patrick Shanley">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116228562">MOUNTAIN GIRL a new play by John Patrick Shanley</a></h3>
+<div class="meta">7:30 PM · 154 Christopher St, West Village · 47</div>
+<p>A brand-new John Patrick Shanley play in an intimate West Village room — the kind of premiere you brag about seeing first.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116228562">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="Good Eggs ft: Mark Normand, Shane Torres, Liz Glazer, Gary Vider, Matt Ruby">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-shane-torres-liz-glazer-gary-vider-matt-ruby">Good Eggs ft: Mark Normand, Shane Torres, Liz Glazer, Gary Vider, Matt Ruby</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $25</div>
+<p>Mark Normand&#x27;s long-running weekly showcase — Time Out called it one of the best weekly shows in the city.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-shane-torres-liz-glazer-gary-vider-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Good Bits ft: Nick Griffin, Matt Koff, Torey Cole, Anthony Moore, Kaneez Surka, Shaun Murphy, Justin Brown">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-bits-ft-nick-griffin-matt-koff-torey-cole-anthony-moore-kaneez-surka-shaun-murphy-justin-brown">Good Bits ft: Nick Griffin, Matt Koff, Torey Cole, Anthony Moore, Kaneez Surka, Shaun Murphy, Justin Brown</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>The city&#x27;s best comics break out only their strongest material — an East Village showcase built for laughs, not warm-ups.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-bits-ft-nick-griffin-matt-koff-torey-cole-anthony-moore-kaneez-surka-shaun-murphy-justin-brown">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Sean Patton: Eros">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sean-patton-eros-tickets-2000520767468">Sean Patton: Eros</a></h3>
+<div class="meta">7:30 PM · Union Hall, Park Slope · $19.26</div>
+<p>Sean Patton&#x27;s one-man show about doing battle with your emotions — his words, and he guarantees it&#x27;s the best show you&#x27;ll see on a Monday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sean-patton-eros-tickets-2000520767468">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-9" data-name="John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-new-york-new-york-11-16-2026/event/3B0064D8D88C6719">John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central) · 50</div>
+<p>John Cameron Mitchell celebrates 25 years of Hedwig live on the Beacon stage, screening the film with his own commentary and performance.</p>
+<a class="tickets" href="https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-new-york-new-york-11-16-2026/event/3B0064D8D88C6719">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Rosemary&#x27;s Baby">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001188-rosemarys-baby/">Rosemary&#x27;s Baby</a></h3>
+<div class="meta">9:50 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Polanski&#x27;s slow-burn classic in 35mm on the Lower East Side — the perfect late-night chiller.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001188-rosemarys-baby/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="THAW: Parenthood on Ice · NYC Premiere · Screening &amp; Panel Discussion">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/qrgyr0zq">THAW: Parenthood on Ice · NYC Premiere · Screening &amp; Panel Discussion</a></h3>
+<div class="meta">6:00 PM · Scandinavia House, Midtown-Times Square · Free</div>
+<p>NYC premiere of a documentary on the fertility-preservation industry, followed by a panel with the filmmaker and medical experts. Free.</p>
+<a class="tickets" href="https://luma.com/qrgyr0zq">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-12" data-name="Centroeuropa, book presentation and talk">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/centroeuropa-book-presentation-instituto-cervantes-new-york-nov-16-2026">Centroeuropa, book presentation and talk</a></h3>
+<div class="meta">6:00 PM · Instituto Cervantes New York, East Midtown-Turtle Bay · Free</div>
+<p>A National Book Award finalist in translation — Spanish author Vicente Luis Mora talks his eerie 19th-century novel with translator Rahul Bery. Free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/centroeuropa-book-presentation-instituto-cervantes-new-york-nov-16-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Book Launch: Bodega Cats of New York by Dan Rimada">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/dan-rimada-powerhouse-arena-nov-16-2026">Book Launch: Bodega Cats of New York by Dan Rimada</a></h3>
+<div class="meta">7:00 PM · POWERHOUSE Arena, Downtown Brooklyn-DUMBO-Boerum Hill · Free</div>
+<p>The working cats of NYC&#x27;s bodegas get their close-up — author Dan Rimada launches a photo book four years in the making.</p>
+<a class="tickets" href="https://bookevents.nyc/events/dan-rimada-powerhouse-arena-nov-16-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Democratize the Economy with Bhaskar Sunkara and Isabella Weber">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/democratize-the-economy-with-bhaskar-sunkara-and-isabella-weber-tickets-2003220925714">Democratize the Economy with Bhaskar Sunkara and Isabella Weber</a></h3>
+<div class="meta">6:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $6.65</div>
+<p>Jacobin hosts Bhaskar Sunkara and Isabella Weber on building an economy that actually serves working people.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/democratize-the-economy-with-bhaskar-sunkara-and-isabella-weber-tickets-2003220925714">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-15" data-name="Central Park Fall Photowalk with Tony Gale | Hosted by Sony">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/central-park-fall-photowalk-with-tony-gale-hosted-by-sony-tickets-2003432331033">Central Park Fall Photowalk with Tony Gale | Hosted by Sony</a></h3>
+<div class="meta">1:00 PM · Doris C. Freedman Plaza, Central Park · Free</div>
+<p>Sony Artisan Tony Gale leads a hands-on photo walk through peak fall foliage — bring your own camera.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/central-park-fall-photowalk-with-tony-gale-hosted-by-sony-tickets-2003432331033">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Juggling Class">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/juggling-weekday/2026-11-16">Juggling Class</a></h3>
+<div class="meta">12:00 PM · Bryant Park, Midtown-Times Square · Free</div>
+<p>Free juggling lessons on the Bryant Park lawn — drop in for a quick lesson or stay the whole lunch hour.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/juggling-weekday/2026-11-16">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-17" data-name="NYC Jewelry Week [exhibition opening]">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nyc-jewelry-week-exhibition-opening-tickets-2003936014564">NYC Jewelry Week [exhibition opening]</a></h3>
+<div class="meta">6:00 PM · Bohemian National Hall, Upper East Side-Lenox Hill-Roosevelt Island · Free</div>
+<p>Kick off NYC Jewelry Week with the makers themselves at the Wearable Art Museum&#x27;s opening.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nyc-jewelry-week-exhibition-opening-tickets-2003936014564">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Reception for Untitled (Nails) and Untitled (Triangle) by Liliana Porter">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/2ejsjzk9">Reception for Untitled (Nails) and Untitled (Triangle) by Liliana Porter</a></h3>
+<div class="meta">6:00 PM · ISLAA, Tribeca-Civic Center · Free</div>
+<p>A free opening reception for two poetic 1973 installations by Liliana Porter in Tribeca.</p>
+<a class="tickets" href="https://luma.com/2ejsjzk9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Vessel Lighting Ceremony">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.hudsonyardsnewyork.com/events/vessel-lighting-ceremony/">Vessel Lighting Ceremony</a></h3>
+<div class="meta">6:00 PM · Hudson Yards Public Square and Gardens, Chelsea-Hudson Yards · Free</div>
+<p>Anthony Ramos headlines the free lighting of Vessel&#x27;s brand-new holiday light show — the season officially starts tonight.</p>
+<a class="tickets" href="https://www.hudsonyardsnewyork.com/events/vessel-lighting-ceremony/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Altered: What We Carry Opening Reception">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/3VH2GsXSlCRQjKYNOpZh?rsvp=true">Altered: What We Carry Opening Reception</a></h3>
+<div class="meta">6:00 PM · Andrew Freedman Home, Grand Concourse · Free</div>
+<p>Bronx photographer Kreshonna Keane opens her final BXposed show of 2026 — a portrait series on bodies, beauty, and being seen.</p>
+<a class="tickets" href="https://partiful.com/e/3VH2GsXSlCRQjKYNOpZh?rsvp=true">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-21" data-name="NurseGiving – A Bronx Happy Hour Celebrating School Nurses!">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/lb10p7l4">NurseGiving – A Bronx Happy Hour Celebrating School Nurses!</a></h3>
+<div class="meta">4:00 PM · Charlies Bar &amp; Kitchen, Mott Haven-Port Morris · Free</div>
+<p>A Bronx happy hour celebrating school nurses — food and drinks on the house, open to nurses and the nurse-curious.</p>
+<a class="tickets" href="https://luma.com/lb10p7l4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-22" data-name="Board Game Speed Dating - Threes Brewing - Greenpoint NYC (Ages 25-39)">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/board-game-speed-dating-threes-brewing-greenpoint-nyc-ages-25-39-tickets-2002286941141">Board Game Speed Dating - Threes Brewing - Greenpoint NYC (Ages 25-39)</a></h3>
+<div class="meta">7:00 PM · Threes Brewing Greenpoint, Greenpoint · $25</div>
+<p>Speed dating, but the icebreaker is a board game — ages 25–39 at Greenpoint&#x27;s friendliest brewery.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/board-game-speed-dating-threes-brewing-greenpoint-nyc-ages-25-39-tickets-2002286941141">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-23" data-name="Ice Skating">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-16">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>Free admission at the Winter Village rink — skate under the skyline, rentals from $18.72.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-16">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-24" data-name="Seinfeld Trivia: Night Before Thanksgiving">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/seinfeld-trivia-night-before-thanksgiving-tickets-2003519860837">Seinfeld Trivia: Night Before Thanksgiving</a></h3>
+<div class="meta">7:00 PM · Slattery&#x27;s Midtown Pub, Midtown-Times Square · Free</div>
+<p>Festivus came early — Seinfeld trivia the week of Thanksgiving, at a classic Midtown pub.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/seinfeld-trivia-night-before-thanksgiving-tickets-2003519860837">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-25" data-name="New York Rangers vs. Montreal Canadiens">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-rangers-vs-montreal-canadiens-new-york-new-york-11-16-2026/event/3B0064F1B1DB4455">New York Rangers vs. Montreal Canadiens</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square · $115.9</div>
+<p>Original Six rivalry under the Garden lights — the Rangers host Montreal on a Monday night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-rangers-vs-montreal-canadiens-new-york-new-york-11-16-2026/event/3B0064F1B1DB4455">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-26" data-name="Bob Dylan Walking Tour">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/bob-dylan-walking-tour-tickets-2000306867688">Bob Dylan Walking Tour</a></h3>
+<div class="meta">11:00 AM · 1 Gramercy Park W, Gramercy · $15.18</div>
+<p>Walk Dylan&#x27;s early NYC haunts with a guide who knows every verse and venue.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/bob-dylan-walking-tour-tickets-2000306867688">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-16";
+const NAMES = ["Sleep: North America 2026 (MOVED FROM BROOKLYN PARAMOUNT)", "Scott Neumann Quartet", "Jim Caruso's Cast Party with Billy Stritch", "Six: The Musical", "Inter Alia", "MOUNTAIN GIRL a new play by John Patrick Shanley", "Good Eggs ft: Mark Normand, Shane Torres, Liz Glazer, Gary Vider, Matt Ruby", "Good Bits ft: Nick Griffin, Matt Koff, Torey Cole, Anthony Moore, Kaneez Surka, Shaun Murphy, Justin Brown", "Sean Patton: Eros", "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour", "Rosemary's Baby", "THAW: Parenthood on Ice \u00b7 NYC Premiere \u00b7 Screening & Panel Discussion", "Centroeuropa, book presentation and talk", "Book Launch: Bodega Cats of New York by Dan Rimada", "Democratize the Economy with Bhaskar Sunkara and Isabella Weber", "Central Park Fall Photowalk with Tony Gale | Hosted by Sony", "Juggling Class", "NYC Jewelry Week [exhibition opening]", "Reception for Untitled (Nails) and Untitled (Triangle) by Liliana Porter", "Vessel Lighting Ceremony", "Altered: What We Carry Opening Reception", "NurseGiving \u2013 A Bronx Happy Hour Celebrating School Nurses!", "Board Game Speed Dating - Threes Brewing - Greenpoint NYC (Ages 25-39)", "Ice Skating", "Seinfeld Trivia: Night Before Thanksgiving", "New York Rangers vs. Montreal Canadiens", "Bob Dylan Walking Tour"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
