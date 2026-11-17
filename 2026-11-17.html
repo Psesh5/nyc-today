@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, November 17</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, November 17</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-17.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="STING 3.0 Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0">STING 3.0 Tour</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Doors: 7PM Show: 8PM All set times and opening acts are subject to change without notice. For accessible seating inquiries, please email us directly at Info@BrooklynParamount.com to reserve accommodations. Balcony Includes: Exclusive Entrance via Dekalb Ave. Balcony Access Private Bar Private Bathrooms Private Coat Check</p>
+<a class="tickets" href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Sadurn">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sadurn-new-york-new-york-11-17-2026/event/00006506C0829BEE">Sadurn</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Sadurn w/ Kitchen, hemlock [Ages 18+, Doors Open 7pm, $20 Advance, $25 Day of Show]</p>
+<a class="tickets" href="https://www.ticketmaster.com/sadurn-new-york-new-york-11-17-2026/event/00006506C0829BEE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="LPR Presents: JOHN SCOFIELD&#x27;S &quot;ELECTROSPECTIVE&quot;">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/lpr-presents-john-scofields-electrospective-new-york-new-york-11-17-2026/event/03006475D39218E9">LPR Presents: JOHN SCOFIELD&#x27;S &quot;ELECTROSPECTIVE&quot;</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square</div>
+<p>Through his 54 year career 3 time Grammy Award winner John Scofield has occasionally detoured from the traditions of straight ahead jazz exploring a blend of funk and jazz that has led to some of his most popular projects. In late autumn of 2026 Scofield looks back at many of his now classic fusion groove compositions with Electrospective. Not intending to replicate the earlier fan favorites he plans instead to revisit them with the seasoned perspective of several decades culling tunes from his Blue Matter Uberjam and AGoGo bands each responsible for a few recordings as well as new material in the same vein. Scofield looks forward to teaming up with a stellar band of colleagues Electrospective will rely on interpretative input from Scofield alum and super funk drummer producer Adam Deitch Lettuce multidimensional Larry Goldings Scary Goldings James Taylor on keyboards and legendary bassist Oteil Burbridge Dead and CO. Tedeschi Trucks Allman Brothers.</p>
+<a class="tickets" href="https://www.ticketmaster.com/lpr-presents-john-scofields-electrospective-new-york-new-york-11-17-2026/event/03006475D39218E9">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Juilliard at The Apollo: Birth of the Cool">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/juilliard-at-the-apollo-birth-of-new-york-new-york-11-17-2026/event/0000651CBAAE3E8F">Juilliard at The Apollo: Birth of the Cool</a></h3>
+<div class="meta">7:30 PM · The Apollo&#x27;s Victoria Theater 1, Harlem (South)</div>
+<p>With a career defined by constant reinvention, Miles Davis continuously shaped and reshaped the sound of jazz, moving from bebop to cool jazz, post-bop to fusion, and beyond. His time in New York City, a hub of jazz innovation and culture, started with Juilliard. To mark the iconic alum&#x27;s 100th birthday, Juilliard Jazz and the Apollo Theater present a series of multidisciplinary performances on the legendary Harlem stage, honoring some of Davis&#x27; landmark albums: Birth of the Cool, Bitches Brew, and Kind of Blue.</p>
+<a class="tickets" href="https://www.ticketmaster.com/juilliard-at-the-apollo-birth-of-new-york-new-york-11-17-2026/event/0000651CBAAE3E8F">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-3" data-name="A Very Good+ Night of Comedy Featuring Jerry Seinfeld + Friends">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/a-very-good-night-of-comedy-new-york-new-york-11-17-2026/event/3B006531AFE55722">A Very Good+ Night of Comedy Featuring Jerry Seinfeld + Friends</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). Tickets are not available at the box office on the first day of the public on sale. ARRIVE EARLY: Please arrive 60-minutes prior to showtime. All packages, including briefcases and pocketbooks, will be inspected prior to entry. By purchasing tickets to this event, you agree to abide by the health and safety measures in effect at the time of the event. Government mandates, venue protocols, and event requirements are subject to change. For more information, please search your event on www.beacontheatre.com. This event may have immersive elements, which may include flashing or strobe lights, intense lighting, visual effects, loud noises, smoke and/or fog. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration if they have a history of discomfort or physical symptoms when experiencing these elements.</p>
+<a class="tickets" href="https://www.ticketmaster.com/a-very-good-night-of-comedy-new-york-new-york-11-17-2026/event/3B006531AFE55722">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Jaboukie Young-White">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/jaboukie-youngwhite-brooklyn-new-york-11-17-2026/event/300064E80DFCBE83">Jaboukie Young-White</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Door Time: 6:30pm. Show Time: 7:30pm. Front Bar opens 1 hour prior to door time. 21 &amp; over w/ valid, government-issued photo ID. General Admission standing &amp; seating. Seating is 1st come 1st served &amp; not guaranteed. Arrive early for best selection. If you have an accessibility request, please email thebellhouse@livenation.com prior. No outside food, drink permitted. $.25 per each ticket sold for a majority of events at The Bell House benefits Comedy Gives Back, a safety net for the comedy community. IG: @comedygivesback.</p>
+<a class="tickets" href="https://www.ticketmaster.com/jaboukie-youngwhite-brooklyn-new-york-11-17-2026/event/300064E80DFCBE83">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Stand-up at Comedy Cellar (MacDougal Street): Regina DeCicco, Drew Dunn, Nicolas Corda, Michelle Wolf &amp; more">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1794943800">Stand-up at Comedy Cellar (MacDougal Street): Regina DeCicco, Drew Dunn, Nicolas Corda, Michelle Wolf &amp; more</a></h3>
+<div class="meta">7:30 PM · Comedy Cellar (MacDougal Street), Greenwich Village</div>
+<p>Tonight&#x27;s lineup: Regina DeCicco, Drew Dunn, Nicolas Corda, Michelle Wolf, Amos Gill, Bobby St. Petersburg. Lineups change; check before you go.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1794943800">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Good Boys Punished">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/good-boys-punished-tickets-2004313009165">Good Boys Punished</a></h3>
+<div class="meta">6:00 PM · The Stonewall Inn, Greenwich Village</div>
+<p>Vote and roll the dice on how our two Good Boys are punished at this live D&amp;D comedy show at the Stonewall Inn.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/good-boys-punished-tickets-2004313009165">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-6" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-17-2026/event/3C006457CE861F10">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">3:00 PM · Radio City Music Hall, Midtown-Times Square</div>
+<p>Children younger than 24 months may attend without the purchase of a ticket, however, they may not occupy their own separate seat and must sit on a parent or guardian&#x27;s lap. Please note that government mandates, venue protocols and event requirements are subject to change. Be sure to visit rockettes.com/faq for the latest information. There is a fourteen (14) ticket limit per purchaser over the entire 2026 Christmas Spectacular season. The Christmas Spectacular is an immersive experience that includes confetti, pyrotechnics, smoke effects, intense lighting, visual effects, loud noises, flashing lights and flying objects (drones). Such elements may aggravate certain medical or physical conditions, and guests should take into consideration if they have a history of discomfort or physical symptoms when experiencing these elements.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-17-2026/event/3C006457CE861F10">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Operation Mincemeat: A New Musical">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-11-17-2026/event/Z1r9uZruZqGZ17Je_P">Operation Mincemeat: A New Musical</a></h3>
+<div class="meta">7:00 PM · John Golden Theatre, Hell&#x27;s Kitchen</div>
+<p>(1) Children under 4 years old will not be admitted. (2) No weapons permitted on the premises. No outside food or beverages, electric scooters, e-bikes, or battery-powered transportation devices, except when medically necessary. All items are subject to inspection. Anything brought into the theatre must fit on your lap or completely under your seat without blocking any aisles. Avoid bringing packages, luggage, and backpacks. Some items must be checked. (3) Strobe or flashing lights are used in this production. (4) This production contains moments of darkness. (5) This production uses loud sound effects. (6) This production uses theatrical haze and smoke.</p>
+<a class="tickets" href="https://www.ticketmaster.com/operation-mincemeat-a-new-musical-new-york-new-york-11-17-2026/event/Z1r9uZruZqGZ17Je_P">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Oh, Mary!">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-17-2026/event/Z1r9uZruZqGZ17J9-d">Oh, Mary!</a></h3>
+<div class="meta">7:30 PM · Lyceum Theatre, Midtown-Times Square</div>
+<p>(1) At this performance, the role of Mary Todd Lincoln will be played by Hannah Solow. (2) Children under 4 years old will not be admitted. (3) No weapons permitted on the premises. No outside food or beverages, electric scooters, e-bikes, or battery-powered transportation devices, except when medically necessary. All items are subject to inspection. Anything brought into the theatre must fit on your lap or completely under your seat without blocking any aisles. Avoid bringing packages, luggage, and backpacks. Some items must be checked. (4) This production uses a gunshot sound effect. (5) This production uses theatrical haze and smoke.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-17-2026/event/Z1r9uZruZqGZ17J9-d">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-9" data-name="The Devils">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">7:25 PM · IFC Center, Greenwich Village</div>
+<p>Showtimes today: 11:00 AM, 4:35 PM, 7:25 PM, 9:15 PM.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Animation Nights New York (ANNY) at The Gutter Spare Room!">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/c0b2x3kp">Animation Nights New York (ANNY) at The Gutter Spare Room!</a></h3>
+<div class="meta">8:00 PM · Greenpoint</div>
+<p>Animation Nights New York is a monthly screening event and annual festival based in NYC. We show the best animated short films from all around the world. Support Independent Animation!</p>
+<a class="tickets" href="https://luma.com/c0b2x3kp">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-11" data-name="Rachel Cusk: Life Of M">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/rachel-cusk-life-of-m-tickets-2002739987214">Rachel Cusk: Life Of M</a></h3>
+<div class="meta">7:00 PM · Pioneer Works, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Join Pioneer Works and The Yale Review for the U.S. launch of Rachel Cusk’s Life of M, an irresistible novel of fame, power, beauty.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/rachel-cusk-life-of-m-tickets-2002739987214">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Brooklyn Chats: Jonathan Mahler (at Bar Heretic)">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/brooklyn-chats-jonathan-mahler-at-bar-heretic-tickets-2002823025584">Brooklyn Chats: Jonathan Mahler (at Bar Heretic)</a></h3>
+<div class="meta">7:00 PM · Bar Heretic, Fort Greene · $12.51</div>
+<p>At tonight&#x27;s event, host Patrick Sauer talks with Jonathan Mahler about his newest book of New York history: The Gods of New York! Brooklyn Chats with Host Patrick Sauer Featuring Jonathan Mahler, author of The Gods of New York: Egotists, Idealists, Opportunists, and the Birth of the Modern City: 19</p>
+<a class="tickets" href="https://www.eventbrite.com/e/brooklyn-chats-jonathan-mahler-at-bar-heretic-tickets-2002823025584">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Jane Wiedlin at Greenpoint Reformed Church!">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/jane-wiedlin-word-bookstore-nov-17-2026">Jane Wiedlin at Greenpoint Reformed Church!</a></h3>
+<div class="meta">8:00 PM · WORD Bookstore, Greenpoint</div>
+<p>An intimate, behind-the-scenes glimpse into life as the rhythm guitarist, songwriter, and co-founder of the all-female, multi-platinum-selling band the Go-Go’s—both onstage and off. The Go-Go’s were the first all-woman rock group to hit number one on the Billboard charts while playing their own inst</p>
+<a class="tickets" href="https://bookevents.nyc/events/jane-wiedlin-word-bookstore-nov-17-2026">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-14" data-name="Ecstatic Dance with QVLN &amp; Sunny">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ecstatic-dance-with-qvln-sunny-tickets-2003306019231">Ecstatic Dance with QVLN &amp; Sunny</a></h3>
+<div class="meta">6:30 PM · Judson Memorial Church - New York City, Greenwich Village</div>
+<p>Join us for the next Ecstatic Dance at Judson Church Tuesday November 17th!</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ecstatic-dance-with-qvln-sunny-tickets-2003306019231">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Story-oke: Sing and Tell">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/story-oke-sing-and-tell-tickets-1998065896884">Story-oke: Sing and Tell</a></h3>
+<div class="meta">9:30 PM · Caveat, Lower East Side</div>
+<p>Part karaoke, part confessional. Share a story about a song… then sing the hell out of it.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/story-oke-sing-and-tell-tickets-1998065896884">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Slow Matter Exhibition Opening Reception at NYC Jewelry Week 2026">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/slow-matter-exhibition-opening-reception-at-nyc-jewelry-week-2026-tickets-2001020389852">Slow Matter Exhibition Opening Reception at NYC Jewelry Week 2026</a></h3>
+<div class="meta">5:30 PM · Fou Gallery, Midtown South-Flatiron-Union Square</div>
+<p>“Slow Matter” brings together eight artists exploring lacquer and stone through tradition, process, and materiality.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/slow-matter-exhibition-opening-reception-at-nyc-jewelry-week-2026-tickets-2001020389852">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-17" data-name="voguing 101 w/ zenith 🪩 • (11/17)">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/vogue1117">voguing 101 w/ zenith 🪩 • (11/17)</a></h3>
+<div class="meta">7:00 PM · 448 E 149th St, Mott Haven-Port Morris · $25</div>
+<p>📍 the bronx, nyc &amp; beyond • a vibe. bipoc centered. for the queers. by the queers. ™ 🫶🏿 “your home &amp; hub for connection &amp; place ∞” ✨</p>
+<a class="tickets" href="https://luma.com/vogue1117">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Heel Toe Rodeo">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/heel-toe-rodeo-tickets-2003414056373">Heel Toe Rodeo</a></h3>
+<div class="meta">7:30 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Hey y&#x27;all! A beginner friendly line dancing event is coming your way. Line dancing lessons will be taught throughout the night!</p>
+<a class="tickets" href="https://www.eventbrite.com/e/heel-toe-rodeo-tickets-2003414056373">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Still Life In Ink: Art Workshop at June Wine Bar">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/still-life-in-ink-art-workshop-at-june-wine-bar-tickets-2003590280464">Still Life In Ink: Art Workshop at June Wine Bar</a></h3>
+<div class="meta">7:00 PM · June, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Learn the fundamentals of Chinese ink painting by painting the fruits, foods, and dishes of everyday life (2 drink/food item minimum req)!</p>
+<a class="tickets" href="https://www.eventbrite.com/e/still-life-in-ink-art-workshop-at-june-wine-bar-tickets-2003590280464">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-19" data-name="Non-Alcoholic Wine Tasting">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/jy5mz3eb">Non-Alcoholic Wine Tasting</a></h3>
+<div class="meta">5:00 PM · 69 Charlton St, SoHo-Little Italy-Hudson Square</div>
+<p></p>
+<a class="tickets" href="https://luma.com/jy5mz3eb">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Fool Proof Whisky Bar Party - Williamsburg">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/fool-proof-whisky-bar-party-williamsburg-tickets-2003972337206">Fool Proof Whisky Bar Party - Williamsburg</a></h3>
+<div class="meta">7:00 PM · Foolproof Whiskey Bar, Williamsburg</div>
+<p>Join The Scotch Malt Whisky Society in Brooklyn for a tasting of rare single malt releases!</p>
+<a class="tickets" href="https://www.eventbrite.com/e/fool-proof-whisky-bar-party-williamsburg-tickets-2003972337206">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-21" data-name="Skip the Small Talk Night at McCarren Parkhouse">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-mccarren-parkhouse-tickets-2003535838627">Skip the Small Talk Night at McCarren Parkhouse</a></h3>
+<div class="meta">7:00 PM · McCarren Parkhouse, Williamsburg</div>
+<p>Meaningful conversations with strangers that don&#x27;t leave you drained. We use question prompts to spark unique convos.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/skip-the-small-talk-night-at-mccarren-parkhouse-tickets-2003535838627">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="NYC Pride Open House &amp; 2026 Transgender Awareness Week Commemoration">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nyc-pride-open-house-2026-transgender-awareness-week-commemoration-tickets-2003419320117">NYC Pride Open House &amp; 2026 Transgender Awareness Week Commemoration</a></h3>
+<div class="meta">6:00 PM · 154 Christopher St suite 2a, West Village</div>
+<p>NYC Pride Open Houses are free, monthly gatherings to build community, meet new people, and learn about getting involved in our work.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nyc-pride-open-house-2026-transgender-awareness-week-commemoration-tickets-2003419320117">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-23" data-name="Tipsy Trivia: Hunger Games">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tipsy-trivia-hunger-games-tickets-2003843628234">Tipsy Trivia: Hunger Games</a></h3>
+<div class="meta">7:00 PM · Mom&#x27;s Kitchen and Bar, Hell&#x27;s Kitchen</div>
+<p>Join us in person for Tipsy Trivia: Hunger Games—test your knowledge, sip a little, and may the best tribute win!</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tipsy-trivia-hunger-games-tickets-2003843628234">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-24" data-name="NYRR Open Run: Brooklyn Bridge Park">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/17/nyrr-open-run-brooklyn-bridge-park">NYRR Open Run: Brooklyn Bridge Park</a></h3>
+<div class="meta">6:45 PM · Pier 6 (in Brooklyn Bridge Park), The Battery-Governors Island-Ellis Island-Liberty Island</div>
+<p>NYRR Open Run brings free, weekly community-led, approximately 3 mile runs to neighborhood parks across the greater New York City area. The program is free and open to runners and walkers of all ages, abilities, and experience levels. The Open Run route offers views of the Brooklyn Bridge on the way</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/17/nyrr-open-run-brooklyn-bridge-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-25" data-name="Bad Boy Mowers Series: Arkansas v. Indiana">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/bad-boy-mowers-series-arkansas-v-new-york-new-york-11-17-2026/event/3B0064FCDDAF71D4">Bad Boy Mowers Series: Arkansas v. Indiana</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Bad Boy Mowers Series - New York returns to The World&#x27;s Most Famous Arena on Tuesday, November 17, as the Arkansas Razorbacks take on the Indiana Hoosiers at Madison Square Garden.</p>
+<a class="tickets" href="https://www.ticketmaster.com/bad-boy-mowers-series-arkansas-v-new-york-new-york-11-17-2026/event/3B0064FCDDAF71D4">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-26" data-name="Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003350617626">Exclusive Tour Inside the Woolworth Building: NYC’s Cathedral of Commerce</a></h3>
+<div class="meta">6:00 PM · The Woolworth Building (Inside Lobby), Financial District-Battery Park City</div>
+<p>New York Adventure Club | www.AdventureClub.com</p>
+<a class="tickets" href="https://www.eventbrite.com/e/exclusive-tour-inside-the-woolworth-building-nycs-cathedral-of-commerce-registration-2003350617626">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-17";
+const NAMES = ["STING 3.0 Tour", "Sadurn", "LPR Presents: JOHN SCOFIELD'S \"ELECTROSPECTIVE\"", "A Very Good+ Night of Comedy Featuring Jerry Seinfeld + Friends", "Jaboukie Young-White", "Stand-up at Comedy Cellar (MacDougal Street): Regina DeCicco, Drew Dunn, Nicolas Corda, Michelle Wolf & more", "Christmas Spectacular Starring The Radio City Rockettes", "Operation Mincemeat: A New Musical", "Oh, Mary!", "The Devils", "Animation Nights New York (ANNY) at The Gutter Spare Room!", "Rachel Cusk: Life Of M", "Brooklyn Chats: Jonathan Mahler (at Bar Heretic)", "Jane Wiedlin at Greenpoint Reformed Church!", "Ecstatic Dance with QVLN & Sunny", "Story-oke: Sing and Tell", "Slow Matter Exhibition Opening Reception at NYC Jewelry Week 2026", "voguing 101 w/ zenith \ud83e\udea9 \u2022 (11/17)", "Heel Toe Rodeo", "Non-Alcoholic Wine Tasting", "Fool Proof Whisky Bar Party - Williamsburg", "Skip the Small Talk Night at McCarren Parkhouse", "NYC Pride Open House & 2026 Transgender Awareness Week Commemoration", "Tipsy Trivia: Hunger Games", "NYRR Open Run: Brooklyn Bridge Park", "Bad Boy Mowers Series: Arkansas v. Indiana", "Exclusive Tour Inside the Woolworth Building: NYC\u2019s Cathedral of Commerce", "Juilliard at The Apollo: Birth of the Cool", "Still Life In Ink: Art Workshop at June Wine Bar", "Good Boys Punished"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
