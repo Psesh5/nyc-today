@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, November 18</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, November 18</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-18.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Charles Lloyd Quartet featuring Bill Frisell, Larry Grenadier &amp; Kweku Sumbry">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/charles-lloyd-quartet-featuring-bill-blue-note-jazz-club-tickets/14973943">Charles Lloyd Quartet featuring Bill Frisell, Larry Grenadier &amp; Kweku Sumbry</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $89.12</div>
+<p>A living jazz legend and a guitar great share the Blue Note stage — a masterclass in listening.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/charles-lloyd-quartet-featuring-bill-blue-note-jazz-club-tickets/14973943">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Maria Schneider Orchestra">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/maria-schneider-orchestra-birdland-jazz-club-tickets/15005403">Maria Schneider Orchestra</a></h3>
+<div class="meta">7:00 PM · Birdland Jazz Club, Hell&#x27;s Kitchen · $45.76</div>
+<p>Seven-time Grammy winner leads her 18-piece orchestra at Birdland — big-band jazz at its most gorgeous.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/maria-schneider-orchestra-birdland-jazz-club-tickets/15005403">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Sky White Tiger | Caíto Sánchez">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/sky-white-tiger-cato-bowery-palace-tickets/14341054">Sky White Tiger | Caíto Sánchez</a></h3>
+<div class="meta">7:00 PM · Bowery Palace, East Village · $30.47</div>
+<p>Psych-soul pop from Louis Schwadron (Radiohead, Bowie sideman), with Caíto Sánchez opening.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/sky-white-tiger-cato-bowery-palace-tickets/14341054">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="White Lilies Release Show">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/white-lilies-release-show-tickets-2000324916673">White Lilies Release Show</a></h3>
+<div class="meta">7:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $14.86</div>
+<p>Sirintip celebrates her intimate third album with a full band and immersive visuals at littlefield.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/white-lilies-release-show-tickets-2000324916673">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Magi Merlin, SYTË">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/magi-merlin-syte-tickets-1999055438630">Magi Merlin, SYTË</a></h3>
+<div class="meta">7:00 PM · Elsewhere - Zone One, East Williamsburg · $25.24</div>
+<p>Pop night at Elsewhere’s Zone One with Magi Merlin and SYTË — tickets from $25.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/magi-merlin-syte-tickets-1999055438630">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="laur live @ pac nyc (free!)">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/e1st3voz">laur live @ pac nyc (free!)</a></h3>
+<div class="meta">7:00 PM · Perelman Performing Arts Center (PAC NYC), Financial District-Battery Park City</div>
+<p>Free: the Brooklyn artist’s ethereal dark pop takes over the PAC lobby stage.</p>
+<a class="tickets" href="https://luma.com/e1st3voz">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Jazz on Saint Nick’s">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedyinharlem.com/events?e=97801">Jazz on Saint Nick’s</a></h3>
+<div class="meta">7:00 PM · Comedy In Harlem, Harlem · Free</div>
+<p>Free: a live jazz jam and open mic in Harlem — sit in with the trio or just listen.</p>
+<a class="tickets" href="https://www.comedyinharlem.com/events?e=97801">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Duncan Trussell">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/duncan-trussell-brooklyn-new-york-11-18-2026/event/300063701DCE9DB2">Duncan Trussell</a></h3>
+<div class="meta">7:30 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $41.5</div>
+<p>The comedian-philosopher brings his cosmic stand-up to Brooklyn, with Ian Fidance and Ruby Setnik.</p>
+<a class="tickets" href="https://www.ticketmaster.com/duncan-trussell-brooklyn-new-york-11-18-2026/event/300063701DCE9DB2">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Good Eggs ft: Mark Normand, Mike Cannon, Gary Vider, Lizzy Cassidy, Matt Ruby">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-mike-cannon-gary-vider-lizzy-cassidy-matt-ruby">Good Eggs ft: Mark Normand, Mike Cannon, Gary Vider, Lizzy Cassidy, Matt Ruby</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>Mark Normand’s weekly East Village staple — one of the best rooms in the city, with surprise drop-ins a regular thing.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-mike-cannon-gary-vider-lizzy-cassidy-matt-ruby">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="The Gotham All-Stars at Gotham Comedy Club">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://gothamcomedyclub.com/events/the-gotham-all-stars2526vrclytl">The Gotham All-Stars at Gotham Comedy Club</a></h3>
+<div class="meta">7:30 PM · Gotham Comedy Club, Chelsea-Hudson Yards</div>
+<p>A showcase of comics from Netflix, HBO, The Daily Show and late night, all on one Chelsea bill.</p>
+<a class="tickets" href="https://gothamcomedyclub.com/events/the-gotham-all-stars2526vrclytl">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Double A Comedy Show @ Spicy Moon Bowery">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/Eqrkw7DwHyASezxbrAei?source=discover">Double A Comedy Show @ Spicy Moon Bowery</a></h3>
+<div class="meta">8:00 PM · Spicy Moon Bowery, Lower East Side · $24</div>
+<p>Up-and-coming comics over Szechuan at Spicy Moon — ticket includes a free drink.</p>
+<a class="tickets" href="https://partiful.com/e/Eqrkw7DwHyASezxbrAei?source=discover">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Wednesday Night Live! with Oscar Taub">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://clubcummingnyc.com/schedule/2026/11/18/wednesday-night-live-with-oscar-taub">Wednesday Night Live! with Oscar Taub</a></h3>
+<div class="meta">7:00 PM · Club Cumming, East Village · $15</div>
+<p>Seven comics, one East Village stage — Oscar Taub hosts a fast, funny Wednesday lineup.</p>
+<a class="tickets" href="http://clubcummingnyc.com/schedule/2026/11/18/wednesday-night-live-with-oscar-taub">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Hotel Art Thief">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hotel-art-thief-tickets-2003081272006">Hotel Art Thief</a></h3>
+<div class="meta">10:00 PM · Union Hall, Park Slope · $15.92</div>
+<p>Late-night sketch comedy from the acclaimed duo, with Andrew Durso, Edy Modica, and Sabrina Wu.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hotel-art-thief-tickets-2003081272006">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-13" data-name="Lost Boys Musical w/ Unknown Mortal Orchestra">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-18-2026/event/Z1r9uZrrZbpZ1AvOA3A">Lost Boys Musical w/ Unknown Mortal Orchestra</a></h3>
+<div class="meta">7:30 PM · Palace Theatre-NY, Hell&#x27;s Kitchen · $70.8</div>
+<p>A new stage take on the vampire cult film, live at the Palace.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-lost-boys-new-york-new-york-11-18-2026/event/Z1r9uZrrZbpZ1AvOA3A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Epiphora">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://thetanknyc.org/calendar-1/2026/10/5/epiphora">Epiphora</a></h3>
+<div class="meta">7:00 PM · The Tank</div>
+<p>A trans Yerma on the barren plains of Texas — Lorca, reimagined, at The Tank.</p>
+<a class="tickets" href="https://thetanknyc.org/calendar-1/2026/10/5/epiphora">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="threeASFOUR: FULL CIRCLE">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/threeasfour-full-circle">threeASFOUR: FULL CIRCLE</a></h3>
+<div class="meta">6:50 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Sean Ono Lennon directs a portrait of the downtown fashion trio threeASFOUR, 25 years in.</p>
+<a class="tickets" href="https://filmforum.org/film/threeasfour-full-circle">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Zhang Yimou’s sumptuous 1991 classic, back in a gorgeous 4K restoration.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Godzilla Minus Zero">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Godzilla Minus Zero</a></h3>
+<div class="meta">7:45 PM · Nitehawk Cinema Prospect Park, Prospect Park · $9</div>
+<p>The kaiju epic’s newest chapter on the big screen — dinner and drinks at your seat.</p>
+<a class="tickets" href="https://nitehawkcinema.com/prospectpark/movies/godzilla-minus-zero/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-18" data-name="BODEGA CATS OF NEW YORK with Dan Rimada">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/dan-rimada-word-up-books-nov-18-2026">BODEGA CATS OF NEW YORK with Dan Rimada</a></h3>
+<div class="meta">7:00 PM · Word Up Books, Washington Heights (South) · $5</div>
+<p>The internet’s favorite bodega cats, in book form — meet the archivist behind the legend, plus a cat-supply drive.</p>
+<a class="tickets" href="https://bookevents.nyc/events/dan-rimada-word-up-books-nov-18-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Dorinda Medley + Ross Mathews: I Know a Thing or Two About a Thing or Two">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/dorinda-medley-ross-mathews-i-know-a-thing-or-two-about-a-thing-or-two-tickets-2003212224689">Dorinda Medley + Ross Mathews: I Know a Thing or Two About a Thing or Two</a></h3>
+<div class="meta">7:00 PM · Strand Book Store, Greenwich Village · $35.66</div>
+<p>The RHONY star talks confidence, reinvention, and making it nice, with Ross Mathews.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/dorinda-medley-ross-mathews-i-know-a-thing-or-two-about-a-thing-or-two-tickets-2003212224689">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Hermione Lee with Rumaan Alam: Anita Brookner">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/hermione-lee-with-rumaan-alam-92nd-street-y-nov-18-2026">Hermione Lee with Rumaan Alam: Anita Brookner</a></h3>
+<div class="meta">7:30 PM · 92nd Street Y, Upper East Side-Carnegie Hill</div>
+<p>Two acclaimed writers on Lee’s new biography of novelist Anita Brookner.</p>
+<a class="tickets" href="https://bookevents.nyc/events/hermione-lee-with-rumaan-alam-92nd-street-y-nov-18-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="In the Room: Sixty Years on the Front Line of History">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-the-room-sixty-years-on-the-front-line-of-history-tickets-2002717803863">In the Room: Sixty Years on the Front Line of History</a></h3>
+<div class="meta">7:00 PM · The Great Hall at The Cooper Union, East Village</div>
+<p>Free: Pulitzer-winning photographer David Hume Kennerly on 60 years behind the lens, from Vietnam to the White House.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-the-room-sixty-years-on-the-front-line-of-history-tickets-2002717803863">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-22" data-name="DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>The Seaport’s new balloon-art playground — immersive installations you walk through, not past.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="Urban Glass Opening Receptions at NYC Jewelry Week 2026">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/urban-glass-opening-receptions-at-nyc-jewelry-week-2026-tickets-2000888116218">Urban Glass Opening Receptions at NYC Jewelry Week 2026</a></h3>
+<div class="meta">6:00 PM · UrbanGlass, Fort Greene</div>
+<p>Free: three glass and jewelry exhibitions open at once for NYC Jewelry Week, with refreshments.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/urban-glass-opening-receptions-at-nyc-jewelry-week-2026-tickets-2000888116218">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-24" data-name="Mozzarella Making">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mozzarella-making-tickets-1998254347545">Mozzarella Making</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village · $92.77</div>
+<p>Stretch your own mozzarella from scratch at Murray’s, with tastings and house wine.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mozzarella-making-tickets-1998254347545">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="Wasanbon Wagashi Workshop: Japanese Pressed-Sugar Confectionery">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/wasanbon-wagashi-workshop-japanese-pressed-sugar-confectionery-tickets-2002664597722">Wasanbon Wagashi Workshop: Japanese Pressed-Sugar Confectionery</a></h3>
+<div class="meta">7:00 PM · RESOBOX East Village, East Village · $71.21</div>
+<p>Press delicate Japanese sugar sweets in carved wooden molds with artisan Yuki Sakura.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/wasanbon-wagashi-workshop-japanese-pressed-sugar-confectionery-tickets-2002664597722">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Ikebana Wednesdays: An Evening of Contemporary Ikebana">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ikebana-wednesdays-an-evening-of-contemporary-ikebana-tickets-1996356444867">Ikebana Wednesdays: An Evening of Contemporary Ikebana</a></h3>
+<div class="meta">7:00 PM · 36 E Broadway, Chinatown-Two Bridges · $98</div>
+<p>An evening of contemporary ikebana in Chinatown — shape stems and branches into sculpture.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ikebana-wednesdays-an-evening-of-contemporary-ikebana-tickets-1996356444867">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="Brooklyn Nets v. Chicago Bulls (ABA Night)">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/brooklyn-nets-v-chicago-bulls-aba-brooklyn-new-york-11-18-2026/event/300064FBC4C84A6F">Brooklyn Nets v. Chicago Bulls (ABA Night)</a></h3>
+<div class="meta">7:30 PM · Barclays Center, Park Slope</div>
+<p>ABA Night at Barclays as the Nets host the Bulls.</p>
+<a class="tickets" href="https://www.ticketmaster.com/brooklyn-nets-v-chicago-bulls-aba-brooklyn-new-york-11-18-2026/event/300064FBC4C84A6F">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-28" data-name="General Literary Trivia">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/general-literary-trivia-tickets-2002247611505">General Literary Trivia</a></h3>
+<div class="meta">8:00 PM · Book Club Bar, Bushwick (West)</div>
+<p>Free: five rounds of bookish trivia in Bushwick — classic novels to banned books.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/general-literary-trivia-tickets-2002247611505">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-29" data-name="Ice Skating">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-18">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square</div>
+<p>Free admission at the Winter Village rink — skate rentals from about $19.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/bank-of-america-winter-village-ice-skating-rink-at-bryant-park/2026-11-18">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-18";
+const NAMES = ["Charles Lloyd Quartet featuring Bill Frisell, Larry Grenadier & Kweku Sumbry", "Maria Schneider Orchestra", "Sky White Tiger | Ca\u00edto S\u00e1nchez", "White Lilies Release Show", "Magi Merlin, SYT\u00cb", "laur live @ pac nyc (free!)", "Jazz on Saint Nick\u2019s", "Duncan Trussell", "Good Eggs ft: Mark Normand, Mike Cannon, Gary Vider, Lizzy Cassidy, Matt Ruby", "The Gotham All-Stars at Gotham Comedy Club", "Double A Comedy Show @ Spicy Moon Bowery", "Wednesday Night Live! with Oscar Taub", "Hotel Art Thief", "Lost Boys Musical w/ Unknown Mortal Orchestra", "Epiphora", "threeASFOUR: FULL CIRCLE", "Raise The Red Lantern", "Godzilla Minus Zero", "BODEGA CATS OF NEW YORK with Dan Rimada", "Dorinda Medley + Ross Mathews: I Know a Thing or Two About a Thing or Two", "Hermione Lee with Rumaan Alam: Anita Brookner", "In the Room: Sixty Years on the Front Line of History", "DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry", "Urban Glass Opening Receptions at NYC Jewelry Week 2026", "Mozzarella Making", "Wasanbon Wagashi Workshop: Japanese Pressed-Sugar Confectionery", "Ikebana Wednesdays: An Evening of Contemporary Ikebana", "Brooklyn Nets v. Chicago Bulls (ABA Night)", "General Literary Trivia", "Ice Skating"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
