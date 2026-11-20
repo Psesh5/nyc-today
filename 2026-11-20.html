@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Friday, November 20</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Friday, November 20</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-20.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="STING 3.0 Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3">STING 3.0 Tour</a></h3>
+<div class="meta">7:00 PM · Brooklyn Paramount, Fort Greene · $302.5</div>
+<p>Sting strips it back to a trio for the 3.0 tour — Police classics and solo hits, loud, in the gorgeous restored Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Guster w/ Chloe Radcliffe">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx-E">Guster w/ Chloe Radcliffe</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg · $64.4</div>
+<p>Guster brings their warm, harmony-rich alt-rock to Williamsburg, with Chloe Radcliffe opening.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvx-E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Tosca">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.todaytix.com/nyc/shows/25660-tosca-2022">Tosca</a></h3>
+<div class="meta">8:00 PM · Metropolitan Opera House, Upper West Side-Lincoln Square · 72</div>
+<p>Puccini&#x27;s Rome thriller — love, politics, and a famous leap — in David McVicar&#x27;s grand Met staging.</p>
+<a class="tickets" href="https://www.todaytix.com/nyc/shows/25660-tosca-2022">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Juilliard at The Apollo: Kind of Blue">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-new-york-11-20-2026/event/0000651CDC8ACA19">Juilliard at The Apollo: Kind of Blue</a></h3>
+<div class="meta">7:30 PM · The Apollo&#x27;s Victoria Theater 1, Harlem (South) · $30.7</div>
+<p>Juilliard&#x27;s jazz orchestra takes on Miles Davis&#x27;s Kind of Blue at the Apollo — a landmark album, live, in Harlem.</p>
+<a class="tickets" href="https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-new-york-11-20-2026/event/0000651CDC8ACA19">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Aneesa Strings">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/aneesa-strings-blue-note-jazz-club-tickets/14336784">Aneesa Strings</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $38.24</div>
+<p>Aneesa Strings brings her soulful R&amp;B and strings to the Blue Note&#x27;s intimate room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/aneesa-strings-blue-note-jazz-club-tickets/14336784">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Alexis Cuadrado Group: Silent Film Scores for Social Justice">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.alexiscuadrado.com/silent-films">Alexis Cuadrado Group: Silent Film Scores for Social Justice</a></h3>
+<div class="meta">7:00 PM · The Jazz Gallery, NoMad</div>
+<p>A ten-piece band scores century-old silent films live — an album-release night about immigration, women&#x27;s rights, and inequality.</p>
+<a class="tickets" href="https://www.alexiscuadrado.com/silent-films">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-5" data-name="August Wilson&#x27;s Seven Guitars">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZoOM">August Wilson&#x27;s Seven Guitars</a></h3>
+<div class="meta">8:00 PM · Lincoln Center - Mitzi E. Newhouse Theater, Upper West Side-Lincoln Square · $118.8</div>
+<p>August Wilson&#x27;s blues-soaked Pittsburgh drama, in a new Lincoln Center staging.</p>
+<a class="tickets" href="https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZoOM">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Here There Are Blueberries">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZ3_d">Here There Are Blueberries</a></h3>
+<div class="meta">7:00 PM · Barrymore Theatre-NY, Hell&#x27;s Kitchen · $118.8</div>
+<p>A Holocaust-history mystery that starts with a found photo album — one of the season&#x27;s most talked-about plays.</p>
+<a class="tickets" href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZ3_d">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Much Ado About Nothing">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ17Jbjf">Much Ado About Nothing</a></h3>
+<div class="meta">7:00 PM · Winter Garden Theatre, Midtown-Times Square · $118.8</div>
+<p>Shakespeare&#x27;s wittiest sparring match, big and bright on a Broadway stage.</p>
+<a class="tickets" href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ17Jbjf">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="MOUNTAIN GIRL a new play by John Patrick Shanley">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116247619">MOUNTAIN GIRL a new play by John Patrick Shanley</a></h3>
+<div class="meta">7:30 PM · 154 Christopher St, West Village</div>
+<p>A brand-new John Patrick Shanley play, fresh off the page, in a tiny West Village room.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116247619">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-9" data-name="Billy Crystal">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZabE">Billy Crystal</a></h3>
+<div class="meta">8:00 PM · Imperial Theatre - NY, Hell&#x27;s Kitchen · $106.8</div>
+<p>Billy Crystal returns to Broadway with 860 — stories, jokes, and a lifetime of showbiz.</p>
+<a class="tickets" href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZabE">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="LPR Presents: John C. Reilly is Mister Romantic">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/lpr-presents-john-c-reilly-is-new-york-new-york-11-20-2026/event/030064C5F5AD2274">LPR Presents: John C. Reilly is Mister Romantic</a></h3>
+<div class="meta">8:00 PM · Town Hall, Midtown-Times Square · $59.1</div>
+<p>John C. Reilly croons his way through Mister Romantic — songs, stories, and shameless charm.</p>
+<a class="tickets" href="https://www.ticketmaster.com/lpr-presents-john-c-reilly-is-new-york-new-york-11-20-2026/event/030064C5F5AD2274">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Stand-up at Comedy Cellar (MacDougal Street)">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1795200300">Stand-up at Comedy Cellar (MacDougal Street)</a></h3>
+<div class="meta">6:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · 25</div>
+<p>The classic MacDougal Street room: Colin Quinn, Ryan Hamilton, and a stacked Friday lineup.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1795200300">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="LANE MOORE - Heart-Throb Slasher: A Live Improvised 1980s Horror Movie">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lane-moore-heart-throb-slasher-a-live-improvised-1980s-horror-movie-tickets-2002576750970">LANE MOORE - Heart-Throb Slasher: A Live Improvised 1980s Horror Movie</a></h3>
+<div class="meta">7:00 PM · The Twisted Spine, Williamsburg · $23.18</div>
+<p>An improvised 1980s slasher movie, performed live — horror, laughs, and a lot of fake blood.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lane-moore-heart-throb-slasher-a-live-improvised-1980s-horror-movie-tickets-2002576750970">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-13" data-name="Book Launch &amp; Talk: Es Devlin and Sarah Douglas">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/book-launch-talk-es-devlin-and-sarah-douglas-tickets-2003420803554">Book Launch &amp; Talk: Es Devlin and Sarah Douglas</a></h3>
+<div class="meta">5:00 PM · Hauser &amp; Wirth, Chelsea-Hudson Yards</div>
+<p>The stage designer behind Beyoncé&#x27;s spectacles talks her new book with Sarah Douglas at Hauser &amp; Wirth.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/book-launch-talk-es-devlin-and-sarah-douglas-tickets-2003420803554">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Chloe Gong + Shannon J. Spann: Deadlock">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/chloe-gong-shannon-j-spann-deadlock-tickets-1992582384551">Chloe Gong + Shannon J. Spann: Deadlock</a></h3>
+<div class="meta">7:00 PM · Strand Book Store, Greenwich Village</div>
+<p>YA fantasy royalty Chloe Gong launches Deadlock with Shannon J. Spann at the Strand.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/chloe-gong-shannon-j-spann-deadlock-tickets-1992582384551">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="Celia Paul’s Objects of Desire, with Jarrett Earnest.">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/celia-pauls-objects-of-desire-with-jarrett-earnest-tickets-2003978548785">Celia Paul’s Objects of Desire, with Jarrett Earnest.</a></h3>
+<div class="meta">6:00 PM · Rizzoli, Midtown South-Flatiron-Union Square · Free</div>
+<p>Painter Celia Paul on objects, desire, and looking — in conversation at Rizzoli.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/celia-pauls-objects-of-desire-with-jarrett-earnest-tickets-2003978548785">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Michelle Tea: Free Love w/ MJ Corey">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-store-michelle-tea-free-love-w-mj-corey-tickets-2003618562055">Michelle Tea: Free Love w/ MJ Corey</a></h3>
+<div class="meta">7:00 PM · Books Are Magic, Brooklyn Heights · $10.89</div>
+<p>Michelle Tea reads from Free Love, her new novel of queer longing, at Books Are Magic.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-store-michelle-tea-free-love-w-mj-corey-tickets-2003618562055">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-17" data-name="Rome, Open City">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/rome-open-city-rossellini-120">Rome, Open City</a></h3>
+<div class="meta">12:30 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Rossellini&#x27;s neorealist landmark, shot in the ruins of 1945 Rome — on Film Forum&#x27;s big screen.</p>
+<a class="tickets" href="https://filmforum.org/film/rome-open-city-rossellini-120">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Suspiria [4K DCP]">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999004419-suspiria-4k-dcp/">Suspiria [4K DCP]</a></h3>
+<div class="meta">11:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Argento&#x27;s technicolor nightmare in a 4K DCP — the loudest, most lurid late show in town.</p>
+<a class="tickets" href="https://metrograph.com/film/9999004419-suspiria-4k-dcp/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-19" data-name="Cheese &amp; Wine Pairing: Holiday Crowd Pleasers">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/cheese-wine-pairing-holiday-crowd-pleasers-tickets-1997903591424">Cheese &amp; Wine Pairing: Holiday Crowd Pleasers</a></h3>
+<div class="meta">6:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>Holiday crowd-pleasers, paired: Murray&#x27;s cheesemongers match seasonal cheeses with wines that love them.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/cheese-wine-pairing-holiday-crowd-pleasers-tickets-1997903591424">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Taste with Félicien Roulot from Domaine Roulot!">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/taste-with-felicien-roulot-from-domaine-roulot-tickets-2004315989078">Taste with Félicien Roulot from Domaine Roulot!</a></h3>
+<div class="meta">4:00 PM · Acker Wines, Upper West Side-Lincoln Square</div>
+<p>Taste with the man behind Domaine Roulot — one of Burgundy&#x27;s most revered names — at Acker.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/taste-with-felicien-roulot-from-domaine-roulot-tickets-2004315989078">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Soupsgiving 4: It&#x27;s Giving Soup">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/5q94leq6">Soupsgiving 4: It&#x27;s Giving Soup</a></h3>
+<div class="meta">6:00 PM · Fabrik DUMBO, Downtown Brooklyn-DUMBO-Boerum Hill · Free</div>
+<p>A free community soup night in DUMBO — bring a friend, leave full and a little more thankful.</p>
+<a class="tickets" href="https://luma.com/5q94leq6">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-22" data-name="Winter Lantern Festival">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/20/winter-lantern-festival">Winter Lantern Festival</a></h3>
+<div class="meta">5:00 PM · Snug Harbor, Snug Harbor · Free</div>
+<p>Snug Harbor glows: hundreds of lanterns light up Staten Island&#x27;s botanical gardens.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/20/winter-lantern-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="The Billie presents RONALD K. BROWN/EVIDENCE DANCE COMPANY">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-billie-presents-ronald-k-brownevidence-dance-company-tickets-1997207985849">The Billie presents RONALD K. BROWN/EVIDENCE DANCE COMPANY</a></h3>
+<div class="meta">7:30 PM · The Billie Holiday Theatre, Bedford-Stuyvesant (West)</div>
+<p>Evidence Dance Company brings Ronald K. Brown&#x27;s powerful, spiritual choreography to Bed-Stuy.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-billie-presents-ronald-k-brownevidence-dance-company-tickets-1997207985849">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-28" data-name="Joseph Parra: Lure — Opening Reception">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nyartlife.com/what-to-see-nyc-this-weekend-november-20-22-2026/">Joseph Parra: Lure — Opening Reception</a></h3>
+<div class="meta">6:00 PM · Friedrichs Pontone, Tribeca-Civic Center · Free</div>
+<p>A Brooklyn painter&#x27;s first solo show opens in Tribeca — figures built dot by dot in high-gloss acrylic.</p>
+<a class="tickets" href="https://nyartlife.com/what-to-see-nyc-this-weekend-november-20-22-2026/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-29" data-name="Rabbit Hole Opening Reception at NYC Jewelry Week 2026">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/rabbit-hole-opening-reception-at-nyc-jewelry-week-2026-tickets-2003223666913">Rabbit Hole Opening Reception at NYC Jewelry Week 2026</a></h3>
+<div class="meta">6:00 PM · Alphabet City Gallery, East Village · Free</div>
+<p>A juried jewelry exhibition opens at Alphabet City Gallery for NYC Jewelry Week — free, with the makers in the room.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/rabbit-hole-opening-reception-at-nyc-jewelry-week-2026-tickets-2003223666913">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-24" data-name="Brooklyn Nets v. Orlando Magic (Emirates NBA Cup Group Play)">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/brooklyn-nets-v-orlando-magic-emirates-brooklyn-new-york-11-20-2026/event/300064FBC4CE4A74">Brooklyn Nets v. Orlando Magic (Emirates NBA Cup Group Play)</a></h3>
+<div class="meta">7:30 PM · Barclays Center, Park Slope · 32</div>
+<p>The Nets host the Magic in an NBA Cup group game — Friday night basketball at Barclays.</p>
+<a class="tickets" href="https://www.ticketmaster.com/brooklyn-nets-v-orlando-magic-emirates-brooklyn-new-york-11-20-2026/event/300064FBC4CE4A74">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="2026 Holiday Market at The Hub: Opening Weekend">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/welcometo-z8gr">2026 Holiday Market at The Hub: Opening Weekend</a></h3>
+<div class="meta">12:00 PM · Welcome to Chinatown, Chinatown-Two Bridges · Free</div>
+<p>The Hub&#x27;s holiday market opens in Chinatown — local makers, gifts, and good wandering.</p>
+<a class="tickets" href="https://luma.com/welcometo-z8gr">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-26" data-name="Monk Fridays: Tea, Chat &amp; Meditation">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/yf5cnrvl">Monk Fridays: Tea, Chat &amp; Meditation</a></h3>
+<div class="meta">6:00 PM · Dharma Drum Meditation Center, Chelsea-Hudson Yards · Free</div>
+<p>Tea, conversation, and guided meditation to close the week — free, in Chelsea.</p>
+<a class="tickets" href="https://luma.com/yf5cnrvl">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-20";
+const NAMES = ["STING 3.0 Tour", "Guster w/ Chloe Radcliffe", "Tosca", "Juilliard at The Apollo: Kind of Blue", "Aneesa Strings", "August Wilson's Seven Guitars", "Here There Are Blueberries", "Much Ado About Nothing", "MOUNTAIN GIRL a new play by John Patrick Shanley", "Billy Crystal", "LPR Presents: John C. Reilly is Mister Romantic", "Stand-up at Comedy Cellar (MacDougal Street)", "LANE MOORE - Heart-Throb Slasher: A Live Improvised 1980s Horror Movie", "Book Launch & Talk: Es Devlin and Sarah Douglas", "Chloe Gong + Shannon J. Spann: Deadlock", "Celia Paul\u2019s Objects of Desire, with Jarrett Earnest.", "Michelle Tea: Free Love w/ MJ Corey", "Rome, Open City", "Suspiria [4K DCP]", "Cheese & Wine Pairing: Holiday Crowd Pleasers", "Taste with F\u00e9licien Roulot from Domaine Roulot!", "Soupsgiving 4: It's Giving Soup", "Winter Lantern Festival", "The Billie presents RONALD K. BROWN/EVIDENCE DANCE COMPANY", "Brooklyn Nets v. Orlando Magic (Emirates NBA Cup Group Play)", "2026 Holiday Market at The Hub: Opening Weekend", "Monk Fridays: Tea, Chat & Meditation", "Alexis Cuadrado Group: Silent Film Scores for Social Justice", "Joseph Parra: Lure \u2014 Opening Reception", "Rabbit Hole Opening Reception at NYC Jewelry Week 2026"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

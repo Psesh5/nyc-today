@@ -1,0 +1,481 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261120-0@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:STING 3.0 Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Sting strips it back to a trio for the 3.0 tour — Police clas
+ 
+sics and solo hits\, loud\, in the gorgeous restored Brooklyn Paramount. Ti
+ 
+ckets & info: https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-
+ 
+11-20-2026/event/00006459059DDBE3
+URL:https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026
+ 
+/event/00006459059DDBE3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-1@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:Guster w/ Chloe Radcliffe
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:Guster brings their warm\, harmony-rich alt-rock to Williamsbur
+ 
+g\, with Chloe Radcliffe opening. Tickets & info: https://www.ticketmaster.
+ 
+com/event/Z7r9jZ1AAvx-E
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAvx-E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-2@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:Tosca
+LOCATION:Metropolitan Opera House\, Upper West Side-Lincoln Square
+DESCRIPTION:Puccini's Rome thriller — love\, politics\, and a famous leap
+ 
+ — in David McVicar's grand Met staging. Tickets & info: https://www.toda
+ 
+ytix.com/nyc/shows/25660-tosca-2022
+URL:https://www.todaytix.com/nyc/shows/25660-tosca-2022
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-3@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T193000
+DTEND;TZID=America/New_York:20261120T213000
+SUMMARY:Juilliard at The Apollo: Kind of Blue
+LOCATION:The Apollo's Victoria Theater 1\, Harlem (South)
+DESCRIPTION:Juilliard's jazz orchestra takes on Miles Davis's Kind of Blue 
+ 
+at the Apollo — a landmark album\, live\, in Harlem. Tickets & info: http
+ 
+s://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-new-york-
+ 
+11-20-2026/event/0000651CDC8ACA19
+URL:https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-n
+ 
+ew-york-11-20-2026/event/0000651CDC8ACA19
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-4@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:Aneesa Strings
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Aneesa Strings brings her soulful R&B and strings to the Blue N
+ 
+ote's intimate room. Tickets & info: https://www.ticketweb.com/event/aneesa
+ 
+-strings-blue-note-jazz-club-tickets/14336784
+URL:https://www.ticketweb.com/event/aneesa-strings-blue-note-jazz-club-tick
+ 
+ets/14336784
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-5@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:August Wilson's Seven Guitars
+LOCATION:Lincoln Center - Mitzi E. Newhouse Theater\, Upper West Side-Linco
+ 
+ln Square
+DESCRIPTION:August Wilson's blues-soaked Pittsburgh drama\, in a new Lincol
+ 
+n Center staging. Tickets & info: https://www.ticketmaster.com/august-wilso
+ 
+ns-seven-guitars-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZoOM
+URL:https://www.ticketmaster.com/august-wilsons-seven-guitars-new-york-new-
+ 
+york-11-20-2026/event/Z1r9uZruZqGZ1AvZoOM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-6@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Here There Are Blueberries
+LOCATION:Barrymore Theatre-NY\, Hell's Kitchen
+DESCRIPTION:A Holocaust-history mystery that starts with a found photo albu
+ 
+m — one of the season's most talked-about plays. Tickets & info: https://
+ 
+www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-20-202
+ 
+6/event/Z1r9uZruZqGZ1AvZ3_d
+URL:https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-yo
+ 
+rk-11-20-2026/event/Z1r9uZruZqGZ1AvZ3_d
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-7@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Much Ado About Nothing
+LOCATION:Winter Garden Theatre\, Midtown-Times Square
+DESCRIPTION:Shakespeare's wittiest sparring match\, big and bright on a Bro
+ 
+adway stage. Tickets & info: https://www.ticketmaster.com/much-ado-about-no
+ 
+thing-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ17Jbjf
+URL:https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-1
+ 
+1-20-2026/event/Z1r9uZruZqGZ17Jbjf
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-8@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T193000
+DTEND;TZID=America/New_York:20261120T213000
+SUMMARY:MOUNTAIN GIRL a new play by John Patrick Shanley
+LOCATION:154 Christopher St\, West Village
+DESCRIPTION:A brand-new John Patrick Shanley play\, fresh off the page\, in
+ 
+ a tiny West Village room. Tickets & info: https://www.eventbrite.com/e/mou
+ 
+ntain-girl-a-new-play-by-john-patrick-shanley-tickets-2003116247619
+URL:https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-s
+ 
+hanley-tickets-2003116247619
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-9@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:Billy Crystal
+LOCATION:Imperial Theatre - NY\, Hell's Kitchen
+DESCRIPTION:Billy Crystal returns to Broadway with 860 — stories\, jokes\
+ 
+, and a lifetime of showbiz. Tickets & info: https://www.ticketmaster.com/b
+ 
+illy-crystal-860-new-york-new-york-11-20-2026/event/Z1r9uZruZqGZ1AvZabE
+URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-20-
+ 
+2026/event/Z1r9uZruZqGZ1AvZabE
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-10@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:LPR Presents: John C. Reilly is Mister Romantic
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:John C. Reilly croons his way through Mister Romantic — songs
+ 
+\, stories\, and shameless charm. Tickets & info: https://www.ticketmaster.
+ 
+com/lpr-presents-john-c-reilly-is-new-york-new-york-11-20-2026/event/030064
+ 
+C5F5AD2274
+URL:https://www.ticketmaster.com/lpr-presents-john-c-reilly-is-new-york-new
+ 
+-york-11-20-2026/event/030064C5F5AD2274
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-11@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T184500
+DTEND;TZID=America/New_York:20261120T204500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street)
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic MacDougal Street room: Colin Quinn\, Ryan Hamilton\
+ 
+, and a stacked Friday lineup. Tickets & info: https://www.comedycellar.com
+ 
+/reservations-newyork/?showid=1795200300
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1795200300
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-12@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:LANE MOORE - Heart-Throb Slasher: A Live Improvised 1980s Horror Mo
+ 
+vie
+LOCATION:The Twisted Spine\, Williamsburg
+DESCRIPTION:An improvised 1980s slasher movie\, performed live — horror\,
+ 
+ laughs\, and a lot of fake blood. Tickets & info: https://www.eventbrite.c
+ 
+om/e/lane-moore-heart-throb-slasher-a-live-improvised-1980s-horror-movie-ti
+ 
+ckets-2002576750970
+URL:https://www.eventbrite.com/e/lane-moore-heart-throb-slasher-a-live-impr
+ 
+ovised-1980s-horror-movie-tickets-2002576750970
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-13@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T170000
+DTEND;TZID=America/New_York:20261120T190000
+SUMMARY:Book Launch & Talk: Es Devlin and Sarah Douglas
+LOCATION:Hauser & Wirth\, Chelsea-Hudson Yards
+DESCRIPTION:The stage designer behind Beyoncé's spectacles talks her new b
+ 
+ook with Sarah Douglas at Hauser & Wirth. Tickets & info: https://www.event
+ 
+brite.com/e/book-launch-talk-es-devlin-and-sarah-douglas-tickets-2003420803
+ 
+554
+URL:https://www.eventbrite.com/e/book-launch-talk-es-devlin-and-sarah-dougl
+ 
+as-tickets-2003420803554
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-14@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Chloe Gong + Shannon J. Spann: Deadlock
+LOCATION:Strand Book Store\, Greenwich Village
+DESCRIPTION:YA fantasy royalty Chloe Gong launches Deadlock with Shannon J.
+ 
+ Spann at the Strand. Tickets & info: https://www.eventbrite.com/e/chloe-go
+ 
+ng-shannon-j-spann-deadlock-tickets-1992582384551
+URL:https://www.eventbrite.com/e/chloe-gong-shannon-j-spann-deadlock-ticket
+ 
+s-1992582384551
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-15@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Celia Paul’s Objects of Desire\, with Jarrett Earnest.
+LOCATION:Rizzoli\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Painter Celia Paul on objects\, desire\, and looking — in con
+ 
+versation at Rizzoli. Tickets & info: https://www.eventbrite.com/e/celia-pa
+ 
+uls-objects-of-desire-with-jarrett-earnest-tickets-2003978548785
+URL:https://www.eventbrite.com/e/celia-pauls-objects-of-desire-with-jarrett
+ 
+-earnest-tickets-2003978548785
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-16@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Michelle Tea: Free Love w/ MJ Corey
+LOCATION:Books Are Magic\, Brooklyn Heights
+DESCRIPTION:Michelle Tea reads from Free Love\, her new novel of queer long
+ 
+ing\, at Books Are Magic. Tickets & info: https://www.eventbrite.com/e/in-s
+ 
+tore-michelle-tea-free-love-w-mj-corey-tickets-2003618562055
+URL:https://www.eventbrite.com/e/in-store-michelle-tea-free-love-w-mj-corey
+ 
+-tickets-2003618562055
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-17@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T123000
+DTEND;TZID=America/New_York:20261120T143000
+SUMMARY:Rome\, Open City
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Rossellini's neorealist landmark\, shot in the ruins of 1945 Ro
+ 
+me — on Film Forum's big screen. Tickets & info: https://filmforum.org/fi
+ 
+lm/rome-open-city-rossellini-120
+URL:https://filmforum.org/film/rome-open-city-rossellini-120
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-18@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T230000
+DTEND;TZID=America/New_York:20261121T010000
+SUMMARY:Suspiria [4K DCP]
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Argento's technicolor nightmare in a 4K DCP — the loudest\, m
+ 
+ost lurid late show in town. Tickets & info: https://metrograph.com/film/99
+ 
+99004419-suspiria-4k-dcp/
+URL:https://metrograph.com/film/9999004419-suspiria-4k-dcp/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-19@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T183000
+DTEND;TZID=America/New_York:20261120T203000
+SUMMARY:Cheese & Wine Pairing: Holiday Crowd Pleasers
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Holiday crowd-pleasers\, paired: Murray's cheesemongers match s
+ 
+easonal cheeses with wines that love them. Tickets & info: https://www.even
+ 
+tbrite.com/e/cheese-wine-pairing-holiday-crowd-pleasers-tickets-19979035914
+ 
+24
+URL:https://www.eventbrite.com/e/cheese-wine-pairing-holiday-crowd-pleasers
+ 
+-tickets-1997903591424
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-20@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T160000
+DTEND;TZID=America/New_York:20261120T180000
+SUMMARY:Taste with Félicien Roulot from Domaine Roulot!
+LOCATION:Acker Wines\, Upper West Side-Lincoln Square
+DESCRIPTION:Taste with the man behind Domaine Roulot — one of Burgundy's 
+ 
+most revered names — at Acker. Tickets & info: https://www.eventbrite.com
+ 
+/e/taste-with-felicien-roulot-from-domaine-roulot-tickets-2004315989078
+URL:https://www.eventbrite.com/e/taste-with-felicien-roulot-from-domaine-ro
+ 
+ulot-tickets-2004315989078
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-21@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Soupsgiving 4: It's Giving Soup
+LOCATION:Fabrik DUMBO\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A free community soup night in DUMBO — bring a friend\, leave
+ 
+ full and a little more thankful. Tickets & info: https://luma.com/5q94leq6
+URL:https://luma.com/5q94leq6
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-22@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T170000
+DTEND;TZID=America/New_York:20261120T190000
+SUMMARY:Winter Lantern Festival
+LOCATION:Snug Harbor\, Snug Harbor
+DESCRIPTION:Snug Harbor glows: hundreds of lanterns light up Staten Island'
+ 
+s botanical gardens. Tickets & info: http://www.nycgovparks.org/events/2026
+ 
+/11/20/winter-lantern-festival
+URL:http://www.nycgovparks.org/events/2026/11/20/winter-lantern-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-23@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T193000
+DTEND;TZID=America/New_York:20261120T213000
+SUMMARY:The Billie presents RONALD K. BROWN/EVIDENCE DANCE COMPANY
+LOCATION:The Billie Holiday Theatre\, Bedford-Stuyvesant (West)
+DESCRIPTION:Evidence Dance Company brings Ronald K. Brown's powerful\, spir
+ 
+itual choreography to Bed-Stuy. Tickets & info: https://www.eventbrite.com/
+ 
+e/the-billie-presents-ronald-k-brownevidence-dance-company-tickets-19972079
+ 
+85849
+URL:https://www.eventbrite.com/e/the-billie-presents-ronald-k-brownevidence
+ 
+-dance-company-tickets-1997207985849
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-24@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T193000
+DTEND;TZID=America/New_York:20261120T213000
+SUMMARY:Brooklyn Nets v. Orlando Magic (Emirates NBA Cup Group Play)
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:The Nets host the Magic in an NBA Cup group game — Friday nig
+ 
+ht basketball at Barclays. Tickets & info: https://www.ticketmaster.com/bro
+ 
+oklyn-nets-v-orlando-magic-emirates-brooklyn-new-york-11-20-2026/event/3000
+ 
+64FBC4CE4A74
+URL:https://www.ticketmaster.com/brooklyn-nets-v-orlando-magic-emirates-bro
+ 
+oklyn-new-york-11-20-2026/event/300064FBC4CE4A74
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-25@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T120000
+DTEND;TZID=America/New_York:20261120T140000
+SUMMARY:2026 Holiday Market at The Hub: Opening Weekend
+LOCATION:Welcome to Chinatown\, Chinatown-Two Bridges
+DESCRIPTION:The Hub's holiday market opens in Chinatown — local makers\, 
+ 
+gifts\, and good wandering. Tickets & info: https://luma.com/welcometo-z8gr
+URL:https://luma.com/welcometo-z8gr
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-26@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Monk Fridays: Tea\, Chat & Meditation
+LOCATION:Dharma Drum Meditation Center\, Chelsea-Hudson Yards
+DESCRIPTION:Tea\, conversation\, and guided meditation to close the week 
+ 
+ free\, in Chelsea. Tickets & info: https://luma.com/yf5cnrvl
+URL:https://luma.com/yf5cnrvl
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-27@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Alexis Cuadrado Group: Silent Film Scores for Social Justice
+LOCATION:The Jazz Gallery\, NoMad
+DESCRIPTION:A ten-piece band scores century-old silent films live — an al
+ 
+bum-release night about immigration\, women's rights\, and inequality. Tick
+ 
+ets & info: https://www.alexiscuadrado.com/silent-films
+URL:https://www.alexiscuadrado.com/silent-films
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-28@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Joseph Parra: Lure — Opening Reception
+LOCATION:Friedrichs Pontone\, Tribeca-Civic Center
+DESCRIPTION:A Brooklyn painter's first solo show opens in Tribeca — figur
+ 
+es built dot by dot in high-gloss acrylic. Tickets & info: https://nyartlif
+ 
+e.com/what-to-see-nyc-this-weekend-november-20-22-2026/
+URL:https://nyartlife.com/what-to-see-nyc-this-weekend-november-20-22-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261120-29@concierge
+DTSTAMP:20261120T130627Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Rabbit Hole Opening Reception at NYC Jewelry Week 2026
+LOCATION:Alphabet City Gallery\, East Village
+DESCRIPTION:A juried jewelry exhibition opens at Alphabet City Gallery for 
+ 
+NYC Jewelry Week — free\, with the makers in the room. Tickets & info: ht
+ 
+tps://www.eventbrite.com/e/rabbit-hole-opening-reception-at-nyc-jewelry-wee
+ 
+k-2026-tickets-2003223666913
+URL:https://www.eventbrite.com/e/rabbit-hole-opening-reception-at-nyc-jewel
+ 
+ry-week-2026-tickets-2003223666913
+END:VEVENT
+END:VCALENDAR
