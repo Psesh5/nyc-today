@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, November 21</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, November 21</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-21.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Jorja Smith">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZbbt">Jorja Smith</a></h3>
+<div class="meta">8:00 PM · Kings Theatre, Flatbush</div>
+<p>The British R&amp;B star brings her smoky, soulful voice to Flatbush for one night only.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZbbt">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="The Neighbourhood: THE WOURLD TOUR">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C">The Neighbourhood: THE WOURLD TOUR</a></h3>
+<div class="meta">7:00 PM · Barclays Center, Park Slope · $138</div>
+<p>The &#x27;Sweater Weather&#x27; band plays Barclays on their world tour — standard tickets gone, resale from $138.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="New York Philharmonic: Frank Huang Performs Mendelssohn">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-38">New York Philharmonic: Frank Huang Performs Mendelssohn</a></h3>
+<div class="meta">7:30 PM · David Geffen Hall, Upper West Side-Lincoln Square</div>
+<p>Frank Huang leads Mendelssohn&#x27;s Violin Concerto in E minor at Geffen Hall.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ-38">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Tiny Habits">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/tiny-habits-new-york-new-york-11-21-2026/event/000064C93163EA87">Tiny Habits</a></h3>
+<div class="meta">7:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>The harmony-driven trio&#x27;s gentle, close-voiced songs land at Irving Plaza.</p>
+<a class="tickets" href="https://www.ticketmaster.com/tiny-habits-new-york-new-york-11-21-2026/event/000064C93163EA87">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Maria Schneider Orchestra">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/maria-schneider-orchestra-birdland-jazz-club-tickets/15005423">Maria Schneider Orchestra</a></h3>
+<div class="meta">8:30 PM · Birdland, Hell&#x27;s Kitchen · $45.76</div>
+<p>The Grammy-winning composer leads her 18-piece orchestra through lush, cinematic jazz at Birdland.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/maria-schneider-orchestra-birdland-jazz-club-tickets/15005423">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Juilliard at The Apollo: Kind of Blue					">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-new-york-11-21-2026/event/0000651CDC8DCA2E">Juilliard at The Apollo: Kind of Blue					</a></h3>
+<div class="meta">2:30 PM · The Apollo&#x27;s Victoria Theater 1, Harlem (South)</div>
+<p>Juilliard jazzers salute Miles Davis&#x27;s Kind of Blue at the Apollo&#x27;s Victoria Theater.</p>
+<a class="tickets" href="https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-new-york-11-21-2026/event/0000651CDC8DCA2E">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Let&#x27;s Dance Brooklyn x Saint James Joy: ThanksChristmaHanukKwanzaa Boogie &amp; Toy Drive">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://ra.co/events/2549156">Let&#x27;s Dance Brooklyn x Saint James Joy: ThanksChristmaHanukKwanzaa Boogie &amp; Toy Drive</a></h3>
+<div class="meta">2:00 PM · Nowadays, Ridgewood · $10</div>
+<p>Thirteen years running: an all-ages afternoon house party with a toy drive — bring an unwrapped toy.</p>
+<a class="tickets" href="https://ra.co/events/2549156">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-7" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-21-2026/event/3C006457CEAB1F27">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">10:00 AM · Radio City Music Hall, Midtown-Times Square</div>
+<p>Ninety minutes of high kicks and holiday spectacle to kick off the season at Radio City.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-21-2026/event/3C006457CEAB1F27">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Stranger Things: The First Shadow">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-21-2026/event/Z1r9uZrrZbpZ1Aev73A">Stranger Things: The First Shadow</a></h3>
+<div class="meta">1:00 PM · Marquis Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>The hit prequel play brings Hawkins to Broadway — the Upside Down, live on stage.</p>
+<a class="tickets" href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-21-2026/event/Z1r9uZrrZbpZ1Aev73A">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Oh, Mary!">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-21-2026/event/Z1r9uZruZqGZ17J9-4">Oh, Mary!</a></h3>
+<div class="meta">5:00 PM · Lyceum Theatre, Midtown-Times Square</div>
+<p>Cole Escola&#x27;s delirious farce about Mary Todd Lincoln is still the funniest ticket in town.</p>
+<a class="tickets" href="https://www.ticketmaster.com/oh-mary-new-york-new-york-11-21-2026/event/Z1r9uZruZqGZ17J9-4">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="A Christmas Carol">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ67b">A Christmas Carol</a></h3>
+<div class="meta">7:30 PM · Perelman Performing Arts Center, Tribeca-Civic Center</div>
+<p>Dickens&#x27;s ghost story gets a fresh staging at the Perelman Center, just in time for the season.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZ67b">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="CATS: The Jellicle Ball">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_oa">CATS: The Jellicle Ball</a></h3>
+<div class="meta">2:00 PM · Broadhurst Theatre, Hell&#x27;s Kitchen</div>
+<p>Andrew Lloyd Webber&#x27;s cats meet ballroom culture in this radical, joyous reimagining.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1A7P_oa">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-12" data-name="Gary Owen: No Hard Feelings Tour">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/gary-owen-no-hard-feelings-tour-new-york-new-york-11-21-2026/event/3B00647EAEC938B5">Gary Owen: No Hard Feelings Tour</a></h3>
+<div class="meta">8:00 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>The stand-up veteran brings his No Hard Feelings tour to the Beacon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/gary-owen-no-hard-feelings-tour-new-york-new-york-11-21-2026/event/3B00647EAEC938B5">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Live! from Brooklyn Comedy Showcase ft. Todd Barry, Tatiana Frank, Poly Diaz, Ali Sultan, Jilberto Soto, and Ash Diggs">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-brooklyn-improv-the-lab-tickets/14435324">Live! from Brooklyn Comedy Showcase ft. Todd Barry, Tatiana Frank, Poly Diaz, Ali Sultan, Jilberto Soto, and Ash Diggs</a></h3>
+<div class="meta">6:45 PM · Brooklyn Improv (The Lab), Williamsburg · $13.75</div>
+<p>Todd Barry headlines a stacked lineup at Brooklyn Improv&#x27;s Lab for under $15.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-brooklyn-improv-the-lab-tickets/14435324">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Stand-up at Comedy Cellar (MacDougal Street): James Mattern, Moses Storm, Keith Robinson, Maddie Wiener &amp; more">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1795293900">Stand-up at Comedy Cellar (MacDougal Street): James Mattern, Moses Storm, Keith Robinson, Maddie Wiener &amp; more</a></h3>
+<div class="meta">8:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · $25</div>
+<p>The classic MacDougal Street room: four comics, two-drink minimum, zero phones.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1795293900">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="ACE Presents: Ghost World">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999005096-ace-presents-ghost-world/">ACE Presents: Ghost World</a></h3>
+<div class="meta">5:10 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Terry Zwigoff&#x27;s deadpan cult classic on the big screen at Metrograph.</p>
+<a class="tickets" href="https://metrograph.com/film/9999005096-ace-presents-ghost-world/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-16" data-name="Greenmarket at Grand Army Plaza">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-11-21/">Greenmarket at Grand Army Plaza</a></h3>
+<div class="meta">8:00 AM · Prospect Park, Prospect Park</div>
+<p>The Saturday market at Grand Army Plaza — the best produce run in Brooklyn, plus local wine.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-11-21/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Italian Cheese &amp; Wine Tasting">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/italian-cheese-wine-tasting-tickets-1997985543545">Italian Cheese &amp; Wine Tasting</a></h3>
+<div class="meta">5:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>Murray&#x27;s walks you through Italian cheese and wine pairings in the West Village.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/italian-cheese-wine-tasting-tickets-1997985543545">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Sip, Swirl &amp; Discover Italy with Fosco!">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sip-swirl-discover-italy-with-fosco-tickets-2004255719811">Sip, Swirl &amp; Discover Italy with Fosco!</a></h3>
+<div class="meta">5:00 PM · Broadway Spirits, Tribeca-Civic Center</div>
+<p>A guided Italian wine tasting at Broadway Spirits with Fosco — sip, swirl, learn.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sip-swirl-discover-italy-with-fosco-tickets-2004255719811">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Friendsgiving Dim Sum">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://partiful.com/e/q2BKWrwvjFdArkeuyFcb">Friendsgiving Dim Sum</a></h3>
+<div class="meta">5:30 PM · Golden Unicorn Restaurant, Chinatown-Two Bridges · $50</div>
+<p>A sit-down dim sum Friendsgiving in Chinatown — $50 a head, only a few seats left.</p>
+<a class="tickets" href="https://partiful.com/e/q2BKWrwvjFdArkeuyFcb">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-20" data-name="Closing Party: Forest of Mononoke">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/c9psmow2">Closing Party: Forest of Mononoke</a></h3>
+<div class="meta">7:00 PM · 573 Sackett St, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Last chance: Saki Sonoda&#x27;s glowing forest of acrylic spirits closes with drinks in Gowanus.</p>
+<a class="tickets" href="https://luma.com/c9psmow2">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-21" data-name="Mozzarella &amp; Burrata Making: Double Feature!">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mozzarella-burrata-making-double-feature-tickets-1998257825949">Mozzarella &amp; Burrata Making: Double Feature!</a></h3>
+<div class="meta">2:00 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>Roll your own mozzarella and burrata at Murray&#x27;s, then take the cheese home.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mozzarella-burrata-making-double-feature-tickets-1998257825949">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Hands-On: Ravioli | Butternut Squash">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hands-on-ravioli-butternut-squash-tickets-2002761750308">Hands-On: Ravioli | Butternut Squash</a></h3>
+<div class="meta">6:00 PM · Eataly NYC Flatiron, Midtown South-Flatiron-Union Square</div>
+<p>Butternut squash ravioli, handmade with Eataly&#x27;s Scuola chefs at Flatiron.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hands-on-ravioli-butternut-squash-tickets-2002761750308">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-23" data-name="Lectures on Tap - &quot;The Story of Lithium: From the Big Bang to Your Brain&quot;">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lectures-on-tap-the-story-of-lithium-from-the-big-bang-to-your-brain-tickets-2003428059256">Lectures on Tap - &quot;The Story of Lithium: From the Big Bang to Your Brain&quot;</a></h3>
+<div class="meta">6:30 PM · Lower East Side, Lower East Side</div>
+<p>A bar lecture on lithium&#x27;s wild ride from the Big Bang to your brain — beer in hand.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lectures-on-tap-the-story-of-lithium-from-the-big-bang-to-your-brain-tickets-2003428059256">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="Tommy Orange Book Bash">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tommy-orange-book-bash-tickets-2004027726878">Tommy Orange Book Bash</a></h3>
+<div class="meta">3:00 PM · Melrose Library, Concourse-Concourse Village</div>
+<p>A celebration of the There There author at Melrose Library in the Bronx.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tommy-orange-book-bash-tickets-2004027726878">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="Walking Book Club with Iman Hariri-Kia">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/t7scucoe">Walking Book Club with Iman Hariri-Kia</a></h3>
+<div class="meta">11:00 AM · East 91st Street &amp; 3rd Avenue, Upper East Side-Yorkville</div>
+<p>Discuss Iman Hariri-Kia&#x27;s Once in a Timeline on a stroll to the Strand, with free coffee.</p>
+<a class="tickets" href="https://luma.com/t7scucoe">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Un Party De Bachata : New York at Republica">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/un-party-de-bachata-new-york-at-republica-tickets-2004444833455">Un Party De Bachata : New York at Republica</a></h3>
+<div class="meta">5:00 PM · Republica Restaurant &amp; Rooftop, Inwood · $23.18</div>
+<p>A five-hour bachata day party in Inwood with a wild half-hour loca at 8:30 — dancing, romo, surprises.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/un-party-de-bachata-new-york-at-republica-tickets-2004444833455">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-27" data-name="Ice Skating">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-21">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square</div>
+<p>Free admission at the Winter Village rink — skate under the skyline, rentals available.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-21">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-28" data-name="New York Knicks vs. Portland Trail Blazers">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-portland-trail-new-york-new-york-11-21-2026/event/3B006511E9208636">New York Knicks vs. Portland Trail Blazers</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Knicks host Portland at the Garden on a Saturday night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-portland-trail-new-york-new-york-11-21-2026/event/3B006511E9208636">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-29" data-name="Ghosts of Gotham&#x27;s Greenwich">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125283268">Ghosts of Gotham&#x27;s Greenwich</a></h3>
+<div class="meta">7:30 PM · Meet at Washington Square Arch, 7:30pm Daily, Greenwich Village</div>
+<p>A lantern-lit ghost walk through Greenwich Village&#x27;s haunted corners.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-1989125283268">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-21";
+const NAMES = ["Jorja Smith", "The Neighbourhood: THE WOURLD TOUR", "New York Philharmonic: Frank Huang Performs Mendelssohn", "Tiny Habits", "Maria Schneider Orchestra", "Juilliard at The Apollo: Kind of Blue\t\t\t\t\t", "Let's Dance Brooklyn x Saint James Joy: ThanksChristmaHanukKwanzaa Boogie & Toy Drive", "Christmas Spectacular Starring The Radio City Rockettes", "Stranger Things: The First Shadow", "Oh, Mary!", "A Christmas Carol", "CATS: The Jellicle Ball", "Gary Owen: No Hard Feelings Tour", "Live! from Brooklyn Comedy Showcase ft. Todd Barry, Tatiana Frank, Poly Diaz, Ali Sultan, Jilberto Soto, and Ash Diggs", "Stand-up at Comedy Cellar (MacDougal Street): James Mattern, Moses Storm, Keith Robinson, Maddie Wiener & more", "ACE Presents: Ghost World", "Greenmarket at Grand Army Plaza", "Italian Cheese & Wine Tasting", "Sip, Swirl & Discover Italy with Fosco!", "Friendsgiving Dim Sum", "Closing Party: Forest of Mononoke", "Mozzarella & Burrata Making: Double Feature!", "Hands-On: Ravioli | Butternut Squash", "Lectures on Tap - \"The Story of Lithium: From the Big Bang to Your Brain\"", "Tommy Orange Book Bash", "Walking Book Club with Iman Hariri-Kia", "Un Party De Bachata : New York at Republica", "Ice Skating", "New York Knicks vs. Portland Trail Blazers", "Ghosts of Gotham's Greenwich"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

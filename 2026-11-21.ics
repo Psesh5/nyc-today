@@ -1,0 +1,481 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261121-0@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T200000
+DTEND;TZID=America/New_York:20261121T220000
+SUMMARY:Jorja Smith
+LOCATION:Kings Theatre\, Flatbush
+DESCRIPTION:The British R&B star brings her smoky\, soulful voice to Flatbu
+ 
+sh for one night only. Tickets & info: https://www.ticketmaster.com/event/Z
+ 
+7r9jZ1AAZbbt
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZbbt
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-1@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T190000
+DTEND;TZID=America/New_York:20261121T210000
+SUMMARY:The Neighbourhood: THE WOURLD TOUR
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:The 'Sweater Weather' band plays Barclays on their world tour 
+ 
+ standard tickets gone\, resale from $138. Tickets & info: https://www.ti
+ 
+cketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-20
+ 
+26/event/30006449D4A6700C
+URL:https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn
+ 
+-new-york-11-21-2026/event/30006449D4A6700C
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-2@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T193000
+DTEND;TZID=America/New_York:20261121T213000
+SUMMARY:New York Philharmonic: Frank Huang Performs Mendelssohn
+LOCATION:David Geffen Hall\, Upper West Side-Lincoln Square
+DESCRIPTION:Frank Huang leads Mendelssohn's Violin Concerto in E minor at G
+ 
+effen Hall. Tickets & info: https://www.ticketmaster.com/event/Z7r9jZ1AAZ-3
+ 
+8
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ-38
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-3@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T190000
+DTEND;TZID=America/New_York:20261121T210000
+SUMMARY:Tiny Habits
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:The harmony-driven trio's gentle\, close-voiced songs land at I
+ 
+rving Plaza. Tickets & info: https://www.ticketmaster.com/tiny-habits-new-y
+ 
+ork-new-york-11-21-2026/event/000064C93163EA87
+URL:https://www.ticketmaster.com/tiny-habits-new-york-new-york-11-21-2026/e
+ 
+vent/000064C93163EA87
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-4@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T203000
+DTEND;TZID=America/New_York:20261121T223000
+SUMMARY:Maria Schneider Orchestra
+LOCATION:Birdland\, Hell's Kitchen
+DESCRIPTION:The Grammy-winning composer leads her 18-piece orchestra throug
+ 
+h lush\, cinematic jazz at Birdland. Tickets & info: https://www.ticketweb.
+ 
+com/event/maria-schneider-orchestra-birdland-jazz-club-tickets/15005423
+URL:https://www.ticketweb.com/event/maria-schneider-orchestra-birdland-jazz
+ 
+-club-tickets/15005423
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-5@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T143000
+DTEND;TZID=America/New_York:20261121T163000
+SUMMARY:Juilliard at The Apollo: Kind of Blue					
+LOCATION:The Apollo's Victoria Theater 1\, Harlem (South)
+DESCRIPTION:Juilliard jazzers salute Miles Davis's Kind of Blue at the Apol
+ 
+lo's Victoria Theater. Tickets & info: https://www.ticketmaster.com/juillia
+ 
+rd-at-the-apollo-kind-of-new-york-new-york-11-21-2026/event/0000651CDC8DCA2
+ 
+E
+URL:https://www.ticketmaster.com/juilliard-at-the-apollo-kind-of-new-york-n
+ 
+ew-york-11-21-2026/event/0000651CDC8DCA2E
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-6@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T140000
+DTEND;TZID=America/New_York:20261121T160000
+SUMMARY:Let's Dance Brooklyn x Saint James Joy: ThanksChristmaHanukKwanzaa 
+ 
+Boogie & Toy Drive
+LOCATION:Nowadays\, Ridgewood
+DESCRIPTION:Thirteen years running: an all-ages afternoon house party with 
+ 
+a toy drive — bring an unwrapped toy. Tickets & info: https://ra.co/event
+ 
+s/2549156
+URL:https://ra.co/events/2549156
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-7@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T100000
+DTEND;TZID=America/New_York:20261121T120000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:Ninety minutes of high kicks and holiday spectacle to kick off 
+ 
+the season at Radio City. Tickets & info: https://www.ticketmaster.com/chri
+ 
+stmas-spectacular-starring-the-radio-city-new-york-new-york-11-21-2026/even
+ 
+t/3C006457CEAB1F27
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-21-2026/event/3C006457CEAB1F27
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-8@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T130000
+DTEND;TZID=America/New_York:20261121T150000
+SUMMARY:Stranger Things: The First Shadow
+LOCATION:Marquis Theatre - NY\, Hell's Kitchen
+DESCRIPTION:The hit prequel play brings Hawkins to Broadway — the Upside 
+ 
+Down\, live on stage. Tickets & info: https://www.ticketmaster.com/stranger
+ 
+-things-the-first-shadow-new-york-new-york-11-21-2026/event/Z1r9uZrrZbpZ1Ae
+ 
+v73A
+URL:https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-
+ 
+new-york-11-21-2026/event/Z1r9uZrrZbpZ1Aev73A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-9@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T170000
+DTEND;TZID=America/New_York:20261121T190000
+SUMMARY:Oh\, Mary!
+LOCATION:Lyceum Theatre\, Midtown-Times Square
+DESCRIPTION:Cole Escola's delirious farce about Mary Todd Lincoln is still 
+ 
+the funniest ticket in town. Tickets & info: https://www.ticketmaster.com/o
+ 
+h-mary-new-york-new-york-11-21-2026/event/Z1r9uZruZqGZ17J9-4
+URL:https://www.ticketmaster.com/oh-mary-new-york-new-york-11-21-2026/event
+ 
+/Z1r9uZruZqGZ17J9-4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-10@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T193000
+DTEND;TZID=America/New_York:20261121T213000
+SUMMARY:A Christmas Carol
+LOCATION:Perelman Performing Arts Center\, Tribeca-Civic Center
+DESCRIPTION:Dickens's ghost story gets a fresh staging at the Perelman Cent
+ 
+er\, just in time for the season. Tickets & info: https://www.ticketmaster.
+ 
+com/event/Z7r9jZ1AAZ67b
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZ67b
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-11@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T140000
+DTEND;TZID=America/New_York:20261121T160000
+SUMMARY:CATS: The Jellicle Ball
+LOCATION:Broadhurst Theatre\, Hell's Kitchen
+DESCRIPTION:Andrew Lloyd Webber's cats meet ballroom culture in this radica
+ 
+l\, joyous reimagining. Tickets & info: https://www.ticketmaster.com/event/
+ 
+Z7r9jZ1A7P_oa
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7P_oa
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-12@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T200000
+DTEND;TZID=America/New_York:20261121T220000
+SUMMARY:Gary Owen: No Hard Feelings Tour
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:The stand-up veteran brings his No Hard Feelings tour to the Be
+ 
+acon. Tickets & info: https://www.ticketmaster.com/gary-owen-no-hard-feelin
+ 
+gs-tour-new-york-new-york-11-21-2026/event/3B00647EAEC938B5
+URL:https://www.ticketmaster.com/gary-owen-no-hard-feelings-tour-new-york-n
+ 
+ew-york-11-21-2026/event/3B00647EAEC938B5
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-13@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T184500
+DTEND;TZID=America/New_York:20261121T204500
+SUMMARY:Live! from Brooklyn Comedy Showcase ft. Todd Barry\, Tatiana Frank\
+ 
+, Poly Diaz\, Ali Sultan\, Jilberto Soto\, and Ash Diggs
+LOCATION:Brooklyn Improv (The Lab)\, Williamsburg
+DESCRIPTION:Todd Barry headlines a stacked lineup at Brooklyn Improv's Lab 
+ 
+for under $15. Tickets & info: https://www.ticketweb.com/event/live-from-br
+ 
+ooklyn-comedy-showcase-brooklyn-improv-the-lab-tickets/14435324
+URL:https://www.ticketweb.com/event/live-from-brooklyn-comedy-showcase-broo
+ 
+klyn-improv-the-lab-tickets/14435324
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-14@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T204500
+DTEND;TZID=America/New_York:20261121T224500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): James Mattern\, Moses
+ 
+ Storm\, Keith Robinson\, Maddie Wiener & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic MacDougal Street room: four comics\, two-drink mini
+ 
+mum\, zero phones. Tickets & info: https://www.comedycellar.com/reservation
+ 
+s-newyork/?showid=1795293900
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1795293900
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-15@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T171000
+DTEND;TZID=America/New_York:20261121T191000
+SUMMARY:ACE Presents: Ghost World
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Terry Zwigoff's deadpan cult classic on the big screen at Metro
+ 
+graph. Tickets & info: https://metrograph.com/film/9999005096-ace-presents-
+ 
+ghost-world/
+URL:https://metrograph.com/film/9999005096-ace-presents-ghost-world/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-16@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T080000
+DTEND;TZID=America/New_York:20261121T100000
+SUMMARY:Greenmarket at Grand Army Plaza
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:The Saturday market at Grand Army Plaza — the best produce ru
+ 
+n in Brooklyn\, plus local wine. Tickets & info: https://www.prospectpark.o
+ 
+rg/event/greenmarket-at-grand-army-plaza-2/2026-11-21/
+URL:https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/20
+ 
+26-11-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-17@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T173000
+DTEND;TZID=America/New_York:20261121T193000
+SUMMARY:Italian Cheese & Wine Tasting
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Murray's walks you through Italian cheese and wine pairings in 
+ 
+the West Village. Tickets & info: https://www.eventbrite.com/e/italian-chee
+ 
+se-wine-tasting-tickets-1997985543545
+URL:https://www.eventbrite.com/e/italian-cheese-wine-tasting-tickets-199798
+ 
+5543545
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-18@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T170000
+DTEND;TZID=America/New_York:20261121T190000
+SUMMARY:Sip\, Swirl & Discover Italy with Fosco!
+LOCATION:Broadway Spirits\, Tribeca-Civic Center
+DESCRIPTION:A guided Italian wine tasting at Broadway Spirits with Fosco 
+ 
+ sip\, swirl\, learn. Tickets & info: https://www.eventbrite.com/e/sip-swi
+ 
+rl-discover-italy-with-fosco-tickets-2004255719811
+URL:https://www.eventbrite.com/e/sip-swirl-discover-italy-with-fosco-ticket
+ 
+s-2004255719811
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-19@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T173000
+DTEND;TZID=America/New_York:20261121T193000
+SUMMARY:Friendsgiving Dim Sum
+LOCATION:Golden Unicorn Restaurant\, Chinatown-Two Bridges
+DESCRIPTION:A sit-down dim sum Friendsgiving in Chinatown — $50 a head\, 
+ 
+only a few seats left. Tickets & info: https://partiful.com/e/q2BKWrwvjFdAr
+ 
+keuyFcb
+URL:https://partiful.com/e/q2BKWrwvjFdArkeuyFcb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-20@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T190000
+DTEND;TZID=America/New_York:20261121T210000
+SUMMARY:Closing Party: Forest of Mononoke
+LOCATION:573 Sackett St\, Carroll Gardens-Cobble Hill-Gowanus-Red Hook
+DESCRIPTION:Last chance: Saki Sonoda's glowing forest of acrylic spirits cl
+ 
+oses with drinks in Gowanus. Tickets & info: https://luma.com/c9psmow2
+URL:https://luma.com/c9psmow2
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-21@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T140000
+DTEND;TZID=America/New_York:20261121T160000
+SUMMARY:Mozzarella & Burrata Making: Double Feature!
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:Roll your own mozzarella and burrata at Murray's\, then take th
+ 
+e cheese home. Tickets & info: https://www.eventbrite.com/e/mozzarella-burr
+ 
+ata-making-double-feature-tickets-1998257825949
+URL:https://www.eventbrite.com/e/mozzarella-burrata-making-double-feature-t
+ 
+ickets-1998257825949
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-22@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T180000
+DTEND;TZID=America/New_York:20261121T200000
+SUMMARY:Hands-On: Ravioli | Butternut Squash
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Butternut squash ravioli\, handmade with Eataly's Scuola chefs 
+ 
+at Flatiron. Tickets & info: https://www.eventbrite.com/e/hands-on-ravioli-
+ 
+butternut-squash-tickets-2002761750308
+URL:https://www.eventbrite.com/e/hands-on-ravioli-butternut-squash-tickets-
+ 
+2002761750308
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-23@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T183000
+DTEND;TZID=America/New_York:20261121T203000
+SUMMARY:Lectures on Tap - "The Story of Lithium: From the Big Bang to Your 
+ 
+Brain"
+LOCATION:Lower East Side\, Lower East Side
+DESCRIPTION:A bar lecture on lithium's wild ride from the Big Bang to your 
+ 
+brain — beer in hand. Tickets & info: https://www.eventbrite.com/e/lectur
+ 
+es-on-tap-the-story-of-lithium-from-the-big-bang-to-your-brain-tickets-2003
+ 
+428059256
+URL:https://www.eventbrite.com/e/lectures-on-tap-the-story-of-lithium-from-
+ 
+the-big-bang-to-your-brain-tickets-2003428059256
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-24@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T150000
+DTEND;TZID=America/New_York:20261121T170000
+SUMMARY:Tommy Orange Book Bash
+LOCATION:Melrose Library\, Concourse-Concourse Village
+DESCRIPTION:A celebration of the There There author at Melrose Library in t
+ 
+he Bronx. Tickets & info: https://www.eventbrite.com/e/tommy-orange-book-ba
+ 
+sh-tickets-2004027726878
+URL:https://www.eventbrite.com/e/tommy-orange-book-bash-tickets-20040277268
+ 
+78
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-25@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T110000
+DTEND;TZID=America/New_York:20261121T130000
+SUMMARY:Walking Book Club with Iman Hariri-Kia
+LOCATION:East 91st Street & 3rd Avenue\, Upper East Side-Yorkville
+DESCRIPTION:Discuss Iman Hariri-Kia's Once in a Timeline on a stroll to the
+ 
+ Strand\, with free coffee. Tickets & info: https://luma.com/t7scucoe
+URL:https://luma.com/t7scucoe
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-26@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T170000
+DTEND;TZID=America/New_York:20261121T190000
+SUMMARY:Un Party De Bachata : New York at Republica
+LOCATION:Republica Restaurant & Rooftop\, Inwood
+DESCRIPTION:A five-hour bachata day party in Inwood with a wild half-hour l
+ 
+oca at 8:30 — dancing\, romo\, surprises. Tickets & info: https://www.eve
+ 
+ntbrite.com/e/un-party-de-bachata-new-york-at-republica-tickets-20044448334
+ 
+55
+URL:https://www.eventbrite.com/e/un-party-de-bachata-new-york-at-republica-
+ 
+tickets-2004444833455
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-27@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T080000
+DTEND;TZID=America/New_York:20261121T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free admission at the Winter Village rink — skate under the s
+ 
+kyline\, rentals available. Tickets & info: https://bryantpark.org/calendar
+ 
+/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-21
+URL:https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-p
+ 
+ark-late-closing/2026-11-21
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-28@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T193000
+DTEND;TZID=America/New_York:20261121T213000
+SUMMARY:New York Knicks vs. Portland Trail Blazers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Knicks host Portland at the Garden on a Saturday night. Tic
+ 
+kets & info: https://www.ticketmaster.com/new-york-knicks-vs-portland-trail
+ 
+-new-york-new-york-11-21-2026/event/3B006511E9208636
+URL:https://www.ticketmaster.com/new-york-knicks-vs-portland-trail-new-york
+ 
+-new-york-11-21-2026/event/3B006511E9208636
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261121-29@concierge
+DTSTAMP:20261121T140815Z
+DTSTART;TZID=America/New_York:20261121T193000
+DTEND;TZID=America/New_York:20261121T213000
+SUMMARY:Ghosts of Gotham's Greenwich
+LOCATION:Meet at Washington Square Arch\, 7:30pm Daily\, Greenwich Village
+DESCRIPTION:A lantern-lit ghost walk through Greenwich Village's haunted co
+ 
+rners. Tickets & info: https://www.eventbrite.com/e/ghosts-of-gothams-green
+ 
+wich-tickets-1989125283268
+URL:https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-198912
+ 
+5283268
+END:VEVENT
+END:VCALENDAR
