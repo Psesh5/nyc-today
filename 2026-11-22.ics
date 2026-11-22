@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261122-0@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T180000
+DTEND;TZID=America/New_York:20261122T200000
+SUMMARY:The Menzingers: Everything I Ever Saw North American Tour
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Philly punk lifers bring their new record's anthems to Brooklyn
+ 
+ Paramount. Tickets & info: https://www.ticketmaster.com/the-menzingers-eve
+ 
+rything-i-ever-saw-brooklyn-new-york-11-22-2026/event/0000649CB44A761F
+URL:https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-brook
+ 
+lyn-new-york-11-22-2026/event/0000649CB44A761F
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-1@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T200000
+DTEND;TZID=America/New_York:20261122T220000
+SUMMARY:Jamila Woods: 10 Years of HEAVN - Ages 18+
+LOCATION:Music Hall of Williamsburg\, Williamsburg
+DESCRIPTION:A decade of HEAVN\, celebrated live — soulful\, literary\, an
+ 
+d made for this room. Tickets & info: https://www.ticketmaster.com/event/Z7
+ 
+r9jZ1AAZUb4
+URL:https://www.ticketmaster.com/event/Z7r9jZ1AAZUb4
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-2@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T190000
+DTEND;TZID=America/New_York:20261122T210000
+SUMMARY:FREE 6LACK: The Anniversary Show
+LOCATION:Irving Plaza Powered By Verizon 5G\, Gramercy
+DESCRIPTION:6LACK marks the anniversary with a free show at Irving Plaza. T
+ 
+ickets & info: https://www.ticketmaster.com/free-6lack-the-anniversary-show
+ 
+-new-york-new-york-11-22-2026/event/00006555095C3860
+URL:https://www.ticketmaster.com/free-6lack-the-anniversary-show-new-york-n
+ 
+ew-york-11-22-2026/event/00006555095C3860
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-3@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T190000
+DTEND;TZID=America/New_York:20261122T210000
+SUMMARY:The Neighbourhood: THE WOURLD TOUR
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:The Wourld Tour hits Barclays — big-room indie rock on a Sund
+ 
+ay night. Tickets & info: https://www.ticketmaster.com/the-neighbourhood-th
+ 
+e-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229
+URL:https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn
+ 
+-new-york-11-22-2026/event/3000645478072229
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-4@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T170000
+DTEND;TZID=America/New_York:20261122T190000
+SUMMARY:Rizzoli Music Aperitivo: Big Lazy
+LOCATION:Rizzoli Bookstore\, Midtown South-Flatiron-Union Square
+DESCRIPTION:A Sunday aperitivo with live music among the bookshelves at Riz
+ 
+zoli. Tickets & info: https://www.eventbrite.com/e/rizzoli-music-aperitivo-
+ 
+big-lazy-tickets-2003630730451
+URL:https://www.eventbrite.com/e/rizzoli-music-aperitivo-big-lazy-tickets-2
+ 
+003630730451
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-5@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T193000
+DTEND;TZID=America/New_York:20261122T213000
+SUMMARY:John Oliver & Seth Meyers
+LOCATION:Beacon Theatre\, Upper West Side (Central)
+DESCRIPTION:Two late-night heavyweights\, one Beacon stage\, zero telepromp
+ 
+ters. Tickets & info: https://www.ticketmaster.com/john-oliver-seth-meyers-
+ 
+new-york-new-york-11-22-2026/event/3B00649092832D66
+URL:https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-
+ 
+11-22-2026/event/3B00649092832D66
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-6@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T200000
+DTEND;TZID=America/New_York:20261122T220000
+SUMMARY:Yerrrlywood ft: Kid Mero\, Malik Elassal\, Maddy Smith\, Eva Evans\
+ 
+, Jeffrey Baldinger\, Gadiel Del Orbe
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Kid Mero headlines a stacked East-meets-West-coast lineup at NY
+ 
+CC's East Village room. Tickets & info: https://newyorkcomedyclub.com/event
+ 
+s/yerrrlywood-ft-kid-mero-malik-elassal-maddy-smith-eva-evans-jeffrey-baldi
+ 
+nger-gadiel-del-orbe
+URL:https://newyorkcomedyclub.com/events/yerrrlywood-ft-kid-mero-malik-elas
+ 
+sal-maddy-smith-eva-evans-jeffrey-baldinger-gadiel-del-orbe
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-7@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T193000
+DTEND;TZID=America/New_York:20261122T213000
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Rich Aronovitch\, Jul
+ 
+io Diaz\, Adam Ferrara\, Peter Revello & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The classic MacDougal Street room: surprise drop-ins\, sharp se
+ 
+ts\, two-item minimum. Tickets & info: https://www.comedycellar.com/reserva
+ 
+tions-newyork/?showid=1795375800
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1795375800
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-8@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T110000
+DTEND;TZID=America/New_York:20261122T130000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The Christmas Spectacular never misses — high kicks and pure 
+ 
+New York. Tickets & info: https://www.ticketmaster.com/christmas-spectacula
+ 
+r-starring-the-radio-city-new-york-new-york-11-22-2026/event/3C006457CED71F
+ 
+38
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-22-2026/event/3C006457CED71F38
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-9@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T140000
+DTEND;TZID=America/New_York:20261122T160000
+SUMMARY:Maybe Happy Ending
+LOCATION:Belasco Theatre\, Midtown-Times Square
+DESCRIPTION:The gentle robot romance that charmed Broadway\, back for a Sun
+ 
+day matinee. Tickets & info: https://www.ticketmaster.com/maybe-happy-endin
+ 
+g-new-york-new-york-11-22-2026/event/Z1r9uZruZqGZ17Jb_a
+URL:https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-11-22
+ 
+-2026/event/Z1r9uZruZqGZ17Jb_a
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-10@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T163000
+DTEND;TZID=America/New_York:20261122T183000
+SUMMARY:The Thanksgiving Play by Larissa Fasthorse
+LOCATION:Beni Coffee
+DESCRIPTION:Larissa Fasthorse's satire staged in a coffee shop — small ro
+ 
+om\, big laughs. Tickets & info: https://www.eventbrite.com/e/the-thanksgiv
+ 
+ing-play-by-larissa-fasthorse-tickets-2004847842867
+URL:https://www.eventbrite.com/e/the-thanksgiving-play-by-larissa-fasthorse
+ 
+-tickets-2004847842867
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-11@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T210000
+DTEND;TZID=America/New_York:20261122T230000
+SUMMARY:A Clockwork Orange
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Kubrick's dystopian classic on the big screen at Metrograph\, l
+ 
+ate show. Tickets & info: https://metrograph.com/film/9999001436-a-clockwor
+ 
+k-orange/
+URL:https://metrograph.com/film/9999001436-a-clockwork-orange/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-12@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T144000
+DTEND;TZID=America/New_York:20261122T164000
+SUMMARY:Rome\, Open City
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Rossellini's neorealist landmark in a new 4K restoration at Fil
+ 
+m Forum. Tickets & info: https://filmforum.org/film/rome-open-city-rosselli
+ 
+ni-120
+URL:https://filmforum.org/film/rome-open-city-rossellini-120
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-13@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T170000
+DTEND;TZID=America/New_York:20261122T190000
+SUMMARY:Winter Lantern Festival
+LOCATION:Snug Harbor\, Snug Harbor
+DESCRIPTION:Hundreds of glowing lanterns light up Snug Harbor after dark 
+ 
+ tickets from $18\, and very Staten Island Ferry-friendly. Tickets & info:
+ 
+ http://www.nycgovparks.org/events/2026/11/22/winter-lantern-festival
+URL:http://www.nycgovparks.org/events/2026/11/22/winter-lantern-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-14@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T110000
+DTEND;TZID=America/New_York:20261122T130000
+SUMMARY:🎄Mimi Market ｜ A Celebration of Makers & Merry Things
+LOCATION:43-32 22nd St\, Long Island City-Hunters Point
+DESCRIPTION:A cozy LIC holiday market: ceramics\, stationery\, jewelry\, an
+ 
+d gifts from indie makers. Tickets & info: https://luma.com/nwyxw520
+URL:https://luma.com/nwyxw520
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-15@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T150000
+DTEND;TZID=America/New_York:20261122T170000
+SUMMARY:NYC Jewelry Week [exhibition closing]
+LOCATION:Bohemian National Hall\, Upper East Side-Lenox Hill-Roosevelt Isla
+ 
+nd
+DESCRIPTION:NYC Jewelry Week wraps with a closing exhibition at Bohemian Na
+ 
+tional Hall. Tickets & info: https://www.eventbrite.com/e/nyc-jewelry-week-
+ 
+exhibition-closing-tickets-2003938826976
+URL:https://www.eventbrite.com/e/nyc-jewelry-week-exhibition-closing-ticket
+ 
+s-2003938826976
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-16@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T160000
+DTEND;TZID=America/New_York:20261122T180000
+SUMMARY:variety: LIVE All Ages Showcase at Primavera Flowers
+LOCATION:Primavera Flowers NYC\, Washington Heights (North)
+DESCRIPTION:Music\, comedy\, and poetry inside a Washington Heights flower 
+ 
+shop — all ages\, doors at 3:30. Tickets & info: https://www.eventbrite.c
+ 
+om/e/variety-live-all-ages-showcase-at-primavera-flowers-tickets-2004773781
+ 
+347
+URL:https://www.eventbrite.com/e/variety-live-all-ages-showcase-at-primaver
+ 
+a-flowers-tickets-2004773781347
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-17@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T150000
+DTEND;TZID=America/New_York:20261122T170000
+SUMMARY:Wines of South Africa Tasting and Book Signing with Jim Clarke
+LOCATION:Flatiron Wines & Spirits\, NYC\, Midtown South-Flatiron-Union Squa
+ 
+re
+DESCRIPTION:A tasting and book signing with Jim Clarke at Flatiron Wines 
+ 
+ pours with stories. Tickets & info: https://www.eventbrite.com/e/wines-of
+ 
+-south-africa-tasting-and-book-signing-with-jim-clarke-tickets-200491621236
+ 
+2
+URL:https://www.eventbrite.com/e/wines-of-south-africa-tasting-and-book-sig
+ 
+ning-with-jim-clarke-tickets-2004916212362
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-18@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T140000
+DTEND;TZID=America/New_York:20261122T160000
+SUMMARY:Plants On Wheels 4th Annual Vegan Thanksgiving
+LOCATION:Tompkins Square Park\, East Village
+DESCRIPTION:Plants on Wheels serves its fourth annual vegan Thanksgiving in
+ 
+ Tompkins Square — free. Tickets & info: https://www.eventbrite.com/e/pla
+ 
+nts-on-wheels-4th-annual-vegan-thanksgiving-tickets-2004795744038
+URL:https://www.eventbrite.com/e/plants-on-wheels-4th-annual-vegan-thanksgi
+ 
+ving-tickets-2004795744038
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-19@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T170000
+DTEND;TZID=America/New_York:20261122T190000
+SUMMARY:In-Person Class: Classic Handmade Pasta With Vodka Sauce (NYC)
+LOCATION:Hyatt Place New York/Midtown-South\, Midtown-Times Square
+DESCRIPTION:Learn to make fresh pasta with vodka sauce from scratch — din
+ 
+ner is the homework. Tickets & info: https://www.eventbrite.com/e/in-person
+ 
+-class-classic-handmade-pasta-with-vodka-sauce-nyc-tickets-2000314482464
+URL:https://www.eventbrite.com/e/in-person-class-classic-handmade-pasta-wit
+ 
+h-vodka-sauce-nyc-tickets-2000314482464
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-20@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T113000
+DTEND;TZID=America/New_York:20261122T133000
+SUMMARY:The Lil Painting Sesh
+LOCATION:234 Grand St\, Williamsburg
+DESCRIPTION:A low-key guided painting session in Williamsburg — all suppl
+ 
+ies\, no experience needed. Tickets & info: https://www.eventbrite.com/e/th
+ 
+e-lil-painting-sesh-tickets-2004753448531
+URL:https://www.eventbrite.com/e/the-lil-painting-sesh-tickets-200475344853
+ 
+1
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-21@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T080000
+DTEND;TZID=America/New_York:20261122T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Glide under the skyline at the Bryant Park rink — free admiss
+ 
+ion\, skate rental extra. Tickets & info: https://bryantpark.org/calendar/e
+ 
+vent/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-22
+URL:https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-p
+ 
+ark-late-closing/2026-11-22
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-22@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T110000
+DTEND;TZID=America/New_York:20261122T130000
+SUMMARY:Autumn Mushroom ID Hike
+LOCATION:Van Cortlandt Nature Center (in Van Cortlandt Park)\, Van Cortland
+ 
+t Park
+DESCRIPTION:Rangers lead a fungi-spotting hike on Van Cortlandt's Kieran Tr
+ 
+ail — free\, no registration. Tickets & info: http://www.nycgovparks.org/
+ 
+events/2026/11/22/autumn-mushroom-id-hike
+URL:http://www.nycgovparks.org/events/2026/11/22/autumn-mushroom-id-hike
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-23@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T130000
+DTEND;TZID=America/New_York:20261122T150000
+SUMMARY:Native American Heritage Month: Walking Lenapehoking
+LOCATION:Seaman Avenue and Isham Street (in Inwood Hill Park)\, Inwood
+DESCRIPTION:A ranger-led walk through Inwood Hill Park on Lenape history an
+ 
+d the land beneath the city — free. Tickets & info: http://www.nycgovpark
+ 
+s.org/events/2026/11/22/native-american-heritage-month-walking-lenapehoking
+URL:http://www.nycgovparks.org/events/2026/11/22/native-american-heritage-m
+ 
+onth-walking-lenapehoking
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-24@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T140000
+DTEND;TZID=America/New_York:20261122T160000
+SUMMARY:Stranger on the Shore: A Jazz Poetry Celebration with Patricia Carr
+ 
+agon and Friends
+LOCATION:Jefferson Market Branch\, Midtown-Times Square
+DESCRIPTION:Poet Patricia Carragon celebrates her new jazz-inspired collect
+ 
+ion at Jefferson Market Library — free. Tickets & info: https://bookevent
+ 
+s.nyc/events/stranger-on-the-shore-a-jazz-poetry-celebration-nov-22
+URL:https://bookevents.nyc/events/stranger-on-the-shore-a-jazz-poetry-celeb
+ 
+ration-nov-22
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-25@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T130000
+DTEND;TZID=America/New_York:20261122T150000
+SUMMARY:This Week's Issue: Read the New Yorker Together
+LOCATION:The Center for Fiction Café & Bar\, Fort Greene
+DESCRIPTION:Thirty quiet minutes with this week's New Yorker\, then convers
+ 
+ation over coffee in Fort Greene. Tickets & info: https://luma.com/cl6dze9g
+URL:https://luma.com/cl6dze9g
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-26@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T160000
+DTEND;TZID=America/New_York:20261122T180000
+SUMMARY:Brews & Views: Meet the Night Rangers
+LOCATION:New York Society for Ethical Culture\, Upper West Side-Lincoln Squ
+ 
+are
+DESCRIPTION:Meet the Night Rangers — a social night for night-sky lovers 
+ 
+at Ethical Culture. Tickets & info: https://www.eventbrite.com/e/brews-view
+ 
+s-meet-the-night-rangers-tickets-2004379344576
+URL:https://www.eventbrite.com/e/brews-views-meet-the-night-rangers-tickets
+ 
+-2004379344576
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-27@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T200000
+DTEND;TZID=America/New_York:20261122T220000
+SUMMARY:New York Knicks vs. Indiana Pacers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Knicks host Indiana at the Garden\, 8 PM — Sunday night b
+ 
+asketball. Tickets & info: https://www.ticketmaster.com/new-york-knicks-vs-
+ 
+indiana-pacers-new-york-new-york-11-22-2026/event/3B006511E9218638
+URL:https://www.ticketmaster.com/new-york-knicks-vs-indiana-pacers-new-york
+ 
+-new-york-11-22-2026/event/3B006511E9218638
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261122-28@concierge
+DTSTAMP:20261122T130538Z
+DTSTART;TZID=America/New_York:20261122T180000
+DTEND;TZID=America/New_York:20261122T200000
+SUMMARY:Buffy the Vampire Slayer Trivia presented by Lez Hang Out and Cruis
+ 
+ing
+LOCATION:Henrietta Hudson\, West Village
+DESCRIPTION:Slay the trivia night: Buffy questions at Henrietta Hudson with
+ 
+ Lez Hang Out. Tickets & info: https://www.eventbrite.com/e/buffy-the-vampi
+ 
+re-slayer-trivia-presented-by-lez-hang-out-and-cruising-tickets-20044742985
+ 
+86
+URL:https://www.eventbrite.com/e/buffy-the-vampire-slayer-trivia-presented-
+ 
+by-lez-hang-out-and-cruising-tickets-2004474298586
+END:VEVENT
+END:VCALENDAR

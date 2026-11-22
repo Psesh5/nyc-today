@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Sunday, November 22</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Sunday, November 22</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-22.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="The Menzingers: Everything I Ever Saw North American Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-brooklyn-new-york-11-22-2026/event/0000649CB44A761F">The Menzingers: Everything I Ever Saw North American Tour</a></h3>
+<div class="meta">6:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Philly punk lifers bring their new record&#x27;s anthems to Brooklyn Paramount.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-brooklyn-new-york-11-22-2026/event/0000649CB44A761F">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Jamila Woods: 10 Years of HEAVN - Ages 18+">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAZUb4">Jamila Woods: 10 Years of HEAVN - Ages 18+</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>A decade of HEAVN, celebrated live — soulful, literary, and made for this room.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAZUb4">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="FREE 6LACK: The Anniversary Show">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/free-6lack-the-anniversary-show-new-york-new-york-11-22-2026/event/00006555095C3860">FREE 6LACK: The Anniversary Show</a></h3>
+<div class="meta">7:00 PM · Irving Plaza Powered By Verizon 5G, Gramercy</div>
+<p>6LACK marks the anniversary with a free show at Irving Plaza.</p>
+<a class="tickets" href="https://www.ticketmaster.com/free-6lack-the-anniversary-show-new-york-new-york-11-22-2026/event/00006555095C3860">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="The Neighbourhood: THE WOURLD TOUR">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229">The Neighbourhood: THE WOURLD TOUR</a></h3>
+<div class="meta">7:00 PM · Barclays Center, Park Slope</div>
+<p>The Wourld Tour hits Barclays — big-room indie rock on a Sunday night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Rizzoli Music Aperitivo: Big Lazy">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/rizzoli-music-aperitivo-big-lazy-tickets-2003630730451">Rizzoli Music Aperitivo: Big Lazy</a></h3>
+<div class="meta">5:00 PM · Rizzoli Bookstore, Midtown South-Flatiron-Union Square</div>
+<p>A Sunday aperitivo with live music among the bookshelves at Rizzoli.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/rizzoli-music-aperitivo-big-lazy-tickets-2003630730451">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-5" data-name="John Oliver &amp; Seth Meyers">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-11-22-2026/event/3B00649092832D66">John Oliver &amp; Seth Meyers</a></h3>
+<div class="meta">7:30 PM · Beacon Theatre, Upper West Side (Central)</div>
+<p>Two late-night heavyweights, one Beacon stage, zero teleprompters.</p>
+<a class="tickets" href="https://www.ticketmaster.com/john-oliver-seth-meyers-new-york-new-york-11-22-2026/event/3B00649092832D66">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Yerrrlywood ft: Kid Mero, Malik Elassal, Maddy Smith, Eva Evans, Jeffrey Baldinger, Gadiel Del Orbe">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/yerrrlywood-ft-kid-mero-malik-elassal-maddy-smith-eva-evans-jeffrey-baldinger-gadiel-del-orbe">Yerrrlywood ft: Kid Mero, Malik Elassal, Maddy Smith, Eva Evans, Jeffrey Baldinger, Gadiel Del Orbe</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $35</div>
+<p>Kid Mero headlines a stacked East-meets-West-coast lineup at NYCC&#x27;s East Village room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/yerrrlywood-ft-kid-mero-malik-elassal-maddy-smith-eva-evans-jeffrey-baldinger-gadiel-del-orbe">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Stand-up at Comedy Cellar (MacDougal Street): Rich Aronovitch, Julio Diaz, Adam Ferrara, Peter Revello &amp; more">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1795375800">Stand-up at Comedy Cellar (MacDougal Street): Rich Aronovitch, Julio Diaz, Adam Ferrara, Peter Revello &amp; more</a></h3>
+<div class="meta">7:30 PM · Comedy Cellar (MacDougal Street), Greenwich Village · 18</div>
+<p>The classic MacDougal Street room: surprise drop-ins, sharp sets, two-item minimum.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1795375800">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-8" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-22-2026/event/3C006457CED71F38">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">11:00 AM · Radio City Music Hall, Midtown-Times Square</div>
+<p>The Christmas Spectacular never misses — high kicks and pure New York.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-22-2026/event/3C006457CED71F38">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Maybe Happy Ending">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-11-22-2026/event/Z1r9uZruZqGZ17Jb_a">Maybe Happy Ending</a></h3>
+<div class="meta">2:00 PM · Belasco Theatre, Midtown-Times Square</div>
+<p>The gentle robot romance that charmed Broadway, back for a Sunday matinee.</p>
+<a class="tickets" href="https://www.ticketmaster.com/maybe-happy-ending-new-york-new-york-11-22-2026/event/Z1r9uZruZqGZ17Jb_a">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="The Thanksgiving Play by Larissa Fasthorse">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-thanksgiving-play-by-larissa-fasthorse-tickets-2004847842867">The Thanksgiving Play by Larissa Fasthorse</a></h3>
+<div class="meta">4:30 PM · Beni Coffee</div>
+<p>Larissa Fasthorse&#x27;s satire staged in a coffee shop — small room, big laughs.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-thanksgiving-play-by-larissa-fasthorse-tickets-2004847842867">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-11" data-name="A Clockwork Orange">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001436-a-clockwork-orange/">A Clockwork Orange</a></h3>
+<div class="meta">9:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Kubrick&#x27;s dystopian classic on the big screen at Metrograph, late show.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001436-a-clockwork-orange/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Rome, Open City">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/rome-open-city-rossellini-120">Rome, Open City</a></h3>
+<div class="meta">2:40 PM · Film Forum, SoHo-Little Italy-Hudson Square · 9</div>
+<p>Rossellini&#x27;s neorealist landmark in a new 4K restoration at Film Forum.</p>
+<a class="tickets" href="https://filmforum.org/film/rome-open-city-rossellini-120">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-13" data-name="Winter Lantern Festival">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/22/winter-lantern-festival">Winter Lantern Festival</a></h3>
+<div class="meta">5:00 PM · Snug Harbor, Snug Harbor · 18</div>
+<p>Hundreds of glowing lanterns light up Snug Harbor after dark — tickets from $18, and very Staten Island Ferry-friendly.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/22/winter-lantern-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="🎄Mimi Market ｜ A Celebration of Makers &amp; Merry Things">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/nwyxw520">🎄Mimi Market ｜ A Celebration of Makers &amp; Merry Things</a></h3>
+<div class="meta">11:00 AM · 43-32 22nd St, Long Island City-Hunters Point</div>
+<p>A cozy LIC holiday market: ceramics, stationery, jewelry, and gifts from indie makers.</p>
+<a class="tickets" href="https://luma.com/nwyxw520">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="NYC Jewelry Week [exhibition closing]">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nyc-jewelry-week-exhibition-closing-tickets-2003938826976">NYC Jewelry Week [exhibition closing]</a></h3>
+<div class="meta">3:00 PM · Bohemian National Hall, Upper East Side-Lenox Hill-Roosevelt Island</div>
+<p>NYC Jewelry Week wraps with a closing exhibition at Bohemian National Hall.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nyc-jewelry-week-exhibition-closing-tickets-2003938826976">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="variety: LIVE All Ages Showcase at Primavera Flowers">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/variety-live-all-ages-showcase-at-primavera-flowers-tickets-2004773781347">variety: LIVE All Ages Showcase at Primavera Flowers</a></h3>
+<div class="meta">4:00 PM · Primavera Flowers NYC, Washington Heights (North) · 5</div>
+<p>Music, comedy, and poetry inside a Washington Heights flower shop — all ages, doors at 3:30.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/variety-live-all-ages-showcase-at-primavera-flowers-tickets-2004773781347">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-17" data-name="Wines of South Africa Tasting and Book Signing with Jim Clarke">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/wines-of-south-africa-tasting-and-book-signing-with-jim-clarke-tickets-2004916212362">Wines of South Africa Tasting and Book Signing with Jim Clarke</a></h3>
+<div class="meta">3:00 PM · Flatiron Wines &amp; Spirits, NYC, Midtown South-Flatiron-Union Square</div>
+<p>A tasting and book signing with Jim Clarke at Flatiron Wines — pours with stories.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/wines-of-south-africa-tasting-and-book-signing-with-jim-clarke-tickets-2004916212362">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Plants On Wheels 4th Annual Vegan Thanksgiving">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/plants-on-wheels-4th-annual-vegan-thanksgiving-tickets-2004795744038">Plants On Wheels 4th Annual Vegan Thanksgiving</a></h3>
+<div class="meta">2:00 PM · Tompkins Square Park, East Village</div>
+<p>Plants on Wheels serves its fourth annual vegan Thanksgiving in Tompkins Square — free.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/plants-on-wheels-4th-annual-vegan-thanksgiving-tickets-2004795744038">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-19" data-name="In-Person Class: Classic Handmade Pasta With Vodka Sauce (NYC)">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-person-class-classic-handmade-pasta-with-vodka-sauce-nyc-tickets-2000314482464">In-Person Class: Classic Handmade Pasta With Vodka Sauce (NYC)</a></h3>
+<div class="meta">5:00 PM · Hyatt Place New York/Midtown-South, Midtown-Times Square</div>
+<p>Learn to make fresh pasta with vodka sauce from scratch — dinner is the homework.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-person-class-classic-handmade-pasta-with-vodka-sauce-nyc-tickets-2000314482464">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="The Lil Painting Sesh">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-lil-painting-sesh-tickets-2004753448531">The Lil Painting Sesh</a></h3>
+<div class="meta">11:30 AM · 234 Grand St, Williamsburg</div>
+<p>A low-key guided painting session in Williamsburg — all supplies, no experience needed.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-lil-painting-sesh-tickets-2004753448531">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-21" data-name="Ice Skating">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-22">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square</div>
+<p>Glide under the skyline at the Bryant Park rink — free admission, skate rental extra.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-22">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Autumn Mushroom ID Hike">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/22/autumn-mushroom-id-hike">Autumn Mushroom ID Hike</a></h3>
+<div class="meta">11:00 AM · Van Cortlandt Nature Center (in Van Cortlandt Park), Van Cortlandt Park</div>
+<p>Rangers lead a fungi-spotting hike on Van Cortlandt&#x27;s Kieran Trail — free, no registration.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/22/autumn-mushroom-id-hike">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-23" data-name="Native American Heritage Month: Walking Lenapehoking">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/22/native-american-heritage-month-walking-lenapehoking">Native American Heritage Month: Walking Lenapehoking</a></h3>
+<div class="meta">1:00 PM · Seaman Avenue and Isham Street (in Inwood Hill Park), Inwood</div>
+<p>A ranger-led walk through Inwood Hill Park on Lenape history and the land beneath the city — free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/22/native-american-heritage-month-walking-lenapehoking">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-24" data-name="Stranger on the Shore: A Jazz Poetry Celebration with Patricia Carragon and Friends">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/stranger-on-the-shore-a-jazz-poetry-celebration-nov-22">Stranger on the Shore: A Jazz Poetry Celebration with Patricia Carragon and Friends</a></h3>
+<div class="meta">2:00 PM · Jefferson Market Branch, Midtown-Times Square · Free</div>
+<p>Poet Patricia Carragon celebrates her new jazz-inspired collection at Jefferson Market Library — free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/stranger-on-the-shore-a-jazz-poetry-celebration-nov-22">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="This Week&#x27;s Issue: Read the New Yorker Together">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/cl6dze9g">This Week&#x27;s Issue: Read the New Yorker Together</a></h3>
+<div class="meta">1:00 PM · The Center for Fiction Café &amp; Bar, Fort Greene</div>
+<p>Thirty quiet minutes with this week&#x27;s New Yorker, then conversation over coffee in Fort Greene.</p>
+<a class="tickets" href="https://luma.com/cl6dze9g">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-26" data-name="Brews &amp; Views: Meet the Night Rangers">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/brews-views-meet-the-night-rangers-tickets-2004379344576">Brews &amp; Views: Meet the Night Rangers</a></h3>
+<div class="meta">4:00 PM · New York Society for Ethical Culture, Upper West Side-Lincoln Square</div>
+<p>Meet the Night Rangers — a social night for night-sky lovers at Ethical Culture.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/brews-views-meet-the-night-rangers-tickets-2004379344576">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-27" data-name="New York Knicks vs. Indiana Pacers">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-indiana-pacers-new-york-new-york-11-22-2026/event/3B006511E9218638">New York Knicks vs. Indiana Pacers</a></h3>
+<div class="meta">8:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Knicks host Indiana at the Garden, 8 PM — Sunday night basketball.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-indiana-pacers-new-york-new-york-11-22-2026/event/3B006511E9218638">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-28" data-name="Buffy the Vampire Slayer Trivia presented by Lez Hang Out and Cruising">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/buffy-the-vampire-slayer-trivia-presented-by-lez-hang-out-and-cruising-tickets-2004474298586">Buffy the Vampire Slayer Trivia presented by Lez Hang Out and Cruising</a></h3>
+<div class="meta">6:00 PM · Henrietta Hudson, West Village</div>
+<p>Slay the trivia night: Buffy questions at Henrietta Hudson with Lez Hang Out.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/buffy-the-vampire-slayer-trivia-presented-by-lez-hang-out-and-cruising-tickets-2004474298586">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-22";
+const NAMES = ["The Menzingers: Everything I Ever Saw North American Tour", "Jamila Woods: 10 Years of HEAVN - Ages 18+", "FREE 6LACK: The Anniversary Show", "The Neighbourhood: THE WOURLD TOUR", "Rizzoli Music Aperitivo: Big Lazy", "John Oliver & Seth Meyers", "Yerrrlywood ft: Kid Mero, Malik Elassal, Maddy Smith, Eva Evans, Jeffrey Baldinger, Gadiel Del Orbe", "Stand-up at Comedy Cellar (MacDougal Street): Rich Aronovitch, Julio Diaz, Adam Ferrara, Peter Revello & more", "Christmas Spectacular Starring The Radio City Rockettes", "Maybe Happy Ending", "The Thanksgiving Play by Larissa Fasthorse", "A Clockwork Orange", "Rome, Open City", "Winter Lantern Festival", "\ud83c\udf84Mimi Market \uff5c A Celebration of Makers & Merry Things", "NYC Jewelry Week [exhibition closing]", "variety: LIVE All Ages Showcase at Primavera Flowers", "Wines of South Africa Tasting and Book Signing with Jim Clarke", "Plants On Wheels 4th Annual Vegan Thanksgiving", "In-Person Class: Classic Handmade Pasta With Vodka Sauce (NYC)", "The Lil Painting Sesh", "Ice Skating", "Autumn Mushroom ID Hike", "Native American Heritage Month: Walking Lenapehoking", "Stranger on the Shore: A Jazz Poetry Celebration with Patricia Carragon and Friends", "This Week's Issue: Read the New Yorker Together", "Brews & Views: Meet the Night Rangers", "New York Knicks vs. Indiana Pacers", "Buffy the Vampire Slayer Trivia presented by Lez Hang Out and Cruising"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
