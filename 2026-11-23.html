@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Monday, November 23</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Monday, November 23</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-23.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="SOMBR - You Are The Reason Tour">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021">SOMBR - You Are The Reason Tour</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square · $171.35</div>
+<p>Gen-Z pop&#x27;s breakout star takes the Garden on his You Are The Reason tour — from $171, mostly resale left.</p>
+<a class="tickets" href="https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Arlo McKinley">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/arlo-mckinley-hill-country-live-tickets/14438024">Arlo McKinley</a></h3>
+<div class="meta">8:00 PM · Hill Country Live, Midtown South-Flatiron-Union Square · $31.63</div>
+<p>Kentucky country-soul with a lived-in growl, up close at Hill Country Live.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/arlo-mckinley-hill-country-live-tickets/14438024">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Rozzi">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/rozzi-blue-note-jazz-club-tickets/14994063">Rozzi</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $55.13</div>
+<p>Soulful pop at the Blue Note — dinner, drinks, and a voice built for the room.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/rozzi-blue-note-jazz-club-tickets/14994063">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Rev. Vince Anderson &amp; The Love Choir at Union Pool">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://freestuffnyc.com/events/rev-vince-anderson-and-the-love-choir-at-union-pool-21-free-2026-11-23">Rev. Vince Anderson &amp; The Love Choir at Union Pool</a></h3>
+<div class="meta">8:30 PM · Union Pool, Williamsburg · Free</div>
+<p>Hand find: Williamsburg&#x27;s long-running Monday gospel-boogie night — the Rev on keys, free with RSVP, 21+.</p>
+<a class="tickets" href="https://freestuffnyc.com/events/rev-vince-anderson-and-the-love-choir-at-union-pool-21-free-2026-11-23">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-4" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-23-2026/event/3C006482881515FC">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">11:00 AM · Radio City Music Hall, Midtown-Times Square · 55</div>
+<p>The Rockettes&#x27; precision kickline, the Parade of the Wooden Soldiers, and the living nativity — the holiday classic is back.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-23-2026/event/3C006482881515FC">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Stranger Things: The First Shadow">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-23-2026/event/Z1r9uZrrZbpZ1Aev78e">Stranger Things: The First Shadow</a></h3>
+<div class="meta">7:00 PM · Marquis Theatre - NY, Hell&#x27;s Kitchen · $69.9</div>
+<p>The Hawkins origin story on stage — the prequel that fills in what the show left out.</p>
+<a class="tickets" href="https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-new-york-11-23-2026/event/Z1r9uZrrZbpZ1Aev78e">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="The Holes - Monday, November 23rd">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-holes-monday-november-23rd-tickets-2003794666789">The Holes - Monday, November 23rd</a></h3>
+<div class="meta">7:30 PM · wild project, East Village · $92.41</div>
+<p>A new dark comedy Off-Broadway about a padlocked back room in a gentrifying upstate bar town.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-holes-monday-november-23rd-tickets-2003794666789">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="MOUNTAIN GIRL a new play by John Patrick Shanley">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2004903087104">MOUNTAIN GIRL a new play by John Patrick Shanley</a></h3>
+<div class="meta">7:30 PM · 154 Christopher St, West Village · 47</div>
+<p>Pulitzer winner John Patrick Shanley&#x27;s deeply comic fable, extended — with a talkback with Shanley himself tonight.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/mountain-girl-a-new-play-by-john-patrick-shanley-tickets-2004903087104">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-8" data-name="The Pachelbel Rant 20th Anniversary Show">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-pachelbel-rant-20th-anniversary-show-tickets-2001032453936">The Pachelbel Rant 20th Anniversary Show</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side · $18.76</div>
+<p>The viral Pachelbel Rant turns 20 — creator Rob Paravonian marks it with songs, stories, and an updated Rant.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-pachelbel-rant-20th-anniversary-show-tickets-2001032453936">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Jessica Kirson Live in New York">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-11-24190000">Jessica Kirson Live in New York</a></h3>
+<div class="meta">7:00 PM · New York Comedy Club · 35</div>
+<p>Powerhouse stand-up and character work from one of the sharpest voices in the game.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-11-24190000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Colin Quinn Returns to The CQ Room at Comedy Cellar">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1795460400">Colin Quinn Returns to The CQ Room at Comedy Cellar</a></h3>
+<div class="meta">7:00 PM · Comedy Cellar, Greenwich Village · 16</div>
+<p>Colin Quinn holds court in the Cellar&#x27;s intimate CQ Room — $16 cover, two-item minimum.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1795460400">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="FRANTIC! free Monday comedy show at The Stand">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://freestuffnyc.com/events/frantic-free-monday-comedy-show-at-the-stand-21-2026-11-23">FRANTIC! free Monday comedy show at The Stand</a></h3>
+<div class="meta">9:00 PM · The Stand (Upstairs), Union Square · Free</div>
+<p>Hand find: The Stand&#x27;s free Monday late show — club regulars and surprise drop-ins upstairs near Union Square, 21+.</p>
+<a class="tickets" href="https://freestuffnyc.com/events/frantic-free-monday-comedy-show-at-the-stand-21-2026-11-23">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-12" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">5:40 PM · Film Forum, SoHo-Little Italy-Hudson Square · 9</div>
+<p>Zhang Yimou&#x27;s luminous 4K restoration of the 1991 classic, held over through Thanksgiving.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Lost Highway">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001208-lost-highway/">Lost Highway</a></h3>
+<div class="meta">9:15 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>David Lynch&#x27;s fever-dream noir in 4K — the late show, perfect for a Monday night.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001208-lost-highway/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Birds, Orphans and Fools [screening + conversation w/ Magda Vášáryová]">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/birds-orphans-and-fools-screening-conversation-w-magda-vasaryova-tickets-1999049280210">Birds, Orphans and Fools [screening + conversation w/ Magda Vášáryová]</a></h3>
+<div class="meta">7:00 PM · Bohemian National Hall, Upper East Side-Lenox Hill-Roosevelt Island · Free</div>
+<p>A surreal anti-war classic of the Czechoslovak New Wave, followed by a conversation with star Magda Vášáryová.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/birds-orphans-and-fools-screening-conversation-w-magda-vasaryova-tickets-1999049280210">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-15" data-name="Winter Lantern Festival">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/23/winter-lantern-festival">Winter Lantern Festival</a></h3>
+<div class="meta">5:00 PM · Snug Harbor, Snug Harbor · 18</div>
+<p>Hundreds of handcrafted lanterns light up Snug Harbor, plus a Chinese acrobatics show — Staten Island&#x27;s glowing season opener.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/23/winter-lantern-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Nuyorican Bowery Slam">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1998786203340">Nuyorican Bowery Slam</a></h3>
+<div class="meta">6:30 PM · Bowery Poetry Club, Greenwich Village · 20</div>
+<p>The Nuyorican&#x27;s famous Monday slam — poets get three minutes, the audience judges, the winner takes $20.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nuyorican-bowery-slam-tickets-1998786203340">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="&quot;It&#x27;s Not Always&quot; @ Streeters Gallery - Metamorphosis Exhibition Opening Night!">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/hwe7arsm">&quot;It&#x27;s Not Always&quot; @ Streeters Gallery - Metamorphosis Exhibition Opening Night!</a></h3>
+<div class="meta">7:00 PM · 101 Reade St, Tribeca-Civic Center · Free</div>
+<p>A Tribeca gallery opening for the Metamorphosis exhibition — black-and-white dress code, drinks, and new work.</p>
+<a class="tickets" href="https://luma.com/hwe7arsm">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-18" data-name="Hands-On: Tiramisù">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/hands-on-tiramisu-tickets-2004448178460">Hands-On: Tiramisù</a></h3>
+<div class="meta">6:00 PM · Eataly NYC Flatiron, Midtown South-Flatiron-Union Square · 57</div>
+<p>Build your own tiramisù with Eataly&#x27;s Scuola chefs, then eat the one they made — wine pairing included.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/hands-on-tiramisu-tickets-2004448178460">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Juggling Class">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/juggling-weekday/2026-11-23">Juggling Class</a></h3>
+<div class="meta">12:00 PM · Bryant Park, Midtown-Times Square · Free</div>
+<p>Free lunchtime juggling lessons on the lawn — drop in, all skill levels, equipment provided.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/juggling-weekday/2026-11-23">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Public Craft Night Mondays and Thursdays!">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098783086">Public Craft Night Mondays and Thursdays!</a></h3>
+<div class="meta">6:30 PM · NYC Resistor, Downtown Brooklyn-DUMBO-Boerum Hill · Free</div>
+<p>Bring your project to Brooklyn&#x27;s beloved maker space and craft alongside costumers, woodworkers, and tinkerers.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098783086">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-21" data-name="Shuck Yea! and Oyster Shucking Experience">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517305764">Shuck Yea! and Oyster Shucking Experience</a></h3>
+<div class="meta">7:00 PM · Festival Cafe, Upper East Side-Lenox Hill-Roosevelt Island · $156.57</div>
+<p>Ninety minutes of oyster shucking with bubbles, white wine, or a martini — a dozen oysters and gloves to take home.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517305764">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Sosyete Supper Club: A Taste of New York">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sosyete-supper-club-a-taste-of-new-york-tickets-2004694450065">Sosyete Supper Club: A Taste of New York</a></h3>
+<div class="meta">7:00 PM · Victorian Brownstone, Hamilton Heights-Sugar Hill · $135.23</div>
+<p>A five-course supper club in a Hamilton Heights Victorian — Jamaican sorrel, crab cakes, Haitian dessert, and a dozen cultures at one table.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sosyete-supper-club-a-taste-of-new-york-tickets-2004694450065">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-23" data-name="Gail Simmons: Guesting w/ Jenni Konner">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/in-store-gail-simmons-guesting-w-jenni-konner-tickets-2003783826365">Gail Simmons: Guesting w/ Jenni Konner</a></h3>
+<div class="meta">7:00 PM · Books Are Magic, Brooklyn Heights · $10.89</div>
+<p>The Top Chef judge on how to be a great guest, in conversation with Jenni Konner — ticket includes the book or a $10 gift card.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/in-store-gail-simmons-guesting-w-jenni-konner-tickets-2003783826365">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="The Fashion of the Gilded Age by Raissa Bretaña">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-fashion-of-the-gilded-age-by-raissa-bretana-tickets-2003781474330">The Fashion of the Gilded Age by Raissa Bretaña</a></h3>
+<div class="meta">6:00 PM · Rizzoli, Midtown South-Flatiron-Union Square · Free</div>
+<p>Raissa Bretaña on Gilded Age dress and etiquette, in conversation and signing at Rizzoli.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-fashion-of-the-gilded-age-by-raissa-bretana-tickets-2003781474330">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="The Other “Mr. B.” - How Buddy Bradley’s Dance Genius Transformed Ballet">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-other-mr-b-how-buddy-bradleys-dance-genius-transformed-ballet-tickets-2004148440937">The Other “Mr. B.” - How Buddy Bradley’s Dance Genius Transformed Ballet</a></h3>
+<div class="meta">6:00 PM · New York Public Library for the Performing Arts -Bruno Walter Auditorium, Upper West Side-Lincoln Square · Free</div>
+<p>How jazz dancer Buddy Bradley shaped Balanchine and ballet — a panel with live demos from NYCB dancers.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-other-mr-b-how-buddy-bradleys-dance-genius-transformed-ballet-tickets-2004148440937">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-26" data-name="Anti-Dating App Night: An IRL Singles, Friends &amp; Games Mixer">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/anti-dating-app-night-an-irl-singles-friends-games-mixer-tickets-1996641118333">Anti-Dating App Night: An IRL Singles, Friends &amp; Games Mixer</a></h3>
+<div class="meta">6:00 PM · The Tiny Cupboard, Bushwick (East) · Free</div>
+<p>Ditch the apps: N64, Guitar Hero, and Legos at a Bushwick game bar, with trivia after at 8.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/anti-dating-app-night-an-irl-singles-friends-games-mixer-tickets-1996641118333">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Queer To Tell: A Storytelling Series">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/queer-to-tell-a-storytelling-series-tickets-2001886758183">Queer To Tell: A Storytelling Series</a></h3>
+<div class="meta">7:00 PM · Ginger&#x27;s Bar, Park Slope · $12.5</div>
+<p>Holiday-themed queer storytelling in Park Slope — five storytellers, hosted by the Drag Clauses.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/queer-to-tell-a-storytelling-series-tickets-2001886758183">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-28" data-name="How I Met Your Mother Trivia: Slapsgiving">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/how-i-met-your-mother-trivia-slapsgiving-tickets-2002968944030">How I Met Your Mother Trivia: Slapsgiving</a></h3>
+<div class="meta">7:00 PM · Slattery&#x27;s Midtown Pub, Midtown-Times Square · Free</div>
+<p>Five rounds of How I Met Your Mother trivia, two of them all Slapsgiving — suit up. Free to play, $20 food/drink minimum.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/how-i-met-your-mother-trivia-slapsgiving-tickets-2002968944030">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-29" data-name="Ice Skating">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-23">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>Free-admission skating at the Winter Village rink — bring your own skates or rent, open till midnight.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-23">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-23";
+const NAMES = ["SOMBR - You Are The Reason Tour", "Arlo McKinley", "Rozzi", "Rev. Vince Anderson & The Love Choir at Union Pool", "Christmas Spectacular Starring The Radio City Rockettes", "Stranger Things: The First Shadow", "The Holes - Monday, November 23rd", "MOUNTAIN GIRL a new play by John Patrick Shanley", "The Pachelbel Rant 20th Anniversary Show", "Jessica Kirson Live in New York", "Colin Quinn Returns to The CQ Room at Comedy Cellar", "FRANTIC! free Monday comedy show at The Stand", "Raise The Red Lantern", "Lost Highway", "Birds, Orphans and Fools [screening + conversation w/ Magda V\u00e1\u0161\u00e1ryov\u00e1]", "Winter Lantern Festival", "Nuyorican Bowery Slam", "\"It's Not Always\" @ Streeters Gallery - Metamorphosis Exhibition Opening Night!", "Hands-On: Tiramis\u00f9", "Juggling Class", "Public Craft Night Mondays and Thursdays!", "Shuck Yea! and Oyster Shucking Experience", "Sosyete Supper Club: A Taste of New York", "Gail Simmons: Guesting w/ Jenni Konner", "The Fashion of the Gilded Age by Raissa Breta\u00f1a", "The Other \u201cMr. B.\u201d - How Buddy Bradley\u2019s Dance Genius Transformed Ballet", "Anti-Dating App Night: An IRL Singles, Friends & Games Mixer", "Queer To Tell: A Storytelling Series", "How I Met Your Mother Trivia: Slapsgiving", "Ice Skating"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
