@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Tuesday, November 24</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Tuesday, November 24</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-24.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="Vince Giordano and the Nighthawks">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225164">Vince Giordano and the Nighthawks</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $24.91</div>
+<p>Grammy-winning Vince Giordano leads his 11-piece Nighthawks through hot 1920s jazz — a Birdland residency that never misses.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14225164">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Rez Abbasi Quartet">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/rez-abbasi-quartet-smalls-jazz-club-tickets/14362224">Rez Abbasi Quartet</a></h3>
+<div class="meta">6:00 PM · Smalls Jazz Club, West Village · $43.7</div>
+<p>Guitarist Rez Abbasi leads his quartet in the tiny, perfect room at Smalls.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/rez-abbasi-quartet-smalls-jazz-club-tickets/14362224">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Victoria Monét: Frequency Of Love Tour">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241">Victoria Monét: Frequency Of Love Tour</a></h3>
+<div class="meta">9:00 PM · Infosys Theater at Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Grammy-winning R&amp;B star brings her Frequency of Love tour to the Garden&#x27;s theater.</p>
+<a class="tickets" href="https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="GHOSTWOMAN">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/ghostwoman-new-york-new-york-11-24-2026/event/000064B4E8E581B7">GHOSTWOMAN</a></h3>
+<div class="meta">7:00 PM · Bowery Ballroom, Lower East Side</div>
+<p>Dark, hypnotic indie rock from GHOSTWOMAN, with Croaker opening at the Bowery.</p>
+<a class="tickets" href="https://www.ticketmaster.com/ghostwoman-new-york-new-york-11-24-2026/event/000064B4E8E581B7">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-4" data-name="Glassjaw - Ages 18+">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/event/Z7r9jZ1AAvyod">Glassjaw - Ages 18+</a></h3>
+<div class="meta">8:00 PM · Music Hall of Williamsburg, Williamsburg</div>
+<p>Long Island post-hardcore legends Glassjaw, loud and close up in Williamsburg.</p>
+<a class="tickets" href="https://www.ticketmaster.com/event/Z7r9jZ1AAvyod">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Willie Nile">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://gay.donyc.com/events/2026/11/24/willie-nile-tickets">Willie Nile</a></h3>
+<div class="meta">7:00 PM · Joe&#x27;s Pub, East Village · 48</div>
+<p>The unofficial poet laureate of New York City, solo and storytelling at Joe&#x27;s Pub — a 75-minute set from a downtown legend. (Hand find)</p>
+<a class="tickets" href="https://gay.donyc.com/events/2026/11/24/willie-nile-tickets">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-6" data-name="Here There Are Blueberries">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZ3_6">Here There Are Blueberries</a></h3>
+<div class="meta">2:00 PM · Barrymore Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>A quietly devastating Broadway drama about the Auschwitz photo album — a matinee worth the afternoon.</p>
+<a class="tickets" href="https://www.ticketmaster.com/here-there-are-blueberries-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZ3_6">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Much Ado About Nothing">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ17Jbjb">Much Ado About Nothing</a></h3>
+<div class="meta">7:00 PM · Winter Garden Theatre, Midtown-Times Square</div>
+<p>Shakespeare&#x27;s sparkiest comedy, big and bright on Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/much-ado-about-nothing-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ17Jbjb">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="A Christmas Carol at the Merchant&#x27;s House">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/24/a-christmas-carol-at-the-merchants-house">A Christmas Carol at the Merchant&#x27;s House</a></h3>
+<div class="meta">7:00 PM · Merchant&#x27;s House Museum, Greenwich Village · 50</div>
+<p>Dickens himself (well, almost) reads A Christmas Carol by candlelight in an 1832 parlor — the most atmospheric holiday night in town.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/24/a-christmas-carol-at-the-merchants-house">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-10" data-name="Impressive, Sincerely (A New Play)">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/impressive-sincerely-a-new-play-tickets-2002577189281">Impressive, Sincerely (A New Play)</a></h3>
+<div class="meta">7:00 PM · P&amp;T Knitwear, Lower East Side · $20</div>
+<p>A deadpan new comedy about a novelist whose German translator may be rewriting her book — world premiere in a bookshop.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/impressive-sincerely-a-new-play-tickets-2002577189281">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Billy Crystal">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZabz">Billy Crystal</a></h3>
+<div class="meta">2:00 PM · Imperial Theatre - NY, Hell&#x27;s Kitchen</div>
+<p>Billy Crystal&#x27;s solo Broadway show, a rare limited engagement — an afternoon with a master storyteller.</p>
+<a class="tickets" href="https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZabz">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Judy Gold">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/judy-gold-2026-11-24193000">Judy Gold</a></h3>
+<div class="meta">7:30 PM · New York Comedy Club Upper West Side · $35</div>
+<p>Two-time Emmy winner Judy Gold, sharp and fearless, uptown.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/judy-gold-2026-11-24193000">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Jacqueline Novak">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/jacqueline-novak-brooklyn-new-york-11-24-2026/event/3000654647B1A44D">Jacqueline Novak</a></h3>
+<div class="meta">7:00 PM · The Bell House, Carroll Gardens-Cobble Hill-Gowanus-Red Hook</div>
+<p>Jacqueline Novak&#x27;s brilliantly neurotic hour, in the room where it plays best.</p>
+<a class="tickets" href="https://www.ticketmaster.com/jacqueline-novak-brooklyn-new-york-11-24-2026/event/3000654647B1A44D">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Dinner for One Presents: Friendsgiving">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/dinner-for-one-presents-friendsgiving-tickets-2004028401897">Dinner for One Presents: Friendsgiving</a></h3>
+<div class="meta">8:00 PM · littlefield, Carroll Gardens-Cobble Hill-Gowanus-Red Hook · $18.71</div>
+<p>Sketch troupe Dinner for One hosts a Thanksgiving extravaganza with Gianmarco Soresi and Blake Wexler — no family drama required.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/dinner-for-one-presents-friendsgiving-tickets-2004028401897">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="Canceled Comedy ft: Keith Robinson, Matt Richards, Vik Saytha, Alex Babbitt, Natalie Cuomo, Olivia Carter">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/keith-robinson-matt-richards-vik-saytha-alex-babbitt-natalie-cuomo-olivia-carter">Canceled Comedy ft: Keith Robinson, Matt Richards, Vik Saytha, Alex Babbitt, Natalie Cuomo, Olivia Carter</a></h3>
+<div class="meta">7:00 PM · New York Comedy Club · $25</div>
+<p>Unfiltered stand-up from a stacked lineup — no topic off-limits.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/keith-robinson-matt-richards-vik-saytha-alex-babbitt-natalie-cuomo-olivia-carter">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-15" data-name="The Devils">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ifccenter.com/films/the-devils/">The Devils</a></h3>
+<div class="meta">9:00 PM · IFC Center, Greenwich Village</div>
+<p>Ken Russell&#x27;s notorious 1971 masterpiece in a new 4K restoration — still shocking, still singular.</p>
+<a class="tickets" href="https://www.ifccenter.com/films/the-devils/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Boyz n the Hood">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/boyz-n-the-hood/">Boyz n the Hood</a></h3>
+<div class="meta">9:30 PM · Nitehawk Cinema Williamsburg, Williamsburg · 15</div>
+<p>John Singleton&#x27;s landmark debut on the big screen, with a drink in hand at Nitehawk.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/boyz-n-the-hood/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Asako I &amp; II">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999001925-asako-i-ii/">Asako I &amp; II</a></h3>
+<div class="meta">4:00 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Ryusuke Hamaguchi&#x27;s quietly heartbreaking double-life romance — an afternoon gem.</p>
+<a class="tickets" href="https://metrograph.com/film/9999001925-asako-i-ii/">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-18" data-name="Festival of 1000 lights (Sahastra Deepotsavam)">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/festival-of-1000-lights-sahastra-deepotsavam-tickets-2003852032371">Festival of 1000 lights (Sahastra Deepotsavam)</a></h3>
+<div class="meta">6:00 PM · Bhakti Center, East Village · Free</div>
+<p>A thousand lamps lit for the last day of Kartik, with kirtan, stories, and a plant-based dinner to close the night.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/festival-of-1000-lights-sahastra-deepotsavam-tickets-2003852032371">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Jamie Allan&#x27;s Amaze">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/jamie-allans-amaze-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZkx8">Jamie Allan&#x27;s Amaze</a></h3>
+<div class="meta">7:00 PM · New World Stages - Stage 5, Hell&#x27;s Kitchen</div>
+<p>A sleek, modern magic show — illusions, tech, and showmanship off Broadway.</p>
+<a class="tickets" href="https://www.ticketmaster.com/jamie-allans-amaze-new-york-new-york-11-24-2026/event/Z1r9uZruZqGZ1AvZkx8">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-20" data-name="Muldoon’s Picnic: Marie Howe, Molly Jong-Fast, Richard Thompson, and Paul Muldoon with Rogue Oliphant">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/muldoons-picnic-marie-howe-molly-jong-fast-nov-24-2026">Muldoon’s Picnic: Marie Howe, Molly Jong-Fast, Richard Thompson, and Paul Muldoon with Rogue Oliphant</a></h3>
+<div class="meta">7:30 PM · 92nd Street Y, Upper East Side-Carnegie Hill · 30</div>
+<p>Pulitzer poet Paul Muldoon hosts Marie Howe, Molly Jong-Fast, and folk-rock legend Richard Thompson — poetry, music, and mischief.</p>
+<a class="tickets" href="https://bookevents.nyc/events/muldoons-picnic-marie-howe-molly-jong-fast-nov-24-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Sixth Street Reading Series">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bookevents.nyc/events/sixth-street-reading-series-afterword-bookshop-nov-24-2026">Sixth Street Reading Series</a></h3>
+<div class="meta">7:00 PM · Afterword Bookshop · Free</div>
+<p>The monthly East Village reading series moves to Tuesday for Thanksgiving week — new fiction, live analog synth, free.</p>
+<a class="tickets" href="https://bookevents.nyc/events/sixth-street-reading-series-afterword-bookshop-nov-24-2026">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-22" data-name="Frontiers Lecture: Clouds Across the Universe">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://amnh.link/4iEmoMX">Frontiers Lecture: Clouds Across the Universe</a></h3>
+<div class="meta">7:00 PM · American Museum of Natural History, Upper West Side-Lincoln Square · 20</div>
+<p>Astrophysicist Diana Powell on clouds — from Earth&#x27;s skies to alien worlds of molten rock and crystal — under the planetarium dome. (Hand find)</p>
+<a class="tickets" href="https://amnh.link/4iEmoMX">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-23" data-name="Harvest Dinner @ AICH">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/21t8j56y">Harvest Dinner @ AICH</a></h3>
+<div class="meta">4:30 PM · American Indian Community House, Midtown-Times Square · $15</div>
+<p>Grinding Stone Collective and the American Indian Community House serve a harvest dinner with a free inter-tribal pantry — bring a tote bag.</p>
+<a class="tickets" href="https://luma.com/21t8j56y">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-24" data-name="FRIENDSGIVING">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/friendsgiving-tickets-2002667243636">FRIENDSGIVING</a></h3>
+<div class="meta">8:00 PM · PRIME ASTORIA, Astoria (East)-Woodside (North) · $7.18</div>
+<p>R&amp;B, hip-hop, dancehall, and Afrobeats all night in Astoria — Friendsgiving as a party, not a potluck.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/friendsgiving-tickets-2002667243636">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-25" data-name="voguing 101 w/ zenith 🪩 • (11/24)">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/vogue1117">voguing 101 w/ zenith 🪩 • (11/24)</a></h3>
+<div class="meta">7:00 PM · 448 E 149th St, Mott Haven-Port Morris · $25</div>
+<p>Ballroom fundamentals with the legendary Darius ‘Zenith’ Case in the South Bronx — no experience needed, all energy.</p>
+<a class="tickets" href="https://luma.com/vogue1117">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-26" data-name="Brooklyn Book Lovers Club">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/h0ulno44">Brooklyn Book Lovers Club</a></h3>
+<div class="meta">6:30 PM · Fort Greene, Fort Greene · Free</div>
+<p>Bring a book and a snack to share, read silently for 45 minutes, then talk books with Fort Greene neighbors.</p>
+<a class="tickets" href="https://luma.com/h0ulno44">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Bushwick Chess Club Night">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/bushwick-chess-club-night-tickets-1371170912109">Bushwick Chess Club Night</a></h3>
+<div class="meta">7:00 PM · Nook, Bushwick (West) · Free</div>
+<p>Free play, head-to-head matches, and small tournaments every other Tuesday — two-drink minimum keeps the boards full.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/bushwick-chess-club-night-tickets-1371170912109">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-28" data-name="Moonlight Tour">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/moonlight-tour-tickets-1985835408163">Moonlight Tour</a></h3>
+<div class="meta">6:00 PM · Green-Wood Cemetery, Green-Wood Cemetery · $25.59</div>
+<p>Green-Wood by moonlight — winding paths, scandal, and legacy among the cemetery&#x27;s most extraordinary residents.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/moonlight-tour-tickets-1985835408163">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-29" data-name="NYRR Open Run: Brooklyn Bridge Park">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/24/nyrr-open-run-brooklyn-bridge-park">NYRR Open Run: Brooklyn Bridge Park</a></h3>
+<div class="meta">6:45 PM · Pier 6 (in Brooklyn Bridge Park), The Battery-Governors Island-Ellis Island-Liberty Island · Free</div>
+<p>A free, community-led 3-mile run with bridge, Statue of Liberty, and skyline views — walkers welcome too.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/24/nyrr-open-run-brooklyn-bridge-park">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-24";
+const NAMES = ["Vince Giordano and the Nighthawks", "Rez Abbasi Quartet", "Victoria Mon\u00e9t: Frequency Of Love Tour", "GHOSTWOMAN", "Glassjaw - Ages 18+", "Willie Nile", "Here There Are Blueberries", "Billy Crystal", "Much Ado About Nothing", "A Christmas Carol at the Merchant's House", "Impressive, Sincerely (A New Play)", "Judy Gold", "Jacqueline Novak", "Dinner for One Presents: Friendsgiving", "Canceled Comedy ft: Keith Robinson, Matt Richards, Vik Saytha, Alex Babbitt, Natalie Cuomo, Olivia Carter", "The Devils", "Boyz n the Hood", "Asako I & II", "Festival of 1000 lights (Sahastra Deepotsavam)", "Jamie Allan's Amaze", "Muldoon\u2019s Picnic: Marie Howe, Molly Jong-Fast, Richard Thompson, and Paul Muldoon with Rogue Oliphant", "Sixth Street Reading Series", "Frontiers Lecture: Clouds Across the Universe", "Harvest Dinner @ AICH", "FRIENDSGIVING", "voguing 101 w/ zenith \ud83e\udea9 \u2022 (11/24)", "Brooklyn Book Lovers Club", "Bushwick Chess Club Night", "Moonlight Tour", "NYRR Open Run: Brooklyn Bridge Park"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
