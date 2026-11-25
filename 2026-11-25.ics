@@ -1,0 +1,467 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261125-0@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T173000
+DTEND;TZID=America/New_York:20261125T193000
+SUMMARY:David Ostwald's Louis Armstrong Eternity Band
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Louis Armstrong's songbook\, played the old way\, at an early-b
+ 
+ird hour — a perfect pre-dinner set. Tickets & info: https://www.ticketwe
+ 
+b.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-ticket
+ 
+s/14196864
+URL:https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity
+ 
+-birdland-theater-tickets/14196864
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-1@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T200000
+DTEND;TZID=America/New_York:20261125T220000
+SUMMARY:Chief Adjuah
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Chief Adjuah's trumpet at the Blue Note — Thanksgiving-eve ja
+ 
+zz in the room where it lives. Tickets & info: https://www.ticketweb.com/ev
+ 
+ent/chief-adjuah-blue-note-jazz-club-tickets/15032663
+URL:https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-ticket
+ 
+s/15032663
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-2@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T210000
+DTEND;TZID=America/New_York:20261125T230000
+SUMMARY:The Bello Bash
+LOCATION:Groove\, Greenwich Village
+DESCRIPTION:A Thanksgiving-eve bash at Groove — live music and dancing to
+ 
+ kick off the long weekend. Tickets & info: https://www.eventbrite.com/e/th
+ 
+e-bello-bash-tickets-2002650835559
+URL:https://www.eventbrite.com/e/the-bello-bash-tickets-2002650835559
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-3@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T220000
+DTEND;TZID=America/New_York:20261126T000000
+SUMMARY:DayBreak\, Woah Nelliee\, Hugh Miles & Travis George
+LOCATION:Elsewhere\, East Williamsburg
+DESCRIPTION:Thanksgiving-eve dancefloor at Elsewhere — four DJs\, no fami
+ 
+ly small talk required. Tickets & info: https://www.eventbrite.com/e/daybre
+ 
+ak-woah-nelliee-hugh-miles-travis-george-tickets-2003715932292
+URL:https://www.eventbrite.com/e/daybreak-woah-nelliee-hugh-miles-travis-ge
+ 
+orge-tickets-2003715932292
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-4@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T110000
+DTEND;TZID=America/New_York:20261125T130000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The Rockettes' Christmas Spectacular — the holiday classic\, 
+ 
+still the best seat in town for out-of-towners and locals alike. Tickets & 
+ 
+info: https://www.ticketmaster.com/christmas-spectacular-starring-the-radio
+ 
+-city-new-york-new-york-11-25-2026/event/3C006457CF131F54
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-25-2026/event/3C006457CF131F54
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-5@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T193000
+DTEND;TZID=America/New_York:20261125T213000
+SUMMARY:The Holes - Wednesday\, November 25th Evening
+LOCATION:wild project\, East Village
+DESCRIPTION:A new play at the wild project — small room\, big night out b
+ 
+efore the holiday. Tickets & info: https://www.eventbrite.com/e/the-holes-w
+ 
+ednesday-november-25th-evening-tickets-2003794739005
+URL:https://www.eventbrite.com/e/the-holes-wednesday-november-25th-evening-
+ 
+tickets-2003794739005
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-6@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T193000
+DTEND;TZID=America/New_York:20261125T213000
+SUMMARY:A Fundraiser for Flatbush ft. Reg Thomas\, Eva Evans\, Jordan Rock\
+ 
+, Alexis Carabaño\, Onika McLean\, and more!
+LOCATION:Brooklyn Improv (The Main Room)\, Williamsburg
+DESCRIPTION:A comedy fundraiser for Flatbush with a stacked Brooklyn lineup
+ 
+ — laughs for a good cause. Tickets & info: https://www.ticketweb.com/eve
+ 
+nt/a-fundraiser-for-flatbush-ft-brooklyn-improv-the-main-room-tickets/15057
+ 
+253
+URL:https://www.ticketweb.com/event/a-fundraiser-for-flatbush-ft-brooklyn-i
+ 
+mprov-the-main-room-tickets/15057253
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-7@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T200000
+DTEND;TZID=America/New_York:20261125T220000
+SUMMARY:Good Eggs ft: Mark Normand\, Gary Vider\, Jilberto Soto\, Matt Ruby
+ 
+\, Peter Revello
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Mark Normand headlines a stacked lineup — the night's surest 
+ 
+laugh before turkey day. Tickets & info: https://newyorkcomedyclub.com/even
+ 
+ts/good-eggs-ft-mark-normand-gary-vider-jilberto-soto-matt-ruby-peter-revel
+ 
+lo
+URL:https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vid
+ 
+er-jilberto-soto-matt-ruby-peter-revello
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-8@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T200000
+DTEND;TZID=America/New_York:20261125T220000
+SUMMARY:OnlyFriends
+LOCATION:Flop House Comedy Club\, Williamsburg
+DESCRIPTION:Williamsburg's friendliest room: comics testing new material\, 
+ 
+no drink minimum\, $12. Tickets & info: https://new.comedytickets.com/event
+ 
+s/2574959
+URL:https://new.comedytickets.com/events/2574959
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-9@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T200000
+DTEND;TZID=America/New_York:20261125T220000
+SUMMARY:The Gotham All-Stars at Gotham Comedy Club
+LOCATION:Gotham Comedy Club\, Chelsea-Hudson Yards
+DESCRIPTION:The Gotham All-Stars — the club's best of the best in one 8 P
+ 
+M set. Tickets & info: https://gothamcomedyclub.com/events/the-gotham-all-s
+ 
+tars2526hvvjt9r
+URL:https://gothamcomedyclub.com/events/the-gotham-all-stars2526hvvjt9r
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-10@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T151500
+DTEND;TZID=America/New_York:20261125T171500
+SUMMARY:Suzhou River
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Lou Ye's neon-noir fever dream on the big screen — an afterno
+ 
+on escape before the holiday rush. Tickets & info: https://metrograph.com/f
+ 
+ilm/9999003167-suzhou-river/
+URL:https://metrograph.com/film/9999003167-suzhou-river/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-11@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T184000
+DTEND;TZID=America/New_York:20261125T204000
+SUMMARY:Paper Tiger
+LOCATION:Nitehawk Cinema Williamsburg\, Williamsburg
+DESCRIPTION:A new release with dinner-and-a-movie energy\, tickets just $9.
+ 
+ Tickets & info: https://nitehawkcinema.com/williamsburg/movies/paper-tiger
+ 
+/
+URL:https://nitehawkcinema.com/williamsburg/movies/paper-tiger/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-12@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T193000
+DTEND;TZID=America/New_York:20261125T213000
+SUMMARY:The Housemaid
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:The 1960 Korean classic that inspired Parasite\, restored — a
+ 
+ masterclass in domestic dread. Tickets & info: https://metrograph.com/film
+ 
+/9999003128-the-housemaid/
+URL:https://metrograph.com/film/9999003128-the-housemaid/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-13@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T203000
+DTEND;TZID=America/New_York:20261125T223000
+SUMMARY:Free Movie Night: Audience Choice (inside or outside\; so rain or s
+ 
+hine!)
+LOCATION:The Tiny Cupboard\, Bushwick (East)
+DESCRIPTION:The crowd picks the movie — free\, indoors or out\, rain or s
+ 
+hine. Tickets & info: https://www.eventbrite.com/e/free-movie-night-audienc
+ 
+e-choice-inside-or-outside-so-rain-or-shine-tickets-2004555339983
+URL:https://www.eventbrite.com/e/free-movie-night-audience-choice-inside-or
+ 
+-outside-so-rain-or-shine-tickets-2004555339983
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-14@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T080000
+DTEND;TZID=America/New_York:20261125T100000
+SUMMARY:Wednesday Greenmarket at Bartel-Pritchard Square
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Stock the Thanksgiving table straight from the farm stands at B
+ 
+artel-Pritchard Square. Tickets & info: https://www.prospectpark.org/event/
+ 
+wednesday-greenmarket-at-bartel-pritchard-square/2026-11-25/
+URL:https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-prit
+ 
+chard-square/2026-11-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-15@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T180000
+DTEND;TZID=America/New_York:20261125T200000
+SUMMARY:THANKSGIVING EVE KICKBACK DRINKSGIVING & WATCH PARTY
+LOCATION:Time Out Market New York\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Drinksgiving at Time Out Market — a watch party and a kickoff
+ 
+ to the long weekend. Tickets & info: https://www.eventbrite.com/e/thanksgi
+ 
+ving-eve-kickback-drinksgiving-watch-party-tickets-2004770728215
+URL:https://www.eventbrite.com/e/thanksgiving-eve-kickback-drinksgiving-wat
+ 
+ch-party-tickets-2004770728215
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-16@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Shuck Yea! and Oyster Shucking Experience
+LOCATION:Festival Cafe\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Learn to shuck oysters like a pro\, then eat your homework. Tic
+ 
+kets & info: https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-exp
+ 
+erience-tickets-1987517307770
+URL:https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-t
+ 
+ickets-1987517307770
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-17@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Bat Haus Drink N' Draw
+LOCATION:Bat Haus\, Williamsburg
+DESCRIPTION:Sketch\, sip\, and unwind at this Bushwick art bar's weekly dra
+ 
+w night. Tickets & info: https://www.eventbrite.com/e/bat-haus-drink-n-draw
+ 
+-tickets-1984964565449
+URL:https://www.eventbrite.com/e/bat-haus-drink-n-draw-tickets-198496456544
+ 
+9
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-18@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Ikebana Wednesdays: An Evening of Contemporary Ikebana
+LOCATION:36 E Broadway\, Chinatown-Two Bridges
+DESCRIPTION:An evening of contemporary flower arranging — calm hands befo
+ 
+re a chaotic holiday. Tickets & info: https://www.eventbrite.com/e/ikebana-
+ 
+wednesdays-an-evening-of-contemporary-ikebana-tickets-1996356445870
+URL:https://www.eventbrite.com/e/ikebana-wednesdays-an-evening-of-contempor
+ 
+ary-ikebana-tickets-1996356445870
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-19@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T150000
+DTEND;TZID=America/New_York:20261125T170000
+SUMMARY:Remarkably Bright Creatures Book Club at hunts point library nypl
+LOCATION:Hunts Point Library\, Hunts Point
+DESCRIPTION:A free library book club on Remarkably Bright Creatures — coz
+ 
+y\, smart\, and very on-brand for a holiday week. Tickets & info: https://w
+ 
+ww.eventbrite.com/e/remarkably-bright-creatures-book-club-at-hunts-point-li
+ 
+brary-nypl-tickets-2004171248154
+URL:https://www.eventbrite.com/e/remarkably-bright-creatures-book-club-at-h
+ 
+unts-point-library-nypl-tickets-2004171248154
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-20@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T183000
+DTEND;TZID=America/New_York:20261125T203000
+SUMMARY:Lectures on Tap - "When Art Was Dangerous: Surrealism During World 
+ 
+War II"
+LOCATION:Lower East Side\, Lower East Side
+DESCRIPTION:Surrealism under fascism\, over a beer — the liveliest histor
+ 
+y lesson you'll get this week. Tickets & info: https://www.eventbrite.com/e
+ 
+/lectures-on-tap-when-art-was-dangerous-surrealism-during-world-war-ii-tick
+ 
+ets-2003428603885
+URL:https://www.eventbrite.com/e/lectures-on-tap-when-art-was-dangerous-sur
+ 
+realism-during-world-war-ii-tickets-2003428603885
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-21@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T183000
+DTEND;TZID=America/New_York:20261125T203000
+SUMMARY:Weekly Philosophy Lecture & Discussion Group
+LOCATION:The Tiny Cupboard\, Bushwick (East)
+DESCRIPTION:Free weekly philosophy lecture and discussion — bring a quest
+ 
+ion\, leave with three more. Tickets & info: https://www.eventbrite.com/e/w
+ 
+eekly-philosophy-lecture-discussion-group-tickets-2004549443346
+URL:https://www.eventbrite.com/e/weekly-philosophy-lecture-discussion-group
+ 
+-tickets-2004549443346
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-22@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T100000
+DTEND;TZID=America/New_York:20261125T120000
+SUMMARY:DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:Walk through a world of air and light at the Balloon Museum's n
+ 
+ew Seaport flagship. Tickets & info: https://www.universe.com/events/daydre
+ 
+am-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketm
+ 
+aster
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-23@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T160000
+DTEND;TZID=America/New_York:20261125T180000
+SUMMARY:SKATE with Holiday Friends
+LOCATION:Domino Square\, Williamsburg
+DESCRIPTION:Outdoor skating with a holiday crowd in Williamsburg. Tickets &
+ 
+ info: https://www.eventbrite.com/e/skate-with-holiday-friends-tickets-2004
+ 
+689639677
+URL:https://www.eventbrite.com/e/skate-with-holiday-friends-tickets-2004689
+ 
+639677
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-24@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T120000
+DTEND;TZID=America/New_York:20261125T140000
+SUMMARY:Macy’s Thanksgiving Parade Balloon Inflation Group Walk
+LOCATION:Meet in front of Dunkin'\, Upper West Side-Lincoln Square
+DESCRIPTION:Watch the Macy's parade balloons come to life — the best Than
+ 
+ksgiving-eve tradition in the city. Tickets & info: https://www.eventbrite.
+ 
+com/e/macys-thanksgiving-parade-balloon-inflation-group-walk-tickets-200385
+ 
+6339253
+URL:https://www.eventbrite.com/e/macys-thanksgiving-parade-balloon-inflatio
+ 
+n-group-walk-tickets-2003856339253
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-25@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T120000
+DTEND;TZID=America/New_York:20261125T140000
+SUMMARY:THANKSGIVING EVE PARTY @230 Fifth Rooftop
+LOCATION:1150 Broadway\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Thanksgiving-eve rooftop party with skyline views — day-drink
+ 
+ your way into the holiday. Tickets & info: https://www.eventbrite.com/e/th
+ 
+anksgiving-eve-party-230-fifth-rooftop-tickets-2002646726268
+URL:https://www.eventbrite.com/e/thanksgiving-eve-party-230-fifth-rooftop-t
+ 
+ickets-2002646726268
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-26@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T193000
+DTEND;TZID=America/New_York:20261125T213000
+SUMMARY:New York Knicks vs. Cleveland Cavaliers
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Knicks vs. Cavs at the Garden on Thanksgiving eve — the loude
+ 
+st room in the city tonight. Tickets & info: https://www.ticketmaster.com/n
+ 
+ew-york-knicks-vs-cleveland-cavaliers-new-york-new-york-11-25-2026/event/3B
+ 
+006511E922863B
+URL:https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new
+ 
+-york-new-york-11-25-2026/event/3B006511E922863B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261125-27@concierge
+DTSTAMP:20261125T132046Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Bob’s Burgers Thanksgiving Trivia Night
+LOCATION:Slattery's Midtown Pub\, Midtown-Times Square
+DESCRIPTION:Thanksgiving-themed Bob's Burgers trivia — the Belchers would
+ 
+ approve. Tickets & info: https://www.eventbrite.com/e/bobs-burgers-thanksg
+ 
+iving-trivia-night-tickets-2002969406413
+URL:https://www.eventbrite.com/e/bobs-burgers-thanksgiving-trivia-night-tic
+ 
+kets-2002969406413
+END:VEVENT
+END:VCALENDAR

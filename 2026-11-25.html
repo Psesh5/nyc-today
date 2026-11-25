@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Wednesday, November 25</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Wednesday, November 25</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-25.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="David Ostwald&#x27;s Louis Armstrong Eternity Band">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14196864">David Ostwald&#x27;s Louis Armstrong Eternity Band</a></h3>
+<div class="meta">5:30 PM · Birdland Theater, Hell&#x27;s Kitchen · $35.46</div>
+<p>Louis Armstrong&#x27;s songbook, played the old way, at an early-bird hour — a perfect pre-dinner set.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity-birdland-theater-tickets/14196864">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="Chief Adjuah">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032663">Chief Adjuah</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $38.24</div>
+<p>Chief Adjuah&#x27;s trumpet at the Blue Note — Thanksgiving-eve jazz in the room where it lives.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032663">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="The Bello Bash">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-bello-bash-tickets-2002650835559">The Bello Bash</a></h3>
+<div class="meta">9:00 PM · Groove, Greenwich Village</div>
+<p>A Thanksgiving-eve bash at Groove — live music and dancing to kick off the long weekend.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-bello-bash-tickets-2002650835559">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="DayBreak, Woah Nelliee, Hugh Miles &amp; Travis George">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/daybreak-woah-nelliee-hugh-miles-travis-george-tickets-2003715932292">DayBreak, Woah Nelliee, Hugh Miles &amp; Travis George</a></h3>
+<div class="meta">10:00 PM · Elsewhere, East Williamsburg</div>
+<p>Thanksgiving-eve dancefloor at Elsewhere — four DJs, no family small talk required.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/daybreak-woah-nelliee-hugh-miles-travis-george-tickets-2003715932292">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-4" data-name="Christmas Spectacular Starring The Radio City Rockettes">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-25-2026/event/3C006457CF131F54">Christmas Spectacular Starring The Radio City Rockettes</a></h3>
+<div class="meta">11:00 AM · Radio City Music Hall, Midtown-Times Square · 75</div>
+<p>The Rockettes&#x27; Christmas Spectacular — the holiday classic, still the best seat in town for out-of-towners and locals alike.</p>
+<a class="tickets" href="https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-york-new-york-11-25-2026/event/3C006457CF131F54">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="The Holes - Wednesday, November 25th Evening">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/the-holes-wednesday-november-25th-evening-tickets-2003794739005">The Holes - Wednesday, November 25th Evening</a></h3>
+<div class="meta">7:30 PM · wild project, East Village</div>
+<p>A new play at the wild project — small room, big night out before the holiday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/the-holes-wednesday-november-25th-evening-tickets-2003794739005">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-6" data-name="A Fundraiser for Flatbush ft. Reg Thomas, Eva Evans, Jordan Rock, Alexis Carabaño, Onika McLean, and more!">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/a-fundraiser-for-flatbush-ft-brooklyn-improv-the-main-room-tickets/15057253">A Fundraiser for Flatbush ft. Reg Thomas, Eva Evans, Jordan Rock, Alexis Carabaño, Onika McLean, and more!</a></h3>
+<div class="meta">7:30 PM · Brooklyn Improv (The Main Room), Williamsburg · $25.97</div>
+<p>A comedy fundraiser for Flatbush with a stacked Brooklyn lineup — laughs for a good cause.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/a-fundraiser-for-flatbush-ft-brooklyn-improv-the-main-room-tickets/15057253">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-7" data-name="Good Eggs ft: Mark Normand, Gary Vider, Jilberto Soto, Matt Ruby, Peter Revello">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vider-jilberto-soto-matt-ruby-peter-revello">Good Eggs ft: Mark Normand, Gary Vider, Jilberto Soto, Matt Ruby, Peter Revello</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $25</div>
+<p>Mark Normand headlines a stacked lineup — the night&#x27;s surest laugh before turkey day.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/good-eggs-ft-mark-normand-gary-vider-jilberto-soto-matt-ruby-peter-revello">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="OnlyFriends">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://new.comedytickets.com/events/2574959">OnlyFriends</a></h3>
+<div class="meta">8:00 PM · Flop House Comedy Club, Williamsburg · 12</div>
+<p>Williamsburg&#x27;s friendliest room: comics testing new material, no drink minimum, $12.</p>
+<a class="tickets" href="https://new.comedytickets.com/events/2574959">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="The Gotham All-Stars at Gotham Comedy Club">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://gothamcomedyclub.com/events/the-gotham-all-stars2526hvvjt9r">The Gotham All-Stars at Gotham Comedy Club</a></h3>
+<div class="meta">8:00 PM · Gotham Comedy Club, Chelsea-Hudson Yards · $26.27</div>
+<p>The Gotham All-Stars — the club&#x27;s best of the best in one 8 PM set.</p>
+<a class="tickets" href="https://gothamcomedyclub.com/events/the-gotham-all-stars2526hvvjt9r">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-10" data-name="Suzhou River">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999003167-suzhou-river/">Suzhou River</a></h3>
+<div class="meta">3:15 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>Lou Ye&#x27;s neon-noir fever dream on the big screen — an afternoon escape before the holiday rush.</p>
+<a class="tickets" href="https://metrograph.com/film/9999003167-suzhou-river/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="Paper Tiger">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/williamsburg/movies/paper-tiger/">Paper Tiger</a></h3>
+<div class="meta">6:40 PM · Nitehawk Cinema Williamsburg, Williamsburg · $9</div>
+<p>A new release with dinner-and-a-movie energy, tickets just $9.</p>
+<a class="tickets" href="https://nitehawkcinema.com/williamsburg/movies/paper-tiger/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="The Housemaid">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999003128-the-housemaid/">The Housemaid</a></h3>
+<div class="meta">7:30 PM · Metrograph, Chinatown-Two Bridges</div>
+<p>The 1960 Korean classic that inspired Parasite, restored — a masterclass in domestic dread.</p>
+<a class="tickets" href="https://metrograph.com/film/9999003128-the-housemaid/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-13" data-name="Free Movie Night: Audience Choice (inside or outside; so rain or shine!)">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/free-movie-night-audience-choice-inside-or-outside-so-rain-or-shine-tickets-2004555339983">Free Movie Night: Audience Choice (inside or outside; so rain or shine!)</a></h3>
+<div class="meta">8:30 PM · The Tiny Cupboard, Bushwick (East)</div>
+<p>The crowd picks the movie — free, indoors or out, rain or shine.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/free-movie-night-audience-choice-inside-or-outside-so-rain-or-shine-tickets-2004555339983">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-14" data-name="Wednesday Greenmarket at Bartel-Pritchard Square">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-pritchard-square/2026-11-25/">Wednesday Greenmarket at Bartel-Pritchard Square</a></h3>
+<div class="meta">8:00 AM · Prospect Park, Prospect Park</div>
+<p>Stock the Thanksgiving table straight from the farm stands at Bartel-Pritchard Square.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/wednesday-greenmarket-at-bartel-pritchard-square/2026-11-25/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="THANKSGIVING EVE KICKBACK DRINKSGIVING &amp; WATCH PARTY">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/thanksgiving-eve-kickback-drinksgiving-watch-party-tickets-2004770728215">THANKSGIVING EVE KICKBACK DRINKSGIVING &amp; WATCH PARTY</a></h3>
+<div class="meta">6:00 PM · Time Out Market New York, Downtown Brooklyn-DUMBO-Boerum Hill</div>
+<p>Drinksgiving at Time Out Market — a watch party and a kickoff to the long weekend.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/thanksgiving-eve-kickback-drinksgiving-watch-party-tickets-2004770728215">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Shuck Yea! and Oyster Shucking Experience">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517307770">Shuck Yea! and Oyster Shucking Experience</a></h3>
+<div class="meta">7:00 PM · Festival Cafe, Upper East Side-Lenox Hill-Roosevelt Island</div>
+<p>Learn to shuck oysters like a pro, then eat your homework.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tickets-1987517307770">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-17" data-name="Bat Haus Drink N&#x27; Draw">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/bat-haus-drink-n-draw-tickets-1984964565449">Bat Haus Drink N&#x27; Draw</a></h3>
+<div class="meta">7:00 PM · Bat Haus, Williamsburg</div>
+<p>Sketch, sip, and unwind at this Bushwick art bar&#x27;s weekly draw night.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/bat-haus-drink-n-draw-tickets-1984964565449">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-18" data-name="Ikebana Wednesdays: An Evening of Contemporary Ikebana">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/ikebana-wednesdays-an-evening-of-contemporary-ikebana-tickets-1996356445870">Ikebana Wednesdays: An Evening of Contemporary Ikebana</a></h3>
+<div class="meta">7:00 PM · 36 E Broadway, Chinatown-Two Bridges</div>
+<p>An evening of contemporary flower arranging — calm hands before a chaotic holiday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/ikebana-wednesdays-an-evening-of-contemporary-ikebana-tickets-1996356445870">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-19" data-name="Remarkably Bright Creatures Book Club at hunts point library nypl">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/remarkably-bright-creatures-book-club-at-hunts-point-library-nypl-tickets-2004171248154">Remarkably Bright Creatures Book Club at hunts point library nypl</a></h3>
+<div class="meta">3:00 PM · Hunts Point Library, Hunts Point</div>
+<p>A free library book club on Remarkably Bright Creatures — cozy, smart, and very on-brand for a holiday week.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/remarkably-bright-creatures-book-club-at-hunts-point-library-nypl-tickets-2004171248154">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-20" data-name="Lectures on Tap - &quot;When Art Was Dangerous: Surrealism During World War II&quot;">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/lectures-on-tap-when-art-was-dangerous-surrealism-during-world-war-ii-tickets-2003428603885">Lectures on Tap - &quot;When Art Was Dangerous: Surrealism During World War II&quot;</a></h3>
+<div class="meta">6:30 PM · Lower East Side, Lower East Side</div>
+<p>Surrealism under fascism, over a beer — the liveliest history lesson you&#x27;ll get this week.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/lectures-on-tap-when-art-was-dangerous-surrealism-during-world-war-ii-tickets-2003428603885">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Weekly Philosophy Lecture &amp; Discussion Group">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/weekly-philosophy-lecture-discussion-group-tickets-2004549443346">Weekly Philosophy Lecture &amp; Discussion Group</a></h3>
+<div class="meta">6:30 PM · The Tiny Cupboard, Bushwick (East)</div>
+<p>Free weekly philosophy lecture and discussion — bring a question, leave with three more.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/weekly-philosophy-lecture-discussion-group-tickets-2004549443346">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-22" data-name="DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>Walk through a world of air and light at the Balloon Museum&#x27;s new Seaport flagship.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="SKATE with Holiday Friends">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/skate-with-holiday-friends-tickets-2004689639677">SKATE with Holiday Friends</a></h3>
+<div class="meta">4:00 PM · Domino Square, Williamsburg</div>
+<p>Outdoor skating with a holiday crowd in Williamsburg.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/skate-with-holiday-friends-tickets-2004689639677">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-24" data-name="Macy’s Thanksgiving Parade Balloon Inflation Group Walk">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/macys-thanksgiving-parade-balloon-inflation-group-walk-tickets-2003856339253">Macy’s Thanksgiving Parade Balloon Inflation Group Walk</a></h3>
+<div class="meta">12:00 PM · Meet in front of Dunkin&#x27;, Upper West Side-Lincoln Square</div>
+<p>Watch the Macy&#x27;s parade balloons come to life — the best Thanksgiving-eve tradition in the city.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/macys-thanksgiving-parade-balloon-inflation-group-walk-tickets-2003856339253">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-25" data-name="THANKSGIVING EVE PARTY @230 Fifth Rooftop">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/thanksgiving-eve-party-230-fifth-rooftop-tickets-2002646726268">THANKSGIVING EVE PARTY @230 Fifth Rooftop</a></h3>
+<div class="meta">12:00 PM · 1150 Broadway, Midtown South-Flatiron-Union Square</div>
+<p>Thanksgiving-eve rooftop party with skyline views — day-drink your way into the holiday.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/thanksgiving-eve-party-230-fifth-rooftop-tickets-2002646726268">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-26" data-name="New York Knicks vs. Cleveland Cavaliers">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new-york-new-york-11-25-2026/event/3B006511E922863B">New York Knicks vs. Cleveland Cavaliers</a></h3>
+<div class="meta">7:30 PM · Madison Square Garden, Midtown South-Flatiron-Union Square · $204.75</div>
+<p>Knicks vs. Cavs at the Garden on Thanksgiving eve — the loudest room in the city tonight.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-knicks-vs-cleveland-cavaliers-new-york-new-york-11-25-2026/event/3B006511E922863B">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Trivia &amp; Games</h2>
+
+<article class="event" id="event-27" data-name="Bob’s Burgers Thanksgiving Trivia Night">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/bobs-burgers-thanksgiving-trivia-night-tickets-2002969406413">Bob’s Burgers Thanksgiving Trivia Night</a></h3>
+<div class="meta">7:00 PM · Slattery&#x27;s Midtown Pub, Midtown-Times Square</div>
+<p>Thanksgiving-themed Bob&#x27;s Burgers trivia — the Belchers would approve.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/bobs-burgers-thanksgiving-trivia-night-tickets-2002969406413">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-25";
+const NAMES = ["David Ostwald's Louis Armstrong Eternity Band", "Chief Adjuah", "The Bello Bash", "DayBreak, Woah Nelliee, Hugh Miles & Travis George", "Christmas Spectacular Starring The Radio City Rockettes", "The Holes - Wednesday, November 25th Evening", "A Fundraiser for Flatbush ft. Reg Thomas, Eva Evans, Jordan Rock, Alexis Caraba\u00f1o, Onika McLean, and more!", "Good Eggs ft: Mark Normand, Gary Vider, Jilberto Soto, Matt Ruby, Peter Revello", "OnlyFriends", "The Gotham All-Stars at Gotham Comedy Club", "Suzhou River", "Paper Tiger", "The Housemaid", "Free Movie Night: Audience Choice (inside or outside; so rain or shine!)", "Wednesday Greenmarket at Bartel-Pritchard Square", "THANKSGIVING EVE KICKBACK DRINKSGIVING & WATCH PARTY", "Shuck Yea! and Oyster Shucking Experience", "Bat Haus Drink N' Draw", "Ikebana Wednesdays: An Evening of Contemporary Ikebana", "Remarkably Bright Creatures Book Club at hunts point library nypl", "Lectures on Tap - \"When Art Was Dangerous: Surrealism During World War II\"", "Weekly Philosophy Lecture & Discussion Group", "DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry", "SKATE with Holiday Friends", "Macy\u2019s Thanksgiving Parade Balloon Inflation Group Walk", "THANKSGIVING EVE PARTY @230 Fifth Rooftop", "New York Knicks vs. Cleveland Cavaliers", "Bob\u2019s Burgers Thanksgiving Trivia Night"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>
