@@ -1,0 +1,427 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261126-0@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T200000
+DTEND;TZID=America/New_York:20261126T220000
+SUMMARY:Chief Adjuah
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Trumpet\, horns and New Orleans spirit from the former Christia
+ 
+n Scott — a Blue Note Thanksgiving night done right. Tickets & info: http
+ 
+s://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/150327
+ 
+03
+URL:https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-ticket
+ 
+s/15032703
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-1@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T203000
+DTEND;TZID=America/New_York:20261126T223000
+SUMMARY:David Ostwald's Louis Armstrong Eternity Band
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:A Louis Armstrong tribute band keeping Satchmo's songbook swing
+ 
+ing at Birdland. Tickets & info: https://www.ticketweb.com/event/david-ostw
+ 
+alds-louis-armstrong-eternity-birdland-theater-tickets/14225264
+URL:https://www.ticketweb.com/event/david-ostwalds-louis-armstrong-eternity
+ 
+-birdland-theater-tickets/14225264
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-2@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T210000
+DTEND;TZID=America/New_York:20261126T230000
+SUMMARY:Nick Biello Quartet
+LOCATION:Smalls Jazz Club\, West Village
+DESCRIPTION:Late-night sax at Smalls\, the Village basement room where the 
+ 
+set always runs past midnight. Tickets & info: https://www.ticketweb.com/ev
+ 
+ent/nick-biello-quartet-smalls-jazz-club-tickets/14362114
+URL:https://www.ticketweb.com/event/nick-biello-quartet-smalls-jazz-club-ti
+ 
+ckets/14362114
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-3@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T140000
+DTEND;TZID=America/New_York:20261126T160000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:Ninety minutes of high kicks\, wooden soldiers and the living n
+ 
+ativity — the holiday show that defines the season. Tickets & info: https
+ 
+://www.ticketmaster.com/christmas-spectacular-starring-the-radio-city-new-y
+ 
+ork-new-york-11-26-2026/event/3C006457CF221F68
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-26-2026/event/3C006457CF221F68
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-4@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T190000
+DTEND;TZID=America/New_York:20261126T210000
+SUMMARY:Chicago
+LOCATION:Ambassador Theatre\, Midtown-Times Square
+DESCRIPTION:Razzle-dazzle as ever: Roxie\, Velma and 'All That Jazz' in Bro
+ 
+adway's longest-running American musical. Tickets & info: https://www.ticke
+ 
+tmaster.com/chicago-new-york-new-york-11-26-2026/event/Z1r9uZruZqGZ17J_rb
+URL:https://www.ticketmaster.com/chicago-new-york-new-york-11-26-2026/event
+ 
+/Z1r9uZruZqGZ17J_rb
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-5@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T184500
+DTEND;TZID=America/New_York:20261126T204500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Philipp 
+ 
+Kostelecky\, Shafi Hossain\, Brendan Sagalow & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:The Village's most famous brick wall — a rotating lineup of c
+ 
+omics testing their best material. Tickets & info: https://www.comedycellar
+ 
+.com/reservations-newyork/?showid=1795718700
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1795718700
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-6@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T193000
+DTEND;TZID=America/New_York:20261126T213000
+SUMMARY:Maker's Mark Thursday - Stand-Up Comedy at Rodney's Comedy Club NYC
+LOCATION:Rodney's Comedy Club\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:A no-frills Upper East Side stand-up night\, Maker's Mark on th
+ 
+e tab. Tickets & info: https://www.eventbrite.com/e/makers-mark-thursday-st
+ 
+and-up-comedy-at-rodneys-comedy-club-nyc-tickets-2004863548844
+URL:https://www.eventbrite.com/e/makers-mark-thursday-stand-up-comedy-at-ro
+ 
+dneys-comedy-club-nyc-tickets-2004863548844
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-7@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T204500
+DTEND;TZID=America/New_York:20261126T224500
+SUMMARY:The Devils
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ken Russell's feverish\, long-banned masterpiece on IFC's big s
+ 
+creen — not for the faint of heart. Tickets & info: https://www.ifccenter
+ 
+.com/films/the-devils/
+URL:https://www.ifccenter.com/films/the-devils/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-8@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T185000
+DTEND;TZID=America/New_York:20261126T205000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's lush\, devastating portrait of a 1920s concubine\
+ 
+, in a rare revival. Tickets & info: https://filmforum.org/film/raise-the-r
+ 
+ed-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-9@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T130000
+DTEND;TZID=America/New_York:20261126T150000
+SUMMARY:Thanksgiving 2026 at Ernie O'Malley's
+LOCATION:Ernie O'Malley's\, Gramercy
+DESCRIPTION:A proper Thanksgiving dinner with all the trimmings at a Gramer
+ 
+cy Irish pub — no cooking\, no dishes. Tickets & info: https://www.eventb
+ 
+rite.com/e/thanksgiving-2026-at-ernie-omalleys-tickets-2004607783844
+URL:https://www.eventbrite.com/e/thanksgiving-2026-at-ernie-omalleys-ticket
+ 
+s-2004607783844
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-10@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T180000
+DTEND;TZID=America/New_York:20261126T200000
+SUMMARY:Govinda's Vegetarian Thanksgiving Dinner
+LOCATION:Govinda's Vegetarian Lunch\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:A full vegetarian Thanksgiving feast in Downtown Brooklyn\, fro
+ 
+m the Hare Krishna kitchen. Tickets & info: https://www.eventbrite.com/e/go
+ 
+vindas-vegetarian-thanksgiving-dinner-tickets-2005175118758
+URL:https://www.eventbrite.com/e/govindas-vegetarian-thanksgiving-dinner-ti
+ 
+ckets-2005175118758
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-11@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T170000
+DTEND;TZID=America/New_York:20261126T190000
+SUMMARY:Thanksgiving Dinner at Above NYC Rooftop
+LOCATION:Above NYC Rooftop\, Midtown-Times Square
+DESCRIPTION:Turkey with a skyline view — a rooftop Thanksgiving dinner ab
+ 
+ove Times Square. Tickets & info: https://www.eventbrite.com/e/thanksgiving
+ 
+-dinner-at-above-nyc-rooftop-tickets-2004962925081
+URL:https://www.eventbrite.com/e/thanksgiving-dinner-at-above-nyc-rooftop-t
+ 
+ickets-2004962925081
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-12@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T120000
+DTEND;TZID=America/New_York:20261126T140000
+SUMMARY:thanksgiving potluck!
+LOCATION:Anyone Comics\, Crown Heights (South)
+DESCRIPTION:Bring a dish\, meet your neighbors: a free community Friendsgiv
+ 
+ing at a Crown Heights comic shop. Tickets & info: https://www.eventbrite.c
+ 
+om/e/thanksgiving-potluck-tickets-2004832158956
+URL:https://www.eventbrite.com/e/thanksgiving-potluck-tickets-2004832158956
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-14@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T153000
+DTEND;TZID=America/New_York:20261126T173000
+SUMMARY:Boozy Ice Cream Cocktail Class in Astoria
+LOCATION:Tipsy Scoop\, Astoria (North)-Ditmars-Steinway
+DESCRIPTION:Learn to spike your scoops: an afternoon of boozy sundaes and c
+ 
+ocktails in Astoria. Tickets & info: https://www.eventbrite.com/e/boozy-ice
+ 
+-cream-cocktail-class-in-astoria-tickets-2005171977362
+URL:https://www.eventbrite.com/e/boozy-ice-cream-cocktail-class-in-astoria-
+ 
+tickets-2005171977362
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-15@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T190000
+DTEND;TZID=America/New_York:20261126T210000
+SUMMARY:Beginner Tango Class– No Partner Needed!
+LOCATION:Balance Arts Center\, Midtown South-Flatiron-Union Square
+DESCRIPTION:No partner\, no problem — a first-steps tango class to burn o
+ 
+ff dinner before dessert. Tickets & info: https://www.eventbrite.com/e/begi
+ 
+nner-tango-class-no-partner-needed-tickets-1996773025872
+URL:https://www.eventbrite.com/e/beginner-tango-class-no-partner-needed-tic
+ 
+kets-1996773025872
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-16@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T100000
+DTEND;TZID=America/New_York:20261126T120000
+SUMMARY:DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:Walk through inflatable art by Marina Abramovic and friends at 
+ 
+the Seaport's new Balloon Museum flagship. Tickets & info: https://www.univ
+ 
+erse.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tick
+ 
+ets-XV56PW?ref=ticketmaster
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-17@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T110000
+DTEND;TZID=America/New_York:20261126T130000
+SUMMARY:The Banksy Museum New York!
+LOCATION:Banksy Museum New York\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:The elusive street artist's greatest hits\, recreated across th
+ 
+ree floors on Canal Street. Tickets & info: https://www.universe.com/events
+ 
+/the-banksy-museum-new-york-tickets-5PKNY0?ref=ticketmaster
+URL:https://www.universe.com/events/the-banksy-museum-new-york-tickets-5PKN
+ 
+Y0?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-18@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T170000
+DTEND;TZID=America/New_York:20261126T190000
+SUMMARY:Winter Lantern Festival
+LOCATION:Snug Harbor\, Snug Harbor
+DESCRIPTION:Hundreds of glowing lanterns light up Snug Harbor's gardens —
+ 
+ Staten Island's prettiest night out\, and free. Tickets & info: http://www
+ 
+.nycgovparks.org/events/2026/11/26/winter-lantern-festival
+URL:http://www.nycgovparks.org/events/2026/11/26/winter-lantern-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-19@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T190000
+DTEND;TZID=America/New_York:20261126T210000
+SUMMARY:Salsa Thursdays at Time Out Market
+LOCATION:Time Out Market New York\, Downtown Brooklyn-DUMBO-Boerum Hill
+DESCRIPTION:Free salsa dancing on the DUMBO waterfront with the Manhattan s
+ 
+kyline behind you. Tickets & info: https://www.eventbrite.com/e/salsa-thurs
+ 
+days-at-time-out-market-tickets-1981361475510
+URL:https://www.eventbrite.com/e/salsa-thursdays-at-time-out-market-tickets
+ 
+-1981361475510
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-20@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T110000
+DTEND;TZID=America/New_York:20261126T130000
+SUMMARY:NYC Statue of Liberty & Manhattan Skyline Sightseeing Cruise
+LOCATION:Pier 36 NYC\, Chinatown-Two Bridges
+DESCRIPTION:Circle Lady Liberty and the skyline on a morning harbor cruise 
+ 
+— the classic\, minus the museum lines. Tickets & info: https://www.event
+ 
+brite.com/e/nyc-statue-of-liberty-manhattan-skyline-sightseeing-cruise-tick
+ 
+ets-2004999709103
+URL:https://www.eventbrite.com/e/nyc-statue-of-liberty-manhattan-skyline-si
+ 
+ghtseeing-cruise-tickets-2004999709103
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-21@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T110000
+DTEND;TZID=America/New_York:20261126T130000
+SUMMARY:True Crime NYC: Mafia Walk w/Ret. NYPD Detective & Local Food
+LOCATION:John's of 12th Street Italian Restaurant\, East Village
+DESCRIPTION:A retired NYPD detective walks you through Little Italy's mob h
+ 
+istory\, with food stops along the way. Tickets & info: https://www.eventbr
+ 
+ite.com/e/true-crime-nyc-mafia-walk-wret-nypd-detective-local-food-tickets-
+ 
+1660440645669
+URL:https://www.eventbrite.com/e/true-crime-nyc-mafia-walk-wret-nypd-detect
+ 
+ive-local-food-tickets-1660440645669
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-22@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T193000
+DTEND;TZID=America/New_York:20261126T213000
+SUMMARY:Ghosts of Gotham's Greenwich
+LOCATION:Meet at Washington Square Arch\, 7:30pm Daily\, Greenwich Village
+DESCRIPTION:Haunted Greenwich Village by lamplight — Washington Square's 
+ 
+darker stories after dark. Tickets & info: https://www.eventbrite.com/e/gho
+ 
+sts-of-gothams-greenwich-tickets-1989125288283
+URL:https://www.eventbrite.com/e/ghosts-of-gothams-greenwich-tickets-198912
+ 
+5288283
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-23@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T190000
+DTEND;TZID=America/New_York:20261126T210000
+SUMMARY:Golden Hour NYC: Breathtaking Sunset Cruise with Skyline & Statue V
+ 
+iews
+LOCATION:Pier 36 NYC\, Lower East Side
+DESCRIPTION:Watch the sun drop behind the Statue of Liberty from the harbor
+ 
+\, drink in hand. Tickets & info: https://www.eventbrite.com/e/golden-hour-
+ 
+nyc-breathtaking-sunset-cruise-with-skyline-statue-views-tickets-1520943325
+ 
+429
+URL:https://www.eventbrite.com/e/golden-hour-nyc-breathtaking-sunset-cruise
+ 
+-with-skyline-statue-views-tickets-1520943325429
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-24@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T220000
+DTEND;TZID=America/New_York:20261127T000000
+SUMMARY:Refuge Thanksgiving: David Morales
+LOCATION:Refuge\, East Williamsburg
+DESCRIPTION:David Morales headlines a Thanksgiving-night house party in Eas
+ 
+t Williamsburg — dance off the turkey. Tickets & info: https://www.eventb
+ 
+rite.com/e/refuge-thanksgiving-david-morales-tickets-2004619260170
+URL:https://www.eventbrite.com/e/refuge-thanksgiving-david-morales-tickets-
+ 
+2004619260170
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-26@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T200000
+DTEND;TZID=America/New_York:20261126T220000
+SUMMARY:Trivia Night at The Grey Dog (Chelsea)
+LOCATION:The Grey Dog - Chelsea\, Chelsea-Hudson Yards
+DESCRIPTION:Thanksgiving-night trivia at the Chelsea Grey Dog — bring you
+ 
+r smartest friends. Tickets & info: https://www.eventbrite.com/e/trivia-nig
+ 
+ht-at-the-grey-dog-chelsea-tickets-2002852084500
+URL:https://www.eventbrite.com/e/trivia-night-at-the-grey-dog-chelsea-ticke
+ 
+ts-2002852084500
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261126-27@concierge
+DTSTAMP:20261126T144107Z
+DTSTART;TZID=America/New_York:20261126T080000
+DTEND;TZID=America/New_York:20261126T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free-admission skating under the Winter Village lights\, with t
+ 
+he holiday shops open till 8. Tickets & info: https://bryantpark.org/calend
+ 
+ar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-26
+URL:https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-p
+ 
+ark-late-closing/2026-11-26
+END:VEVENT
+END:VCALENDAR
