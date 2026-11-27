@@ -1,0 +1,497 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261127-0@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T100000
+DTEND;TZID=America/New_York:20261127T120000
+SUMMARY:Christmas Spectacular Starring The Radio City Rockettes
+LOCATION:Radio City Music Hall\, Midtown-Times Square
+DESCRIPTION:The Rockettes' high-kicking holiday spectacular — wooden sold
+ 
+iers\, the living nativity\, and the most New York Christmas morning there 
+ 
+is. Tickets & info: https://www.ticketmaster.com/christmas-spectacular-star
+ 
+ring-the-radio-city-new-york-new-york-11-27-2026/event/3C006457CF281F6A
+URL:https://www.ticketmaster.com/christmas-spectacular-starring-the-radio-c
+ 
+ity-new-york-new-york-11-27-2026/event/3C006457CF281F6A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-1@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T130000
+DTEND;TZID=America/New_York:20261127T150000
+SUMMARY:It's a Wonderful Life
+LOCATION:Broadhurst Theatre \, Midtown-Times Square
+DESCRIPTION:The Christmas classic live on Broadway — George Bailey's stor
+ 
+y of a life that mattered\, told on the big stage. Tickets & info: https://
+ 
+www.ticketmaster.com/its-a-wonderful-life-new-york-new-york-11-27-2026/even
+ 
+t/Z1r9uZruZqGZ1AvZf4a
+URL:https://www.ticketmaster.com/its-a-wonderful-life-new-york-new-york-11-
+ 
+27-2026/event/Z1r9uZruZqGZ1AvZf4a
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-2@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T130000
+DTEND;TZID=America/New_York:20261127T150000
+SUMMARY:Stranger Things: The First Shadow
+LOCATION:Marquis Theatre - NY\, Hell's Kitchen
+DESCRIPTION:The Hawkins origin story on stage — the prequel that turns th
+ 
+e Upside Down into a Broadway spectacle. Tickets & info: https://www.ticket
+ 
+master.com/stranger-things-the-first-shadow-new-york-new-york-11-27-2026/ev
+ 
+ent/Z1r9uZrrZbpZ1Aev7oS
+URL:https://www.ticketmaster.com/stranger-things-the-first-shadow-new-york-
+ 
+new-york-11-27-2026/event/Z1r9uZrrZbpZ1Aev7oS
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-3@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T140000
+DTEND;TZID=America/New_York:20261127T160000
+SUMMARY:Buena Vista Social Club
+LOCATION:Gerald Schoenfeld Theatre\, Midtown-Times Square
+DESCRIPTION:Cuban music\, dance and heart — the beloved album brought to 
+ 
+life as a full Broadway musical. Tickets & info: https://www.ticketmaster.c
+ 
+om/buena-vista-social-club-new-york-new-york-11-27-2026/event/Z1r9uZruZqGZ1
+ 
+AvZ6Ff
+URL:https://www.ticketmaster.com/buena-vista-social-club-new-york-new-york-
+ 
+11-27-2026/event/Z1r9uZruZqGZ1AvZ6Ff
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-4@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:A Christmas Carol at the Merchant's House
+LOCATION:Merchant's House Museum\, Greenwich Village
+DESCRIPTION:Dickens himself (well\, almost) reads his ghost story by candle
+ 
+light in an 1832 Greek Revival parlor — the most atmospheric Carol in tow
+ 
+n. Tickets & info: http://www.nycgovparks.org/events/2026/11/27/a-christmas
+ 
+-carol-at-the-merchants-house
+URL:http://www.nycgovparks.org/events/2026/11/27/a-christmas-carol-at-the-m
+ 
+erchants-house
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-5@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:Aitana
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Spain's pop superstar brings her arena show to Brooklyn Paramou
+ 
+nt for one night — expect a singalong. Tickets & info: https://www.ticket
+ 
+master.com/aitana-brooklyn-new-york-11-27-2026/event/0000644BC2C8B22A
+URL:https://www.ticketmaster.com/aitana-brooklyn-new-york-11-27-2026/event/
+ 
+0000644BC2C8B22A
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-6@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T200000
+DTEND;TZID=America/New_York:20261127T220000
+SUMMARY:Emo Night Karaoke (21+)
+LOCATION:Warsaw\, Greenpoint
+DESCRIPTION:Scream-sing your favorite emo anthems with a room full of peopl
+ 
+e who know every word — 21+ at Warsaw. Tickets & info: https://www.ticket
+ 
+master.com/emo-night-karaoke-21-brooklyn-new-york-11-27-2026/event/00006523
+ 
+BB1558EC
+URL:https://www.ticketmaster.com/emo-night-karaoke-21-brooklyn-new-york-11-
+ 
+27-2026/event/00006523BB1558EC
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-7@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T210000
+DTEND;TZID=America/New_York:20261127T230000
+SUMMARY:Leon & Lewis at Joe’s Pub Nov. 27th!
+LOCATION:Joe's Pub\, Greenwich Village
+DESCRIPTION:Poet Joél Leon and friends take over Joe's Pub for a night of 
+ 
+verse\, music and good company. Tickets & info: https://luma.com/cbfezikx
+URL:https://luma.com/cbfezikx
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-8@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T213000
+DTEND;TZID=America/New_York:20261127T233000
+SUMMARY:Geoffrey Keezer Trio with Yasushi Nakamura and Billy Kilson
+LOCATION:Birdland Theater\, Hell's Kitchen
+DESCRIPTION:Grammy-winning pianist Keezer leads an all-star trio at Birdlan
+ 
+d — straight-ahead jazz from a musician's musician. Tickets & info: https
+ 
+://www.ticketweb.com/event/geoffrey-keezer-trio-with-yasushi-birdland-theat
+ 
+er-tickets/15005603
+URL:https://www.ticketweb.com/event/geoffrey-keezer-trio-with-yasushi-birdl
+ 
+and-theater-tickets/15005603
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-9@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T220000
+DTEND;TZID=America/New_York:20261128T000000
+SUMMARY:Refuge Friday: Patrice Bäumel\, Simon Vuarambon
+LOCATION:Refuge\, East Williamsburg
+DESCRIPTION:Patrice Bäumel headlines the East Williamsburg basement built 
+ 
+for serious dancing — a proper late-night techno session. Tickets & info:
+ 
+ https://www.eventbrite.com/e/refuge-friday-patrice-baumel-simon-vuarambon-
+ 
+tickets-2003559298797
+URL:https://www.eventbrite.com/e/refuge-friday-patrice-baumel-simon-vuaramb
+ 
+on-tickets-2003559298797
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-10@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:Ian Fidance\, Sarah Cooper\, Neko White\, Jake Velazquez
+LOCATION:New York Comedy Club
+DESCRIPTION:A stacked Friday showcase — Ian Fidance\, Sarah Cooper and Ne
+ 
+ko White in one Midtown room. Tickets & info: https://newyorkcomedyclub.com
+ 
+/events/ian-fidance-sarah-cooper-neko-white-jake-velazquez
+URL:https://newyorkcomedyclub.com/events/ian-fidance-sarah-cooper-neko-whit
+ 
+e-jake-velazquez
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-11@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T200000
+DTEND;TZID=America/New_York:20261127T220000
+SUMMARY:Billy Crystal: 860
+LOCATION:Imperial Theatre - NY\, Hell's Kitchen
+DESCRIPTION:Billy Crystal's one-man show '860' — an evening of stories an
+ 
+d laughs from a comedy legend\, back on Broadway. Tickets & info: https://w
+ 
+ww.ticketmaster.com/billy-crystal-860-new-york-new-york-11-27-2026/event/Z1
+ 
+r9uZruZqGZ1AvZa_d
+URL:https://www.ticketmaster.com/billy-crystal-860-new-york-new-york-11-27-
+ 
+2026/event/Z1r9uZruZqGZ1AvZa_d
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-12@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T200000
+DTEND;TZID=America/New_York:20261127T220000
+SUMMARY:Friday Favs: Caitlin Peluffo\, Miss Lissa\, Richie Redding\, Shauna
+ 
+k Godkhindi and Pedro Gonzalez
+LOCATION:West Side Comedy Club\, Upper West Side
+DESCRIPTION:Caitlin Peluffo\, Richie Redding and Pedro Gonzalez headline th
+ 
+e Upper West Side's newest comedy room — dinner and a show\, literally. T
+ 
+ickets & info: https://westsidecomedyclub.com/shows/richie-redding-pedro-go
+ 
+nzalez-caitlin-peluffo-shaunak-godkhindi-and-miss-lissa-9130
+URL:https://westsidecomedyclub.com/shows/richie-redding-pedro-gonzalez-cait
+ 
+lin-peluffo-shaunak-godkhindi-and-miss-lissa-9130
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-13@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T220000
+DTEND;TZID=America/New_York:20261128T000000
+SUMMARY:Live at the Barbershop: Friday Night Stand Up Comedy in New York Ci
+ 
+ty! BYOB
+LOCATION:East Village Stand Up Comedy (Original Barbershop)\, East Village
+DESCRIPTION:Secret lineups and surprise drop-ins inside a real East Village
+ 
+ barbershop — BYOB\, 21+\, and it sells out most weeks. Tickets & info: h
+ 
+ttps://www.eventbrite.com/e/live-at-the-barbershop-friday-night-stand-up-co
+ 
+medy-in-new-york-city-byob-tickets-2003317133474
+URL:https://www.eventbrite.com/e/live-at-the-barbershop-friday-night-stand-
+ 
+up-comedy-in-new-york-city-byob-tickets-2003317133474
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-14@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:New York Knicks vs. Miami Heat
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Knicks host Miami at the Garden on Black Friday — the lou
+ 
+dest room in the city\, with tickets still available. Tickets & info: https
+ 
+://www.ticketmaster.com/new-york-knicks-vs-miami-heat-new-york-new-york-11-
+ 
+27-2026/event/3B006511E922863F
+URL:https://www.ticketmaster.com/new-york-knicks-vs-miami-heat-new-york-new
+ 
+-york-11-27-2026/event/3B006511E922863F
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-15@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:An Evening with Alex O'Connor
+LOCATION:Town Hall\, Midtown-Times Square
+DESCRIPTION:The philosopher and YouTuber takes Town Hall for an evening of 
+ 
+big questions and sharp debate. Tickets & info: https://www.ticketmaster.co
+ 
+m/an-evening-with-alex-oconnor-new-york-new-york-11-27-2026/event/030064FEA
+ 
+A762EEF
+URL:https://www.ticketmaster.com/an-evening-with-alex-oconnor-new-york-new-
+ 
+york-11-27-2026/event/030064FEAA762EEF
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-16@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T170000
+DTEND;TZID=America/New_York:20261127T190000
+SUMMARY:SARAH SOKOL MILLINERY Pop-Up at The Canvas SoHo
+LOCATION:456 W Broadway\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Couture hats worn at the Grammys and the Met Gala — try on th
+ 
+e millinery Vanity Fair calls 'a milliner to the stars.' Tickets & info: ht
+ 
+tps://luma.com/thecanvas-s6n3
+URL:https://luma.com/thecanvas-s6n3
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-17@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:14th
+LOCATION:IFC Center\, Greenwich Village
+DESCRIPTION:Ava DuVernay's new documentary on the constitutional fight that
+ 
+ never ended — opening today at IFC Center. Tickets & info: https://www.i
+ 
+fccenter.com/films/14th/
+URL:https://www.ifccenter.com/films/14th/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-18@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T201000
+DTEND;TZID=America/New_York:20261127T221000
+SUMMARY:Taxi Driver
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Scorsese's fever-dream New York in 4K at Metrograph — De Niro
+ 
+'s Travis Bickle\, back on the big screen where he belongs. Tickets & info:
+ 
+ https://metrograph.com/film/9999000036-taxi-driver/
+URL:https://metrograph.com/film/9999000036-taxi-driver/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-19@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:Shuck Yea! and Oyster Shucking Experience
+LOCATION:Festival Cafe\, Upper East Side-Lenox Hill-Roosevelt Island
+DESCRIPTION:Learn to shuck a dozen oysters with bubbles\, white wine or a m
+ 
+artini in hand — a hands-on\, mildly dangerous date night. Tickets & info
+ 
+: https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-tic
+ 
+kets-1987517309776
+URL:https://www.eventbrite.com/e/shuck-yea-and-oyster-shucking-experience-t
+ 
+ickets-1987517309776
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-20@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:Gather for Good: NYC | Dinner Benefit for Grassroots Grocery
+LOCATION:Restaurant of the Week\, Queensbridge-Ravenswood-Dutch Kills
+DESCRIPTION:Dinner with new friends that puts dinner on a stranger's table 
+ 
+— a benefit for Grassroots Grocery in Queens. Tickets & info: https://www
+ 
+.eventbrite.com/e/gather-for-good-nyc-dinner-benefit-for-grassroots-grocery
+ 
+-tickets-2005020850337
+URL:https://www.eventbrite.com/e/gather-for-good-nyc-dinner-benefit-for-gra
+ 
+ssroots-grocery-tickets-2005020850337
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-21@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T140000
+DTEND;TZID=America/New_York:20261127T160000
+SUMMARY:Hands-On: Cavatelli
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Roll your own cavatelli from scratch at Eataly's La Scuola\, wi
+ 
+th a seasonal menu and wine pairing included. Tickets & info: https://www.e
+ 
+ventbrite.com/e/hands-on-cavatelli-tickets-2002757555762
+URL:https://www.eventbrite.com/e/hands-on-cavatelli-tickets-2002757555762
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-22@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T180000
+DTEND;TZID=America/New_York:20261127T200000
+SUMMARY:Hands-On: Ravioli | Cacio e Pepe
+LOCATION:Eataly NYC Flatiron\, Midtown South-Flatiron-Union Square
+DESCRIPTION:Handmade ravioli with a cacio e pepe filling\, a glass of welco
+ 
+me bubbles\, and your pasta to take home. Tickets & info: https://www.event
+ 
+brite.com/e/hands-on-ravioli-cacio-e-pepe-tickets-2004502545072
+URL:https://www.eventbrite.com/e/hands-on-ravioli-cacio-e-pepe-tickets-2004
+ 
+502545072
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-23@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T140000
+DTEND;TZID=America/New_York:20261127T160000
+SUMMARY:NYC Christmas Movie Locations Walking Tour
+LOCATION:Columbus Circle\, Upper West Side-Lincoln Square
+DESCRIPTION:Walk the real spots from Elf\, Home Alone 2 and Serendipity —
+ 
+ from Columbus Circle to Macy's Herald Square. Tickets & info: https://www.
+ 
+eventbrite.com/e/nyc-christmas-movie-locations-walking-tour-tickets-2005031
+ 
+768995
+URL:https://www.eventbrite.com/e/nyc-christmas-movie-locations-walking-tour
+ 
+-tickets-2005031768995
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-24@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T173000
+DTEND;TZID=America/New_York:20261127T193000
+SUMMARY:Urban Hike & Stories: Hudson Yards\, The Highline & Little Island
+LOCATION:Pier 84 at Hudson River Park\, Hell's Kitchen
+DESCRIPTION:A guided sunset walk from Pier 84 through Hudson Yards and the 
+ 
+High Line to Little Island — tips-based\, meet locals and travelers. Tick
+ 
+ets & info: https://www.eventbrite.com/e/urban-hike-stories-hudson-yards-th
+ 
+e-highline-little-island-tickets-2005072538939
+URL:https://www.eventbrite.com/e/urban-hike-stories-hudson-yards-the-highli
+ 
+ne-little-island-tickets-2005072538939
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-25@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T120000
+DTEND;TZID=America/New_York:20261127T140000
+SUMMARY:Urban Park Rangers | Post-Thanksgiving Day Super Hike
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Work off yesterday's feast with the Urban Park Rangers on a fre
+ 
+e guided scramble through autumnal Prospect Park. Tickets & info: https://w
+ 
+ww.prospectpark.org/event/urban-park-rangers-post-thanksgiving-day-super-hi
+ 
+ke/
+URL:https://www.prospectpark.org/event/urban-park-rangers-post-thanksgiving
+ 
+-day-super-hike/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-26@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T120000
+DTEND;TZID=America/New_York:20261127T140000
+SUMMARY:2026 Holiday Market at The Hub: Thanksgiving Weekend
+LOCATION:Welcome to Chinatown\, Chinatown-Two Bridges
+DESCRIPTION:Welcome to Chinatown's holiday market — AAPI makers\, ceramic
+ 
+s\, prints and snacks for everyone on your list. Tickets & info: https://lu
+ 
+ma.com/cm164w8p
+URL:https://luma.com/cm164w8p
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-27@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T180000
+DTEND;TZID=America/New_York:20261127T200000
+SUMMARY:Brooklyn Book Club: Read your book and then meet some people! BYO B
+ 
+ook!
+LOCATION:The Tiny Cupboard\, Bushwick (East)
+DESCRIPTION:Bring your own book\, read a little\, talk a lot — a low-key 
+ 
+Friday at Bushwick's board-game bar. Tickets & info: https://www.eventbrite
+ 
+.com/e/brooklyn-book-club-read-your-book-and-then-meet-some-people-byo-book
+ 
+-tickets-1996345144066
+URL:https://www.eventbrite.com/e/brooklyn-book-club-read-your-book-and-then
+ 
+-meet-some-people-byo-book-tickets-1996345144066
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261127-28@concierge
+DTSTAMP:20261127T130958Z
+DTSTART;TZID=America/New_York:20261127T183000
+DTEND;TZID=America/New_York:20261127T203000
+SUMMARY:Game Night Social
+LOCATION:Sour Mouse\, Lower East Side
+DESCRIPTION:Free ping pong and pool\, a DJ\, and a free drink for ladies be
+ 
+fore 7 — a singles-friendly game night on the LES. Tickets & info: https:
+ 
+//www.eventbrite.com/e/game-night-social-tickets-2004131787125
+URL:https://www.eventbrite.com/e/game-night-social-tickets-2004131787125
+END:VEVENT
+END:VCALENDAR
