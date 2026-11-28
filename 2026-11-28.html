@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Today — Saturday, November 28</title>
+<style>
+:root{--ink:#14201A;--gold:#E39A2D;--paper:#F7F2E9;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+.hero{background:var(--ink);color:var(--paper);text-align:center;padding:44px 24px 36px;}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;}
+.hero h1{font-family:Georgia, 'Times New Roman', serif;font-size:44px;margin:12px 0 8px;font-weight:normal;}
+.hero p{opacity:.72;font-size:14px;margin:0;}
+.toolbar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:20px 20px 4px;}
+.btn{display:inline-block;border:none;cursor:pointer;padding:11px 24px;border-radius:999px;font-size:14px;font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;text-decoration:none;}
+.btn-dark{background:var(--ink);color:var(--paper);}
+.btn-gold{background:var(--gold);color:var(--ink);font-weight:bold;}
+.picks{max-width:640px;margin:14px auto 0;padding:14px 20px;text-align:center;font-size:14px;}
+.picks strong{font-family:Georgia, 'Times New Roman', serif;font-size:18px;}
+.wrap{max-width:680px;margin:0 auto;padding:8px 20px 60px;}
+.cat h2{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid #d8d2c2;padding:26px 0 10px;margin:0 0 4px;}
+.event{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid #e7e1d2;scroll-margin-top:20px;}
+.toggle{background:none;border:none;cursor:pointer;padding:2px 0;align-self:flex-start;}
+.box{display:inline-block;width:22px;height:22px;border:2px solid var(--gold);border-radius:7px;background:#fff;position:relative;transition:background .15s;}
+.toggle[aria-pressed="true"] .box{background:var(--gold);}
+.toggle[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(42deg);}
+.event-body{flex:1;}
+.event-body h3{font-family:Georgia, 'Times New Roman', serif;font-size:20px;margin:0 0 4px;}
+.event-body h3 a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;}
+.meta{font-size:13px;color:#6b6b6b;margin-bottom:8px;}
+.event-body p{font-size:14.5px;line-height:1.55;color:#333;margin:0 0 10px;}
+.tickets{display:inline-block;background:var(--ink);color:var(--paper);padding:8px 20px;border-radius:999px;text-decoration:none;font-size:13px;}
+footer{background:var(--ink);color:var(--paper);text-align:center;padding:34px 24px;font-size:13px;}
+footer .serif{font-family:Georgia, 'Times New Roman', serif;font-size:17px;margin-bottom:8px;}
+footer p{opacity:.62;line-height:1.6;margin:0;}
+</style></head>
+<body>
+<header class="hero">
+<div class="eyebrow">Saturday, November 28</div>
+<h1>NYC Today</h1>
+<p>Hand-picked things to do, all happening today. Tap the boxes to track your picks.</p>
+</header>
+<div class="toolbar">
+<button class="btn btn-dark" id="shareBtn">Share →</button>
+<a class="btn btn-gold" href="https://psesh5.github.io/nyc-today/2026-11-28.ics" download>📥 Download .ics</a>
+</div>
+<div class="picks" id="picksBar"><strong>My picks: <span id="pickCount">0</span></strong><br>
+<span style="font-size:13px;color:#6b6b6b;">Tap the boxes above, then send your picks — it shapes tomorrow's recommendations.</span><br><br>
+<button class="btn btn-dark" id="sendBtn">Send my picks to Cosmo →</button>
+</div>
+<main class="wrap">
+
+<section class="cat">
+<h2>Music</h2>
+
+<article class="event" id="event-0" data-name="JOHN SUMMIT - CTRL ESCAPE ARENA TOUR">
+<button class="toggle" data-idx="0" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-28-2026/event/300064B2D1E05179">JOHN SUMMIT - CTRL ESCAPE ARENA TOUR</a></h3>
+<div class="meta">7:00 PM · Barclays Center, Park Slope</div>
+<p>John Summit brings his CTRL ESCAPE arena tour to Barclays for a huge Saturday night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-28-2026/event/300064B2D1E05179">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-1" data-name="TYLA - THE A*POP WORLD TOUR">
+<button class="toggle" data-idx="1" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B">TYLA - THE A*POP WORLD TOUR</a></h3>
+<div class="meta">8:00 PM · Brooklyn Paramount, Fort Greene</div>
+<p>Tyla&#x27;s A*POP world tour lands in Fort Greene — pop, amapiano, and a room that will be loud.</p>
+<a class="tickets" href="https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-2" data-name="Chief Adjuah">
+<button class="toggle" data-idx="2" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032713">Chief Adjuah</a></h3>
+<div class="meta">8:00 PM · Blue Note Jazz Club, Greenwich Village · $38.24</div>
+<p>Chief Adjuah&#x27;s trumpet-led jazz at the Blue Note — a late-set masterclass in the Village.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-tickets/15032713">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-3" data-name="Sean Yox — Britspective: Britpop and Beyond">
+<button class="toggle" data-idx="3" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/sean-yox-britspective-britpop-berlin-tickets/15058763">Sean Yox — Britspective: Britpop and Beyond</a></h3>
+<div class="meta">7:30 PM · Berlin, East Village · $20.07</div>
+<p>A Britpop-and-beyond DJ night at Berlin — Oasis to Blur to whatever comes next, cheap and loud.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/sean-yox-britspective-britpop-berlin-tickets/15058763">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Theater</h2>
+
+<article class="event" id="event-4" data-name="George Balanchine&#x27;s The Nutcracker">
+<button class="toggle" data-idx="4" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.tickpick.com/buy-george-balanchines-the-nutcracker-tickets-david-h-koch-theater-11-28-26-2pm/8149226/?c=THEATRE&amp;cc=BALLET">George Balanchine&#x27;s The Nutcracker</a></h3>
+<div class="meta">2:00 PM · David H. Koch Theater, Upper West Side-Lincoln Square</div>
+<p>The Nutcracker, the definitive New York holiday matinee, at Lincoln Center.</p>
+<a class="tickets" href="https://www.tickpick.com/buy-george-balanchines-the-nutcracker-tickets-david-h-koch-theater-11-28-26-2pm/8149226/?c=THEATRE&amp;cc=BALLET">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-5" data-name="Inter Alia">
+<button class="toggle" data-idx="5" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/inter-alia-new-york-new-york-11-28-2026/event/Z1r9uZruZqGZ1AvZkjO">Inter Alia</a></h3>
+<div class="meta">1:00 PM · Music Box Theatre-NY, Hell&#x27;s Kitchen</div>
+<p>Rosamund Pike stars in Inter Alia, a new play about a woman whose life unravels in public.</p>
+<a class="tickets" href="https://www.ticketmaster.com/inter-alia-new-york-new-york-11-28-2026/event/Z1r9uZruZqGZ1AvZkjO">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-6" data-name="Schmigadoon!">
+<button class="toggle" data-idx="6" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-28-2026/event/Z1r9uZrrZbpZ1Ae7AOa">Schmigadoon!</a></h3>
+<div class="meta">2:00 PM · Nederlander Theatre, Midtown-Times Square</div>
+<p>Schmigadoon! jumps from TV to the stage — a musical-theater spoof that loves what it mocks.</p>
+<a class="tickets" href="https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-28-2026/event/Z1r9uZrrZbpZ1Ae7AOa">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Comedy</h2>
+
+<article class="event" id="event-7" data-name="Todd Barry, Mike Britt, Erin Maguire, Terry Thomas Jr.">
+<button class="toggle" data-idx="7" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://newyorkcomedyclub.com/events/todd-barry-mike-britt-erin-maguire-terry-thomas-jr">Todd Barry, Mike Britt, Erin Maguire, Terry Thomas Jr.</a></h3>
+<div class="meta">8:00 PM · New York Comedy Club on 4th Street · $45</div>
+<p>Todd Barry headlines a stacked four-comic bill at the 4th Street room.</p>
+<a class="tickets" href="https://newyorkcomedyclub.com/events/todd-barry-mike-britt-erin-maguire-terry-thomas-jr">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-8" data-name="Naansense with Raj Suresh &amp; Zahid Dewji ft. Nataly Aukar, Kaneez Surka, Shafi Hossain, Adam Mamawala, Danish Maqbool, and Anant Kumar">
+<button class="toggle" data-idx="8" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketweb.com/event/naansense-with-raj-suresh-brooklyn-improv-the-main-room-tickets/14447204">Naansense with Raj Suresh &amp; Zahid Dewji ft. Nataly Aukar, Kaneez Surka, Shafi Hossain, Adam Mamawala, Danish Maqbool, and Anant Kumar</a></h3>
+<div class="meta">7:00 PM · Brooklyn Improv (The Main Room), Williamsburg · $33.36</div>
+<p>Naansense: South Asian comedy with Raj Suresh, Zahid Dewji, Nataly Aukar and Kaneez Surka.</p>
+<a class="tickets" href="https://www.ticketweb.com/event/naansense-with-raj-suresh-brooklyn-improv-the-main-room-tickets/14447204">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-9" data-name="Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Judy Gold, Jeff Bailey, Keith Robinson &amp; more">
+<button class="toggle" data-idx="9" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.comedycellar.com/reservations-newyork/?showid=1795898700">Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Judy Gold, Jeff Bailey, Keith Robinson &amp; more</a></h3>
+<div class="meta">8:45 PM · Comedy Cellar (MacDougal Street), Greenwich Village · 25</div>
+<p>Judy Gold and Jon Laster on the MacDougal Street bill — the Cellar at its classic best.</p>
+<a class="tickets" href="https://www.comedycellar.com/reservations-newyork/?showid=1795898700">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Film</h2>
+
+<article class="event" id="event-10" data-name="Rashomon">
+<button class="toggle" data-idx="10" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://metrograph.com/film/9999000358-rashomon/">Rashomon</a></h3>
+<div class="meta">11:00 AM · Metrograph, Chinatown-Two Bridges</div>
+<p>Kurosawa&#x27;s Rashomon on the big screen at Metrograph, a Saturday-morning masterclass.</p>
+<a class="tickets" href="https://metrograph.com/film/9999000358-rashomon/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-11" data-name="The Last Waltz">
+<button class="toggle" data-idx="11" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://nitehawkcinema.com/prospectpark/movies/the-last-waltz/">The Last Waltz</a></h3>
+<div class="meta">11:00 AM · Nitehawk Cinema Prospect Park, Prospect Park · $9</div>
+<p>The Band&#x27;s farewell concert film, The Last Waltz, in a Prospect Park screening.</p>
+<a class="tickets" href="https://nitehawkcinema.com/prospectpark/movies/the-last-waltz/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-12" data-name="Raise The Red Lantern">
+<button class="toggle" data-idx="12" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://filmforum.org/film/raise-the-red-lantern">Raise The Red Lantern</a></h3>
+<div class="meta">6:50 PM · Film Forum, SoHo-Little Italy-Hudson Square</div>
+<p>Zhang Yimou&#x27;s Raise the Red Lantern at Film Forum — lush, devastating, essential.</p>
+<a class="tickets" href="https://filmforum.org/film/raise-the-red-lantern">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Arts &amp; Play</h2>
+
+<article class="event" id="event-13" data-name="Winter Lantern Festival">
+<button class="toggle" data-idx="13" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/28/winter-lantern-festival">Winter Lantern Festival</a></h3>
+<div class="meta">5:00 PM · Snug Harbor, Snug Harbor · Free</div>
+<p>A glowing lantern trail through Snug Harbor&#x27;s gardens, free all evening.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/28/winter-lantern-festival">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-14" data-name="DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry">
+<button class="toggle" data-idx="14" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry</a></h3>
+<div class="meta">10:00 AM · Balloon Museum NYC, Financial District-Battery Park City</div>
+<p>Walk through a world of inflatable art at the Balloon Museum&#x27;s DAYDREAM show.</p>
+<a class="tickets" href="https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-15" data-name="10th Annual Holiday Market Experience with I AM CARIBBEING!">
+<button class="toggle" data-idx="15" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/10th-annual-holiday-market-experience-with-i-am-caribbeing-tickets-2003826843029">10th Annual Holiday Market Experience with I AM CARIBBEING!</a></h3>
+<div class="meta">12:00 PM · I AM CARIBBEING HQ, East Flatbush-Erasmus</div>
+<p>Caribbean makers, food, and holiday shopping at I AM CARIBBEING&#x27;s 10th annual market.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/10th-annual-holiday-market-experience-with-i-am-caribbeing-tickets-2003826843029">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-16" data-name="Union Square Holiday Market">
+<button class="toggle" data-idx="16" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://secretnyc.co/urbanspace-union-square-holiday-market-2026/">Union Square Holiday Market</a></h3>
+<div class="meta">10:00 AM · Union Square Park, Union Square · Free</div>
+<p>Nearly 200 local vendors take over Union Square Park — the city&#x27;s classic holiday market, free to browse.</p>
+<a class="tickets" href="https://secretnyc.co/urbanspace-union-square-holiday-market-2026/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-17" data-name="Grand Central Holiday Fair">
+<button class="toggle" data-idx="17" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.mta.info/press-release/all-aboard-holidays-grand-central-terminals-annual-holiday-fair-returns">Grand Central Holiday Fair</a></h3>
+<div class="meta">10:00 AM · Vanderbilt Hall, Grand Central Terminal, Midtown East · Free</div>
+<p>The longest-running indoor holiday market in the city, 35+ artisans under Vanderbilt Hall&#x27;s chandeliers.</p>
+<a class="tickets" href="https://www.mta.info/press-release/all-aboard-holidays-grand-central-terminals-annual-holiday-fair-returns">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Food &amp; Drink</h2>
+
+<article class="event" id="event-18" data-name="Greenmarket at Grand Army Plaza">
+<button class="toggle" data-idx="18" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-11-28/">Greenmarket at Grand Army Plaza</a></h3>
+<div class="meta">8:00 AM · Prospect Park, Prospect Park · Free</div>
+<p>Saturday-morning market at Grand Army Plaza — the city&#x27;s best produce run.</p>
+<a class="tickets" href="https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/2026-11-28/">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-19" data-name="Tour of Europe Cheese &amp; Wine Tasting">
+<button class="toggle" data-idx="19" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/tour-of-europe-cheese-wine-tasting-tickets-1998260574169">Tour of Europe Cheese &amp; Wine Tasting</a></h3>
+<div class="meta">5:30 PM · Murray&#x27;s Cheese Shop, West Village</div>
+<p>A guided cheese-and-wine tour of Europe without leaving Bleecker Street.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/tour-of-europe-cheese-wine-tasting-tickets-1998260574169">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Fitness &amp; Outdoors</h2>
+
+<article class="event" id="event-20" data-name="Ice Skating">
+<button class="toggle" data-idx="20" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-28">Ice Skating</a></h3>
+<div class="meta">8:00 AM · Bryant Park, Midtown-Times Square · Free</div>
+<p>Free ice skating in the middle of the Winter Village — the city&#x27;s most cheerful rink.</p>
+<a class="tickets" href="https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-28">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-21" data-name="Gratitude Weekend">
+<button class="toggle" data-idx="21" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="http://www.nycgovparks.org/events/2026/11/28/gratitude-weekend">Gratitude Weekend</a></h3>
+<div class="meta">10:00 AM · Wave Hill, Riverdale-Spuyten Duyvil · Free</div>
+<p>Wave Hill&#x27;s Gratitude Weekend: gardens, galleries, and a slow Bronx morning, free.</p>
+<a class="tickets" href="http://www.nycgovparks.org/events/2026/11/28/gratitude-weekend">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Tours</h2>
+
+<article class="event" id="event-22" data-name="Discover Green-Wood Trolley Tour">
+<button class="toggle" data-idx="22" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/discover-green-wood-trolley-tour-tickets-1980161830339">Discover Green-Wood Trolley Tour</a></h3>
+<div class="meta">1:00 PM · Green-Wood Cemetery, Green-Wood Cemetery</div>
+<p>A trolley ride through Green-Wood&#x27;s hills, monuments, and 500 years of history.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/discover-green-wood-trolley-tour-tickets-1980161830339">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-23" data-name="NYC: Dyker Heights Luxury Holiday Lights Tour &amp; Hot Cocoa">
+<button class="toggle" data-idx="23" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/nyc-dyker-heights-luxury-holiday-lights-tour-hot-cocoa-tickets-1981507132173">NYC: Dyker Heights Luxury Holiday Lights Tour &amp; Hot Cocoa</a></h3>
+<div class="meta">4:30 PM · 211 W 43rd St, Midtown-Times Square</div>
+<p>Dyker Heights&#x27; famous holiday lights by tour, with hot cocoa to keep you warm.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/nyc-dyker-heights-luxury-holiday-lights-tour-hot-cocoa-tickets-1981507132173">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Classes &amp; Workshops</h2>
+
+<article class="event" id="event-24" data-name="Wreath Workshop with Sam Lewis">
+<button class="toggle" data-idx="24" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/wreath-workshop-with-sam-lewis-tickets-2003551454334">Wreath Workshop with Sam Lewis</a></h3>
+<div class="meta">11:00 AM · Old Stone House of Brooklyn, Park Slope</div>
+<p>Make your own holiday wreath at the Old Stone House in Park Slope.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/wreath-workshop-with-sam-lewis-tickets-2003551454334">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-25" data-name="Friendsgiving Cocktail Class at Tipsy Scoop">
+<button class="toggle" data-idx="25" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/friendsgiving-cocktail-class-at-tipsy-scoop-tickets-2001697283459">Friendsgiving Cocktail Class at Tipsy Scoop</a></h3>
+<div class="meta">3:30 PM · tipsy scoop, Astoria (North)-Ditmars-Steinway</div>
+<p>A Friendsgiving cocktail class with boozy ice cream in Astoria.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/friendsgiving-cocktail-class-at-tipsy-scoop-tickets-2001697283459">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Meetups &amp; Mixers</h2>
+
+<article class="event" id="event-26" data-name="NYC Desi Creative Meet-up">
+<button class="toggle" data-idx="26" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://luma.com/7xe27x99">NYC Desi Creative Meet-up</a></h3>
+<div class="meta">2:00 PM · Manhattan, Upper West Side (Central) · Free</div>
+<p>NYC&#x27;s Desi creatives gather for an afternoon meet-up in Manhattan.</p>
+<a class="tickets" href="https://luma.com/7xe27x99">Tickets &amp; info →</a>
+</div>
+</article>
+<article class="event" id="event-27" data-name="Garbage Day - Worst Things On The Internet 2026">
+<button class="toggle" data-idx="27" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/garbage-day-worst-things-on-the-internet-2026-tickets-2004130249526">Garbage Day - Worst Things On The Internet 2026</a></h3>
+<div class="meta">7:00 PM · Caveat, Lower East Side</div>
+<p>Garbage Day live: the internet&#x27;s worst of 2026, ranked and roasted at Caveat.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/garbage-day-worst-things-on-the-internet-2026-tickets-2004130249526">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Sports</h2>
+
+<article class="event" id="event-28" data-name="New York Rangers vs. Calgary Flames">
+<button class="toggle" data-idx="28" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.ticketmaster.com/new-york-rangers-vs-calgary-flames-new-york-new-york-11-28-2026/event/3B0064F1B1DD445D">New York Rangers vs. Calgary Flames</a></h3>
+<div class="meta">7:00 PM · Madison Square Garden, Midtown South-Flatiron-Union Square</div>
+<p>The Rangers host Calgary at the Garden on a Saturday night.</p>
+<a class="tickets" href="https://www.ticketmaster.com/new-york-rangers-vs-calgary-flames-new-york-new-york-11-28-2026/event/3B0064F1B1DD445D">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+<section class="cat">
+<h2>Talks</h2>
+
+<article class="event" id="event-29" data-name="Sankofa Salon">
+<button class="toggle" data-idx="29" aria-label="Track this event" aria-pressed="false"><span class="box"></span></button>
+<div class="event-body">
+<h3><a href="https://www.eventbrite.com/e/sankofa-salon-tickets-2004455313802">Sankofa Salon</a></h3>
+<div class="meta">6:00 PM · Same Time Tomorrow, Harlem (South)</div>
+<p>Sankofa Salon: an evening of Black art, conversation, and community in Harlem.</p>
+<a class="tickets" href="https://www.eventbrite.com/e/sankofa-salon-tickets-2004455313802">Tickets &amp; info →</a>
+</div>
+</article>
+</section>
+</main>
+<footer>
+<div class="serif">Hand-picked for you by your NYC concierge.</div>
+<p>Your picks are tracked when you send them —<br>tomorrow's digest learns what you love.</p>
+</footer>
+<script>
+const DATE = "2026-11-28";
+const NAMES = ["JOHN SUMMIT - CTRL ESCAPE ARENA TOUR", "TYLA - THE A*POP WORLD TOUR", "Chief Adjuah", "Sean Yox \u2014 Britspective: Britpop and Beyond", "George Balanchine's The Nutcracker", "Inter Alia", "Schmigadoon!", "Todd Barry, Mike Britt, Erin Maguire, Terry Thomas Jr.", "Naansense with Raj Suresh & Zahid Dewji ft. Nataly Aukar, Kaneez Surka, Shafi Hossain, Adam Mamawala, Danish Maqbool, and Anant Kumar", "Stand-up at Comedy Cellar (MacDougal Street): Jon Laster, Judy Gold, Jeff Bailey, Keith Robinson & more", "Rashomon", "The Last Waltz", "Raise The Red Lantern", "Winter Lantern Festival", "DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry", "10th Annual Holiday Market Experience with I AM CARIBBEING!", "Union Square Holiday Market", "Grand Central Holiday Fair", "Greenmarket at Grand Army Plaza", "Tour of Europe Cheese & Wine Tasting", "Ice Skating", "Gratitude Weekend", "Discover Green-Wood Trolley Tour", "NYC: Dyker Heights Luxury Holiday Lights Tour & Hot Cocoa", "Wreath Workshop with Sam Lewis", "Friendsgiving Cocktail Class at Tipsy Scoop", "NYC Desi Creative Meet-up", "Garbage Day - Worst Things On The Internet 2026", "New York Rangers vs. Calgary Flames", "Sankofa Salon"];
+const KEY = "nyc-picks-" + DATE;
+let picks = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+function render() {
+  document.querySelectorAll(".toggle").forEach(btn => {
+    const on = picks.has(btn.dataset.idx);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.getElementById("pickCount").textContent = picks.size;
+  localStorage.setItem(KEY, JSON.stringify([...picks]));
+}
+document.querySelectorAll(".toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.idx;
+    picks.has(id) ? picks.delete(id) : picks.add(id);
+    render();
+  });
+});
+document.getElementById("shareBtn").addEventListener("click", async () => {
+  const data = {title: document.title, text: "Today's NYC picks", url: location.href};
+  if (navigator.share) { try { await navigator.share(data); } catch(e) {} }
+  else { await navigator.clipboard.writeText(location.href); alert("Link copied — paste it anywhere to share."); }
+});
+document.getElementById("sendBtn").addEventListener("click", () => {
+  if (!picks.size) { alert("Tap a few boxes first, then send your picks."); return; }
+  const list = [...picks].sort().map(i => "• " + NAMES[+i]).join("\n");
+  const subject = encodeURIComponent("Re: NYC today — my picks");
+  const body = encodeURIComponent("My picks for " + DATE + ":\n\n" + list + "\n\n— sent from my NYC Today page");
+  location.href = "mailto:pseshadri91@gmail.com?subject=" + subject + "&body=" + body;
+});
+render();
+</script>
+</body></html>

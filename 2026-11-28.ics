@@ -1,0 +1,477 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Concierge//Daily Digest//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nyc-20261128-0@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T190000
+DTEND;TZID=America/New_York:20261128T210000
+SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
+LOCATION:Barclays Center\, Park Slope
+DESCRIPTION:John Summit brings his CTRL ESCAPE arena tour to Barclays for a
+ 
+ huge Saturday night. Tickets & info: https://www.ticketmaster.com/john-sum
+ 
+mit-ctrl-escape-arena-tour-brooklyn-new-york-11-28-2026/event/300064B2D1E05
+ 
+179
+URL:https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brookly
+ 
+n-new-york-11-28-2026/event/300064B2D1E05179
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-1@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T200000
+DTEND;TZID=America/New_York:20261128T220000
+SUMMARY:TYLA - THE A*POP WORLD TOUR
+LOCATION:Brooklyn Paramount\, Fort Greene
+DESCRIPTION:Tyla's A*POP world tour lands in Fort Greene — pop\, amapiano
+ 
+\, and a room that will be loud. Tickets & info: https://www.ticketmaster.c
+ 
+om/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC68
+ 
+6C8B
+URL:https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york
+ 
+-11-28-2026/event/000064F8AC686C8B
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-2@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T200000
+DTEND;TZID=America/New_York:20261128T220000
+SUMMARY:Chief Adjuah
+LOCATION:Blue Note Jazz Club\, Greenwich Village
+DESCRIPTION:Chief Adjuah's trumpet-led jazz at the Blue Note — a late-set
+ 
+ masterclass in the Village. Tickets & info: https://www.ticketweb.com/even
+ 
+t/chief-adjuah-blue-note-jazz-club-tickets/15032713
+URL:https://www.ticketweb.com/event/chief-adjuah-blue-note-jazz-club-ticket
+ 
+s/15032713
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-3@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T193000
+DTEND;TZID=America/New_York:20261128T213000
+SUMMARY:Sean Yox — Britspective: Britpop and Beyond
+LOCATION:Berlin\, East Village
+DESCRIPTION:A Britpop-and-beyond DJ night at Berlin — Oasis to Blur to wh
+ 
+atever comes next\, cheap and loud. Tickets & info: https://www.ticketweb.c
+ 
+om/event/sean-yox-britspective-britpop-berlin-tickets/15058763
+URL:https://www.ticketweb.com/event/sean-yox-britspective-britpop-berlin-ti
+ 
+ckets/15058763
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-4@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T140000
+DTEND;TZID=America/New_York:20261128T160000
+SUMMARY:George Balanchine's The Nutcracker
+LOCATION:David H. Koch Theater\, Upper West Side-Lincoln Square
+DESCRIPTION:The Nutcracker\, the definitive New York holiday matinee\, at L
+ 
+incoln Center. Tickets & info: https://www.tickpick.com/buy-george-balanchi
+ 
+nes-the-nutcracker-tickets-david-h-koch-theater-11-28-26-2pm/8149226/?c=THE
+ 
+ATRE&cc=BALLET
+URL:https://www.tickpick.com/buy-george-balanchines-the-nutcracker-tickets-
+ 
+david-h-koch-theater-11-28-26-2pm/8149226/?c=THEATRE&cc=BALLET
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-5@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T130000
+DTEND;TZID=America/New_York:20261128T150000
+SUMMARY:Inter Alia
+LOCATION:Music Box Theatre-NY\, Hell's Kitchen
+DESCRIPTION:Rosamund Pike stars in Inter Alia\, a new play about a woman wh
+ 
+ose life unravels in public. Tickets & info: https://www.ticketmaster.com/i
+ 
+nter-alia-new-york-new-york-11-28-2026/event/Z1r9uZruZqGZ1AvZkjO
+URL:https://www.ticketmaster.com/inter-alia-new-york-new-york-11-28-2026/ev
+ 
+ent/Z1r9uZruZqGZ1AvZkjO
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-6@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T140000
+DTEND;TZID=America/New_York:20261128T160000
+SUMMARY:Schmigadoon!
+LOCATION:Nederlander Theatre\, Midtown-Times Square
+DESCRIPTION:Schmigadoon! jumps from TV to the stage — a musical-theater s
+ 
+poof that loves what it mocks. Tickets & info: https://www.ticketmaster.com
+ 
+/schmigadoon-new-york-new-york-11-28-2026/event/Z1r9uZrrZbpZ1Ae7AOa
+URL:https://www.ticketmaster.com/schmigadoon-new-york-new-york-11-28-2026/e
+ 
+vent/Z1r9uZrrZbpZ1Ae7AOa
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-7@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T200000
+DTEND;TZID=America/New_York:20261128T220000
+SUMMARY:Todd Barry\, Mike Britt\, Erin Maguire\, Terry Thomas Jr.
+LOCATION:New York Comedy Club on 4th Street
+DESCRIPTION:Todd Barry headlines a stacked four-comic bill at the 4th Stree
+ 
+t room. Tickets & info: https://newyorkcomedyclub.com/events/todd-barry-mik
+ 
+e-britt-erin-maguire-terry-thomas-jr
+URL:https://newyorkcomedyclub.com/events/todd-barry-mike-britt-erin-maguire
+ 
+-terry-thomas-jr
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-8@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T190000
+DTEND;TZID=America/New_York:20261128T210000
+SUMMARY:Naansense with Raj Suresh & Zahid Dewji ft. Nataly Aukar\, Kaneez S
+ 
+urka\, Shafi Hossain\, Adam Mamawala\, Danish Maqbool\, and Anant Kumar
+LOCATION:Brooklyn Improv (The Main Room)\, Williamsburg
+DESCRIPTION:Naansense: South Asian comedy with Raj Suresh\, Zahid Dewji\, N
+ 
+ataly Aukar and Kaneez Surka. Tickets & info: https://www.ticketweb.com/eve
+ 
+nt/naansense-with-raj-suresh-brooklyn-improv-the-main-room-tickets/14447204
+URL:https://www.ticketweb.com/event/naansense-with-raj-suresh-brooklyn-impr
+ 
+ov-the-main-room-tickets/14447204
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-9@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T204500
+DTEND;TZID=America/New_York:20261128T224500
+SUMMARY:Stand-up at Comedy Cellar (MacDougal Street): Jon Laster\, Judy Gol
+ 
+d\, Jeff Bailey\, Keith Robinson & more
+LOCATION:Comedy Cellar (MacDougal Street)\, Greenwich Village
+DESCRIPTION:Judy Gold and Jon Laster on the MacDougal Street bill — the C
+ 
+ellar at its classic best. Tickets & info: https://www.comedycellar.com/res
+ 
+ervations-newyork/?showid=1795898700
+URL:https://www.comedycellar.com/reservations-newyork/?showid=1795898700
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-10@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T110000
+DTEND;TZID=America/New_York:20261128T130000
+SUMMARY:Rashomon
+LOCATION:Metrograph\, Chinatown-Two Bridges
+DESCRIPTION:Kurosawa's Rashomon on the big screen at Metrograph\, a Saturda
+ 
+y-morning masterclass. Tickets & info: https://metrograph.com/film/99990003
+ 
+58-rashomon/
+URL:https://metrograph.com/film/9999000358-rashomon/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-11@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T110000
+DTEND;TZID=America/New_York:20261128T130000
+SUMMARY:The Last Waltz
+LOCATION:Nitehawk Cinema Prospect Park\, Prospect Park
+DESCRIPTION:The Band's farewell concert film\, The Last Waltz\, in a Prospe
+ 
+ct Park screening. Tickets & info: https://nitehawkcinema.com/prospectpark/
+ 
+movies/the-last-waltz/
+URL:https://nitehawkcinema.com/prospectpark/movies/the-last-waltz/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-12@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T185000
+DTEND;TZID=America/New_York:20261128T205000
+SUMMARY:Raise The Red Lantern
+LOCATION:Film Forum\, SoHo-Little Italy-Hudson Square
+DESCRIPTION:Zhang Yimou's Raise the Red Lantern at Film Forum — lush\, de
+ 
+vastating\, essential. Tickets & info: https://filmforum.org/film/raise-the
+ 
+-red-lantern
+URL:https://filmforum.org/film/raise-the-red-lantern
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-13@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T170000
+DTEND;TZID=America/New_York:20261128T190000
+SUMMARY:Winter Lantern Festival
+LOCATION:Snug Harbor\, Snug Harbor
+DESCRIPTION:A glowing lantern trail through Snug Harbor's gardens\, free al
+ 
+l evening. Tickets & info: http://www.nycgovparks.org/events/2026/11/28/win
+ 
+ter-lantern-festival
+URL:http://www.nycgovparks.org/events/2026/11/28/winter-lantern-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-14@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T100000
+DTEND;TZID=America/New_York:20261128T120000
+SUMMARY:DAYDREAM | Air Becomes Art - Balloon Museum - Flexible Entry
+LOCATION:Balloon Museum NYC\, Financial District-Battery Park City
+DESCRIPTION:Walk through a world of inflatable art at the Balloon Museum's 
+ 
+DAYDREAM show. Tickets & info: https://www.universe.com/events/daydream-air
+ 
+-becomes-art-balloon-museum-flexible-entry-tickets-XV56PW?ref=ticketmaster
+URL:https://www.universe.com/events/daydream-air-becomes-art-balloon-museum
+ 
+-flexible-entry-tickets-XV56PW?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-15@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T120000
+DTEND;TZID=America/New_York:20261128T140000
+SUMMARY:10th Annual Holiday Market Experience with I AM CARIBBEING!
+LOCATION:I AM CARIBBEING HQ\, East Flatbush-Erasmus
+DESCRIPTION:Caribbean makers\, food\, and holiday shopping at I AM CARIBBEI
+ 
+NG's 10th annual market. Tickets & info: https://www.eventbrite.com/e/10th-
+ 
+annual-holiday-market-experience-with-i-am-caribbeing-tickets-2003826843029
+URL:https://www.eventbrite.com/e/10th-annual-holiday-market-experience-with
+ 
+-i-am-caribbeing-tickets-2003826843029
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-16@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T100000
+DTEND;TZID=America/New_York:20261128T120000
+SUMMARY:Union Square Holiday Market
+LOCATION:Union Square Park\, Union Square
+DESCRIPTION:Nearly 200 local vendors take over Union Square Park — the ci
+ 
+ty's classic holiday market\, free to browse. Tickets & info: https://secre
+ 
+tnyc.co/urbanspace-union-square-holiday-market-2026/
+URL:https://secretnyc.co/urbanspace-union-square-holiday-market-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-17@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T100000
+DTEND;TZID=America/New_York:20261128T120000
+SUMMARY:Grand Central Holiday Fair
+LOCATION:Vanderbilt Hall\, Grand Central Terminal\, Midtown East
+DESCRIPTION:The longest-running indoor holiday market in the city\, 35+ art
+ 
+isans under Vanderbilt Hall's chandeliers. Tickets & info: https://www.mta.
+ 
+info/press-release/all-aboard-holidays-grand-central-terminals-annual-holid
+ 
+ay-fair-returns
+URL:https://www.mta.info/press-release/all-aboard-holidays-grand-central-te
+ 
+rminals-annual-holiday-fair-returns
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-18@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T080000
+DTEND;TZID=America/New_York:20261128T100000
+SUMMARY:Greenmarket at Grand Army Plaza
+LOCATION:Prospect Park\, Prospect Park
+DESCRIPTION:Saturday-morning market at Grand Army Plaza — the city's best
+ 
+ produce run. Tickets & info: https://www.prospectpark.org/event/greenmarke
+ 
+t-at-grand-army-plaza-2/2026-11-28/
+URL:https://www.prospectpark.org/event/greenmarket-at-grand-army-plaza-2/20
+ 
+26-11-28/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-19@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T173000
+DTEND;TZID=America/New_York:20261128T193000
+SUMMARY:Tour of Europe Cheese & Wine Tasting
+LOCATION:Murray's Cheese Shop\, West Village
+DESCRIPTION:A guided cheese-and-wine tour of Europe without leaving Bleecke
+ 
+r Street. Tickets & info: https://www.eventbrite.com/e/tour-of-europe-chees
+ 
+e-wine-tasting-tickets-1998260574169
+URL:https://www.eventbrite.com/e/tour-of-europe-cheese-wine-tasting-tickets
+ 
+-1998260574169
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-20@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T080000
+DTEND;TZID=America/New_York:20261128T100000
+SUMMARY:Ice Skating
+LOCATION:Bryant Park\, Midtown-Times Square
+DESCRIPTION:Free ice skating in the middle of the Winter Village — the ci
+ 
+ty's most cheerful rink. Tickets & info: https://bryantpark.org/calendar/ev
+ 
+ent/copy-ice-skating-rink-at-bryant-park-late-closing/2026-11-28
+URL:https://bryantpark.org/calendar/event/copy-ice-skating-rink-at-bryant-p
+ 
+ark-late-closing/2026-11-28
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-21@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T100000
+DTEND;TZID=America/New_York:20261128T120000
+SUMMARY:Gratitude Weekend
+LOCATION:Wave Hill\, Riverdale-Spuyten Duyvil
+DESCRIPTION:Wave Hill's Gratitude Weekend: gardens\, galleries\, and a slow
+ 
+ Bronx morning\, free. Tickets & info: http://www.nycgovparks.org/events/20
+ 
+26/11/28/gratitude-weekend
+URL:http://www.nycgovparks.org/events/2026/11/28/gratitude-weekend
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-22@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T130000
+DTEND;TZID=America/New_York:20261128T150000
+SUMMARY:Discover Green-Wood Trolley Tour
+LOCATION:Green-Wood Cemetery\, Green-Wood Cemetery
+DESCRIPTION:A trolley ride through Green-Wood's hills\, monuments\, and 500
+ 
+ years of history. Tickets & info: https://www.eventbrite.com/e/discover-gr
+ 
+een-wood-trolley-tour-tickets-1980161830339
+URL:https://www.eventbrite.com/e/discover-green-wood-trolley-tour-tickets-1
+ 
+980161830339
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-23@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T163000
+DTEND;TZID=America/New_York:20261128T183000
+SUMMARY:NYC: Dyker Heights Luxury Holiday Lights Tour & Hot Cocoa
+LOCATION:211 W 43rd St\, Midtown-Times Square
+DESCRIPTION:Dyker Heights' famous holiday lights by tour\, with hot cocoa t
+ 
+o keep you warm. Tickets & info: https://www.eventbrite.com/e/nyc-dyker-hei
+ 
+ghts-luxury-holiday-lights-tour-hot-cocoa-tickets-1981507132173
+URL:https://www.eventbrite.com/e/nyc-dyker-heights-luxury-holiday-lights-to
+ 
+ur-hot-cocoa-tickets-1981507132173
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-24@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T110000
+DTEND;TZID=America/New_York:20261128T130000
+SUMMARY:Wreath Workshop with Sam Lewis
+LOCATION:Old Stone House of Brooklyn\, Park Slope
+DESCRIPTION:Make your own holiday wreath at the Old Stone House in Park Slo
+ 
+pe. Tickets & info: https://www.eventbrite.com/e/wreath-workshop-with-sam-l
+ 
+ewis-tickets-2003551454334
+URL:https://www.eventbrite.com/e/wreath-workshop-with-sam-lewis-tickets-200
+ 
+3551454334
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-25@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T153000
+DTEND;TZID=America/New_York:20261128T173000
+SUMMARY:Friendsgiving Cocktail Class at Tipsy Scoop
+LOCATION:tipsy scoop\, Astoria (North)-Ditmars-Steinway
+DESCRIPTION:A Friendsgiving cocktail class with boozy ice cream in Astoria.
+ 
+ Tickets & info: https://www.eventbrite.com/e/friendsgiving-cocktail-class-
+ 
+at-tipsy-scoop-tickets-2001697283459
+URL:https://www.eventbrite.com/e/friendsgiving-cocktail-class-at-tipsy-scoo
+ 
+p-tickets-2001697283459
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-26@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T140000
+DTEND;TZID=America/New_York:20261128T160000
+SUMMARY:NYC Desi Creative Meet-up
+LOCATION:Manhattan\, Upper West Side (Central)
+DESCRIPTION:NYC's Desi creatives gather for an afternoon meet-up in Manhatt
+ 
+an. Tickets & info: https://luma.com/7xe27x99
+URL:https://luma.com/7xe27x99
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-27@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T190000
+DTEND;TZID=America/New_York:20261128T210000
+SUMMARY:Garbage Day - Worst Things On The Internet 2026
+LOCATION:Caveat\, Lower East Side
+DESCRIPTION:Garbage Day live: the internet's worst of 2026\, ranked and roa
+ 
+sted at Caveat. Tickets & info: https://www.eventbrite.com/e/garbage-day-wo
+ 
+rst-things-on-the-internet-2026-tickets-2004130249526
+URL:https://www.eventbrite.com/e/garbage-day-worst-things-on-the-internet-2
+ 
+026-tickets-2004130249526
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-28@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T190000
+DTEND;TZID=America/New_York:20261128T210000
+SUMMARY:New York Rangers vs. Calgary Flames
+LOCATION:Madison Square Garden\, Midtown South-Flatiron-Union Square
+DESCRIPTION:The Rangers host Calgary at the Garden on a Saturday night. Tic
+ 
+kets & info: https://www.ticketmaster.com/new-york-rangers-vs-calgary-flame
+ 
+s-new-york-new-york-11-28-2026/event/3B0064F1B1DD445D
+URL:https://www.ticketmaster.com/new-york-rangers-vs-calgary-flames-new-yor
+ 
+k-new-york-11-28-2026/event/3B0064F1B1DD445D
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-20261128-29@concierge
+DTSTAMP:20261128T134327Z
+DTSTART;TZID=America/New_York:20261128T180000
+DTEND;TZID=America/New_York:20261128T200000
+SUMMARY:Sankofa Salon
+LOCATION:Same Time Tomorrow\, Harlem (South)
+DESCRIPTION:Sankofa Salon: an evening of Black art\, conversation\, and com
+ 
+munity in Harlem. Tickets & info: https://www.eventbrite.com/e/sankofa-salo
+ 
+n-tickets-2004455313802
+URL:https://www.eventbrite.com/e/sankofa-salon-tickets-2004455313802
+END:VEVENT
+END:VCALENDAR
